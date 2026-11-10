@@ -190,7 +190,7 @@ function more(){
   const st={};Object.values(S.crm).forEach(c=>st[c.status]=(st[c.status]||0)+1);
   M.innerHTML=`<div class="card"><b>Pipeline</b><div>${Object.entries(st).map(([k,v])=>`<span class="tag">${k}: ${v}</span>`).join('')||'<span class="mut">nothing logged yet</span>'}</div></div>
   <div class="card"><b>Data</b><div class="mut">${meta.as_of?`${fresh(meta)}. Pulled every 2 hours, 6am to 10pm. ${meta.count} parcels with a signal, ${meta.hot} with a distress signal beyond absentee.`:esc(meta.error||'no data')}</div>
-  <div class="mut">Sources: ${MK.sources}. Refreshed nightly by GitHub Actions.</div></div>
+  <div class="mut">Sources: ${MK.sources}. Refreshed every 2 hours, 6am to 10pm Central, by GitHub Actions.</div></div>
   <div class="card"><b>Your notes live on this phone</b><div class="mut">Notes are kept per market (${MK.name} now). Tap Backup to save a JSON file to iCloud now and then. Restore here.</div><button class="b alt" onclick="$('#imp').click()">Restore backup</button></div>
   <div class="card"><a href="docs/call-script.md">Call script</a> · <a href="docs/contracts/purchase-agreement-${MK.contracts}.md">Purchase agreement draft</a> · <a href="docs/contracts/assignment-${MK.contracts}.md">Assignment draft</a> · <a href="docs/sources${mk==='stl'?'-stl':''}.md">Data sources and law notes</a></div>`}
 function exportState(){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([localStorage[MK.key]||'{}'],{type:'application/json'}));a.download=`${MK.key}-${today()}.json`;a.click()}

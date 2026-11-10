@@ -4,7 +4,7 @@ Off-market deal finder for Sioux Falls, SD and St. Louis, MO (city and county). 
 
 Sioux Falls signals: absentee owner (city parcel layer), sheriff mortgage foreclosures (Minnehaha, Lincoln), code enforcement citations (city), delinquent property taxes (Minnehaha, December list).
 
-St. Louis signals: absentee owner (city mailing address, county TENURE flag), city tax balance, city vacant building registry (year listed, open violations, unpaid fees), city building division inspections (condemnations, notices to secure, violation letters, accumulated nightly), sheriff land tax sale list when posted, county 2022 vacancy survey, county tax sale leftovers (post third sale and trustee parcels, official ArcGIS layer), trustee foreclosure sales from SouthLaw's public Missouri sale report, and city pre-foreclosures from the Recorder of Deeds index (successor trustee appointments and notices of sale, recorded weeks before the newspaper notice).
+St. Louis signals: absentee owner (city mailing address, county TENURE flag), city tax balance, city vacant building registry (year listed, open violations, unpaid fees), city building division inspections (condemnations, notices to secure, violation letters, accumulated each run), sheriff land tax sale list when posted, county 2022 vacancy survey, county tax sale leftovers (post third sale and trustee parcels, official ArcGIS layer), trustee foreclosure sales from SouthLaw's public Missouri sale report, and city pre-foreclosures from the Recorder of Deeds index (successor trustee appointments and notices of sale, recorded weeks before the newspaper notice).
 
 ## Run
     pip install -r requirements.txt
@@ -13,7 +13,7 @@ St. Louis signals: absentee owner (city mailing address, county TENURE flag), ci
     python -m sfdeals.run stl all    # or: stl city_parcels county_parcels inspections vacant landtax county_vacant score
     python -m pytest tests
 
-Data lands in `data/sf/` and `data/stl/` (committed by the nightly workflow, parcel dumps excluded). Open `index.html` over any static host (Vercel) to use the CRM. Call notes stay in the phone's browser; use Backup in the app.
+Data lands in `data/sf/` and `data/stl/` (committed by the heartbeat workflow, every 2 hours 6am to 10pm Central, parcel dumps excluded). Open `index.html` over any static host (Vercel) to use the CRM. Call notes stay in the phone's browser; use Backup in the app.
 
 ## Law
 Assigning your own purchase contract is not brokerage in SD (SDCL 36-21A-6, 36-21A-29) or MO (RSMo 339.010). Do not use option agreements in SD. Get the drafts in `docs/contracts/` reviewed by a local attorney before the first signature. Details in `docs/sources.md`, `docs/sources-stl.md` and `docs/contracts/README.md`.
