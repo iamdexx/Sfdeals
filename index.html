@@ -225,7 +225,11 @@ function buyersView(){
 function addBuyer(){const n=$('#bn').value.trim();if(!n)return;S.buyers.push({n,p:$('#bp').value,w:$('#bw').value});save();buyersView()}
 function more(){
   const st={};Object.values(S.crm).forEach(c=>st[c.status]=(st[c.status]||0)+1);
-  M.innerHTML=`<div class="card"><b>Pipeline</b><div>${Object.entries(st).map(([k,v])=>`<span class="tag">${k}: ${v}</span>`).join('')||'<span class="mut">nothing logged yet</span>'}</div></div>
+  const wk=new Date(Date.now()-7*864e5).toISOString().slice(0,10),cs=Object.values(S.crm),n=f=>cs.filter(f).length,
+    callsWk=cs.reduce((a,c)=>a+(c.log||[]).filter(x=>x.d>=wk).length,0),callsAll=cs.reduce((a,c)=>a+(c.log||[]).length,0),
+    kpi=[['Calls this week',callsWk],['Calls total',callsAll],['Talking',n(c=>c.status==='talking')],['Offers out',n(c=>c.status==='offer')],['Contracts',n(c=>c.status==='contract')],['Closed',n(c=>c.status==='closed')]];
+  M.innerHTML=`<div class="card"><b>Your numbers</b><div class="mut">Wholesaling is a numbers game: about 100 calls to 10 real conversations to 3 offers to 1 contract.</div><table class="calc" style="width:100%;margin-top:6px">${kpi.map(([k,v])=>`<tr><td class="mut">${k}</td><td style="text-align:right;font-weight:700">${v}</td></tr>`).join('')}</table></div>
+  <div class="card"><b>Pipeline</b><div>${Object.entries(st).map(([k,v])=>`<span class="tag">${k}: ${v}</span>`).join('')||'<span class="mut">nothing logged yet</span>'}</div></div>
   <div class="card"><b>Data</b><div class="mut">${meta.as_of?`${fresh(meta)}. Pulled every 2 hours, 6am to 10pm. ${meta.hot.toLocaleString()} hot leads${meta.city!=null?` (${meta.city.toLocaleString()} city, ${meta.county.toLocaleString()} county)`:''}, ${meta.absentee_only.toLocaleString()} more absentee only, ${meta.count.toLocaleString()} parcels with any signal.`:esc(meta.error||'no data')}</div>
   <details><summary class="mut">Sources</summary><div class="mut">${MK.sources}. Refreshed every 2 hours, 6am to 10pm Central, by GitHub Actions.</div></details></div>
   <div class="card"><b>Your notes live on this phone</b><div class="mut">Notes are kept per market (${MK.name} now). Tap Backup to save a JSON file to iCloud now and then. Restore here.</div><button class="b alt" onclick="exportState()">Backup</button><button class="b alt" onclick="$('#imp').click()">Restore backup</button></div>
