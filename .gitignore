@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 data/*/*parcels*.json.gz
 data/*/signals.json*
+site/

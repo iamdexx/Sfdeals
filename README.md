@@ -25,3 +25,7 @@ naming the county's ArcGIS parcel layer (field map, residential + absentee `wher
 keyed by parcel number (tax liens, tax sale, code cases, vacancy). Then add the market block in `index.html`.
 `python -m sfdeals.run <key> all` pulls signals, parcels (absentee filter plus every parcel with a signal) and scores.
 Phoenix (`phx`, Maricopa County: assessor parcels, delinquent tax and state held lien lists) and Tampa (`tpa`, Hillsborough County: appraiser parcels with homestead, condition and deed type signals) are the first config-driven metros. Signals can come from separate layers (`signals`) or from fields on the parcel record (`derived`).
+
+## Public site (SEO)
+
+`python -m sfdeals.site <site-url>` writes a static marketing site into `site/` (gitignored): home, metros index, one page per metro and per signal with live counts and a sitemap. The heartbeat `site` job rebuilds it after every pull and deploys to Cloudflare Pages (`deals-site`) when the `CLOUDFLARE_API_TOKEN` repo secret exists.
