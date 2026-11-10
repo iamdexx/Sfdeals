@@ -158,7 +158,8 @@ def run():
         if score <= 0:
             continue
         mkt = market_value(p)
-        cheap = mkt and mkt < MIN_MARKET and not (s and (s.get("trustee") or s.get("recorder")))
+        cheap = (mkt and mkt < MIN_MARKET and not (s and (s.get("trustee") or s.get("recorder") or s.get("taxsale") or s.get("landtax")))
+                 and not (p.get("tax_bal") or 0) >= 5000)
         ph = phones.get(p["tag"])
         leads.append({**p, "mkt": mkt, "score": score, "why": why, "signals": signals, "as_of": today, "hot": bool(strong and not cheap),
                       **({"phones": ph["phones"], "emails": ph.get("emails", []), "contact": ph.get("name", "")} if ph and ph.get("hit") else {})})

@@ -1,8 +1,8 @@
 {
  "as_of": "2026-11-10",
- "updated": "2026-11-10T19:59:06Z",
- "count": 128181,
- "hot": 1932,
+ "updated": "2026-11-10T20:04:23Z",
+ "count": 128182,
+ "hot": 2071,
  "leads": [
   {
    "tag": "56569250000",
@@ -72,6 +72,118 @@
        "BARR JARED",
        "BARR PAMELA"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11F440822",
+   "cid": "11F440822",
+   "addr": "10180 BARON DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "BLUE LATELA",
+   "careof": "",
+   "mail": "2975 NW 98TH ST",
+   "mail_city": "Miami",
+   "mail_state": "FL",
+   "mail_zip": "33147",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 848.0,
+   "year": 1948,
+   "value": 18400.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 18400.0,
+   "score": 90,
+   "why": [
+    "absentee",
+    "out of state",
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11F440822",
+      "addr": "10180 BARON DR",
+      "status": "Send to Inspector",
+      "note": "39x76 and 39x80 doors --- USE CAUTION, I FELL THROUGH THE DAM BASEMENT STAIRS."
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11F440822",
+      "addr": "10180 BARON DR",
+      "zip": "63136",
+      "owner": "GAINES MALEAH",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 30600
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11F441151",
+   "cid": "11F441151",
+   "addr": "10240 EARL DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "AUFDEMBERG JONATHAN O",
+   "careof": "",
+   "mail": "14092 BRENAN WAY",
+   "mail_city": "Santa Ana",
+   "mail_state": "CA",
+   "mail_zip": "92705",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 827.0,
+   "year": 1950,
+   "value": 23600.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 23600.0,
+   "score": 90,
+   "why": [
+    "absentee",
+    "out of state",
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11F441151",
+      "addr": "10240 EARL DR",
+      "status": "Send to Inspector",
+      "note": "tree debris back and tire"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11F441151",
+      "addr": "10240 EARL DR",
+      "zip": "63136",
+      "owner": "AUFDEMBERG JONATHAN O",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 16400
      }
     ]
    },
@@ -190,6 +302,293 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "23309040000",
+   "cid": "23309040000",
+   "handle": "12330000040",
+   "addr": "1820 N 22ND ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 60,
+   "owner": "NORTHSIDE REGENERATION",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2012,
+   "year": 1904,
+   "value": 900.0,
+   "tax_bal": 5100.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 4737,
+   "score": 85,
+   "why": [
+    "absentee",
+    "tax delinquent $5,100",
+    "vacant building since 2018"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5100.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 139,
+      "vmin": 5,
+      "vmaj": 3,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "09789190000",
+   "cid": "09789190000",
+   "handle": "10978000190",
+   "addr": "2707 STODDARD ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2957,
+   "year": 1898,
+   "value": 1080.0,
+   "tax_bal": 6800.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 35000.0,
+   "sale_date": "1998-09-01",
+   "mkt": 5684,
+   "score": 85,
+   "why": [
+    "absentee",
+    "tax delinquent $6,800",
+    "vacant building since 2018",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6800.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 136,
+      "vmin": 8,
+      "vmaj": 5,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-10-27",
+      "type": "Violation Letter",
+      "action": "Address; Cornice/Fascia; Door; Dormer; Gutters/Downspout; Open Storage; Retaining Wall; Roof; Walls; Windows"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "18449081000",
+   "cid": "18449081000",
+   "handle": "11844000081",
+   "addr": "2712 HOWARD ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC & CHIEF MANAGER",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63368",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 1976,
+   "year": 1895,
+   "value": 930.0,
+   "tax_bal": 5100.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 4895,
+   "score": 85,
+   "why": [
+    "absentee",
+    "tax delinquent $5,100",
+    "vacant building since 2018",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5100.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 3,
+      "vmaj": 7,
+      "csb": 0,
+      "unpd": 2000.0,
+      "year": 2018
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-10-19",
+      "type": "Violation Letter",
+      "action": "Address; Gutters/Downspout; Porch; Windows"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23529330000",
+   "cid": "23529330000",
+   "handle": "12352000330",
+   "addr": "2743 HOWARD ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63368",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2048,
+   "year": 1882,
+   "value": 1570.0,
+   "tax_bal": 5802.38,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 8263,
+   "score": 85,
+   "why": [
+    "absentee",
+    "tax delinquent $5,802",
+    "vacant building since 2018",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5802.38,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 7,
+      "vmaj": 3,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-10-21",
+      "type": "Violation Letter",
+      "action": "Address; Cornice/Fascia; Gutters/Downspout; Parapet; Porch; Roof; Walls"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "10979230000",
+   "cid": "10979230000",
+   "handle": "11097000230",
+   "addr": "3015 RAUSCHENBACH AVE",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 60,
+   "owner": "HAMILTON, GLORIA & C/O SHARON HAMILTON",
+   "mail": "1640 N 18TH ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63106",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2326,
+   "year": 1895,
+   "value": 1460.0,
+   "tax_bal": 9397.52,
+   "vac_year": 2018,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 7684,
+   "score": 85,
+   "why": [
+    "absentee",
+    "tax delinquent $9,397",
+    "vacant building since 2018"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 9397.52,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 2,
+      "vmaj": 10,
+      "csb": 0,
+      "unpd": 9450.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "15339130000",
    "cid": "15339130000",
    "handle": "11533000130",
@@ -242,6 +641,117 @@
       "date": "2026-10-16",
       "type": "Structural Condemnation",
       "action": "Condemnation"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "28239020000",
+   "cid": "28239020000",
+   "handle": "12823000020",
+   "addr": "5305 MICHIGAN AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "WOODS REALTY LLC",
+   "mail": "5007 S BROADWAY ST 1ST FL",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": null,
+   "landuse": 1140,
+   "units": 4,
+   "sqft": 4847,
+   "year": 1926,
+   "value": 3410.0,
+   "tax_bal": 13396.16,
+   "vac_year": 2018,
+   "lender": "",
+   "sale_price": 48600.0,
+   "sale_date": "1988-03-09",
+   "mkt": 17947,
+   "score": 85,
+   "why": [
+    "absentee",
+    "tax delinquent $13,396",
+    "vacant building since 2018",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 13396.16,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 110,
+      "vmin": 0,
+      "vmaj": 6,
+      "csb": 0,
+      "unpd": 4950.0,
+      "year": 2018
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-02",
+      "type": "Violation Letter",
+      "action": "Door; Gutters/Downspout; Open Storage; Porch; Roof; Walls; Windows"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "54569380000",
+   "cid": "54569380000",
+   "handle": "15456000380",
+   "addr": "5701 GOODFELLOW BLVD",
+   "zip": "63136",
+   "county": "St. Louis City",
+   "nbhd": 76,
+   "owner": "FRANCIS, CORTEZ",
+   "mail": "2001 W 83RD TER",
+   "mail_city": "Shawnee Missi",
+   "mail_state": "KS",
+   "mail_zip": "66206",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4063,
+   "year": 1914,
+   "value": 2540.0,
+   "tax_bal": 12270.93,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 35000.0,
+   "sale_date": "1983-12-14",
+   "mkt": 13368,
+   "score": 85,
+   "why": [
+    "absentee",
+    "out of state",
+    "tax delinquent $12,270",
+    "1 code violation"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 12270.93,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-10-15",
+      "type": "Violation Letter",
+      "action": "Cornice/Fascia; Door; Gutters/Downspout; Open Storage; Porch; Status Unit; Windows"
      }
     ]
    },
@@ -304,6 +814,58 @@
        "ALABAMA HOUSING FINANCE AUTHORITY",
        "GILBERT PAUL"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "52759060000",
+   "cid": "52759060000",
+   "handle": "15275000060",
+   "addr": "820 CANAAN AVE",
+   "zip": "63147",
+   "county": "St. Louis City",
+   "nbhd": 74,
+   "owner": "GRANT, DEMARION SR & AMBER",
+   "mail": "4829 JACKLIN AVE",
+   "mail_city": "Hazelwood",
+   "mail_state": "MO",
+   "mail_zip": "63042",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4279,
+   "year": 1929,
+   "value": 700.0,
+   "tax_bal": 7691.38,
+   "vac_year": 2018,
+   "lender": "",
+   "sale_price": 40000.0,
+   "sale_date": "2001-02-06",
+   "mkt": 3684,
+   "score": 85,
+   "why": [
+    "absentee",
+    "tax delinquent $7,691",
+    "vacant building since 2018"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 7691.38,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 13,
+      "vmaj": 9,
+      "csb": 0,
+      "unpd": 8100.0,
+      "year": 2018
      }
     ]
    },
@@ -433,6 +995,61 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11F410434",
+   "cid": "11F410434",
+   "addr": "10062 VISCOUNT DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "DECLUE CHRIS ETAL",
+   "careof": "",
+   "mail": "10058 VISCOUNT DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1302.0,
+   "year": 1941,
+   "value": 3100.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 3100.0,
+   "score": 80,
+   "why": [
+    "absentee",
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11F410434",
+      "addr": "10062 VISCOUNT DR",
+      "status": "Send to Inspector",
+      "note": "BURNOUT - APPROX 1/2 STAKE BED OF FURNITURE AND DEBRIS FRONT - DOESNT APPEAR ANYONE HAS DONE ANYTHING SINCE FIRE.\nFRONT "
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11F410434",
+      "addr": "10062 VISCOUNT DR",
+      "zip": "63136",
+      "owner": "DECLUE CHRIS ETAL",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 7400
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11F420792",
    "cid": "11F420792",
    "addr": "10077 DUKE DR",
@@ -482,6 +1099,171 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 47800
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11G520462",
+   "cid": "11G520462",
+   "addr": "10107 MAYFAIR DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "TAYLOR CURTIS",
+   "careof": "",
+   "mail": "6873 FINCH DALE CT",
+   "mail_city": "Florissant",
+   "mail_state": "MO",
+   "mail_zip": "63033",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1040.0,
+   "year": 1945,
+   "value": 2800.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 2800.0,
+   "score": 80,
+   "why": [
+    "absentee",
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11G520462",
+      "addr": "10107 MAYFAIR DR",
+      "status": "Sent to Vacant Monitor",
+      "note": "unsecured, tree debris"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11G520462",
+      "addr": "10107 MAYFAIR DR",
+      "zip": "63136",
+      "owner": "TAYLOR CURTIS",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 9100
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11G520444",
+   "cid": "11G520444",
+   "addr": "10108 MAYFAIR DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "PETTY RON",
+   "careof": "",
+   "mail": "9953 LEWIS & CLARK",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1066.0,
+   "year": 1941,
+   "value": 15900.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 15900.0,
+   "score": 80,
+   "why": [
+    "absentee",
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11G520444",
+      "addr": "10108 MAYFAIR DR",
+      "status": "Sent to Vacant Monitor",
+      "note": "junk, debris need dumpsters fred"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11G520444",
+      "addr": "10108 MAYFAIR DR",
+      "zip": "63136",
+      "owner": "PETTY RON",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 19600
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11F421461",
+   "cid": "11F421461",
+   "addr": "10109 BARON DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "SRI DASMESH L L C",
+   "careof": "",
+   "mail": "2331 CHAMBERS RD",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 720.0,
+   "year": 1935,
+   "value": 22700.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 22700.0,
+   "score": 80,
+   "why": [
+    "absentee",
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11F421461",
+      "addr": "10109 BARON DR",
+      "status": "Send to Inspector",
+      "note": "P/U LD LITTER FRONT AREA"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11F421461",
+      "addr": "10109 BARON DR",
+      "zip": "63136",
+      "owner": "SRI DASMESH L L C",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 15800
      }
     ]
    },
@@ -543,6 +1325,61 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11F440024",
+   "cid": "11F440024",
+   "addr": "10135 LORD DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "GIBB KEITH N",
+   "careof": "",
+   "mail": "PO BOX 744",
+   "mail_city": "Bridgeton",
+   "mail_state": "MO",
+   "mail_zip": "63044",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 676.0,
+   "year": 1952,
+   "value": 21000.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 21000.0,
+   "score": 80,
+   "why": [
+    "absentee",
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11F440024",
+      "addr": "10135 LORD DR",
+      "status": "Send to Inspector",
+      "note": "1/2 STK BED"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11F440024",
+      "addr": "10135 LORD DR",
+      "zip": "63136",
+      "owner": "GIBB KEITH N",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 12500
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11F440529",
    "cid": "11F440529",
    "addr": "10165 LORD DR",
@@ -592,6 +1429,61 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 13900
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11F531315",
+   "cid": "11F531315",
+   "addr": "10301 DUKE DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "FOSTER ALONDA",
+   "careof": "",
+   "mail": "1647 KEELEN DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1410.0,
+   "year": 1954,
+   "value": 11700.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 11700.0,
+   "score": 80,
+   "why": [
+    "absentee",
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11F531315",
+      "addr": "10301 DUKE DR",
+      "status": "Send to Inspector",
+      "note": "overgrowth junk stakebed posted"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11F531315",
+      "addr": "10301 DUKE DR",
+      "zip": "63136",
+      "owner": "GETTER WILLIE L",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 15200
      }
     ]
    },
@@ -757,6 +1649,61 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 34100
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "09E620790",
+   "cid": "09E620790",
+   "addr": "1201 CONGRESS AVE",
+   "zip": "63138",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "CALHOUN DOROTHY",
+   "careof": "",
+   "mail": "7134 DAWSON PL",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 864.0,
+   "year": 1959,
+   "value": 21000.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 21000.0,
+   "score": 80,
+   "why": [
+    "absentee",
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "09E620790",
+      "addr": "1201 CONGRESS AVE",
+      "status": "Send to Inspector",
+      "note": "pickup load garbage back"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "09E620790",
+      "addr": "1201 CONGRESS AVE",
+      "zip": "63138",
+      "owner": "CALHOUN DOROTHY",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 22600
      }
     ]
    },
@@ -2116,6 +3063,100 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11G510113",
+   "cid": "11G510113",
+   "addr": "10053 CLAIRMONT DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "CAWLEY JEFFREY",
+   "careof": "",
+   "mail": "1109 WYLIE THOMPSON CV",
+   "mail_city": "Fort Worth",
+   "mail_state": "TX",
+   "mail_zip": "76179",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 731.0,
+   "year": 1935,
+   "value": 8100.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 8100.0,
+   "score": 75,
+   "why": [
+    "absentee",
+    "out of state",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11G510113",
+      "addr": "10053 CLAIRMONT DR",
+      "zip": "63136",
+      "owner": "CAWLEY JEFFREY & CHARRISSA H/W",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 14100
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11F421294",
+   "cid": "11F421294",
+   "addr": "10103 BARON DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "PARRIS CHRISTOPHER",
+   "careof": "",
+   "mail": "PO BOX 533",
+   "mail_city": "Farmingdale",
+   "mail_state": "NY",
+   "mail_zip": "11735",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1310.0,
+   "year": 1949,
+   "value": 10200.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 10200.0,
+   "score": 75,
+   "why": [
+    "absentee",
+    "out of state",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11F421294",
+      "addr": "10103 BARON DR",
+      "zip": "63136",
+      "owner": "PARRIS CHRISTOPHER",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 13900
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11F421782",
    "cid": "11F421782",
    "addr": "10129 EARL DR",
@@ -2220,6 +3261,110 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11G540510",
+   "cid": "11G540510",
+   "addr": "10192 MAYFAIR DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "DAVIS TRINA",
+   "careof": "",
+   "mail": "4056 FOREST HILL BLVD",
+   "mail_city": "Palm Springs",
+   "mail_state": "FL",
+   "mail_zip": "33406",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1204.0,
+   "year": 1940,
+   "value": 9300.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 9300.0,
+   "score": 75,
+   "why": [
+    "absentee",
+    "out of state",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11G540510",
+      "addr": "10192 MAYFAIR DR",
+      "zip": "63136",
+      "owner": "THOMAS DAVID & SHONNA H/W",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 15300
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11F440565",
+   "cid": "11F440565",
+   "addr": "10212 EARL DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "DT5 REAL ESTATE HOLDINGS LLC ETAL",
+   "careof": "",
+   "mail": "1644 ST ANDREWS DR",
+   "mail_city": "South Jordan",
+   "mail_state": "UT",
+   "mail_zip": "84095",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 847.0,
+   "year": 1954,
+   "value": 18100.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 18100.0,
+   "score": 75,
+   "why": [
+    "absentee",
+    "out of state",
+    "vacant (county survey)",
+    "county tax sale (post third)",
+    "investor owned"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11F440565",
+      "addr": "10212 EARL DR",
+      "status": "OPEN",
+      "note": "overgrown lot"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11F440565",
+      "addr": "10212 EARL DR",
+      "zip": "63136",
+      "owner": "DT5 REAL ESTATE HOLDINGS LLC ETAL",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 15200
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11F531580",
    "cid": "11F531580",
    "addr": "10312 DUKE DR",
@@ -2318,6 +3463,53 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 25700
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "13F130813",
+   "cid": "13F130813",
+   "addr": "2025 HORD AVE",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Jennings",
+   "owner": "COMBS BRADLEY T",
+   "careof": "",
+   "mail": "3020 PALMDALE ST",
+   "mail_city": "Las Vegas",
+   "mail_state": "NV",
+   "mail_zip": "89121",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1400.0,
+   "year": 1953,
+   "value": 18600.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 18600.0,
+   "score": 75,
+   "why": [
+    "absentee",
+    "out of state",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "13F130813",
+      "addr": "2025 HORD AVE",
+      "zip": "63136",
+      "owner": "COMBS BRADLEY T",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Jennings",
+      "value": 7200
      }
     ]
    },
@@ -2947,6 +4139,53 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "14G611604",
+   "cid": "14G611604",
+   "addr": "5624 HELEN AVE",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Jennings",
+   "owner": "BRANDT AMANDA",
+   "careof": "",
+   "mail": "7110 E CONTINENTAL DR",
+   "mail_city": "Scottsdale",
+   "mail_state": "AZ",
+   "mail_zip": "85257",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 568.0,
+   "year": 1925,
+   "value": 12000.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 12000.0,
+   "score": 75,
+   "why": [
+    "absentee",
+    "out of state",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "14G611604",
+      "addr": "5624 HELEN AVE",
+      "zip": "63136",
+      "owner": "ALFIO HOMES LLC",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Jennings",
+      "value": 26500
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "57839070000",
    "cid": "57839070000",
    "handle": "15783000070",
@@ -3102,6 +4341,53 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "12G640215",
+   "cid": "12G640215",
+   "addr": "9723 NOLTE AVE",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "FREEMAN DARRIEN &  PAYNE ELIZA T/E",
+   "careof": "",
+   "mail": "812 SW CORBIN CIR",
+   "mail_city": "Palm Bay",
+   "mail_state": "FL",
+   "mail_zip": "32908",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 816.0,
+   "year": 1946,
+   "value": 10000.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 10000.0,
+   "score": 75,
+   "why": [
+    "absentee",
+    "out of state",
+    "county tax sale (trustee)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "12G640215",
+      "addr": "9723 NOLTE AVE",
+      "zip": "63136",
+      "owner": "ST LOUIS COUNTY TRUSTEE",
+      "status": "Trustee",
+      "structure": "Building",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 14200
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "54329250000",
    "cid": "54329250000",
    "handle": "15432000250",
@@ -3210,6 +4496,112 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "03649170000",
+   "cid": "03649170000",
+   "handle": "10364000170",
+   "addr": "1119 TYLER ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 63,
+   "owner": "NORTHSIDE REGENERATION LLC & CHIEF MANAGER",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63368",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4256,
+   "year": 1903,
+   "value": 2010.0,
+   "tax_bal": 6550.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 8950.0,
+   "sale_date": "1985-04-25",
+   "mkt": 10579,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $6,550",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6550.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 93,
+      "vmin": 1,
+      "vmaj": 4,
+      "csb": 0,
+      "unpd": 3850.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "03659035000",
+   "cid": "03659035000",
+   "handle": "10365000035",
+   "addr": "1124 TYLER ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 63,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "Ofallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 1417,
+   "year": 1901,
+   "value": 1000.0,
+   "tax_bal": 5400.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 5700.0,
+   "sale_date": "1984-12-03",
+   "mkt": 5263,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,400",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5400.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 4,
+      "vmaj": 3,
+      "csb": 0,
+      "unpd": 3850.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "08279805017",
    "cid": "08279805017",
    "handle": "10827008805",
@@ -3266,6 +4658,2073 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "23539010000",
+   "cid": "23539010000",
+   "handle": "12353000010",
+   "addr": "1712 N LEFFINGWELL AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2466,
+   "year": 1885,
+   "value": 970.0,
+   "tax_bal": 5042.37,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 5105,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,042",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5042.37,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 7,
+      "vmaj": 5,
+      "csb": 0,
+      "unpd": 1100.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23539020000",
+   "cid": "23539020000",
+   "handle": "12353000020",
+   "addr": "1714 N LEFFINGWELL AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRING PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2684,
+   "year": 1900,
+   "value": 1240.0,
+   "tax_bal": 8700.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 14000.0,
+   "sale_date": "1981-10-13",
+   "mkt": 6526,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $8,700",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 8700.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 138,
+      "vmin": 7,
+      "vmaj": 8,
+      "csb": 0,
+      "unpd": 900.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "18489060000",
+   "cid": "18489060000",
+   "handle": "11848000060",
+   "addr": "1717 N LEFFINGWELL AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63368",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2945,
+   "year": 1903,
+   "value": 1320.0,
+   "tax_bal": 6350.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 6947,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $6,350",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6350.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 6,
+      "vmaj": 5,
+      "csb": 0,
+      "unpd": 900.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23539040000",
+   "cid": "23539040000",
+   "handle": "12353000040",
+   "addr": "1722 N LEFFINGWELL AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4064,
+   "year": 1904,
+   "value": 1050.0,
+   "tax_bal": 6004.01,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 5526,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $6,004",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6004.01,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 140,
+      "vmin": 4,
+      "vmaj": 5,
+      "csb": 0,
+      "unpd": 900.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23489100000",
+   "cid": "23489100000",
+   "handle": "12348000100",
+   "addr": "1800 ELLIOTT AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3626,
+   "year": 1883,
+   "value": 1250.0,
+   "tax_bal": 5353.98,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 6579,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,353",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5353.98,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 139,
+      "vmin": 3,
+      "vmaj": 4,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23489110000",
+   "cid": "23489110000",
+   "handle": "12348000110",
+   "addr": "1802 ELLIOTT AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3626,
+   "year": 1892,
+   "value": 1250.0,
+   "tax_bal": 5703.98,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 6579,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,703",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5703.98,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 4,
+      "vmaj": 7,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23549030000",
+   "cid": "23549030000",
+   "handle": "12354000030",
+   "addr": "1819 ELLIOTT AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63368",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2083,
+   "year": 1888,
+   "value": 910.0,
+   "tax_bal": 6550.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 4789,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $6,550",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6550.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 4,
+      "vmaj": 11,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "18889030000",
+   "cid": "18889030000",
+   "handle": "11888000030",
+   "addr": "1822 LAFLIN ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4569,
+   "year": 1956,
+   "value": 430.0,
+   "tax_bal": 7250.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 2263,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $7,250",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 7250.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 136,
+      "vmin": 5,
+      "vmaj": 4,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23309110000",
+   "cid": "23309110000",
+   "handle": "12330000110",
+   "addr": "1834 N 22ND ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 60,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2012,
+   "year": 1896,
+   "value": 1400.0,
+   "tax_bal": 5400.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 7368,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,400",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5400.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 140,
+      "vmin": 5,
+      "vmaj": 4,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23319110000",
+   "cid": "23319110000",
+   "handle": "12331000110",
+   "addr": "2004 N MARKET ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 60,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63368",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3043,
+   "year": 1898,
+   "value": 1630.0,
+   "tax_bal": 6350.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 8579,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $6,350",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6350.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 136,
+      "vmin": 5,
+      "vmaj": 8,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23309300000",
+   "cid": "23309300000",
+   "handle": "12330000300",
+   "addr": "2123 MADISON ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 60,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRING PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2161,
+   "year": 1890,
+   "value": 1280.0,
+   "tax_bal": 5703.98,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 6737,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,703",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5703.98,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 134,
+      "vmin": 4,
+      "vmaj": 5,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "10909070000",
+   "cid": "10909070000",
+   "handle": "11090050150",
+   "addr": "2209 DODIER ST",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 60,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1140,
+   "units": 4,
+   "sqft": 4088,
+   "year": 1887,
+   "value": 2190.0,
+   "tax_bal": 5700.78,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 11526,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,700",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5700.78,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 136,
+      "vmin": 7,
+      "vmaj": 4,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23799195000",
+   "cid": "23799195000",
+   "handle": "12379000195",
+   "addr": "2337 HEBERT ST",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 60,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3705,
+   "year": 1926,
+   "value": 1090.0,
+   "tax_bal": 9000.86,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 5737,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $9,000",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 9000.86,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 8,
+      "vmaj": 10,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "10859030000",
+   "cid": "10859030000",
+   "handle": "11085000030",
+   "addr": "2338 ST LOUIS AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 60,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRING PL ST 200",
+   "mail_city": "O Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4360,
+   "year": 1909,
+   "value": 3180.0,
+   "tax_bal": 6251.62,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 16737,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $6,251",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6251.62,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 5,
+      "vmaj": 6,
+      "csb": 0,
+      "unpd": 4300.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "18919430000",
+   "cid": "18919430000",
+   "handle": "11891000430",
+   "addr": "2411 COLEMAN ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2986,
+   "year": 1888,
+   "value": 1510.0,
+   "tax_bal": 6300.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 25000.0,
+   "sale_date": "2005-08-30",
+   "mkt": 7947,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $6,300",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6300.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 134,
+      "vmin": 3,
+      "vmaj": 7,
+      "csb": 0,
+      "unpd": 3150.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "18909460000",
+   "cid": "18909460000",
+   "handle": "11890000460",
+   "addr": "2415 LAFLIN ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRING PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3000,
+   "year": 1927,
+   "value": 1130.0,
+   "tax_bal": 7350.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 5947,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $7,350",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 7350.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 131,
+      "vmin": 6,
+      "vmaj": 10,
+      "csb": 0,
+      "unpd": 3800.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "18909140000",
+   "cid": "18909140000",
+   "handle": "11890000140",
+   "addr": "2510 COLEMAN ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRING PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3021,
+   "year": 1892,
+   "value": 1110.0,
+   "tax_bal": 7200.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 6500.0,
+   "sale_date": "1977-05-26",
+   "mkt": 5842,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $7,200",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 7200.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 131,
+      "vmin": 6,
+      "vmaj": 8,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "10719300000",
+   "cid": "10719300000",
+   "handle": "11071000300",
+   "addr": "2565 W DODIER ST",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 60,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2700,
+   "year": 1971,
+   "value": 780.0,
+   "tax_bal": 5651.62,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 4105,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,651",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5651.62,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 3,
+      "vmaj": 4,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23599295000",
+   "cid": "23599295000",
+   "handle": "12359000295",
+   "addr": "2611 GLASGOW AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC & ATTN: CHIEF MANAGER",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63368",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2148,
+   "year": 1893,
+   "value": 1010.0,
+   "tax_bal": 5400.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 5316,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,400",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5400.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 8,
+      "vmaj": 2,
+      "csb": 0,
+      "unpd": 2700.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23509150000",
+   "cid": "23509150000",
+   "handle": "12350000150",
+   "addr": "2611 HOWARD ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63368",
+   "occ": null,
+   "landuse": 1140,
+   "units": 4,
+   "sqft": 4200,
+   "year": 1886,
+   "value": 2550.0,
+   "tax_bal": 5300.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 13421,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,300",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5300.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 4,
+      "vmaj": 6,
+      "csb": 0,
+      "unpd": 2000.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23509161000",
+   "cid": "23509161000",
+   "handle": "12350000161",
+   "addr": "2615 HOWARD ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 7000,
+   "year": 1892,
+   "value": 1380.0,
+   "tax_bal": 6551.59,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 7263,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $6,551",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6551.59,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 138,
+      "vmin": 8,
+      "vmaj": 10,
+      "csb": 0,
+      "unpd": 2000.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23519080000",
+   "cid": "23519080000",
+   "handle": "12351000080",
+   "addr": "2628 HOWARD ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1140,
+   "units": 4,
+   "sqft": 3500,
+   "year": 1884,
+   "value": 1800.0,
+   "tax_bal": 8300.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 9474,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $8,300",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 8300.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 138,
+      "vmin": 9,
+      "vmaj": 9,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "09759260000",
+   "cid": "09759260000",
+   "handle": "10975000260",
+   "addr": "2709 JAMES COOL PAPA BELL AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2970,
+   "year": 1886,
+   "value": 2920.0,
+   "tax_bal": 5650.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 15368,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,650",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5650.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 136,
+      "vmin": 5,
+      "vmaj": 6,
+      "csb": 0,
+      "unpd": 3150.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "18449180000",
+   "cid": "18449180000",
+   "handle": "11844000180",
+   "addr": "2711 CASS AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2514,
+   "year": 1884,
+   "value": 1140.0,
+   "tax_bal": 8150.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 9000.0,
+   "sale_date": "1997-10-23",
+   "mkt": 6000,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $8,150",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 8150.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 8,
+      "vmaj": 5,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23709050000",
+   "cid": "23709050000",
+   "handle": "12370020080",
+   "addr": "2711 DODIER ST",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3000,
+   "year": 1903,
+   "value": 1360.0,
+   "tax_bal": 5553.17,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 35000.0,
+   "sale_date": "2006-01-25",
+   "mkt": 7158,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,553",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5553.17,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 135,
+      "vmin": 3,
+      "vmaj": 4,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "18449080000",
+   "cid": "18449080000",
+   "handle": "11844000080",
+   "addr": "2714 HOWARD ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRING PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2214,
+   "year": 1895,
+   "value": 970.0,
+   "tax_bal": 5302.37,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 5105,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,302",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5302.37,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 80,
+      "vmin": 4,
+      "vmaj": 4,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23529220000",
+   "cid": "23529220000",
+   "handle": "12352000220",
+   "addr": "2715 HOWARD ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2347,
+   "year": 1883,
+   "value": 1140.0,
+   "tax_bal": 7950.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 6000,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $7,950",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 7950.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 138,
+      "vmin": 0,
+      "vmaj": 7,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "09769080000",
+   "cid": "09769080000",
+   "handle": "10976000080",
+   "addr": "2716 JAMES COOL PAPA BELL AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2960,
+   "year": 1890,
+   "value": 1790.0,
+   "tax_bal": 5916.68,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 9421,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,916",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5916.68,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 4,
+      "vmaj": 6,
+      "csb": 0,
+      "unpd": 4500.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23539220000",
+   "cid": "23539220000",
+   "handle": "12353000220",
+   "addr": "2717 MADISON ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3019,
+   "year": 1895,
+   "value": 1320.0,
+   "tax_bal": 5850.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 6947,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,850",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5850.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 83,
+      "vmin": 4,
+      "vmaj": 5,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "09799110000",
+   "cid": "09799110000",
+   "handle": "10979000110",
+   "addr": "2718 STODDARD ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63369",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2953,
+   "year": 1884,
+   "value": 2810.0,
+   "tax_bal": 5150.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 14789,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,150",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5150.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 0,
+      "vmaj": 0,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23539230000",
+   "cid": "23539230000",
+   "handle": "12353000230",
+   "addr": "2719 MADISON ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3018,
+   "year": 1879,
+   "value": 320.0,
+   "tax_bal": 5100.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 1684,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,100",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5100.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 140,
+      "vmin": 7,
+      "vmaj": 5,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23719150000",
+   "cid": "23719150000",
+   "handle": "12371000150",
+   "addr": "2721 GREER AVE",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2957,
+   "year": 1911,
+   "value": 900.0,
+   "tax_bal": 7000.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 4737,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $7,000",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 7000.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 139,
+      "vmin": 6,
+      "vmaj": 3,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "09759310000",
+   "cid": "09759310000",
+   "handle": "10975000310",
+   "addr": "2723 JAMES COOL PAPA BELL AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2230,
+   "year": 1888,
+   "value": 650.0,
+   "tax_bal": 5701.57,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 14800.0,
+   "sale_date": "1988-07-22",
+   "mkt": 3421,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,701",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5701.57,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 136,
+      "vmin": 5,
+      "vmaj": 6,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "09759330000",
+   "cid": "09759330000",
+   "handle": "10975000330",
+   "addr": "2727 JAMES COOL PAPA BELL AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon   Mo",
+   "mail_state": "",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2974,
+   "year": 1888,
+   "value": 2040.0,
+   "tax_bal": 8000.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 10737,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $8,000",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 8000.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 7,
+      "vmaj": 3,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23529050000",
+   "cid": "23529050000",
+   "handle": "12352000050",
+   "addr": "2728 MADISON ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "BENNETT, MAXINE & C/O NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63368",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3515,
+   "year": 1882,
+   "value": 920.0,
+   "tax_bal": 6650.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 4842,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $6,650",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6650.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 110,
+      "vmin": 2,
+      "vmaj": 10,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23529280000",
+   "cid": "23529280000",
+   "handle": "12352000280",
+   "addr": "2729 HOWARD ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3515,
+   "year": 1884,
+   "value": 750.0,
+   "tax_bal": 5303.93,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 3947,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,303",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5303.93,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 139,
+      "vmin": 8,
+      "vmaj": 5,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "19069140000",
+   "cid": "19069140000",
+   "handle": "11906000140",
+   "addr": "2749 N GARRISON AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 6001,
+   "year": 1888,
+   "value": 1760.0,
+   "tax_bal": 5403.2,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 9263,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,403",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5403.2,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 5,
+      "vmaj": 7,
+      "csb": 0,
+      "unpd": 3400.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "19049040000",
+   "cid": "19049040000",
+   "handle": "11904000040",
+   "addr": "2808 DODIER ST",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "Ofallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3009,
+   "year": 1903,
+   "value": 610.0,
+   "tax_bal": 5900.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 3211,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,900",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5900.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 5,
+      "vmaj": 7,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "18479120000",
+   "cid": "18479120000",
+   "handle": "11847000120",
+   "addr": "2809 HOWARD ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3743,
+   "year": 1889,
+   "value": 1110.0,
+   "tax_bal": 6728.69,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 5842,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $6,728",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6728.69,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 5,
+      "vmaj": 5,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "14219220000",
    "cid": "14219220000",
    "handle": "11421000220",
@@ -3314,6 +6773,271 @@
        "DARDEN RONALD T",
        "CARRINGTON MORTGAGE SERVICES LLC"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "19049140000",
+   "cid": "19049140000",
+   "handle": "11904000140",
+   "addr": "2821 UNIVERSITY ST",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63368",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2982,
+   "year": 1913,
+   "value": 2040.0,
+   "tax_bal": 5250.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 62500.0,
+   "sale_date": "2006-06-13",
+   "mkt": 10737,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,250",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5250.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 4,
+      "vmaj": 4,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "19049160000",
+   "cid": "19049160000",
+   "handle": "11904000160",
+   "addr": "2829 UNIVERSITY ST",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63368",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4275,
+   "year": 1903,
+   "value": 1000.0,
+   "tax_bal": 7700.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 5263,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $7,700",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 7700.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 5,
+      "vmaj": 9,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "10029020000",
+   "cid": "10029020000",
+   "handle": "11002000020",
+   "addr": "2830 THOMAS ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2971,
+   "year": 1885,
+   "value": 1550.0,
+   "tax_bal": 7100.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 8158,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $7,100",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 7100.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 136,
+      "vmin": 7,
+      "vmaj": 7,
+      "csb": 1,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "10009030000",
+   "cid": "10009030000",
+   "handle": "11000000030",
+   "addr": "2832 DAYTON ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2993,
+   "year": 1888,
+   "value": 2500.0,
+   "tax_bal": 9999.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 20000.0,
+   "sale_date": "2001-03-01",
+   "mkt": 13158,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $9,999",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 9999.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 11,
+      "vmaj": 9,
+      "csb": 1,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "10029010000",
+   "cid": "10029010000",
+   "handle": "11002000010",
+   "addr": "2834 THOMAS ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63369",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2971,
+   "year": 1890,
+   "value": 1530.0,
+   "tax_bal": 6894.37,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 8053,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $6,894",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6894.37,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 136,
+      "vmin": 8,
+      "vmaj": 8,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
      }
     ]
    },
@@ -3376,6 +7100,271 @@
        "TRIDENT REALTY INVESTMENTS LLC",
        "MONCLER HOLDINGS LLC"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "10059290000",
+   "cid": "10059290000",
+   "handle": "11005000290",
+   "addr": "2911 JAMES COOL PAPA BELL AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2944,
+   "year": 1890,
+   "value": 1190.0,
+   "tax_bal": 5061.14,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 6263,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $5,061",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5061.14,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 4,
+      "vmaj": 3,
+      "csb": 0,
+      "unpd": 3150.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "52199080000",
+   "cid": "52199080000",
+   "handle": "15219000080",
+   "addr": "2912 HEBERT ST",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "Ofallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 5027,
+   "year": 1914,
+   "value": 1810.0,
+   "tax_bal": 7900.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 9526,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $7,900",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 7900.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 139,
+      "vmin": 6,
+      "vmaj": 4,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23709140000",
+   "cid": "23709140000",
+   "handle": "12370020260",
+   "addr": "2924 GLASGOW AVE",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2500,
+   "year": 1904,
+   "value": 1420.0,
+   "tax_bal": 6530.25,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 7474,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $6,530",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6530.25,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 8,
+      "vmaj": 7,
+      "csb": 0,
+      "unpd": 4050.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23709145000",
+   "cid": "23709145000",
+   "handle": "12370020270",
+   "addr": "2928 GLASGOW AVE",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2500,
+   "year": 1904,
+   "value": 1350.0,
+   "tax_bal": 7000.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 7105,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $7,000",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 7000.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 6,
+      "vmaj": 5,
+      "csb": 0,
+      "unpd": 4500.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23589240000",
+   "cid": "23589240000",
+   "handle": "12358000240",
+   "addr": "2948 MONTGOMERY ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 1976,
+   "year": 1887,
+   "value": 750.0,
+   "tax_bal": 7253.93,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 7500.0,
+   "sale_date": "2005-04-04",
+   "mkt": 3947,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $7,253",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 7253.93,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 5,
+      "vmaj": 7,
+      "csb": 0,
+      "unpd": 3600.0,
+      "year": 2018
      }
     ]
    },
@@ -3942,6 +7931,112 @@
        "TERRY JAMES R",
        "TERRY KATHERINE ANN"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "43909725000",
+   "cid": "43909725000",
+   "handle": "14390310290",
+   "addr": "4235 SHREVE AVE",
+   "zip": "63115",
+   "county": "St. Louis City",
+   "nbhd": 69,
+   "owner": "GREY METRO LLC",
+   "mail": "3412 MAGNOLIA AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4099,
+   "year": 1936,
+   "value": 4100.0,
+   "tax_bal": 8558.02,
+   "vac_year": 2018,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 21579,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $8,558",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 8558.02,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 7,
+      "vmaj": 4,
+      "csb": 0,
+      "unpd": 4250.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "43909720000",
+   "cid": "43909720000",
+   "handle": "14390310280",
+   "addr": "4239 SHREVE AVE",
+   "zip": "63115",
+   "county": "St. Louis City",
+   "nbhd": 69,
+   "owner": "GREY METRO LLC",
+   "mail": "3412 MAGNOLIA AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4250,
+   "year": 1936,
+   "value": 4190.0,
+   "tax_bal": 8518.47,
+   "vac_year": 2018,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 22053,
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $8,518",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 8518.47,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 7,
+      "vmaj": 6,
+      "csb": 0,
+      "unpd": 4700.0,
+      "year": 2018
      }
     ]
    },
@@ -5375,6 +9470,98 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11G240852",
+   "cid": "11G240852",
+   "addr": "10029 IMPERIAL DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "CHERRY DEMOND",
+   "careof": "",
+   "mail": "1327 BELTOWER DR",
+   "mail_city": "Florissant",
+   "mail_state": "MO",
+   "mail_zip": "63033",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 897.0,
+   "year": 1943,
+   "value": 24800.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 24800.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11G240852",
+      "addr": "10029 IMPERIAL DR",
+      "zip": "63136",
+      "owner": "CHERRY DEMOND",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 30500
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11E331282",
+   "cid": "11E331282",
+   "addr": "10040 STIMSON DR",
+   "zip": "63137",
+   "county": "St. Louis County",
+   "muni": "Riverview",
+   "owner": "WILSON BRIAN",
+   "careof": "",
+   "mail": "4141 N TAYLOR AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63115",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1080.0,
+   "year": 1910,
+   "value": 11200.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 11200.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (trustee)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11E331282",
+      "addr": "10040 STIMSON DR",
+      "zip": "63137",
+      "owner": "ST LOUIS COUNTY TRUSTEE",
+      "status": "Trustee",
+      "structure": "Building",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Riverview",
+      "value": 33400
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11G330566",
    "cid": "11G330566",
    "addr": "10048 GREEN VALLEY DR",
@@ -5773,6 +9960,108 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11F410517",
+   "cid": "11F410517",
+   "addr": "10073 MONARCH DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "WALKER TERRY & ANNA H/W",
+   "careof": "",
+   "mail": "12400 BELLEFONTAINE RD",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63138",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 864.0,
+   "year": 1948,
+   "value": 24900.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 24900.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11F410517",
+      "addr": "10073 MONARCH DR",
+      "zip": "63136",
+      "owner": "WALKER TERRY & ANNA H/W",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 16600
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11F420903",
+   "cid": "11F420903",
+   "addr": "10074 EARL DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "FRESHSTART CREDIT BUILDERS",
+   "careof": "",
+   "mail": "3877 KENTUCKY DERBY DR",
+   "mail_city": "Florissant",
+   "mail_state": "MO",
+   "mail_zip": "63034",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 827.0,
+   "year": 1953,
+   "value": 24400.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 24400.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "vacant (county survey)",
+    "county tax sale (post third)",
+    "investor owned"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11F420903",
+      "addr": "10074 EARL DR",
+      "status": "OPEN",
+      "note": "overgrowth trash"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11F420903",
+      "addr": "10074 EARL DR",
+      "zip": "63136",
+      "owner": "FRESHSTART CREDIT BUILDERS",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 17800
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11F510691",
    "cid": "11F510691",
    "addr": "10078 DUKE DR",
@@ -5977,6 +10266,98 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11G510838",
+   "cid": "11G510838",
+   "addr": "10130 BON OAK DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "TOENYES TYLER WAYNE",
+   "careof": "",
+   "mail": "1710 S 8TH ST UNIT A 1ST FLR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63104",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 688.0,
+   "year": 1941,
+   "value": 6300.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 6300.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11G510838",
+      "addr": "10130 BON OAK DR",
+      "zip": "63136",
+      "owner": "TOENYES TYLER WAYNE",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 12400
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11G521470",
+   "cid": "11G521470",
+   "addr": "10137 IMPERIAL DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "HARRIS CHARLES",
+   "careof": "",
+   "mail": "5304 FLETCHER ST",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 876.0,
+   "year": 1920,
+   "value": 23200.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 23200.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11G521470",
+      "addr": "10137 IMPERIAL DR",
+      "zip": "63136",
+      "owner": "HARRIS CHARLES",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 29000
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11G521272",
    "cid": "11G521272",
    "addr": "10145 WINKLER DR",
@@ -6079,6 +10460,98 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11G521443",
+   "cid": "11G521443",
+   "addr": "10152 WINKLER DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "TAYLOR CURTIS",
+   "careof": "",
+   "mail": "6873 FINCH DALE CT",
+   "mail_city": "Florissant",
+   "mail_state": "MO",
+   "mail_zip": "63033",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 792.0,
+   "year": 1950,
+   "value": 2400.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 2400.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11G521443",
+      "addr": "10152 WINKLER DR",
+      "zip": "63136",
+      "owner": "TAYLOR CURTIS",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 30800
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11F440547",
+   "cid": "11F440547",
+   "addr": "10160 BARON DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "HORNADAY ENETRPRISE L L C",
+   "careof": "",
+   "mail": "1711 PARKER RD",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63138",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 800.0,
+   "year": 1970,
+   "value": 7800.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 7800.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (trustee)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11F440547",
+      "addr": "10160 BARON DR",
+      "zip": "63136",
+      "owner": "ST LOUIS COUNTY TRUSTEE",
+      "status": "Trustee",
+      "structure": "Building",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 10100
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11G540033",
    "cid": "11G540033",
    "addr": "10167 MAYFAIR DR",
@@ -6119,6 +10592,144 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 39300
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11F440693",
+   "cid": "11F440693",
+   "addr": "10177 BARON DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "ZAJAC JOHN",
+   "careof": "",
+   "mail": "2404 SHADETREE CT",
+   "mail_city": "Glencoe",
+   "mail_state": "MO",
+   "mail_zip": "63038",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 840.0,
+   "year": 1953,
+   "value": 12900.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 12900.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11F440693",
+      "addr": "10177 BARON DR",
+      "zip": "63136",
+      "owner": "ZAJAC JOHN",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 14900
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11G540262",
+   "cid": "11G540262",
+   "addr": "10180 MAYFAIR DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "ATKINS EDWARD E",
+   "careof": "",
+   "mail": "9900 COLONNADE MEADOWS DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63137",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 952.0,
+   "year": 1942,
+   "value": 8400.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 8400.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11G540262",
+      "addr": "10180 MAYFAIR DR",
+      "zip": "63136",
+      "owner": "ATKINS EDWARD E",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 15000
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11G540538",
+   "cid": "11G540538",
+   "addr": "10180 WINKLER DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "FORREST GARY L",
+   "careof": "",
+   "mail": "1618 N 17TH ST",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63106",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1228.0,
+   "year": 1949,
+   "value": 2500.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 2500.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11G540538",
+      "addr": "10180 WINKLER DR",
+      "zip": "63136",
+      "owner": "FORREST GARY L",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 39600
      }
     ]
    },
@@ -6329,6 +10940,52 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11F440877",
+   "cid": "11F440877",
+   "addr": "10228 EARL DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "GIBB KEITH N",
+   "careof": "",
+   "mail": "PO BOX 744",
+   "mail_city": "Bridgeton",
+   "mail_state": "MO",
+   "mail_zip": "63044",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 747.0,
+   "year": 1954,
+   "value": 22200.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 22200.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11F440877",
+      "addr": "10228 EARL DR",
+      "zip": "63136",
+      "owner": "GIBB KEITH N",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 17600
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "52529100000",
    "cid": "52529100000",
    "handle": "15252000100",
@@ -6431,6 +11088,52 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11F441748",
+   "cid": "11F441748",
+   "addr": "10312 BARON DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "WILSON LATACIA T",
+   "careof": "",
+   "mail": "12312 HIGHLAND DR",
+   "mail_city": "Holts Summit",
+   "mail_state": "MO",
+   "mail_zip": "65043",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 512.0,
+   "year": 1950,
+   "value": 20900.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 20900.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11F441748",
+      "addr": "10312 BARON DR",
+      "zip": "63136",
+      "owner": "WILSON LATACIA T",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 24300
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "10F210051",
    "cid": "10F210051",
    "addr": "10324 DUKE DR",
@@ -6471,6 +11174,52 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 27400
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "10F120659",
+   "cid": "10F120659",
+   "addr": "10352 EARL DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "GORDON MARRIUS",
+   "careof": "",
+   "mail": "12627 MEADOWDALE DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63138",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 770.0,
+   "year": 1954,
+   "value": 7400.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 7400.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "10F120659",
+      "addr": "10352 EARL DR",
+      "zip": "63136",
+      "owner": "GORDON MARRIUS",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 11200
      }
     ]
    },
@@ -6661,6 +11410,52 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "16H312287",
+   "cid": "16H312287",
+   "addr": "1526 VALLE AVE",
+   "zip": "63133",
+   "county": "St. Louis County",
+   "muni": "Wellston",
+   "owner": "SPAGNER SPARKLE Y ET AL J/T",
+   "careof": "",
+   "mail": "7210 HAZELCREST DR",
+   "mail_city": "Hazelwood",
+   "mail_state": "MO",
+   "mail_zip": "63042",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 806.0,
+   "year": 1918,
+   "value": 17400.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 17400.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "16H312287",
+      "addr": "1526 VALLE AVE",
+      "zip": "63133",
+      "owner": "SPAGNER SPARKLE Y ET AL J/T",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Wellston",
+      "value": 13600
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "16H431524",
    "cid": "16H431524",
    "addr": "1538 FERGUSON AVE",
@@ -6839,6 +11634,103 @@
       "units": 1,
       "muni": "Hillsdale",
       "value": 29000
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "10909185000",
+   "cid": "10909185000",
+   "handle": "11090060230",
+   "addr": "2221 UNIVERSITY ST",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 60,
+   "owner": "HARRIS, ORTISHA",
+   "mail": "2221 UNIVERSITY ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63107",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3564,
+   "year": 1972,
+   "value": 1220.0,
+   "tax_bal": 8648.0,
+   "vac_year": 2018,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 6421,
+   "score": 65,
+   "why": [
+    "tax delinquent $8,648",
+    "vacant building since 2018"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 8648.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 113,
+      "vmin": 4,
+      "vmaj": 6,
+      "csb": 0,
+      "unpd": 10800.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "10J531926",
+   "cid": "10J531926",
+   "addr": "225 CONNOLLY DR",
+   "zip": "63135",
+   "county": "St. Louis County",
+   "muni": "Hazelwood",
+   "owner": "CARPENTER ROBERT R",
+   "careof": "",
+   "mail": "2765 GRANTS PKWY",
+   "mail_city": "Florissant",
+   "mail_state": "MO",
+   "mail_zip": "63031",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 650.0,
+   "year": 1957,
+   "value": 13200.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 13200.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "10J531926",
+      "addr": "225 CONNOLLY DR",
+      "zip": "63135",
+      "owner": "CARPENTER ROBERT R",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Hazelwood",
+      "value": 13500
      }
     ]
    },
@@ -7033,6 +11925,98 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 42300
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "15J441114",
+   "cid": "15J441114",
+   "addr": "2808 OLD HANLEY RD",
+   "zip": "63114",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "GILLESPIE GARY D",
+   "careof": "",
+   "mail": "2218 BASSTON DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63146",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1397.0,
+   "year": 1925,
+   "value": 15300.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 15300.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "15J441114",
+      "addr": "2808 OLD HANLEY RD",
+      "zip": "63114",
+      "owner": "GILLESPIE GARY D",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 23500
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "15J441103",
+   "cid": "15J441103",
+   "addr": "2809 OLD HANLEY RD",
+   "zip": "63114",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "FIHH TRUSTEE",
+   "careof": "",
+   "mail": "P O BOX 688",
+   "mail_city": "Florissant",
+   "mail_state": "MO",
+   "mail_zip": "63032",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 870.0,
+   "year": 1922,
+   "value": 11000.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 11000.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "15J441103",
+      "addr": "2809 OLD HANLEY RD",
+      "zip": "63114",
+      "owner": "FIHH TRUSTEE",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 15200
      }
     ]
    },
@@ -7480,6 +12464,98 @@
        "HANLEY FORSYTH TRUSTEE INC",
        "NEWTSEAD/MCPHERSON LLC"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "15H620187",
+   "cid": "15H620187",
+   "addr": "3733 MANOLA AVE",
+   "zip": "63121",
+   "county": "St. Louis County",
+   "muni": "Pine Lawn",
+   "owner": "WEALTHY ELITE INVESTMENT GROUP L L C",
+   "careof": "",
+   "mail": "12720 BRISTOL AVE",
+   "mail_city": "Grandview",
+   "mail_state": "MO",
+   "mail_zip": "64030",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1128.0,
+   "year": 1910,
+   "value": 12400.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 12400.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "15H620187",
+      "addr": "3733 MANOLA AVE",
+      "zip": "63121",
+      "owner": "WEALTHY ELITE INVESTMENT GROUP L L C",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Pine Lawn",
+      "value": 5900
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "14J530686",
+   "cid": "14J530686",
+   "addr": "3909 SHIRLEY AVE",
+   "zip": "63121",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "CARROLL TIMOTHY S",
+   "careof": "",
+   "mail": "1252 MENDOZA DR",
+   "mail_city": "Saint Peters",
+   "mail_state": "MO",
+   "mail_zip": "63376",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1266.0,
+   "year": 1928,
+   "value": 22500.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 22500.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "14J530686",
+      "addr": "3909 SHIRLEY AVE",
+      "zip": "63121",
+      "owner": "CARROLL TIMOTHY S",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 30900
      }
     ]
    },
@@ -8618,6 +13694,52 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "14G331517",
+   "cid": "14G331517",
+   "addr": "5512 HODIAMONT AVE",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Jennings",
+   "owner": "HAMILTON KEVIS",
+   "careof": "",
+   "mail": "855 NORTHMOOR DR",
+   "mail_city": "Florissant",
+   "mail_state": "MO",
+   "mail_zip": "63033",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 646.0,
+   "year": 1928,
+   "value": 19200.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 19200.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "14G331517",
+      "addr": "5512 HODIAMONT AVE",
+      "zip": "63136",
+      "owner": "HAMILTON KEVIS",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Jennings",
+      "value": 22600
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "13G210426",
    "cid": "13G210426",
    "addr": "5631 APRICOT AVE",
@@ -8658,6 +13780,52 @@
       "units": 1,
       "muni": "Jennings",
       "value": 47300
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "13G212361",
+   "cid": "13G212361",
+   "addr": "5742 APRICOT AVE",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Jennings",
+   "owner": "HOLBROOK JOHN JR ETAL",
+   "careof": "",
+   "mail": "317 TESTON DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63135",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 670.0,
+   "year": 1948,
+   "value": 23800.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 23800.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "13G212361",
+      "addr": "5742 APRICOT AVE",
+      "zip": "63136",
+      "owner": "HOLBROOK JOHN JR ETAL",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Jennings",
+      "value": 15700
      }
     ]
    },
@@ -8750,6 +13918,98 @@
       "units": 2,
       "muni": "Wellston",
       "value": 22600
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "15G540273",
+   "cid": "15G540273",
+   "addr": "6366 LILLIAN AVE",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Jennings",
+   "owner": "HERNDON MARSHEL ET AL",
+   "careof": "",
+   "mail": "4482 CASACALLA DR",
+   "mail_city": "Florissant",
+   "mail_state": "MO",
+   "mail_zip": "63033",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1638.0,
+   "year": 1948,
+   "value": 17300.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 17300.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "15G540273",
+      "addr": "6366 LILLIAN AVE",
+      "zip": "63136",
+      "owner": "HERNDON MARSHEL ET AL",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Jennings",
+      "value": 11800
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "16H521870",
+   "cid": "16H521870",
+   "addr": "6564 JESSE JACKSON AVE",
+   "zip": "63121",
+   "county": "St. Louis County",
+   "muni": "Hillsdale",
+   "owner": "BANKS ZENORDIA",
+   "careof": "",
+   "mail": "2110 HUNTINGTON AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63114",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 896.0,
+   "year": 1922,
+   "value": 14200.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 14200.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "16H521870",
+      "addr": "6564 JESSE JACKSON AVE",
+      "zip": "63121",
+      "owner": "OUSLEY CORINNA L & THOMAS L H/H",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Hillsdale",
+      "value": 9800
      }
     ]
    },
@@ -9288,6 +14548,52 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "12G441171",
+   "cid": "12G441171",
+   "addr": "9756 DENNIS DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "MIDWEST INVESTMENT GROUP L L C",
+   "careof": "",
+   "mail": "4939 MARGARETTA DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63115",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1056.0,
+   "year": 1954,
+   "value": 13300.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 13300.0,
+   "score": 65,
+   "why": [
+    "absentee",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "12G441171",
+      "addr": "9756 DENNIS DR",
+      "zip": "63136",
+      "owner": "MIDWEST INVESTMENT GROUP L L C",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 7000
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11G221217",
    "cid": "11G221217",
    "addr": "9845 GREEN VALLEY DR",
@@ -9502,6 +14808,60 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11F420316",
+   "cid": "11F420316",
+   "addr": "10046 EARL DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "CRAWFORD TYRESE",
+   "careof": "",
+   "mail": "10046 EARL DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 827.0,
+   "year": 1953,
+   "value": 7600.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 7600.0,
+   "score": 60,
+   "why": [
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11F420316",
+      "addr": "10046 EARL DR",
+      "status": "OPEN",
+      "note": " "
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11F420316",
+      "addr": "10046 EARL DR",
+      "zip": "63136",
+      "owner": "CRAWFORD TYRESE",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 11400
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11F420839",
    "cid": "11F420839",
    "addr": "10048 BARON DR",
@@ -9550,6 +14910,60 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11G620021",
+   "cid": "11G620021",
+   "addr": "10052 PEPPER LN",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "REED BARBARA JEAN",
+   "careof": "",
+   "mail": "10052 PEPPER LN",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 910.0,
+   "year": 1957,
+   "value": 3400.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 3400.0,
+   "score": 60,
+   "why": [
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11G620021",
+      "addr": "10052 PEPPER LN",
+      "status": "Send to Inspector",
+      "note": "75x75 front wdw\nstk bed t debris dumped"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11G620021",
+      "addr": "10052 PEPPER LN",
+      "zip": "63136",
+      "owner": "REED BARBARA JEAN",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 9900
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11F510262",
    "cid": "11F510262",
    "addr": "10060 DUKE DR",
@@ -9592,6 +15006,60 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 21000
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "10D240144",
+   "cid": "10D240144",
+   "addr": "101 DUNDEE CIR",
+   "zip": "63137",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "GOOSEBERRY ARMELDA L ETAL",
+   "careof": "",
+   "mail": "101 DUNDEE CIR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63137",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 927.0,
+   "year": 1956,
+   "value": 4600.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 4600.0,
+   "score": 60,
+   "why": [
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "10D240144",
+      "addr": "101 DUNDEE CIR",
+      "status": "OPEN",
+      "note": "overgrowth"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "10D240144",
+      "addr": "101 DUNDEE CIR",
+      "zip": "63137",
+      "owner": "GOOSEBERRY ARMELDA L ETAL",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 8200
      }
     ]
    },
@@ -9706,6 +15174,60 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11G520518",
+   "cid": "11G520518",
+   "addr": "10110 IMPERIAL DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "GRANER JAMES S",
+   "careof": "",
+   "mail": "10110 IMPERIAL DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 888.0,
+   "year": 1950,
+   "value": 8600.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 8600.0,
+   "score": 60,
+   "why": [
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11G520518",
+      "addr": "10110 IMPERIAL DR",
+      "status": "Send to Inspector",
+      "note": "couches"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11G520518",
+      "addr": "10110 IMPERIAL DR",
+      "zip": "63136",
+      "owner": "GRANER JAMES S",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 43300
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11G510425",
    "cid": "11G510425",
    "addr": "10111 CLAIRMONT DR",
@@ -9814,6 +15336,60 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11F441490",
+   "cid": "11F441490",
+   "addr": "10196 BARON DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "WELLS ANNIE L",
+   "careof": "",
+   "mail": "10196 BARON DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 936.0,
+   "year": 1963,
+   "value": 2900.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 2900.0,
+   "score": 60,
+   "why": [
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11F441490",
+      "addr": "10196 BARON DR",
+      "status": "Send to Inspector",
+      "note": "debris, junk unsecurable structure"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11F441490",
+      "addr": "10196 BARON DR",
+      "zip": "63136",
+      "owner": "WELLS ANNIE L",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 6900
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11F440657",
    "cid": "11F440657",
    "addr": "10217 EARL DR",
@@ -9862,6 +15438,60 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 19300
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11F530655",
+   "cid": "11F530655",
+   "addr": "10220 DUKE DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "CRAWFORD TYRESE ETAL",
+   "careof": "",
+   "mail": "10220 DUKE DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 777.0,
+   "year": 1954,
+   "value": 23300.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 23300.0,
+   "score": 60,
+   "why": [
+    "vacant (county survey)",
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "11F530655",
+      "addr": "10220 DUKE DR",
+      "status": "Sent to Vacant Monitor",
+      "note": "overgrown posted on castle point cleanup list"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "11F530655",
+      "addr": "10220 DUKE DR",
+      "zip": "63136",
+      "owner": "CRAWFORD TYRESE ETAL",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 18200
      }
     ]
    },
@@ -10018,6 +15648,54 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "08D110213",
+   "cid": "08D110213",
+   "addr": "1103 LAREDO AVE",
+   "zip": "63138",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "US EQUITY PARTNERS LLC  ET AL",
+   "careof": "",
+   "mail": "7526 KEY DEER CT",
+   "mail_city": "Fort Myers",
+   "mail_state": "FL",
+   "mail_zip": "33966",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1006.0,
+   "year": 1938,
+   "value": 17100.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 17100.0,
+   "score": 60,
+   "why": [
+    "absentee",
+    "out of state",
+    "county tax sale (post third)",
+    "investor owned"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "08D110213",
+      "addr": "1103 LAREDO AVE",
+      "zip": "63138",
+      "owner": "US EQUITY PARTNERS LLC  ET AL",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 19000
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "17H430717",
    "cid": "17H430717",
    "addr": "1229 GREGAN PL",
@@ -10060,6 +15738,54 @@
       "case": "",
       "file": "245854",
       "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23349055000",
+   "cid": "23349055000",
+   "handle": "12334000055",
+   "addr": "1614 N 19TH ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 60,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1701 N 11TH ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63106",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 1527,
+   "year": 1895,
+   "value": 1340.0,
+   "tax_bal": 5700.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 7053,
+   "score": 60,
+   "why": [
+    "absentee",
+    "tax delinquent $5,700",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5700.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "year": 2018
      }
     ]
    },
@@ -10160,6 +15886,54 @@
       "date": "2026-11-03",
       "type": "Condemned for Occupancy",
       "action": "Condemnation; Open Storage; Windows"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11D440875",
+   "cid": "11D440875",
+   "addr": "223 PERTHSHIRE RD",
+   "zip": "63137",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "YMMESTATE1BHOLDING LLC",
+   "careof": "",
+   "mail": "4160 E 2ND ST",
+   "mail_city": "Casper",
+   "mail_state": "WY",
+   "mail_zip": "82609",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 873.0,
+   "year": 1954,
+   "value": 4400.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 4400.0,
+   "score": 60,
+   "why": [
+    "absentee",
+    "out of state",
+    "county tax sale (post third)",
+    "investor owned"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11D440875",
+      "addr": "223 PERTHSHIRE RD",
+      "zip": "63137",
+      "owner": "WHITSIDE SERINA RENEA",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 14700
      }
     ]
    },
@@ -10316,6 +16090,54 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 25100
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "12499050000",
+   "cid": "12499050000",
+   "handle": "11249000050",
+   "addr": "2642 NATURAL BRIDGE AVE",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC & CHIEF MANAGER",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63368",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3417,
+   "year": 1888,
+   "value": 1510.0,
+   "tax_bal": 13920.0,
+   "vac_year": 2018,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 7947,
+   "score": 60,
+   "why": [
+    "absentee",
+    "tax delinquent $13,920",
+    "vacant building since 2018",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 13920.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "year": 2018
      }
     ]
    },
@@ -10601,6 +16423,59 @@
        "WILMINGTON SAVINGS FUND SOCIETY",
        "IBIS HOLDINGS A TRUST"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "18579035000",
+   "cid": "18579035000",
+   "handle": "11857180060",
+   "addr": "3224 MAGAZINE ST",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O'Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63366",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 1779,
+   "year": 1893,
+   "value": 980.0,
+   "tax_bal": 7501.59,
+   "vac_year": 2010,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 5158,
+   "score": 60,
+   "why": [
+    "absentee",
+    "tax delinquent $7,501",
+    "vacant 16+ years",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 7501.59,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 134,
+      "vmin": 7,
+      "vmaj": 6,
+      "csb": 0,
+      "unpd": 3400.0,
+      "year": 2010
      }
     ]
    },
@@ -11766,6 +17641,47 @@
       "units": 2,
       "muni": "Unincorporated",
       "value": 71000
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "61869090000",
+   "cid": "61869090000",
+   "handle": "16186000090",
+   "addr": "8732 RIVERVIEW BLVD",
+   "zip": "63147",
+   "county": "St. Louis City",
+   "nbhd": 74,
+   "owner": "COUSINS, JOHN",
+   "mail": "4231 E LEXINGTON AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63115",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4676,
+   "year": 1936,
+   "value": 3620.0,
+   "tax_bal": 6349.36,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 19053,
+   "score": 60,
+   "why": [
+    "absentee",
+    "tax delinquent $6,349"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6349.36,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
      }
     ]
    },
@@ -14981,6 +20897,53 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11F441711",
+   "cid": "11F441711",
+   "addr": "10208 COUNT DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "IVY LEAGUE HOMES L L C",
+   "careof": "",
+   "mail": "5304 ABINGTON RD",
+   "mail_city": "Florissant",
+   "mail_state": "MO",
+   "mail_zip": "63033",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 936.0,
+   "year": 1966,
+   "value": 10600.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 10600.0,
+   "score": 50,
+   "why": [
+    "absentee",
+    "county tax sale (post third)",
+    "investor owned"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11F441711",
+      "addr": "10208 COUNT DR",
+      "zip": "63136",
+      "owner": "IVY LEAGUE HOMES L L C",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 13500
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "05629370000",
    "cid": "05629370000",
    "handle": "10562000370",
@@ -15742,6 +21705,53 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "16H541102",
+   "cid": "16H541102",
+   "addr": "2122 68TH ST",
+   "zip": "63121",
+   "county": "St. Louis County",
+   "muni": "Hillsdale",
+   "owner": "HT HOLDINGS LLC",
+   "careof": "",
+   "mail": "3407 S JEFFERSON AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 768.0,
+   "year": 1926,
+   "value": 10700.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 10700.0,
+   "score": 50,
+   "why": [
+    "absentee",
+    "county tax sale (trustee)",
+    "investor owned"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "16H541102",
+      "addr": "2122 68TH ST",
+      "zip": "63121",
+      "owner": "ST LOUIS COUNTY TRUSTEE",
+      "status": "Trustee",
+      "structure": "Building",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Hillsdale",
+      "value": 10200
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "16H630743",
    "cid": "16H630743",
    "addr": "2122 ROSE BUD AVE",
@@ -15844,6 +21854,194 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "16H541643",
+   "cid": "16H541643",
+   "addr": "2130 69TH ST",
+   "zip": "63121",
+   "county": "St. Louis County",
+   "muni": "Hillsdale",
+   "owner": "HT HOLDINGS LLC",
+   "careof": "",
+   "mail": "3407 S JEFFERSON AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 864.0,
+   "year": 1926,
+   "value": 8100.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 8100.0,
+   "score": 50,
+   "why": [
+    "absentee",
+    "county tax sale (trustee)",
+    "investor owned"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "16H541643",
+      "addr": "2130 69TH ST",
+      "zip": "63121",
+      "owner": "ST LOUIS COUNTY TRUSTEE",
+      "status": "Trustee",
+      "structure": "Building",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Hillsdale",
+      "value": 9400
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "16H542011",
+   "cid": "16H542011",
+   "addr": "2135 69TH ST",
+   "zip": "63121",
+   "county": "St. Louis County",
+   "muni": "Hillsdale",
+   "owner": "HT HOLDINGS LLC",
+   "careof": "",
+   "mail": "3407 S JEFFERSON AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 864.0,
+   "year": 1926,
+   "value": 7400.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 7400.0,
+   "score": 50,
+   "why": [
+    "absentee",
+    "county tax sale (trustee)",
+    "investor owned"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "16H542011",
+      "addr": "2135 69TH ST",
+      "zip": "63121",
+      "owner": "ST LOUIS COUNTY TRUSTEE",
+      "status": "Trustee",
+      "structure": "Building",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Hillsdale",
+      "value": 25300
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "16H620513",
+   "cid": "16H620513",
+   "addr": "2136 CRESCENT AVE",
+   "zip": "63121",
+   "county": "St. Louis County",
+   "muni": "Hillsdale",
+   "owner": "HT HOLDINGS LLC",
+   "careof": "",
+   "mail": "3407 S JEFFERSON AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 816.0,
+   "year": 1927,
+   "value": 6700.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 6700.0,
+   "score": 50,
+   "why": [
+    "absentee",
+    "county tax sale (trustee)",
+    "investor owned"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "16H620513",
+      "addr": "2136 CRESCENT AVE",
+      "zip": "63121",
+      "owner": "ST LOUIS COUNTY TRUSTEE",
+      "status": "Trustee",
+      "structure": "Building",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Hillsdale",
+      "value": 8600
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "16H620614",
+   "cid": "16H620614",
+   "addr": "2138 CRESCENT AVE",
+   "zip": "63121",
+   "county": "St. Louis County",
+   "muni": "Hillsdale",
+   "owner": "HT HOLDINGS LLC",
+   "careof": "",
+   "mail": "3407 S JEFFERSON AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1188.0,
+   "year": 1927,
+   "value": 15300.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 15300.0,
+   "score": 50,
+   "why": [
+    "absentee",
+    "county tax sale (trustee)",
+    "investor owned"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "16H620614",
+      "addr": "2138 CRESCENT AVE",
+      "zip": "63121",
+      "owner": "ST LOUIS COUNTY TRUSTEE",
+      "status": "Trustee",
+      "structure": "Building",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Hillsdale",
+      "value": 9800
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "16H541890",
    "cid": "16H541890",
    "addr": "2139 68TH ST",
@@ -15885,6 +22083,53 @@
       "units": 1,
       "muni": "Hillsdale",
       "value": 27000
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "16H620807",
+   "cid": "16H620807",
+   "addr": "2142 CRESCENT AVE",
+   "zip": "63121",
+   "county": "St. Louis County",
+   "muni": "Hillsdale",
+   "owner": "HT HOLDINGS LLC",
+   "careof": "",
+   "mail": "3407 S JEFFERSON AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 936.0,
+   "year": 1927,
+   "value": 6700.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 6700.0,
+   "score": 50,
+   "why": [
+    "absentee",
+    "county tax sale (trustee)",
+    "investor owned"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "16H620807",
+      "addr": "2142 CRESCENT AVE",
+      "zip": "63121",
+      "owner": "ST LOUIS COUNTY TRUSTEE",
+      "status": "Trustee",
+      "structure": "Building",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Hillsdale",
+      "value": 8700
      }
     ]
    },
@@ -15979,6 +22224,53 @@
       "units": 1,
       "muni": "Hillsdale",
       "value": 52400
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "16H621255",
+   "cid": "16H621255",
+   "addr": "2162 CRESCENT AVE",
+   "zip": "63121",
+   "county": "St. Louis County",
+   "muni": "Hillsdale",
+   "owner": "HT HOLDINGS LLC",
+   "careof": "",
+   "mail": "3407 S JEFFERSON AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1056.0,
+   "year": 1910,
+   "value": 6400.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 6400.0,
+   "score": 50,
+   "why": [
+    "absentee",
+    "county tax sale (trustee)",
+    "investor owned"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "16H621255",
+      "addr": "2162 CRESCENT AVE",
+      "zip": "63121",
+      "owner": "ST LOUIS COUNTY TRUSTEE",
+      "status": "Trustee",
+      "structure": "Building",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Hillsdale",
+      "value": 8100
      }
     ]
    },
@@ -16170,6 +22462,53 @@
       "units": 1,
       "muni": "Jennings",
       "value": 54700
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11E331334",
+   "cid": "11E331334",
+   "addr": "281 HABECKING DR",
+   "zip": "63137",
+   "county": "St. Louis County",
+   "muni": "Riverview",
+   "owner": "MATZCO PROPERTIES INC",
+   "careof": "",
+   "mail": "1625 FLORDAWN DR",
+   "mail_city": "Florissant",
+   "mail_state": "MO",
+   "mail_zip": "63031",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 580.0,
+   "year": 1917,
+   "value": 6400.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 6400.0,
+   "score": 50,
+   "why": [
+    "absentee",
+    "county tax sale (post third)",
+    "investor owned"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11E331334",
+      "addr": "281 HABECKING DR",
+      "zip": "63137",
+      "owner": "MATZCO PROPERTIES INC",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Riverview",
+      "value": 14300
      }
     ]
    },
@@ -19450,6 +25789,53 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "17H530275",
+   "cid": "17H530275",
+   "addr": "6333 LENOX AVE",
+   "zip": "63133",
+   "county": "St. Louis County",
+   "muni": "Wellston",
+   "owner": "BEUTIFUL BLOSSOMS HYDROPONICS LLC",
+   "careof": "",
+   "mail": "15 OLYMPIA DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63135",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 934.0,
+   "year": 1910,
+   "value": 6500.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 6500.0,
+   "score": 50,
+   "why": [
+    "absentee",
+    "county tax sale (trustee)",
+    "investor owned"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "17H530275",
+      "addr": "6333 LENOX AVE",
+      "zip": "63133",
+      "owner": "ST LOUIS COUNTY TRUSTEE",
+      "status": "Trustee",
+      "structure": "Building",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Wellston",
+      "value": 18400
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "29669170000",
    "cid": "29669170000",
    "handle": "12966000170",
@@ -20246,6 +26632,53 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11E310690",
+   "cid": "11E310690",
+   "addr": "9947 JEFFREY DR",
+   "zip": "63137",
+   "county": "St. Louis County",
+   "muni": "Riverview",
+   "owner": "AJAN LLC",
+   "careof": "",
+   "mail": "2624 WILLIAMS CREEK RD",
+   "mail_city": "High Ridge",
+   "mail_state": "MO",
+   "mail_zip": "63049",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 760.0,
+   "year": 1921,
+   "value": 3900.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 3900.0,
+   "score": 50,
+   "why": [
+    "absentee",
+    "county tax sale (post third)",
+    "investor owned"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11E310690",
+      "addr": "9947 JEFFREY DR",
+      "zip": "63137",
+      "owner": "AJAN L L C",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Riverview",
+      "value": 12200
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11G241080",
    "cid": "11G241080",
    "addr": "10035 MAYFAIR DR",
@@ -20467,6 +26900,51 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 24700
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "11F510882",
+   "cid": "11F510882",
+   "addr": "10093 ROYAL DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "KNIGHT KARLA A",
+   "careof": "",
+   "mail": "10093 ROYAL DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 864.0,
+   "year": 1962,
+   "value": 2700.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 2700.0,
+   "score": 45,
+   "why": [
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11F510882",
+      "addr": "10093 ROYAL DR",
+      "zip": "63136",
+      "owner": "KNIGHT KARLA A",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 6800
      }
     ]
    },
@@ -21209,6 +27687,51 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "11F440620",
+   "cid": "11F440620",
+   "addr": "10216 EARL DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "CLARK LAKITA L",
+   "careof": "",
+   "mail": "10216 EARL DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 546.0,
+   "year": 1954,
+   "value": 6600.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 6600.0,
+   "score": 45,
+   "why": [
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "11F440620",
+      "addr": "10216 EARL DR",
+      "zip": "63136",
+      "owner": "CLARK LAKITA L",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 10400
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11F440730",
    "cid": "11F440730",
    "addr": "10220 LORD DR",
@@ -21248,6 +27771,61 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 25500
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "10F122060",
+   "cid": "10F122060",
+   "addr": "10225 COUNT DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "PINICAL PROPERTIES",
+   "careof": "",
+   "mail": "10225 COUNT DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 561.0,
+   "year": 1930,
+   "value": 15200.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 15200.0,
+   "score": 45,
+   "why": [
+    "vacant (county survey)",
+    "county tax sale (post third)",
+    "investor owned"
+   ],
+   "signals": {
+    "county_vacant": [
+     {
+      "tag": "10F122060",
+      "addr": "10225 COUNT DR",
+      "status": "Send to Inspector",
+      "note": "1/2 STK BED JUNK"
+     }
+    ],
+    "taxsale": [
+     {
+      "tag": "10F122060",
+      "addr": "10225 COUNT DR",
+      "zip": "63136",
+      "owner": "PINICAL PROPERTIES",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 12700
      }
     ]
    },
@@ -22049,6 +28627,51 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "10F141128",
+   "cid": "10F141128",
+   "addr": "10557 EARL DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "THORNTON NATHANIEL B ETAL",
+   "careof": "",
+   "mail": "10557 EARL DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 770.0,
+   "year": 1956,
+   "value": 3100.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 3100.0,
+   "score": 45,
+   "why": [
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "10F141128",
+      "addr": "10557 EARL DR",
+      "zip": "63136",
+      "owner": "THORNTON NATHANIEL B ETAL",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 8000
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "10F131190",
    "cid": "10F131190",
    "addr": "10606 LANGFORD DR",
@@ -22330,6 +28953,51 @@
       "addr": "1147 NORTHDALE AVE",
       "status": "OPEN",
       "note": "overgrown"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "09E621560",
+   "cid": "09E621560",
+   "addr": "1147 PRIGGE AVE",
+   "zip": "63138",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "LOYD MARY L",
+   "careof": "",
+   "mail": "1147 PRIGGE AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63138",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 864.0,
+   "year": 1958,
+   "value": 21700.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 21700.0,
+   "score": 45,
+   "why": [
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "09E621560",
+      "addr": "1147 PRIGGE AVE",
+      "zip": "63138",
+      "owner": "LOYD MARY L",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 37600
      }
     ]
    },
@@ -22852,6 +29520,96 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "10J520201",
+   "cid": "10J520201",
+   "addr": "163 ELBRING DR",
+   "zip": "63135",
+   "county": "St. Louis County",
+   "muni": "Hazelwood",
+   "owner": "HILL MARY JANE",
+   "careof": "",
+   "mail": "163 ELBRING DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63135",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1086.0,
+   "year": 1935,
+   "value": 14100.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 14100.0,
+   "score": 45,
+   "why": [
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "10J520201",
+      "addr": "163 ELBRING DR",
+      "zip": "63135",
+      "owner": "HILL MARY JANE",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Hazelwood",
+      "value": 52100
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "12G440345",
+   "cid": "12G440345",
+   "addr": "1632 NEMNICH AVE",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "TURNER ROBERT E",
+   "careof": "",
+   "mail": "1632 NEMNICH AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1591.0,
+   "year": 1953,
+   "value": 22500.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 22500.0,
+   "score": 45,
+   "why": [
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "12G440345",
+      "addr": "1632 NEMNICH AVE",
+      "zip": "63136",
+      "owner": "TURNER ROBERT E",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Unincorporated",
+      "value": 15900
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "16H320332",
    "cid": "16H320332",
    "addr": "1803 JAMES A HARVEY LN",
@@ -22891,6 +29649,90 @@
       "units": 1,
       "muni": "Wellston",
       "value": 58600
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23549180000",
+   "cid": "23549180000",
+   "handle": "12354000180",
+   "addr": "1818 N LEFFINGWELL AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1001 BOARDWALK SPRINGS PL",
+   "mail_city": "O Fallon",
+   "mail_state": "MO",
+   "mail_zip": "63368",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 1864,
+   "year": 1899,
+   "value": 1280.0,
+   "tax_bal": 6501.6,
+   "vac_year": 0,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 6737,
+   "score": 45,
+   "why": [
+    "absentee",
+    "tax delinquent $6,501",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 6501.6,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "23549200000",
+   "cid": "23549200000",
+   "handle": "12354000200",
+   "addr": "1822 N LEFFINGWELL AVE",
+   "zip": "63106",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "NORTHSIDE REGENERATION LLC",
+   "mail": "1701 N 11TH ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63106",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 1730,
+   "year": 1899,
+   "value": 1210.0,
+   "tax_bal": 8800.0,
+   "vac_year": 0,
+   "lender": "722",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 6368,
+   "score": 45,
+   "why": [
+    "absentee",
+    "tax delinquent $8,800",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 8800.0,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
      }
     ]
    },
@@ -23708,6 +30550,51 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "13G610583",
+   "cid": "13G610583",
+   "addr": "2429 SHIRLEY AVE",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Jennings",
+   "owner": "MORROW LENEE",
+   "careof": "",
+   "mail": "2429 SHIRLEY AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 896.0,
+   "year": 1948,
+   "value": 17900.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 17900.0,
+   "score": 45,
+   "why": [
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "13G610583",
+      "addr": "2429 SHIRLEY AVE",
+      "zip": "63136",
+      "owner": "MORROW LENEE",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Jennings",
+      "value": 17400
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "12G320766",
    "cid": "12G320766",
    "addr": "2522 SHANNONAIRE DR",
@@ -24505,6 +31392,51 @@
       "csb": 0,
       "unpd": 5850.0,
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "16G430153",
+   "cid": "16G430153",
+   "addr": "30 BLAKEMORE PL",
+   "zip": "63121",
+   "county": "St. Louis County",
+   "muni": "Pine Lawn",
+   "owner": "BLACKMON KENNETH      ETAL J/T",
+   "careof": "",
+   "mail": "30 BLAKEMORE PL",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63121",
+   "occ": "Y",
+   "landuse": "Duplex/Townhome",
+   "units": 2,
+   "sqft": null,
+   "res_sqft": 2124.0,
+   "year": 1920,
+   "value": 16900.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 16900.0,
+   "score": 45,
+   "why": [
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "16G430153",
+      "addr": "30 BLAKEMORE PL",
+      "zip": "63121",
+      "owner": "BLACKMON KENNETH      ETAL J/T",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Duplex/Townhome",
+      "units": 2,
+      "muni": "Pine Lawn",
+      "value": 10400
      }
     ]
    },
@@ -27599,6 +34531,51 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "14G242426",
+   "cid": "14G242426",
+   "addr": "5473 HELEN AVE",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Jennings",
+   "owner": "CARMACK TOM & DOROTHY H/W",
+   "careof": "",
+   "mail": "5473 HELEN AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 784.0,
+   "year": 1927,
+   "value": 19800.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 19800.0,
+   "score": 45,
+   "why": [
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "14G242426",
+      "addr": "5473 HELEN AVE",
+      "zip": "63136",
+      "owner": "CARMACK TOM & DOROTHY H/W",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Jennings",
+      "value": 22600
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "28539030000",
    "cid": "28539030000",
    "handle": "12853000030",
@@ -27682,6 +34659,51 @@
       "date": "2026-10-13",
       "type": "Notice to Secure",
       "action": "ES - Complaint"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "14G522201",
+   "cid": "14G522201",
+   "addr": "5512 JENNINGS STATION RD",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Jennings",
+   "owner": "GARDNER CAROLYN M",
+   "careof": "",
+   "mail": "5512 JENNINGS STATION RD",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1146.0,
+   "year": 1920,
+   "value": 21300.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 21300.0,
+   "score": 45,
+   "why": [
+    "county tax sale (post third)"
+   ],
+   "signals": {
+    "taxsale": [
+     {
+      "tag": "14G522201",
+      "addr": "5512 JENNINGS STATION RD",
+      "zip": "63136",
+      "owner": "GARDNER CAROLYN M",
+      "status": "Post Third",
+      "structure": "",
+      "use": "Single Family",
+      "units": 1,
+      "muni": "Jennings",
+      "value": 25900
      }
     ]
    },
@@ -83361,7 +90383,7 @@
    "as_of": "2026-11-10"
   }
  ],
- "absentee_only": 126249,
- "city": 1256,
- "county": 676
+ "absentee_only": 126111,
+ "city": 1324,
+ "county": 747
 }
