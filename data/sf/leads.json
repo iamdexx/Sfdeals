@@ -1,8 +1,8 @@
 {
  "as_of": "2026-11-10",
- "updated": "2026-11-10T18:11:22Z",
- "count": 12450,
- "hot": 1892,
+ "updated": "2026-11-10T18:17:03Z",
+ "count": 12459,
+ "hot": 1905,
  "leads": [
   {
    "tag": "012228185003000",
@@ -2160,6 +2160,142 @@
       "legal": "Lot 7A Block 2 Lake Lorraine Addn",
       "section": "Sioux Falls City",
       "year": 2025
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012229354015000",
+   "cid": "42846",
+   "addr": "3013 S WEST AVE",
+   "zip": 57105,
+   "county": "MINNEHAHA",
+   "owner": "MALONEY, CHRISTOPHER P",
+   "mail": "25737 480TH AVE",
+   "mail_city": "BRANDON",
+   "mail_state": "SD",
+   "mail_zip": "57005",
+   "occ": "N",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.23,
+   "sqft": 10164.0,
+   "activity": "11 - Single-Family",
+   "score": 65,
+   "why": [
+    "absentee",
+    "10 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-03",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 3rd or subsequent"
+     },
+     {
+      "date": "2026-08-25",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 3rd or subsequent"
+     },
+     {
+      "date": "2026-07-21",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 3rd or subsequent"
+     },
+     {
+      "date": "2026-06-25",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 3rd or subsequent"
+     },
+     {
+      "date": "2026-06-10",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2026-05-21",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2025-12-03",
+      "addr": "3013 S WEST AVE",
+      "type": "Snow",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2025-09-03",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 3rd or subsequent"
+     },
+     {
+      "date": "2025-08-13",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 3rd or subsequent"
+     },
+     {
+      "date": "2025-07-14",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2025-06-16",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2024-08-05",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2024-07-10",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2024-06-12",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 3rd or subsequent"
+     },
+     {
+      "date": "2024-05-20",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2024-05-03",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2023-09-05",
+      "addr": "3013 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2022-12-07",
+      "addr": "3013 S WEST AVE",
+      "type": "Snow",
+      "action": "Citation - 1st"
      }
     ]
    },
@@ -5801,7 +5937,7 @@
   {
    "tag": "012220308016000",
    "cid": "45268",
-   "addr": "1205 S W AVE",
+   "addr": "1205 S WEST AVE",
    "zip": 57105,
    "county": "MINNEHAHA",
    "owner": "QUICK FAMILY REVOCABLE TRUST QUICK, BONNIE TRUSTEE  QUICK, RUSSELL TRUSTEE",
@@ -6425,7 +6561,7 @@
    "zip": 57103,
    "county": "MINNEHAHA",
    "owner": "JM BRC LLC",
-   "mail": "14413 178TH LN NE",
+   "mail": "14413 178TH LANE NE",
    "mail_city": "WOODINVILLE",
    "mail_state": "WA",
    "mail_zip": "98072",
@@ -10943,7 +11079,7 @@
    "zip": 57104,
    "county": "MINNEHAHA",
    "owner": "FRAGER, STEVEN R & FRAGER, CATHERINE K",
-   "mail": "1209 S W AVE",
+   "mail": "1209 S WEST AVE",
    "mail_city": "SIOUX FALLS",
    "mail_state": "SD",
    "mail_zip": "57105",
@@ -11365,7 +11501,7 @@
   {
    "tag": "012229326008000",
    "cid": "25386",
-   "addr": "2600 S W AVE",
+   "addr": "2600 S WEST AVE",
    "zip": 57105,
    "county": "MINNEHAHA",
    "owner": "PARSONS, JAY W & PARSONS, MELANIE L",
@@ -11769,7 +11905,7 @@
   {
    "tag": "012229304037000",
    "cid": "25431",
-   "addr": "2909 S W AVE",
+   "addr": "2909 S WEST AVE",
    "zip": 57105,
    "county": "MINNEHAHA",
    "owner": "HANSON, JAY D",
@@ -11797,6 +11933,56 @@
       "legal": "N 50' S 175' E1/2 Block 20 Belleview Park Addn",
       "section": "Sioux Falls City",
       "year": 2025
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012229379003000",
+   "cid": "42868",
+   "addr": "3008 S WEST AVE",
+   "zip": 57105,
+   "county": "MINNEHAHA",
+   "owner": "GARCIA, GLORY & GREENE, SAVON",
+   "mail": "3008 S WEST AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57105",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.15,
+   "sqft": 6600.0,
+   "activity": "11 - Single-Family",
+   "score": 50,
+   "why": [
+    "1 code citation",
+    "sheriff sale 2026-12-02, judgment $250,630"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2025-09-04",
+      "addr": "3008 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ],
+    "foreclosure": [
+     {
+      "case": "49CIV25-003449",
+      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
+      "defendant": "GLORY GARCIA AND SAVON GREENE",
+      "attorney": "HALLIDAY",
+      "addr_raw": "3008 S WEST AVE SFSD 57105",
+      "addr": "3008 S WEST AVE",
+      "judgment": 250630.58,
+      "sale_date": "2026-12-02",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
      }
     ]
    },
@@ -15322,7 +15508,7 @@
    "zip": 57110,
    "county": "MINNEHAHA",
    "owner": "MJ DEROCHER LLC",
-   "mail": "17435 HWY 3",
+   "mail": "17435 HIGHWAY 3",
    "mail_city": "AKRON",
    "mail_state": "IA",
    "mail_zip": "51001",
@@ -18389,7 +18575,7 @@
   {
    "tag": "012220359011000",
    "cid": "41871",
-   "addr": "1617 S W AVE",
+   "addr": "1617 S WEST AVE",
    "zip": 57105,
    "county": "MINNEHAHA",
    "owner": "GERRY & WILEY CAPITAL LLC",
@@ -20382,7 +20568,7 @@
   {
    "tag": "012217305003000",
    "cid": "29214",
-   "addr": "226 N W AVE",
+   "addr": "226 N WEST AVE",
    "zip": 57104,
    "county": "MINNEHAHA",
    "owner": "ZARA PROPERTIES LLC",
@@ -26161,7 +26347,7 @@
   {
    "tag": "012220106021000",
    "cid": "33459",
-   "addr": "523 S W AVE",
+   "addr": "523 S WEST AVE",
    "zip": 57104,
    "county": "MINNEHAHA",
    "owner": "SWEET HOME LLC",
@@ -28167,7 +28353,7 @@
   {
    "tag": "012220151017000",
    "cid": "31156",
-   "addr": "729 S W AVE",
+   "addr": "729 S WEST AVE",
    "zip": 57104,
    "county": "MINNEHAHA",
    "owner": "DSW PROPERTIES LLC",
@@ -28456,6 +28642,41 @@
       "legal": "S 22 1/4' 10 & N 32 3/4' Lot 11 Pitcher",
       "section": "Sioux Falls City",
       "year": 2025
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012220155013000",
+   "cid": "31237",
+   "addr": "801 S WEST AVE",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "VUJOVIC, ANNA",
+   "mail": "15675 NE CLACKAMAS CT",
+   "mail_city": "PORTLAND",
+   "mail_state": "OR",
+   "mail_zip": "97230",
+   "occ": "N",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.13,
+   "sqft": 5838.0,
+   "activity": "11 - Single-Family",
+   "score": 45,
+   "why": [
+    "absentee",
+    "out of state",
+    "1 code citation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-09-15",
+      "addr": "801 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
      }
     ]
    },
@@ -29773,7 +29994,7 @@
    "zip": 57104,
    "county": "MINNEHAHA",
    "owner": "DOUGLAS STREET INVESTMENTS LLC",
-   "mail": "DOUGLAS ST PO BOX 1231",
+   "mail": "DOUGLAS STREET PO BOX 1231",
    "mail_city": "SIOUX FALLS",
    "mail_state": "SD",
    "mail_zip": "57101",
@@ -32353,7 +32574,7 @@
    "zip": 57110,
    "county": "MINNEHAHA",
    "owner": "MJ DEROCHER CONSTRUCTION LLC",
-   "mail": "17435 HWY 3",
+   "mail": "17435 HIGHWAY 3",
    "mail_city": "AKRON",
    "mail_state": "IA",
    "mail_zip": "51001",
@@ -35451,6 +35672,58 @@
       "addr": "3236 N AMERICUS CIR",
       "type": "Health Nuisance Complaints",
       "action": "Health Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012229358017000",
+   "cid": "42812",
+   "addr": "3301 S WEST AVE",
+   "zip": 57105,
+   "county": "MINNEHAHA",
+   "owner": "FEELDY, CHAD & FEELDY, CORINNA",
+   "mail": "43750 272ND ST",
+   "mail_city": "HARRISBURG",
+   "mail_state": "SD",
+   "mail_zip": "57032",
+   "occ": "N",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.18,
+   "sqft": 7788.0,
+   "activity": "11 - Single-Family",
+   "score": 35,
+   "why": [
+    "absentee",
+    "2 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-06-05",
+      "addr": "3301 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2025-05-21",
+      "addr": "3301 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2024-01-29",
+      "addr": "3301 S WEST AVE",
+      "type": "Snow",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2023-06-01",
+      "addr": "3301 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
      }
     ]
    },
@@ -38710,6 +38983,64 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "012217102017000",
+   "cid": "71126",
+   "addr": "809 N WEST AVE",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "HOSPITALITY APARTMENTS LIMITED & PARTNERSHIP",
+   "mail": "201 N MINNESOTA AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "N",
+   "landuse": 140,
+   "units": 0,
+   "acres": 2.14,
+   "sqft": 93100.0,
+   "activity": "52 - Moderate-Intensity Commercial",
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code citation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-08-20",
+      "addr": "809 N WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2024-11-13",
+      "addr": "809 N WEST AVE",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 3rd or Subsequent"
+     },
+     {
+      "date": "2024-10-10",
+      "addr": "809 N WEST AVE",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 2nd"
+     },
+     {
+      "date": "2024-09-23",
+      "addr": "809 N WEST AVE",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 1st"
+     },
+     {
+      "date": "2024-05-24",
+      "addr": "809 N WEST AVE",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "012233427011000",
    "cid": "49549",
    "addr": "812 E TOMAR PL",
@@ -39896,11 +40227,11 @@
   {
    "tag": "012217306005000",
    "cid": "29230",
-   "addr": "110 N W AVE",
+   "addr": "110 N WEST AVE",
    "zip": 57104,
    "county": "MINNEHAHA",
    "owner": "CYR, TIMOTHY R",
-   "mail": "110 N W AVE",
+   "mail": "110 N WEST AVE",
    "mail_city": "SIOUX FALLS",
    "mail_state": "SD",
    "mail_zip": "57103",
@@ -41737,11 +42068,11 @@
   {
    "tag": "012220376005000",
    "cid": "34836",
-   "addr": "1412 S W AVE",
+   "addr": "1412 S WEST AVE",
    "zip": 57105,
    "county": "MINNEHAHA",
    "owner": "DENEVAN, DANIEL PATRICK",
-   "mail": "1412 S W AVE",
+   "mail": "1412 S WEST AVE",
    "mail_city": "SIOUX FALLS",
    "mail_state": "SD",
    "mail_zip": "57105",
@@ -46078,11 +46409,11 @@
   {
    "tag": "012229326018000",
    "cid": "25367",
-   "addr": "2800 S W AVE",
+   "addr": "2800 S WEST AVE",
    "zip": 57105,
    "county": "MINNEHAHA",
    "owner": "SCHWARTZ, JOHN & SCHWARTZ, KAREN  SCHWARTZ, JACK A",
-   "mail": "2800 S W AVE",
+   "mail": "2800 S WEST AVE",
    "mail_city": "SIOUX FALLS",
    "mail_state": "SD",
    "mail_zip": "57105",
@@ -46603,11 +46934,11 @@
   {
    "tag": "012217362001000",
    "cid": "29068",
-   "addr": "300 S W AVE",
+   "addr": "300 S WEST AVE",
    "zip": 57104,
    "county": "MINNEHAHA",
    "owner": "BIRD, SUANNE O ETAL",
-   "mail": "300 S W AVE",
+   "mail": "300 S WEST AVE",
    "mail_city": "SIOUX FALLS",
    "mail_state": "SD",
    "mail_zip": "57104",
@@ -47242,11 +47573,11 @@
   {
    "tag": "012217303005000",
    "cid": "38374",
-   "addr": "314 N W AVE",
+   "addr": "314 N WEST AVE",
    "zip": 57104,
    "county": "MINNEHAHA",
    "owner": "BUDDI, CHRISTINE",
-   "mail": "314 N W AVE",
+   "mail": "314 N WEST AVE",
    "mail_city": "SIOUX FALLS",
    "mail_state": "SD",
    "mail_zip": "57104",
@@ -53128,11 +53459,11 @@
   {
    "tag": "012220176001000",
    "cid": "31931",
-   "addr": "700 S W AVE",
+   "addr": "700 S WEST AVE",
    "zip": 57104,
    "county": "MINNEHAHA",
    "owner": "WALTER, VICKY L",
-   "mail": "700 S W AVE",
+   "mail": "700 S WEST AVE",
    "mail_city": "SIOUX FALLS",
    "mail_state": "SD",
    "mail_zip": "57104",
@@ -59660,6 +59991,45 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "012126426004000",
+   "cid": "46111",
+   "addr": "5519 W CIRCLE DR",
+   "zip": 57106,
+   "county": "MINNEHAHA",
+   "owner": "MUTSCHELKNAUS, TAVIA M",
+   "mail": "5519 W CIRCLE DR",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57106",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.24,
+   "sqft": 10488.0,
+   "activity": "11 - Single-Family",
+   "score": 25,
+   "why": [
+    "2 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2025-09-04",
+      "addr": "5519 W CIRCLE DR",
+      "type": "Vegetation",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2025-06-20",
+      "addr": "5519 W CIRCLE DR",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "022807250009000",
    "cid": "280.82.08.016",
    "addr": "5601 S MANDY AVE",
@@ -60530,6 +60900,45 @@
       "legal": "Lot 3 Block 28 Roosevelt Park",
       "section": "Sioux Falls City",
       "year": 2025
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012220155014000",
+   "cid": "31238",
+   "addr": "803 S WEST AVE",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "HOLDEN, DUNCAN P",
+   "mail": "803 S WEST AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.13,
+   "sqft": 5852.0,
+   "activity": "11 - Single-Family",
+   "score": 25,
+   "why": [
+    "2 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-08-24",
+      "addr": "803 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2026-06-09",
+      "addr": "803 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
      }
     ]
    },
@@ -64197,6 +64606,39 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "012229126010000",
+   "cid": "33081",
+   "addr": "1928 S WEST AVE",
+   "zip": 57105,
+   "county": "MINNEHAHA",
+   "owner": "NORSE, JESSICA",
+   "mail": "1928 S WEST AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57105",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.09,
+   "sqft": 3872.0,
+   "activity": "11 - Single-Family",
+   "score": 15,
+   "why": [
+    "1 code citation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2025-07-22",
+      "addr": "1928 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "012127230020000",
    "cid": "69548",
    "addr": "2000 S CAMPBELL TRL",
@@ -65179,6 +65621,51 @@
      {
       "date": "2024-06-25",
       "addr": "2316 E 12TH ST",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012229188002000",
+   "cid": "33371",
+   "addr": "2404 S WEST AVE",
+   "zip": 57105,
+   "county": "MINNEHAHA",
+   "owner": "GRIEBEL, CHRISTINE",
+   "mail": "2404 S WEST AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57105",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.15,
+   "sqft": 6468.0,
+   "activity": "11 - Single-Family",
+   "score": 15,
+   "why": [
+    "2 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-07-06",
+      "addr": "2404 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2025-09-15",
+      "addr": "2404 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2023-08-09",
+      "addr": "2404 S WEST AVE",
       "type": "Vegetation",
       "action": "Citation - 1st"
      }
@@ -66803,6 +67290,39 @@
       "date": "2026-09-02",
       "addr": "3608 S ANITA AVE",
       "type": "Building Service",
+      "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012232154014000",
+   "cid": "26297",
+   "addr": "3701 S WEST AVE",
+   "zip": 57105,
+   "county": "MINNEHAHA",
+   "owner": "HEARTING, DAYLE",
+   "mail": "3701 S WEST AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57105",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.23,
+   "sqft": 10041.0,
+   "activity": "11 - Single-Family",
+   "score": 15,
+   "why": [
+    "1 code citation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-05-13",
+      "addr": "3701 S WEST AVE",
+      "type": "Vegetation",
       "action": "Citation - 1st"
      }
     ]
@@ -70065,6 +70585,39 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "012220106023000",
+   "cid": "33461",
+   "addr": "533 S WEST AVE",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "SICHMELLER, KELLI & SICHMELLER, MECARTE",
+   "mail": "533 S WEST AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.14,
+   "sqft": 6081.0,
+   "activity": "11 - Single-Family",
+   "score": 15,
+   "why": [
+    "1 code citation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2025-06-20",
+      "addr": "533 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "012220105021000",
    "cid": "33505",
    "addr": "535 S GLENDALE AVE",
@@ -70907,6 +71460,39 @@
       "date": "2022-08-17",
       "addr": "601 S WALTS AVE",
       "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012220112007000",
+   "cid": "33480",
+   "addr": "605 S WEST AVE",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "CASTELLUZZO, DONNA M",
+   "mail": "605 S WEST AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.15,
+   "sqft": 6386.0,
+   "activity": "11 - Single-Family",
+   "score": 15,
+   "why": [
+    "1 code citation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-05-20",
+      "addr": "605 S WEST AVE",
+      "type": "Building Service",
       "action": "Citation - 1st"
      }
     ]
@@ -72105,6 +72691,39 @@
       "addr": "709 N ANTHEM DR",
       "type": "Vegetation",
       "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012220151012000",
+   "cid": "31151",
+   "addr": "709 S WEST AVE",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "GUSE, GREGORY M",
+   "mail": "709 S WEST AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.13,
+   "sqft": 5825.0,
+   "activity": "11 - Single-Family",
+   "score": 15,
+   "why": [
+    "1 code citation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-01-05",
+      "addr": "709 S WEST AVE",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 1st"
      }
     ]
    },
@@ -74996,5 +75615,5 @@
    "as_of": "2026-11-10"
   }
  ],
- "absentee_only": 10558
+ "absentee_only": 10554
 }

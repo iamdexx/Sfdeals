@@ -468,6 +468,18 @@
   "text": "Fences; Open Storage; Porch; Status Unit; Walls"
  },
  {
+  "id": 2073741,
+  "date": "2026-11-10",
+  "addr": "5241 ENRIGHT AVE",
+  "pid": "48469340000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 4,
+  "text": "Gutters/Downspout; Porch; Walls; Windows"
+ },
+ {
   "id": 2065527,
   "date": "2026-11-09",
   "addr": "5110 CATES AVE",
