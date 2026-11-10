@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="apple-mobile-web-app-capable" content="yes"><meta name="theme-color" content="#111">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="theme-color" content="#0f1115"><link rel="manifest" href="/manifest.json"><link rel="apple-touch-icon" href="/icon-192.png">
 <title>Deals</title>
 <style>
 :root{--bg:#0f1115;--card:#1a1d24;--mut:#8b93a3;--fg:#f2f4f8;--acc:#3ddc84;--warn:#ffb020;--bad:#ff5a5f;--line:#2a2f3a}
@@ -234,4 +234,5 @@ function exportState(){const a=document.createElement('a');a.href=URL.createObje
 function importState(i){const r=new FileReader();r.onload=()=>{localStorage[MK.key]=r.result;location.reload()};r.readAsText(i.files[0])}
 window.onhashchange=()=>{const v=location.hash.slice(1);if(v&&v!==view)go(v)};
 load();
+if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js').catch(()=>{});
 </script></body></html>
