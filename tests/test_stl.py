@@ -70,3 +70,14 @@ def test_city_recorder_row():
                            "Parties": [{"PartyTypeId": 1, "Name": "EAST", "AdditionalName": "LEONARD O"}, {"PartyTypeId": 2, "Name": "MILLSAP & SINGER P C "}]}, "pre-foreclosure")
     assert r["date"] == "2026-11-10" and r["addrs"] == ["2123 ALFRED AVE"] and r["pids"] == ["59019200000"]
     assert r["trustee"] == "MILLSAP & SINGER P C" and r["parties"] == ["EAST LEONARD O"]
+
+
+def test_stl_quality_rules():
+    from sfdeals.stl import score
+    city = {"county": "St. Louis City", "value": 10000, "tax_bal": 950}
+    assert score.market_value(city) == 52632 and not score.tax_delinquent(city)
+    assert score.tax_delinquent({"county": "St. Louis City", "value": 10000, "tax_bal": 2600})
+    assert score.market_value({"county": "St. Louis County", "value": 150000}) == 150000
+    assert score.vacant_weight(2025, 2026)[0] == score.W["vacant_new"]
+    assert score.vacant_weight(2018, 2026)[0] == score.W["vacant_mid"]
+    assert score.vacant_weight(1997, 2026) == (score.W["vacant_old"], "vacant 29+ years")

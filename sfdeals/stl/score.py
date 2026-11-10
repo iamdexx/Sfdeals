@@ -3,9 +3,36 @@ import datetime as dt
 from collections import defaultdict
 from ..util import load, save, GOVBANK, ENTITY
 
-W = {"absentee": 20, "out_of_state": 10, "tax": 30, "tax_big": 10, "vacant": 30, "vacant_bad": 10,
-     "condemned": 35, "secure": 25, "violation": 15, "landtax": 35, "county_vacant": 15, "taxsale": 45, "trustee": 60, "preforeclosure": 50, "entity": -5}
+W = {"absentee": 20, "out_of_state": 10, "tax": 30, "tax_big": 10, "vacant_new": 30, "vacant_mid": 15, "vacant_old": 5, "vacant_bad": 10,
+     "condemned": 35, "secure": 25, "violation": 15, "landtax": 35, "county_vacant": 15, "taxsale": 45, "trustee": 60, "preforeclosure": 50, "entity": -15}
 INSPECT_DAYS = 548
+CITY_ASSESS = 0.19          # city AsdTotal is 19% of market value; county TOTAPVAL is already market
+CITY_TAX_RATE = 0.09        # about one year of city tax as a share of assessed value
+MIN_MARKET = 25000          # below this it is a shell or a lot, not a wholesale deal
+STRONG = ("trustee", "taxsale", "landtax", "recorder")
+
+
+def market_value(p):
+    v = p.get("value") or 0
+    return round(v / CITY_ASSESS) if p["county"] == "St. Louis City" else v
+
+
+def tax_delinquent(p):
+    """City TaxBalance includes the current year's bill, which is not late until Jan 1. Only count
+    balances clearly bigger than one year's tax."""
+    bal = p.get("tax_bal") or 0
+    one_year = CITY_TAX_RATE * (p.get("value") or 0)
+    return bal > max(1500, 1.4 * one_year)
+
+
+def vacant_weight(vac_year, this_year):
+    """2018 is when the city registry was bulk loaded, so 2018 means 'at least since 2018'."""
+    age = this_year - vac_year
+    if age <= 3:
+        return W["vacant_new"], "vacant building since %d" % vac_year
+    if age <= 8 or vac_year == 2018:
+        return W["vacant_mid"], "vacant building since %d" % vac_year
+    return W["vacant_old"], "vacant %d+ years" % age
 
 
 def street_key(addr):
@@ -74,6 +101,7 @@ def run():
     vac = load("vacant.json", {}) or {}
 
     today = dt.date.today().isoformat()
+    this_year = dt.date.today().year
     leads = []
     for p in parcels:
         s = sig.get(p["tag"])
@@ -83,23 +111,27 @@ def run():
             continue
         if GOVBANK.search(p["owner"]) or not p["owner"]:
             continue
-        score, why, signals = 0, [], {}
+        score, why, signals, strong = 0, [], {}, bool(s and any(s.get(k) for k in STRONG))
         if absentee:
             score += W["absentee"]; why.append("absentee")
             if p["mail_state"] and p["mail_state"] != "MO":
                 score += W["out_of_state"]; why.append("out of state")
-        if p["tax_bal"] > 0:
+        if tax_delinquent(p):
+            strong = True
             score += W["tax"]; why.append("tax delinquent $%s" % format(int(p["tax_bal"]), ","))
             if p["tax_bal"] > 5000:
                 score += W["tax_big"]
-            signals["tax"] = [{"amount": p["tax_bal"], "year": "", "legal": "city tax balance"}]
+            signals["tax"] = [{"amount": p["tax_bal"], "year": "", "legal": "city tax balance, more than a year behind"}]
         if p["vac_year"]:
-            score += W["vacant"]; why.append("vacant building since %s" % p["vac_year"])
+            w, label = vacant_weight(p["vac_year"], this_year)
+            strong = strong or w >= W["vacant_mid"]
+            score += w; why.append(label)
             if vb and (vb.get("vmaj") or vb.get("unpd")):
                 score += W["vacant_bad"]
             signals["vacant"] = [{**(vb or {}), "year": p["vac_year"]}]
         ins = (s or {}).get("inspections", [])
         if ins:
+            strong = True
             kinds = {i["kind"] for i in ins}
             if "condemned" in kinds:
                 score += W["condemned"]; why.append("condemned")
@@ -112,6 +144,7 @@ def run():
         if s and s["landtax"]:
             score += W["landtax"]; why.append("land tax sale"); signals["landtax"] = s["landtax"]
         if s and s["county_vacant"]:
+            strong = True
             score += W["county_vacant"]; why.append("vacant (county survey)"); signals["county_vacant"] = s["county_vacant"]
         if s and s["taxsale"]:
             score += W["taxsale"]; why.append("county tax sale (%s)" % s["taxsale"][0]["status"].lower()); signals["taxsale"] = s["taxsale"]
@@ -120,12 +153,14 @@ def run():
         if s and s["recorder"]:
             score += W["preforeclosure"]; why.append("pre-foreclosure filed %s" % s["recorder"][0]["date"]); signals["recorder"] = s["recorder"]
         if ENTITY.search(p["owner"]):
-            score += W["entity"]
+            score += W["entity"]; why.append("investor owned")
         if score <= 0:
             continue
-        leads.append({**p, "score": score, "why": why, "signals": signals, "as_of": today})
+        mkt = market_value(p)
+        cheap = mkt and mkt < MIN_MARKET and not (s and (s.get("trustee") or s.get("recorder")))
+        leads.append({**p, "mkt": mkt, "score": score, "why": why, "signals": signals, "as_of": today, "hot": bool(strong and not cheap)})
     leads.sort(key=lambda x: (-x["score"], x["addr"]))
-    hot = [l for l in leads if l["why"] not in (["absentee"], ["absentee", "out of state"])]
+    hot = [l for l in leads if l.pop("hot")]
     top = hot[:2500] + [l for l in hot[2500:] if any(k in l["signals"] for k in KEEP)]
     save("leads.json", {"as_of": today, "updated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "count": len(leads), "hot": len(hot), "leads": top,
                         "absentee_only": len(leads) - len(hot),
