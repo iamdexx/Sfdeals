@@ -2,7 +2,7 @@
 filter, plus every parcel that carries a signal (fetched by id so the filter never hides them)."""
 import re
 from ..util import save, load, norm_addr
-from ..stl import arcgis
+from ..stl import arcgis, ms_date
 from . import metros
 
 NUM = re.compile(r"[^0-9.]")
@@ -15,6 +15,19 @@ def num(v):
         return float(NUM.sub("", str(v))) if NUM.sub("", str(v)) else None
     except ValueError:
         return None
+
+
+def sale_date(v):
+    """'03/01/2013', '2013-03-01' or an ArcGIS ms epoch -> 'YYYY-MM-DD'."""
+    if not v:
+        return ""
+    if isinstance(v, (int, float)):
+        return ms_date(v)
+    v = str(v).strip()
+    m = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})", v)
+    if m:
+        return "%s-%02d-%02d" % (m.group(3), int(m.group(1)), int(m.group(2)))
+    return v[:10] if re.match(r"\d{4}-\d{2}-\d{2}", v) else ""
 
 
 def pick(a, f):
@@ -41,7 +54,7 @@ def row(a, spec, county, state):
         "mail_zip": str(g("mail_zip") or "").strip()[:5], "occ": occ, "landuse": g("landuse"),
         "units": int(num(g("units")) or 1), "sqft": None, "res_sqft": int(num(g("res_sqft")) or 0) or None,
         "year": int(year) if year else None, "value": int(value) if value else None, "tax_bal": 0, "vac_year": 0,
-        "sale_date": (g("sale_date") or "") if isinstance(g("sale_date"), str) else "", "sale_price": int(price) if price else None,
+        "sale_date": sale_date(g("sale_date")), "sale_price": int(price) if price else None,
         "home_state": state,
         "x": {k: a.get(k) for k in spec.get("extra", [])},
     }

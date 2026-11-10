@@ -41,7 +41,7 @@ METROS = {
                 "where": "DOR_C LIKE '01%' AND OWNER NOT LIKE '%CONFIDENTIAL%' AND (HX_YEAR IS NULL OR HX_YEAR = 0 OR STATE <> 'FL' OR B1_COND_DSC = 'Poor')",
                 "map": {"tag": "FOLIO", "addr": "SITE_ADDR", "zip": "SITE_ZIP", "muni": "SITE_CITY", "owner": "OWNER", "mail": "ADDR_1",
                         "mail_city": "CITY", "mail_state": "STATE", "mail_zip": "ZIP", "landuse": "DOR_C", "units": "tUNITS", "year": "ACT",
-                        "res_sqft": "HEAT_AR", "value": "JUST", "sale_price": "SALE1_PRC"},
+                        "res_sqft": "HEAT_AR", "value": "JUST", "sale_price": "SALE1_PRC", "sale_date": "SALE1_DATE"},
                 "occ_field": "HX_YEAR",
                 "extra": ["B1_COND_DSC", "SALE1_DEED_DSC", "SALE1_DATE", "PERMIT_COUNT"],
             },
@@ -67,7 +67,7 @@ METROS = {
                 "where": "txt_propertyuse_desc LIKE 'SINGLE%' AND (txt_state <> 'NC' OR txt_city <> situsaddress1juris)",
                 "map": {"tag": "pid", "addr": "situsaddress1", "muni": "situsaddress1juris", "owner": "full_owner_name", "mail": "txt_mailaddr1",
                         "mail_city": "txt_city", "mail_state": "txt_state", "mail_zip": "txt_zipcode", "landuse": "txt_propertyuse_desc",
-                        "value": "amt_totalvalue", "sale_price": "amt_price"},
+                        "value": "amt_totalvalue", "sale_price": "amt_price", "sale_date": "dte_dateofsale"},
                 "addr_strip": r"\s+(CHARLOTTE|MATTHEWS|MINT HILL|HUNTERSVILLE|CORNELIUS|DAVIDSON|PINEVILLE|STALLINGS)?\s*NC$",
             },
             "signals": [

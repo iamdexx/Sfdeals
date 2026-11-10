@@ -40,3 +40,13 @@ def test_addr_strip_clt():
     spec = metros.METROS["clt"]["counties"][0]["parcels"]
     r = parcels.row({"pid": "1", "situsaddress1": "2329 SANDERS AV CHARLOTTE NC", "full_owner_name": "X", "txt_mailaddr1": "2329 SANDERS AVE"}, spec, "Mecklenburg County", "NC")
     assert r["addr"] == "2329 SANDERS AVE" and r["mail"] == r["addr"]
+
+
+def test_sale_date_and_buyers():
+    from sfdeals.metro import score
+    import datetime as dt
+    assert parcels.sale_date("03/01/2013") == "2013-03-01" and parcels.sale_date(1678147200000) == "2023-03-07" and parcels.sale_date(None) == ""
+    recent = dt.date.today().isoformat()
+    ps = [{"owner": "ABC HOMES LLC", "sale_date": recent, "sale_price": 100000, "mail": "1 MAIN ST", "mail_city": "Tampa", "mail_state": "FL"}] * 2 + [{"owner": "JOE SMITH", "sale_date": recent, "sale_price": 1, "mail": "", "mail_city": "", "mail_state": ""}]
+    b = score.cash_buyers(ps)
+    assert b == [{"name": "ABC HOMES LLC", "buys": 2, "total": 200000, "last": recent, "mail": "1 MAIN ST, Tampa FL"}]
