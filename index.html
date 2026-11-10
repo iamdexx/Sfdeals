@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="theme-color" content="#111">
+<title>SF Deals</title>
+<style>
+:root{--bg:#0f1115;--card:#1a1d24;--mut:#8b93a3;--fg:#f2f4f8;--acc:#3ddc84;--warn:#ffb020;--bad:#ff5a5f;--line:#2a2f3a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.4 -apple-system,system-ui,sans-serif;padding-bottom:70px}
+header{padding:14px 16px 8px;display:flex;justify-content:space-between;align-items:center}h1{font-size:20px;margin:0}
+.sub{color:var(--mut);font-size:13px}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
+nav button{flex:1;background:none;border:0;color:var(--mut);padding:10px 0 8px;font-size:12px}nav button.on{color:var(--acc)}
+main{padding:0 12px}
+.card{background:var(--card);border-radius:12px;padding:12px 14px;margin:8px 0;border:1px solid var(--line)}
+.row{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.addr{font-weight:600;font-size:17px}.score{font-weight:700;color:var(--acc);min-width:36px;text-align:right}
+.tag{display:inline-block;font-size:12px;background:#262b36;color:#cfd5e1;border-radius:6px;padding:2px 7px;margin:4px 4px 0 0}
+.tag.hot{background:#3a2a10;color:var(--warn)}.tag.fc{background:#3a1a1c;color:var(--bad)}
+.mut{color:var(--mut);font-size:13px}
+input,select,textarea{width:100%;background:#0f1115;color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:10px;font-size:16px;margin:6px 0}
+button.b{background:var(--acc);color:#000;border:0;border-radius:8px;padding:10px 14px;font-size:15px;font-weight:600;margin:6px 6px 6px 0}
+button.b.alt{background:#262b36;color:var(--fg)}button.b.bad{background:var(--bad);color:#fff}
+.hidden{display:none}.status{font-size:12px;border-radius:6px;padding:2px 7px;background:#262b36}
+.st-new{color:#cfd5e1}.st-called{color:var(--warn)}.st-talking{color:var(--acc)}.st-offer{color:var(--acc)}.st-contract{color:var(--acc);font-weight:700}.st-dead{color:var(--mut)}.st-closed{color:var(--acc);font-weight:700}
+.coach{background:#14261c;border:1px solid #1f3a2a;border-radius:12px;padding:12px 14px;margin:8px 0}.coach h4{margin:0 0 6px;color:var(--acc);font-size:15px}.coach ol,.coach ul{margin:6px 0 0 18px;padding:0}.coach li{margin:3px 0}
+details{margin:6px 0}summary{cursor:pointer;color:var(--acc)}pre{white-space:pre-wrap;background:#0f1115;border-radius:8px;padding:10px;font:14px/1.4 -apple-system,system-ui}
+.log{border-top:1px solid var(--line);padding:6px 0;font-size:14px}
+.calc td{padding:6px 4px}.calc input{margin:0}.big{font-size:26px;font-weight:700;color:var(--acc)}
+a{color:var(--acc)}
+</style></head><body>
+<header><div><h1 id="title">SF Deals</h1><div class="sub" id="sub">loading</div></div><button class="b alt" onclick="exportState()">Backup</button></header>
+<main id="main"></main>
+<nav>
+<button data-v="start" onclick="go('start')">Start</button>
+<button data-v="today" onclick="go('today')">Today</button>
+<button data-v="leads" onclick="go('leads')">Leads</button>
+<button data-v="calc" onclick="go('calc')">Offer</button>
+<button data-v="buyers" onclick="go('buyers')">Buyers</button>
+<button data-v="more" onclick="go('more')">More</button>
+</nav>
+<input type="file" id="imp" class="hidden" accept="application/json" onchange="importState(this)">
+<script>
+const $=s=>document.querySelector(s), M=$('#main');
+let leads=[],buyers=[],meta={},view='today',filter='',sig='all';
+const S=JSON.parse(localStorage.sfdeals||'{"crm":{},"buyers":[],"calc":{}}');
+const save=()=>localStorage.sfdeals=JSON.stringify(S);
+const crm=t=>S.crm[t]||(S.crm[t]={status:'new',log:[],next:'',notes:'',phone:''});
+const fmt=n=>'$'+Math.round(n||0).toLocaleString();
+const today=()=>new Date().toISOString().slice(0,10);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function load(){
+  try{const d=await (await fetch('data/leads.json?'+Date.now())).json();leads=d.leads;meta=d;}catch(e){meta={error:String(e)}}
+  try{buyers=await (await fetch('data/buyers.json?'+Date.now())).json()}catch(e){buyers=[]}
+  $('#sub').textContent=meta.as_of?`${meta.hot} hot leads, ${meta.absentee_only} absentee only, data ${meta.as_of}`:'no data yet (nightly job has not run)';
+  go(location.hash.slice(1)||(S.seen?'today':'start'));S.seen=1;save();
+}
+function go(v){view=v;location.hash=v;document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.v===v));({start,today:todayView,leads:leadsView,calc,buyers:buyersView,more,lead})[v.split(':')[0]](v.split(':')[1]);window.scrollTo(0,0)}
+function tags(l){return l.why.map(w=>`<span class="tag ${/sheriff|bank/.test(w)?'fc':/tax|citation/.test(w)?'hot':''}">${esc(w)}</span>`).join('')}
+function card(l){const c=crm(l.tag);return `<div class="card" onclick="go('lead:${l.tag}')"><div class="row"><div class="addr">${esc(l.addr)}</div><div class="score">${l.score}</div></div>
+<div class="mut">${esc(l.owner)} ${l.mail&&l.mail!==l.addr?'· mails to '+esc(l.mail_city||l.mail):''}</div><div>${tags(l)} <span class="status st-${c.status}">${c.status}</span>${c.next?` <span class="mut">next ${c.next}</span>`:''}</div></div>`}
+function todayView(){
+  const d=today(),due=leads.filter(l=>{const c=S.crm[l.tag];return c&&c.next&&c.next<=d&&c.status!=='dead'});
+  const fresh=leads.filter(l=>!S.crm[l.tag]).slice(0,10);
+  M.innerHTML=`<h3>Follow-ups due (${due.length})</h3>${due.map(card).join('')||'<div class="mut">Nothing due.</div>'}
+  <h3>Next 10 to call</h3>${fresh.map(card).join('')||'<div class="mut">All leads touched. Nice.</div>'}
+  <div class="card mut">Rule: 20 dials a day. Log every call, even no answer, and set a next date. <a href="docs/call-script.md">Call script</a></div>`}
+function leadsView(){
+  const q=filter.toLowerCase(),list=leads.filter(l=>(sig==='all'||l.why.some(w=>w.includes(sig)))&&(!q||l.addr.toLowerCase().includes(q)||l.owner.toLowerCase().includes(q)||(S.crm[l.tag]?.notes||'').toLowerCase().includes(q)));
+  M.innerHTML=`<input placeholder="Search address, owner, notes" value="${esc(filter)}" oninput="filter=this.value;leadsView()">
+  <select onchange="sig=this.value;leadsView()">${['all','sheriff','tax','citation','absentee','out of state'].map(s=>`<option ${s===sig?'selected':''}>${s}</option>`).join('')}</select>
+  <div class="mut">${list.length} leads</div>${list.slice(0,200).map(card).join('')}${list.length>200?'<div class="mut">Showing 200. Narrow the search.</div>':''}`}
+function lead(tag){
+  const l=leads.find(x=>x.tag===tag);if(!l)return go('leads');const c=crm(tag);
+  const fc=(l.signals.foreclosure||[])[0];
+  M.innerHTML=`<button class="b alt" onclick="history.back()">Back</button>
+  <div class="card"><div class="row"><div class="addr">${esc(l.addr)}</div><div class="score">${l.score}</div></div>
+  <div class="mut">Parcel ${l.tag} · ${esc(l.county)} · ${l.units||1} unit · ${l.sqft?Math.round(l.sqft/43560*100)/100+' ac lot':''}</div><div>${tags(l)}</div>
+  <p><b>Owner</b> ${esc(l.owner)}<br><b>Mails to</b> ${esc(l.mail)}, ${esc(l.mail_city)} ${esc(l.mail_state)} ${esc(l.mail_zip)}</p>
+  ${fc?`<p><b>Sheriff sale</b> ${fc.sale_date||''} · ${esc(fc.plaintiff)} vs ${esc(fc.defendant)} · judgment ${fmt(fc.judgment)} · case ${fc.case}</p>`:''}
+  ${(l.signals.tax||[]).map(t=>`<p><b>Tax</b> ${t.year} ${fmt(t.amount)} owed · ${esc(t.legal)}</p>`).join('')}
+  ${(l.signals.citations||[]).map(x=>`<div class="log">${x.date} ${esc(x.type)} · ${esc(x.action)}</div>`).join('')}
+  <p><a href="https://beacon.schneidercorp.com/Application.aspx?AppID=94&LayerID=887&PageTypeID=2&KeyValue=${encodeURIComponent(l.cid||l.tag)}" target="_blank">Beacon</a> · <a href="https://www.google.com/maps?q=${encodeURIComponent(l.addr+' Sioux Falls SD')}" target="_blank">Map</a> · <a href="https://www.zillow.com/homes/${encodeURIComponent(l.addr+' Sioux Falls SD')}_rb/" target="_blank">Zillow</a> · <a href="https://www.google.com/search?q=${encodeURIComponent('"'+l.owner.split(' & ')[0]+'" Sioux Falls phone')}" target="_blank">Find phone</a></p></div>
+  ${coach(l,c)}
+  <div class="card"><b>CRM</b>
+  <input placeholder="Phone" value="${esc(c.phone)}" onchange="crm('${tag}').phone=this.value;save()">
+  ${c.phone?`<a class="b" style="display:inline-block;text-decoration:none" href="tel:${esc(c.phone)}">Call ${esc(c.phone)}</a>`:''}
+  <select onchange="crm('${tag}').status=this.value;save()">${['new','called','talking','offer','contract','closed','dead'].map(s=>`<option ${s===c.status?'selected':''}>${s}</option>`).join('')}</select>
+  <label class="mut">Next follow-up</label><input type="date" value="${c.next}" onchange="crm('${tag}').next=this.value;save()">
+  <div>${[1,3,7,30,60].map(d=>`<button class="b alt" onclick="bump('${tag}',${d})">+${d}d</button>`).join('')}</div>
+  <textarea rows="3" placeholder="Notes: situation, mortgage, condition, their number" onchange="crm('${tag}').notes=this.value;save()">${esc(c.notes)}</textarea>
+  <input id="logtxt" placeholder="Log a call: no answer / left vm / talked ...">
+  <div>${['No answer','Left VM','Talked','Not selling','Wrong number','Knocked'].map(t=>`<button class="b alt" onclick="addLog('${tag}','${t}')">${t}</button>`).join('')}<button class="b" onclick="addLog('${tag}',$('#logtxt').value)">Log</button></div>
+  ${c.log.slice().reverse().map(x=>`<div class="log"><span class="mut">${x.d}</span> ${esc(x.t)}</div>`).join('')}</div>`}
+function bump(tag,d){const c=crm(tag);const x=new Date();x.setDate(x.getDate()+d);c.next=x.toISOString().slice(0,10);if(c.status==='new')c.status='called';save();lead(tag)}
+function addLog(tag,t){if(!t)return;const c=crm(tag);c.log.push({d:today(),t});if(c.status==='new')c.status='called';save();lead(tag)}
+const STEPS={
+ new:{t:'Step 1 of 6: find the phone and make the first call',why:'Nobody sells to a stranger they have not talked to. This call is only to find out if they would sell.',
+  do:['Tap "Find phone" above. Try the owner name plus Sioux Falls. Whitepages and FastPeopleSearch are free. No luck? Mark it and move on, we can skip trace later for $0.15.','Call. Opener: "Hi, is this [name]? I\'m Deaven, a local investor in Sioux Falls. I\'m calling about the house at [address]. Do you still own it? Have you thought about selling?"','Yes or maybe: set status to Talking. No: log it, set +60d. No answer: log it, set +3d.'],
+  tip:'20 calls a day. Most deals come on call 4 to 8, so a no answer is not a no.'},
+ called:{t:'Step 2 of 6: keep following up',why:'Most owners say no the first three times and yes the fourth, usually when something in their life changes.',
+  do:['Call again on the next date. Different time of day than last time.','No answer twice? Send a short handwritten note to the mailing address above: "I buy houses in your neighborhood as is for cash. If you ever think about selling [address], call me. Deaven, [phone]."','Still nothing after 4 tries? Knock on the door if someone lives there, or set +60d and move on.'],
+  tip:'Log every touch, even no answers. The app shows you who is due each morning.'},
+ talking:{t:'Step 3 of 6: visit, then run the numbers',why:'You need two numbers before you offer: what it sells for fixed up (ARV) and what the repairs cost.',
+  do:['On the phone ask: what is the situation, when would you want to close, is there a mortgage and roughly what is owed, what condition, do you have a number in mind.','Book a 15 minute walk-through. Take photos of kitchen, baths, roof, furnace, water heater, any water stains.','ARV: open Zillow (link above), look at 3 sold homes nearby in the last 6 months with the same beds and size. Use the middle one.','Repairs: cosmetic 15-25k, kitchen and baths 35-50k, roof 12-18k, furnace and AC 8-12k, gut 60-90k.','Go to the Offer tab, enter ARV, repairs, $10k fee. Offer 10% under the max it shows. Say it plainly: "I can do $X, cash, as is, close when you want." Then be quiet.','They accept or counter inside your max? Set status to Offer.'],
+  tip:'Never offer on the first call and never above the max. If mortgage plus back taxes are more than your max, there is no deal; say so kindly and set +90d.'},
+ offer:{t:'Step 4 of 6: get it in writing',why:'A verbal yes is worth nothing. A signed purchase agreement with an assignment clause is the thing you sell.',
+  do:['Fill in the purchase agreement draft (More tab) with price, address, 10 day inspection period, closing in 30 days, "and/or assigns" as buyer. Have your attorney bless the template once before the first use.','Sign it with the seller, in person. Tell them plainly you may assign it to a partner. It is in the contract too.','Earnest money: $100 to $500, paid to a title company (DakotAbstract, First American, Midwest Land Title in Sioux Falls), never to the seller. Send the title company the signed contract and ask them to open title.','Set status to Contract. The 10 day clock starts today.'],
+  tip:'If the seller wants more than $500 earnest money, offer a faster closing instead.'},
+ contract:{t:'Step 5 of 6: find your buyer inside 10 days',why:'Your inspection period is your safety net. If no buyer shows up in 10 days you cancel in writing and get your earnest money back.',
+  do:['Buyers tab: call every buyer on your list and the sheriff sale investors. Facebook: "Sioux Falls Real Estate Investors", "SD Wholesale Deals", Craigslist real estate wanted. Every "We Buy Houses" sign and bandit sign in town is a buyer, call the number.','Send the blast below. Price to the buyer = your contract price plus your fee.','Buyer says yes: fill the assignment draft (More tab), buyer pays a non-refundable $2-5k deposit to the title company, balance of your fee at closing.','No buyer by day 8? Lower your fee, then lower it again. Day 10 and still nothing: cancel in writing, get the earnest money back, and tell the seller you will keep trying.','Buyer signed? Send the assignment to the title company and set the closing date.'],
+  tip:'A buyer will try to go around you to the seller. Do not give out the seller\'s phone until the assignment is signed.'},
+ closed:{t:'Step 6 of 6: closing',why:'The title company runs this day. You show up, sign one page, and get a check.',
+  do:['Confirm with the title company 3 days before: buyer funds in, seller signing scheduled, your assignment fee on the settlement statement.','Closing day: seller signs the deed, buyer wires money, title pays the mortgage and back taxes, then the seller, then you.','Ask the buyer what else they want to buy. Ask the seller if they know anyone else who needs to sell. Both are your next deals.'],
+  tip:'Set aside 25% of the check for taxes. This is self-employment income.'},
+ dead:{t:'Not now. Check back later.',why:'Half of all deals come from "no" leads that changed their mind months later.',do:['Set +60d or +90d and move on. Keep it short and friendly if they call back.'],tip:''}
+};
+function coach(l,c){const st=STEPS[c.status]||STEPS.new;const price=S.calc.arv?Math.round(S.calc.arv*(S.calc.pct??70)/100-(S.calc.rep||0)):0;
+ const blast=c.status==='contract'?`<details><summary>Buyer blast text (tap, then copy)</summary><pre>Off market in Sioux Falls: ${esc(l.addr)}. ${l.units>1?l.units+' units':'Single family'}, ${l.sqft?Math.round(l.sqft/43560*100)/100+' acre lot':''}. Needs work. Under contract, assignable. Price $${(price||0).toLocaleString()} cash, close in 2-3 weeks through the title company. ARV about $${(S.calc.arv||0).toLocaleString()}. First to put down a deposit gets it. Call or text Deaven.</pre></details>`:'';
+ return `<div class="coach"><h4>${st.t}</h4><div class="mut">${st.why}</div><ol>${st.do.map(d=>`<li>${d}</li>`).join('')}</ol>${st.tip?`<div class="mut" style="margin-top:6px">Tip: ${st.tip}</div>`:''}${blast}</div>`}
+function start(){
+ M.innerHTML=`<div class="card"><b>What this is, in plain words</b><p>You find a house owner who wants out, agree on a cheap price in writing, then hand that signed agreement to an investor who pays you a fee for finding it. You never buy the house, never fix it, never borrow money. The fee in Sioux Falls is usually $5,000 to $15,000 a deal.</p>
+ <p><b>How you get paid, one example.</b> House is worth $180,000 fixed up. Owner is behind on taxes and tired. You agree on $80,000 and both sign. An investor wants it at $90,000. At closing the title company pays off the owner's mortgage and taxes, pays the owner the rest, and writes you a $10,000 check for the difference. Your only money in was a $200 deposit, and you get that back too.</p></div>
+ <div class="card"><b>The six steps</b><ol>
+ <li><b>Call.</b> The app ranks owners most likely to sell. You call and ask one question: would you sell, as is, for cash?</li>
+ <li><b>Follow up.</b> Most say no the first time. Call back on the date the app gives you.</li>
+ <li><b>Visit and run the numbers.</b> Walk the house, pick a fixed-up value from Zillow, guess repairs, the Offer tab gives your max.</li>
+ <li><b>Sign.</b> Purchase agreement with a 10 day out. $100-500 earnest money to a title company.</li>
+ <li><b>Find your buyer in 10 days.</b> Call investors, send the blast, buyer signs the assignment and puts down a deposit.</li>
+ <li><b>Close.</b> Title company does it. You sign one page and collect the fee.</li></ol>
+ <div class="mut">Open any lead and the green box tells you which step you are on and exactly what to do next.</div></div>
+ <div class="card"><b>Your daily plan, about an hour</b><ul><li>Today tab. Call everyone under "Follow-ups due" first.</li><li>Then 20 new calls from "Next 10 to call" (it refills).</li><li>Log every call, even no answer. Set a next date on every lead.</li><li>Saturday: drive the top 10, knock where someone lives, leave a note where nobody does.</li></ul>
+ <div class="mut">Expect 50 to 100 calls per owner who says yes, and 2 to 4 of those before one signs. First check in 60 to 90 days if you do this daily.</div></div>
+ <div class="card"><b>Rules that keep you out of trouble</b><ul><li>Never pay the owner's taxes or mortgage for them.</li><li>Never say you are buying with your own cash. Say "my partners and I".</li><li>Never sign without the 10 day inspection out.</li><li>Never use an option agreement, only a purchase agreement. South Dakota treats options as broker work.</li><li>Never text blast or robocall owners. Dial, write, knock.</li><li>Get the two contract drafts checked by a Sioux Falls real estate attorney once, $300-500.</li></ul></div>
+ <div class="card"><b>Money you need</b><div class="mut">About $500 total: earnest money $100-500 (returned or credited), attorney review $300-500 once, phone lookups $0.15 each when you want them. Everything else is your time.</div></div>
+ <div class="card"><b>Words you will hear</b><ul class="mut">
+ <li><b>ARV</b>: after repair value, what it sells for fixed up.</li><li><b>MAO</b>: max allowable offer, the Offer tab number.</li><li><b>As is</b>: buyer takes it in current condition.</li><li><b>Earnest money</b>: small deposit showing you are serious, held by the title company.</li><li><b>Title company</b>: neutral office that checks ownership, holds money, and runs the closing.</li><li><b>Assignment</b>: handing your signed contract to the buyer for a fee.</li><li><b>Cash buyer</b>: investor who closes without a bank loan.</li><li><b>Skip trace</b>: looking up an owner's phone number.</li><li><b>Absentee</b>: owner lives somewhere else, often a tired landlord.</li><li><b>Pre-foreclosure</b>: bank has sued, sheriff sale is scheduled, owner can still sell before that date.</li></ul></div>
+ <div class="card"><b>This week</b><ol><li>Read this page once.</li><li>Open a Sioux Falls title company account: call DakotAbstract or First American Title and say "I am an investor, I will be bringing you assignment deals, who do I talk to?"</li><li>Book an attorney to review the two drafts in More.</li><li>Join the Sioux Falls real estate investor groups on Facebook and post: "Cash buyer list, who is buying in Sioux Falls? Send me what you want." Add them in Buyers.</li><li>Make your first 20 calls from the Today tab.</li></ol></div>
+ <button class="b" onclick="go('today')">Go to Today</button>`}
+function calc(){
+  const k=S.calc,g=(n,d)=>k[n]??d;
+  M.innerHTML=`<div class="card"><b>Max offer (70% rule)</b><table class="calc" width="100%">
+  <tr><td>ARV (what it sells for fixed up)</td><td><input type="number" inputmode="numeric" value="${g('arv',250000)}" onchange="S.calc.arv=+this.value;save();calc()"></td></tr>
+  <tr><td>Repairs</td><td><input type="number" inputmode="numeric" value="${g('rep',30000)}" onchange="S.calc.rep=+this.value;save();calc()"></td></tr>
+  <tr><td>Your assignment fee</td><td><input type="number" inputmode="numeric" value="${g('fee',10000)}" onchange="S.calc.fee=+this.value;save();calc()"></td></tr>
+  <tr><td>Buyer margin %</td><td><input type="number" inputmode="numeric" value="${g('pct',70)}" onchange="S.calc.pct=+this.value;save();calc()"></td></tr></table>
+  <div class="mut">Max allowable offer to the seller</div><div class="big">${fmt(g('arv',250000)*g('pct',70)/100-g('rep',30000)-g('fee',10000))}</div>
+  <div class="mut">Buyer pays you ${fmt(g('arv',250000)*g('pct',70)/100-g('rep',30000))}. Open at 10% under your max and leave room.</div></div>
+  <div class="card mut">Repairs, Sioux Falls rough numbers per house: cosmetic 15-25k, kitchen+baths 35-50k, roof 12-18k, furnace+AC 8-12k, full gut 60-90k. ARV from 3 nearby sold comps on Zillow or Beacon in the last 6 months, same beds and size.</div>`}
+function buyersView(){
+  M.innerHTML=`<div class="card"><b>Add buyer</b><input id="bn" placeholder="Name / LLC"><input id="bp" placeholder="Phone or email"><input id="bw" placeholder="Wants: area, price, rentals/flips"><button class="b" onclick="addBuyer()">Add</button></div>
+  <h3>My buyers (${S.buyers.length})</h3>${S.buyers.map((b,i)=>`<div class="card"><div class="row"><b>${esc(b.n)}</b><button class="b bad" style="padding:4px 8px" onclick="S.buyers.splice(${i},1);save();buyersView()">x</button></div><div>${esc(b.p)}</div><div class="mut">${esc(b.w)}</div></div>`).join('')}
+  <h3>Active cash buyers from sheriff sales</h3><div class="mut">Investors who outbid the bank at Minnehaha sheriff sales. Look them up on the SD Secretary of State business search, call the registered agent, ask what they buy.</div>
+  ${buyers.map(b=>`<div class="card"><b>${esc(b.name)}</b><div class="mut">${b.buys} purchase${b.buys>1?'s':''}${b.total?' · '+fmt(b.total):''}${b.last?' · last '+b.last:''}</div><a href="https://sosenterprise.sd.gov/BusinessServices/Business/FilingSearch.aspx" target="_blank">SD SOS search</a></div>`).join('')||'<div class="mut">No sheriff results loaded yet.</div>'}`}
+function addBuyer(){const n=$('#bn').value.trim();if(!n)return;S.buyers.push({n,p:$('#bp').value,w:$('#bw').value});save();buyersView()}
+function more(){
+  const st={};Object.values(S.crm).forEach(c=>st[c.status]=(st[c.status]||0)+1);
+  M.innerHTML=`<div class="card"><b>Pipeline</b><div>${Object.entries(st).map(([k,v])=>`<span class="tag">${k}: ${v}</span>`).join('')||'<span class="mut">nothing logged yet</span>'}</div></div>
+  <div class="card"><b>Data</b><div class="mut">${meta.as_of?`Updated ${meta.as_of}. ${meta.count} parcels with a signal, ${meta.hot} with a distress signal beyond absentee.`:esc(meta.error||'no data')}</div>
+  <div class="mut">Sources: city parcel layer, Minnehaha sheriff sales, city code citations, Minnehaha delinquent tax list (December), Lincoln County sheriff calendar. Refreshed nightly by GitHub Actions.</div></div>
+  <div class="card"><b>Your notes live on this phone</b><div class="mut">Tap Backup to save a JSON file to iCloud now and then. Restore here.</div><button class="b alt" onclick="$('#imp').click()">Restore backup</button></div>
+  <div class="card"><a href="docs/call-script.md">Call script</a> · <a href="docs/contracts/purchase-agreement-sd.md">Purchase agreement draft</a> · <a href="docs/contracts/assignment-sd.md">Assignment draft</a> · <a href="docs/sources.md">Data sources and law notes</a></div>`}
+function exportState(){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([localStorage.sfdeals||'{}'],{type:'application/json'}));a.download=`sfdeals-${today()}.json`;a.click()}
+function importState(i){const r=new FileReader();r.onload=()=>{localStorage.sfdeals=r.result;location.reload()};r.readAsText(i.files[0])}
+window.onhashchange=()=>{const v=location.hash.slice(1);if(v&&v!==view)go(v)};
+load();
+</script></body></html>

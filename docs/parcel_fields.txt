@@ -1,0 +1,3 @@
+max 2000
+50
+['OBJECTID', 'Shape', 'TAG', 'MAP_ID', 'BLKLOT', 'CITY', 'MRRDID', 'MRTNM1', 'MRTNM2', 'MRTADR', 'MRTCTY', 'MRTSTATE', 'MRTZPC', 'MRTZPC2', 'NWLOCN', 'NWHALF', 'NWPRED', 'NWLOCS', 'NWSTYP', 'NWPOSD', 'FULL_ADDRESS', 'LOT', 'BLOCK', 'TRACT', 'SUBDIVISION', 'ADDITION', 'LEGAL_DESC', 'MRSCHD', 'SCHOOLDESC', 'MRZON1', 'SPLITDATE', 'DIM_STATUS', 'ASSMENT_YEAR', 'SQFT', 'FRONTFOOT', 'NUMUNITS', 'MRLNVC', 'MRBDVC', 'MRTOTC', 'MRLYAP', 'GlobalID', 'created_user', 'created_date', 'last_edited_user', 'last_edited_date', 'AGVALUE', 'NAVALUE', 'TOTAL_ACREAGE', 'Shape_Length', 'Shape_Area']

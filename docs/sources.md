@@ -1,0 +1,36 @@
+# Sioux Falls distress data sources (probed 2026-11-09)
+
+Market: Sioux Falls SD, median $310k (Oct 2026), 203 sales/mo, 4 mo supply, sales -26% YoY. Minnehaha County (most of city) + Lincoln County (south).
+Law: SDCL 36-21A-6 broker def is "for another"; 36-21A-29(1) exempts bona fide owner. Assigning own purchase contract OK. Avoid OPTION agreements (36-21A-6(11), no owner exemption). 36-21A-6(6) "pattern of selling" risk -> attorney review ($300-500). Disclose assignment to seller.
+
+| Source | URL | Access | Status |
+|---|---|---|---|
+| Minnehaha parcels | https://gis.minnehahacounty.gov/minnemap/rest/services/OpenData/MinnehahaCountyParcels/MapServer/0/query | ArcGIS REST, needs browser User-Agent (WAF 403 for curl default). maxRecordCount 2000, count=23130 (where=1=1). Fields: TAG(parcel), MRTNM1/MRTNM2 owner, MRTADR/MRTCTY/MRTSTATE/MRTZPC mailing, FULL_ADDRESS situs, CITY, NUMUNITS, SQFT, MRLNVC land val, MRBDVC bldg val, MRTOTC total val, MRLYAP last yr, ASSMENT_YEAR, legal fields | WORKS |
+| Sheriff foreclosures (Minnehaha) | https://www.minnehahacounty.gov/dept/so/mortgageForeclosures/mortgageForeclosures.php (+ mortgageForeclosuresResults.php) | SiteGround captcha (sg-captcha 202) blocks curl; Devin web fetch tool got it. Format: "49CIVyy-nnnnnn PLAINTIFF VS DEFENDANT (ATTY). ADDRESS. JUDGMENT AMT $x" under "### Wednesday, Month d, yyyy". Sales Wed 11am; ~1-3/wk; results list winning bidder (BANK or investor LLC: Tucker Property Holdings, Westra Development Group) | NEEDS headless browser or alt fetch |
+| Code enforcement citations (city) | https://epldata.siouxfalls.gov/Citations.aspx | ASP.NET GridView, 100 rows/page, ~21 pages, 1 yr window. Cols: Cited date, Address, Complaint Type (Property Maintenance/Vegetation/Building Service), Action Type (Citation 1st/2nd/3rd+). Paging via __doPostBack('ctl00$ContentPlaceHolder1$GridView1','Page$N') with VIEWSTATE | WORKS (postback) |
+| Delinquent taxes (Minnehaha) | Treasurer notice published each Dec in newspapers, e.g. https://www.garretsongazette.com/wp-content/uploads/2025/12/DelinqTaxes-2025.pdf (53 pages, 1836 rows). Rows: "Owner  parcel6  $amt  legal" grouped by "** Sioux Falls City **". Tax cert sale 3rd Monday Dec | WORKS (pymupdf parse) |
+| Lincoln Co sheriff sales | https://www.lincolncountysd.gov/calendar.aspx?CID=27 (RSS https://www.lincolncountysd.gov/RSSFeed.aspx?ModID=58&CID=27) | CivicPlus calendar; items "41CIVyy-nnnn Plaintiff vs Defendant Location: addr Judgment: $x" | WORKS (parse TBD) |
+| Probate | https://ecourts.sd.gov (free public registration) | manual/semiauto | TODO |
+| Register of Deeds | not online; copies by request form | use Beacon/sheriff results for buyer list | N/A |
+| Beacon | https://beacon.schneidercorp.com (Minnehaha) | sales history per parcel, JS app | TODO |
+
+## Probe notes 2026-11-09 (cont.)
+- Parcels CITY field holds 2-letter codes for small towns (BR Brandon, DR Dell Rapids, HA Hartford, ...); Sioux Falls city parcels probably CITY null/blank or served by a separate City of Sioux Falls GIS. 23,130 rows total in OpenData layer -> likely NOT the full county; verify SF coverage.
+- Citations: postback paging confirmed (page 2 = 28 rows; page1 100). Complaint types seen: Property Maintenance, Vegetation, Building Service, Zoning.
+- Lincoln RSS feed returns 0 items; calendar HTML page (121 KB) must be parsed instead.
+- Sheriff page: headless google-chrome --dump-dom also got the sg-captcha page (0 JUDGMENT). Fallbacks: Devin web fetch worked; try fetching via r.jina.ai or Google cache in CI; or SD public notices site (sdpublicnotices.com) for foreclosure notices.
+- Parcels: MRTCTY LIKE 'SIOUX%' (mailing city) = 4,250; CITY null/blank = 13,097. Values are strings (MRTOTC '0' etc). Layer appears to be county-outside-city only; City of Sioux Falls has own ArcGIS at https://gis.siouxfalls.gov/arcgis/rest/services (folders Data, DashboardData).
+- Sheriff page: https://r.jina.ai/<url> proxy returns the full page (22 JUDGMENT rows), use in CI as the fetch path (fallback: web fetch). City GIS Data/Property MapServer exists at gis.siouxfalls.gov; check layer list for Parcels/Ownership.
+1000 ['OBJECTID', 'Shape', 'TAG', 'ADDRESS', 'ADDITION', 'ACREAGE', 'SQFT', 'ACTIVITY', 'OWNNAME1', 'OWNNAME2', 'OWNADDRESS', 'OWNCITY', 'OWNSTATE', 'OWNZIP', 'OWNZIP2', 'LEGAL', 'FRONTFOOT', 'PARHOUSE', 'PARHALF', 'PARPR', 'PARSTREET', 'PARTYPE', 'PARPD', 'COUNTY', 'COUNTYID', 'ADDITIONNUM', 'UNITNUM', 'LANDUSE', 'NUMUNITS', 'LegalStartDate', 'ADDITIONPREFIX', 'FORM_PRIMARY', 'FORM_ACCESSORY', 'FORM_SIGNEDBY', 'FORM_DATE', 'FORM_COMMENTS', 'DEPARTMENT', 'PARCELTYPE', 'ZIPCODE', 'Shape.STArea()', 'Shape.STLength()', 'OWNEROCCSTATUS']
+{"count":67166}{'OBJECTID': 97441065, 'TAG': '011623300003000', 'ADDRESS': '0', 'ADDITION': 'MAPLETON HIGHLANDS ADDN', 'ACREAGE': 5.38, 'SQFT': 234167.0, 'ACTIVITY': '93 - Developing Site - Unavailable', 'OWNNAME1': 'SIOUX FALLS, CITY OF', 'OWNNAME2': None, 'OWNADDRESS': 'PO BOX 7402', 'OWNCITY': 'SIOUX FALLS', 'OWNSTATE': 'SD', 'OWNZIP': '57117', 'OWNZIP2': None, 'LEGAL': 'TRACT 1B MAPLETON HIGHLANDS ADDN TO THE CITY OF SIOUX FALLS', 'FRONTFOOT': 507.0, 'PARHOUSE': '0', 'PARHALF': None, 'PARPR': None, 'PARSTREET': None, 'PARTYPE': None, 'PARPD': None, 'COUNTY': 'MINNEHAHA', 'COUNTYID': '101745', 'ADDITIONNUM': '92518', 'UNITNUM': None, 'LANDUSE': 970, 'NUMUNITS': 0, 'LegalStartDate': 1781136000000, 'ADDITIONPREFIX': None, 'FORM_PRIMARY': None, 'FORM_ACCESSORY': None, 'FORM_SIGNEDBY': None, 'FORM_DATE': None, 'FORM_COMMENTS': None, 'DEPARTMENT': None, 'PARCELTYPE': 'Standard Tax Parcel', 'ZIPCODE': 57104, 'Shape.STArea()': 234145.8236931607, 'Shape.STLength()': 2989.283031490198, 'OWNEROCCSTATUS': 'N'}
+
+## KEY: City of Sioux Falls parcels (use this, not county layer, for the city)
+https://gis.siouxfalls.gov/arcgis/rest/services/Data/Property/MapServer/1/query  (maxRecordCount 1000, count 67,166, no WAF issue)
+Fields: TAG, ADDRESS (situs), OWNNAME1/2, OWNADDRESS/OWNCITY/OWNSTATE/OWNZIP (mailing -> absentee when != situs), OWNEROCCSTATUS (owner-occupied flag!), LANDUSE, NUMUNITS, PARCELTYPE, ZIPCODE, COUNTY (MINNEHAHA/LINCOLN), ACREAGE, SQFT. No assessed value here -> join county layer MRTOTC by TAG where available, or Beacon.
+
+## Build plan (approved by user 2026-11-09, repo "sfdeals", new repo via propose card)
+1. ingest/: parcels (city ArcGIS paged 1000), citations (ASP.NET postback 21 pages), sheriff (r.jina.ai proxy, Minnehaha upcoming+results), delinquent (Dec PDF via pymupdf, newspaper URL configurable), lincoln (calendar/jina). Normalize address -> match to parcel TAG. Store as data/*.json(l) committed by GitHub Actions nightly cron.
+2. score: absentee(+), tax delinquent(+amt), code citation count/severity(+), pre-foreclosure(+), probate(manual flag), vacant land exclude, owner is bank/city/LLC-builder exclude. Output data/leads.json ranked.
+3. web/: static mobile-first CRM (GitHub Pages), leads list, call script, call log + follow-up dates stored via GitHub Issues or localStorage+export; underwriting calc (ARV, MAO=0.7*ARV-repairs-fee); SD purchase agreement + assignment template (attorney review); buyers list builder from sheriff results bidders.
+4. Skip tracing: pluggable (manual CSV import first; API later).
+User constraints: free/unattended (Actions + repo state), mobile UI, short copy, no em dashes.
