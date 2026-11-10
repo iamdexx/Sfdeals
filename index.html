@@ -233,7 +233,7 @@ function buyersView(){
   M.innerHTML=`<div class="card"><b>Add buyer</b><input id="bn" placeholder="Name / LLC"><input id="bp" placeholder="Phone or email"><input id="bw" placeholder="Wants: area, price, rentals/flips"><button class="b" onclick="addBuyer()">Add</button></div>
   <h3>My buyers (${S.buyers.length})</h3>${S.buyers.map((b,i)=>`<div class="card"><div class="row"><b>${esc(b.n)}</b><button class="b bad" style="padding:4px 8px" onclick="S.buyers.splice(${i},1);save();buyersView()">x</button></div><div>${esc(b.p)}</div><div class="mut">${esc(b.w)}</div></div>`).join('')}
   <h3>${MK.buyers_h}</h3><div class="mut">${MK.buyers_note} ${MK.sos}</div>
-  ${buyers.map(b=>`<div class="card"><b>${esc(b.name)}</b><div class="mut">${b.buys} purchase${b.buys>1?'s':''}${b.total?' · '+fmt(b.total):''}${b.last?' · last '+b.last:''}</div>${MK.sos}</div>`).join('')||(MK.buyers_empty?`<div class="mut">${MK.buyers_empty}</div>`:'')}`}
+  ${buyers.map(b=>`<div class="card"><b>${esc(b.name)}</b><div class="mut">${b.buys} purchase${b.buys>1?'s':''}${b.total?' · '+fmt(b.total):''}${b.typical?' · typical buy '+fmt(b.typical):''}${b.last?' · last '+b.last:''}${b.mail?'<br>mails to '+esc(b.mail):''}</div>${MK.sos}</div>`).join('')||(MK.buyers_empty?`<div class="mut">${MK.buyers_empty}</div>`:'')}`}
 function addBuyer(){const n=$('#bn').value.trim();if(!n)return;S.buyers.push({n,p:$('#bp').value,w:$('#bw').value});save();buyersView()}
 function more(){
   const st={};Object.values(S.crm).forEach(c=>st[c.status]=(st[c.status]||0)+1);

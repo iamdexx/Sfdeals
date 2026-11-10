@@ -83,7 +83,7 @@ def run(key):
 def cash_buyers(parcels, months=18, min_buys=2):
     """Entity owners who bought 2+ houses recently: the cash buyer list, straight from the assessor's sale data."""
     since = (dt.date.today() - dt.timedelta(days=30 * months)).isoformat()
-    by = defaultdict(lambda: {"buys": 0, "total": 0, "last": ""})
+    by = defaultdict(lambda: {"buys": 0, "prices": [], "last": ""})
     for p in parcels:
         d = p.get("sale_date") or ""
         if d < since or not ENTITY.search(p["owner"]) or GOVBANK.search(p["owner"]) or BUILDER.search(p["owner"]):
@@ -91,8 +91,9 @@ def cash_buyers(parcels, months=18, min_buys=2):
         if (p.get("sale_price") or 0) < 10000:      # $0 and $100 transfers are deeds between related entities, not buys
             continue
         b = by[p["owner"]]
-        b["buys"] += 1; b["total"] += p.get("sale_price") or 0; b["last"] = max(b["last"], d)
+        b["buys"] += 1; b["prices"].append(p.get("sale_price") or 0); b["last"] = max(b["last"], d)
         b["mail"] = "%s, %s %s" % (p["mail"], p["mail_city"], p["mail_state"]) if p["mail"] else ""
-    out = [{"name": k, **v} for k, v in by.items() if v["buys"] >= min_buys]
+    out = [{"name": k, "buys": v["buys"], "typical": sorted(v["prices"])[len(v["prices"]) // 2], "last": v["last"], "mail": v.get("mail", "")}
+           for k, v in by.items() if v["buys"] >= min_buys]
     out.sort(key=lambda b: (-b["buys"], b["name"]))
     return out[:150]
