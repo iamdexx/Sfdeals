@@ -27,16 +27,20 @@ def row(a, spec, county, state):
     m = spec["map"]
     g = lambda k: pick(a, m[k]) if k in m else None  # noqa: E731
     year = num(g("year")); value = num(g("value")); price = num(g("sale_price"))
+    occ = None
+    if spec.get("occ_field"):
+        occ = "Y" if num(a.get(spec["occ_field"])) else "N"
     return {
         "tag": str(g("tag")).strip(), "cid": str(g("tag")).strip(), "addr": norm_addr(g("addr") or ""),
         "zip": str(g("zip") or "")[:5], "county": county, "muni": (g("muni") or "").strip().title(),
         "owner": (g("owner") or "").strip(), "careof": "", "mail": norm_addr(g("mail") or ""),
         "mail_city": (g("mail_city") or "").strip().title(), "mail_state": (g("mail_state") or "").strip().upper()[:2],
-        "mail_zip": str(g("mail_zip") or "").strip()[:5], "occ": None, "landuse": g("landuse"),
+        "mail_zip": str(g("mail_zip") or "").strip()[:5], "occ": occ, "landuse": g("landuse"),
         "units": int(num(g("units")) or 1), "sqft": None, "res_sqft": int(num(g("res_sqft")) or 0) or None,
         "year": int(year) if year else None, "value": int(value) if value else None, "tax_bal": 0, "vac_year": 0,
         "sale_date": (g("sale_date") or "") if isinstance(g("sale_date"), str) else "", "sale_price": int(price) if price else None,
         "home_state": state,
+        "x": {k: a.get(k) for k in spec.get("extra", [])},
     }
 
 
@@ -44,7 +48,7 @@ def fields(spec):
     out = []
     for v in spec["map"].values():
         out += v if isinstance(v, list) else [v]
-    return ",".join(dict.fromkeys(out))
+    return ",".join(dict.fromkeys(out + list(spec.get("extra", []))))
 
 
 def run(key):

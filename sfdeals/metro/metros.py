@@ -4,6 +4,7 @@ land use and a server-side absentee filter (mail zip differs or out of state); p
 signal are fetched by id afterwards, so nothing with a signal is lost."""
 
 MARICOPA_P = "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Parcels_view/FeatureServer/0"
+HCPA_P = "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/HCPA_Parcels_Daily/FeatureServer/0"
 MARICOPA_L = "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/ParcelLienDelinquent/FeatureServer/"
 
 METROS = {
@@ -26,6 +27,33 @@ METROS = {
                  "url": MARICOPA_L + "2", "map": {"tag": "APN", "addr": "PropertyFullStreetAddress", "link": "TreasurerWebLink"}},
             ],
             "lookup": "https://mcassessor.maricopa.gov/mcs/?q={tag}",
+        }],
+    },
+    "tpa": {
+        "name": "Tampa, FL", "short": "Tampa", "state": "FL", "min_value": 60000,
+        "counties": [{
+            "name": "Hillsborough County",
+            "parcels": {
+                "url": HCPA_P, "page": 2000,
+                # FL DOR use 01 = single family. No homestead exemption = not the owner's home.
+                "where": "DOR_C LIKE '01%' AND OWNER NOT LIKE '%CONFIDENTIAL%' AND (HX_YEAR IS NULL OR HX_YEAR = 0 OR STATE <> 'FL' OR B1_COND_DSC = 'Poor')",
+                "map": {"tag": "FOLIO", "addr": "SITE_ADDR", "zip": "SITE_ZIP", "muni": "SITE_CITY", "owner": "OWNER", "mail": "ADDR_1",
+                        "mail_city": "CITY", "mail_state": "STATE", "mail_zip": "ZIP", "landuse": "DOR_C", "units": "tUNITS", "year": "ACT",
+                        "res_sqft": "HEAT_AR", "value": "JUST", "sale_price": "SALE1_PRC"},
+                "occ_field": "HX_YEAR",
+                "extra": ["B1_COND_DSC", "SALE1_DEED_DSC", "SALE1_DATE", "PERMIT_COUNT"],
+            },
+            "signals": [],
+            "derived": [
+                {"name": "condition", "weight": 35, "label": "building condition poor (appraiser)", "field": "B1_COND_DSC", "in": ["Poor"]},
+                {"name": "estate", "weight": 25, "label": "estate or guardian deed in the last 2 years", "field": "SALE1_DEED_DSC",
+                 "in": ["Personal Representative", "Guardians"], "since_field": "SALE1_DATE", "since_days": 730},
+                {"name": "quitclaim", "weight": 15, "label": "quit claim transfer in the last 2 years", "field": "SALE1_DEED_DSC",
+                 "in": ["Quit Claim"], "since_field": "SALE1_DATE", "since_days": 730},
+                {"name": "taxdeed", "weight": 20, "label": "sold at tax deed or sheriff sale in the last 2 years", "field": "SALE1_DEED_DSC",
+                 "in": ["Tax", "Sheriffs", "Masters"], "since_field": "SALE1_DATE", "since_days": 730},
+            ],
+            "lookup": "https://gis.hcpafl.org/propertysearch/#/parcel/basic/{tag}",
         }],
     },
 }

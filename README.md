@@ -24,4 +24,4 @@ Metros other than Sioux Falls and St. Louis are config, not code: one entry in `
 naming the county's ArcGIS parcel layer (field map, residential + absentee `where`) and any signal layers
 keyed by parcel number (tax liens, tax sale, code cases, vacancy). Then add the market block in `index.html`.
 `python -m sfdeals.run <key> all` pulls signals, parcels (absentee filter plus every parcel with a signal) and scores.
-Phoenix (`phx`, Maricopa County: assessor parcels, delinquent tax and state held lien lists) is the first config-driven metro.
+Phoenix (`phx`, Maricopa County: assessor parcels, delinquent tax and state held lien lists) and Tampa (`tpa`, Hillsborough County: appraiser parcels with homestead, condition and deed type signals) are the first config-driven metros. Signals can come from separate layers (`signals`) or from fields on the parcel record (`derived`).

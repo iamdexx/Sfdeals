@@ -2,12 +2,30 @@
 Hot = a real house (street number, living space or build year) with at least one distress signal
 (not just absentee) and a value at or above the metro's floor; lots and slivers never make the call list."""
 import datetime as dt
+import time
 from collections import defaultdict
 from ..util import load, save, GOVBANK, ENTITY
 from . import metros
 
 W = {"absentee": 20, "out_of_state": 10, "entity": -15}
 KEEP = ("taxsale", "trustee", "recorder", "preforeclosure")
+
+
+def derived(p, rules, today_ms):
+    """Signals read off the parcel record itself (building condition, deed type, no homestead...).
+    rule: {name, weight, label, field, in|contains, since_field?, since_days?}"""
+    out = {}
+    x = p.get("x") or {}
+    for r in rules:
+        v = x.get(r["field"])
+        sv = str(v or "").strip().upper()
+        hit = (sv in [o.upper() for o in r["in"]]) if "in" in r else (r["contains"].upper() in sv) if "contains" in r else bool(v)
+        if hit and r.get("since_field"):
+            d = x.get(r["since_field"])
+            hit = bool(d) and (today_ms - float(d)) / 86400000 <= r.get("since_days", 730)
+        if hit:
+            out[r["name"]] = [{"sig": r["name"], "weight": r["weight"], "label": r["label"], "value": v}]
+    return out
 
 
 def run(key):
@@ -22,9 +40,13 @@ def run(key):
         if t:
             sig[t][s["sig"]].append(s)
     today = dt.date.today().isoformat()
+    today_ms = time.time() * 1000
+    rules = [r for c in cfg["counties"] for r in c.get("derived", [])]
     leads = []
     for p in parcels:
-        s = sig.get(p["tag"])
+        s = dict(sig.get(p["tag"]) or {})
+        s.update(derived(p, rules, today_ms))
+        p.pop("x", None)
         absentee = p["occ"] == "N" or (p["mail"] and p["addr"] and p["mail"] != p["addr"])
         if not s and not absentee:
             continue
@@ -35,7 +57,7 @@ def run(key):
             score += W["absentee"]; why.append("absentee")
             if p["mail_state"] and p["mail_state"] != cfg["state"]:
                 score += W["out_of_state"]; why.append("out of state")
-        for name, items in (s or {}).items():
+        for name, items in s.items():
             score += items[0]["weight"]; why.append(items[0]["label"]); signals[name] = items
         if ENTITY.search(p["owner"]):
             score += W["entity"]; why.append("investor owned")
