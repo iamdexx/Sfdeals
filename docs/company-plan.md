@@ -49,6 +49,11 @@ Mobile: installable PWA on day one (home screen icon, push), native wrappers via
 | Marketing | postcards 57c, email 2c, Lead Automator 50k properties | bulk text, email, tasks | not yet; add email alerts and postcard export in Phase 3 |
 | Setup | self serve, 7-day trial with 50 free leads | weeks of implementation | self serve, 7-day trial |
 
+REsimpli (the all-in-one CRM many top wholesalers run): Solo $249/mo billed annually (about $349 monthly; the page says annual saves up to 29%), Team 5 users and Business 15 users above that, 14-day trial. Includes triple-line dialer with unlimited calling and SMS (fair use), direct mail, list pulling and stacking, driving for dollars, seller website, e-sign, drip campaigns, KPI dashboard, speed to lead; AI calling billed per use. It does not generate leads from county records; users still buy lists.
+
+Positioning against REsimpli: do not match the feature list at launch. Win on fresh county-level signals every 2 hours at $49 to $99 for the solo wholesaler who cannot justify $249. Then add, in order: KPI dashboard (calls, contacts, offers, contracts per week), follow-up drips as reminders first (auto-text only after a consent flow), list stacking (inherent: every lead carries all its signals), seller website. Build a push integration (REsimpli, Podio, webhooks/Zapier) so established teams can feed our leads into the CRM they already pay for; that makes the incumbents a channel.
+
+
 Takeaways: PropStream owns the "everything national" buyer; Left Main owns 5 to 10 person teams with budgets. Nobody serves the solo or first-year wholesaler who wants today's distressed owners in one metro and a phone. Keep Starter at $49, give the trial 10 free skip traces (cost under $1 a trial, paid from the first subscription month), and say "fresh every 2 hours" everywhere; that single line is the difference nobody else can claim.
 
 ## 3. Architecture at $0
