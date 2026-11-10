@@ -54,7 +54,7 @@ const MARKETS={
   buyers_h:'Active cash buyers from sheriff sales',buyers_note:'Investors who outbid the bank at Minnehaha sheriff sales. Look them up on the SD Secretary of State business search, call the registered agent, ask what they buy.',buyers_empty:'No sheriff results loaded yet.',
   repairs:'Repairs, Sioux Falls rough numbers per house: cosmetic 15-25k, kitchen+baths 35-50k, roof 12-18k, furnace+AC 8-12k, full gut 60-90k.',
   sources:'city parcel layer, Minnehaha sheriff sales, city code citations, Minnehaha delinquent tax list (December), Lincoln County sheriff calendar',contracts:'sd'},
- stl:{name:'St. Louis',st:'MO',key:'sfdeals_stl',q:' St. Louis MO',sigs:['all','tax','vacant','condemned','secure','violation','land tax','absentee','out of state'],
+ stl:{name:'St. Louis',st:'MO',key:'sfdeals_stl',q:' St. Louis MO',sigs:['all','trustee sale','tax sale','tax','vacant','condemned','secure','violation','land tax','absentee','out of state'],
   lookup:l=>l.county==='St. Louis City'?`<a href="https://www.stlouis-mo.gov/data/address-search/index.cfm?addr=${encodeURIComponent(l.addr)}" target="_blank">City records</a>`:`<a href="https://revenue.stlouisco.com/IAS/" target="_blank">County records (locator ${esc(l.tag)})</a>`,
   title_cos:'Investors Title, Continental Title, Title Partners Agency, all in St. Louis',title_call:'Investors Title or Continental Title',
   law:'Missouri lets you assign your own purchase contract. Never advertise the house itself, only your contract, and tell the seller in writing that you may assign it.',
@@ -63,7 +63,7 @@ const MARKETS={
   sos:'<a href="https://bsd.sos.mo.gov/BusinessEntity/BESearch.aspx" target="_blank">MO SOS search</a>',
   buyers_h:'Cash buyers',buyers_note:'There is no free public list of St. Louis sheriff sale buyers yet, so build your own. Every "We Buy Houses" sign and bandit sign is a buyer, and so is every LLC you see on recent sold listings in Zillow. Look up LLC owners on the Missouri Secretary of State site.',buyers_empty:'',
   repairs:'Repairs, St. Louis rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, roof 10-18k, furnace+AC 8-12k, tuckpointing 5-15k, full gut 60-100k.',
-  sources:'city assessor parcel layer (owner, mailing address, tax balance, vacant building year), city vacant building registry, city building division inspections (condemnations, notices to secure, violation letters), sheriff land tax sale list when posted, county parcel layer (owner occupancy flag), county 2022 vacancy survey',contracts:'mo'}};
+  sources:'city assessor parcel layer (owner, mailing address, tax balance, vacant building year), city vacant building registry, city building division inspections (condemnations, notices to secure, violation letters), sheriff land tax sale list when posted, county parcel layer (owner occupancy flag), county 2022 vacancy survey, county tax sale leftovers (post third sale and trustee parcels), trustee foreclosure sale report (SouthLaw)',contracts:'mo'}};
 const qm=new URLSearchParams(location.search).get('m');if(MARKETS[qm])localStorage.sfdeals_market=qm;
 const mk=MARKETS[localStorage.sfdeals_market]?localStorage.sfdeals_market:'sf',MK=MARKETS[mk];
 document.title=MK.name+' Deals';$('#mkt').value=mk;
@@ -82,7 +82,7 @@ async function load(){
   go(location.hash.slice(1)||(S.seen?'today':'start'));S.seen=1;save();
 }
 function go(v){view=v;location.hash=v;document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.v===v));({start,today:todayView,leads:leadsView,calc,buyers:buyersView,more,lead})[v.split(':')[0]](v.split(':')[1]);window.scrollTo(0,0)}
-function tags(l){return l.why.map(w=>`<span class="tag ${/sheriff|bank|condemned|land tax/.test(w)?'fc':/tax|citation|violation|vacant|secure/.test(w)?'hot':''}">${esc(w)}</span>`).join('')}
+function tags(l){return l.why.map(w=>`<span class="tag ${/sheriff|bank|condemned|land tax|trustee|tax sale/.test(w)?'fc':/tax|citation|violation|vacant|secure/.test(w)?'hot':''}">${esc(w)}</span>`).join('')}
 function card(l){const c=crm(l.tag);return `<div class="card" onclick="go('lead:${l.tag}')"><div class="row"><div class="addr">${esc(l.addr)}</div><div class="score">${l.score}</div></div>
 <div class="mut">${esc(l.owner)} ${l.mail&&l.mail!==l.addr?'· mails to '+esc(l.mail_city||l.mail):''}</div><div>${tags(l)} <span class="status st-${c.status}">${c.status}</span>${c.next?` <span class="mut">next ${c.next}</span>`:''}</div></div>`}
 function todayView(){
@@ -108,6 +108,8 @@ function lead(tag){
   ${(l.signals.vacant||[]).map(v=>`<p><b>Vacant building</b> on the city list since ${v.year}${v.mo?', '+v.mo+' months':''}${v.vmaj?', '+v.vmaj+' major violation'+(v.vmaj>1?'s':''):''}${v.unpd?', '+fmt(v.unpd)+' unpaid fees':''}</p>`).join('')}
   ${(l.signals.landtax||[]).map(x=>`<p><b>Sheriff land tax sale</b> ${esc(x.line)}</p>`).join('')}
   ${(l.signals.county_vacant||[]).map(x=>`<p><b>County vacancy survey 2022</b> ${esc(x.status||'')} ${esc(x.note||'')}</p>`).join('')}
+  ${(l.signals.taxsale||[]).map(x=>`<p><b>County tax sale</b> ${esc(x.status)}: ${x.status==='Trustee'?'deeded to the County trustee, buy from the Collector':'did not sell at 3 tax sales, open to offers through the Collector'} (${esc(x.use||'')}, appraised $${(x.value||0).toLocaleString()})</p>`).join('')}
+  ${(l.signals.trustee||[]).map(x=>`<p><b>Trustee foreclosure sale</b> ${esc(x.date)} ${esc(x.time)} at ${esc(x.sale_at)}${x.continued?' (continued to '+esc(x.continued)+')':''}${x.bid?', opening bid '+esc(x.bid):''}. ${esc(x.firm)}${x.file?' file '+esc(x.file):''}</p>`).join('')}
   ${(l.signals.citations||[]).map(x=>`<div class="log">${x.date} ${esc(x.type)} · ${esc(x.action)}</div>`).join('')}
   <p>${MK.lookup(l)} · <a href="https://www.google.com/maps?q=${encodeURIComponent(l.addr+MK.q)}" target="_blank">Map</a> · <a href="https://www.zillow.com/homes/${encodeURIComponent(l.addr+MK.q)}_rb/" target="_blank">Zillow</a> · <a href="https://www.google.com/search?q=${encodeURIComponent('"'+l.owner.split(' & ')[0]+'" '+MK.name+' phone')}" target="_blank">Find phone</a></p></div>
   ${coach(l,c)}

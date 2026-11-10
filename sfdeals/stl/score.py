@@ -4,8 +4,19 @@ from collections import defaultdict
 from ..util import load, save, GOVBANK, ENTITY
 
 W = {"absentee": 20, "out_of_state": 10, "tax": 30, "tax_big": 10, "vacant": 30, "vacant_bad": 10,
-     "condemned": 35, "secure": 25, "violation": 15, "landtax": 35, "county_vacant": 15, "entity": -5}
+     "condemned": 35, "secure": 25, "violation": 15, "landtax": 35, "county_vacant": 15, "taxsale": 45, "trustee": 60, "entity": -5}
 INSPECT_DAYS = 548
+
+
+def street_key(addr):
+    parts = addr.split(" ")
+    if len(parts) < 2 or not parts[0][:1].isdigit():
+        return None
+    name = parts[2] if parts[1] in ("N", "S", "E", "W") and len(parts) > 2 else parts[1]
+    return parts[0] + " " + name
+
+
+KEEP = ("trustee", "taxsale", "landtax")
 
 
 def run():
@@ -15,6 +26,21 @@ def run():
         by_tag.setdefault(p["tag"], p)
         if p["addr"]:
             by_addr.setdefault(p["addr"], p)
+    by_street = defaultdict(list)
+    for p in parcels:
+        k = street_key(p["addr"])
+        if k:
+            by_street[k].append(p)
+
+    def find(addr, county=None):
+        """Exact normalised address, else the one parcel sharing house number + first street word
+        (catches 'OSBORN' vs 'OSBORN DR', 'MCCARREN' vs 'MCCARRON' does not)."""
+        p = by_addr.get(addr)
+        if p and (county is None or p["county"] == county):
+            return p
+        c = [x for x in by_street.get(street_key(addr), []) if county is None or x["county"] == county]
+        return c[0] if len(c) == 1 else None
+
     sig = defaultdict(lambda: defaultdict(list))
     cutoff = (dt.date.today() - dt.timedelta(days=INSPECT_DAYS)).isoformat()
     for i in load("inspections.json", []) or []:
@@ -31,6 +57,14 @@ def run():
         p = by_tag.get(v["tag"]) or by_addr.get(v["addr"])
         if p:
             sig[p["tag"]]["county_vacant"].append(v)
+    for t in load("county_taxsale.json", []) or []:
+        p = by_tag.get(t["tag"]) or find(t["addr"], "St. Louis County")
+        if p:
+            sig[p["tag"]]["taxsale"].append(t)
+    for t in load("trustee.json", []) or []:
+        p = find(t["addr"], t["county"])
+        if p:
+            sig[p["tag"]]["trustee"].append(t)
     vac = load("vacant.json", {}) or {}
 
     today = dt.date.today().isoformat()
@@ -73,6 +107,10 @@ def run():
             score += W["landtax"]; why.append("land tax sale"); signals["landtax"] = s["landtax"]
         if s and s["county_vacant"]:
             score += W["county_vacant"]; why.append("vacant (county survey)"); signals["county_vacant"] = s["county_vacant"]
+        if s and s["taxsale"]:
+            score += W["taxsale"]; why.append("county tax sale (%s)" % s["taxsale"][0]["status"].lower()); signals["taxsale"] = s["taxsale"]
+        if s and s["trustee"]:
+            score += W["trustee"]; why.append("trustee sale %s" % s["trustee"][0]["date"]); signals["trustee"] = s["trustee"]
         if ENTITY.search(p["owner"]):
             score += W["entity"]
         if score <= 0:
@@ -80,7 +118,8 @@ def run():
         leads.append({**p, "score": score, "why": why, "signals": signals, "as_of": today})
     leads.sort(key=lambda x: (-x["score"], x["addr"]))
     hot = [l for l in leads if l["why"] not in (["absentee"], ["absentee", "out of state"])]
-    save("leads.json", {"as_of": today, "count": len(leads), "hot": len(hot), "leads": hot[:2500],
+    top = hot[:2500] + [l for l in hot[2500:] if any(k in l["signals"] for k in KEEP)]
+    save("leads.json", {"as_of": today, "count": len(leads), "hot": len(hot), "leads": top,
                         "absentee_only": len(leads) - len(hot),
                         "city": sum(l["county"] == "St. Louis City" for l in hot), "county": sum(l["county"] == "St. Louis County" for l in hot)})
     save("buyers.json", [])

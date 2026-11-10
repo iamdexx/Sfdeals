@@ -93,6 +93,8 @@ def norm_addr(a):
     parts = re.sub(r"\s+", " ", a).strip().split(" ")
     if len(parts) > 2 and parts[1] in DIRS:
         parts[1] = DIRS[parts[1]]
+    if len(parts) > 2 and parts[1] == "SAINT":
+        parts[1] = "ST"
     if len(parts) > 2 and parts[-1] in DIRS:
         parts[-1] = DIRS[parts[-1]]
     if len(parts) > 2 and parts[-1] in SUFFIX:

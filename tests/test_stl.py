@@ -39,3 +39,22 @@ def test_landtax_parse():
     rows = landtax.parse("Parcel 44380000350 4500 NATURAL BRIDGE AVE  $3,210.55\nnot a row\n44380000350 dup")
     assert rows == [{"pid": "44380000350", "addr": "4500 NATURAL BRIDGE AVE", "line": "Parcel 44380000350 4500 NATURAL BRIDGE AVE  $3,210.55"}]
     assert ms_date(None) == "" and ms_date(0) == ""
+
+
+def test_trustee_parse():
+    from sfdeals.stl import trustee
+    text = "\n".join(["Foreclosure Sales Report: Missouri", "Property Address", "Clay", "200 Nw 63rd Terr", "Gladstone", "64118", "11/12/2026",
+                      "12:00PM", "N/A", "$134,500.00", "Liberty", "260264", "St. Louis", "3905 McCarren Ct", "Florissant", "63034", "9/28/2026",
+                      "12:00PM", "11/19/2026 12:00 PM", "N/A", "Clayton", "24SL-CC01836", "204700", "City of St. Louis", "5037 Steffens Ave",
+                      "Saint Louis", "63116", "11/19/2026", "1:00PM", "N/A", "N/A", "St. Louis", "259285", "Information Reported as of: 11/10/2026", "1"])
+    rows = trustee.parse(text)
+    assert [r["county"] for r in rows] == ["", "St. Louis County", "St. Louis City"]
+    assert rows[1]["addr"] == "3905 MCCARREN CT" and rows[1]["case"] == "24SL-CC01836" and rows[1]["file"] == "204700"
+    assert rows[2]["file"] == "259285" and rows[2]["case"] == "" and trustee.iso(rows[2]["date"]) == "2026-11-19"
+
+
+def test_county_taxsale_row():
+    from sfdeals.stl import county_taxsale
+    r = county_taxsale.row({"LOCATOR": "12E420011", "OWNER_NAME": "ANDERSON KIMBERLY", "PROP_ADD": "9524 W AVE", "PROP_ZIP": "63137",
+                            "MUNICIPALITY": "RIVERVIEW", "STATUS": "Trustee", "STRUCTURE": "Building", "LUCODE": "Single Family", "LIVUNIT": 1, "TOTAPVAL": 23200})
+    assert r["tag"] == "12E420011" and r["addr"] == "9524 W AVE" and r["status"] == "Trustee" and r["muni"] == "Riverview"
