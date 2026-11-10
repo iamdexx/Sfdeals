@@ -1,0 +1,187 @@
+{
+ "name": "Boston, MA",
+ "short": "Boston",
+ "state": "MA",
+ "min_value": 100000,
+ "counties": [
+  {
+   "name": "Middlesex County",
+   "parcels": {
+    "url": "https://arcgisserver.digital.mass.gov/arcgisserver/rest/services/AGOL/MassachusettsPropertyTaxParcels/FeatureServer/4",
+    "page": 2000,
+    "where": "TOWN_ID IN (2,10,12,14,19,23,26,31,37,48,49,51,56,67,79,81,93,100,115,136,139,141,155,157,158,160,165,170,174,176,178,198,207,213,232,246,269,270,274,284,286,288,295,299,301,305,308,314,315,330,333,342,344,347) AND USE_CODE LIKE '101%' AND (OWN_STATE <> 'MA' OR OWNER1 LIKE '%ESTATE OF%' OR OWNER1 LIKE '%HEIRS%' OR (UPPER(OWN_ADDR) <> UPPER(ADDR_NUM || ' ' || FULL_STR) AND NOT (UPPER(OWN_ADDR) LIKE ADDR_NUM || '%' AND UPPER(OWN_ADDR) LIKE '%' || UPPER(SUBSTRING(FULL_STR, 1, 5)) || '%') AND NOT (OWN_ADDR LIKE ADDR_NUM || ' %' AND OWN_CITY = CITY)))",
+    "map": {
+     "tag": "MA_PROP_ID",
+     "addr": [
+      "ADDR_NUM",
+      "FULL_STR"
+     ],
+     "zip": "ZIP",
+     "muni": "CITY",
+     "owner": "OWNER1",
+     "mail": "OWN_ADDR",
+     "mail_city": "OWN_CITY",
+     "mail_state": "OWN_STATE",
+     "mail_zip": "OWN_ZIP",
+     "landuse": "USE_CODE",
+     "units": "UNITS",
+     "year": "YEAR_BUILT",
+     "res_sqft": "RES_AREA",
+     "value": "TOTAL_VAL",
+     "sale_date": "LS_DATE",
+     "sale_price": "LS_PRICE"
+    },
+    "extra": [
+     "OWNER1"
+    ]
+   },
+   "signals": [],
+   "derived": [
+    {
+     "name": "estate",
+     "weight": 25,
+     "label": "owner of record is an estate",
+     "field": "OWNER1",
+     "contains": "ESTATE OF"
+    },
+    {
+     "name": "heirs",
+     "weight": 25,
+     "label": "owner of record is the heirs of a late owner",
+     "field": "OWNER1",
+     "contains": "HEIRS"
+    }
+   ],
+   "lookup": "https://www.masslandrecords.com/"
+  },
+  {
+   "name": "Suffolk County",
+   "parcels": {
+    "url": "https://gisportal.boston.gov/arcgis/rest/services/Assessing/PROPERTY_ASSESSMENT_PARCEL_JOIN_FY26/FeatureServer/0",
+    "page": 2000,
+    "where": "LU IN ('R1','R2','R3') AND (MAIL_STATE <> 'MA' OR (OWN_OCC = 'N' AND NOT (UPPER(CAST(ST_NUM AS VARCHAR(10)) || ' ' || ST_NAME) LIKE UPPER(MAIL_STREET_ADDRESS) || '%')) OR (OVERALL_COND IN ('P - Poor','F - Fair') AND UPPER(CAST(ST_NUM AS VARCHAR(10)) || ' ' || ST_NAME) = UPPER(MAIL_STREET_ADDRESS)))",
+    "map": {
+     "tag": "PID",
+     "addr": [
+      "ST_NUM",
+      "ST_NAME"
+     ],
+     "zip": "ZIP_CODE",
+     "muni": "CITY",
+     "owner": "OWNER",
+     "mail": "MAIL_STREET_ADDRESS",
+     "mail_city": "MAIL_CITY",
+     "mail_state": "MAIL_STATE",
+     "mail_zip": "MAIL_ZIP_CODE",
+     "landuse": "LU",
+     "units": "RES_UNITS",
+     "year": "YR_BUILT",
+     "res_sqft": "LIVING_AREA",
+     "value": "TOTAL_VALUE"
+    },
+    "extra": [
+     "OVERALL_COND",
+     "OWN_OCC"
+    ]
+   },
+   "signals": [
+    {
+     "name": "abandoned",
+     "weight": 30,
+     "label": "abandoned building reported to the city (last 30 days)",
+     "url": "https://gisportal.boston.gov/arcgis/rest/services/Live/lagan_311_cases_opened_past_30_days/FeatureServer/0",
+     "where": "land_usage IN ('R1','R2','R3') AND TYPE = 'Abandoned Building'",
+     "map": {
+      "tag": "parcel_num",
+      "addr": "location",
+      "case": "CASE_REFERENCE",
+      "kind": "TYPE",
+      "status": "CASE_STATUS",
+      "opened": "OPEN_DT"
+     }
+    },
+    {
+     "name": "unsafe",
+     "weight": 25,
+     "label": "unsafe building complaint (last 30 days)",
+     "url": "https://gisportal.boston.gov/arcgis/rest/services/Live/lagan_311_cases_opened_past_30_days/FeatureServer/0",
+     "where": "land_usage IN ('R1','R2','R3') AND TYPE IN ('Unsafe Dangerous Conditions','Squalid Living Conditions','Illegal Rooming House','Illegal Occupancy')",
+     "map": {
+      "tag": "parcel_num",
+      "addr": "location",
+      "case": "CASE_REFERENCE",
+      "kind": "TYPE",
+      "status": "CASE_STATUS",
+      "opened": "OPEN_DT"
+     }
+    },
+    {
+     "name": "housing_complaint",
+     "weight": 20,
+     "label": "housing complaint to city inspectors (last 30 days)",
+     "url": "https://gisportal.boston.gov/arcgis/rest/services/Live/lagan_311_cases_opened_past_30_days/FeatureServer/0",
+     "where": "land_usage IN ('R1','R2','R3') AND TYPE IN ('Unsatisfactory Living Conditions','Maintenance Complaint - Residential','Maintenance - Homeowner','Chronic Dampness/Mold','Heat - Excessive, Insufficient','Unsatisfactory Utilities - Electrical, Plumbing','No Utilities Residential - Water','Sewage/Septic Back-Up')",
+     "map": {
+      "tag": "parcel_num",
+      "addr": "location",
+      "case": "CASE_REFERENCE",
+      "kind": "TYPE",
+      "status": "CASE_STATUS",
+      "opened": "OPEN_DT"
+     }
+    }
+   ],
+   "derived": [
+    {
+     "name": "condition",
+     "weight": 35,
+     "label": "building condition poor (assessor)",
+     "field": "OVERALL_COND",
+     "in": [
+      "P - Poor"
+     ]
+    },
+    {
+     "name": "condition_fair",
+     "weight": 15,
+     "label": "building condition fair (assessor)",
+     "field": "OVERALL_COND",
+     "in": [
+      "F - Fair"
+     ]
+    }
+   ],
+   "lookup": "https://properties.boston.gov/#/details?parcelId={tag}"
+  }
+ ],
+ "ui": {
+  "name": "Boston",
+  "st": "MA",
+  "q": " MA",
+  "sigs": [
+   "all",
+   "abandoned",
+   "unsafe",
+   "housing complaint",
+   "condition poor",
+   "condition fair",
+   "estate",
+   "heirs",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://properties.boston.gov/#/details?parcelId={tag}\" target=\"_blank\">Boston assessor (Boston only)</a> \u00b7 <a href=\"https://www.google.com/search?q={addr}%20MA%20assessor%20property%20card\" target=\"_blank\">Town assessor</a> \u00b7 <a href=\"https://www.masslandrecords.com/\" target=\"_blank\">Registry of Deeds</a>",
+  "title_cos": "Massachusetts closings are run by real estate attorneys, not title companies. Ask a Boston area investor friendly closing attorney, or search the Massachusetts Bar referral service",
+  "title_call": "a Massachusetts real estate closing attorney",
+  "law": "Massachusetts is an attorney state: a licensed attorney must run the closing. You can assign a purchase contract if the contract allows it; tell the seller in writing and sell only your contract, never the house. Most foreclosures are non-judicial (power of sale), with notices published in a local paper.",
+  "groups": "\"Massachusetts Real Estate Investors Association (MassREIA)\", \"Black Diamond Real Estate Investors Group\", \"Boston Real Estate Investors Association\"",
+  "prefc": "<b>Estate or heirs</b>: the town still lists a late owner's estate or heirs as owner, so the family has not sold yet. <b>Condition</b> comes from the Boston assessor's inspection. <b>Complaints</b> are reports to the city's 311 line in the last 30 days for housing problems, unsafe or abandoned buildings. Boston leads include 1 to 3 family houses; the towns in Middlesex County are single family only.",
+  "sos": "<a href=\"https://corp.sec.state.ma.us/corpweb/CorpSearch/CorpSearch.aspx\" target=\"_blank\">MA Corporations Division search</a>",
+  "buyers_h": "Active cash buyers (assessor sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the town sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on the MA Corporations Division search and call.",
+  "buyers_empty": "No buyers listed yet. The state sale dates are in a format the buyer list cannot read yet.",
+  "repairs": "Repairs, Boston area rough numbers per house: cosmetic 25-40k, kitchen+baths 50-80k, roof 15-30k, heating system 10-20k, lead paint deleading 10-30k, full gut 120-200k.",
+  "sources": "MassGIS statewide assessor parcel table (Middlesex County towns: owner, mailing address, value, year built, last sale), City of Boston FY26 assessing layer (owner occupied flag, building condition), Boston 311 cases from the last 30 days (housing, unsafe and abandoned building reports)",
+  "contracts": "mo"
+ }
+}
