@@ -1,8 +1,8 @@
 {
  "as_of": "2026-11-10",
- "updated": "2026-11-10T20:11:10Z",
- "count": 128181,
- "hot": 2071,
+ "updated": "2026-11-10T21:36:25Z",
+ "count": 128182,
+ "hot": 2072,
  "leads": [
   {
    "tag": "56569250000",
@@ -2286,6 +2286,72 @@
       "parties": [
        "ROI TURNKEY PROPERTIES LLC",
        "US BANK NA"
+      ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "27299340000",
+   "cid": "27299340000",
+   "handle": "12729000340",
+   "addr": "4427 LOUISIANA AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "FORTE, TANNIKA",
+   "mail": "4427 LOUISIANA AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4366,
+   "year": 1905,
+   "value": 3900.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 32900.0,
+   "sale_date": "1991-12-03",
+   "mkt": 20526,
+   "score": 80,
+   "why": [
+    "2 code violations",
+    "pre-foreclosure filed 2026-10-13"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Fences; Open Storage; Porch; Status Unit; Walls"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Fences; Open Storage; Porch; Status Unit; Walls"
+     }
+    ],
+    "recorder": [
+     {
+      "doc": "10132026-0076",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-10-13",
+      "addrs": [
+       "4427 LOUISIANA AVE"
+      ],
+      "pids": [
+       "27299340000"
+      ],
+      "lender": "MIDFIRST BANK",
+      "trustee": "S&W FORECLOSURE CORPORATION",
+      "parties": [
+       "MIDFIRST BANK",
+       "FORTE TANNIKA"
       ]
      }
     ]
@@ -13184,67 +13250,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "27299340000",
-   "cid": "27299340000",
-   "handle": "12729000340",
-   "addr": "4427 LOUISIANA AVE",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 16,
-   "owner": "FORTE, TANNIKA",
-   "mail": "4427 LOUISIANA AVE",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63111",
-   "occ": "Y",
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 4366,
-   "year": 1905,
-   "value": 3900.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "670",
-   "sale_price": 32900.0,
-   "sale_date": "1991-12-03",
-   "mkt": 20526,
-   "score": 65,
-   "why": [
-    "1 code violation",
-    "pre-foreclosure filed 2026-10-13"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Fences; Open Storage; Porch; Status Unit; Walls"
-     }
-    ],
-    "recorder": [
-     {
-      "doc": "10132026-0076",
-      "kind": "pre-foreclosure",
-      "type": "APPOINT SUCC TRUSTEE",
-      "date": "2026-10-13",
-      "addrs": [
-       "4427 LOUISIANA AVE"
-      ],
-      "pids": [
-       "27299340000"
-      ],
-      "lender": "MIDFIRST BANK",
-      "trustee": "S&W FORECLOSURE CORPORATION",
-      "parties": [
-       "MIDFIRST BANK",
-       "FORTE TANNIKA"
-      ]
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "41959410000",
    "cid": "41959410000",
    "handle": "14195000410",
@@ -18077,6 +18082,51 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "27479160000",
+   "cid": "27479160000",
+   "handle": "12747000160",
+   "addr": "3016 MOUNT PLEASANT ST",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 17,
+   "owner": "FANNIN, MASON GLEN & CHRISTOPHER ZZDVORA",
+   "mail": "1950 HUGHES LANDING BLVD",
+   "mail_city": "Spring",
+   "mail_state": "TX",
+   "mail_zip": "77380",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3172,
+   "year": 1894,
+   "value": 7540.0,
+   "tax_bal": 0,
+   "vac_year": 2018,
+   "lender": "",
+   "sale_price": 42000.0,
+   "sale_date": "2023-08-02",
+   "mkt": 39684,
+   "score": 55,
+   "why": [
+    "absentee",
+    "out of state",
+    "vacant building since 2018"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "mo": 0,
+      "vmin": 0,
+      "vmaj": 3,
+      "csb": 0,
+      "unpd": 0.0,
+      "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "19819160000",
    "cid": "19819160000",
    "handle": "11981000160",
@@ -22332,6 +22382,52 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "26099090000",
+   "cid": "26099090000",
+   "handle": "12609000090",
+   "addr": "2214 MONTANA ST",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 18,
+   "owner": "WELLS, FLOYD & C/O JOSE GUSTAVO GARCIA DE JESUS",
+   "mail": "2208 MONTANA ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3261,
+   "year": 1890,
+   "value": 14350.0,
+   "tax_bal": 1202.81,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 24000.0,
+   "sale_date": "2014-07-17",
+   "mkt": 75526,
+   "score": 50,
+   "why": [
+    "absentee",
+    "2 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Retaining Wall"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Retaining Wall"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "14019050000",
    "cid": "14019050000",
    "handle": "11401130130",
@@ -22614,6 +22710,52 @@
        "ALABAMA HOUSING FINANCE AUTHORITY",
        "COLEMAN KIEMANI"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "27259220000",
+   "cid": "27259220000",
+   "handle": "12725000220",
+   "addr": "3225 MOUNT PLEASANT ST",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "FLORES, LUCAS SANTOS & ZENEIDA L CORTES",
+   "mail": "3225 MT PLEASANT ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3275,
+   "year": 1926,
+   "value": 15820.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 110000.0,
+   "sale_date": "2025-07-02",
+   "mkt": 83263,
+   "score": 50,
+   "why": [
+    "absentee",
+    "2 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Autos; Parking Area"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Autos; Parking Area"
      }
     ]
    },
@@ -23236,6 +23378,52 @@
       "parties": [
        "MANGOGNA THOMAS J"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "16639270000",
+   "cid": "16639270000",
+   "handle": "11663000270",
+   "addr": "3829 WISCONSIN AVE",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 18,
+   "owner": "RIDENOUR, JEREMY & JULIA DAVIS",
+   "mail": "3143 S JEFFERSON",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3826,
+   "year": 1897,
+   "value": 19630.0,
+   "tax_bal": 1635.04,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 23000.0,
+   "sale_date": "1997-02-20",
+   "mkt": 103316,
+   "score": 50,
+   "why": [
+    "absentee",
+    "2 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Open Storage; Parapet; Windows"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Open Storage; Parapet; Windows"
      }
     ]
    },
@@ -26526,6 +26714,52 @@
        "US BANK NA",
        "BLANCHARD DAJONN"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "29069170000",
+   "cid": "29069170000",
+   "handle": "12906000170",
+   "addr": "907 FILLMORE ST",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "BROWN, ANTHONY C & JENNIFER GARRISON",
+   "mail": "2860 SALENA ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3407,
+   "year": 1907,
+   "value": 18480.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 24000.0,
+   "sale_date": "1982-05-15",
+   "mkt": 97263,
+   "score": 50,
+   "why": [
+    "absentee",
+    "2 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Garage/Shed; Walls"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Garage/Shed; Walls"
      }
     ]
    },
@@ -31443,46 +31677,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "27479160000",
-   "cid": "27479160000",
-   "handle": "12747000160",
-   "addr": "3016 MOUNT PLEASANT ST",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 17,
-   "owner": "FANNIN, MASON GLEN & CHRISTOPHER ZZDVORA",
-   "mail": "1950 HUGHES LANDING BLVD",
-   "mail_city": "Spring",
-   "mail_state": "TX",
-   "mail_zip": "77380",
-   "occ": null,
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 3172,
-   "year": 1894,
-   "value": 7540.0,
-   "tax_bal": 0,
-   "vac_year": 2018,
-   "lender": "",
-   "sale_price": 42000.0,
-   "sale_date": "2023-08-02",
-   "mkt": 39684,
-   "score": 45,
-   "why": [
-    "absentee",
-    "out of state",
-    "vacant building since 2018"
-   ],
-   "signals": {
-    "vacant": [
-     {
-      "year": 2018
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "20599080000",
    "cid": "20599080000",
    "handle": "12059000080",
@@ -34007,6 +34201,54 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "27219120000",
+   "cid": "27219120000",
+   "handle": "12721000120",
+   "addr": "4527 MINNESOTA AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 17,
+   "owner": "VIBRANT BLUE REALTY LLC",
+   "mail": "20 PINE CANYON DR",
+   "mail_city": "Atlanta",
+   "mail_state": "GA",
+   "mail_zip": "30331",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3700,
+   "year": 1926,
+   "value": 14270.0,
+   "tax_bal": 1196.24,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 64800.0,
+   "sale_date": "2002-02-04",
+   "mkt": 75105,
+   "score": 45,
+   "why": [
+    "absentee",
+    "out of state",
+    "2 code violations",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Electrical; Smoke Detectors; Status Unit"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Electrical; Smoke Detectors; Status Unit"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "45539480000",
    "cid": "45539480000",
    "handle": "14553060510",
@@ -34352,6 +34594,62 @@
       "csb": 0,
       "unpd": 1550.0,
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "28149010000",
+   "cid": "28149010000",
+   "handle": "12814000010",
+   "addr": "5240 LOUISIANA AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "NKOPURUK, ANYIEDE ABASI SAMUEL & & SAO BASS",
+   "mail": "5240 LOUISIANA AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4322,
+   "year": 1918,
+   "value": 43050.0,
+   "tax_bal": 0,
+   "vac_year": 2017,
+   "lender": "670",
+   "sale_price": 110000.0,
+   "sale_date": "2017-08-29",
+   "mkt": 226579,
+   "score": 45,
+   "why": [
+    "vacant 9+ years",
+    "2 code violations"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "mo": 0,
+      "vmin": 5,
+      "vmaj": 3,
+      "csb": 0,
+      "unpd": 0.0,
+      "year": 2017
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-09",
+      "type": "Violation Letter",
+      "action": "Garage/Shed; Retaining Wall"
+     },
+     {
+      "date": "2026-11-09",
+      "type": "Violation Letter",
+      "action": "Garage/Shed; Retaining Wall"
      }
     ]
    },
@@ -40195,47 +40493,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "26099090000",
-   "cid": "26099090000",
-   "handle": "12609000090",
-   "addr": "2214 MONTANA ST",
-   "zip": "63118",
-   "county": "St. Louis City",
-   "nbhd": 18,
-   "owner": "WELLS, FLOYD & C/O JOSE GUSTAVO GARCIA DE JESUS",
-   "mail": "2208 MONTANA ST",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63118",
-   "occ": null,
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 3261,
-   "year": 1890,
-   "value": 14350.0,
-   "tax_bal": 1202.81,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 24000.0,
-   "sale_date": "2014-07-17",
-   "mkt": 75526,
-   "score": 35,
-   "why": [
-    "absentee",
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Retaining Wall"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "15J140033",
    "cid": "15J140033",
    "addr": "2225 N HANLEY RD",
@@ -42192,47 +42449,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "27259220000",
-   "cid": "27259220000",
-   "handle": "12725000220",
-   "addr": "3225 MOUNT PLEASANT ST",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 16,
-   "owner": "FLORES, LUCAS SANTOS & ZENEIDA L CORTES",
-   "mail": "3225 MT PLEASANT ST",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63111",
-   "occ": "Y",
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 3275,
-   "year": 1926,
-   "value": 15820.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "670",
-   "sale_price": 110000.0,
-   "sale_date": "2025-07-02",
-   "mkt": 83263,
-   "score": 35,
-   "why": [
-    "absentee",
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Autos; Parking Area"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "17559210000",
    "cid": "17559210000",
    "handle": "11755000210",
@@ -43785,47 +44001,6 @@
     "vacant": [
      {
       "year": 2018
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
-   "tag": "16639270000",
-   "cid": "16639270000",
-   "handle": "11663000270",
-   "addr": "3829 WISCONSIN AVE",
-   "zip": "63118",
-   "county": "St. Louis City",
-   "nbhd": 18,
-   "owner": "RIDENOUR, JEREMY & JULIA DAVIS",
-   "mail": "3143 S JEFFERSON",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63118",
-   "occ": null,
-   "landuse": 1120,
-   "units": 2,
-   "sqft": 3826,
-   "year": 1897,
-   "value": 19630.0,
-   "tax_bal": 1635.04,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 23000.0,
-   "sale_date": "1997-02-20",
-   "mkt": 103316,
-   "score": 35,
-   "why": [
-    "absentee",
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Open Storage; Parapet; Windows"
      }
     ]
    },
@@ -46639,6 +46814,11 @@
    ],
    "signals": {
     "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Condemned for Occupancy",
+      "action": "Condemnation"
+     },
      {
       "date": "2026-11-10",
       "type": "Condemned for Occupancy",
@@ -50618,47 +50798,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "29069170000",
-   "cid": "29069170000",
-   "handle": "12906000170",
-   "addr": "907 FILLMORE ST",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 1,
-   "owner": "BROWN, ANTHONY C & JENNIFER GARRISON",
-   "mail": "2860 SALENA ST",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63118",
-   "occ": null,
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 3407,
-   "year": 1907,
-   "value": 18480.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 24000.0,
-   "sale_date": "1982-05-15",
-   "mkt": 97263,
-   "score": 35,
-   "why": [
-    "absentee",
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Garage/Shed; Walls"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "25J310312",
    "cid": "25J310312",
    "addr": "9121 LUCIA DR",
@@ -51256,6 +51395,51 @@
       "csb": 0,
       "unpd": 1800.0,
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "06679160000",
+   "cid": "06679160000",
+   "handle": "10667000160",
+   "addr": "1005 ALLEN AVE",
+   "zip": "63104",
+   "county": "St. Louis City",
+   "nbhd": 21,
+   "owner": "SHATLEY, JORDAN",
+   "mail": "1005 ALLEN AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63104",
+   "occ": null,
+   "landuse": 1123,
+   "units": 4,
+   "sqft": 3502,
+   "year": 1885,
+   "value": 71750.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 377632,
+   "score": 30,
+   "why": [
+    "2 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Windows"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Windows"
      }
     ]
    },
@@ -55473,6 +55657,51 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "26099110000",
+   "cid": "26099110000",
+   "handle": "12609000110",
+   "addr": "2208 MONTANA ST",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 18,
+   "owner": "WELLS, FLOYD & C/O JOSE GUSTAVO GARCIA DE JESUS",
+   "mail": "2208 MONTANA ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3261,
+   "year": 1890,
+   "value": 15450.0,
+   "tax_bal": 1292.85,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 81316,
+   "score": 30,
+   "why": [
+    "2 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Open Storage; Porch"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Open Storage; Porch"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "10D120877",
    "cid": "10D120877",
    "addr": "221 RODERICK DR",
@@ -58913,49 +59142,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "27219120000",
-   "cid": "27219120000",
-   "handle": "12721000120",
-   "addr": "4527 MINNESOTA AVE",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 17,
-   "owner": "VIBRANT BLUE REALTY LLC",
-   "mail": "20 PINE CANYON DR",
-   "mail_city": "Atlanta",
-   "mail_state": "GA",
-   "mail_zip": "30331",
-   "occ": null,
-   "landuse": 1120,
-   "units": 2,
-   "sqft": 3700,
-   "year": 1926,
-   "value": 14270.0,
-   "tax_bal": 1196.24,
-   "vac_year": 0,
-   "lender": "670",
-   "sale_price": 64800.0,
-   "sale_date": "2002-02-04",
-   "mkt": 75105,
-   "score": 30,
-   "why": [
-    "absentee",
-    "out of state",
-    "1 code violation",
-    "investor owned"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Electrical; Smoke Detectors; Status Unit"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "11E640416",
    "cid": "11E640416",
    "addr": "455 MIDLOTHIAN RD",
@@ -59074,6 +59260,51 @@
       "addr": "456 MIDLOTHIAN RD",
       "status": "Send to Inspector",
       "note": "p/u ld tree brush dumped in front of our big stuff."
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "56849050000",
+   "cid": "56849050000",
+   "handle": "15684000050",
+   "addr": "4611 S 38TH ST",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "ALANIS-GOMEZ, FERNANDO & ROSALBA & MONTERROSAS-RAMIREZ",
+   "mail": "4611 S 38TH ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63116",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4275,
+   "year": 1928,
+   "value": 17330.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "712",
+   "sale_price": 65000.0,
+   "sale_date": "2020-02-24",
+   "mkt": 91211,
+   "score": 30,
+   "why": [
+    "2 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Cornice/Fascia; Garage/Shed"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Cornice/Fascia; Garage/Shed"
      }
     ]
    },
@@ -59376,6 +59607,51 @@
       "csb": 0,
       "unpd": 0.0,
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "47109120000",
+   "cid": "47109120000",
+   "handle": "14710000120",
+   "addr": "5012 S 37TH ST",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "CROSS, MICHAEL J",
+   "mail": "5012 S 37TH ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63116",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 5489,
+   "year": 1925,
+   "value": 10190.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 40000.0,
+   "sale_date": "1995-05-16",
+   "mkt": 53632,
+   "score": 30,
+   "why": [
+    "2 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Autos; Gutters/Downspout; Open Storage; Parking Area"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Autos; Gutters/Downspout; Open Storage; Parking Area"
      }
     ]
    },
@@ -60561,6 +60837,51 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "28709270000",
+   "cid": "28709270000",
+   "handle": "12870000270",
+   "addr": "757 DOVER PL",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "RILEY, CORTNEY A SR & BERTHA MAE RILEY H",
+   "mail": "757 DOVER PL",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4623,
+   "year": 1915,
+   "value": 29240.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 72500.0,
+   "sale_date": "1998-04-24",
+   "mkt": 153895,
+   "score": 30,
+   "why": [
+    "2 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Address; Garage/Shed; Porch; Walls; Windows"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Address; Garage/Shed; Porch; Walls; Windows"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "07789060000",
    "cid": "07789060000",
    "handle": "10778000060",
@@ -60641,6 +60962,51 @@
       "date": "2026-10-19",
       "type": "Violation Letter",
       "action": "Autos; Cornice/Fascia; Garage/Shed; Open Storage; Walls"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "29069180000",
+   "cid": "29069180000",
+   "handle": "12906000180",
+   "addr": "911 FILLMORE ST",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "SCHWAN, KATHERINE N",
+   "mail": "911 FILLMORE ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3407,
+   "year": 1907,
+   "value": 18760.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 80360.0,
+   "sale_date": "2020-06-12",
+   "mkt": 98737,
+   "score": 30,
+   "why": [
+    "2 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Address; Fences; Open Storage"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Address; Fences; Open Storage"
      }
     ]
    },
@@ -70880,6 +71246,52 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "53289360000",
+   "cid": "53289360000",
+   "handle": "15328000360",
+   "addr": "4451 GRAVOIS AVE",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 5,
+   "owner": "CHANDLER, HENRY & ROCHELLE",
+   "mail": "4451 GRAVOIS AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63116",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3878,
+   "year": 1908,
+   "value": 16950.0,
+   "tax_bal": 0,
+   "vac_year": 2005,
+   "lender": "438",
+   "sale_price": 49000.0,
+   "sale_date": "2000-12-14",
+   "mkt": 89211,
+   "score": 20,
+   "why": [
+    "vacant 21+ years",
+    "1 code violation"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "year": 2005
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Address; Cornice/Fascia; General; Gutters/Downspout; Marquee/Fixed Awnings; Porch; Windows"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "27279150000",
    "cid": "27279150000",
    "handle": "12727000150",
@@ -71694,52 +72106,6 @@
     "vacant": [
      {
       "year": 2018
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
-   "tag": "28149010000",
-   "cid": "28149010000",
-   "handle": "12814000010",
-   "addr": "5240 LOUISIANA AVE",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 1,
-   "owner": "NKOPURUK, ANYIEDE ABASI SAMUEL & & SAO BASS",
-   "mail": "5240 LOUISIANA AVE",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63111",
-   "occ": "Y",
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 4322,
-   "year": 1918,
-   "value": 43050.0,
-   "tax_bal": 0,
-   "vac_year": 2017,
-   "lender": "670",
-   "sale_price": 110000.0,
-   "sale_date": "2017-08-29",
-   "mkt": 226579,
-   "score": 20,
-   "why": [
-    "vacant 9+ years",
-    "1 code violation"
-   ],
-   "signals": {
-    "vacant": [
-     {
-      "year": 2017
-     }
-    ],
-    "citations": [
-     {
-      "date": "2026-11-09",
-      "type": "Violation Letter",
-      "action": "Garage/Shed; Retaining Wall"
      }
     ]
    },
@@ -73794,46 +74160,6 @@
       "addr": "10042 BARON DR",
       "status": "OPEN",
       "note": "stk bed rear"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
-   "tag": "06679160000",
-   "cid": "06679160000",
-   "handle": "10667000160",
-   "addr": "1005 ALLEN AVE",
-   "zip": "63104",
-   "county": "St. Louis City",
-   "nbhd": 21,
-   "owner": "SHATLEY, JORDAN",
-   "mail": "1005 ALLEN AVE",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63104",
-   "occ": null,
-   "landuse": 1123,
-   "units": 4,
-   "sqft": 3502,
-   "year": 1885,
-   "value": 71750.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 0.0,
-   "sale_date": "",
-   "mkt": 377632,
-   "score": 15,
-   "why": [
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Windows"
      }
     ]
    },
@@ -76794,46 +77120,6 @@
       "addr": "2171 FARTHING CT",
       "status": "OPEN",
       "note": "dresser in carport trash cans at street"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
-   "tag": "26099110000",
-   "cid": "26099110000",
-   "handle": "12609000110",
-   "addr": "2208 MONTANA ST",
-   "zip": "63118",
-   "county": "St. Louis City",
-   "nbhd": 18,
-   "owner": "WELLS, FLOYD & C/O JOSE GUSTAVO GARCIA DE JESUS",
-   "mail": "2208 MONTANA ST",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63118",
-   "occ": "Y",
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 3261,
-   "year": 1890,
-   "value": 15450.0,
-   "tax_bal": 1292.85,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 0.0,
-   "sale_date": "",
-   "mkt": 81316,
-   "score": 15,
-   "why": [
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Open Storage; Porch"
      }
     ]
    },
@@ -85831,46 +86117,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "56849050000",
-   "cid": "56849050000",
-   "handle": "15684000050",
-   "addr": "4611 S 38TH ST",
-   "zip": "63116",
-   "county": "St. Louis City",
-   "nbhd": 16,
-   "owner": "ALANIS-GOMEZ, FERNANDO & ROSALBA & MONTERROSAS-RAMIREZ",
-   "mail": "4611 S 38TH ST",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63116",
-   "occ": "Y",
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 4275,
-   "year": 1928,
-   "value": 17330.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "712",
-   "sale_price": 65000.0,
-   "sale_date": "2020-02-24",
-   "mkt": 91211,
-   "score": 15,
-   "why": [
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Cornice/Fascia; Garage/Shed"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "44149100000",
    "cid": "44149100000",
    "handle": "14414040190",
@@ -86949,46 +87195,6 @@
     "vacant": [
      {
       "year": 2018
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
-   "tag": "47109120000",
-   "cid": "47109120000",
-   "handle": "14710000120",
-   "addr": "5012 S 37TH ST",
-   "zip": "63116",
-   "county": "St. Louis City",
-   "nbhd": 16,
-   "owner": "CROSS, MICHAEL J",
-   "mail": "5012 S 37TH ST",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63116",
-   "occ": "Y",
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 5489,
-   "year": 1925,
-   "value": 10190.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "670",
-   "sale_price": 40000.0,
-   "sale_date": "1995-05-16",
-   "mkt": 53632,
-   "score": 15,
-   "why": [
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Autos; Gutters/Downspout; Open Storage; Parking Area"
      }
     ]
    },
@@ -89244,46 +89450,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "28709270000",
-   "cid": "28709270000",
-   "handle": "12870000270",
-   "addr": "757 DOVER PL",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 1,
-   "owner": "RILEY, CORTNEY A SR & BERTHA MAE RILEY H",
-   "mail": "757 DOVER PL",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63111",
-   "occ": null,
-   "landuse": 1120,
-   "units": 2,
-   "sqft": 4623,
-   "year": 1915,
-   "value": 29240.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "670",
-   "sale_price": 72500.0,
-   "sale_date": "1998-04-24",
-   "mkt": 153895,
-   "score": 15,
-   "why": [
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Address; Garage/Shed; Porch; Walls; Windows"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "29J320371",
    "cid": "29J320371",
    "addr": "764 PEACE HAVEN DR",
@@ -89831,46 +89997,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "29069180000",
-   "cid": "29069180000",
-   "handle": "12906000180",
-   "addr": "911 FILLMORE ST",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 1,
-   "owner": "SCHWAN, KATHERINE N",
-   "mail": "911 FILLMORE ST",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63111",
-   "occ": "Y",
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 3407,
-   "year": 1907,
-   "value": 18760.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "670",
-   "sale_price": 80360.0,
-   "sale_date": "2020-06-12",
-   "mkt": 98737,
-   "score": 15,
-   "why": [
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Address; Fences; Open Storage"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "26J640412",
    "cid": "26J640412",
    "addr": "9232 DANA AVE",
@@ -90384,6 +90510,6 @@
   }
  ],
  "absentee_only": 126110,
- "city": 1324,
+ "city": 1325,
  "county": 747
 }
