@@ -1,0 +1,84 @@
+{
+  "name": "Las Vegas, NV",
+  "short": "Las Vegas",
+  "state": "NV",
+  "min_value": 30000,
+  "counties": [
+    {
+      "name": "Clark",
+      "parcels": {
+        "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/GISMO/Address/MapServer/2",
+        "where": "landuse='110' AND MAIL_ADDRESS1 NOT LIKE CONCAT(CAST(strno AS VARCHAR(10)), ' %')",
+        "page": 1000,
+        "map": {
+          "tag": "APN",
+          "addr": ["strno", "strdir", "strname", "strtype"],
+          "muni": "City",
+          "owner": "owner",
+          "mail": "MAIL_ADDRESS1",
+          "landuse": "landuse",
+          "units": "CAPACITY",
+          "year": "CONSTYR",
+          "value": "TOTVAL",
+          "sale_date": "DOCDATE",
+          "sale_price": "SALEPRICE"
+        },
+        "extra": ["owner2", "DOCVEST", "STATELANDUSE"]
+      },
+      "signals": [
+        {
+          "name": "danger",
+          "weight": 40,
+          "label": "dangerous building, vacate or demolition order (city)",
+          "url": "https://services1.arcgis.com/F1v0ufATbBQScMtY/arcgis/rest/services/Code_Enforcement_Open_Data/FeatureServer/0",
+          "where": "STAT='Open' AND (DESCRIPT LIKE '%DANGEROUS BUILDING%' OR DESCRIPT LIKE '%VACATE%' OR DESCRIPT LIKE '%DEMOLI%' OR DESCRIPT LIKE '%UNSAFE%' OR DESCRIPT LIKE '%IMMINENT HAZARD%' OR DESCRIPT LIKE '%CONDEMN%')",
+          "map": {"tag": "Parcel_Number", "addr": "ADDRESS", "desc": "DESCRIPT", "opened": "Event_Date", "status": "STAT"}
+        },
+        {
+          "name": "housing",
+          "weight": 25,
+          "label": "open housing code case, substandard or dilapidated (city)",
+          "url": "https://services1.arcgis.com/F1v0ufATbBQScMtY/arcgis/rest/services/Code_Enforcement_Open_Data/FeatureServer/0",
+          "where": "STAT='Open' AND (DESCRIPT LIKE 'HC-%' OR DESCRIPT LIKE 'HC %' OR DESCRIPT LIKE '%DILAPIDAT%' OR DESCRIPT LIKE '%SUBSTANDARD%') AND NOT (DESCRIPT LIKE '%DANGEROUS BUILDING%' OR DESCRIPT LIKE '%VACATE%' OR DESCRIPT LIKE '%DEMOLI%' OR DESCRIPT LIKE '%UNSAFE%' OR DESCRIPT LIKE '%IMMINENT HAZARD%' OR DESCRIPT LIKE '%CONDEMN%')",
+          "map": {"tag": "Parcel_Number", "addr": "ADDRESS", "desc": "DESCRIPT", "opened": "Event_Date", "status": "STAT"}
+        },
+        {
+          "name": "junk",
+          "weight": 15,
+          "label": "trash, stored junk or overgrown yard case since 2024 (city)",
+          "url": "https://services1.arcgis.com/F1v0ufATbBQScMtY/arcgis/rest/services/Code_Enforcement_Open_Data/FeatureServer/0",
+          "where": "STAT='Open' AND Event_Date >= DATE '2024-01-01' AND (DESCRIPT LIKE '%REFUSE%' OR DESCRIPT LIKE '%STORED MATERIALS%' OR DESCRIPT LIKE '%VEGETATION%' OR DESCRIPT LIKE '%LITTER%' OR DESCRIPT LIKE '%WEEDS%')",
+          "map": {"tag": "Parcel_Number", "addr": "ADDRESS", "desc": "DESCRIPT", "opened": "Event_Date", "status": "STAT"}
+        },
+        {
+          "name": "nuisance",
+          "weight": 15,
+          "label": "general nuisance, graffiti or junk vehicle case since 2024 (city)",
+          "url": "https://services1.arcgis.com/F1v0ufATbBQScMtY/arcgis/rest/services/Code_Enforcement_Open_Data/FeatureServer/0",
+          "where": "STAT='Open' AND Event_Date >= DATE '2024-01-01' AND (DESCRIPT LIKE '%GENERAL NUISANCE%' OR DESCRIPT LIKE '%ATTRACTIVE NUISANCE%' OR DESCRIPT LIKE '%GRAFFITI%' OR DESCRIPT LIKE '%INOP%' OR DESCRIPT LIKE '%JUNK%' OR DESCRIPT LIKE '%ABANDONED VEH%')",
+          "map": {"tag": "Parcel_Number", "addr": "ADDRESS", "desc": "DESCRIPT", "opened": "Event_Date", "status": "STAT"}
+        }
+      ],
+      "lookup": "https://maps.clarkcountynv.gov/assessor/AssessorParcelDetail/ParcelDetail.aspx?hdnParcel={tag}&hdnInstance=pcl7"
+    }
+  ],
+  "ui": {
+    "name": "Las Vegas",
+    "st": "NV",
+    "q": " Las Vegas NV",
+    "sigs": ["all", "dangerous building", "housing code", "junk", "nuisance", "absentee", "out of state"],
+    "lookup": "<a href=\"https://maps.clarkcountynv.gov/assessor/AssessorParcelDetail/ParcelDetail.aspx?hdnParcel={tag}&hdnInstance=pcl7\" target=\"_blank\">Assessor</a> · <a href=\"https://trweb.co.clark.nv.us/\" target=\"_blank\">Treasurer</a>",
+    "title_cos": "First American Title, Ticor Title of Nevada, Equity Title of Nevada, Fidelity National Title, all in the valley",
+    "title_call": "First American Title or Equity Title of Nevada",
+    "law": "Nevada is a non-judicial foreclosure state: a deed of trust goes from notice of default to trustee sale in about 4 months, and owner-occupied homes can ask for the state Foreclosure Mediation Program. Closings run through escrow at a title company, no attorney needed. You may assign a contract you hold, but marketing a house you do not own without a license breaks NRS 645, so advertise your contract, say in writing that you are the buyer and may assign, and never list the house itself.",
+    "groups": "\"Las Vegas Real Estate Investors Association (LVREIA)\", \"Las Vegas Real Estate Investors Meetup\", \"Las Vegas Wholesale Real Estate Deals\"",
+    "prefc": "<b>Dangerous building</b>: the City of Las Vegas has an open dangerous building, vacate or demolition case on the parcel, the strongest signal here. <b>Housing code</b>: an inspector found the house dilapidated or substandard (electrical, plumbing, heat, weather). <b>Junk</b> and <b>nuisance</b>: open refuse, stored material, overgrown yard, graffiti or junk vehicle cases opened since 2024. All come from the city code enforcement layer, so they cover the City of Las Vegas only, not Henderson or North Las Vegas.",
+    "sos": "<a href=\"https://esos.nv.gov/EntitySearch/OnlineEntitySearch\" target=\"_blank\">Nevada SOS business search</a>",
+    "buyers_h": "Active cash buyers (assessor sale records)",
+    "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the Clark County Assessor sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on the Nevada SOS and call.",
+    "buyers_empty": "No buyers found in the sale data yet.",
+    "repairs": "Repairs, Las Vegas rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, tile roof repair 8-15k, AC 8-14k, pool repair 5-15k, full gut 60-100k.",
+    "sources": "Clark County Assessor parcel layer (owner, mailing address, assessed value, sale), City of Las Vegas code enforcement open cases",
+    "contracts": "mo"
+  }
+}
