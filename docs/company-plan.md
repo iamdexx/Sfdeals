@@ -105,6 +105,14 @@ Paid data later, not now: Regrid (parcels nationwide, from $0 for the API trial 
 
 Quality rules (learned the hard way in St. Louis): a lead needs a real distress signal, not just absentee; current-year tax bills are not delinquency; value floors to drop shells; vacancy weighted by age; investor owners down-ranked; the user's working list is frozen until they ask for new leads.
 
+### Metro status (Nov 10, 2026)
+
+Live: Sioux Falls, St. Louis, Phoenix (Maricopa: delinquent tax and state-held lien lists), Tampa (Hillsborough: homestead, appraiser condition, deed type), Charlotte (Mecklenburg ownership plus city code cases and orders to demolish). Five metros, all free, all on the 2-hour heartbeat, one GitHub job each.
+
+Probed, parked until a distress signal is found: Columbus (Franklin parcels have owner-occupied, rental and homestead flags but the tax-owed fields are empty), Cleveland (Cuyahoga open parcels with owner, mail and sales; no city code or condemnation layer published as a service), Indianapolis (parcel owner layers exist; code enforcement not published), Dallas (DCAD only ships a 171 MB zip), Houston (Harris only publishes a top-200 delinquent list), Atlanta (no public Fulton parcel service found).
+
+Playbook for the next metros: look for the county's own ArcGIS server first (meckgis, gis.franklincountyohio, gis.cuyahogacounty are the pattern), then the city's code enforcement folder (HNS, Accela, DMD), then treasurer lien and tax sale layers. Where only parcels exist, ship the metro as absentee plus buyers list and label it yellow on the metros page.
+
 ## 5. Go-to-market
 
 1. **Programmatic SEO** (month 1 onward, $0): one page per metro per signal, generated from live data with real counts: "Pre-foreclosures in St. Louis, MO: 178 filed in the last 120 days", "Tax sale properties in Jackson County". Sitemap, schema.org Dataset markup, internal links, weekly auto-updated. 50 metros × 8 signals = 400 pages that nobody else has with live numbers. This is the cheapest acquisition channel in the category.
