@@ -9,7 +9,7 @@ Confidential owners (2,586) are excluded by the `where`.
 
 Result on first run: 116k parcels, 884 signal rows, 592 hot (399 housing, 227 lot), 73k leads total, median hot value 272k, 2.5 minutes.
 
-Links: Property Appraiser search `ocpaweb.ocpafl.org/parcelsearch` (Angular app, state is not in the URL, so the card links to the search page), Tax Collector `county-taxes.net/fl-orange?search_query=<parcel>` (Grant Street, 403 to scripts, fine as a browser link).
+Links: Property Appraiser `ocpaweb.ocpafl.org/parcelsearch` (Angular app, no deep link: `?pid=`, `#/parcel/` and `/parceldetails` all land on the blank search, so the card links to the search page and the user pastes the address), Tax Collector `county-taxes.net/fl-orange?search_query=<parcel>` (Grant Street, 403 to scripts, fine as a browser link).
 
 Dead ends:
 - City of Orlando code enforcement is Socrata only: `data.cityoforlando.net/resource/k6e8-nw6w.json` (262k cases since 1990s, `parcel_id` 15 digit, `casetype` H/LOT/Z, `caseinfostatus` Open/Lien/ENF/CEB; today 609 open H, 384 H with lien, 535 open LOT, 3,014 LOT liens). No ArcGIS copy anywhere (`gis.orlando.gov/server`, cityoforlando.maps.arcgis.com, Hub). Needs a Socrata reader in `signals.py` to use; it would be the best signal in the metro.
