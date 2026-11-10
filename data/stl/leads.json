@@ -1,7 +1,7 @@
 {
  "as_of": "2026-11-10",
  "count": 130391,
- "hot": 19053,
+ "hot": 19054,
  "leads": [
   {
    "tag": "55289290000",
@@ -120456,6 +120456,56 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "36279310000",
+   "cid": "36279310000",
+   "handle": "13627000310",
+   "addr": "3833 ST LOUIS AVE",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "WILLIAMS, ROBERT LEE & OTIS WILLIAMS",
+   "mail": "3833 ST LOUIS AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63107",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4845,
+   "year": 1910,
+   "value": 2080.0,
+   "tax_bal": 198.27,
+   "vac_year": 2006,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "score": 70,
+   "why": [
+    "tax delinquent $198",
+    "vacant building since 2006"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 198.27,
+      "year": "",
+      "legal": "city tax balance"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 81,
+      "vmin": 8,
+      "vmaj": 10,
+      "csb": 1,
+      "unpd": 3150.0,
+      "year": 2006
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "37389510000",
    "cid": "37389510000",
    "handle": "13738000510",
@@ -127324,6 +127374,66 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "27299340000",
+   "cid": "27299340000",
+   "handle": "12729000340",
+   "addr": "4427 LOUISIANA AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "FORTE, TANNIKA",
+   "mail": "4427 LOUISIANA AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4366,
+   "year": 1905,
+   "value": 3900.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 32900.0,
+   "sale_date": "1991-12-03",
+   "score": 65,
+   "why": [
+    "1 code violation",
+    "pre-foreclosure filed 2026-10-13"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Fences; Open Storage; Porch; Status Unit; Walls"
+     }
+    ],
+    "recorder": [
+     {
+      "doc": "10132026-0076",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-10-13",
+      "addrs": [
+       "4427 LOUISIANA AVE"
+      ],
+      "pids": [
+       "27299340000"
+      ],
+      "lender": "MIDFIRST BANK",
+      "trustee": "S&W FORECLOSURE CORPORATION",
+      "parties": [
+       "MIDFIRST BANK",
+       "FORTE TANNIKA"
+      ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "41959410000",
    "cid": "41959410000",
    "handle": "14195000410",
@@ -133985,58 +134095,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "27299340000",
-   "cid": "27299340000",
-   "handle": "12729000340",
-   "addr": "4427 LOUISIANA AVE",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 16,
-   "owner": "FORTE, TANNIKA",
-   "mail": "4427 LOUISIANA AVE",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63111",
-   "occ": "Y",
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 4366,
-   "year": 1905,
-   "value": 3900.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "670",
-   "sale_price": 32900.0,
-   "sale_date": "1991-12-03",
-   "score": 50,
-   "why": [
-    "pre-foreclosure filed 2026-10-13"
-   ],
-   "signals": {
-    "recorder": [
-     {
-      "doc": "10132026-0076",
-      "kind": "pre-foreclosure",
-      "type": "APPOINT SUCC TRUSTEE",
-      "date": "2026-10-13",
-      "addrs": [
-       "4427 LOUISIANA AVE"
-      ],
-      "pids": [
-       "27299340000"
-      ],
-      "lender": "MIDFIRST BANK",
-      "trustee": "S&W FORECLOSURE CORPORATION",
-      "parties": [
-       "MIDFIRST BANK",
-       "FORTE TANNIKA"
-      ]
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "55459400000",
    "cid": "55459400000",
    "handle": "15545000400",
@@ -137847,7 +137905,7 @@
    "as_of": "2026-11-10"
   }
  ],
- "absentee_only": 111338,
- "city": 18283,
+ "absentee_only": 111337,
+ "city": 18284,
  "county": 770
 }

@@ -456,6 +456,18 @@
   "text": "Door; Graffiti; Open Storage; Roof; Walls"
  },
  {
+  "id": 2073739,
+  "date": "2026-11-10",
+  "addr": "4427 LOUISIANA AVE",
+  "pid": "27299340000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 3,
+  "text": "Fences; Open Storage; Porch; Status Unit; Walls"
+ },
+ {
   "id": 2065527,
   "date": "2026-11-09",
   "addr": "5110 CATES AVE",
