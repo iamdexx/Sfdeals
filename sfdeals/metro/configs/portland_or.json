@@ -1,0 +1,125 @@
+{
+ "name": "Portland, OR",
+ "short": "Portland",
+ "state": "OR",
+ "min_value": 80000,
+ "counties": [
+  {
+   "name": "Multnomah County",
+   "parcels": {
+    "url": "https://services5.arcgis.com/x7DNZL1YqNQVNykA/arcgis/rest/services/Multnomah_County_Taxlot_Parcels_DEV/FeatureServer/0",
+    "page": 2000,
+    "where": "IMPTYPE IN ('SFR','DPX','TPX','FPX','ROW','MFG') AND (STATE <> 'OR' OR SUBSTRING(ZIP,1,5) <> SITUSZIP OR ZIP IS NULL OR ZIP = '')",
+    "map": {
+     "tag": "PROPID",
+     "addr": "SITUSADDR",
+     "zip": "SITUSZIP",
+     "muni": "SITUSCITY",
+     "owner": "NAME",
+     "mail": "ADDR1",
+     "mail_city": "CITY",
+     "mail_state": "STATE",
+     "mail_zip": "ZIP",
+     "landuse": "IMPTYPE",
+     "units": "UNITS",
+     "year": "ACTYEARBUILT",
+     "res_sqft": "MAIN_SQFT",
+     "value": "ROLLM50",
+     "sale_date": "SALE_DATE",
+     "sale_price": "SALE_PRICE"
+    },
+    "extra": [
+     "DEED_TYPE",
+     "DEED_DATE",
+     "PROPCLASS",
+     "ALTACCTNUM"
+    ]
+   },
+   "signals": [
+    {
+     "name": "county_code_case",
+     "weight": 15,
+     "label": "open county code compliance case",
+     "url": "https://services5.arcgis.com/x7DNZL1YqNQVNykA/arcgis/rest/services/CodeComplianceBacklog/FeatureServer/0",
+     "map": {
+      "tag": "ALTACCNUMBER",
+      "addr": "SITEADDRESS",
+      "case": "CASE_",
+      "kind": "PRIMARYCOMPLAINT",
+      "status": "COMPLAINTPRIORITY"
+     }
+    }
+   ],
+   "derived": [
+    {
+     "name": "estate",
+     "weight": 25,
+     "label": "estate deed in the last 2 years (personal representative or death affidavit)",
+     "field": "DEED_TYPE",
+     "in": [
+      "PRD",
+      "PR",
+      "AFFD"
+     ],
+     "since_field": "DEED_DATE",
+     "since_days": 730
+    },
+    {
+     "name": "quitclaim",
+     "weight": 15,
+     "label": "quit claim transfer in the last 2 years",
+     "field": "DEED_TYPE",
+     "in": [
+      "QCD",
+      "QC",
+      "QD"
+     ],
+     "since_field": "DEED_DATE",
+     "since_days": 730
+    },
+    {
+     "name": "foreclosure_deed",
+     "weight": 20,
+     "label": "trustee, sheriff or judgment deed in the last 2 years",
+     "field": "DEED_TYPE",
+     "in": [
+      "TRD",
+      "SHD",
+      "JUD",
+      "TD"
+     ],
+     "since_field": "DEED_DATE",
+     "since_days": 730
+    }
+   ],
+   "lookup": "https://www.portlandmaps.com/detail/property/{tag}_did/"
+  }
+ ],
+ "ui": {
+  "name": "Portland",
+  "st": "OR",
+  "q": " Portland OR",
+  "sigs": [
+   "all",
+   "estate",
+   "quit claim",
+   "trustee",
+   "code compliance",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://www.portlandmaps.com/detail/property/{tag}_did/\" target=\"_blank\">PortlandMaps property record</a>",
+  "title_cos": "WFG National Title, Ticor Title, Fidelity National Title, First American Title, all in Portland",
+  "title_call": "WFG National Title or Ticor Title",
+  "law": "Oregon lets you assign a purchase contract, but since 2022 a wholesaler who markets a contract on a house they do not own must hold an Oregon real estate license or sell only their own contract to one buyer, so put the assignment clause in the contract and tell the seller in writing. Escrow companies close deals, not attorneys. Most Oregon foreclosures are non-judicial trustee sales with a public notice of default.",
+  "groups": "\"Portland REIA\", \"NW Real Estate Investors Association\", \"Portland Wholesale Deals\"",
+  "prefc": "<b>Estate deeds</b>: a personal representative deed or a death affidavit on the record means the house just passed to heirs, who often live elsewhere and want it gone. <b>Quit claim</b> transfers are divorces, family handoffs and distressed owners moving title around. <b>Trustee or sheriff deeds</b> are post-foreclosure houses the lender or buyer now holds.",
+  "sos": "<a href=\"https://sos.oregon.gov/business/pages/find.aspx\" target=\"_blank\">Oregon SOS business search</a>",
+  "buyers_h": "Active cash buyers (assessor sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the county sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on the Oregon Secretary of State and call.",
+  "buyers_empty": "No buyers found in the sale data yet.",
+  "repairs": "Repairs, Portland rough numbers per house: cosmetic 20-30k, kitchen+baths 35-60k, roof 15-25k, furnace and electrical 10-18k, foundation and drainage 10-30k on the older 1900s stock, full gut 80-130k.",
+  "sources": "Multnomah County assessor taxlot layer (owner, mailing address, deed type and date, year built, living area, assessed value, last sale), Multnomah County code compliance backlog",
+  "contracts": "mo"
+ }
+}
