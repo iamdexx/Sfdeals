@@ -1,0 +1,160 @@
+{
+ "name": "Seattle, WA",
+ "short": "Seattle",
+ "state": "WA",
+ "min_value": 60000,
+ "counties": [
+  {
+   "name": "King County",
+   "parcels": {
+    "url": "https://services.arcgis.com/Ej0PsM5Aw677QF1W/arcgis/rest/services/PARCEL_SALES3YR_AREA_287/FeatureServer/0",
+    "page": 1000,
+    "where": "Principal_Use = 'RESIDENTIAL' AND SalePrice > 10000 AND (buyername LIKE '%LLC%' OR buyername LIKE '%INC%' OR buyername LIKE '%CORP%' OR buyername LIKE '%PROPERTIES%' OR buyername LIKE '%HOLDINGS%' OR buyername LIKE '%INVEST%' OR buyername LIKE '%HOMES%')",
+    "map": {
+     "tag": "PIN",
+     "addr": "address",
+     "owner": "buyername",
+     "landuse": "Principal_Use",
+     "sale_date": "SaleDate",
+     "sale_price": "SalePrice"
+    }
+   },
+   "signals": [],
+   "lookup": "https://blue.kingcounty.com/Assessor/eRealProperty/Dashboard.aspx?ParcelNbr={tag}"
+  },
+  {
+   "name": "King County",
+   "parcels": {
+    "url": "https://services.arcgis.com/Ej0PsM5Aw677QF1W/arcgis/rest/services/PARCEL_ADDRESS_PUB_AREA_3069/FeatureServer/0",
+    "page": 1000,
+    "where": "PREUSE_DESC LIKE 'Single Family%' AND ADDR_HN IS NOT NULL AND (KCTP_ZIP NOT LIKE ZIP5 || '%' OR KCTP_STATE <> 'WA')",
+    "map": {
+     "tag": "PIN",
+     "addr": "ADDR_FULL",
+     "zip": "ZIP5",
+     "muni": "CTYNAME",
+     "owner": [
+      "KCTP_ATTN",
+      "ACCNT_NUM"
+     ],
+     "mail": "KCTP_ADDR",
+     "mail_city": "KCTP_CITY",
+     "mail_state": "KCTP_STATE",
+     "mail_zip": "KCTP_ZIP",
+     "landuse": "PREUSE_DESC",
+     "value": "APPR_IMPR"
+    }
+   },
+   "signals": [
+    {
+     "name": "condition",
+     "weight": 30,
+     "label": "building condition poor (assessor survey)",
+     "url": "https://services.arcgis.com/Ej0PsM5Aw677QF1W/arcgis/rest/services/Residential_Parcels_with_Building_Age/FeatureServer/2",
+     "where": "Condition = 1",
+     "map": {
+      "tag": "PIN",
+      "addr": "ADDR_FULL",
+      "year": "YrBuilt",
+      "sqft": "SqFtTotLiv",
+      "grade": "BldgGrade"
+     }
+    }
+   ],
+   "lookup": "https://blue.kingcounty.com/Assessor/eRealProperty/Dashboard.aspx?ParcelNbr={tag}"
+  },
+  {
+   "name": "Pierce County",
+   "parcels": {
+    "url": "https://services2.arcgis.com/1UvBaQ5y1ubjUPmd/arcgis/rest/services/Tax_Parcels/FeatureServer/0",
+    "page": 2000,
+    "where": "Use_Code IN ('1101','1152','1155') AND TaxParcelType = 'Base Parcel' AND Delivery_Address <> Site_Address",
+    "map": {
+     "tag": "TaxParcelNumber",
+     "addr": "Site_Address",
+     "owner": [
+      "Business_Name",
+      "TaxParcelNumber"
+     ],
+     "mail": "Delivery_Address",
+     "mail_city": "City_State",
+     "mail_zip": "Zipcode",
+     "landuse": "Landuse_Description",
+     "value": "Taxable_Value"
+    }
+   },
+   "signals": [
+    {
+     "name": "derelict",
+     "weight": 40,
+     "label": "derelict building case (Tacoma code enforcement)",
+     "url": "https://services3.arcgis.com/SCwJH1pD8WSn5T5y/arcgis/rest/services/Code%20Violations/FeatureServer/0",
+     "where": "casetype LIKE 'Derelict%' AND currentstatus = 'Open'",
+     "map": {
+      "tag": "parcelnumber",
+      "addr": "address",
+      "case": "casenumber",
+      "kind": "casetype",
+      "status": "casestatus"
+     }
+    },
+    {
+     "name": "unfit",
+     "weight": 35,
+     "label": "unfit or substandard building case (Tacoma)",
+     "url": "https://services3.arcgis.com/SCwJH1pD8WSn5T5y/arcgis/rest/services/Code%20Violations/FeatureServer/0",
+     "where": "(casetype LIKE 'Substandard%' OR casetype = 'Unfit Building') AND currentstatus = 'Open'",
+     "map": {
+      "tag": "parcelnumber",
+      "addr": "address",
+      "case": "casenumber",
+      "kind": "casetype",
+      "status": "casestatus"
+     }
+    },
+    {
+     "name": "nuisance",
+     "weight": 15,
+     "label": "open nuisance case (Tacoma)",
+     "url": "https://services3.arcgis.com/SCwJH1pD8WSn5T5y/arcgis/rest/services/Code%20Violations/FeatureServer/0",
+     "where": "casetype = 'Nuisance' AND currentstatus = 'Open'",
+     "map": {
+      "tag": "parcelnumber",
+      "addr": "address",
+      "case": "casenumber",
+      "kind": "casetype",
+      "status": "casestatus"
+     }
+    }
+   ],
+   "lookup": "https://atip.piercecountywa.gov/app/v2/propertyDetail/{tag}/summary"
+  }
+ ],
+ "ui": {
+  "name": "Seattle",
+  "st": "WA",
+  "q": " WA",
+  "sigs": [
+   "all",
+   "condition poor",
+   "derelict",
+   "unfit",
+   "nuisance",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://blue.kingcounty.com/Assessor/eRealProperty/Dashboard.aspx?ParcelNbr={tag}\" target=\"_blank\">King County record</a> \u00b7 <a href=\"https://atip.piercecountywa.gov/app/v2/propertyDetail/{tag}/summary\" target=\"_blank\">Pierce County record</a>",
+  "title_cos": "Rainier Title, WFG National Title, Chicago Title of Washington, all around Seattle and Tacoma",
+  "title_call": "Rainier Title or WFG",
+  "law": "Washington is a non-judicial foreclosure state: the lender's trustee records a Notice of Trustee Sale and sells about 120 days later, and escrow companies close deals, no attorney needed. You can assign a purchase contract; tell the seller in writing that you may assign it and never market the house itself.",
+  "groups": "\"REAPS (Real Estate Association of Puget Sound)\", \"Seattle Real Estate Investors\", \"Washington Wholesale Deals\"",
+  "prefc": "<b>Owner name</b>: King and Pierce County publish the taxpayer's mailing address but not the name in their open data, so the owner line shows the tax account number. The county record link shows the name in one click. <b>Value</b> for King County houses is the assessor's building value only, land is extra. <b>Condition poor</b> comes from the King County assessor's residential survey. <b>Derelict, unfit and nuisance</b> are open City of Tacoma code enforcement cases.",
+  "sos": "<a href=\"https://ccfs.sos.wa.gov/#/BusinessSearch\" target=\"_blank\">WA SOS search</a>",
+  "buyers_h": "Active cash buyers (King County sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in King County in the last 18 months, from the assessor's sale records, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on the WA Secretary of State and call.",
+  "buyers_empty": "No buyers found in the sale data yet.",
+  "repairs": "Repairs, Seattle rough numbers per house: cosmetic 20-35k, kitchen+baths 40-70k, roof 15-30k, furnace and heat pump 10-18k, sewer side line 8-20k (old clay pipes), full gut 100-180k.",
+  "sources": "King County parcel layer (mailing address, land use, building value), King County assessor residential survey (building condition), King County sales in the last 3 years (buyers), Pierce County tax parcels (mailing address, value), City of Tacoma code enforcement cases",
+  "contracts": "mo"
+ }
+}
