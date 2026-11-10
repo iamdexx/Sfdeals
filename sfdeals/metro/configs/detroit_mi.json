@@ -214,7 +214,7 @@
      }
     }
    ],
-   "lookup": "https://cityofdetroit.github.io/parcel-viewer/{tag}"
+   "lookup": "https://baseunits.detroitmi.gov/map?id={tag}&layer=parcel"
   }
  ],
  "ui": {
@@ -230,7 +230,7 @@
    "absentee",
    "out of state"
   ],
-  "lookup": "<a href=\"https://cityofdetroit.github.io/parcel-viewer/{tag}\" target=\"_blank\">City parcel record</a> \u00b7 <a href=\"https://pta.waynecounty.com/\" target=\"_blank\">County tax bill</a>",
+  "lookup": "<a href=\"https://baseunits.detroitmi.gov/map?id={tag}&layer=parcel\" target=\"_blank\">City parcel record</a> \u00b7 <a href=\"https://pta.waynecounty.com/\" target=\"_blank\">County tax bill</a>",
   "title_cos": "Title One, Liberty Title, Metropolitan Title, all in metro Detroit",
   "title_call": "Title One or Liberty Title",
   "law": "Michigan lets you assign a purchase contract; put the assignment right in the contract and never market the house itself, only your contract. Michigan is a non judicial foreclosure state with a 6 month redemption period after the sheriff sale, so the owner can still sell to you during redemption.",
