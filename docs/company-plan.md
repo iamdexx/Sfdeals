@@ -97,6 +97,18 @@ Quality rules (learned the hard way in St. Louis): a lead needs a real distress 
 
 Targets: 100 trials in month 2, 25% trial to paid, 5% monthly churn by month 6, LTV about $1,500 at $79 blended ARPU.
 
+### Affiliate program (built into Phase 1 with billing)
+
+Influencers and REIA leaders drive most new wholesalers, so paying them is the cheapest channel we have.
+- 30% recurring commission for the first 12 months of every referred subscription (industry standard; DealMachine and BatchLeads pay in this range). Flat $20 per skip trace credit pack referred.
+- Referral link (`?ref=code`, 60-day cookie) plus a code the influencer can say on camera; code wins if both exist.
+- Attribution stored as Stripe customer metadata; commissions computed from paid invoices only, 30 days after payment (refund window), so trials and chargebacks never pay out.
+- Affiliate dashboard: clicks, trials, paid, churned, pending and paid commissions, downloadable W-9 flow at $600 a year (IRS requirement).
+- Payouts monthly through Stripe Connect Express (or PayPal for those who prefer it), $50 minimum.
+- Co-marketing kit: metro report PDFs, screenshots, a 60-second demo, their own free Pro account.
+- Fraud rules: no self-referral, no coupon-site listings, commission clawback on refunds.
+- Tiering later: 35% at 50 active referrals, 40% at 200. White-label option for REIAs in Phase 5.
+
 ## 6. Financial model (conservative)
 
 | Month | Paying users | MRR | Infra cost |

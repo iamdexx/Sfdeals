@@ -3,3 +3,4 @@ __pycache__/
 .vercel/
 *.pyc
 data/*/*parcels*.json.gz
+data/*/signals.json*

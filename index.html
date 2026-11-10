@@ -29,7 +29,7 @@ details{margin:6px 0}summary{cursor:pointer;color:var(--acc)}pre{white-space:pre
 .calc td{padding:6px 4px}.calc input{margin:0}.big{font-size:26px;font-weight:700;color:var(--acc)}
 a{color:var(--acc)}
 </style></head><body>
-<header><div><select id="mkt" onchange="setMarket(this.value)"><option value="sf">Sioux Falls, SD</option><option value="stl">St. Louis, MO</option></select><div class="sub" id="sub">loading</div></div><button class="b alt" onclick="exportState()">Backup</button></header>
+<header><div><select id="mkt" onchange="setMarket(this.value)"><option value="sf">Sioux Falls, SD</option><option value="stl">St. Louis, MO</option><option value="phx">Phoenix, AZ</option></select><div class="sub" id="sub">loading</div></div><button class="b alt" onclick="exportState()">Backup</button></header>
 <main id="main"></main>
 <nav>
 <button data-v="start" onclick="go('start')">Start</button>
@@ -63,7 +63,17 @@ const MARKETS={
   sos:'<a href="https://bsd.sos.mo.gov/BusinessEntity/BESearch.aspx" target="_blank">MO SOS search</a>',
   buyers_h:'Cash buyers',buyers_note:'There is no free public list of St. Louis sheriff sale buyers yet, so build your own. Every "We Buy Houses" sign and bandit sign is a buyer, and so is every LLC you see on recent sold listings in Zillow. Look up LLC owners on the Missouri Secretary of State site.',buyers_empty:'',
   repairs:'Repairs, St. Louis rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, roof 10-18k, furnace+AC 8-12k, tuckpointing 5-15k, full gut 60-100k.',
-  sources:'city assessor parcel layer (owner, mailing address, tax balance, vacant building year), city vacant building registry, city building division inspections (condemnations, notices to secure, violation letters), sheriff land tax sale list when posted, county parcel layer (owner occupancy flag), county 2022 vacancy survey, county tax sale leftovers (post third sale and trustee parcels), trustee foreclosure sale report (SouthLaw), city Recorder of Deeds index (successor trustee appointments, notices of sale)',contracts:'mo'}};
+  sources:'city assessor parcel layer (owner, mailing address, tax balance, vacant building year), city vacant building registry, city building division inspections (condemnations, notices to secure, violation letters), sheriff land tax sale list when posted, county parcel layer (owner occupancy flag), county 2022 vacancy survey, county tax sale leftovers (post third sale and trustee parcels), trustee foreclosure sale report (SouthLaw), city Recorder of Deeds index (successor trustee appointments, notices of sale)',contracts:'mo'},
+ phx:{name:'Phoenix',st:'AZ',key:'sfdeals_phx',q:' Phoenix AZ',sigs:['all','tax lien','delinquent tax','absentee','out of state'],
+  lookup:l=>`<a href="https://mcassessor.maricopa.gov/mcs/?q=${encodeURIComponent(l.tag)}" target="_blank">Assessor</a> · <a href="https://treasurer.maricopa.gov/PropertyTaxInformation/?parcel=${encodeURIComponent(l.tag)}" target="_blank">Treasurer</a>`,
+  title_cos:'Magnus Title, Security Title, Pioneer Title, all in the Valley',title_call:'Magnus Title or Pioneer Title',
+  law:'Arizona lets you assign a purchase contract. Since 2024 you must tell the seller in writing, before signing, that you may assign it. Never market the house itself.',
+  groups:'"AZREIA", "Phoenix Real Estate Investors", "Arizona Wholesale Deals"',
+  prefc:'<b>Tax lien</b>: Maricopa sells liens every February on taxes a year or more late. Delinquent tax means the owner is on that list. State held means nobody bought the lien, the most distressed of all. The owner can still sell any time before a lien holder forecloses (3 years after the sale).',
+  sos:'<a href="https://ecorp.azcc.gov/EntitySearch/Index" target="_blank">AZ Corp Commission search</a>',
+  buyers_h:'Cash buyers',buyers_note:'No free public buyer list for Maricopa yet. Build your own from We Buy Houses signs and the LLCs on recent cash sales. Look up LLC owners on the Arizona Corporation Commission site.',buyers_empty:'',
+  repairs:'Repairs, Phoenix rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, roof 12-20k, AC 8-14k, pool repair 5-15k, full gut 60-100k.',
+  sources:'Maricopa County Assessor parcel layer (owner, mailing address, value, sale), Maricopa County delinquent tax and unsold lien parcel layers',contracts:'mo'}};
 const qm=new URLSearchParams(location.search).get('m');if(MARKETS[qm])localStorage.sfdeals_market=qm;
 const mk=MARKETS[localStorage.sfdeals_market]?localStorage.sfdeals_market:'sf',MK=MARKETS[mk];
 document.title=MK.name+' Deals';$('#mkt').value=mk;
@@ -121,13 +131,14 @@ function lead(tag){
   ${(l.phones||[]).length?`<p><b>Phone${l.phones.length>1?'s':''}</b>${l.contact?' ('+esc(l.contact)+')':''}<br>${l.phones.map(x=>`<a href="tel:${esc(x.number)}" style="font-size:19px">${fmtPhone(x.number)}</a> <span class="mut">${esc(x.type||'')}${x.dnc?' · on Do Not Call list':''}</span>`).join('<br>')}${(l.emails||[]).length?`<br><a href="mailto:${esc(l.emails[0])}">${esc(l.emails[0])}</a>`:''}</p>`:''}
   <p><b>Owner</b> ${esc(l.owner)}<br><b>Mails to</b> ${esc(l.mail)}, ${esc(l.mail_city)} ${esc(l.mail_state)} ${esc(l.mail_zip)}</p>
   ${fc?`<p><b>Sheriff sale</b> ${fc.sale_date||''} · ${esc(fc.plaintiff)} vs ${esc(fc.defendant)} · judgment ${fmt(fc.judgment)} · case ${fc.case}</p>`:''}
-  ${(l.signals.tax||[]).map(t=>`<p><b>Tax</b> ${t.year} ${fmt(t.amount)} owed · ${esc(t.legal)}</p>`).join('')}
+  ${(l.signals.tax||[]).filter(x=>!x.label).map(t=>`<p><b>Tax</b> ${t.year} ${fmt(t.amount)} owed · ${esc(t.legal)}</p>`).join('')}
   ${(l.signals.vacant||[]).map(v=>`<p><b>Vacant building</b> on the city list since ${v.year}${v.mo?', '+v.mo+' months':''}${v.vmaj?', '+v.vmaj+' major violation'+(v.vmaj>1?'s':''):''}${v.unpd?', '+fmt(v.unpd)+' unpaid fees':''}</p>`).join('')}
   ${(l.signals.landtax||[]).map(x=>`<p><b>Sheriff land tax sale</b> ${esc(x.line)}</p>`).join('')}
   ${(l.signals.county_vacant||[]).map(x=>`<p><b>County vacancy survey 2022</b> ${esc(x.status||'')} ${esc(x.note||'')}</p>`).join('')}
-  ${(l.signals.taxsale||[]).map(x=>`<p><b>County tax sale</b> ${esc(x.status)}: ${x.status==='Trustee'?'deeded to the County trustee, buy from the Collector':'did not sell at 3 tax sales, open to offers through the Collector'} (${esc(x.use||'')}, appraised $${(x.value||0).toLocaleString()})</p>`).join('')}
+  ${(l.signals.taxsale||[]).filter(x=>!x.label).map(x=>`<p><b>County tax sale</b> ${esc(x.status)}: ${x.status==='Trustee'?'deeded to the County trustee, buy from the Collector':'did not sell at 3 tax sales, open to offers through the Collector'} (${esc(x.use||'')}, appraised $${(x.value||0).toLocaleString()})</p>`).join('')}
   ${(l.signals.recorder||[]).map(x=>`<p><b>${x.kind==='notice of sale'?'Notice of sale recorded':'Successor trustee appointed'}</b> ${esc(x.date)}, trustee ${esc(x.trustee)}, filed under ${esc(x.lender)}. The lender is starting foreclosure; the newspaper notice and sale usually follow in 3 to 8 weeks. Doc ${esc(x.doc)}</p>`).join('')}
   ${(l.signals.trustee||[]).map(x=>`<p><b>Trustee foreclosure sale</b> ${esc(x.date)} ${esc(x.time)} at ${esc(x.sale_at)}${x.continued?' (continued to '+esc(x.continued)+')':''}${x.bid?', opening bid '+esc(x.bid):''}. ${esc(x.firm)}${x.file?' file '+esc(x.file):''}</p>`).join('')}
+  ${Object.values(l.signals).flat().filter(x=>x.label).map(x=>`<p><b>${esc(x.label)}</b>${x.link?' · <a href="'+esc(x.link)+'" target="_blank">treasurer record</a>':''}</p>`).join('')}
   ${(l.signals.citations||[]).map(x=>`<div class="log">${x.date} ${esc(x.type)} · ${esc(x.action)}</div>`).join('')}
   <p>${MK.lookup(l)} · <a href="https://www.google.com/maps?q=${encodeURIComponent(l.addr+MK.q)}" target="_blank">Map</a> · <a href="https://www.zillow.com/homes/${encodeURIComponent(l.addr+MK.q)}_rb/" target="_blank">Zillow</a> · <a href="https://www.google.com/search?q=${encodeURIComponent('"'+l.owner.split(' & ')[0]+'" '+MK.name+' phone')}" target="_blank">Find phone</a></p></div>
   ${coach(l,c)}

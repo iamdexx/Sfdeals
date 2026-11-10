@@ -17,3 +17,11 @@ Data lands in `data/sf/` and `data/stl/` (committed by the heartbeat workflow, e
 
 ## Law
 Assigning your own purchase contract is not brokerage in SD (SDCL 36-21A-6, 36-21A-29) or MO (RSMo 339.010). Do not use option agreements in SD. Get the drafts in `docs/contracts/` reviewed by a local attorney before the first signature. Details in `docs/sources.md`, `docs/sources-stl.md` and `docs/contracts/README.md`.
+
+## Adding a metro
+
+Metros other than Sioux Falls and St. Louis are config, not code: one entry in `sfdeals/metro/metros.py`
+naming the county's ArcGIS parcel layer (field map, residential + absentee `where`) and any signal layers
+keyed by parcel number (tax liens, tax sale, code cases, vacancy). Then add the market block in `index.html`.
+`python -m sfdeals.run <key> all` pulls signals, parcels (absentee filter plus every parcel with a signal) and scores.
+Phoenix (`phx`, Maricopa County: assessor parcels, delinquent tax and state held lien lists) is the first config-driven metro.
