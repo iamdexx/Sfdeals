@@ -396,6 +396,42 @@
   "text": "Fences; Walls; Windows"
  },
  {
+  "id": 2073724,
+  "date": "2026-11-10",
+  "addr": "3924 CORA AVE",
+  "pid": "44109350000",
+  "type": "ES - Complaint",
+  "result": "Structural Condemnation",
+  "kind": "condemned",
+  "major": 10,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2073726,
+  "date": "2026-11-10",
+  "addr": "3225 MOUNT PLEASANT ST",
+  "pid": "27259220000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 1,
+  "text": "Autos; Parking Area"
+ },
+ {
+  "id": 2073728,
+  "date": "2026-11-10",
+  "addr": "2214 MONTANA ST",
+  "pid": "26099090000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Retaining Wall"
+ },
+ {
   "id": 2065527,
   "date": "2026-11-09",
   "addr": "5110 CATES AVE",

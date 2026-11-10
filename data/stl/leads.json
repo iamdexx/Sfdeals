@@ -1,7 +1,7 @@
 {
  "as_of": "2026-11-10",
  "count": 130269,
- "hot": 18718,
+ "hot": 18719,
  "leads": [
   {
    "tag": "57899050000",
@@ -45749,6 +45749,54 @@
       "csb": 0,
       "unpd": 2700.0,
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "44109350000",
+   "cid": "44109350000",
+   "handle": "14410020320",
+   "addr": "3924 CORA AVE",
+   "zip": "63115",
+   "county": "St. Louis City",
+   "nbhd": 69,
+   "owner": "LOGAN, MICHAEL & VERONICA",
+   "mail": "2423 MCLARAN AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3440,
+   "year": 1905,
+   "value": 3870.0,
+   "tax_bal": 344.84,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "score": 85,
+   "why": [
+    "absentee",
+    "tax delinquent $344",
+    "condemned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 344.84,
+      "year": "",
+      "legal": "city tax balance"
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
      }
     ]
    },
@@ -119657,6 +119705,54 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "26099090000",
+   "cid": "26099090000",
+   "handle": "12609000090",
+   "addr": "2214 MONTANA ST",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 18,
+   "owner": "WELLS, FLOYD & C/O JOSE GUSTAVO GARCIA DE JESUS",
+   "mail": "2208 MONTANA ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3261,
+   "year": 1890,
+   "value": 14350.0,
+   "tax_bal": 1202.81,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 24000.0,
+   "sale_date": "2014-07-17",
+   "score": 65,
+   "why": [
+    "absentee",
+    "tax delinquent $1,202",
+    "1 code violation"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 1202.81,
+      "year": "",
+      "legal": "city tax balance"
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Retaining Wall"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "26099050000",
    "cid": "26099050000",
    "handle": "12609000050",
@@ -122001,101 +122097,9 @@
     ]
    },
    "as_of": "2026-11-10"
-  },
-  {
-   "tag": "39839060000",
-   "cid": "39839060000",
-   "handle": "13983000060",
-   "addr": "4222 VISTA AVE",
-   "zip": "63110",
-   "county": "St. Louis City",
-   "nbhd": 39,
-   "owner": "VAN, RICHARD ANTHONY",
-   "mail": "4227 VISTA",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63110",
-   "occ": null,
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 2760,
-   "year": 1888,
-   "value": 5840.0,
-   "tax_bal": 506.08,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 0.0,
-   "sale_date": "",
-   "score": 65,
-   "why": [
-    "absentee",
-    "tax delinquent $506",
-    "1 code violation"
-   ],
-   "signals": {
-    "tax": [
-     {
-      "amount": 506.08,
-      "year": "",
-      "legal": "city tax balance"
-     }
-    ],
-    "citations": [
-     {
-      "date": "2026-10-28",
-      "type": "Violation Letter",
-      "action": "Cornice/Fascia; Gutters/Downspout; Walls"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
-   "tag": "35669110000",
-   "cid": "35669110000",
-   "handle": "13566000110",
-   "addr": "4229 FAIR AVE",
-   "zip": "63115",
-   "county": "St. Louis City",
-   "nbhd": 68,
-   "owner": "VIBRANT BLUE REALTY LLC",
-   "mail": "4418 CRESTOAK DR",
-   "mail_city": "Smyrna",
-   "mail_state": "GA",
-   "mail_zip": "30082",
-   "occ": null,
-   "landuse": 1125,
-   "units": 2,
-   "sqft": 5480,
-   "year": 1907,
-   "value": 3770.0,
-   "tax_bal": 0,
-   "vac_year": 2018,
-   "lender": "",
-   "sale_price": 53000.0,
-   "sale_date": "2004-04-23",
-   "score": 65,
-   "why": [
-    "absentee",
-    "out of state",
-    "vacant building since 2018"
-   ],
-   "signals": {
-    "vacant": [
-     {
-      "mo": 113,
-      "vmin": 4,
-      "vmaj": 2,
-      "csb": 0,
-      "unpd": 4950.0,
-      "year": 2018
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
   }
  ],
- "absentee_only": 111551,
- "city": 18164,
+ "absentee_only": 111550,
+ "city": 18165,
  "county": 554
 }
