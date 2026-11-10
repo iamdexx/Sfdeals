@@ -1,0 +1,108 @@
+{
+ "name": "San Antonio, TX",
+ "short": "San Antonio",
+ "state": "TX",
+ "min_value": 60000,
+ "counties": [
+  {
+   "name": "Bexar County",
+   "parcels": {
+    "url": "https://maps.bexar.org/arcgis/rest/services/Parcels/MapServer/0",
+    "page": 1000,
+    "where": "State_cd = 'A1' AND (Exempts NOT LIKE '%HS%' OR Exempts IS NULL OR AddrSt <> 'TX')",
+    "map": {
+     "tag": "AcctNumb",
+     "addr": "Situs",
+     "owner": "Owner",
+     "mail": ["AddrLn2", "AddrCity", "AddrSt"],
+     "mail_city": "AddrCity",
+     "mail_state": "AddrSt",
+     "mail_zip": "Zip",
+     "landuse": "State_cd",
+     "year": "YrBlt",
+     "res_sqft": "GBA",
+     "value": "TotVal"
+    },
+    "extra": ["PropID", "Exempts", "PropUse"]
+   },
+   "signals": [
+    {
+     "name": "dangerous",
+     "weight": 40,
+     "label": "dangerous premises case (city code enforcement)",
+     "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/311_All_Service_Calls/FeatureServer/0",
+     "where": "CaseStatus = 'OPEN' AND Department = 'Development Services' AND TypeName IN ('Dangerous Premise BSB Processed', 'DP Emergency Demolition')",
+     "map": {"tag": "CaseID", "addr": "ObjectDescription", "case": "CaseID", "kind": "TypeName", "status": "CaseStatus"}
+    },
+    {
+     "name": "housing_case",
+     "weight": 25,
+     "label": "open structure code case (city)",
+     "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/311_All_Service_Calls/FeatureServer/0",
+     "where": "CaseStatus = 'OPEN' AND Department = 'Development Services' AND TypeName LIKE 'Property Structure Concerns%'",
+     "map": {"tag": "CaseID", "addr": "ObjectDescription", "case": "CaseID", "kind": "TypeName", "status": "CaseStatus"}
+    },
+    {
+     "name": "vacant_case",
+     "weight": 25,
+     "label": "vacant and overgrown property case (city)",
+     "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/311_All_Service_Calls/FeatureServer/0",
+     "where": "CaseStatus = 'OPEN' AND Department = 'Development Services' AND TypeName = 'Vacant/Overgrown Property'",
+     "map": {"tag": "CaseID", "addr": "ObjectDescription", "case": "CaseID", "kind": "TypeName", "status": "CaseStatus"}
+    },
+    {
+     "name": "nuisance",
+     "weight": 15,
+     "label": "overgrown yard or junk vehicle case (city)",
+     "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/311_All_Service_Calls/FeatureServer/0",
+     "where": "CaseStatus = 'OPEN' AND Department = 'Development Services' AND TypeName IN ('Overgrown Yard/Trash', 'Junk Vehicle')",
+     "map": {"tag": "CaseID", "addr": "ObjectDescription", "case": "CaseID", "kind": "TypeName", "status": "CaseStatus"}
+    },
+    {
+     "name": "absentee_reg",
+     "weight": 10,
+     "label": "city absentee owner registration case",
+     "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/311_All_Service_Calls/FeatureServer/0",
+     "where": "CaseStatus = 'OPEN' AND Department = 'Development Services' AND TypeName = 'Absentee Property Owner Registration Required'",
+     "map": {"tag": "CaseID", "addr": "ObjectDescription", "case": "CaseID", "kind": "TypeName", "status": "CaseStatus"}
+    },
+    {
+     "name": "vacant_registry",
+     "weight": 30,
+     "label": "on the city vacant building registry",
+     "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/OHP_Vacant_Buildings_Parcels_Public/FeatureServer/0",
+     "map": {"tag": "PropID", "addr": "Situs", "status": "RegistrationStatus", "kind": "TIER_VBP_Status", "owed": "DelinquentTaxAmount"}
+    },
+    {
+     "name": "taxdelq",
+     "weight": 30,
+     "label": "owes back taxes (vacant building registry)",
+     "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/OHP_Vacant_Buildings_Parcels_Public/FeatureServer/0",
+     "where": "DelinquentTaxAmount > 0",
+     "map": {"tag": "PropID", "addr": "Situs", "owed": "DelinquentTaxAmount"}
+    }
+   ],
+   "derived": [],
+   "lookup": "https://bexar.acttax.com/act_webdev/bexar/index.jsp"
+  }
+ ],
+ "ui": {
+  "name": "San Antonio",
+  "st": "TX",
+  "q": " San Antonio TX",
+  "sigs": ["all", "dangerous", "structure", "vacant", "overgrown", "back taxes", "registration", "absentee", "out of state"],
+  "lookup": "<a href=\"https://bexar.acttax.com/act_webdev/bexar/index.jsp\" target=\"_blank\">Tax office search</a> (pick Account Number, type {tag} without the dashes) \u00b7 <a href=\"https://bexar.trueautomation.com/clientdb/PropertySearch.aspx?cid=110\" target=\"_blank\">BCAD property search</a>",
+  "title_cos": "Alamo Title, Independence Title, Capital Title of Texas, all in San Antonio",
+  "title_call": "Independence Title or Capital Title",
+  "law": "Texas lets you assign a purchase contract, but state law (Property Code 5.086 and Occupations Code 1101.0045) says you must tell the buyer and the seller in writing that you hold only a contract, not the house. Texas is a non-judicial foreclosure state: trustee sales happen the first Tuesday of each month at the courthouse, and the county clerk posts the notices 21 days ahead.",
+  "groups": "\"Alamo REIA\", \"San Antonio Real Estate Investors\", \"Texas Wholesale Deals\"",
+  "prefc": "<b>Code cases</b>: the city posts every open code enforcement case through 311. A dangerous premises case means the Building Standards Board is moving toward repair orders or demolition; a vacant building registry entry means the house sits empty and the owner pays a yearly fee. <b>No homestead</b>: owners who live in the house file a homestead exemption, so every house on this list is a rental, a second home or an inherited house.",
+  "sos": "<a href=\"https://mycpa.cpa.state.tx.us/coa/\" target=\"_blank\">Texas Comptroller entity search</a>",
+  "buyers_h": "Active cash buyers",
+  "buyers_note": "Texas is a non-disclosure state: the appraisal district does not publish sale prices or dates, so there is no buyer list from the county data. Use the LLC owners on the absentee list and the Comptroller entity search to find who is buying.",
+  "buyers_empty": "No sale data is published for Bexar County. Build your buyer list from the LLC owners in the leads.",
+  "repairs": "Repairs, San Antonio rough numbers per house: cosmetic 12-20k, kitchen+baths 25-45k, roof 10-18k, HVAC 7-12k, foundation (clay soil) 8-20k, full gut 50-90k.",
+  "sources": "Bexar County parcel layer from the Appraisal District (owner, mailing address, homestead exemption, year built, living area, value), City of San Antonio 311 open code enforcement cases, City vacant building registry",
+  "contracts": "mo"
+ }
+}
