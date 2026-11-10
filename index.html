@@ -29,7 +29,7 @@ details{margin:6px 0}summary{cursor:pointer;color:var(--acc)}pre{white-space:pre
 .calc td{padding:6px 4px}.calc input{margin:0}.big{font-size:26px;font-weight:700;color:var(--acc)}
 a{color:var(--acc)}
 </style></head><body>
-<header><div><select id="mkt" onchange="setMarket(this.value)"><option value="sf">Sioux Falls, SD</option><option value="stl">St. Louis, MO</option><option value="phx">Phoenix, AZ</option><option value="tpa">Tampa, FL</option></select><div class="sub" id="sub">loading</div></div></header>
+<header><div><select id="mkt" onchange="setMarket(this.value)"><option value="sf">Sioux Falls, SD</option><option value="stl">St. Louis, MO</option><option value="phx">Phoenix, AZ</option><option value="tpa">Tampa, FL</option><option value="clt">Charlotte, NC</option></select><div class="sub" id="sub">loading</div></div></header>
 <main id="main"></main>
 <nav>
 <button data-v="start" onclick="go('start')">Start</button>
@@ -83,7 +83,17 @@ const MARKETS={
   sos:'<a href="https://search.sunbiz.org/Inquiry/CorporationSearch/ByName" target="_blank">Sunbiz search</a>',
   buyers_h:'Cash buyers',buyers_note:'No free public buyer list for Hillsborough yet. Build your own from We Buy Houses signs and the LLCs on recent cash sales. Look up LLC owners on Sunbiz.',buyers_empty:'',
   repairs:'Repairs, Tampa rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, roof 15-25k (insurance needs it), AC 8-14k, full gut 60-100k.',
-  sources:'Hillsborough County Property Appraiser daily parcel layer (owner, mailing address, homestead year, building condition, deed type and date, just value)',contracts:'mo'}};
+  sources:'Hillsborough County Property Appraiser daily parcel layer (owner, mailing address, homestead year, building condition, deed type and date, just value)',contracts:'mo'},
+ clt:{name:'Charlotte',st:'NC',key:'sfdeals_clt',q:' Charlotte NC',sigs:['all','demolish','housing code','nuisance','absentee','out of state'],
+  lookup:l=>`<a href="https://property.spatialest.com/nc/mecklenburg/#/property/${encodeURIComponent(l.tag)}" target="_blank">County property record</a>`,
+  title_cos:'Costner Law, Fairway Title, Anchor Title, all in Charlotte',title_call:'Fairway Title or Anchor Title',
+  law:'North Carolina is an attorney-closing state: a licensed NC attorney must handle the closing, so your title company is a law firm. You can assign a purchase contract; tell the seller in writing that you may assign it and never market the house itself.',
+  groups:'"Metrolina REIA", "Charlotte Real Estate Investors", "NC Wholesale Deals"',
+  prefc:'<b>Code cases</b>: the city posts every open housing and nuisance case and every order to demolish. A housing case means an inspector found the house unsafe or unfit; the owner is paying fines or facing repairs they often cannot afford.',
+  sos:'<a href="https://www.sosnc.gov/online_services/search/by_title/_Business_Registration" target="_blank">NC SOS search</a>',
+  buyers_h:'Cash buyers',buyers_note:'No free public buyer list for Mecklenburg yet. Build your own from We Buy Houses signs and the LLCs on recent cash sales. Look up LLC owners on the NC Secretary of State site.',buyers_empty:'',
+  repairs:'Repairs, Charlotte rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, roof 12-20k, HVAC 8-14k, crawlspace and moisture 5-15k, full gut 60-100k.',
+  sources:'Mecklenburg County assessor ownership layer (owner, mailing address, value, sale), City of Charlotte code enforcement open cases and orders to demolish',contracts:'mo'}};
 const qm=new URLSearchParams(location.search).get('m');if(MARKETS[qm])localStorage.sfdeals_market=qm;
 const mk=MARKETS[localStorage.sfdeals_market]?localStorage.sfdeals_market:'sf',MK=MARKETS[mk];
 document.title=MK.name+' Deals';$('#mkt').value=mk;
@@ -92,7 +102,7 @@ const T=s=>s.replace(/Sioux Falls/g,MK.name);
 const S=JSON.parse(localStorage[MK.key]||'{"crm":{},"buyers":[],"calc":{}}');
 const save=()=>localStorage[MK.key]=JSON.stringify(S);
 const crm=t=>S.crm[t]||(S.crm[t]={status:'new',log:[],next:'',notes:'',phone:''});
-const WEAK=['absentee','out of state','investor owned'];const stack=l=>l.why.filter(w=>!WEAK.includes(w)).length;
+let lastList=[];const WEAK=['absentee','out of state','investor owned'];const stack=l=>l.why.filter(w=>!WEAK.includes(w)).length;
 const touched=c=>c.status!=='new'||c.notes||c.phone||c.next||(c.log&&c.log.length);
 const fmt=n=>'$'+Math.round(n||0).toLocaleString();
 const today=()=>new Date().toISOString().slice(0,10);
@@ -127,10 +137,10 @@ const heldTags=()=>new Set((S.held||[]).map(h=>h.tag));
 const newSince=()=>{const t=heldTags();return leads.slice(0,HOLD).filter(l=>!t.has(l.tag)).length};
 function refreshList(){S.held=null;holdSync();leadsView()}
 function leadsView(){
-  const q=filter.toLowerCase(),held=heldTags(),base=leads.filter(l=>held.has(l.tag)||touched(S.crm[l.tag]||{status:'new'})).sort((a,b)=>b.score-a.score||a.addr.localeCompare(b.addr)),list=base.filter(l=>(sig==='all'||(sig==='2+ signals'&&stack(l)>=2)||(sig==='3+ signals'&&stack(l)>=3)||l.why.some(w=>w.includes(sig)))&&(!q||l.addr.toLowerCase().includes(q)||l.owner.toLowerCase().includes(q)||(S.crm[l.tag]?.notes||'').toLowerCase().includes(q)));
+  const q=filter.toLowerCase(),held=heldTags(),base=leads.filter(l=>held.has(l.tag)||touched(S.crm[l.tag]||{status:'new'})).sort((a,b)=>b.score-a.score||a.addr.localeCompare(b.addr)),list=lastList=base.filter(l=>(sig==='all'||(sig==='2+ signals'&&stack(l)>=2)||(sig==='3+ signals'&&stack(l)>=3)||l.why.some(w=>w.includes(sig)))&&(!q||l.addr.toLowerCase().includes(q)||l.owner.toLowerCase().includes(q)||(S.crm[l.tag]?.notes||'').toLowerCase().includes(q)));
   M.innerHTML=`<input placeholder="Search address, owner, notes" value="${esc(filter)}" oninput="filter=this.value;leadsView()">
   <select onchange="sig=this.value;leadsView()">${MK.sigs.concat(['2+ signals','3+ signals']).map(s=>`<option ${s===sig?'selected':''}>${s}</option>`).join('')}</select>
-  <div class="row"><div class="mut">${list.length} leads, list held since ${S.heldAt||today()}</div><button class="b alt" onclick="refreshList()">Refresh list${newSince()?' ('+newSince()+' new)':''}</button></div>
+  <div class="row"><div class="mut">${list.length} leads, list held since ${S.heldAt||today()}</div><button class="b alt" onclick="exportCsv()">Export CSV</button><button class="b alt" onclick="refreshList()">Refresh list${newSince()?' ('+newSince()+' new)':''}</button></div>
   ${list.slice(0,300).map(card).join('')}${list.length>300?'<div class="mut">Showing 300. Narrow the search.</div>':''}`}
 function lead(tag){
   const l=leads.find(x=>x.tag===tag);if(!l)return go('leads');const c=crm(tag);if(!l.stale){const {stale,...snap}=l;c.lead=snap;save()}
@@ -156,7 +166,7 @@ function lead(tag){
   <div class="card"><b>CRM</b>
   <input placeholder="Phone" value="${esc(c.phone)}" onchange="crm('${tag}').phone=this.value;save()">
   ${c.phone?`<a class="b" style="display:inline-block;text-decoration:none" href="tel:${esc(c.phone)}">Call ${esc(c.phone)}</a>`:''}
-  <select onchange="crm('${tag}').status=this.value;save()">${['new','called','talking','offer','contract','closed','dead'].map(s=>`<option ${s===c.status?'selected':''}>${s}</option>`).join('')}</select>
+  <select onchange="crm('${tag}').status=this.value;save();pushWebhook('${tag}')">${['new','called','talking','offer','contract','closed','dead'].map(s=>`<option ${s===c.status?'selected':''}>${s}</option>`).join('')}</select>
   <label class="mut">Next follow-up (set for you when you log a call: called +3d, talking +7d, offer +2d, contract +1d)</label><input type="date" value="${c.next}" onchange="crm('${tag}').next=this.value;save()">
   <div>${[1,3,7,30,60].map(d=>`<button class="b alt" onclick="bump('${tag}',${d})">+${d}d</button>`).join('')}</div>
   <textarea rows="3" placeholder="Notes: situation, mortgage, condition, their number" onchange="crm('${tag}').notes=this.value;save()">${esc(c.notes)}</textarea>
@@ -165,7 +175,7 @@ function lead(tag){
   ${c.log.slice().reverse().map(x=>`<div class="log"><span class="mut">${x.d}</span> ${esc(x.t)}</div>`).join('')}</div>`}
 function bump(tag,d){const c=crm(tag);const x=new Date();x.setDate(x.getDate()+d);c.next=x.toISOString().slice(0,10);if(c.status==='new')c.status='called';save();lead(tag)}
 const DRIP={called:3,talking:7,offer:2,contract:1};
-function addLog(tag,t){if(!t)return;const c=crm(tag);c.log.push({d:today(),t});if(c.status==='new')c.status='called';if(!c.next||c.next<today()){const x=new Date();x.setDate(x.getDate()+(DRIP[c.status]||7));c.next=x.toISOString().slice(0,10)}save();lead(tag)}
+function addLog(tag,t){if(!t)return;const c=crm(tag);c.log.push({d:today(),t});if(c.status==='new')c.status='called';if(!c.next||c.next<today()){const x=new Date();x.setDate(x.getDate()+(DRIP[c.status]||7));c.next=x.toISOString().slice(0,10)}save();pushWebhook(tag);lead(tag)}
 const STEPS={
  new:{t:'Step 1 of 6: find the phone and make the first call',why:'Nobody sells to a stranger they have not talked to. This call is only to find out if they would sell.',
   do:['Tap "Find phone" above. Try the owner name plus Sioux Falls. Whitepages and FastPeopleSearch are free. No luck? Mark it and move on, we can skip trace later for $0.15.','Call. Opener: "Hi, is this [name]? I\'m Deaven, a local investor in Sioux Falls. I\'m calling about the house at [address]. Do you still own it? Have you thought about selling?"','Yes or maybe: set status to Talking. No: log it, set +60d. No answer: log it, set +3d.'],
@@ -233,6 +243,8 @@ function more(){
   M.innerHTML=`<div class="card"><b>Your numbers</b><div class="mut">Wholesaling is a numbers game: about 100 calls to 10 real conversations to 3 offers to 1 contract.</div><table class="calc" style="width:100%;margin-top:6px">${kpi.map(([k,v])=>`<tr><td class="mut">${k}</td><td style="text-align:right;font-weight:700">${v}</td></tr>`).join('')}</table></div>
   <div class="card"><b>Sellers who filled out your website</b><div class="mut">Your seller pages at deals-site.pages.dev/sell/ drop leads here. Paste your inbox key once (it is on your Cloudflare project; ask Devin for it).</div>
   <input id="ibk" placeholder="inbox key" value="${esc(localStorage.inbound_key||'')}" onchange="localStorage.inbound_key=this.value.trim()"><button class="b alt" onclick="pullInbound()">Check for new sellers</button><div id="ibx" class="mut"></div></div>
+  <div class="card"><b>Send leads to another CRM</b><div class="mut">Export CSV on the Leads tab gives a file REsimpli, Podio, BatchLeads and Google Sheets import directly. For live sync paste a webhook URL (Zapier, Make, REsimpli inbound webhook): every status change or logged call posts the lead as JSON.</div>
+  <input placeholder="https://hooks.zapier.com/..." value="${esc(localStorage.webhook_url||'')}" onchange="localStorage.webhook_url=this.value.trim()"></div>
   <div class="card"><b>Pipeline</b><div>${Object.entries(st).map(([k,v])=>`<span class="tag">${k}: ${v}</span>`).join('')||'<span class="mut">nothing logged yet</span>'}</div></div>
   <div class="card"><b>Data</b><div class="mut">${meta.as_of?`${fresh(meta)}. Pulled every 2 hours, 6am to 10pm. ${meta.hot.toLocaleString()} hot leads${meta.city!=null?` (${meta.city.toLocaleString()} city, ${meta.county.toLocaleString()} county)`:''}, ${meta.absentee_only.toLocaleString()} more absentee only, ${meta.count.toLocaleString()} parcels with any signal.`:esc(meta.error||'no data')}</div>
   <details><summary class="mut">Sources</summary><div class="mut">${MK.sources}. Refreshed every 2 hours, 6am to 10pm Central, by GitHub Actions.</div></details></div>
@@ -243,6 +255,12 @@ async function pullInbound(){const k=localStorage.inbound_key,x=$('#ibx');if(!k)
   for(const q of d.leads){const tag='inbound:'+q.id;if(S.crm[tag])continue;const l={tag,addr:(q.address||'').toUpperCase(),owner:q.name||'seller (website)',mail:'',mail_city:'',mail_state:'',mail_zip:'',zip:'',county:'',muni:'',units:1,value:null,score:200,why:['seller asked for an offer'],signals:{},phones:q.phone?[{number:q.phone,type:'seller gave it'}]:[],emails:q.email?[q.email]:[],stale:true};
    const c=crm(tag);c.lead=l;c.status='talking';c.notes=(q.situation?'Seller wrote: '+q.situation+'\n':'')+'Came in from the website '+q.at.slice(0,10)+(q.consent?', agreed to calls and texts.':'.');c.next=today();if(!leads.some(z=>z.tag===tag))leads.unshift(l);n++}
   save();x.textContent=n?n+' new seller'+(n>1?'s':'')+' added to Leads and Today (status talking, follow-up today).':'No new sellers.';if(n)leadsView()}catch(e){x.textContent='Could not reach the inbox. Check the key.'}}
+const CSVCOLS=['Address','City','State','Zip','Owner First','Owner Last','Owner Full','Mailing Address','Mailing City','Mailing State','Mailing Zip','Phone 1','Phone 2','Email','Score','Signals','Status','Notes','Next Follow-up','Lead Source'];
+function csvRow(l){const c=S.crm[l.tag]||{},o=(l.owner||'').trim(),sp=o.includes(',')?o.split(',').map(x=>x.trim()):[o.split(' ')[0],o.split(' ').slice(1).join(' ')],ph=(l.phones||[]).map(x=>x.number);
+ return [l.addr,l.muni||MK.name,l.st||MK.st,l.zip||'',sp[1]||'',sp[0]||'',o,l.mail||'',l.mail_city||'',l.mail_state||'',l.mail_zip||'',ph[0]||c.phone||'',ph[1]||'',(l.emails||[])[0]||'',l.score,(l.why||[]).join('; '),c.status||'new',(c.notes||'').replace(/\n/g,' '),c.next||'',MK.name+' public records'].map(v=>'"'+String(v??'').replace(/"/g,'""')+'"').join(',')}
+function exportCsv(){const rows=lastList.length?lastList:leads;const csv=[CSVCOLS.join(',')].concat(rows.map(csvRow)).join('\r\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download=`${MK.key}-leads-${today()}.csv`;a.click()}
+async function pushWebhook(tag){const u=localStorage.webhook_url;if(!u)return;const l=leads.find(x=>x.tag===tag)||S.crm[tag]?.lead;if(!l)return;const c=S.crm[tag]||{};
+ try{await fetch(u,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({event:'lead.updated',market:MK.name,state:MK.st,lead:{...l,status:c.status,notes:c.notes,next:c.next,phone:c.phone,log:c.log}})})}catch(e){}}
 function exportState(){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([localStorage[MK.key]||'{}'],{type:'application/json'}));a.download=`${MK.key}-${today()}.json`;a.click()}
 function importState(i){const r=new FileReader();r.onload=()=>{localStorage[MK.key]=r.result;location.reload()};r.readAsText(i.files[0])}
 window.onhashchange=()=>{const v=location.hash.slice(1);if(v&&v!==view)go(v)};

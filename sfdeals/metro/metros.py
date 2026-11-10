@@ -5,6 +5,8 @@ signal are fetched by id afterwards, so nothing with a signal is lost."""
 
 MARICOPA_P = "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Parcels_view/FeatureServer/0"
 HCPA_P = "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/HCPA_Parcels_Daily/FeatureServer/0"
+MECK_P = "https://meckgis.mecklenburgcountync.gov/server/rest/services/TaxParcel_Camaownershipvalues/FeatureServer/0"
+CLT_CODE = "https://gis.charlottenc.gov/arcgis/rest/services/HNS/"
 MARICOPA_L = "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/ParcelLienDelinquent/FeatureServer/"
 
 METROS = {
@@ -54,6 +56,28 @@ METROS = {
                  "in": ["Tax", "Sheriffs", "Masters"], "since_field": "SALE1_DATE", "since_days": 730},
             ],
             "lookup": "https://gis.hcpafl.org/propertysearch/#/parcel/basic/{tag}",
+        }],
+    },
+    "clt": {
+        "name": "Charlotte, NC", "short": "Charlotte", "state": "NC", "min_value": 60000,
+        "counties": [{
+            "name": "Mecklenburg County",
+            "parcels": {
+                "url": MECK_P, "page": 2000,
+                "where": "txt_propertyuse_desc LIKE 'SINGLE%' AND (txt_state <> 'NC' OR txt_city <> situsaddress1juris)",
+                "map": {"tag": "pid", "addr": "situsaddress1", "muni": "situsaddress1juris", "owner": "full_owner_name", "mail": "txt_mailaddr1",
+                        "mail_city": "txt_city", "mail_state": "txt_state", "mail_zip": "txt_zipcode", "landuse": "txt_propertyuse_desc",
+                        "value": "amt_totalvalue", "sale_price": "amt_price"},
+            },
+            "signals": [
+                {"name": "demolish", "weight": 45, "label": "order to demolish (city code enforcement)", "url": CLT_CODE + "CodeEnforcementOrderstoDemolish/MapServer/0",
+                 "map": {"tag": "ParcelId", "addr": "FullAddress", "case": "CaseNumber", "kind": "CaseType", "status": "CaseStatus"}},
+                {"name": "housing_case", "weight": 25, "label": "open housing code case (city)", "url": CLT_CODE + "CodeEnforcementNewAndOpenCases/MapServer/0",
+                 "where": "CaseType = 'Housing'", "map": {"tag": "ParcelId", "addr": "FullAddress", "case": "CaseNumber", "kind": "CaseType", "status": "CaseStatus"}},
+                {"name": "nuisance_case", "weight": 15, "label": "open nuisance case (city)", "url": CLT_CODE + "CodeEnforcementNewAndOpenCases/MapServer/0",
+                 "where": "CaseType = 'Nuisance'", "map": {"tag": "ParcelId", "addr": "FullAddress", "case": "CaseNumber", "kind": "CaseType", "status": "CaseStatus"}},
+            ],
+            "lookup": "https://property.spatialest.com/nc/mecklenburg/#/property/{tag}",
         }],
     },
 }

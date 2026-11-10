@@ -42,6 +42,7 @@ def run(key):
     today = dt.date.today().isoformat()
     today_ms = time.time() * 1000
     rules = [r for c in cfg["counties"] for r in c.get("derived", [])]
+    has_bld = {c["name"]: any(k in c["parcels"]["map"] for k in ("res_sqft", "year")) for c in cfg["counties"]}
     leads = []
     for p in parcels:
         s = dict(sig.get(p["tag"]) or {})
@@ -64,7 +65,7 @@ def run(key):
         if score <= 0:
             continue
         cheap = (p.get("value") or 0) < cfg.get("min_value", 25000)
-        house = p["addr"][:1] not in ("", "0") and (p.get("res_sqft") or p.get("year"))
+        house = p["addr"][:1] not in ("", "0") and (p.get("res_sqft") or p.get("year") or not has_bld.get(p["county"], True))
         ph = phones.get(p["tag"])
         leads.append({**p, "mkt": p.get("value"), "score": score, "why": why, "signals": signals, "as_of": today, "hot": bool(s and house and not cheap),
                       **({"phones": ph["phones"], "emails": ph.get("emails", []), "contact": ph.get("name", "")} if ph and ph.get("hit") else {})})
