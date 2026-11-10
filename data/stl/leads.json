@@ -1,8 +1,8 @@
 {
  "as_of": "2026-11-10",
- "updated": "2026-11-10T19:53:49Z",
- "count": 128179,
- "hot": 1929,
+ "updated": "2026-11-10T19:59:06Z",
+ "count": 128181,
+ "hot": 1932,
  "leads": [
   {
    "tag": "56569250000",
@@ -24845,6 +24845,60 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "25729190000",
+   "cid": "25729190000",
+   "handle": "12572000190",
+   "addr": "3104 KEOKUK ST",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "GJD VENTURES LLC",
+   "mail": "37 BEAVER DAM DR",
+   "mail_city": "Sicklerville",
+   "mail_state": "NJ",
+   "mail_zip": "08081",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3728,
+   "year": 1909,
+   "value": 22470.0,
+   "tax_bal": 0,
+   "vac_year": 2002,
+   "lender": "",
+   "sale_price": 35000.0,
+   "sale_date": "2013-09-30",
+   "mkt": 118263,
+   "score": 45,
+   "why": [
+    "absentee",
+    "out of state",
+    "vacant 24+ years",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "mo": 0,
+      "vmin": 0,
+      "vmaj": 2,
+      "csb": 0,
+      "unpd": 0.0,
+      "year": 2002
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-10-26",
+      "type": "Violation Letter",
+      "action": "Address; Autos"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "15049230000",
    "cid": "15049230000",
    "handle": "11504000230",
@@ -34719,60 +34773,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "25729190000",
-   "cid": "25729190000",
-   "handle": "12572000190",
-   "addr": "3104 KEOKUK ST",
-   "zip": "63118",
-   "county": "St. Louis City",
-   "nbhd": 16,
-   "owner": "GJD VENTURES LLC",
-   "mail": "37 BEAVER DAM DR",
-   "mail_city": "Sicklerville",
-   "mail_state": "NJ",
-   "mail_zip": "08081",
-   "occ": null,
-   "landuse": 1120,
-   "units": 2,
-   "sqft": 3728,
-   "year": 1909,
-   "value": 22470.0,
-   "tax_bal": 0,
-   "vac_year": 2002,
-   "lender": "",
-   "sale_price": 35000.0,
-   "sale_date": "2013-09-30",
-   "mkt": 118263,
-   "score": 35,
-   "why": [
-    "absentee",
-    "out of state",
-    "vacant 24+ years",
-    "1 code violation",
-    "investor owned"
-   ],
-   "signals": {
-    "vacant": [
-     {
-      "mo": 56,
-      "vmin": 0,
-      "vmaj": 0,
-      "csb": 0,
-      "unpd": 0.0,
-      "year": 2002
-     }
-    ],
-    "citations": [
-     {
-      "date": "2026-10-26",
-      "type": "Violation Letter",
-      "action": "Address; Autos"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "14719140000",
    "cid": "14719140000",
    "handle": "11471000140",
@@ -42191,6 +42191,47 @@
       "date": "2026-10-12",
       "type": "Violation Letter",
       "action": "Walls"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "59479230000",
+   "cid": "59479230000",
+   "handle": "15947000230",
+   "addr": "6923 SUTHERLAND AVE",
+   "zip": "63109",
+   "county": "St. Louis City",
+   "nbhd": 9,
+   "owner": "PIZZO, STEVEN DOMENICK",
+   "mail": "5562 DEVONSHIRE AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63109",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4375,
+   "year": 1929,
+   "value": 15640.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 82316,
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Open Storage"
      }
     ]
    },
@@ -66737,6 +66778,46 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "06679160000",
+   "cid": "06679160000",
+   "handle": "10667000160",
+   "addr": "1005 ALLEN AVE",
+   "zip": "63104",
+   "county": "St. Louis City",
+   "nbhd": 21,
+   "owner": "SHATLEY, JORDAN",
+   "mail": "1005 ALLEN AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63104",
+   "occ": null,
+   "landuse": 1123,
+   "units": 4,
+   "sqft": 3502,
+   "year": 1885,
+   "value": 71750.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 377632,
+   "score": 15,
+   "why": [
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Windows"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "11F511175",
    "cid": "11F511175",
    "addr": "10114 DUKE DR",
@@ -69691,6 +69772,46 @@
       "addr": "2171 FARTHING CT",
       "status": "OPEN",
       "note": "dresser in carport trash cans at street"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "26099110000",
+   "cid": "26099110000",
+   "handle": "12609000110",
+   "addr": "2208 MONTANA ST",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 18,
+   "owner": "WELLS, FLOYD & C/O JOSE GUSTAVO GARCIA DE JESUS",
+   "mail": "2208 MONTANA ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3261,
+   "year": 1890,
+   "value": 15450.0,
+   "tax_bal": 1292.85,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 81316,
+   "score": 15,
+   "why": [
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Open Storage; Porch"
      }
     ]
    },
@@ -83240,7 +83361,7 @@
    "as_of": "2026-11-10"
   }
  ],
- "absentee_only": 126250,
- "city": 1253,
+ "absentee_only": 126249,
+ "city": 1256,
  "county": 676
 }

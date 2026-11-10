@@ -84,6 +84,18 @@
   "text": "Garage/Shed; Status Unit"
  },
  {
+  "id": 2072380,
+  "date": "2026-11-10",
+  "addr": "1005 ALLEN AVE",
+  "pid": "06679160000",
+  "type": "ES - HCD",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Windows"
+ },
+ {
   "id": 2073615,
   "date": "2026-11-10",
   "addr": "4054 LINDELL BLVD",
@@ -348,7 +360,7 @@
   "text": "Address; Fences; Open Storage"
  },
  {
-  "id": 2073694,
+  "id": 2073757,
   "date": "2026-11-10",
   "addr": "4615 GUSTINE TER",
   "pid": "57699191000",
@@ -478,6 +490,150 @@
   "major": 2,
   "minor": 4,
   "text": "Gutters/Downspout; Porch; Walls; Windows"
+ },
+ {
+  "id": 2073742,
+  "date": "2026-11-10",
+  "addr": "3430 ITASKA DR",
+  "pid": "27759200000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 4,
+  "text": "Fences; Garage/Shed; Open Storage"
+ },
+ {
+  "id": 2073805,
+  "date": "2026-11-10",
+  "addr": "6923 SUTHERLAND AVE",
+  "pid": "59479230000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
+  "id": 2073759,
+  "date": "2026-11-10",
+  "addr": "2421 S 9TH ST",
+  "pid": "08149150000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Fences"
+ },
+ {
+  "id": 2073761,
+  "date": "2026-11-10",
+  "addr": "2208 MONTANA ST",
+  "pid": "26099110000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 0,
+  "text": "Open Storage; Porch"
+ },
+ {
+  "id": 2073780,
+  "date": "2026-11-10",
+  "addr": "4924 ARLINGTON AVE",
+  "pid": "55599090000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 1,
+  "text": "Gutters/Downspout; Roof; Windows"
+ },
+ {
+  "id": 2073769,
+  "date": "2026-11-10",
+  "addr": "3533 N TAYLOR AVE",
+  "pid": "44489325000",
+  "type": "ES - Complaint",
+  "result": "Notice to Secure",
+  "kind": "secure",
+  "major": 0,
+  "minor": 0,
+  "text": ""
+ },
+ {
+  "id": 2073781,
+  "date": "2026-11-10",
+  "addr": "5470 WREN AVE",
+  "pid": "51259200000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 5,
+  "minor": 1,
+  "text": "Address; Cornice/Fascia; Open Storage; Parking Area; Porch"
+ },
+ {
+  "id": 2073782,
+  "date": "2026-11-10",
+  "addr": "4760 GENEVIEVE AVE",
+  "pid": "56719260000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 3,
+  "text": "Cornice/Fascia; Gutters/Downspout; Porch; Walls; Windows"
+ },
+ {
+  "id": 2073790,
+  "date": "2026-11-10",
+  "addr": "4200 COOK AVE",
+  "pid": "37469380000",
+  "type": "ES - 5-16-25 Tornado",
+  "result": "Emergency Condemnation and Demo Notice",
+  "kind": "condemned",
+  "major": 8,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2073800,
+  "date": "2026-11-10",
+  "addr": "1353 BAYARD",
+  "pid": "37859210000",
+  "type": "ES - Complaint",
+  "result": "Structural Condemnation",
+  "kind": "condemned",
+  "major": 6,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2073813,
+  "date": "2026-11-10",
+  "addr": "5108 KENSINGTON AVE",
+  "pid": "48439260000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 0,
+  "text": "Open Storage; Porch; Windows"
+ },
+ {
+  "id": 2073694,
+  "date": "2026-11-10",
+  "addr": "4615 GUSTINE TER",
+  "pid": "57699191000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 2,
+  "text": "Autos; Graffiti; Open Storage; Roof; Windows"
  },
  {
   "id": 2065527,
