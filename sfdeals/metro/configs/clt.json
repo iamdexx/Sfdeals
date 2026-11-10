@@ -1,0 +1,101 @@
+{
+ "name": "Charlotte, NC",
+ "short": "Charlotte",
+ "state": "NC",
+ "min_value": 60000,
+ "counties": [
+  {
+   "name": "Mecklenburg County",
+   "parcels": {
+    "url": "https://meckgis.mecklenburgcountync.gov/server/rest/services/TaxParcel_Camaownershipvalues/FeatureServer/0",
+    "page": 2000,
+    "where": "txt_propertyuse_desc LIKE 'SINGLE%' AND (txt_state <> 'NC' OR txt_city <> situsaddress1juris)",
+    "map": {
+     "tag": "pid",
+     "addr": "situsaddress1",
+     "muni": "situsaddress1juris",
+     "owner": "full_owner_name",
+     "mail": "txt_mailaddr1",
+     "mail_city": "txt_city",
+     "mail_state": "txt_state",
+     "mail_zip": "txt_zipcode",
+     "landuse": "txt_propertyuse_desc",
+     "value": "amt_totalvalue",
+     "sale_price": "amt_price",
+     "sale_date": "dte_dateofsale"
+    },
+    "addr_strip": "\\s+(CHARLOTTE|MATTHEWS|MINT HILL|HUNTERSVILLE|CORNELIUS|DAVIDSON|PINEVILLE|STALLINGS)?\\s*NC$"
+   },
+   "signals": [
+    {
+     "name": "demolish",
+     "weight": 45,
+     "label": "order to demolish (city code enforcement)",
+     "url": "https://gis.charlottenc.gov/arcgis/rest/services/HNS/CodeEnforcementOrderstoDemolish/MapServer/0",
+     "map": {
+      "tag": "ParcelId",
+      "addr": "FullAddress",
+      "case": "CaseNumber",
+      "kind": "CaseType",
+      "status": "CaseStatus"
+     }
+    },
+    {
+     "name": "housing_case",
+     "weight": 25,
+     "label": "open housing code case (city)",
+     "url": "https://gis.charlottenc.gov/arcgis/rest/services/HNS/CodeEnforcementNewAndOpenCases/MapServer/0",
+     "where": "CaseType = 'Housing'",
+     "map": {
+      "tag": "ParcelId",
+      "addr": "FullAddress",
+      "case": "CaseNumber",
+      "kind": "CaseType",
+      "status": "CaseStatus"
+     }
+    },
+    {
+     "name": "nuisance_case",
+     "weight": 15,
+     "label": "open nuisance case (city)",
+     "url": "https://gis.charlottenc.gov/arcgis/rest/services/HNS/CodeEnforcementNewAndOpenCases/MapServer/0",
+     "where": "CaseType = 'Nuisance'",
+     "map": {
+      "tag": "ParcelId",
+      "addr": "FullAddress",
+      "case": "CaseNumber",
+      "kind": "CaseType",
+      "status": "CaseStatus"
+     }
+    }
+   ],
+   "lookup": "https://property.spatialest.com/nc/mecklenburg/#/property/{tag}"
+  }
+ ],
+ "ui": {
+  "name": "Charlotte",
+  "st": "NC",
+  "q": " Charlotte NC",
+  "sigs": [
+   "all",
+   "demolish",
+   "housing code",
+   "nuisance",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://property.spatialest.com/nc/mecklenburg/#/property/{tag}\" target=\"_blank\">County property record</a>",
+  "title_cos": "Costner Law, Fairway Title, Anchor Title, all in Charlotte",
+  "title_call": "Fairway Title or Anchor Title",
+  "law": "North Carolina is an attorney-closing state: a licensed NC attorney must handle the closing, so your title company is a law firm. You can assign a purchase contract; tell the seller in writing that you may assign it and never market the house itself.",
+  "groups": "\"Metrolina REIA\", \"Charlotte Real Estate Investors\", \"NC Wholesale Deals\"",
+  "prefc": "<b>Code cases</b>: the city posts every open housing and nuisance case and every order to demolish. A housing case means an inspector found the house unsafe or unfit; the owner is paying fines or facing repairs they often cannot afford.",
+  "sos": "<a href=\"https://www.sosnc.gov/online_services/search/by_title/_Business_Registration\" target=\"_blank\">NC SOS search</a>",
+  "buyers_h": "Active cash buyers (assessor sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the county sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on the NC Secretary of State and call.",
+  "buyers_empty": "No buyers found in the sale data yet.",
+  "repairs": "Repairs, Charlotte rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, roof 12-20k, HVAC 8-14k, crawlspace and moisture 5-15k, full gut 60-100k.",
+  "sources": "Mecklenburg County assessor ownership layer (owner, mailing address, value, sale), City of Charlotte code enforcement open cases and orders to demolish",
+  "contracts": "mo"
+ }
+}

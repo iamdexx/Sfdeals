@@ -1,0 +1,117 @@
+{
+ "name": "Tampa, FL",
+ "short": "Tampa",
+ "state": "FL",
+ "min_value": 60000,
+ "counties": [
+  {
+   "name": "Hillsborough County",
+   "parcels": {
+    "url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/HCPA_Parcels_Daily/FeatureServer/0",
+    "page": 2000,
+    "where": "DOR_C LIKE '01%' AND OWNER NOT LIKE '%CONFIDENTIAL%' AND (HX_YEAR IS NULL OR HX_YEAR = 0 OR STATE <> 'FL' OR B1_COND_DSC = 'Poor')",
+    "map": {
+     "tag": "FOLIO",
+     "addr": "SITE_ADDR",
+     "zip": "SITE_ZIP",
+     "muni": "SITE_CITY",
+     "owner": "OWNER",
+     "mail": "ADDR_1",
+     "mail_city": "CITY",
+     "mail_state": "STATE",
+     "mail_zip": "ZIP",
+     "landuse": "DOR_C",
+     "units": "tUNITS",
+     "year": "ACT",
+     "res_sqft": "HEAT_AR",
+     "value": "JUST",
+     "sale_price": "SALE1_PRC",
+     "sale_date": "SALE1_DATE"
+    },
+    "occ_field": "HX_YEAR",
+    "extra": [
+     "B1_COND_DSC",
+     "SALE1_DEED_DSC",
+     "SALE1_DATE",
+     "PERMIT_COUNT"
+    ]
+   },
+   "signals": [],
+   "derived": [
+    {
+     "name": "condition",
+     "weight": 35,
+     "label": "building condition poor (appraiser)",
+     "field": "B1_COND_DSC",
+     "in": [
+      "Poor"
+     ]
+    },
+    {
+     "name": "estate",
+     "weight": 25,
+     "label": "estate or guardian deed in the last 2 years",
+     "field": "SALE1_DEED_DSC",
+     "in": [
+      "Personal Representative",
+      "Guardians"
+     ],
+     "since_field": "SALE1_DATE",
+     "since_days": 730
+    },
+    {
+     "name": "quitclaim",
+     "weight": 15,
+     "label": "quit claim transfer in the last 2 years",
+     "field": "SALE1_DEED_DSC",
+     "in": [
+      "Quit Claim"
+     ],
+     "since_field": "SALE1_DATE",
+     "since_days": 730
+    },
+    {
+     "name": "taxdeed",
+     "weight": 20,
+     "label": "sold at tax deed or sheriff sale in the last 2 years",
+     "field": "SALE1_DEED_DSC",
+     "in": [
+      "Tax",
+      "Sheriffs",
+      "Masters"
+     ],
+     "since_field": "SALE1_DATE",
+     "since_days": 730
+    }
+   ],
+   "lookup": "https://gis.hcpafl.org/propertysearch/#/parcel/basic/{tag}"
+  }
+ ],
+ "ui": {
+  "name": "Tampa",
+  "st": "FL",
+  "q": " Tampa FL",
+  "sigs": [
+   "all",
+   "condition poor",
+   "estate",
+   "quit claim",
+   "tax deed",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://gis.hcpafl.org/propertysearch/#/parcel/basic/{tag}\" target=\"_blank\">Property Appraiser</a> \u00b7 <a href=\"https://hillsborough.county-taxes.com/public/search?search_query={tag}\" target=\"_blank\">Tax Collector</a>",
+  "title_cos": "Hillsborough Title, Tampa Bay Title, Sunbelt Title, all in Tampa",
+  "title_call": "Hillsborough Title or Sunbelt Title",
+  "law": "Florida lets you assign a purchase contract. Never market the house itself, only your contract, and put the assignment right in the contract. Florida is a judicial foreclosure state, so lis pendens filings are public at the Clerk.",
+  "groups": "\"Tampa Bay REIA\", \"Tampa Real Estate Investors\", \"Florida Wholesale Deals\"",
+  "prefc": "<b>No homestead</b>: Florida owners file a homestead exemption on the house they live in. No exemption means a rental, a second home or an inherited house, so every lead here is absentee by the appraiser's own records. <b>Condition poor</b> comes from the appraiser's field inspection.",
+  "sos": "<a href=\"https://search.sunbiz.org/Inquiry/CorporationSearch/ByName\" target=\"_blank\">Sunbiz search</a>",
+  "buyers_h": "Active cash buyers (assessor sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the county sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on Sunbiz and call.",
+  "buyers_empty": "No buyers found in the sale data yet.",
+  "repairs": "Repairs, Tampa rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, roof 15-25k (insurance needs it), AC 8-14k, full gut 60-100k.",
+  "sources": "Hillsborough County Property Appraiser daily parcel layer (owner, mailing address, homestead year, building condition, deed type and date, just value)",
+  "contracts": "mo"
+ }
+}

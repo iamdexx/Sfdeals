@@ -72,7 +72,7 @@ def build():
             continue
         d = json.loads(f.read_text())
         leads = d.get("leads", [])
-        city, st = STATE.get(key, (m["name"], ""))
+        city, st = (m["ui"]["name"], m["ui"]["st"]) if m.get("ui") else STATE.get(key, (m["name"], ""))
         counts = signal_counts(leads)
         mslug = slug(f"{city} {st}")
         mdir = OUT / "metros" / mslug
@@ -83,7 +83,7 @@ def build():
 <div class="card"><div class="big">{d.get('hot', 0):,}</div><div>houses with a real distress signal right now<br><span class="mut">updated {updated}, refreshed every 2 hours from public records</span></div></div>
 <a class="cta" href="{APP}/?m={key}">Open the {city} list</a>
 <h2>By signal</h2><table>{rows}</table>
-<h2>Where the data comes from</h2><p class="mut">{html.escape(m.get('sources', ''))}</p>
+<h2>Where the data comes from</h2><p class="mut">{html.escape((m.get('ui') or m).get('sources', ''))}</p>
 <h2>How wholesalers use it</h2><p>Call the owners most likely to sell, agree on a price in writing, assign the contract to a cash buyer. The app holds your call list steady, logs every call, and gives you the follow-up date. Phone numbers are added on demand with prepaid skip trace credits.</p>"""
         title = f"{city} {st} distressed property leads: {d.get('hot', 0):,} houses, updated every 2 hours"
         desc = f"Pre-foreclosure, tax sale, vacant and absentee owner leads in {city}, {st} from public records, refreshed every 2 hours. {d.get('hot', 0):,} houses with a distress signal today."
