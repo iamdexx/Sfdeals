@@ -624,6 +624,18 @@
   "text": "Open Storage; Porch; Windows"
  },
  {
+  "id": 2073814,
+  "date": "2026-11-10",
+  "addr": "1328 TEMPLE PL",
+  "pid": "38169195000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 3,
+  "text": "Address; Cornice/Fascia; Door; Gutters/Downspout; Open Storage; Porch; Walls"
+ },
+ {
   "id": 2073694,
   "date": "2026-11-10",
   "addr": "4615 GUSTINE TER",

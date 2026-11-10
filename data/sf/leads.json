@@ -1,8 +1,8 @@
 {
  "as_of": "2026-11-10",
- "updated": "2026-11-10T19:56:49Z",
- "count": 12449,
- "hot": 1895,
+ "updated": "2026-11-10T20:08:33Z",
+ "count": 12459,
+ "hot": 1905,
  "leads": [
   {
    "tag": "012228185003000",
@@ -350,6 +350,63 @@
       "legal": "E 88' Lot 9 Block 1 Bennett's 1st Addn",
       "section": "Sioux Falls City",
       "year": 2025
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "011535431041000",
+   "cid": "95022",
+   "addr": "4241 N KNOB HILL CT",
+   "zip": 57107,
+   "county": "MINNEHAHA",
+   "owner": "BORTH, AMANDA",
+   "mail": "4241 N KNOB HLL CT",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57107",
+   "occ": "Y",
+   "landuse": 130,
+   "units": 1,
+   "acres": 0.14,
+   "sqft": 6093.0,
+   "activity": "15 - Townhome",
+   "score": 80,
+   "why": [
+    "absentee",
+    "2 code citations",
+    "sheriff sale 2026-12-02, judgment $300,147"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-08-11",
+      "addr": "4241 N KNOB HILL CT",
+      "type": "Vegetation",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2026-07-08",
+      "addr": "4241 N KNOB HILL CT",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ],
+    "foreclosure": [
+     {
+      "case": "49CIV26-001097",
+      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
+      "defendant": "AMANDA BORTH",
+      "attorney": "HALLIDAY",
+      "addr_raw": "4241 N KNOB HILL CT SFSD 57107",
+      "addr": "4241 N KNOB HILL CT",
+      "judgment": 300147.94,
+      "sale_date": "2026-12-02",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
      }
     ]
    },
@@ -1486,6 +1543,57 @@
       "legal": "N 22' 6 & All Lot 5 Block 19",
       "section": "Sioux Falls City",
       "year": 2025
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012128379027000",
+   "cid": "96754",
+   "addr": "9519 W DOLORES DR",
+   "zip": 57106,
+   "county": "MINNEHAHA",
+   "owner": "FINDLING, TODD A",
+   "mail": "9519 W DOLORES DR",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57106",
+   "occ": "N",
+   "landuse": 130,
+   "units": 1,
+   "acres": 0.09,
+   "sqft": 4002.0,
+   "activity": "12 - Two-Family",
+   "score": 70,
+   "why": [
+    "absentee",
+    "1 code citation",
+    "sheriff sale 2027-01-13, judgment $299,223"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-08-13",
+      "addr": "9519 W DOLORES DR",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ],
+    "foreclosure": [
+     {
+      "case": "49CIV26-000203",
+      "plaintiff": "MORTGAGE RESEARCH CENTER LLC",
+      "defendant": "TODD FINDLING",
+      "attorney": "HALLIDAY",
+      "addr_raw": "9519 W DOLORES DR SFSD 57106",
+      "addr": "9519 W DOLORES DR",
+      "judgment": 299223.29,
+      "sale_date": "2027-01-13",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
      }
     ]
    },
@@ -8535,6 +8643,56 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "012207482010000",
+   "cid": "39899",
+   "addr": "1000 N ELMWOOD AVE",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "WEEG, ANTHONY & WEEG, TRISHA",
+   "mail": "1000 N ELMWOOD AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.27,
+   "sqft": 11629.0,
+   "activity": "11 - Single-Family",
+   "score": 50,
+   "why": [
+    "1 code citation",
+    "sheriff sale 2027-01-27, judgment $155,275"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-10-06",
+      "addr": "1000 N ELMWOOD AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ],
+    "foreclosure": [
+     {
+      "case": "49CIV26-001135",
+      "plaintiff": "NEWREZ LLC",
+      "defendant": "ANTHONY AND TRISHA WEEG",
+      "attorney": "HALLIDAY",
+      "addr_raw": "1000 N ELMWOOD AVE SFSD 57104",
+      "addr": "1000 N ELMWOOD AVE",
+      "judgment": 155275.38,
+      "sale_date": "2027-01-27",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "012208482009000",
    "cid": "27491",
    "addr": "1004 N SUMMIT AVE",
@@ -11781,6 +11939,56 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "012229379003000",
+   "cid": "42868",
+   "addr": "3008 S WEST AVE",
+   "zip": 57105,
+   "county": "MINNEHAHA",
+   "owner": "GARCIA, GLORY & GREENE, SAVON",
+   "mail": "3008 S WEST AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57105",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.15,
+   "sqft": 6600.0,
+   "activity": "11 - Single-Family",
+   "score": 50,
+   "why": [
+    "1 code citation",
+    "sheriff sale 2026-12-02, judgment $250,630"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2025-09-04",
+      "addr": "3008 S WEST AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ],
+    "foreclosure": [
+     {
+      "case": "49CIV25-003449",
+      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
+      "defendant": "GLORY GARCIA AND SAVON GREENE",
+      "attorney": "HALLIDAY",
+      "addr_raw": "3008 S WEST AVE SFSD 57105",
+      "addr": "3008 S WEST AVE",
+      "judgment": 250630.58,
+      "sale_date": "2026-12-02",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "012214329029000",
    "cid": "56949",
    "addr": "301 N LOCUST AVE",
@@ -12894,6 +13102,56 @@
       "legal": "Lot 12 Block 48 Shaws Sioux",
       "section": "Sioux Falls City",
       "year": 2025
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012220283009000",
+   "cid": "38782",
+   "addr": "424 W 17TH ST",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "ROWING, JASON",
+   "mail": "424 W 17TH ST",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.09,
+   "sqft": 4048.0,
+   "activity": "11 - Single-Family",
+   "score": 50,
+   "why": [
+    "1 code citation",
+    "sheriff sale 2027-01-13, judgment $177,986"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2025-06-25",
+      "addr": "424 W 17TH ST",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ],
+    "foreclosure": [
+     {
+      "case": "49CIV25-003939",
+      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
+      "defendant": "JASON ROWING",
+      "attorney": "HALLIDAY",
+      "addr_raw": "424 W 17TH ST SFSD 57104",
+      "addr": "424 W 17TH ST",
+      "judgment": 177986.52,
+      "sale_date": "2027-01-13",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
      }
     ]
    },
@@ -24544,46 +24802,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "011535431041000",
-   "cid": "95022",
-   "addr": "4241 N KNOB HILL CT",
-   "zip": 57107,
-   "county": "MINNEHAHA",
-   "owner": "BORTH, AMANDA",
-   "mail": "4241 N KNOB HLL CT",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57107",
-   "occ": "Y",
-   "landuse": 130,
-   "units": 1,
-   "acres": 0.14,
-   "sqft": 6093.0,
-   "activity": "15 - Townhome",
-   "score": 45,
-   "why": [
-    "absentee",
-    "2 code citations"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-08-11",
-      "addr": "4241 N KNOB HILL CT",
-      "type": "Vegetation",
-      "action": "Citation - 2nd"
-     },
-     {
-      "date": "2026-07-08",
-      "addr": "4241 N KNOB HILL CT",
-      "type": "Vegetation",
-      "action": "Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "012233303033000",
    "cid": "61150",
    "addr": "4310 S MINNESOTA AVE",
@@ -32805,6 +33023,47 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "012111378028000",
+   "cid": "89093",
+   "addr": "1113 N LALLEY LN",
+   "zip": 57107,
+   "county": "MINNEHAHA",
+   "owner": "MENTELE, ERIC J",
+   "mail": "1113 N LALLEY LN",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57107",
+   "occ": "Y",
+   "landuse": 130,
+   "units": 1,
+   "acres": 0.1,
+   "sqft": 4338.0,
+   "activity": "15 - Townhome",
+   "score": 35,
+   "why": [
+    "sheriff sale 2026-12-16, judgment $328,546"
+   ],
+   "signals": {
+    "foreclosure": [
+     {
+      "case": "49CIV26-001559",
+      "plaintiff": "NEWREZ LLC",
+      "defendant": "ERIC MENTELE",
+      "attorney": "HALLIDAY",
+      "addr_raw": "1113 N LALLEY LN SFSD 57107",
+      "addr": "1113 N LALLEY LN",
+      "judgment": 328546.43,
+      "sale_date": "2026-12-16",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "012209352004000",
    "cid": "48119",
    "addr": "1122 N DAKOTA AVE",
@@ -32924,6 +33183,128 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "012215154018000",
+   "cid": "38415",
+   "addr": "1220 E 5TH ST",
+   "zip": 57103,
+   "county": "MINNEHAHA",
+   "owner": "ZAVALA-BONILLA, MARIA E",
+   "mail": "1220 E 5TH ST",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57103",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.13,
+   "sqft": 5511.0,
+   "activity": "11 - Single-Family",
+   "score": 35,
+   "why": [
+    "sheriff sale 2026-12-16, judgment $120,350"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2022-03-21",
+      "addr": "1220 E 5TH ST",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 1st"
+     },
+     {
+      "date": "2022-03-21",
+      "addr": "1220 E 5TH ST",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 3rd or Subsequent"
+     },
+     {
+      "date": "2022-02-23",
+      "addr": "1220 E 5TH ST",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 2nd"
+     },
+     {
+      "date": "2022-02-01",
+      "addr": "1220 E 5TH ST",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 1st"
+     }
+    ],
+    "foreclosure": [
+     {
+      "case": "49CIV24-000301",
+      "plaintiff": "US BANK NATIONAL ASSOCIATION",
+      "defendant": "MARIA ZAVALA-BONILLA",
+      "attorney": "HALLIDAY",
+      "addr_raw": "1220 E 5TH ST SFSD 57103",
+      "addr": "1220 E 5TH ST",
+      "judgment": 120350.75,
+      "sale_date": "2026-12-16",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": "- CANCELLED"
+     },
+     {
+      "case": "49CIV24-000301",
+      "plaintiff": "US BANK NATIONAL ASSOCIATION",
+      "defendant": "MARIA ZAVALA-BONILLA",
+      "attorney": "HALLIDAY",
+      "addr_raw": "1220 E 5TH ST SFSD 57103",
+      "addr": "1220 E 5TH ST",
+      "judgment": 120350.75,
+      "sale_date": "2027-01-27",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": "- CANCELLED"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012208429025000",
+   "cid": "39187",
+   "addr": "1221 N SPRING AVE",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "ECKLUND, AMANDA MARIE",
+   "mail": "1221 N SPRING AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.13,
+   "sqft": 5808.0,
+   "activity": "11 - Single-Family",
+   "score": 35,
+   "why": [
+    "sheriff sale 2027-01-27, judgment $147,382"
+   ],
+   "signals": {
+    "foreclosure": [
+     {
+      "case": "49CIV26-000010",
+      "plaintiff": "PENNYMAC LOAN SERVICES LLC",
+      "defendant": "AMANDA ECKLUND",
+      "attorney": "HALLIDAY",
+      "addr_raw": "1221 N SPRING AVE SFSD 57104",
+      "addr": "1221 N SPRING AVE",
+      "judgment": 147382.17,
+      "sale_date": "2027-01-27",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "012215158015000",
    "cid": "38395",
    "addr": "1224 E 6TH ST",
@@ -32952,6 +33333,47 @@
       "addr": "1224 E 6TH ST",
       "type": "Building Service",
       "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "011627157018000",
+   "cid": "78183",
+   "addr": "1301 E 68TH ST N",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "BIL, GATLUAK",
+   "mail": "1301 E 68TH ST N",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.13,
+   "sqft": 5732.0,
+   "activity": "11 - Single-Family",
+   "score": 35,
+   "why": [
+    "sheriff sale 2027-01-13, judgment $217,319"
+   ],
+   "signals": {
+    "foreclosure": [
+     {
+      "case": "49CIV26-000437",
+      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
+      "defendant": "GATLUAK BIL",
+      "attorney": "HALLIDAY",
+      "addr_raw": "1301 E 68TH ST N SFSD 57104",
+      "addr": "1301 E 68TH ST N",
+      "judgment": 217319.46,
+      "sale_date": "2027-01-13",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
      }
     ]
    },
@@ -33156,6 +33578,47 @@
       "addr": "1325 E 2ND ST",
       "type": "Zoning",
       "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012222353010000",
+   "cid": "25194",
+   "addr": "1400 E 24TH ST",
+   "zip": 57105,
+   "county": "MINNEHAHA",
+   "owner": "TRAUTNER, MACY",
+   "mail": "1400 E 24TH ST",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57105",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.17,
+   "sqft": 7200.0,
+   "activity": "11 - Single-Family",
+   "score": 35,
+   "why": [
+    "sheriff sale 2026-12-02, judgment $240,254"
+   ],
+   "signals": {
+    "foreclosure": [
+     {
+      "case": "49CIV25-004733",
+      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
+      "defendant": "MACY TRAUTNER",
+      "attorney": "HALLIDAY",
+      "addr_raw": "1400 E 24TH ST SFSD 57105",
+      "addr": "1400 E 24TH ST",
+      "judgment": 240254.36,
+      "sale_date": "2026-12-02",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
      }
     ]
    },
@@ -35771,6 +36234,47 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "012331155027000",
+   "cid": "89366",
+   "addr": "3911 S GRAND SLAM AVE",
+   "zip": 57110,
+   "county": "MINNEHAHA",
+   "owner": "MUNOZ, KIMBERLY DIANE",
+   "mail": "3911 S GRAND SLAM AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57110",
+   "occ": "Y",
+   "landuse": 130,
+   "units": 1,
+   "acres": 0.07,
+   "sqft": 3028.0,
+   "activity": "15 - Townhome",
+   "score": 35,
+   "why": [
+    "sheriff sale 2026-12-16, judgment $254,382"
+   ],
+   "signals": {
+    "foreclosure": [
+     {
+      "case": "49CIV25-005367",
+      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
+      "defendant": "KIMBERLY MUNOZ",
+      "attorney": "HALLIDAY",
+      "addr_raw": "3911 S GRAND SLAM AVE SFSD 57110",
+      "addr": "3911 S GRAND SLAM AVE",
+      "judgment": 254382.61,
+      "sale_date": "2026-12-16",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "011536375014000",
    "cid": "67709",
    "addr": "3929 N PENNSYLVANIA AVE",
@@ -36476,6 +36980,47 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "012134352011000",
+   "cid": "84184",
+   "addr": "4801 S WASSOM AVE",
+   "zip": 57106,
+   "county": "MINNEHAHA",
+   "owner": "BUNTROCK, NICOLE & OTT, BRYAN",
+   "mail": "4801 S WASSOM AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57106",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.14,
+   "sqft": 6020.0,
+   "activity": "11 - Single-Family",
+   "score": 35,
+   "why": [
+    "sheriff sale 2027-01-13, judgment $360,500"
+   ],
+   "signals": {
+    "foreclosure": [
+     {
+      "case": "49CIV26-000197",
+      "plaintiff": "MISSION SERVICING RESIDENTIAL INC",
+      "defendant": "NICOLE BUNTROCK AND BRYAN OTT",
+      "attorney": "HALLIDAY",
+      "addr_raw": "4801 S WASSOM AVE SFSD 57106",
+      "addr": "4801 S WASSOM AVE",
+      "judgment": 360500.78,
+      "sale_date": "2027-01-13",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "022810112003000",
    "cid": "280.47.02.003",
    "addr": "4913 S SUNFLOWER TRL",
@@ -36772,6 +37317,47 @@
       "addr": "5212 S SARMAR AVE",
       "type": "Vegetation",
       "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012126428038000",
+   "cid": "46071",
+   "addr": "5301 W PRITCHARD DR",
+   "zip": 57106,
+   "county": "MINNEHAHA",
+   "owner": "LEONARD, EVERETT C",
+   "mail": "5301 W PRITCHARD DR",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57106",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.3,
+   "sqft": 13176.0,
+   "activity": "11 - Single-Family",
+   "score": 35,
+   "why": [
+    "sheriff sale 2026-12-16, judgment $237,153"
+   ],
+   "signals": {
+    "foreclosure": [
+     {
+      "case": "49CIV25-004911",
+      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
+      "defendant": "EVERETT LEONARD",
+      "attorney": "HALLIDAY",
+      "addr_raw": "5301 W PRITCHARD DR SFSD 57106",
+      "addr": "5301 W PRITCHARD DR",
+      "judgment": 237153.14,
+      "sale_date": "2026-12-16",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
      }
     ]
    },
@@ -37345,6 +37931,55 @@
       "addr": "612 S JEFFERSON AVE",
       "type": "Health Nuisance Complaints",
       "action": "Health Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012217253011000",
+   "cid": "28464",
+   "addr": "615 N WALTS AVE",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "BUCKINGHAM, NATHANIEL & FALCON, STARSHINE",
+   "mail": "615 N WALTS AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.11,
+   "sqft": 4840.0,
+   "activity": "11 - Single-Family",
+   "score": 35,
+   "why": [
+    "sheriff sale 2027-01-13, judgment $302,112"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2022-09-06",
+      "addr": "615 N WALTS AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ],
+    "foreclosure": [
+     {
+      "case": "49CIV26-001190",
+      "plaintiff": "IDAHO HOUISNG AND FINANCE ASSOCIATION",
+      "defendant": "NATHANIEL BUCKINGHAM AND STARSHINE FALCON",
+      "attorney": "HALLIDAY",
+      "addr_raw": "615 N WALTS AVE SFSD 57104",
+      "addr": "615 N WALTS AVE",
+      "judgment": 302112.22,
+      "sale_date": "2027-01-13",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
      }
     ]
    },
@@ -38957,40 +39592,6 @@
      {
       "date": "2026-06-09",
       "addr": "9431 W DOLORES DR",
-      "type": "Vegetation",
-      "action": "Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
-   "tag": "012128379027000",
-   "cid": "96754",
-   "addr": "9519 W DOLORES DR",
-   "zip": 57106,
-   "county": "MINNEHAHA",
-   "owner": "FINDLING, TODD A",
-   "mail": "9519 W DOLORES DR",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57106",
-   "occ": "N",
-   "landuse": 130,
-   "units": 1,
-   "acres": 0.09,
-   "sqft": 4002.0,
-   "activity": "12 - Two-Family",
-   "score": 35,
-   "why": [
-    "absentee",
-    "1 code citation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-08-13",
-      "addr": "9519 W DOLORES DR",
       "type": "Vegetation",
       "action": "Citation - 1st"
      }
@@ -44072,6 +44673,47 @@
       "legal": "S 44' Lot 9 Block 11 Braley's 1st Addn",
       "section": "Sioux Falls City",
       "year": 2025
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "012227153007000",
+   "cid": "51528",
+   "addr": "2208 S BRAEMAR DR",
+   "zip": 57105,
+   "county": "MINNEHAHA",
+   "owner": "ANDERSON FAMILY TRUST ANDERSON, DOUGLAS E TRUSTEE",
+   "mail": "2208 S BRAEMAR DR",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57105",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.15,
+   "sqft": 6630.0,
+   "activity": "11 - Single-Family",
+   "score": 30,
+   "why": [
+    "sheriff sale 2026-12-16, judgment $161,561"
+   ],
+   "signals": {
+    "foreclosure": [
+     {
+      "case": "49CIV25-000906",
+      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
+      "defendant": "DOUGLAS ANDERSON",
+      "attorney": "HALLIDAY",
+      "addr_raw": "2208 S BRAEMAR DR SFSD 57105",
+      "addr": "2208 S BRAEMAR DR",
+      "judgment": 161561.77,
+      "sale_date": "2026-12-16",
+      "kind": "upcoming",
+      "bidder": "",
+      "bid": null,
+      "note": ""
      }
     ]
    },
@@ -60868,39 +61510,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "012207482010000",
-   "cid": "39899",
-   "addr": "1000 N ELMWOOD AVE",
-   "zip": 57104,
-   "county": "MINNEHAHA",
-   "owner": "WEEG, ANTHONY & WEEG, TRISHA",
-   "mail": "1000 N ELMWOOD AVE",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57104",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.27,
-   "sqft": 11629.0,
-   "activity": "11 - Single-Family",
-   "score": 15,
-   "why": [
-    "1 code citation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-10-06",
-      "addr": "1000 N ELMWOOD AVE",
-      "type": "Vegetation",
-      "action": "Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "012209355017000",
    "cid": "48054",
    "addr": "1001 N MAIN AVE",
@@ -65683,39 +66292,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "012229379003000",
-   "cid": "42868",
-   "addr": "3008 S WEST AVE",
-   "zip": 57105,
-   "county": "MINNEHAHA",
-   "owner": "GARCIA, GLORY & GREENE, SAVON",
-   "mail": "3008 S WEST AVE",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57105",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.15,
-   "sqft": 6600.0,
-   "activity": "11 - Single-Family",
-   "score": 15,
-   "why": [
-    "1 code citation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2025-09-04",
-      "addr": "3008 S WEST AVE",
-      "type": "Vegetation",
-      "action": "Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "012229353011000",
    "cid": "33436",
    "addr": "3009 S GLENDALE AVE",
@@ -68095,39 +68671,6 @@
       "addr": "423 S SUMMIT AVE",
       "type": "Health Nuisance Complaints",
       "action": "Health Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
-   "tag": "012220283009000",
-   "cid": "38782",
-   "addr": "424 W 17TH ST",
-   "zip": 57104,
-   "county": "MINNEHAHA",
-   "owner": "ROWING, JASON",
-   "mail": "424 W 17TH ST",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57104",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.09,
-   "sqft": 4048.0,
-   "activity": "11 - Single-Family",
-   "score": 15,
-   "why": [
-    "1 code citation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2025-06-25",
-      "addr": "424 W 17TH ST",
-      "type": "Vegetation",
-      "action": "Citation - 1st"
      }
     ]
    },
