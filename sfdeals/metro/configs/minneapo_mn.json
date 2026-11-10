@@ -1,0 +1,141 @@
+{
+ "name": "Minneapolis, MN",
+ "short": "Minneapolis",
+ "state": "MN",
+ "min_value": 80000,
+ "counties": [
+  {
+   "name": "Hennepin County",
+   "parcels": {
+    "url": "https://gis.hennepin.us/arcgis/rest/services/HennepinData/LAND_PROPERTY/MapServer/1",
+    "page": 2000,
+    "where": "PR_TYP_NM1 IN ('RESIDENTIAL','RESIDENTIAL-TWO UNIT','TOWNHOUSE','RESIDENTIAL-ZERO LOT LINE') AND (HMSTD_CD1 = 'N' OR EARLIEST_DELQ_YR <> '  ' OR COMP_JUDG_IND = 'T')",
+    "map": {
+     "tag": "PID",
+     "addr": ["HOUSE_NO", "FRAC_HOUSE_NO", "STREET_NM"],
+     "zip": "ZIP_CD",
+     "muni": "MUNIC_NM",
+     "owner": "OWNER_NM",
+     "mail": "TAXPAYER_NM_1",
+     "mail_city": "TAXPAYER_NM_2",
+     "landuse": "PR_TYP_NM1",
+     "year": "BUILD_YR",
+     "value": "MKT_VAL_TOT",
+     "sale_date": "SALE_DATE",
+     "sale_price": "SALE_PRICE"
+    },
+    "extra": [
+     "HMSTD_CD1",
+     "EARLIEST_DELQ_YR",
+     "COMP_JUDG_IND",
+     "SALE_CODE_NAME",
+     "TAXPAYER_NM_3"
+    ]
+   },
+   "signals": [
+    {
+     "name": "boarded",
+     "weight": 40,
+     "label": "boarded or unsafe building (city inspections)",
+     "url": "https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/CaseViolations/FeatureServer/0",
+     "where": "Resolved_Date IS NULL AND Violation_Code_Description IN ('Mpls Police Dept Authorized Boarding','Property Found Boarded','Unsafe Buildings','Vacant Buildings')",
+     "map": {
+      "tag": "APN",
+      "addr": "Display",
+      "case": "Violation_Case_Number",
+      "kind": "Violation_Code_Description",
+      "status": "Status_Violation_Case"
+     }
+    },
+    {
+     "name": "vacant",
+     "weight": 30,
+     "label": "registered vacant building (city)",
+     "url": "https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/CaseViolations/FeatureServer/0",
+     "where": "Resolved_Date IS NULL AND Case_Type = 'VBR'",
+     "map": {
+      "tag": "APN",
+      "addr": "Display",
+      "case": "Violation_Case_Number",
+      "kind": "Violation_Code_Description",
+      "status": "Status_Violation_Case"
+     }
+    },
+    {
+     "name": "housing_case",
+     "weight": 25,
+     "label": "open housing code case (city)",
+     "url": "https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/CaseViolations/FeatureServer/0",
+     "where": "Resolved_Date IS NULL AND Case_Group = 'HISINSP' AND Status_Violation_Case IN ('Enforce','Assessed','Pending')",
+     "map": {
+      "tag": "APN",
+      "addr": "Display",
+      "case": "Violation_Case_Number",
+      "kind": "Violation_Code_Description",
+      "status": "Status_Violation_Case"
+     }
+    },
+    {
+     "name": "nuisance_case",
+     "weight": 15,
+     "label": "open nuisance case (city)",
+     "url": "https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/CaseViolations/FeatureServer/0",
+     "where": "Resolved_Date IS NULL AND Case_Type = 'Nuisance' AND Status_Violation_Case IN ('Enforce','Assessed','Pending')",
+     "map": {
+      "tag": "APN",
+      "addr": "Display",
+      "case": "Violation_Case_Number",
+      "kind": "Violation_Code_Description",
+      "status": "Status_Violation_Case"
+     }
+    }
+   ],
+   "derived": [
+    {
+     "name": "tax_judgment",
+     "weight": 40,
+     "label": "tax judgment entered, heading to forfeiture (county)",
+     "field": "COMP_JUDG_IND",
+     "in": ["T"]
+    },
+    {
+     "name": "tax_delinquent",
+     "weight": 35,
+     "label": "delinquent property taxes (county)",
+     "field": "EARLIEST_DELQ_YR",
+     "in": ["00","01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","84","85","86","87","88","89","90","91","92","93","94","95","96","97","98","99"]
+    }
+   ],
+   "lookup": "https://www16.co.hennepin.mn.us/pins/pidresult.jsp?pid={tag}"
+  }
+ ],
+ "ui": {
+  "name": "Minneapolis",
+  "st": "MN",
+  "q": " Minneapolis MN",
+  "sigs": [
+   "all",
+   "boarded",
+   "vacant",
+   "housing code",
+   "nuisance",
+   "tax judgment",
+   "delinquent",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://www16.co.hennepin.mn.us/pins/pidresult.jsp?pid={tag}\" target=\"_blank\">County property record</a>",
+  "title_cos": "Burnet Title, Edina Realty Title, Watermark Title Agency, all in the Twin Cities",
+  "title_call": "Watermark Title or Burnet Title",
+  "law": "Minnesota forecloses by advertisement: the sheriff sells the house about 6 weeks after the notice runs and the owner then has 6 months to redeem, so a sheriff sale is not the end for the owner. You can assign a purchase contract; put the assignment right in the contract and never market the house itself.",
+  "groups": "\"MnREIA\", \"Minnesota Real Estate Investors\", \"Twin Cities Wholesale Deals\"",
+  "prefc": "<b>Tax judgment</b>: Hennepin County enters a judgment on taxes that go unpaid past the year; after that the house is on the road to forfeiture, so the owner has a hard deadline. <b>Boarded</b> and <b>vacant</b> come straight from Minneapolis inspections: a boarded house costs the owner a yearly vacant building fee of several thousand dollars.",
+  "sos": "<a href=\"https://mblsportal.sos.mn.gov/Business/Search\" target=\"_blank\">MN SOS search</a>",
+  "buyers_h": "Active cash buyers (assessor sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the county sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on the MN Secretary of State and call.",
+  "buyers_empty": "No buyers found in the sale data yet.",
+  "repairs": "Repairs, Minneapolis rough numbers per house: cosmetic 15-25k, kitchen+baths 30-55k, roof 12-22k, furnace and AC 8-15k, foundation or wet basement 8-25k, full gut 70-120k.",
+  "sources": "Hennepin County parcel layer (owner, taxpayer mailing address, homestead flag, delinquent tax year, tax judgment, value, build year), City of Minneapolis inspection case violations (boarded and unsafe buildings, vacant building registrations, housing and nuisance cases)",
+  "contracts": "mo"
+ }
+}
