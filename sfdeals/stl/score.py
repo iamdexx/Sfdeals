@@ -4,7 +4,7 @@ from collections import defaultdict
 from ..util import load, save, GOVBANK, ENTITY
 
 W = {"absentee": 20, "out_of_state": 10, "tax": 30, "tax_big": 10, "vacant": 30, "vacant_bad": 10,
-     "condemned": 35, "secure": 25, "violation": 15, "landtax": 35, "county_vacant": 15, "taxsale": 45, "trustee": 60, "entity": -5}
+     "condemned": 35, "secure": 25, "violation": 15, "landtax": 35, "county_vacant": 15, "taxsale": 45, "trustee": 60, "preforeclosure": 50, "entity": -5}
 INSPECT_DAYS = 548
 
 
@@ -16,7 +16,7 @@ def street_key(addr):
     return parts[0] + " " + name
 
 
-KEEP = ("trustee", "taxsale", "landtax")
+KEEP = ("trustee", "taxsale", "landtax", "recorder")
 
 
 def run():
@@ -65,6 +65,12 @@ def run():
         p = find(t["addr"], t["county"])
         if p:
             sig[p["tag"]]["trustee"].append(t)
+    for r in load("recorder.json", []) or []:
+        hits = {by_tag[t]["tag"] for t in r["pids"] if t in by_tag}
+        if not hits:
+            hits = {q["tag"] for q in (find(a, "St. Louis City") for a in r["addrs"]) if q}
+        for t in hits:
+            sig[t]["recorder"].append(r)
     vac = load("vacant.json", {}) or {}
 
     today = dt.date.today().isoformat()
@@ -111,6 +117,8 @@ def run():
             score += W["taxsale"]; why.append("county tax sale (%s)" % s["taxsale"][0]["status"].lower()); signals["taxsale"] = s["taxsale"]
         if s and s["trustee"]:
             score += W["trustee"]; why.append("trustee sale %s" % s["trustee"][0]["date"]); signals["trustee"] = s["trustee"]
+        if s and s["recorder"]:
+            score += W["preforeclosure"]; why.append("pre-foreclosure filed %s" % s["recorder"][0]["date"]); signals["recorder"] = s["recorder"]
         if ENTITY.search(p["owner"]):
             score += W["entity"]
         if score <= 0:

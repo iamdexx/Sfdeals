@@ -4,7 +4,7 @@ Off-market deal finder for Sioux Falls, SD and St. Louis, MO (city and county). 
 
 Sioux Falls signals: absentee owner (city parcel layer), sheriff mortgage foreclosures (Minnehaha, Lincoln), code enforcement citations (city), delinquent property taxes (Minnehaha, December list).
 
-St. Louis signals: absentee owner (city mailing address, county TENURE flag), city tax balance, city vacant building registry (year listed, open violations, unpaid fees), city building division inspections (condemnations, notices to secure, violation letters, accumulated nightly), sheriff land tax sale list when posted, county 2022 vacancy survey, county tax sale leftovers (post third sale and trustee parcels, official ArcGIS layer), trustee foreclosure sales from SouthLaw's public Missouri sale report.
+St. Louis signals: absentee owner (city mailing address, county TENURE flag), city tax balance, city vacant building registry (year listed, open violations, unpaid fees), city building division inspections (condemnations, notices to secure, violation letters, accumulated nightly), sheriff land tax sale list when posted, county 2022 vacancy survey, county tax sale leftovers (post third sale and trustee parcels, official ArcGIS layer), trustee foreclosure sales from SouthLaw's public Missouri sale report, and city pre-foreclosures from the Recorder of Deeds index (successor trustee appointments and notices of sale, recorded weeks before the newspaper notice).
 
 ## Run
     pip install -r requirements.txt

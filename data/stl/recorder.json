@@ -1,0 +1,3513 @@
+[
+ {
+  "doc": "11102026-0044",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-10",
+  "addrs": [
+   "2123 ALFRED AVE",
+   "2125 ALFRED AVE"
+  ],
+  "pids": [
+   "59019200000"
+  ],
+  "lender": "FEDERAL HOME LOAN MORTGAGE CORPORATION",
+  "trustee": "MILLSAP & SINGER P C",
+  "parties": [
+   "FEDERAL HOME LOAN MORTGAGE CORPORATION",
+   "EAST PATSAY ANN",
+   "EAST LEOANRD O"
+  ]
+ },
+ {
+  "doc": "11092026-0063",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-09",
+  "addrs": [
+   "4317 DRYDEN AVE"
+  ],
+  "pids": [
+   "44159070000"
+  ],
+  "lender": "TOPSTONE INV STL 1 LLC",
+  "trustee": "ROY MARK A",
+  "parties": [
+   "TOPSTONE INV STL 1 LLC",
+   "KUITWAARD JOHN"
+  ]
+ },
+ {
+  "doc": "11092026-0025",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-09",
+  "addrs": [
+   "2217 MC NAIR AVE",
+   "2217 MCNAIR AVE"
+  ],
+  "pids": [
+   "13869245000"
+  ],
+  "lender": "DETTER BLAKE",
+  "trustee": "S & W FORECLOSURE CORPORATION",
+  "parties": [
+   "DETTER BLAKE",
+   "WHITE ASHLEY",
+   "ROCKET MORTGAGE LLC"
+  ]
+ },
+ {
+  "doc": "11092026-0011",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-09",
+  "addrs": [
+   "9154 CHURCH RD"
+  ],
+  "pids": [
+   "63579140000"
+  ],
+  "lender": "US BANK NA",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "US BANK NA",
+   "DOWNER LAURA"
+  ]
+ },
+ {
+  "doc": "11062026-0068",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-06",
+  "addrs": [
+   "4624 ARSENAL ST"
+  ],
+  "pids": [
+   "56609100000"
+  ],
+  "lender": "HSBC BANK USA NATIONAL ASSOCIATION",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "HSBC BANK USA NATIONAL ASSOCIATION",
+   "SIMS SHAYLA"
+  ]
+ },
+ {
+  "doc": "11062026-0064",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-06",
+  "addrs": [
+   "6814 PENNSYLVANIA AVE"
+  ],
+  "pids": [
+   "30059130000"
+  ],
+  "lender": "U S BANK NATIONAL ASSOCIATION",
+  "trustee": "MILLSAP & SINGER P C",
+  "parties": [
+   "U  S BANK NATIONAL ASSOCIATION",
+   "WASHINGTON JOYCE"
+  ]
+ },
+ {
+  "doc": "11062026-0063",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-06",
+  "addrs": [
+   "3863 LAFAYETTE AVE"
+  ],
+  "pids": [
+   "54379410000"
+  ],
+  "lender": "ARTIS BRITTANY D",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "ARTIS BRITTANY D",
+   "ROCKET MORTGAGE LLC"
+  ]
+ },
+ {
+  "doc": "11062026-0020",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-06",
+  "addrs": [
+   "4360 W SCHIRMER ST"
+  ],
+  "pids": [
+   "63749150000"
+  ],
+  "lender": "WATKINS ORVILLE R JR",
+  "trustee": "MILLSAP & SINGER P C",
+  "parties": [
+   "WATKINS ORVILLE R JR",
+   "WATKINS BARBARA A",
+   "SECRETARY  OF VETERANS AFFAIRS"
+  ]
+ },
+ {
+  "doc": "11052026-0266",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-05",
+  "addrs": [
+   "4719 BESSIE CT"
+  ],
+  "pids": [
+   "44049280000"
+  ],
+  "lender": "BANK OF NEW YORK MELLON",
+  "trustee": "VYLLA SOLUTIONS MISSOURI LLC",
+  "parties": [
+   "BANK OF NEW YORK MELLON",
+   "CLARDY ROY L"
+  ]
+ },
+ {
+  "doc": "11052026-0153",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-05",
+  "addrs": [
+   "4802 NORTHLAND AVE"
+  ],
+  "pids": [
+   "44779335000"
+  ],
+  "lender": "WASHINGTON RONALD JR",
+  "trustee": "S & W FORECLOSURE CORPORATION",
+  "parties": [
+   "WASHINGTON RONALD JR",
+   "LAKEVIEW LOAN SERVICING LLC"
+  ]
+ },
+ {
+  "doc": "11052026-0059",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-05",
+  "addrs": [
+   "3413 ALBERTA ST"
+  ],
+  "pids": [
+   "25779240000"
+  ],
+  "lender": "MOORE ACQUISITION LLC",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "MOORE ACQUISITION LLC",
+   "EFMT 2025-RTL 1"
+  ]
+ },
+ {
+  "doc": "11052026-0013",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-05",
+  "addrs": [
+   "3225 GRAVOIS AVE",
+   "3229 GRAVOIS AVE"
+  ],
+  "pids": [
+   "15009150000",
+   "15009160000"
+  ],
+  "lender": "U S BANK NATIONAL ASSOCIATION",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "U  S BANK NATIONAL ASSOCIATION",
+   "GREAT LAKE FUNDING I TRUST",
+   "VIBRANT BLUE REALTY LLC"
+  ]
+ },
+ {
+  "doc": "11042026-0174",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-04",
+  "addrs": [
+   "3918 ALEXANDER ST"
+  ],
+  "pids": [
+   "61499040000"
+  ],
+  "lender": "MORTGAGE ELECTRONIC REGISTRATION SYSTEM INC",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "MORTGAGE ELECTRONIC REGISTRATION SYSTEM INC",
+   "NATIONSTAR  MORTGAGE LLC",
+   "KYI KHIN",
+   "ME ME"
+  ]
+ },
+ {
+  "doc": "11042026-0122",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-04",
+  "addrs": [
+   "1956 SENATE ST"
+  ],
+  "pids": [
+   "17979020000"
+  ],
+  "lender": "ROCKET MORTGAGE LLC",
+  "trustee": "S& W FORECLOSURE CORPORATION",
+  "parties": [
+   "ROCKET MORTGAGE LLC",
+   "CALLAHAN JAMES G III",
+   "CALLAHAN BRANDY L DUNN"
+  ]
+ },
+ {
+  "doc": "11042026-0014",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-04",
+  "addrs": [
+   "4127 LEXINGTON AVE",
+   "4129 LEXINGTON AVE"
+  ],
+  "pids": [
+   "44419145000",
+   "44419275000"
+  ],
+  "lender": "US BANK TRUST NA",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+  "parties": [
+   "US BANK TRUST NA",
+   "DOBBYS DWELLINGS LLC"
+  ]
+ },
+ {
+  "doc": "11042026-0002",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-04",
+  "addrs": [
+   "5124 MAFFITT AVE"
+  ],
+  "pids": [
+   "45029105000"
+  ],
+  "lender": "REGIONS BANK",
+  "trustee": "S&W FORECLOSURE CORP",
+  "parties": [
+   "REGIONS BANK",
+   "JACKSON DAVID A"
+  ]
+ },
+ {
+  "doc": "11032026-0191",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-03",
+  "addrs": [
+   "3146 NEBRASKA AVE",
+   "3148 NEBRASKA AVE"
+  ],
+  "pids": [
+   "14759150000"
+  ],
+  "lender": "NEWREZ LLC",
+  "trustee": "MODEST SOT INC",
+  "parties": [
+   "NEWREZ LLC",
+   "CATO JOHN C"
+  ]
+ },
+ {
+  "doc": "11032026-0122",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-03",
+  "addrs": [
+   "4072 BURGEN AVE"
+  ],
+  "pids": [
+   "55039340000"
+  ],
+  "lender": "MIDFIRST BANK",
+  "trustee": "S&W FORECLOSURE CORP",
+  "parties": [
+   "MIDFIRST BANK",
+   "HERCULES MICHAEL J"
+  ]
+ },
+ {
+  "doc": "11022026-0011",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-02",
+  "addrs": [
+   "5601 GOODFELLOW BLVD",
+   "5603 GOODFELLOW BLVD"
+  ],
+  "pids": [
+   "54579385000"
+  ],
+  "lender": "NEW AMERICAN FUNDING LLC",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "NEW AMERICAN FUNDING LLC",
+   "THOMAS ARDELL"
+  ]
+ },
+ {
+  "doc": "10292026-0024",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-29",
+  "addrs": [
+   "3522 MISSOURI AVE"
+  ],
+  "pids": [
+   "15569060000"
+  ],
+  "lender": "MAYO MELVEAN",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "MAYO MELVEAN",
+   "MORTGAGE ELECTRONIC REGISTRATION SYSTEM INC",
+   "LAKEVIEW LOAN SERVICING LLC"
+  ]
+ },
+ {
+  "doc": "10272026-0103",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-27",
+  "addrs": [
+   "5900 S KINGSHIGHWAY BLVD"
+  ],
+  "pids": [
+   "56419050000"
+  ],
+  "lender": "GUILD MORTGAGE COMPANY LLC",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "GUILD MORTGAGE  COMPANY LLC",
+   "DENNERT BRYAN"
+  ]
+ },
+ {
+  "doc": "10272026-0098",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-27",
+  "addrs": [
+   "37 LEWIS PL"
+  ],
+  "pids": [
+   "45539545000"
+  ],
+  "lender": "PEYTON PAVI",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "PEYTON PAVI",
+   "U  S BANK NATIONAL ASSOCIATION"
+  ]
+ },
+ {
+  "doc": "10272026-0004",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-27",
+  "addrs": [
+   "4509 PENNSYLVANIA AVE"
+  ],
+  "pids": [
+   "27209160000"
+  ],
+  "lender": "SELENE FINANCE LP",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "SELENE FINANCE LP",
+   "COONEY LAUREN M"
+  ]
+ },
+ {
+  "doc": "10262026-0215",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-26",
+  "addrs": [
+   "3657 MINNESOTA AVE",
+   "3659 MINNESOTA AVE"
+  ],
+  "pids": [
+   "16249370000"
+  ],
+  "lender": "WILMINGTON SAVINGS FUND SOCIETY FSB",
+  "trustee": "MODEST SOT INC",
+  "parties": [
+   "WILMINGTON SAVINGS FUND SOCIETY FSB",
+   "PNGN INVESTMENTS LLC"
+  ]
+ },
+ {
+  "doc": "10262026-0185",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-26",
+  "addrs": [
+   "5914 HORTON PL"
+  ],
+  "pids": [
+   "38299330000"
+  ],
+  "lender": "CJW CAPITAL COMPANY LLC",
+  "trustee": "KING & MCNAMEE LLC",
+  "parties": [
+   "CJW CAPITAL COMPANY LLC",
+   "LHOME MORTGAGE TRUST 2025 RTL1"
+  ]
+ },
+ {
+  "doc": "10232026-0035",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-23",
+  "addrs": [
+   "507 403 N 13TH ST"
+  ],
+  "pids": [
+   "08349100027"
+  ],
+  "lender": "JPMORGAN CHASE BANK NATIONAL ASSOCIATION",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "JPMORGAN CHASE BANK NATIONAL ASSOCIATION",
+   "SUTTON TODD"
+  ]
+ },
+ {
+  "doc": "10232026-0012",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-23",
+  "addrs": [
+   "1907 LYNCH ST"
+  ],
+  "pids": [
+   "17969030000"
+  ],
+  "lender": "NEWREZ LLC",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "NEWREZ LLC",
+   "CROSS RONALD L"
+  ]
+ },
+ {
+  "doc": "10232026-0011",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-23",
+  "addrs": [
+   "5012 PAGE BLVD"
+  ],
+  "pids": [
+   "51539200000"
+  ],
+  "lender": "CITIBANK N A",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "CITIBANK N A",
+   "FITZGERALD TEFLORNE"
+  ]
+ },
+ {
+  "doc": "10232026-0010",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-23",
+  "addrs": [
+   "8536 CONCORD PL"
+  ],
+  "pids": [
+   "56379190000"
+  ],
+  "lender": "SELENE FINANCE LP",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "SELENE FINANCE LP",
+   "NUNLEY ANTHONY"
+  ]
+ },
+ {
+  "doc": "10222026-0074",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-22",
+  "addrs": [
+   "1112 RIVERVIEW BLVD"
+  ],
+  "pids": [
+   "54329250000"
+  ],
+  "lender": "US BANK TRUST NATIONAL ASSOCIATION",
+  "trustee": "WESTERN PROGRESSIVE MISSOURI INC",
+  "parties": [
+   "US BANK TRUST NATIONAL ASSOCIATION",
+   "GIBSON DYLAUN C"
+  ]
+ },
+ {
+  "doc": "10212026-0147",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-21",
+  "addrs": [
+   "4108 OREGON AVE"
+  ],
+  "pids": [
+   "26259130000"
+  ],
+  "lender": "FREEDOM MORTGAGE CORP",
+  "trustee": "NESTOR SOLUTIONS OF MISSOURI LLC",
+  "parties": [
+   "FREEDOM MORTGAGE CORP",
+   "PEARSON KALINDA"
+  ]
+ },
+ {
+  "doc": "10212026-0092",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-21",
+  "addrs": [
+   "1501 LOCUST ST"
+  ],
+  "pids": [
+   "08279040065"
+  ],
+  "lender": "BROWN DENNIS",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "BROWN DENNIS",
+   "PENNYMAC LOAN SERVICES LLC"
+  ]
+ },
+ {
+  "doc": "10192026-0088",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-19",
+  "addrs": [
+   "3211 PORTIS AVE"
+  ],
+  "pids": [
+   "52799040000"
+  ],
+  "lender": "3211 PORTIS AVENUE INDUSTRIES LLC",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "3211 PORTIS AVENUE INDUSTRIES LLC",
+   "WILMINGTON SAVINGS FUND SOCIETY",
+   "IBIS HOLDINGS A TRUST"
+  ]
+ },
+ {
+  "doc": "10162026-0198",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-16",
+  "addrs": [
+   "862 RIVERVIEW BLVD"
+  ],
+  "pids": [
+   "63649130000"
+  ],
+  "lender": "BANK OF NEW YORK MELLON TRUST COMPANY NATIONAL ASSOCIATION",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "BANK OF NEW YORK MELLON TRUST COMPANY NATIONAL ASSOCIATION",
+   "THOMAS DOROTHY"
+  ]
+ },
+ {
+  "doc": "10162026-0030",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-16",
+  "addrs": [
+   "3878 MARINE AVE"
+  ],
+  "pids": [
+   "17629010000"
+  ],
+  "lender": "CENTRAL TRUST BANK",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "CENTRAL TRUST BANK",
+   "PATRICK LATANYA M"
+  ]
+ },
+ {
+  "doc": "10142026-0134",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-14",
+  "addrs": [
+   "840 E TAYLOR AVE"
+  ],
+  "pids": [
+   "43989050000"
+  ],
+  "lender": "ST LOUIS BANK",
+  "trustee": "J & K TRUSTEE SERVICES INC",
+  "parties": [
+   "ST  LOUIS BANK",
+   "STL GROWTH DEVELOPMENT LLC"
+  ]
+ },
+ {
+  "doc": "10142026-0125",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-14",
+  "addrs": [
+   "300 N -314 BROADWAY ST"
+  ],
+  "pids": [
+   "00999011095"
+  ],
+  "lender": "JPMORGAN CHASE BANK NA",
+  "trustee": "SPROUT MORTGAGE LLC",
+  "parties": [
+   "JPMORGAN CHASE BANK NA"
+  ]
+ },
+ {
+  "doc": "10142026-0107",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-14",
+  "addrs": [
+   "4714 TENNESSEE AVE"
+  ],
+  "pids": [
+   "27739075000"
+  ],
+  "lender": "DEUTSCHE BANK NATIONAL TRUST COMPANY AS TRUSTEE",
+  "trustee": "WESTERN PROGRESSIVE MISSOURI INC",
+  "parties": [
+   "DEUTSCHE BANK NATIONAL TRUST COMPANY AS TRUSTEE",
+   "SCHMIDT GLENN"
+  ]
+ },
+ {
+  "doc": "10142026-0094",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-14",
+  "addrs": [
+   "1057 S TAYLOR AVE",
+   "4503 ARCO AVE"
+  ],
+  "pids": [
+   "50429270000"
+  ],
+  "lender": "BUSEY BANK",
+  "trustee": "KING & MCNAMEE LLC",
+  "parties": [
+   "BUSEY BANK",
+   "PRESERVATION GROUP LLC"
+  ]
+ },
+ {
+  "doc": "10142026-0082",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-14",
+  "addrs": [
+   "4978 THOLOZAN AVE"
+  ],
+  "pids": [
+   "60319090000"
+  ],
+  "lender": "PHH ASSET SERVICES LLC",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "PHH ASSET SERVICES LLC",
+   "UKEJNOVIC NEDZAD"
+  ]
+ },
+ {
+  "doc": "10142026-0081",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-14",
+  "addrs": [
+   "5424 CLAXTON AVE"
+  ],
+  "pids": [
+   "50829080000"
+  ],
+  "lender": "US BANK TRUST NA",
+  "trustee": "SINGERS CORP",
+  "parties": [
+   "US BANK TRUST NA",
+   "HARRIS BILLIE",
+   "HARRIS SARAH LEE"
+  ]
+ },
+ {
+  "doc": "10132026-0086",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-13",
+  "addrs": [
+   "5204 GRACE AVE"
+  ],
+  "pids": [
+   "47129110000"
+  ],
+  "lender": "O'HARA LINDA L",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "O'HARA LINDA L",
+   "O'HARA JAMES",
+   "NEWREZ LLC"
+  ]
+ },
+ {
+  "doc": "10132026-0076",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-13",
+  "addrs": [
+   "4427 LOUISIANA AVE"
+  ],
+  "pids": [
+   "27299340000"
+  ],
+  "lender": "MIDFIRST BANK",
+  "trustee": "S&W FORECLOSURE CORPORATION",
+  "parties": [
+   "MIDFIRST BANK",
+   "FORTE TANNIKA"
+  ]
+ },
+ {
+  "doc": "10132026-0041",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-13",
+  "addrs": [
+   "6745 DALE AVE"
+  ],
+  "pids": [
+   "56059300000"
+  ],
+  "lender": "SENECA MORTGAGE SERVICING LLC",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "SENECA MORTGAGE SERVICING LLC",
+   "HAYHURST KYLE J"
+  ]
+ },
+ {
+  "doc": "10132026-0040",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-13",
+  "addrs": [
+   "3835 FINNEY AVE"
+  ],
+  "pids": [],
+  "lender": "BANK OF AMERICA NA",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "BANK OF AMERICA NA",
+   "WEBB JAMES C",
+   "WEBB EARLENE",
+   "WEBB JOYCE"
+  ]
+ },
+ {
+  "doc": "10132026-0038",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-13",
+  "addrs": [
+   "5037 STEFFENS AVE"
+  ],
+  "pids": [
+   "56569250000"
+  ],
+  "lender": "ALABAMA HOUSING FINANCE AUTHORITY",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "ALABAMA HOUSING FINANCE AUTHORITY",
+   "BARR JARED",
+   "BARR PAMELA"
+  ]
+ },
+ {
+  "doc": "10132026-0037",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-13",
+  "addrs": [
+   "3647 KOELN AVE"
+  ],
+  "pids": [
+   "32779270000"
+  ],
+  "lender": "NEWREZ LLC",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "NEWREZ  LLC",
+   "KONSEWICZ RICHARD A",
+   "KONSEWICZ STACEY L"
+  ]
+ },
+ {
+  "doc": "10082026-0193",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-08",
+  "addrs": [
+   "1511 209 LOCUST ST",
+   "1523 180 LOCUST ST"
+  ],
+  "pids": [
+   "08279001180",
+   "08279805017"
+  ],
+  "lender": "ABDELMALEK MARK",
+  "trustee": "MILLSAP & SINGER P C",
+  "parties": [
+   "ABDELMALEK MARK",
+   "ROCKET MORTGAGE  LLC"
+  ]
+ },
+ {
+  "doc": "10082026-0110",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-08",
+  "addrs": [
+   "6716 NASHVILLE AVE"
+  ],
+  "pids": [
+   "56059110000"
+  ],
+  "lender": "JPMORGAN CHASE BANK NA",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "JPMORGAN CHASE BANK NA",
+   "WELSH GARY M",
+   "WELSH F MARGO"
+  ]
+ },
+ {
+  "doc": "10082026-0104",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-08",
+  "addrs": [
+   "3718 BAMBERGER AVE",
+   "3720 BAMBERGER AVE"
+  ],
+  "pids": [
+   "56249070000"
+  ],
+  "lender": "WILMINGTON SAVINGS FUND SOCIETY",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+  "parties": [
+   "WILMINGTON SAVINGS FUND SOCIETY",
+   "EVERGREEN SERIES HOLDING LLC"
+  ]
+ },
+ {
+  "doc": "10082026-0019",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-08",
+  "addrs": [
+   "2754 BACON ST"
+  ],
+  "pids": [
+   "18949090000"
+  ],
+  "lender": "BANK OF HOUSTON",
+  "trustee": "CENTRE TRUSTEE CORP",
+  "parties": [
+   "BANK OF HOUSTON",
+   "A NURSE'S TOUCH RESIDENTIAL CARE LLC"
+  ]
+ },
+ {
+  "doc": "10072026-0263",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-07",
+  "addrs": [
+   "4253 MIAMI ST"
+  ],
+  "pids": [
+   "41259100000"
+  ],
+  "lender": "MIDFIRST BANK",
+  "trustee": "S& W FORECLOSURE CORPORATION",
+  "parties": [
+   "MIDFIRST BANK",
+   "JACKSON MARCELLA A"
+  ]
+ },
+ {
+  "doc": "10072026-0261",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-07",
+  "addrs": [
+   "5066 VERNON AVE"
+  ],
+  "pids": [
+   "51519090000"
+  ],
+  "lender": "HSBC BANK USA NA",
+  "trustee": "S&W FORECLOUSRE CORP",
+  "parties": [
+   "HSBC BANK USA NA",
+   "KENNELL CONSTANCE"
+  ]
+ },
+ {
+  "doc": "10072026-0254",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-07",
+  "addrs": [
+   "6154 W PARK AVE"
+  ],
+  "pids": [
+   "40179015000"
+  ],
+  "lender": "REGIONS BANK",
+  "trustee": "S & W FORECLOSURE CORPORATION",
+  "parties": [
+   "REGIONS BANK",
+   "BUMPUS RONALD D"
+  ]
+ },
+ {
+  "doc": "10072026-0211",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-07",
+  "addrs": [
+   "4815 CALVIN AVE"
+  ],
+  "pids": [
+   "43919330000"
+  ],
+  "lender": "BANK OF NEW YORK MELLON",
+  "trustee": "MODEST SOT INC",
+  "parties": [
+   "BANK OF NEW YORK MELLON",
+   "MARTIN TYRONE",
+   "MARTIN VERONICA",
+   "WALLS BARBARA J"
+  ]
+ },
+ {
+  "doc": "10062026-0191",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-06",
+  "addrs": [
+   "323 MOTT ST",
+   "327 MOTT ST"
+  ],
+  "pids": [
+   "29709125000",
+   "29709135000"
+  ],
+  "lender": "CREBRID LLC",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "CREBRID LLC",
+   "ELITE PRESTIGE GROUP LLC"
+  ]
+ },
+ {
+  "doc": "10062026-0183",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-06",
+  "addrs": [
+   "5734 G CATES AVE"
+  ],
+  "pids": [
+   "45469035000"
+  ],
+  "lender": "ITUEN TYLER",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+  "parties": [
+   "ITUEN TYLER",
+   "U S BANK NA"
+  ]
+ },
+ {
+  "doc": "10062026-0179",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-06",
+  "addrs": [
+   "4443 ITASKA ST"
+  ],
+  "pids": [
+   "55459400000"
+  ],
+  "lender": "GAMA NAYELITH L",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "GAMA NAYELITH L",
+   "ALABAMA HOUSING FINANCE AUTHORITY"
+  ]
+ },
+ {
+  "doc": "10062026-0178",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-06",
+  "addrs": [
+   "3737 UPTON ST"
+  ],
+  "pids": [
+   "32759230000"
+  ],
+  "lender": "ALABAMA HOSUING FINANCE AUTHORITY",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "ALABAMA HOSUING FINANCE AUTHORITY",
+   "CLARK EDMOND"
+  ]
+ },
+ {
+  "doc": "10062026-0176",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-06",
+  "addrs": [
+   "5931 PARK LA"
+  ],
+  "pids": [
+   "58089300000"
+  ],
+  "lender": "NEWREZ LLC",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "NEWREZ LLC",
+   "ANDERSON DONZA"
+  ]
+ },
+ {
+  "doc": "10062026-0175",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-06",
+  "addrs": [
+   "4411 WALLACE ST"
+  ],
+  "pids": [
+   "55469290000"
+  ],
+  "lender": "MEECEY KIMBERLY J",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "MEECEY KIMBERLY J",
+   "ROCKET MORTGAGE LLC"
+  ]
+ },
+ {
+  "doc": "10062026-0174",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-06",
+  "addrs": [
+   "5139 WABADA AVE"
+  ],
+  "pids": [
+   "45049500000"
+  ],
+  "lender": "FRANK MELANIE",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "FRANK MELANIE",
+   "LONG CHRISTOPHER",
+   "WELLS FARGO NA"
+  ]
+ },
+ {
+  "doc": "10062026-0110",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-06",
+  "addrs": [
+   "5350 PERSHING AVE"
+  ],
+  "pids": [
+   "38739281002"
+  ],
+  "lender": "GUILD MORTGAGE COMPANY LLC",
+  "trustee": "MILLSAP & SINGER P C",
+  "parties": [
+   "GUILD MORTGAGE  COMPANY LLC",
+   "GUTIERREZ ALDANA ALARCON"
+  ]
+ },
+ {
+  "doc": "10052026-0147",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-05",
+  "addrs": [
+   "5574 WATERMAN BLVD"
+  ],
+  "pids": [
+   "38749215001"
+  ],
+  "lender": "SELENE FINANCE LP",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "SELENE FINANCE LP",
+   "HACKMAN BIFF"
+  ]
+ },
+ {
+  "doc": "10052026-0007",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-05",
+  "addrs": [
+   "4403 PENNSYLVANIA AVE"
+  ],
+  "pids": [
+   "27039180000"
+  ],
+  "lender": "CREBRID LLC",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "CREBRID LLC",
+   "ELITE PRESTIGE GROUP LLC"
+  ]
+ },
+ {
+  "doc": "10012026-0036",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-10-01",
+  "addrs": [
+   "3640 PALM ST"
+  ],
+  "pids": [
+   "23919030000"
+  ],
+  "lender": "WILMINGTON SAVINGS FUND SOCIETY FSB",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "WILMINGTON SAVINGS FUND SOCIETY FSB",
+   "VIBRANT BLUE REALTY LLC"
+  ]
+ },
+ {
+  "doc": "09302026-0040",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-30",
+  "addrs": [
+   "5638 PARK AVE"
+  ],
+  "pids": [
+   "57839070000"
+  ],
+  "lender": "REED BENJAMIN A SR",
+  "trustee": "S&W FORECLOSURE CORP",
+  "parties": [
+   "REED BENJAMIN A SR",
+   "REED SHIRLEY R",
+   "ROCKET MORTGAGE LLC"
+  ]
+ },
+ {
+  "doc": "09302026-0032",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-30",
+  "addrs": [
+   "4269 JUNIATA ST"
+  ],
+  "pids": [
+   "50629440000"
+  ],
+  "lender": "ALABAMA HOUSING FINANCE AUTHORITY",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "ALABAMA HOUSING FINANCE AUTHORITY",
+   "STROHMEYER ANDREW F"
+  ]
+ },
+ {
+  "doc": "09302026-0004",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-30",
+  "addrs": [
+   "3636 PENNSYLVANIA AVE",
+   "3638 PENNSYLVANIA AVE",
+   "3640 PENNSYLVANIA AVE"
+  ],
+  "pids": [
+   "16309070000"
+  ],
+  "lender": "TRUNORTH STAR CREDIT ACQUISITION I LLC",
+  "trustee": "MILLSAP & SINGER LLC",
+  "parties": [
+   "TRUNORTH STAR CREDIT ACQUISITION I LLC",
+   "GROUNDFLOOR CREDIT 1 LLC"
+  ]
+ },
+ {
+  "doc": "09292026-0309",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-29",
+  "addrs": [
+   "2134 ALICE AVE"
+  ],
+  "pids": [
+   "35449050000"
+  ],
+  "lender": "U S BANK NATIONAL ASSOCIATION",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "U S BANK NATIONAL ASSOCIATION",
+   "VIBRANT BLUE REALTY LLC"
+  ]
+ },
+ {
+  "doc": "09292026-0237",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-29",
+  "addrs": [
+   "1530 SWITZER AVE"
+  ],
+  "pids": [
+   "43329290000"
+  ],
+  "lender": "BANK OF AMERICA NA",
+  "trustee": "HBM TRUSTEE CORP",
+  "parties": [
+   "BANK OF AMERICA NA",
+   "STOKES PATRICIA A",
+   "STOKES ELLIS JR"
+  ]
+ },
+ {
+  "doc": "09242026-0262",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-24",
+  "addrs": [
+   "3844 OHIO AVE",
+   "3846 OHIO AVE"
+  ],
+  "pids": [
+   "16459010000"
+  ],
+  "lender": "U S BANK TRUST NATIONAL ASOCIATIO",
+  "trustee": "CSM FORECLOUSURE TRUSTEE CORPORATION",
+  "parties": [
+   "U S BANK TRUST NATIONAL ASOCIATIO",
+   "PAPACIOS JULIO CESAR"
+  ]
+ },
+ {
+  "doc": "09242026-0207",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-24",
+  "addrs": [
+   "4334 W BELLE",
+   "4334 W BELLE PL"
+  ],
+  "pids": [
+   "45719130000"
+  ],
+  "lender": "JUSTINE PETERSEN HOUSING AND REINVESTMENT CORPORATION",
+  "trustee": "WEISMAN JEFF",
+  "parties": [
+   "JUSTINE PETERSEN HOUSING AND REINVESTMENT CORPORATION",
+   "NICO PROPERTIES LLC"
+  ]
+ },
+ {
+  "doc": "09232026-0002",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-23",
+  "addrs": [
+   "3638 MINNESOTA AVE",
+   "3640 MINNESOTA AVE"
+  ],
+  "pids": [
+   "16299070000"
+  ],
+  "lender": "CREBRID LLC",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "CREBRID LLC",
+   "IRONGATE FLIP SOLUTIONS LLC"
+  ]
+ },
+ {
+  "doc": "09222026-0112",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-22",
+  "addrs": [
+   "6650 MAURICE AVE"
+  ],
+  "pids": [
+   "47699020000"
+  ],
+  "lender": "GIBSON ROBERT S",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "GIBSON ROBERT S",
+   "GIBSON ANN M",
+   "U S BANK NATIONAL ASSOCIATION"
+  ]
+ },
+ {
+  "doc": "09212026-0091",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-21",
+  "addrs": [
+   "5936 PAMPLIN AVE"
+  ],
+  "pids": [
+   "58089070000"
+  ],
+  "lender": "AMERIHOME MORTGAGE COMPANY LLC",
+  "trustee": "MARINOSCI LAW GROUP",
+  "parties": [
+   "AMERIHOME MORTGAGE COMPANY LLC",
+   "WALLACE LAURA"
+  ]
+ },
+ {
+  "doc": "09212026-0083",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-21",
+  "addrs": [
+   "5257 THRUSH AVE",
+   "5301 DELMAR BLVD",
+   "5303 DELMAR BLVD",
+   "5305 DELMAR BLVD",
+   "5307 DELMAR BLVD",
+   "5309 DELMAR BLVD",
+   "5311 DELMAR BLVD",
+   "5311 SAVOY CT",
+   "5313 DELMAR BLVD",
+   "5313 SAVOY CT",
+   "5315 DELMAR BLVD",
+   "5315 SAVOY CT",
+   "5316 SAVOY CT",
+   "5317 DELMAR BLVD",
+   "5319 DELMAR BLVD",
+   "5321 DELMAR BLVD",
+   "5322 SAVOY CT",
+   "5328 DELMAR BLVD",
+   "5330 DELMAR BLVD",
+   "5331 SAVOY CT",
+   "5332 DELMAR BLVD",
+   "5340 DELMAR BLVD",
+   "5438 DELMAR BLVD",
+   "727 UNION BLVD",
+   "729 UNION BLVD"
+  ],
+  "pids": [
+   "51209220000",
+   "51819230000",
+   "51819260000",
+   "51819270000",
+   "51819280000",
+   "51819290000",
+   "56179130000",
+   "56209070000",
+   "56209080000"
+  ],
+  "lender": "FRM DELMAR LLC",
+  "trustee": "BC TRUSTEE SERVICES INC",
+  "parties": [
+   "FRM DELMAR LLC",
+   "DELMAR 2022 LLC",
+   "JB DELMAR LLC",
+   "DELMAR SAVOY MO PO LLC"
+  ]
+ },
+ {
+  "doc": "09212026-0038",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-21",
+  "addrs": [
+   "6005 MAPLE AVE",
+   "6007 MAPLE AVE"
+  ],
+  "pids": [
+   "38299580000"
+  ],
+  "lender": "PHH ASSET SERVICES LLC",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "PHH ASSET SERVICES LLC",
+   "JONES LAMISHA"
+  ]
+ },
+ {
+  "doc": "09212026-0037",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-21",
+  "addrs": [
+   "4415 NEOSHO ST"
+  ],
+  "pids": [
+   "55439300000"
+  ],
+  "lender": "FINANCE OF AMERICA REVERSE LLC",
+  "trustee": "WESTERN PROGRESSIVE MISSOURI INC",
+  "parties": [
+   "FINANCE OF AMERICA REVERSE LLC",
+   "DONOHUE CHARLES"
+  ]
+ },
+ {
+  "doc": "09212026-0017",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-21",
+  "addrs": [
+   "2704 CAROLINE ST",
+   "2729 PARK AVE",
+   "2737 12 CAROLINE ST"
+  ],
+  "pids": [
+   "18199125000"
+  ],
+  "lender": "ST LOUIS PORTFOLIO MO IL PO LLC",
+  "trustee": "BC TRUSTEE SERVICES INC",
+  "parties": [
+   "ST LOUIS PORTFOLIO MO IL PO LLC",
+   "ARBOR REALTY SR INC",
+   "ST LOUIS 5 2022 LLC",
+   "CR ST LOUIS LLC",
+   "HB ST LOUIS LLC",
+   "HB ST LOUIS 2022 LLC"
+  ]
+ },
+ {
+  "doc": "09182026-0056",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-18",
+  "addrs": [
+   "4819 CUPPLES PL"
+  ],
+  "pids": [
+   "44779615000"
+  ],
+  "lender": "SELECT PORTFOLIO SERVICING INC",
+  "trustee": "S & W FORECLOSURE CORPORATION",
+  "parties": [
+   "SELECT PORTFOLIO SERVICING INC",
+   "HARVEY LAMONT D"
+  ]
+ },
+ {
+  "doc": "09172026-0055",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-17",
+  "addrs": [
+   "3023 S JEFFERSON AVE",
+   "3025 S JEFFERSON AVE",
+   "3029 S JEFFERSON AVE"
+  ],
+  "pids": [
+   "19819170000",
+   "19819180000"
+  ],
+  "lender": "JEMZ INVESTMENTS AND PROPERTIES LLC",
+  "trustee": "LESTER C STUCKMEYER",
+  "parties": [
+   "JEMZ INVESTMENTS AND PROPERTIES LLC",
+   "FURR HOLDINGS LLC"
+  ]
+ },
+ {
+  "doc": "09162026-0100",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-16",
+  "addrs": [
+   "2711 WYOMING ST",
+   "2715 WYOMING ST"
+  ],
+  "pids": [
+   "17599365000"
+  ],
+  "lender": "DUNSE ROBERT W II",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "DUNSE ROBERT W II",
+   "ROCKET MORTGAGE LLC",
+   "MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC"
+  ]
+ },
+ {
+  "doc": "09162026-0062",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-16",
+  "addrs": [
+   "6421 ALABAMA AVE"
+  ],
+  "pids": [
+   "29669170000"
+  ],
+  "lender": "LAKEVIEW LOAN SERVICING LLC",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "LAKEVIEW LOAN SERVICING LLC",
+   "KELLY TIMOTHY J"
+  ]
+ },
+ {
+  "doc": "09162026-0036",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-16",
+  "addrs": [
+   "3904 WALSH ST"
+  ],
+  "pids": [
+   "53249185000"
+  ],
+  "lender": "WILMINGTON SAVINGS FUND SOCIETY FSB",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "WILMINGTON SAVINGS FUND SOCIETY FSB",
+   "MOL REAL ESTATE LLC"
+  ]
+ },
+ {
+  "doc": "09162026-0017",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-16",
+  "addrs": [
+   "4545 SWAN AVE",
+   "4547 SWAN AVE"
+  ],
+  "pids": [
+   "50479340000"
+  ],
+  "lender": "INB NATIONAL ASSOCIATION",
+  "trustee": "CENTRE TRUSTEE CORP",
+  "parties": [
+   "INB NATIONAL ASSOCIATION",
+   "PARK SOUTH PROPERTIES LLC"
+  ]
+ },
+ {
+  "doc": "09162026-0016",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-16",
+  "addrs": [
+   "4537 SWAN AVE",
+   "4539 SWAN AVE"
+  ],
+  "pids": [
+   "50479320000"
+  ],
+  "lender": "PARK SOUTH PROPERTIES LLC",
+  "trustee": "CENTRE TRUSTEE CORP.",
+  "parties": [
+   "PARK SOUTH PROPERTIES LLC",
+   "INB NATIONAL ASSOCIATION"
+  ]
+ },
+ {
+  "doc": "09162026-0007",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-16",
+  "addrs": [
+   "4549 SWAN AVE",
+   "4551 SWAN AVE"
+  ],
+  "pids": [
+   "50479350000"
+  ],
+  "lender": "INB NATIONAL ASSOCIATION",
+  "trustee": "CENTRE TRUSTEE CORP",
+  "parties": [
+   "INB NATIONAL ASSOCIATION",
+   "PARK SOUTH PROPERTIES LLC"
+  ]
+ },
+ {
+  "doc": "09162026-0006",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-16",
+  "addrs": [
+   "4203 SWAN AVE"
+  ],
+  "pids": [
+   "39729200000"
+  ],
+  "lender": "INB NATIONAL ASSOCIATION",
+  "trustee": "CENTRE TRUSTEE CORP",
+  "parties": [
+   "INB NATIONAL ASSOCIATION",
+   "PARK SOUTH PROPERTIES LLC"
+  ]
+ },
+ {
+  "doc": "09162026-0005",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-16",
+  "addrs": [
+   "4553 SWAN AVE",
+   "4555 SWAN AVE"
+  ],
+  "pids": [
+   "50479360000"
+  ],
+  "lender": "INB NATIONAL ASSOCIATION",
+  "trustee": "CENTRE TRUSTEE CORP",
+  "parties": [
+   "INB NATIONAL ASSOCIATION",
+   "PARK SOUTH PROPERTIES LLC"
+  ]
+ },
+ {
+  "doc": "09162026-0089",
+  "kind": "notice of sale",
+  "type": "NOTICE OF SALE",
+  "date": "2026-09-16",
+  "addrs": [
+   "5100 GREER AVE"
+  ],
+  "pids": [
+   "52309305000"
+  ],
+  "lender": "QLM ENTERPRISES LLC",
+  "trustee": "U S BANK TRUST NATIONAL ASSOCIATION",
+  "parties": [
+   "QLM ENTERPRISES LLC",
+   "TLSMO CORP"
+  ]
+ },
+ {
+  "doc": "09162026-0088",
+  "kind": "notice of sale",
+  "type": "NOTICE OF SALE",
+  "date": "2026-09-16",
+  "addrs": [
+   "3959 GREER AVE"
+  ],
+  "pids": [
+   "51879370000"
+  ],
+  "lender": "QLM ENTERPRISES LLC",
+  "trustee": "ANCHOR LOANS LP",
+  "parties": [
+   "QLM ENTERPRISES LLC",
+   "TLSMO CORP DBA TOTAL LENDER SOLUTIONS"
+  ]
+ },
+ {
+  "doc": "09162026-0034",
+  "kind": "notice of sale",
+  "type": "NOTICE OF SALE",
+  "date": "2026-09-16",
+  "addrs": [
+   "4682 POPE AVE"
+  ],
+  "pids": [
+   "35549260000"
+  ],
+  "lender": "QLM ENTERPRISES LLC",
+  "trustee": "US BANK TRUST NATIONAL ASSOCIATION",
+  "parties": [
+   "QLM ENTERPRISES LLC"
+  ]
+ },
+ {
+  "doc": "09152026-0017",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-15",
+  "addrs": [
+   "4354 POTOMAC ST"
+  ],
+  "pids": [
+   "59669040000"
+  ],
+  "lender": "WILMINGTON SAVINGS FUND SOCIETY F S B",
+  "trustee": "WESTERN PROGRESSIVE MISSOURI INC",
+  "parties": [
+   "WILMINGTON  SAVINGS FUND  SOCIETY F S B",
+   "MINIEX NORMA L"
+  ]
+ },
+ {
+  "doc": "09142026-0102",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-14",
+  "addrs": [
+   "1523 S 10TH ST"
+  ],
+  "pids": [
+   "03919141018"
+  ],
+  "lender": "TURNVEREIN CONDO ASSOCIATION",
+  "trustee": "ELIA M ELLIS LLC",
+  "parties": [
+   "TURNVEREIN CONDO ASSOCIATION",
+   "PULJU WILLIAM C"
+  ]
+ },
+ {
+  "doc": "09142026-0066",
+  "kind": "notice of sale",
+  "type": "NOTICE OF SALE",
+  "date": "2026-09-14",
+  "addrs": [
+   "3829 FLORA PL"
+  ],
+  "pids": [
+   "49479240000"
+  ],
+  "lender": "MANGOGNA THOMAS J",
+  "trustee": "MIDWEST BANKCENTRE",
+  "parties": [
+   "MANGOGNA THOMAS J"
+  ]
+ },
+ {
+  "doc": "09112026-0055",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-11",
+  "addrs": [
+   "4414 RICHARD PL"
+  ],
+  "pids": [
+   "44189500000"
+  ],
+  "lender": "CITIGROUP MORTGAGE LOAN TRUST",
+  "trustee": "MILLSAP & SINGER P C",
+  "parties": [
+   "CITIGROUP MORTGAGE LOAN TRUST",
+   "MANNING EMMA",
+   "MORTGAGE ELECTRONIC REGISTRATION SYSTEM INC",
+   "CITIMORTGAGE INC"
+  ]
+ },
+ {
+  "doc": "09112026-0050",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-11",
+  "addrs": [
+   "4040 MERAMEC ST"
+  ],
+  "pids": [
+   "63719090000"
+  ],
+  "lender": "WELLS FARGO BANK NATIONAL ASSOCIATION",
+  "trustee": "MILLSAP & SINGER P C",
+  "parties": [
+   "WELLS FARGO BANK NATIONAL ASSOCIATION",
+   "SOTO MARGARITA"
+  ]
+ },
+ {
+  "doc": "09102026-0064",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-10",
+  "addrs": [
+   "301 N MEMORIAL DR"
+  ],
+  "pids": [
+   "64909050000"
+  ],
+  "lender": "NEWTEK SMALL BUSINESS FINANCE LLC",
+  "trustee": "CENTRE TRUSTEE CORP",
+  "parties": [
+   "NEWTEK SMALL BUSINESS FINANCE LLC",
+   "301 MEMORIAL LLC"
+  ]
+ },
+ {
+  "doc": "09092026-0158",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-09",
+  "addrs": [
+   "3719 MINNESOTA AVE"
+  ],
+  "pids": [
+   "16259210000"
+  ],
+  "lender": "GS MORTGAGE BACKED ECURITIES TRUST 2025-R1",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "GS MORTGAGE BACKED ECURITIES TRUST 2025-R1",
+   "DOGWOOD HOMES LLC"
+  ]
+ },
+ {
+  "doc": "09092026-0027",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-09",
+  "addrs": [
+   "1144 HOWELL ST"
+  ],
+  "pids": [
+   "54339100000"
+  ],
+  "lender": "BANK OF AMERICA NA",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "BANK  OF AMERICA NA",
+   "STRAWBRIDGE BRIDGETT M"
+  ]
+ },
+ {
+  "doc": "09092026-0055",
+  "kind": "notice of sale",
+  "type": "NOTICE OF SALE",
+  "date": "2026-09-09",
+  "addrs": [
+   "4107 ROBERT AVE"
+  ],
+  "pids": [
+   "63969140000"
+  ],
+  "lender": "H R INVESTMENT GROUP LLC",
+  "trustee": "H R INVESTMENT GROUP LLC",
+  "parties": [
+   "H R INVESTMENT GROUP LLC"
+  ]
+ },
+ {
+  "doc": "09082026-0078",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-08",
+  "addrs": [
+   "6124 GARESCHE AVE"
+  ],
+  "pids": [
+   "48869110000"
+  ],
+  "lender": "TAYLOR LAWRENCE",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+  "parties": [
+   "TAYLOR LAWRENCE",
+   "TAYLOR FRANCES",
+   "ROCKET MORTGAGE LLC"
+  ]
+ },
+ {
+  "doc": "09082026-0066",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-08",
+  "addrs": [
+   "4714 LOUISIANA AVE"
+  ],
+  "pids": [
+   "27749160000"
+  ],
+  "lender": "TRIDENT REALTY INVESTMENTS ATLAS SPV LLC",
+  "trustee": "SMF REGISTERED SERVICES INC",
+  "parties": [
+   "TRIDENT REALTY INVESTMENTS ATLAS SPV LLC",
+   "BHPH HOMES LLC"
+  ]
+ },
+ {
+  "doc": "09042026-0055",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-04",
+  "addrs": [
+   "2812 TEXAS AVE"
+  ],
+  "pids": [
+   "14219220000"
+  ],
+  "lender": "DARDEN RONALD T",
+  "trustee": "VYLLA SOLUTIONS-MISSOURI LLC",
+  "parties": [
+   "DARDEN RONALD T",
+   "CARRINGTON MORTGAGE SERVICES LLC"
+  ]
+ },
+ {
+  "doc": "09032026-0057",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-03",
+  "addrs": [
+   "4117 BOTANICAL AVE"
+  ],
+  "pids": [
+   "49269260000"
+  ],
+  "lender": "US DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT",
+  "trustee": "BRIGHT JASON",
+  "parties": [
+   "US DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT",
+   "FIELDS MARY"
+  ]
+ },
+ {
+  "doc": "09032026-0016",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-03",
+  "addrs": [
+   "3124 POTOMAC ST"
+  ],
+  "pids": [
+   "15799120000"
+  ],
+  "lender": "US BANK TRUST COMPANY NATIONAL ASSOCIATION",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "US BANK TRUST COMPANY NATIONAL ASSOCIATION",
+   "NEXUM HOLDINGS LLC"
+  ]
+ },
+ {
+  "doc": "09022026-0059",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-02",
+  "addrs": [
+   "5087 CATES AVE"
+  ],
+  "pids": [
+   "48409535000"
+  ],
+  "lender": "VILLAGE CAPITAL & INVESTMENT LLC",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "VILLAGE CAPITAL & INVESTMENT LLC",
+   "WATSON TRAVIS"
+  ]
+ },
+ {
+  "doc": "09022026-0012",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-02",
+  "addrs": [
+   "1247 SELLS AVE"
+  ],
+  "pids": [
+   "42479440000"
+  ],
+  "lender": "JCR INC",
+  "trustee": "WEISMAN JEFF",
+  "parties": [
+   "JCR  INC",
+   "HOLMES FELICIA A"
+  ]
+ },
+ {
+  "doc": "09012026-0156",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-01",
+  "addrs": [
+   "1024 HORNSBY AVE"
+  ],
+  "pids": [
+   "52529100000"
+  ],
+  "lender": "EQUITY TRUST COMPANY CUSTODIAN FBO",
+  "trustee": "S& W FORECLOSURE CORPORATION",
+  "parties": [
+   "EQUITY TRUST COMPANY CUSTODIAN FBO",
+   "SMITH CHARLES H JR"
+  ]
+ },
+ {
+  "doc": "09012026-0113",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-01",
+  "addrs": [
+   "4721 GENEVIEVE AVE"
+  ],
+  "pids": [
+   "56729250000"
+  ],
+  "lender": "JONES BERTHA DELL",
+  "trustee": "WESTERN PROGRESSIVE MISSOURI INC",
+  "parties": [
+   "JONES BERTHA DELL",
+   "US BANK TRUST COMPANY NATIONAL ASSOCIATION"
+  ]
+ },
+ {
+  "doc": "09012026-0001",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-09-01",
+  "addrs": [
+   "1222 ORCHID AVE"
+  ],
+  "pids": [
+   "42869020000"
+  ],
+  "lender": "DATA MORTGAGE INC",
+  "trustee": "EASTPLAINS CORPORATION",
+  "parties": [
+   "DATA MORTGAGE INC",
+   "PEETE VONDA L"
+  ]
+ },
+ {
+  "doc": "08312026-0086",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-31",
+  "addrs": [
+   "1113 WASHINGTON AVE"
+  ],
+  "pids": [
+   "05179011023"
+  ],
+  "lender": "MEMBERS 1ST CREDIT UNION",
+  "trustee": "KUSNETZKY SCHWARTZ ROSENFIELD SAILLER & LILLA PC",
+  "parties": [
+   "MEMBERS 1ST CREDIT UNION",
+   "CLARK JOHNATHAN"
+  ]
+ },
+ {
+  "doc": "08282026-0110",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-28",
+  "addrs": [
+   "4608 S 39TH ST"
+  ],
+  "pids": [
+   "56859090000"
+  ],
+  "lender": "THOMPSON DYLAN",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "THOMPSON DYLAN",
+   "US BANK NA"
+  ]
+ },
+ {
+  "doc": "08282026-0089",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-28",
+  "addrs": [
+   "3618 MARCUS AVE",
+   "909 NASSAU DR"
+  ],
+  "pids": [
+   "44509275000",
+   "63629470000"
+  ],
+  "lender": "DILLIKAR SATYANARYANA",
+  "trustee": "TOPSTONE INV STL 1 LLC",
+  "parties": [
+   "DILLIKAR SATYANARYANA"
+  ]
+ },
+ {
+  "doc": "08282026-0083",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-28",
+  "addrs": [
+   "4228 PECK ST",
+   "5223 BEACON AVE"
+  ],
+  "pids": [
+   "24289110000",
+   "55319400000"
+  ],
+  "lender": "TOPSTONE INV STL 1 LLC",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "TOPSTONE INV STL 1 LLC",
+   "DILLIKAR SATYANARAYANA"
+  ]
+ },
+ {
+  "doc": "08282026-0032",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-28",
+  "addrs": [
+   "6450 OAKLAND AVE"
+  ],
+  "pids": [
+   "45949035000"
+  ],
+  "lender": "HUNTINGTON NATL BANK",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "HUNTINGTON NATL BANK",
+   "GAMBLIN LUCAS ZACHARY"
+  ]
+ },
+ {
+  "doc": "08262026-0105",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-26",
+  "addrs": [
+   "3935 DUNNICA AVE",
+   "3937 DUNNICA AVE"
+  ],
+  "pids": [
+   "41759220000"
+  ],
+  "lender": "US BANK TRUST COMPANY NATIONAL ASSOCIATION",
+  "trustee": "SINGERS CORP",
+  "parties": [
+   "US BANK TRUST COMPANY NATIONAL ASSOCIATION",
+   "NAILS CARE SALON LLC"
+  ]
+ },
+ {
+  "doc": "08262026-0074",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-26",
+  "addrs": [
+   "2852 KEOKUK ST",
+   "2854 KEOKUK ST"
+  ],
+  "pids": [
+   "25699140000"
+  ],
+  "lender": "WILMINGTON SAVINGS FUND SOCIETY",
+  "trustee": "WESTERN PROGRESSIVE MISSOURI INC",
+  "parties": [
+   "WILMINGTON SAVINGS FUND SOCIETY",
+   "M&A INVESTMENT GROUP LLC"
+  ]
+ },
+ {
+  "doc": "08252026-0172",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-25",
+  "addrs": [
+   "8216 VIRGINIA AVE"
+  ],
+  "pids": [
+   "32109030000"
+  ],
+  "lender": "MESSENGER VERA",
+  "trustee": "NESTOR SOLUTIONS OF MISSOURI LLC",
+  "parties": [
+   "MESSENGER VERA",
+   "FREEDOM MORTGAGE CORPORATION"
+  ]
+ },
+ {
+  "doc": "08252026-0048",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-25",
+  "addrs": [
+   "4729 LABADIE AVE"
+  ],
+  "pids": [
+   "44809530000"
+  ],
+  "lender": "VIBRANT BLUE REALTY LLC",
+  "trustee": "S&W FORECLOSURE CORPORATION",
+  "parties": [
+   "VIBRANT BLUE REALTY LLC",
+   "COMPUTERSHARE TRUST CO NA"
+  ]
+ },
+ {
+  "doc": "08242026-0171",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-24",
+  "addrs": [
+   "4362 OSCEOLA ST"
+  ],
+  "pids": [
+   "55759040000"
+  ],
+  "lender": "SELECT PORTFOLIO SERVICING INC",
+  "trustee": "S&W FORECLOSURE CORP",
+  "parties": [
+   "SELECT PORTFOLIO SERVICING INC",
+   "GONZALEZ KYLE"
+  ]
+ },
+ {
+  "doc": "08242026-0125",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-24",
+  "addrs": [
+   "1 MEMORIAL DR",
+   "9 S 4TH ST",
+   "90 S 4TH ST"
+  ],
+  "pids": [
+   "00849010000",
+   "00849020000",
+   "00849040000"
+  ],
+  "lender": "RSS UBSCM2019-C17-MO CSG LLC",
+  "trustee": "TRUSTEE SERVICES INC",
+  "parties": [
+   "RSS UBSCM2019-C17-MO CSG LLC",
+   "CS GATEWAY LLC"
+  ]
+ },
+ {
+  "doc": "08242026-0093",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-24",
+  "addrs": [
+   "4707 MINNESOTA AVE"
+  ],
+  "pids": [
+   "27599240000"
+  ],
+  "lender": "QUINTANA ANTHONY",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "QUINTANA ANTHONY",
+   "ROCKET MORTGAGE LLC"
+  ]
+ },
+ {
+  "doc": "08242026-0047",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-24",
+  "addrs": [
+   "4682 POPE AVE"
+  ],
+  "pids": [
+   "35549260000"
+  ],
+  "lender": "QLM ENTERPRISES LLC",
+  "trustee": "TLSMO CORP",
+  "parties": [
+   "QLM ENTERPRISES LLC",
+   "US BANK TRUST NATIONAL ASSOCIATION"
+  ]
+ },
+ {
+  "doc": "08242026-0043",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-24",
+  "addrs": [
+   "3959 GREER AVE"
+  ],
+  "pids": [
+   "51879370000"
+  ],
+  "lender": "QLM ENTERPRISES LLC",
+  "trustee": "TLSMO CORP",
+  "parties": [
+   "QLM ENTERPRISES LLC",
+   "ANCHOR ASSETS LP"
+  ]
+ },
+ {
+  "doc": "08242026-0019",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-24",
+  "addrs": [
+   "5100 GREER AVE"
+  ],
+  "pids": [
+   "52309305000"
+  ],
+  "lender": "QLM ENTERPRISES LLC",
+  "trustee": "US BANK US BANK TRUST NA",
+  "parties": [
+   "QLM ENTERPRISES LLC"
+  ]
+ },
+ {
+  "doc": "08242026-0048",
+  "kind": "notice of sale",
+  "type": "NOTICE OF SALE",
+  "date": "2026-08-24",
+  "addrs": [
+   "4682 POPE AVE"
+  ],
+  "pids": [
+   "35549260000"
+  ],
+  "lender": "QLM ENTERPRISES LLC",
+  "trustee": "US BANK TRUST NA",
+  "parties": [
+   "QLM ENTERPRISES LLC",
+   "TLSMO CORP DBA TOTAL LENDER SOLUTIONS"
+  ]
+ },
+ {
+  "doc": "08242026-0044",
+  "kind": "notice of sale",
+  "type": "NOTICE OF SALE",
+  "date": "2026-08-24",
+  "addrs": [
+   "3959 GREER AVE"
+  ],
+  "pids": [
+   "51879370000"
+  ],
+  "lender": "QLM ENTERPRISES LLC",
+  "trustee": "ANCHOR LOANS LP",
+  "parties": [
+   "QLM ENTERPRISES LLC"
+  ]
+ },
+ {
+  "doc": "08242026-0020",
+  "kind": "notice of sale",
+  "type": "NOTICE OF SALE",
+  "date": "2026-08-24",
+  "addrs": [
+   "5100 GREER AVE"
+  ],
+  "pids": [
+   "52309305000"
+  ],
+  "lender": "QLM ENTERPRISES LLC",
+  "trustee": "US BANK TRUST NA",
+  "parties": [
+   "QLM ENTERPRISES LLC",
+   "TLSMO CORP"
+  ]
+ },
+ {
+  "doc": "08212026-0033",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-21",
+  "addrs": [
+   "8954 EDNA ST"
+  ],
+  "pids": [
+   "42889110000"
+  ],
+  "lender": "US BANK NA",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "US BANK NA",
+   "BLANCHARD DAJONN"
+  ]
+ },
+ {
+  "doc": "08212026-0022",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-21",
+  "addrs": [
+   "5953 N POINTE BLVD"
+  ],
+  "pids": [
+   "58109390000"
+  ],
+  "lender": "MIDFIRST BANK",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "MIDFIRST BANK",
+   "HOOD DANDRE"
+  ]
+ },
+ {
+  "doc": "08202026-0099",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-20",
+  "addrs": [
+   "4628 VIRGINIA AVE"
+  ],
+  "pids": [
+   "27419281000"
+  ],
+  "lender": "FREEDOM MORTGAGE CORPORATION",
+  "trustee": "NESTER SOLUTIONS OF MISSOURI LLC",
+  "parties": [
+   "FREEDOM MORTGAGE CORPORATION",
+   "DOYLE JENNIFER"
+  ]
+ },
+ {
+  "doc": "08202026-0090",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-20",
+  "addrs": [
+   "2728 TEXAS AVE"
+  ],
+  "pids": [
+   "20709010000",
+   "20709015000"
+  ],
+  "lender": "WILMINGTON SAVINGS FUND SOCIETY",
+  "trustee": "EASTPLAINS CORP",
+  "parties": [
+   "WILMINGTON SAVINGS FUND SOCIETY",
+   "CV3 FINANCIAL SERVICES LLC"
+  ]
+ },
+ {
+  "doc": "08192026-0146",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-19",
+  "addrs": [
+   "3747 NEOSHO ST"
+  ],
+  "pids": [
+   "56839210000"
+  ],
+  "lender": "BRACKEN DYLAN A",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "BRACKEN DYLAN A",
+   "ALABAMA HOUSING FINANCE AUTHORITY"
+  ]
+ },
+ {
+  "doc": "08172026-0157",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-17",
+  "addrs": [
+   "342 N NEWSTEAD AVE",
+   "344 N NEWSTEAD AVE",
+   "4390 MCPHERSON AVE",
+   "4392 MCPHERSON AVE",
+   "4394 MC PHERSON AVE",
+   "4396 MCPHERSON AVE",
+   "4398 MC PHERSON AVE"
+  ],
+  "pids": [
+   "39099664000",
+   "39099665000",
+   "39099666000",
+   "39099667000",
+   "39099668000",
+   "39099669000",
+   "39099670000"
+  ],
+  "lender": "HANLEY FORSYTH TRUSTEE INC",
+  "trustee": "LGPMST CORP",
+  "parties": [
+   "HANLEY FORSYTH TRUSTEE INC",
+   "NEWTSEAD/MCPHERSON LLC"
+  ]
+ },
+ {
+  "doc": "08172026-0103",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-17",
+  "addrs": [
+   "4451 S SPRING AVE"
+  ],
+  "pids": [
+   "41959410000"
+  ],
+  "lender": "FLAT BRANCH MORTGAGE INC",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "FLAT BRANCH MORTGAGE INC",
+   "DUFFNER KENNETH P"
+  ]
+ },
+ {
+  "doc": "08172026-0083",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-17",
+  "addrs": [
+   "5821 GOENER AVE"
+  ],
+  "pids": [
+   "60639075000"
+  ],
+  "lender": "UNITED WHOLESALE MORTGAGE LLC",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "UNITED WHOLESALE MORTGAGE LLC",
+   "GARRETT JAMES RYAN"
+  ]
+ },
+ {
+  "doc": "08142026-0152",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-14",
+  "addrs": [
+   "4273 JUNIATA ST"
+  ],
+  "pids": [
+   "50629450000"
+  ],
+  "lender": "ROI TURNKEY PROPERTIES LLC",
+  "trustee": "TRUSTEE SERVICES INC",
+  "parties": [
+   "ROI TURNKEY PROPERTIES LLC",
+   "US BANK NA"
+  ]
+ },
+ {
+  "doc": "08132026-0034",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-13",
+  "addrs": [
+   "3623 GUSTINE AVE",
+   "3625 GUSTINE AVE"
+  ],
+  "pids": [
+   "57919170000"
+  ],
+  "lender": "UMB BANK NA",
+  "trustee": "MODEST SOT INC",
+  "parties": [
+   "UMB BANK NA",
+   "TTT APARTMENT RENTAL LLC"
+  ]
+ },
+ {
+  "doc": "08122026-0045",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-12",
+  "addrs": [
+   "6124 GARESCHE AVE"
+  ],
+  "pids": [
+   "48869110000"
+  ],
+  "lender": "ROCKET MORTGAGE LLC",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "ROCKET MORTGAGE LLC",
+   "TAYLOR LAWRENCE",
+   "TAYLOR FRANCES"
+  ]
+ },
+ {
+  "doc": "08122026-0023",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-12",
+  "addrs": [
+   "5979 WANDA AVE"
+  ],
+  "pids": [
+   "58769180000"
+  ],
+  "lender": "ALABAMA HOUSING FINANCE AUTHORITY",
+  "trustee": "EASTPLAINS CORP",
+  "parties": [
+   "ALABAMA HOUSING FINANCE AUTHORITY",
+   "GILBERT PAUL"
+  ]
+ },
+ {
+  "doc": "08122026-0009",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-12",
+  "addrs": [
+   "3826 FILLMORE ST"
+  ],
+  "pids": [
+   "59219080000"
+  ],
+  "lender": "MIDFIRST BANK",
+  "trustee": "S&W FORECLOSURE CORP",
+  "parties": [
+   "MIDFIRST BANK",
+   "HUNTER FRANCIS A"
+  ]
+ },
+ {
+  "doc": "08112026-0035",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-11",
+  "addrs": [
+   "1436 W GRANVILLE AVE"
+  ],
+  "pids": [
+   "38069200000"
+  ],
+  "lender": "BOYD JAMES A",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "BOYD JAMES A",
+   "ATHENE ANNUITY & LIFE CO"
+  ]
+ },
+ {
+  "doc": "08112026-0017",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-11",
+  "addrs": [
+   "2207 JULES ST",
+   "2209 JULES ST",
+   "2211 JULES ST"
+  ],
+  "pids": [
+   "13859200000"
+  ],
+  "lender": "M &T BANK",
+  "trustee": "SOUTHLAE PC",
+  "parties": [
+   "M &T BANK",
+   "BENDER MICHAEL"
+  ]
+ },
+ {
+  "doc": "08112026-0005",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-11",
+  "addrs": [
+   "3974 RANDALL ST"
+  ],
+  "pids": [
+   "50719090000"
+  ],
+  "lender": "SIMS WALTER",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "SIMS WALTER",
+   "ROCKET MORTGAGE LLC"
+  ]
+ },
+ {
+  "doc": "08102026-0214",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-10",
+  "addrs": [
+   "3531 LOUISIANA AVE"
+  ],
+  "pids": [
+   "15879290000"
+  ],
+  "lender": "US BANK NA",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+  "parties": [
+   "US BANK NA",
+   "RANDALL ROBERT",
+   "SCHULIK RACHEL"
+  ]
+ },
+ {
+  "doc": "08102026-0208",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-10",
+  "addrs": [
+   "8 HORTENSE PL"
+  ],
+  "pids": [
+   "38809250000"
+  ],
+  "lender": "EASY STREET CAPITAL LLC",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "EASY STREET CAPITAL LLC",
+   "DOMINION INVESTMENT LLC"
+  ]
+ },
+ {
+  "doc": "08102026-0140",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-10",
+  "addrs": [
+   "3518 CALIFORNIA AVE"
+  ],
+  "pids": [
+   "15709080000"
+  ],
+  "lender": "DOUBLE BACKFLIP LLC",
+  "trustee": "KING & MCNAMEE LLC",
+  "parties": [
+   "DOUBLE BACKFLIP LLC",
+   "ARTHUR REALTY VI LLC"
+  ]
+ },
+ {
+  "doc": "08102026-0004",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-10",
+  "addrs": [
+   "2255 UNKNOWN",
+   "5054 PARKER AVE"
+  ],
+  "pids": [
+   "60769010000"
+  ],
+  "lender": "CARRINGTON MORTGAGE SERVICES LLC",
+  "trustee": "VYLLA SOLUTIONS MISSOURI LLC",
+  "parties": [
+   "CARRINGTON MORTGAGE SERVICES LLC",
+   "TWENHAFEL LAUREN"
+  ]
+ },
+ {
+  "doc": "08072026-0025",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-07",
+  "addrs": [
+   "5227 ALASKA AVE"
+  ],
+  "pids": [
+   "28149230000"
+  ],
+  "lender": "SMITH KRISTAL",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "SMITH KRISTAL",
+   "GUILD MORTGAGE COMPANY LLC"
+  ]
+ },
+ {
+  "doc": "08062026-0136",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-06",
+  "addrs": [
+   "5032 ALASKA AVE"
+  ],
+  "pids": [
+   "28089070000"
+  ],
+  "lender": "JPMORGAN CHASE BANK NA",
+  "trustee": "HBM TRUSTEE CORPORATION",
+  "parties": [
+   "JPMORGAN CHASE BANK NA",
+   "CLEMONS CHRISTOPHER J",
+   "CLEMONS SHERRY R"
+  ]
+ },
+ {
+  "doc": "08062026-0065",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-06",
+  "addrs": [
+   "1214 HADLEY ST"
+  ],
+  "pids": [
+   "05629370000"
+  ],
+  "lender": "CLAY KEITH",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "CLAY KEITH",
+   "AMERIHOME MORTGAGE CO LLC"
+  ]
+ },
+ {
+  "doc": "08042026-0081",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-04",
+  "addrs": [
+   "305 KRAUS"
+  ],
+  "pids": [
+   "30029065000"
+  ],
+  "lender": "ALABAMA HOUSING FINANCE AUTHORITY",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "ALABAMA HOUSING FINANCE AUTHORITY",
+   "COLEMAN KIEMANI"
+  ]
+ },
+ {
+  "doc": "08042026-0080",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-04",
+  "addrs": [
+   "3701 HARTFORD ST"
+  ],
+  "pids": [
+   "21029430000"
+  ],
+  "lender": "CITIBANK N A",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "CITIBANK  N A",
+   "NEW RESIDENTIAL MORTGAGE LOAN TRUST 2019-6",
+   "HARRIS KATHERINE"
+  ]
+ },
+ {
+  "doc": "08042026-0072",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-08-04",
+  "addrs": [
+   "5085 DURANT AVE"
+  ],
+  "pids": [
+   "57409360000"
+  ],
+  "lender": "NEWREZ LLC",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "NEWREZ LLC",
+   "SIMMS ETHEL M"
+  ]
+ },
+ {
+  "doc": "08032026-0159",
+  "kind": "notice of sale",
+  "type": "NOTICE OF SALE",
+  "date": "2026-08-03",
+  "addrs": [
+   "5740 DEVONSHIRE AVE"
+  ],
+  "pids": [
+   "51719040000"
+  ],
+  "lender": "JOHNSON NICOLE",
+  "trustee": "ALLTRU FEDERAL CREDIT UNION",
+  "parties": [
+   "JOHNSON NICOLE",
+   "JOHNSON GREG"
+  ]
+ },
+ {
+  "doc": "07302026-0129",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-30",
+  "addrs": [
+   "1740 GRAPE AVE"
+  ],
+  "pids": [
+   "61469060000"
+  ],
+  "lender": "AP COLLECTIONS LLC",
+  "trustee": "KING & MCNAMEE LLC",
+  "parties": [
+   "AP COLLECTIONS LLC",
+   "LHOME MORTGAGE TRUST 2025RTL1"
+  ]
+ },
+ {
+  "doc": "07302026-0105",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-30",
+  "addrs": [
+   "4339 LINTON AVE"
+  ],
+  "pids": [
+   "33949310000"
+  ],
+  "lender": "LHOME MORTGAGE TRUST 2024-RTL5",
+  "trustee": "KING &MCNAMEE LLC",
+  "parties": [
+   "LHOME MORTGAGE TRUST 2024-RTL5",
+   "AP COLLECTIONS LLC"
+  ]
+ },
+ {
+  "doc": "07282026-0124",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-28",
+  "addrs": [
+   "5476 GENEVIEVE AVE"
+  ],
+  "pids": [
+   "55289290000"
+  ],
+  "lender": "TRIDENT REALTY INVESTMENTS LLC",
+  "trustee": "SMF REGISTERED SERVICES INC",
+  "parties": [
+   "TRIDENT REALTY INVESTMENTS LLC",
+   "REDESIGN NETWORK LLC"
+  ]
+ },
+ {
+  "doc": "07282026-0123",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-28",
+  "addrs": [
+   "2840 PENNSYLVANIA AVE"
+  ],
+  "pids": [
+   "14279075000"
+  ],
+  "lender": "TRIDENT REALTY INVESTMENTS LLC",
+  "trustee": "SMF REGISTERED SERVICES INC",
+  "parties": [
+   "TRIDENT REALTY INVESTMENTS LLC",
+   "MONCLER HOLDINGS LLC"
+  ]
+ },
+ {
+  "doc": "07282026-0044",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-28",
+  "addrs": [
+   "4853 PENROSE ST"
+  ],
+  "pids": [
+   "43909515000"
+  ],
+  "lender": "GUILD MORTGAGE COMPANY LLC",
+  "trustee": "MILLSAP & SINGER P C",
+  "parties": [
+   "GUILD MORTGAGE  COMPANY LLC",
+   "PRICE TARA"
+  ]
+ },
+ {
+  "doc": "07282026-0004",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-28",
+  "addrs": [
+   "5118 HIGHLAND AVE",
+   "5120 HIGHLAND AVE"
+  ],
+  "pids": [
+   "45049290000"
+  ],
+  "lender": "US BANK NA",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "US BANK NA",
+   "MANSFIELD GLADYS"
+  ]
+ },
+ {
+  "doc": "07272026-0058",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-27",
+  "addrs": [
+   "14 PARKLAND PL"
+  ],
+  "pids": [
+   "38289540000"
+  ],
+  "lender": "US BANK TRUST NATIONAL ASSOCIATION",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "US BANK TRUST NATIONAL ASSOCIATION",
+   "AMERICAN HERITAGE LENDING LLC"
+  ]
+ },
+ {
+  "doc": "07272026-0040",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-27",
+  "addrs": [
+   "4567 ARLINGTON AVE"
+  ],
+  "pids": [
+   "55629200000"
+  ],
+  "lender": "PENTAGON FEDERAL CREDIT UNION",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+  "parties": [
+   "PENTAGON FEDERAL CREDIT UNION"
+  ]
+ },
+ {
+  "doc": "07272026-0010",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-27",
+  "addrs": [
+   "4902 ALDINE PL"
+  ],
+  "pids": [
+   "37849170000"
+  ],
+  "lender": "SELECT PORTFOLIO SERVICING INC",
+  "trustee": "EASTPLAINS CORPORATION",
+  "parties": [
+   "SELECT PORTFOLIO SERVICING INC",
+   "MILLER JAMES E"
+  ]
+ },
+ {
+  "doc": "07272026-0009",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-27",
+  "addrs": [
+   "3805 NEOSHO ST"
+  ],
+  "pids": [
+   "56849110000"
+  ],
+  "lender": "DATA MORTGAGE INC",
+  "trustee": "EASTPLAINS CORPORATION",
+  "parties": [
+   "DATA MORTGAGE INC",
+   "SCHMIDT MELINDA"
+  ]
+ },
+ {
+  "doc": "07242026-0092",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-24",
+  "addrs": [
+   "2121 ADELAIDE AVE"
+  ],
+  "pids": [
+   "35429200000"
+  ],
+  "lender": "JUSTINE PETERSEN HOUSING AND REINVESTMENT CORPORATION",
+  "trustee": "WEISMAN JEFF",
+  "parties": [
+   "JUSTINE PETERSEN HOUSING AND REINVESTMENT CORPORATION",
+   "DERON SANDERS REALTY LLC"
+  ]
+ },
+ {
+  "doc": "07232026-0099",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-23",
+  "addrs": [
+   "4341 WILCOX AVE"
+  ],
+  "pids": [
+   "55839340000"
+  ],
+  "lender": "US BANK NA",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+  "parties": [
+   "US BANK NA",
+   "BRUCE AUGUSTA"
+  ]
+ },
+ {
+  "doc": "07232026-0019",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-23",
+  "addrs": [
+   "4324 3280 W FLORISSANT AVE"
+  ],
+  "pids": [
+   "35549270000"
+  ],
+  "lender": "U S BANK TRUST COMPANY NATIONAL ASSOCIATION",
+  "trustee": "GHG TRUSTEE INC",
+  "parties": [
+   "U S BANK TRUST COMPANY NATIONAL ASSOCIATION",
+   "VELOCITY COMMERCIAL CAPITAL LLC"
+  ]
+ },
+ {
+  "doc": "07222026-0034",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-22",
+  "addrs": [
+   "5416 BLOW ST"
+  ],
+  "pids": [
+   "53359160000"
+  ],
+  "lender": "FREEDOM MORTGAGE CORP",
+  "trustee": "NESTOR SOLUTIONS OF MISSOURI LLC",
+  "parties": [
+   "FREEDOM MORTGAGE CORP",
+   "DRESCH TIMOTHY P"
+  ]
+ },
+ {
+  "doc": "07212026-0286",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-21",
+  "addrs": [
+   "4229 S 38TH ST"
+  ],
+  "pids": [
+   "26429230000"
+  ],
+  "lender": "HAIGHT SAMUEL",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "HAIGHT SAMUEL",
+   "PENNTMAC LOAN SERVICES LLC"
+  ]
+ },
+ {
+  "doc": "07212026-0250",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-21",
+  "addrs": [
+   "6201 HOFFMAN AVE"
+  ],
+  "pids": [
+   "56879230000"
+  ],
+  "lender": "MCKINNON JOHN JOSEPH",
+  "trustee": "S&W FORECLOSURE CORPORATION",
+  "parties": [
+   "MCKINNON JOHN JOSEPH",
+   "ROCKET MORTGAGE LLC"
+  ]
+ },
+ {
+  "doc": "07212026-0193",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-21",
+  "addrs": [
+   "5209 IDAHO AVE"
+  ],
+  "pids": [
+   "28159180000"
+  ],
+  "lender": "CARRINGTON MORTGAGE SERVICES LLC",
+  "trustee": "VYLLA SOLUTIONS MISSOURI LLC",
+  "parties": [
+   "CARRINGTON MORTGAGE SERVICES LLC",
+   "HARRIS TAMARA"
+  ]
+ },
+ {
+  "doc": "07202026-0328",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-20",
+  "addrs": [
+   "3616 VIRGINIA AVE"
+  ],
+  "pids": [
+   "16189140000"
+  ],
+  "lender": "LEAR THERESA L",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "LEAR THERESA L",
+   "PENNYMAC LOAN SERVICES LLC"
+  ]
+ },
+ {
+  "doc": "07202026-0316",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-20",
+  "addrs": [
+   "4164 HUMPHREY ST"
+  ],
+  "pids": [
+   "41519015000"
+  ],
+  "lender": "US BANK NA",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+  "parties": [
+   "US BANK NA",
+   "LE ROCKY"
+  ]
+ },
+ {
+  "doc": "07202026-0261",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-20",
+  "addrs": [
+   "4645 POPE AVE",
+   "4647 POPE AVE"
+  ],
+  "pids": [
+   "35559165000"
+  ],
+  "lender": "LHOME MORTGAGE TRUST 2025-RTL2",
+  "trustee": "KING & MCNAMEE LLC",
+  "parties": [
+   "LHOME MORTGAGE TRUST 2025-RTL2",
+   "PREMIUM PRESTIGE PAINTING LLC"
+  ]
+ },
+ {
+  "doc": "07172026-0230",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-17",
+  "addrs": [
+   "5342 NAGEL AVE"
+  ],
+  "pids": [
+   "58279020000"
+  ],
+  "lender": "CARRINGTON MORTGAGE SERVICES LLC",
+  "trustee": "VYLLA SOLUTIONS MISSOURI LLC",
+  "parties": [
+   "CARRINGTON MORTGAGE SERVICES LLC",
+   "HALL SALLIE E",
+   "HALL JACK"
+  ]
+ },
+ {
+  "doc": "07172026-0160",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-17",
+  "addrs": [
+   "3437 PENNSYLVANIA AVE"
+  ],
+  "pids": [
+   "15779340000"
+  ],
+  "lender": "KNIGHT JASON",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+  "parties": [
+   "KNIGHT JASON",
+   "KNIGHT SHANISAH",
+   "CYPRESS LOAN SERVICING LLC"
+  ]
+ },
+ {
+  "doc": "07172026-0157",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-17",
+  "addrs": [
+   "5059 HARNEY AVE"
+  ],
+  "pids": [
+   "51439480000"
+  ],
+  "lender": "CRAIN EARL",
+  "trustee": "S&W FORECLOSURE CORP",
+  "parties": [
+   "CRAIN EARL",
+   "CRAIN DELORES",
+   "WINTRUST MORTGAGE"
+  ]
+ },
+ {
+  "doc": "07172026-0003",
+  "kind": "notice of sale",
+  "type": "NOTICE OF SALE",
+  "date": "2026-07-17",
+  "addrs": [
+   "3126 GARDEN HILL LA"
+  ],
+  "pids": [
+   "56169411000"
+  ],
+  "lender": "BANNISTER PATRICK",
+  "trustee": "COMMERCE BANK",
+  "parties": [
+   "BANNISTER PATRICK",
+   "BANNISTER ELIZABETH",
+   "BELL BANK",
+   "MORTGAGE ELECTRONIC REGISTRATION SYSTEM INC"
+  ]
+ },
+ {
+  "doc": "07162026-0051",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-16",
+  "addrs": [
+   "3916 N 21ST ST",
+   "3918 N 21ST ST"
+  ],
+  "pids": [
+   "12399020000"
+  ],
+  "lender": "RED DOOR LEGACY LLC",
+  "trustee": "MILLSAP & SINGER LLC",
+  "parties": [
+   "RED DOOR LEGACY LLC",
+   "CITIBANK  N A",
+   "RCN CAPITAL LLC"
+  ]
+ },
+ {
+  "doc": "07162026-0038",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-16",
+  "addrs": [
+   "4570 CARTER AVE"
+  ],
+  "pids": [
+   "44159020000"
+  ],
+  "lender": "DEFAULT FLOW VENTURES LLC",
+  "trustee": "MILLSAP & SINGER P C",
+  "parties": [
+   "DEFAULT FLOW VENTURES LLC",
+   "COLLIER ROBERT LEE JR"
+  ]
+ },
+ {
+  "doc": "07152026-0045",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-15",
+  "addrs": [
+   "4508 MORGANFORD RD"
+  ],
+  "pids": [
+   "54659410000"
+  ],
+  "lender": "COMMERCIAL LOAN FUNDING LLC",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "COMMERCIAL LOAN FUNDING LLC",
+   "RED DOOR LEGACY STL LLC"
+  ]
+ },
+ {
+  "doc": "07142026-0091",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-14",
+  "addrs": [
+   "4278 LEE AVE",
+   "4280 LEE AVE"
+  ],
+  "pids": [
+   "44269205000"
+  ],
+  "lender": "KIAVI FUNDING INC",
+  "trustee": "KING & MCNAMEE LLC",
+  "parties": [
+   "KIAVI FUNDING INC",
+   "TRC HOLDING STL LLC"
+  ]
+ },
+ {
+  "doc": "07132026-0283",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-13",
+  "addrs": [
+   "3943 WALSH ST"
+  ],
+  "pids": [
+   "57609320000"
+  ],
+  "lender": "FIRSTKEY MASTER FUNDING 2021 A COLLATERAL TRUST",
+  "trustee": "S&W FORECLOSURE CORP",
+  "parties": [
+   "FIRSTKEY MASTER FUNDING 2021 A COLLATERAL TRUST",
+   "TERRY JAMES R",
+   "TERRY KATHERINE ANN"
+  ]
+ },
+ {
+  "doc": "07132026-0256",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-13",
+  "addrs": [
+   "4412 BINGHAM AVE"
+  ],
+  "pids": [
+   "58549200000"
+  ],
+  "lender": "QUINN TAMIEKO",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "QUINN TAMIEKO",
+   "NEWREZ LLC"
+  ]
+ },
+ {
+  "doc": "07132026-0217",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-07-13",
+  "addrs": [
+   "1515 LAFAYETTE AVE"
+  ],
+  "pids": [
+   "12529011016"
+  ],
+  "lender": "FLINT CHARLES R",
+  "trustee": "DLF SERVICING CORPORATION",
+  "parties": [
+   "FLINT CHARLES R",
+   "GEORGIAN CONDOMINIUM ASSOCIATION"
+  ]
+ }
+]

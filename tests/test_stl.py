@@ -58,3 +58,15 @@ def test_county_taxsale_row():
     r = county_taxsale.row({"LOCATOR": "12E420011", "OWNER_NAME": "ANDERSON KIMBERLY", "PROP_ADD": "9524 W AVE", "PROP_ZIP": "63137",
                             "MUNICIPALITY": "RIVERVIEW", "STATUS": "Trustee", "STRUCTURE": "Building", "LUCODE": "Single Family", "LIVUNIT": 1, "TOTAPVAL": 23200})
     assert r["tag"] == "12E420011" and r["addr"] == "9524 W AVE" and r["status"] == "Trustee" and r["muni"] == "Riverview"
+
+
+def test_city_recorder_row():
+    from sfdeals.stl import city_recorder
+    assert city_recorder.pid("5901-9-200.000") == "59019200000" and city_recorder.pid("5901-00-0200-0") == ""
+    r = city_recorder.row({"DocumentName": "11102026-0044", "DocumentType": "APPOINT SUCC TRUSTEE", "RecordedDateTime": "11/10/2026 9:35:25 AM",
+                           "Party1": "FEDERAL HOME LOAN MORTGAGE CORPORATION ", "Party2": "MILLSAP & SINGER P C ",
+                           "Legals": [{"LegalType": "A", "Description": "2123 ALFRED AVE ST LOUIS MO 63110 "}, {"LegalType": "P", "Description": "5901-00-0200-0"},
+                                      {"LegalType": "P", "Description": "5901-9-200.000"}, {"LegalType": "S", "Description": "SHAWS GARDEN ADDN "}],
+                           "Parties": [{"PartyTypeId": 1, "Name": "EAST", "AdditionalName": "LEONARD O"}, {"PartyTypeId": 2, "Name": "MILLSAP & SINGER P C "}]}, "pre-foreclosure")
+    assert r["date"] == "2026-11-10" and r["addrs"] == ["2123 ALFRED AVE"] and r["pids"] == ["59019200000"]
+    assert r["trustee"] == "MILLSAP & SINGER P C" and r["parties"] == ["EAST LEONARD O"]
