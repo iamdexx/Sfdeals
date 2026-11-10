@@ -1,0 +1,132 @@
+{
+ "name": "Sacramento, CA",
+ "short": "Sacramento",
+ "state": "CA",
+ "min_value": 0,
+ "counties": [
+  {
+   "name": "Sacramento County",
+   "parcels": {
+    "url": "https://mapservices.gis.saccounty.gov/arcgis/rest/services/PARCELS/MapServer/8",
+    "page": 2000,
+    "where": "LANDUSE LIKE 'A1%' AND TAX_ROLL_STATUS = 'ACTIVE' AND STREET_NBR <> '' AND (MAILING_ZIP <> SITUS_ZIP OR MAIL_STATE <> 'CA' OR MAILING_ZIP IS NULL OR OWNER_STATUS IS NOT NULL OR (DOCUMENT_DATE > CURRENT_DATE - 730 AND DOCUMENT_TYPE_DESCRIPTION IN ('DEATH OF OWNER','AFFIDAVIT OF DEATH','AFFIDAVIT TERMINATING JOINT TENANCY','EXECUTOR''S DEED','ADMINISTRATORS DEED','DECREE OF DISTRIBUTION','ORDER FINAL ACCOUNT','ORDER SETTLING FINAL ACCOUNT','TRUSTEES DEED UPON SALE','TRUSTEES DEED','DEED IN LIEU FORECLOS','SHERIFF DEED','TAX DEED','QUITCLAIM DEED')))",
+    "map": {
+     "tag": "PARCEL_NUMBER",
+     "addr": "SITUS_ADD1",
+     "zip": "SITUS_ZIP",
+     "muni": "CITY",
+     "owner": "OWNER",
+     "mail": "MAIL1",
+     "mail_city": "MAIL_CITY",
+     "mail_state": "MAIL_STATE",
+     "mail_zip": "MAILING_ZIP",
+     "landuse": "LANDUSE",
+     "sale_date": "DOCUMENT_DATE"
+    },
+    "extra": [
+     "APN_DASH",
+     "DOCUMENT_TYPE_DESCRIPTION",
+     "DOCUMENT_DATE",
+     "OWNER_STATUS",
+     "JURISDICTION"
+    ]
+   },
+   "signals": [],
+   "derived": [
+    {
+     "name": "estate",
+     "weight": 25,
+     "label": "owner died, estate transfer in the last 2 years",
+     "field": "DOCUMENT_TYPE_DESCRIPTION",
+     "in": [
+      "DEATH OF OWNER",
+      "AFFIDAVIT OF DEATH",
+      "AFFIDAVIT TERMINATING JOINT TENANCY",
+      "EXECUTOR'S DEED",
+      "ADMINISTRATORS DEED",
+      "DECREE OF DISTRIBUTION",
+      "ORDER FINAL ACCOUNT",
+      "ORDER SETTLING FINAL ACCOUNT"
+     ],
+     "since_field": "DOCUMENT_DATE",
+     "since_days": 730
+    },
+    {
+     "name": "deceased",
+     "weight": 20,
+     "label": "owner of record is deceased (assessor roll)",
+     "field": "OWNER_STATUS",
+     "in": [
+      "Est Of",
+      "Deceased"
+     ]
+    },
+    {
+     "name": "foreclosure",
+     "weight": 20,
+     "label": "foreclosure sale deed in the last 2 years",
+     "field": "DOCUMENT_TYPE_DESCRIPTION",
+     "in": [
+      "TRUSTEES DEED UPON SALE",
+      "TRUSTEES DEED",
+      "DEED IN LIEU FORECLOS",
+      "SHERIFF DEED"
+     ],
+     "since_field": "DOCUMENT_DATE",
+     "since_days": 730
+    },
+    {
+     "name": "taxdeed",
+     "weight": 20,
+     "label": "sold at tax deed sale in the last 2 years",
+     "field": "DOCUMENT_TYPE_DESCRIPTION",
+     "in": [
+      "TAX DEED"
+     ],
+     "since_field": "DOCUMENT_DATE",
+     "since_days": 730
+    },
+    {
+     "name": "quitclaim",
+     "weight": 15,
+     "label": "quit claim transfer in the last 2 years",
+     "field": "DOCUMENT_TYPE_DESCRIPTION",
+     "in": [
+      "QUITCLAIM DEED"
+     ],
+     "since_field": "DOCUMENT_DATE",
+     "since_days": 730
+    }
+   ],
+   "lookup": "https://assessorparcelviewer.saccounty.gov/JSViewer/assessor.html"
+  }
+ ],
+ "ui": {
+  "name": "Sacramento",
+  "st": "CA",
+  "q": " Sacramento CA",
+  "sigs": [
+   "all",
+   "estate",
+   "deceased",
+   "foreclosure",
+   "tax deed",
+   "quit claim",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://assessorparcelviewer.saccounty.gov/JSViewer/assessor.html\" target=\"_blank\">Assessor Parcel Viewer</a> (search parcel {tag})",
+  "title_cos": "Placer Title, Old Republic Title, Fidelity National Title, all in Sacramento",
+  "title_call": "Placer Title or Old Republic Title",
+  "law": "California lets you assign a purchase contract. Tell the seller in writing that you are a wholesaler and may assign the contract, and never market the house itself, only your contract. California is a non-judicial foreclosure state: the lender records a Notice of Default, then a Notice of Sale, and a trustee sells the house, so pre-foreclosure filings are at the County Recorder. Escrow and title companies close, not attorneys.",
+  "groups": "\"NorCal REIA\", \"Sacramento Real Estate Investors\", \"Sacramento Wholesale Deals\"",
+  "prefc": "<b>Estate</b>: the assessor records the last document on every parcel. Death of owner, affidavit of death and probate orders mean the house just passed to heirs, who often live elsewhere and want it gone. <b>Deceased</b> means the roll itself still lists an estate as owner. The county does not publish owner names online, so every card says Owner of Record; the mailing address is real and is where you write or skip trace.",
+  "sos": "<a href=\"https://bizfileonline.sos.ca.gov/search/business\" target=\"_blank\">CA SOS search</a>",
+  "buyers_h": "Active cash buyers",
+  "buyers_note": "Sacramento County does not publish owner names on its parcel data, so there is no buyer list from the assessor yet. Use the Zillow sold filter on the house you have under contract, or ask Placer Title for the recent cash closings in that zip.",
+  "buyers_empty": "No buyer list for Sacramento yet: the county hides owner names.",
+  "repairs": "Repairs, Sacramento rough numbers per house: cosmetic 20-35k, kitchen+baths 40-70k, roof 15-25k, HVAC 10-18k, foundation and dry rot 10-30k, full gut 90-150k.",
+  "sources": "Sacramento County GIS parcel base (situs, mailing address, land use, last recorded document type and date, estate status)",
+  "contracts": "mo"
+ }
+}
