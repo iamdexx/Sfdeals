@@ -1,0 +1,81 @@
+{
+ "name": "Riverside-San Bernardino, CA",
+ "short": "Riverside",
+ "state": "CA",
+ "min_value": 40000,
+ "counties": [
+  {
+   "name": "Riverside County",
+   "parcels": {
+    "url": "https://gis.countyofriverside.us/arcgis/rest/services/parcels/Parcels/MapServer/0",
+    "page": 2000,
+    "where": "CLASS_CODE IN ('Single Family Dwelling','Condo or PUD','SFD with Secondary Unit(s)','HOMESITE/< 1 ACRE','HOMESITE/1-4.9 ACRES','MH on Foundation (MF)') AND MAIL_STREET <> SITUS_STREET",
+    "map": {
+     "tag": "APN",
+     "addr": "SITUS_STREET",
+     "zip": "ZIP_CODE",
+     "muni": "CITY",
+     "owner": "PRIMARY_OWNER",
+     "mail": "MAIL_STREET",
+     "mail_city": "MAIL_CITY",
+     "landuse": "CLASS_CODE",
+     "value": "STRUCTURES"
+    }
+   },
+   "signals": [
+    {
+     "name": "taxsale",
+     "weight": 45,
+     "label": "tax defaulted 5+ years, county can sell it",
+     "url": "https://gis.countyofriverside.us/arcgis_mapping/rest/services/App_TaxSaleInventory/TaxCollectorInventoryWebApp/FeatureServer/0",
+     "where": "CLASS_CODE IN ('Single Family Dwelling','Condo or PUD','SFD with Secondary Unit(s)','HOMESITE/1-4.9 ACRES','MH on Foundation (MF)')",
+     "map": {
+      "tag": "GEO_CD",
+      "addr": "SITUS",
+      "owed": "REDEMPTION_AMOUNT",
+      "kind": "CLASS_CODE",
+      "as_of": "AS_OF_DATE"
+     }
+    },
+    {
+     "name": "taxsale",
+     "weight": 45,
+     "label": "tax defaulted 5+ years, county can sell it",
+     "url": "https://gis.countyofriverside.us/arcgis_mapping/rest/services/App_TaxSaleInventory/TaxCollectorInventoryWebApp/FeatureServer/0",
+     "where": "CLASS_CODE = 'HOMESITE/< 1 ACRE'",
+     "map": {
+      "tag": "GEO_CD",
+      "addr": "SITUS",
+      "owed": "REDEMPTION_AMOUNT",
+      "kind": "CLASS_CODE",
+      "as_of": "AS_OF_DATE"
+     }
+    }
+   ],
+   "lookup": "https://rivcoview.rivcoacr.org/#/Property-Search/search/mv_Location:PIN/{tag}"
+  }
+ ],
+ "ui": {
+  "name": "Riverside",
+  "st": "CA",
+  "q": " Riverside CA",
+  "sigs": [
+   "all",
+   "tax defaulted",
+   "absentee"
+  ],
+  "lookup": "PIN {tag}: <a href=\"https://rivcoview.rivcoacr.org/#/Property-Search/search/mv_Location:PIN/{tag}\" target=\"_blank\">Assessor (RivCoView)</a> · <a href=\"https://ca-riverside-ttc.publicaccessnow.com/PropertySearch.aspx\" target=\"_blank\">Tax Collector</a>",
+  "title_cos": "First American Title, Fidelity National Title, Lawyers Title, all with Riverside offices",
+  "title_call": "First American Title or Fidelity National Title",
+  "law": "California lets you assign a purchase contract and closes through escrow, so your title company is an escrow and title office. Tell the seller in writing that you may assign it and never market the house itself, only your contract. California is a non-judicial foreclosure state: notices of default are recorded at the County Recorder, not filed in court.",
+  "groups": "\"Inland Empire Real Estate Investors\", \"Riverside Real Estate Investors\", \"Inland Empire Wholesale Deals\"",
+  "prefc": "<b>Tax defaulted</b>: California gives an owner 5 years after taxes go unpaid before the county Treasurer-Tax Collector can sell the house at auction. Every lead here is on the Tax Collector's power to sell list, with the amount owed on the card. The owner can stop the sale any time by paying that amount or by selling to you first. <b>Values</b> are the assessor's structure value only; Prop 13 keeps them far below market for long time owners, so a low number often means a long held house, not a cheap one.",
+  "sos": "<a href=\"https://bizfileonline.sos.ca.gov/search/business\" target=\"_blank\">CA Secretary of State search</a>",
+  "buyers_h": "Active cash buyers",
+  "buyers_note": "The county parcel layer has no sale dates or prices, so there is no buyer list for Riverside yet. Build yours from the recorder's grant deeds, local REIA meetings and the LLC owners you see on the absentee list.",
+  "buyers_empty": "No sale data in the Riverside County parcel layer, so no buyer list yet.",
+  "repairs": "Repairs, Riverside rough numbers per house: cosmetic 20-30k, kitchen+baths 35-60k, roof 15-25k, HVAC 10-16k, pool repair 5-15k, full gut 80-130k.",
+  "sources": "Riverside County Assessor parcel layer (owner, mailing address, class, structure value), Riverside County Treasurer-Tax Collector tax sale inventory (tax defaulted parcels subject to the power of sale)",
+  "contracts": "mo"
+ }
+}
