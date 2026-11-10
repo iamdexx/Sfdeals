@@ -85,6 +85,7 @@ async function load(){
 }
 function go(v){view=v;location.hash=v;document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.v===v));({start,today:todayView,leads:leadsView,calc,buyers:buyersView,more,lead})[v.split(':')[0]](v.split(':')[1]);window.scrollTo(0,0)}
 function fresh(m){if(!m.updated)return `data ${m.as_of}`;const h=(Date.now()-Date.parse(m.updated))/36e5;const t=h<1?`${Math.max(1,Math.round(h*60))} min ago`:h<48?`${Math.round(h)} h ago`:`${Math.round(h/24)} days ago`;return h>8?`<span style="color:#f66">updated ${t}, pull may be stuck</span>`:`updated ${t}`}
+function fmtPhone(n){n=String(n).replace(/\D/g,'');return n.length===10?`(${n.slice(0,3)}) ${n.slice(3,6)}-${n.slice(6)}`:n}
 function tags(l){return l.why.map(w=>`<span class="tag ${/sheriff|bank|condemned|land tax|trustee|tax sale|pre-foreclosure/.test(w)?'fc':/tax|citation|violation|vacant|secure/.test(w)?'hot':''}">${esc(w)}</span>`).join('')}
 function card(l){const c=crm(l.tag);return `<div class="card" onclick="go('lead:${l.tag}')"><div class="row"><div class="addr">${esc(l.addr)}</div><div class="score">${l.score}</div></div>
 <div class="mut">${esc(l.owner)} ${l.mail&&l.mail!==l.addr?'· mails to '+esc(l.mail_city||l.mail):''}</div><div>${tags(l)} <span class="status st-${c.status}">${c.status}</span>${c.next?` <span class="mut">next ${c.next}</span>`:''}</div></div>`}
@@ -106,6 +107,7 @@ function lead(tag){
   <div class="card"><div class="row"><div class="addr">${esc(l.addr)}</div><div class="score">${l.score}</div></div>
   ${l.stale?`<div class="mut" style="color:#fc6">Dropped from the latest pull (signals may have cleared). Kept because you worked it. Data from ${l.as_of}.</div>`:''}
   <div class="mut">Parcel ${l.tag} · ${esc(l.county)}${l.muni?' · '+esc(l.muni):''} · ${l.units||1} unit${l.sqft?' · '+Math.round(l.sqft/43560*100)/100+' ac lot':''}${l.year?' · built '+l.year:''}${l.value?' · assessed '+fmt(l.value):''}</div><div>${tags(l)}</div>
+  ${(l.phones||[]).length?`<p><b>Phone${l.phones.length>1?'s':''}</b>${l.contact?' ('+esc(l.contact)+')':''}<br>${l.phones.map(x=>`<a href="tel:${esc(x.number)}" style="font-size:19px">${fmtPhone(x.number)}</a> <span class="mut">${esc(x.type||'')}${x.dnc?' · on Do Not Call list':''}</span>`).join('<br>')}${(l.emails||[]).length?`<br><a href="mailto:${esc(l.emails[0])}">${esc(l.emails[0])}</a>`:''}</p>`:''}
   <p><b>Owner</b> ${esc(l.owner)}<br><b>Mails to</b> ${esc(l.mail)}, ${esc(l.mail_city)} ${esc(l.mail_state)} ${esc(l.mail_zip)}</p>
   ${fc?`<p><b>Sheriff sale</b> ${fc.sale_date||''} · ${esc(fc.plaintiff)} vs ${esc(fc.defendant)} · judgment ${fmt(fc.judgment)} · case ${fc.case}</p>`:''}
   ${(l.signals.tax||[]).map(t=>`<p><b>Tax</b> ${t.year} ${fmt(t.amount)} owed · ${esc(t.legal)}</p>`).join('')}

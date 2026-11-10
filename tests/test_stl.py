@@ -81,3 +81,15 @@ def test_stl_quality_rules():
     assert score.vacant_weight(2025, 2026)[0] == score.W["vacant_new"]
     assert score.vacant_weight(2018, 2026)[0] == score.W["vacant_mid"]
     assert score.vacant_weight(1997, 2026) == (score.W["vacant_old"], "vacant 29+ years")
+
+
+def test_skiptrace_parse():
+    from sfdeals.stl import skiptrace
+    r = skiptrace.parse({"hit": True, "credits_deducted": 5, "persons": [
+        {"full_name": "Old Owner", "deceased": True, "property_owner": True, "phones": [{"number": "1111111111", "rank": 1}]},
+        {"full_name": "Sarah Price", "deceased": False, "property_owner": True,
+         "phones": [{"number": "7208340948", "type": "Mobile", "dnc": False, "rank": 2}, {"number": "6687998789", "type": "Landline", "dnc": True, "rank": 1}],
+         "emails": [{"email": "a@b.com"}]}]})
+    assert r["hit"] and r["name"] == "Sarah Price" and [p["number"] for p in r["phones"]] == ["6687998789", "7208340948"]
+    assert r["phones"][0]["dnc"] and r["emails"] == ["a@b.com"] and r["credits"] == 5
+    assert not skiptrace.parse({"hit": False, "persons": []})["hit"]

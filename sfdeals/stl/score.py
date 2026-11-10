@@ -99,6 +99,7 @@ def run():
         for t in hits:
             sig[t]["recorder"].append(r)
     vac = load("vacant.json", {}) or {}
+    phones = load("phones.json", {}) or {}
 
     today = dt.date.today().isoformat()
     this_year = dt.date.today().year
@@ -158,7 +159,9 @@ def run():
             continue
         mkt = market_value(p)
         cheap = mkt and mkt < MIN_MARKET and not (s and (s.get("trustee") or s.get("recorder")))
-        leads.append({**p, "mkt": mkt, "score": score, "why": why, "signals": signals, "as_of": today, "hot": bool(strong and not cheap)})
+        ph = phones.get(p["tag"])
+        leads.append({**p, "mkt": mkt, "score": score, "why": why, "signals": signals, "as_of": today, "hot": bool(strong and not cheap),
+                      **({"phones": ph["phones"], "emails": ph.get("emails", []), "contact": ph.get("name", "")} if ph and ph.get("hit") else {})})
     leads.sort(key=lambda x: (-x["score"], x["addr"]))
     hot = [l for l in leads if l.pop("hot")]
     top = hot[:2500] + [l for l in hot[2500:] if any(k in l["signals"] for k in KEEP)]
