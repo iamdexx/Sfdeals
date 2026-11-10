@@ -1,0 +1,84 @@
+{
+ "name": "San Francisco-Oakland, CA",
+ "short": "San Francisco",
+ "state": "CA",
+ "min_value": 25000,
+ "counties": [
+  {
+   "name": "Alameda County",
+   "parcels": {
+    "url": "https://services.arcgis.com/9tC74aDHuml0x5Yz/arcgis/rest/services/AC_Parcels2020/FeatureServer/0",
+    "page": 1000,
+    "where": "USE_CODE IN ('1100','1200','1201','1400','1600','1800','1900','1901') AND OWNER_NAME <> '' AND (HOME_OWNER_EXEMPTION = 0 OR OWNER_NAME LIKE '%HEIRS%' OR OWNER_NAME LIKE '%EST OF%')",
+    "map": {
+     "tag": "PRINTPARCEL",
+     "addr": [
+      "SITUS_HOUSE_NUMBER_A",
+      "SITUS_STREET_NAME"
+     ],
+     "zip": "SITUS_ZIP_CODE_5",
+     "muni": "SITUS_CITY",
+     "owner": "OWNER_NAME",
+     "mail": "MAILING_ADDRESS",
+     "mail_city": "MAILING_ADDRESS_CITY_STATE",
+     "mail_zip": "MAILING_ADDRESS_ZIP_5",
+     "landuse": "USE_CODE",
+     "units": "SHP_NO_UNITS",
+     "year": "SHP_BLDG_YEARBUILT",
+     "res_sqft": "BLDG_AREA_SQFT",
+     "value": "ASSESSED_VALUE",
+     "sale_date": "LAST_DOCUMENT_DATE"
+    },
+    "extra": [
+     "OWNER_NAME",
+     "SHP_NO_BEDROOMS",
+     "SBE_QUAL_CODE",
+     "LOT_SIZE_SQFT"
+    ]
+   },
+   "signals": [],
+   "derived": [
+    {
+     "name": "heirs",
+     "weight": 30,
+     "label": "owner deceased, held by heirs (assessor roll)",
+     "field": "OWNER_NAME",
+     "contains": "HEIRS"
+    },
+    {
+     "name": "estate",
+     "weight": 30,
+     "label": "estate of a deceased owner (assessor roll)",
+     "field": "OWNER_NAME",
+     "contains": "EST OF"
+    }
+   ],
+   "lookup": "https://propertytax.alamedacountyca.gov/search"
+  }
+ ],
+ "ui": {
+  "name": "San Francisco",
+  "st": "CA",
+  "q": " Oakland CA",
+  "sigs": [
+   "all",
+   "heirs",
+   "estate",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://propertytax.alamedacountyca.gov/search\" target=\"_blank\">County tax portal (enter parcel {tag})</a>",
+  "title_cos": "Old Republic Title, First American Title, Chicago Title, all with East Bay offices",
+  "title_call": "Old Republic Title or First American Title",
+  "law": "California lets you assign a purchase contract. Tell the seller in writing that you may assign it and never market the house itself. California is a non-judicial foreclosure state: notices of default and trustee sales are recorded at the County Recorder, and escrow or title companies, not attorneys, close the deal.",
+  "groups": "\"Bay Area Wealth Builders\", \"East Bay Real Estate Investors\", \"SF Bay Area Wholesale Deals\"",
+  "prefc": "<b>Heirs and estates</b>: when an owner dies the assessor roll carries the name as HEIRS OF or EST OF until the family records a new deed. These houses are usually empty or rented out by relatives who want to settle up. <b>No homeowner exemption</b>: California owners who live in the house claim a 7,000 dollar homeowner exemption; no exemption plus a different mailing address means a rental, a second home or an inherited house. The value shown is the county assessed value, which under Prop 13 is often far below what the house is worth, so a low number usually means a long time owner with a lot of equity.",
+  "sos": "<a href=\"https://bizfileonline.sos.ca.gov/search/business\" target=\"_blank\">CA Secretary of State search</a>",
+  "buyers_h": "Active cash buyers (assessor sale records)",
+  "buyers_note": "Alameda County does not publish sale prices, so the buyer list is empty here for now. Find buyers at the East Bay investor meetups and on the CA Secretary of State search.",
+  "buyers_empty": "No sale prices in the Alameda County data, so no buyer list yet.",
+  "repairs": "Repairs, East Bay rough numbers per house: cosmetic 25-40k, kitchen+baths 50-90k, roof 20-35k, foundation and seismic 30-80k, sewer lateral 8-20k, full gut 150-250k.",
+  "sources": "Alameda County assessor roll as published by the City of Oakland (owner, mailing address, homeowner exemption, year built, living area, assessed value; 2020 roll, City of Oakland parcels)",
+  "contracts": "mo"
+ }
+}
