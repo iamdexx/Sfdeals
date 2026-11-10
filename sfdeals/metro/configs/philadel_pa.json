@@ -1,0 +1,169 @@
+{
+ "name": "Philadelphia, PA",
+ "short": "Philadelphia",
+ "state": "PA",
+ "min_value": 40000,
+ "counties": [
+  {
+   "name": "Philadelphia County",
+   "parcels": {
+    "url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/OPA_Properties_Public/FeatureServer/0",
+    "page": 2000,
+    "where": "category_code = '1' AND (mailing_street <> location OR state_code <> 'PA' OR exterior_condition IN ('6','7'))",
+    "map": {
+     "tag": "parcel_number",
+     "addr": "location",
+     "zip": "zip_code",
+     "owner": "owner_1",
+     "mail": "mailing_street",
+     "mail_city": "mailing_city_state",
+     "mail_state": "state_code",
+     "mail_zip": "mailing_zip",
+     "landuse": "building_code_description_new",
+     "year": "year_built",
+     "res_sqft": "total_livable_area",
+     "value": "market_value",
+     "sale_date": "sale_date",
+     "sale_price": "sale_price"
+    },
+    "extra": [
+     "exterior_condition",
+     "interior_condition",
+     "homestead_exemption"
+    ]
+   },
+   "signals": [
+    {
+     "name": "demolish",
+     "weight": 45,
+     "label": "city demolition pending (L&I)",
+     "url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/DEMOLITIONS/FeatureServer/0",
+     "where": "city_demo = 'YES' AND status NOT IN ('COMPLETED','CANCELLED')",
+     "map": {
+      "tag": "opa_account_num",
+      "addr": "address",
+      "case": "caseorpermitnumber",
+      "kind": "typeofwork",
+      "status": "status"
+     }
+    },
+    {
+     "name": "unsafe",
+     "weight": 40,
+     "label": "unsafe structure, open L&I case",
+     "url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/UNSAFE/FeatureServer/0",
+     "where": "violationresolutiondate IS NULL",
+     "map": {
+      "tag": "opa_account_num",
+      "addr": "address",
+      "case": "casenumber",
+      "kind": "violationcodetitle"
+     }
+    },
+    {
+     "name": "court",
+     "weight": 30,
+     "label": "L&I court case open against the owner",
+     "url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/VIOLATIONS/FeatureServer/0",
+     "where": "violationstatus = 'OPEN' AND casestatus = 'IN VIOLATION - COURT'",
+     "map": {
+      "tag": "opa_account_num",
+      "addr": "address",
+      "case": "casenumber",
+      "kind": "violationcodetitle",
+      "link": "publicnov"
+     }
+    },
+    {
+     "name": "vacant_viol",
+     "weight": 25,
+     "label": "open vacant property violation (L&I)",
+     "url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/VIOLATIONS/FeatureServer/0",
+     "where": "violationstatus = 'OPEN' AND casestatus LIKE 'IN VIOLATION%' AND violationcode IN ('9-3905','PM15-301','PM15-901.1','9-3904','PM15-108.2','PM15-901.2')",
+     "map": {
+      "tag": "opa_account_num",
+      "addr": "address",
+      "case": "casenumber",
+      "kind": "violationcodetitle",
+      "link": "publicnov"
+     }
+    },
+    {
+     "name": "taxdelq",
+     "weight": 20,
+     "label": "back taxes owed 3+ years, no payment plan (city list, June 2022)",
+     "url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/REAL_ESTATE_TAX_DELINQUENCIES/FeatureServer/0",
+     "where": "BUILDING_CATEGORY = 'residential' AND IS_ACTIONABLE = 'true' AND PAYMENT_AGREEMENT = 'false' AND NUM_YEARS_OWED >= 3",
+     "map": {
+      "tag": "OPA_NUMBER",
+      "addr": "STREET_ADDRESS",
+      "owed": "TOTAL_DUE",
+      "years": "NUM_YEARS_OWED",
+      "sheriff": "SHERIFF_SALE"
+     }
+    },
+    {
+     "name": "vacant_bldg",
+     "weight": 20,
+     "label": "likely vacant building (city vacancy indicators)",
+     "url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Vacant_Indicators_Bldg/FeatureServer/0",
+     "map": {
+      "tag": "opa_id",
+      "addr": "address",
+      "kind": "bldg_desc"
+     }
+    }
+   ],
+   "derived": [
+    {
+     "name": "sealed",
+     "weight": 35,
+     "label": "sealed or structurally compromised (assessor exterior condition)",
+     "field": "exterior_condition",
+     "in": [
+      "7"
+     ]
+    },
+    {
+     "name": "vacant_cond",
+     "weight": 25,
+     "label": "vacant (assessor exterior condition)",
+     "field": "exterior_condition",
+     "in": [
+      "6"
+     ]
+    }
+   ],
+   "lookup": "https://property.phila.gov/?p={tag}"
+  }
+ ],
+ "ui": {
+  "name": "Philadelphia",
+  "st": "PA",
+  "q": " Philadelphia PA",
+  "sigs": [
+   "all",
+   "demolition",
+   "unsafe",
+   "court case",
+   "vacant",
+   "back taxes",
+   "sealed",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://property.phila.gov/?p={tag}\" target=\"_blank\">Property record (OPA)</a> \u00b7 <a href=\"https://li.phila.gov/property-history/search?address={addr}\" target=\"_blank\">L&I history</a> \u00b7 <a href=\"https://tax-services.phila.gov/_/\" target=\"_blank\">Tax balance</a>",
+  "title_cos": "Lead Title, Landmark Abstract, Trident Land Transfer, all in the Philadelphia area",
+  "title_call": "Lead Title or Landmark Abstract",
+  "law": "Pennsylvania lets you assign a purchase contract; put the assignment right in the contract and never market the house itself. Philadelphia also requires a wholesaler license from L&I (Wholesale Residential Real Property Business License) and a written disclosure to the seller before signing. Foreclosure is judicial, so filings are public at the Court of Common Pleas.",
+  "groups": "\"DIG (Diversified Investors Group)\", \"Philadelphia Real Estate Investors\", \"Philly Wholesale Deals\"",
+  "prefc": "<b>L&I cases</b>: the city posts every open Licenses and Inspections case. Unsafe structure means an inspector found the building a danger; a court case means L&I is suing the owner; a vacant property violation means the owner is paying for an empty house. <b>Sealed</b> and <b>vacant</b> come from the assessor's own exterior inspection.",
+  "sos": "<a href=\"https://file.dos.pa.gov/search/business\" target=\"_blank\">PA business search</a>",
+  "buyers_h": "Active cash buyers (assessor sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the city sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on the PA business search and call.",
+  "buyers_empty": "No buyers found in the sale data yet.",
+  "repairs": "Repairs, Philadelphia rough numbers per rowhouse: cosmetic 12-20k, kitchen+baths 25-45k, roof (flat, rubber) 6-12k, heater 5-9k, brick repointing and lintels 5-15k, full gut 50-90k.",
+  "sources": "Philadelphia Office of Property Assessment parcel layer (owner, mailing address, market value, sale, exterior condition), L&I unsafe structures, demolitions, violations and vacancy indicators, city delinquent tax list",
+  "contracts": "mo"
+ }
+}
