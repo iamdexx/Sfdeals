@@ -1,0 +1,247 @@
+{
+ "name": "Detroit, MI",
+ "short": "Detroit",
+ "state": "MI",
+ "min_value": 20000,
+ "counties": [
+  {
+   "name": "Wayne County",
+   "parcels": {
+    "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/parcel_file_current/FeatureServer/0",
+    "page": 1000,
+    "where": "property_class = '401' AND tax_status = 'TAXABLE' AND (pct_pre_claimed IS NULL OR pct_pre_claimed = 0) AND (taxpayer_state <> 'MI' OR taxpayer_address NOT LIKE CONCAT(address, '%'))",
+    "map": {
+     "tag": "parcel_id",
+     "addr": "address",
+     "zip": "zip_code",
+     "owner": "taxpayer_1",
+     "mail": "taxpayer_address",
+     "mail_city": "taxpayer_city",
+     "mail_state": "taxpayer_state",
+     "mail_zip": "taxpayer_zip_code",
+     "landuse": "use_code_description",
+     "year": "year_built",
+     "res_sqft": "total_floor_area",
+     "value": "amt_assessed_value",
+     "sale_date": "sale_date",
+     "sale_price": "amt_sale_price"
+    }
+   },
+   "signals": [
+    {
+     "name": "demolish",
+     "weight": 45,
+     "label": "on the city demolition list",
+     "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/city_demolition_pipeline/FeatureServer/0",
+     "map": {
+      "tag": "parcel_id",
+      "addr": "address",
+      "case": "case_id",
+      "kind": "demolition_contract_group",
+      "emergency": "is_emergency_demolition"
+     }
+    },
+    {
+     "name": "fire",
+     "weight": 35,
+     "label": "fire damaged, insurance payout held by the city",
+     "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/Fire_Escrow_Properties/FeatureServer/0",
+     "where": "Property_Class = 'Residential-Structure' AND Updated_Balance > 0",
+     "map": {
+      "tag": "Parcel_ID",
+      "addr": "Assessor_Address",
+      "case": "File_Number",
+      "owed": "Updated_Balance"
+     }
+    },
+    {
+     "name": "vacant",
+     "weight": 30,
+     "label": "registered vacant building (city)",
+     "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/bseed_vacant_property_registrations/FeatureServer/0",
+     "where": "parcel_id < '1602'",
+     "map": {
+      "tag": "parcel_id",
+      "addr": "address",
+      "case": "record_id",
+      "since": "issued_date"
+     }
+    },
+    {
+     "name": "vacant",
+     "weight": 30,
+     "label": "registered vacant building (city)",
+     "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/bseed_vacant_property_registrations/FeatureServer/0",
+     "where": "parcel_id >= '1602' AND parcel_id < '2108'",
+     "map": {
+      "tag": "parcel_id",
+      "addr": "address",
+      "case": "record_id",
+      "since": "issued_date"
+     }
+    },
+    {
+     "name": "vacant",
+     "weight": 30,
+     "label": "registered vacant building (city)",
+     "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/bseed_vacant_property_registrations/FeatureServer/0",
+     "where": "parcel_id >= '2108'",
+     "map": {
+      "tag": "parcel_id",
+      "addr": "address",
+      "case": "record_id",
+      "since": "issued_date"
+     }
+    },
+    {
+     "name": "blight",
+     "weight": 25,
+     "label": "unpaid blight ticket for the building, in collections (city)",
+     "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/blight_tickets/FeatureServer/0",
+     "where": "(collection_status = 'In Collections' AND amt_balance_due >= 100 AND ticket_issued_date >= DATE '2025-01-01' AND ticket_issued_date <= DATE '2026-12-31' AND ordinance_law IN ('8-15-113','8-15-201(b)','8-15-205','8-17-21(5)','8-17-21(1)','8-17-21(7)','8-17-21(8)','8-15-37','8-15-39(a)1','8-15-42(a)','8-15-206','8-15-209')) AND parcel_id < '1200'",
+     "map": {
+      "tag": "parcel_id",
+      "addr": "address",
+      "case": "ticket_number",
+      "kind": "ordinance_description",
+      "owed": "amt_balance_due",
+      "since": "ticket_issued_date"
+     }
+    },
+    {
+     "name": "blight",
+     "weight": 25,
+     "label": "unpaid blight ticket for the building, in collections (city)",
+     "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/blight_tickets/FeatureServer/0",
+     "where": "(collection_status = 'In Collections' AND amt_balance_due >= 100 AND ticket_issued_date >= DATE '2025-01-01' AND ticket_issued_date <= DATE '2026-12-31' AND ordinance_law IN ('8-15-113','8-15-201(b)','8-15-205','8-17-21(5)','8-17-21(1)','8-17-21(7)','8-17-21(8)','8-15-37','8-15-39(a)1','8-15-42(a)','8-15-206','8-15-209')) AND parcel_id >= '1200' AND parcel_id < '1500'",
+     "map": {
+      "tag": "parcel_id",
+      "addr": "address",
+      "case": "ticket_number",
+      "kind": "ordinance_description",
+      "owed": "amt_balance_due",
+      "since": "ticket_issued_date"
+     }
+    },
+    {
+     "name": "blight",
+     "weight": 25,
+     "label": "unpaid blight ticket for the building, in collections (city)",
+     "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/blight_tickets/FeatureServer/0",
+     "where": "(collection_status = 'In Collections' AND amt_balance_due >= 100 AND ticket_issued_date >= DATE '2025-01-01' AND ticket_issued_date <= DATE '2026-12-31' AND ordinance_law IN ('8-15-113','8-15-201(b)','8-15-205','8-17-21(5)','8-17-21(1)','8-17-21(7)','8-17-21(8)','8-15-37','8-15-39(a)1','8-15-42(a)','8-15-206','8-15-209')) AND parcel_id >= '1500' AND parcel_id < '1700'",
+     "map": {
+      "tag": "parcel_id",
+      "addr": "address",
+      "case": "ticket_number",
+      "kind": "ordinance_description",
+      "owed": "amt_balance_due",
+      "since": "ticket_issued_date"
+     }
+    },
+    {
+     "name": "blight",
+     "weight": 25,
+     "label": "unpaid blight ticket for the building, in collections (city)",
+     "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/blight_tickets/FeatureServer/0",
+     "where": "(collection_status = 'In Collections' AND amt_balance_due >= 100 AND ticket_issued_date >= DATE '2025-01-01' AND ticket_issued_date <= DATE '2026-12-31' AND ordinance_law IN ('8-15-113','8-15-201(b)','8-15-205','8-17-21(5)','8-17-21(1)','8-17-21(7)','8-17-21(8)','8-15-37','8-15-39(a)1','8-15-42(a)','8-15-206','8-15-209')) AND parcel_id >= '1700' AND parcel_id < '2100'",
+     "map": {
+      "tag": "parcel_id",
+      "addr": "address",
+      "case": "ticket_number",
+      "kind": "ordinance_description",
+      "owed": "amt_balance_due",
+      "since": "ticket_issued_date"
+     }
+    },
+    {
+     "name": "blight",
+     "weight": 25,
+     "label": "unpaid blight ticket for the building, in collections (city)",
+     "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/blight_tickets/FeatureServer/0",
+     "where": "(collection_status = 'In Collections' AND amt_balance_due >= 100 AND ticket_issued_date >= DATE '2025-01-01' AND ticket_issued_date <= DATE '2026-12-31' AND ordinance_law IN ('8-15-113','8-15-201(b)','8-15-205','8-17-21(5)','8-17-21(1)','8-17-21(7)','8-17-21(8)','8-15-37','8-15-39(a)1','8-15-42(a)','8-15-206','8-15-209')) AND parcel_id >= '2100' AND parcel_id < '2105'",
+     "map": {
+      "tag": "parcel_id",
+      "addr": "address",
+      "case": "ticket_number",
+      "kind": "ordinance_description",
+      "owed": "amt_balance_due",
+      "since": "ticket_issued_date"
+     }
+    },
+    {
+     "name": "blight",
+     "weight": 25,
+     "label": "unpaid blight ticket for the building, in collections (city)",
+     "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/blight_tickets/FeatureServer/0",
+     "where": "(collection_status = 'In Collections' AND amt_balance_due >= 100 AND ticket_issued_date >= DATE '2025-01-01' AND ticket_issued_date <= DATE '2026-12-31' AND ordinance_law IN ('8-15-113','8-15-201(b)','8-15-205','8-17-21(5)','8-17-21(1)','8-17-21(7)','8-17-21(8)','8-15-37','8-15-39(a)1','8-15-42(a)','8-15-206','8-15-209')) AND parcel_id >= '2105' AND parcel_id < '2201'",
+     "map": {
+      "tag": "parcel_id",
+      "addr": "address",
+      "case": "ticket_number",
+      "kind": "ordinance_description",
+      "owed": "amt_balance_due",
+      "since": "ticket_issued_date"
+     }
+    },
+    {
+     "name": "blight",
+     "weight": 25,
+     "label": "unpaid blight ticket for the building, in collections (city)",
+     "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/blight_tickets/FeatureServer/0",
+     "where": "(collection_status = 'In Collections' AND amt_balance_due >= 100 AND ticket_issued_date >= DATE '2025-01-01' AND ticket_issued_date <= DATE '2026-12-31' AND ordinance_law IN ('8-15-113','8-15-201(b)','8-15-205','8-17-21(5)','8-17-21(1)','8-17-21(7)','8-17-21(8)','8-15-37','8-15-39(a)1','8-15-42(a)','8-15-206','8-15-209')) AND parcel_id >= '2201' AND parcel_id < '2207'",
+     "map": {
+      "tag": "parcel_id",
+      "addr": "address",
+      "case": "ticket_number",
+      "kind": "ordinance_description",
+      "owed": "amt_balance_due",
+      "since": "ticket_issued_date"
+     }
+    },
+    {
+     "name": "blight",
+     "weight": 25,
+     "label": "unpaid blight ticket for the building, in collections (city)",
+     "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/blight_tickets/FeatureServer/0",
+     "where": "(collection_status = 'In Collections' AND amt_balance_due >= 100 AND ticket_issued_date >= DATE '2025-01-01' AND ticket_issued_date <= DATE '2026-12-31' AND ordinance_law IN ('8-15-113','8-15-201(b)','8-15-205','8-17-21(5)','8-17-21(1)','8-17-21(7)','8-17-21(8)','8-15-37','8-15-39(a)1','8-15-42(a)','8-15-206','8-15-209')) AND parcel_id >= '2207'",
+     "map": {
+      "tag": "parcel_id",
+      "addr": "address",
+      "case": "ticket_number",
+      "kind": "ordinance_description",
+      "owed": "amt_balance_due",
+      "since": "ticket_issued_date"
+     }
+    }
+   ],
+   "lookup": "https://baseunits.detroitmi.gov/map?id={tag}&layer=parcel"
+  }
+ ],
+ "ui": {
+  "name": "Detroit",
+  "st": "MI",
+  "q": " Detroit MI",
+  "sigs": [
+   "all",
+   "demolition",
+   "fire",
+   "vacant",
+   "blight",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://baseunits.detroitmi.gov/map?id={tag}&layer=parcel\" target=\"_blank\">City parcel record</a> \u00b7 <a href=\"https://pta.waynecounty.com/\" target=\"_blank\">County tax bill</a>",
+  "title_cos": "Title One, Liberty Title, Metropolitan Title, all in metro Detroit",
+  "title_call": "Title One or Liberty Title",
+  "law": "Michigan lets you assign a purchase contract; put the assignment right in the contract and never market the house itself, only your contract. Michigan is a non judicial foreclosure state with a 6 month redemption period after the sheriff sale, so the owner can still sell to you during redemption.",
+  "groups": "\"Michigan Real Estate Investors (MREI)\", \"Detroit Real Estate Investors\", \"Michigan Wholesale Deals\"",
+  "prefc": "<b>Value</b> here is the city assessor's assessed value, which in Michigan is half of market, so double it for a rough market number. Every lead is absentee by the assessor's own records: no principal residence exemption and the tax bill goes somewhere other than the house. <b>Blight ticket</b> means the city fined the owner for the condition of the building (dangerous, unsafe, vacant and not maintained, bad roof, walls or porch) and the fine went to collections. <b>Registered vacant</b> means the owner told the city the house is empty. <b>Fire damaged</b> means the city is holding part of the owner's fire insurance payout until the house is repaired or torn down.",
+  "sos": "<a href=\"https://cofs.lara.state.mi.us/SearchApi/Search/Search\" target=\"_blank\">Michigan LARA business search</a>",
+  "buyers_h": "Active cash buyers (assessor sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the city assessor sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on Michigan LARA and call.",
+  "buyers_empty": "No buyers found in the sale data yet.",
+  "repairs": "Repairs, Detroit rough numbers per house: cosmetic 10-20k, kitchen+baths 25-40k, roof 8-15k, furnace 5-8k, plumbing and electrical after a scrapper 10-20k, full gut 50-80k.",
+  "sources": "City of Detroit assessor parcel layer (owner, mailing address, principal residence exemption, assessed value, year built, floor area, last sale), city demolition pipeline, vacant property registrations, fire insurance escrow list, blight tickets in collections",
+  "contracts": "mo"
+ }
+}
