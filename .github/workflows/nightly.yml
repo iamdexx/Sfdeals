@@ -68,4 +68,4 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: fa38e4e6ce251caba23555f398017263
-        run: npx -y wrangler@3 pages deploy site --project-name=deals-site --branch=main --commit-dirty=true
+        run: cd site && npx -y wrangler@3 pages deploy . --project-name=deals-site --branch=main --commit-dirty=true

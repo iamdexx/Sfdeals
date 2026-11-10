@@ -29,3 +29,5 @@ Phoenix (`phx`, Maricopa County: assessor parcels, delinquent tax and state held
 ## Public site (SEO)
 
 `python -m sfdeals.site <site-url>` writes a static marketing site into `site/` (gitignored): home, metros index, one page per metro and per signal with live counts and a sitemap. The heartbeat `site` job rebuilds it after every pull and deploys to Cloudflare Pages (`deals-site`) when the `CLOUDFLARE_API_TOKEN` repo secret exists.
+
+Seller pages live at `/sell/<metro>/` on the site. The form posts to a Pages Function (`sfdeals/pages_functions/api/inbound.js`) backed by the `deals-inbound` KV namespace; the app's More tab pulls new sellers with the inbox key (`INBOUND_TOKEN` on the Pages project) and files them as leads.
