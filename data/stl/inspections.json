@@ -720,6 +720,18 @@
   "text": "Address; Cornice/Fascia; General; Gutters/Downspout; Marquee/Fixed Awnings; Porch; Windows"
  },
  {
+  "id": 2073911,
+  "date": "2026-11-10",
+  "addr": "3402 WATSON RD",
+  "pid": "47669650000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 2,
+  "text": "Roof; Walls"
+ },
+ {
   "id": 2073876,
   "date": "2026-11-10",
   "addr": "3402 WATSON RD",
