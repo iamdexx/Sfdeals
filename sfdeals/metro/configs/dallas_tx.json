@@ -1,0 +1,148 @@
+{
+ "name": "Dallas, TX",
+ "short": "Dallas",
+ "state": "TX",
+ "min_value": 70000,
+ "counties": [
+  {
+   "name": "Dallas County",
+   "parcels": {
+    "url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/CRMHostedLayers/FeatureServer/0",
+    "page": 2000,
+    "where": "PropClass = 'SINGLE FAMILY RESIDENCES' AND CountyJuris = 'DALLAS COUNTY' AND Owner1 <> '' AND TotalVal > 0",
+    "map": {
+     "tag": "AccountID",
+     "addr": [
+      "SiteAddrNum",
+      "SiteStreetname"
+     ],
+     "muni": "CityJuris",
+     "owner": "Owner1",
+     "mail": "OwnAddr2",
+     "mail_city": "OwnerCity",
+     "mail_state": "OwnerState",
+     "mail_zip": "OwnerZip",
+     "landuse": "PropClass",
+     "value": "TotalVal"
+    },
+    "extra": [
+     "BldgClass",
+     "ImpVal",
+     "LandVal",
+     "NbhdCode"
+    ]
+   },
+   "signals": [
+    {
+     "name": "demolish",
+     "weight": 45,
+     "label": "city demolition case (code compliance)",
+     "url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/CRM_90Days/FeatureServer/0",
+     "where": "Subject = 'Demolition Property - CCS'",
+     "map": {
+      "tag": "Service_Request_Number_c",
+      "addr": "Address_c",
+      "case": "CaseNumber",
+      "kind": "Subject",
+      "status": "Status",
+      "opened": "CreatedDate"
+     },
+     "addr_strip": ",\\s*[A-Z .]+,\\s*TX,?\\s*\\d{5}(-\\d{4})?$"
+    },
+    {
+     "name": "chronic",
+     "weight": 30,
+     "label": "chronic problem property, intensive code case (city)",
+     "url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/CRM_90Days/FeatureServer/0",
+     "where": "Subject = 'Intensive Case Resolution - CCS'",
+     "map": {
+      "tag": "Service_Request_Number_c",
+      "addr": "Address_c",
+      "case": "CaseNumber",
+      "kind": "Subject",
+      "status": "Status",
+      "opened": "CreatedDate"
+     },
+     "addr_strip": ",\\s*[A-Z .]+,\\s*TX,?\\s*\\d{5}(-\\d{4})?$"
+    },
+    {
+     "name": "nuisance",
+     "weight": 20,
+     "label": "city mow or clean-up order, last 90 days (lien)",
+     "url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/CRM_90Days/FeatureServer/0",
+     "where": "Subject IN ('Nuisance Abatement Tracking - CCS','Mow Clean Request - CCS','Heavy Clean Request  - CCS','Mow Clean Tire Removal - CCS','Litter Removal Request - CCS','Vegetation Removal Request - CCS') AND ResCom = 'R'",
+     "map": {
+      "tag": "Service_Request_Number_c",
+      "addr": "Address_c",
+      "case": "CaseNumber",
+      "kind": "Subject",
+      "status": "Status",
+      "opened": "CreatedDate"
+     },
+     "addr_strip": ",\\s*[A-Z .]+,\\s*TX,?\\s*\\d{5}(-\\d{4})?$"
+    },
+    {
+     "name": "code_open",
+     "weight": 15,
+     "label": "open code complaint (311, last 90 days)",
+     "url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/CRM_90Days/FeatureServer/0",
+     "where": "Subject = 'Code Concern - CCS' AND IsClosed = 0 AND ResCom = 'R'",
+     "map": {
+      "tag": "Service_Request_Number_c",
+      "addr": "Address_c",
+      "case": "CaseNumber",
+      "kind": "Subject",
+      "status": "Status",
+      "opened": "CreatedDate"
+     },
+     "addr_strip": ",\\s*[A-Z .]+,\\s*TX,?\\s*\\d{5}(-\\d{4})?$"
+    },
+    {
+     "name": "rental_reg",
+     "weight": 10,
+     "label": "unregistered single family rental (city)",
+     "url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/CRM_90Days/FeatureServer/0",
+     "where": "Subject = 'Single Family Rental Needs Registration - CCS'",
+     "map": {
+      "tag": "Service_Request_Number_c",
+      "addr": "Address_c",
+      "case": "CaseNumber",
+      "kind": "Subject",
+      "status": "Status",
+      "opened": "CreatedDate"
+     },
+     "addr_strip": ",\\s*[A-Z .]+,\\s*TX,?\\s*\\d{5}(-\\d{4})?$"
+    }
+   ],
+   "lookup": "https://www.dallascad.org/AcctDetail.aspx?ID={tag}"
+  }
+ ],
+ "ui": {
+  "name": "Dallas",
+  "st": "TX",
+  "q": " Dallas TX",
+  "sigs": [
+   "all",
+   "demolition",
+   "chronic",
+   "mow or clean-up",
+   "code complaint",
+   "unregistered",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://www.dallascad.org/AcctDetail.aspx?ID={tag}\" target=\"_blank\">DCAD account</a> \u00b7 <a href=\"https://www.dallasact.com/act_webdev/dallas/index.jsp\" target=\"_blank\">County tax office</a>",
+  "title_cos": "Capital Title, Independence Title, Republic Title, all in Dallas",
+  "title_call": "Capital Title or Independence Title",
+  "law": "Texas lets you assign a purchase contract, but since 2017 you must tell every buyer in writing that you hold only an option or contract, not title (Property Code 5.086). Texas is a non-judicial foreclosure state: trustee sales are the first Tuesday of the month and notices are posted at the County Clerk 21 days before. Sale prices are not public in Texas.",
+  "groups": "\"DFW Real Estate Investors\", \"Dallas REIA\", \"Texas Wholesale Deals\"",
+  "prefc": "<b>Code cases</b>: Dallas Code Compliance works through 311. A demolition case means the city is moving to tear the house down. A mow or clean-up order means city crews cut the grass or hauled trash and the cost goes on the property as a lien. An open code complaint is an inspector case still in progress.",
+  "sos": "<a href=\"https://mycpa.cpa.state.tx.us/coa/\" target=\"_blank\">Texas Comptroller entity search</a>",
+  "buyers_h": "Active cash buyers",
+  "buyers_note": "Texas does not publish sale prices, so the buyer list cannot be built from the appraisal data here. Build it from closed deals on the DFW MLS or from the county deed records (Dallas County Clerk) instead.",
+  "buyers_empty": "No sale prices in Texas appraisal data, so no buyer list for Dallas yet.",
+  "repairs": "Repairs, Dallas rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, roof 12-20k, HVAC 8-14k, foundation (common in Dallas clay) 8-25k, full gut 60-100k.",
+  "sources": "Dallas Central Appraisal District account data as published by the City of Dallas (owner, mailing address, property class, total value), City of Dallas 311 code compliance cases (last 90 days)",
+  "contracts": "mo"
+ }
+}

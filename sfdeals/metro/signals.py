@@ -1,4 +1,5 @@
 """Pull every signal layer named in the metro config into one list: {sig, weight, label, tag, addr, ...}."""
+import re
 from ..util import save, norm_addr
 from ..stl import arcgis
 from . import metros
@@ -6,8 +7,11 @@ from . import metros
 
 def row(a, s):
     m = s["map"]
+    addr = str(a.get(m.get("addr")) or "") if m.get("addr") else ""
+    if addr and s.get("addr_strip"):
+        addr = re.sub(s["addr_strip"], "", addr.strip(), flags=re.I)
     r = {"sig": s["name"], "weight": s["weight"], "label": s["label"], "tag": str(a.get(m["tag"]) or "").strip(),
-         "addr": norm_addr(a.get(m.get("addr")) or "") if m.get("addr") else ""}
+         "addr": norm_addr(addr)}
     for k, f in m.items():
         if k not in ("tag", "addr"):
             r[k] = a.get(f)
