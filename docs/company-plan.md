@@ -37,6 +37,20 @@ Core product surfaces:
 
 Mobile: installable PWA on day one (home screen icon, push), native wrappers via Capacitor for App Store and Google Play in month 4. Same code.
 
+### Competitive read (Nov 2026 pricing pages)
+
+| | PropStream | Left Main REI | Us |
+|---|---|---|---|
+| Price | Essentials $99/mo ($81 annual), Pro $199/mo with 2 seats | $500, $1,200, $2,000 per month plus $3,000 implementation; $80 per extra user; built on Salesforce | $49 / $99 / $249, no setup fee |
+| Data refresh | national lists, monthly-style updates | 100k "real-time" records a month via DealSignals | every 2 hours per metro |
+| Early signals | pre-foreclosure from national aggregators (lagging weeks) | buys signals from vendors | recorder filings, tax lien lists, appraiser condition, same day |
+| Skip trace | 12c (Essentials), 10c (Pro), or $30/mo Connect bundle with free tracing | via BatchLeads integration | 10c to 15c pass-through now; add a $29/mo "unlimited for your list" bundle on Pro to match Connect |
+| CRM | web plus mobile app, generic | Salesforce, powerful, heavy, needs an admin | phone-first, frozen call list, playbook for beginners |
+| Marketing | postcards 57c, email 2c, Lead Automator 50k properties | bulk text, email, tasks | not yet; add email alerts and postcard export in Phase 3 |
+| Setup | self serve, 7-day trial with 50 free leads | weeks of implementation | self serve, 7-day trial |
+
+Takeaways: PropStream owns the "everything national" buyer; Left Main owns 5 to 10 person teams with budgets. Nobody serves the solo or first-year wholesaler who wants today's distressed owners in one metro and a phone. Keep Starter at $49, keep the trial's first 50 skip traces free (match PropStream), add the skip trace bundle, and say "fresh every 2 hours" everywhere; that single line is the difference nobody else can claim.
+
 ## 3. Architecture at $0
 
 Design rule: no server we pay for until revenue pays for it. Everything below has a free tier that carries us to roughly 1,000 paying users.
