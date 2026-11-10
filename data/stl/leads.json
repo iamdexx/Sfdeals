@@ -1,6 +1,7 @@
 {
  "as_of": "2026-11-10",
- "count": 130391,
+ "updated": "2026-11-10T18:11:28Z",
+ "count": 130392,
  "hot": 19054,
  "leads": [
   {
@@ -23818,6 +23819,57 @@
    "as_of": "2026-11-10"
   },
   {
+   "tag": "36279310000",
+   "cid": "36279310000",
+   "handle": "13627000310",
+   "addr": "3833 ST LOUIS AVE",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 59,
+   "owner": "WILLIAMS, ROBERT LEE & OTIS WILLIAMS",
+   "mail": "3833 SAINT LOUIS AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63107",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4845,
+   "year": 1910,
+   "value": 2080.0,
+   "tax_bal": 198.27,
+   "vac_year": 2006,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "score": 90,
+   "why": [
+    "absentee",
+    "tax delinquent $198",
+    "vacant building since 2006"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 198.27,
+      "year": "",
+      "legal": "city tax balance"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 81,
+      "vmin": 8,
+      "vmaj": 10,
+      "csb": 1,
+      "unpd": 3150.0,
+      "year": 2006
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
    "tag": "36309320000",
    "cid": "36309320000",
    "handle": "13630000320",
@@ -31110,7 +31162,7 @@
    "county": "St. Louis City",
    "nbhd": 56,
    "owner": "JOHNSON, MICHAEL J",
-   "mail": "4620 ST LOUIS",
+   "mail": "4620 SAINT LOUIS",
    "mail_city": "St Louis",
    "mail_state": "MO",
    "mail_zip": "63115",
@@ -137905,7 +137957,7 @@
    "as_of": "2026-11-10"
   }
  ],
- "absentee_only": 111337,
+ "absentee_only": 111338,
  "city": 18284,
  "county": 770
 }

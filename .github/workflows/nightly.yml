@@ -1,14 +1,16 @@
-name: nightly
+name: heartbeat
 on:
   schedule:
-    - cron: "0 11 * * *"   # 5am Central
+    # every 2 hours, 6am to 10pm Central (UTC-6; an hour earlier in summer)
+    - cron: "0 12,14,16,18,20,22 * * *"
+    - cron: "0 0,2,4 * * *"
   workflow_dispatch:
   push:
     branches: [main]
     paths: [sfdeals/**, config.json, requirements.txt, .github/workflows/nightly.yml]
 permissions:
   contents: write
-concurrency: nightly
+concurrency: heartbeat
 jobs:
   pull:
     runs-on: ubuntu-latest
@@ -24,5 +26,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add data
-          git diff --cached --quiet || git commit -m "data: nightly pull $(date -u +%F)"
+          git diff --cached --quiet || git commit -m "data: pull $(date -u +%FT%H:%MZ)"
           git push

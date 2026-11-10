@@ -78,10 +78,11 @@ const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 async function load(){
   try{const d=await (await fetch(`data/${mk}/leads.json?`+Date.now())).json();leads=d.leads;meta=d;}catch(e){meta={error:String(e)}}
   try{buyers=await (await fetch(`data/${mk}/buyers.json?`+Date.now())).json()}catch(e){buyers=[]}
-  $('#sub').textContent=meta.as_of?`${meta.hot} hot leads${meta.city!=null?` (${meta.city} city, ${meta.county} county)`:''}, ${meta.absentee_only} absentee only, data ${meta.as_of}`:'no data yet (nightly job has not run)';
+  $('#sub').innerHTML=meta.as_of?`${meta.hot} hot leads${meta.city!=null?` (${meta.city} city, ${meta.county} county)`:''}, ${meta.absentee_only} absentee only. ${fresh(meta)}`:'no data yet (nightly job has not run)';
   go(location.hash.slice(1)||(S.seen?'today':'start'));S.seen=1;save();
 }
 function go(v){view=v;location.hash=v;document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.v===v));({start,today:todayView,leads:leadsView,calc,buyers:buyersView,more,lead})[v.split(':')[0]](v.split(':')[1]);window.scrollTo(0,0)}
+function fresh(m){if(!m.updated)return `data ${m.as_of}`;const h=(Date.now()-Date.parse(m.updated))/36e5;const t=h<1?`${Math.max(1,Math.round(h*60))} min ago`:h<48?`${Math.round(h)} h ago`:`${Math.round(h/24)} days ago`;return h>8?`<span style="color:#f66">updated ${t}, pull may be stuck</span>`:`updated ${t}`}
 function tags(l){return l.why.map(w=>`<span class="tag ${/sheriff|bank|condemned|land tax|trustee|tax sale|pre-foreclosure/.test(w)?'fc':/tax|citation|violation|vacant|secure/.test(w)?'hot':''}">${esc(w)}</span>`).join('')}
 function card(l){const c=crm(l.tag);return `<div class="card" onclick="go('lead:${l.tag}')"><div class="row"><div class="addr">${esc(l.addr)}</div><div class="score">${l.score}</div></div>
 <div class="mut">${esc(l.owner)} ${l.mail&&l.mail!==l.addr?'· mails to '+esc(l.mail_city||l.mail):''}</div><div>${tags(l)} <span class="status st-${c.status}">${c.status}</span>${c.next?` <span class="mut">next ${c.next}</span>`:''}</div></div>`}
@@ -188,7 +189,7 @@ function addBuyer(){const n=$('#bn').value.trim();if(!n)return;S.buyers.push({n,
 function more(){
   const st={};Object.values(S.crm).forEach(c=>st[c.status]=(st[c.status]||0)+1);
   M.innerHTML=`<div class="card"><b>Pipeline</b><div>${Object.entries(st).map(([k,v])=>`<span class="tag">${k}: ${v}</span>`).join('')||'<span class="mut">nothing logged yet</span>'}</div></div>
-  <div class="card"><b>Data</b><div class="mut">${meta.as_of?`Updated ${meta.as_of}. ${meta.count} parcels with a signal, ${meta.hot} with a distress signal beyond absentee.`:esc(meta.error||'no data')}</div>
+  <div class="card"><b>Data</b><div class="mut">${meta.as_of?`${fresh(meta)}. Pulled every 2 hours, 6am to 10pm. ${meta.count} parcels with a signal, ${meta.hot} with a distress signal beyond absentee.`:esc(meta.error||'no data')}</div>
   <div class="mut">Sources: ${MK.sources}. Refreshed nightly by GitHub Actions.</div></div>
   <div class="card"><b>Your notes live on this phone</b><div class="mut">Notes are kept per market (${MK.name} now). Tap Backup to save a JSON file to iCloud now and then. Restore here.</div><button class="b alt" onclick="$('#imp').click()">Restore backup</button></div>
   <div class="card"><a href="docs/call-script.md">Call script</a> · <a href="docs/contracts/purchase-agreement-${MK.contracts}.md">Purchase agreement draft</a> · <a href="docs/contracts/assignment-${MK.contracts}.md">Assignment draft</a> · <a href="docs/sources${mk==='stl'?'-stl':''}.md">Data sources and law notes</a></div>`}

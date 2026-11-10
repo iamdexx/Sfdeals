@@ -75,7 +75,7 @@ def run():
         leads.append({**p, "score": score, "why": why, "signals": {k: (sorted(v, key=lambda c: c["date"], reverse=True) if k == "citations" else v) for k, v in (s or {}).items() if v}, "as_of": today})
     leads.sort(key=lambda x: (-x["score"], x["addr"]))
     hot = [l for l in leads if l["why"] != ["absentee"] and l["why"] != ["absentee", "out of state"]]
-    save("leads.json", {"as_of": today, "count": len(leads), "hot": len(hot), "leads": hot[:2000],
+    save("leads.json", {"as_of": today, "updated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "count": len(leads), "hot": len(hot), "leads": hot[:2000],
                         "absentee_only": len(leads) - len(hot)})
     buyers = defaultdict(lambda: {"name": "", "buys": 0, "total": 0.0, "last": ""})
     for s in sh["results"]:

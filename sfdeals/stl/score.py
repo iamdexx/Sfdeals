@@ -127,7 +127,7 @@ def run():
     leads.sort(key=lambda x: (-x["score"], x["addr"]))
     hot = [l for l in leads if l["why"] not in (["absentee"], ["absentee", "out of state"])]
     top = hot[:2500] + [l for l in hot[2500:] if any(k in l["signals"] for k in KEEP)]
-    save("leads.json", {"as_of": today, "count": len(leads), "hot": len(hot), "leads": top,
+    save("leads.json", {"as_of": today, "updated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "count": len(leads), "hot": len(hot), "leads": top,
                         "absentee_only": len(leads) - len(hot),
                         "city": sum(l["county"] == "St. Louis City" for l in hot), "county": sum(l["county"] == "St. Louis County" for l in hot)})
     save("buyers.json", [])
