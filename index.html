@@ -92,9 +92,9 @@ function card(l){const c=crm(l.tag);return `<div class="card" onclick="go('lead:
 <div class="mut">${esc(l.owner)} ${l.mail&&l.mail!==l.addr?'· mails to '+esc(l.mail_city||l.mail):''}</div><div>${tags(l)} <span class="status st-${c.status}">${c.status}</span>${c.next?` <span class="mut">next ${c.next}</span>`:''}</div></div>`}
 function todayView(){
   const d=today(),due=leads.filter(l=>{const c=S.crm[l.tag];return c&&c.next&&c.next<=d&&c.status!=='dead'});
-  const fresh=leads.filter(l=>!S.crm[l.tag]).slice(0,10);
+  const held=heldTags(),fresh=leads.filter(l=>held.has(l.tag)&&!touched(S.crm[l.tag]||{status:'new'})).sort((a,b)=>b.score-a.score).slice(0,25);
   M.innerHTML=`<h3>Follow-ups due (${due.length})</h3>${due.map(card).join('')||'<div class="mut">Nothing due.</div>'}
-  <h3>Next 10 to call</h3>${fresh.map(card).join('')||'<div class="mut">All leads touched. Nice.</div>'}
+  <h3>Next 25 to call</h3><div class="mut">From your held list (since ${S.heldAt||today()}). Each one stays here until you log a call or set a status. Get more on the Leads tab with Refresh list.</div>${fresh.map(card).join('')||'<div class="mut">All held leads touched. Tap Refresh list on the Leads tab for more.</div>'}
   <div class="card mut">Rule: 20 dials a day. Log every call, even no answer, and set a next date. <a href="docs/call-script.md">Call script</a></div>`}
 const HOLD=300;
 function holdSync(){
