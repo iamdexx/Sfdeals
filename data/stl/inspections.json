@@ -708,7 +708,7 @@
   "text": "Address; Gutters/Downspout; Porch"
  },
  {
-  "id": 2073868,
+  "id": 2073921,
   "date": "2026-11-10",
   "addr": "4451 GRAVOIS AVE",
   "pid": "53289360000",
@@ -730,6 +730,18 @@
   "major": 0,
   "minor": 2,
   "text": "Roof; Walls"
+ },
+ {
+  "id": 2073868,
+  "date": "2026-11-10",
+  "addr": "4451 GRAVOIS AVE",
+  "pid": "53289360000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 7,
+  "text": "Address; Cornice/Fascia; General; Gutters/Downspout; Marquee/Fixed Awnings; Porch; Windows"
  },
  {
   "id": 2073876,

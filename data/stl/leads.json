@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-10",
- "updated": "2026-11-10T22:10:10Z",
+ "updated": "2026-11-10T22:26:35Z",
  "count": 128182,
  "hot": 2072,
  "leads": [
@@ -34099,6 +34099,62 @@
       "date": "2026-11-04",
       "type": "Violation Letter",
       "action": "Address; Cornice/Fascia; Door; Gutters/Downspout; Parking Area; Windows"
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "53289360000",
+   "cid": "53289360000",
+   "handle": "15328000360",
+   "addr": "4451 GRAVOIS AVE",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 5,
+   "owner": "CHANDLER, HENRY & ROCHELLE",
+   "mail": "4451 GRAVOIS AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63116",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3878,
+   "year": 1908,
+   "value": 16950.0,
+   "tax_bal": 0,
+   "vac_year": 2005,
+   "lender": "438",
+   "sale_price": 49000.0,
+   "sale_date": "2000-12-14",
+   "mkt": 89211,
+   "score": 45,
+   "why": [
+    "vacant 21+ years",
+    "2 code violations"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "mo": 0,
+      "vmin": 7,
+      "vmaj": 3,
+      "csb": 0,
+      "unpd": 0.0,
+      "year": 2005
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Address; Cornice/Fascia; General; Gutters/Downspout; Marquee/Fixed Awnings; Porch; Windows"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Address; Cornice/Fascia; General; Gutters/Downspout; Marquee/Fixed Awnings; Porch; Windows"
      }
     ]
    },
@@ -71240,52 +71296,6 @@
     "vacant": [
      {
       "year": 2018
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
-   "tag": "53289360000",
-   "cid": "53289360000",
-   "handle": "15328000360",
-   "addr": "4451 GRAVOIS AVE",
-   "zip": "63116",
-   "county": "St. Louis City",
-   "nbhd": 5,
-   "owner": "CHANDLER, HENRY & ROCHELLE",
-   "mail": "4451 GRAVOIS AVE",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63116",
-   "occ": "Y",
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 3878,
-   "year": 1908,
-   "value": 16950.0,
-   "tax_bal": 0,
-   "vac_year": 2005,
-   "lender": "438",
-   "sale_price": 49000.0,
-   "sale_date": "2000-12-14",
-   "mkt": 89211,
-   "score": 20,
-   "why": [
-    "vacant 21+ years",
-    "1 code violation"
-   ],
-   "signals": {
-    "vacant": [
-     {
-      "year": 2005
-     }
-    ],
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Address; Cornice/Fascia; General; Gutters/Downspout; Marquee/Fixed Awnings; Porch; Windows"
      }
     ]
    },
