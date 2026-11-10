@@ -1,0 +1,186 @@
+{
+ "name": "New York, NY",
+ "short": "New York",
+ "state": "NY",
+ "min_value": 150000,
+ "counties": [
+  {
+   "name": "Suffolk County (Brookhaven)",
+   "parcels": {
+    "url": "https://gis.brookhavenny.gov/server/rest/services/Town_Website_Map/MapServer/54",
+    "page": 2000,
+    "where": "PROPERTY_TYPE IN ('210','220','230') AND (STATE <> 'NY' OR TRIM(BOTH ' ' FROM OWNER_ADDRESS) <> TRIM(BOTH ' ' FROM PHYS_STREET) OR ON_VACANT_REGISTRY <> 'No' OR ARREARS IS NOT NULL OR PRIORARREARS IS NOT NULL)",
+    "map": {
+     "tag": "SCTM",
+     "addr": "PHYS_STREET",
+     "zip": "PHYS_ZIP",
+     "muni": "PHYS_CITY",
+     "owner": "OWNER_NAME",
+     "mail": "OWNER_ADDRESS",
+     "mail_city": "CITY",
+     "mail_state": "STATE",
+     "mail_zip": "OWN_ZIP",
+     "landuse": "PROPERTY_TYPE",
+     "value": "MARKET_VALUE",
+     "sale_date": "LAST_SALE_DATE",
+     "sale_price": "LAST_SALE_PRICE"
+    },
+    "extra": [
+     "ARREARS",
+     "PRIORARREARS",
+     "ON_VACANT_REGISTRY",
+     "TOTAL_TAX",
+     "EXEMPTION1",
+     "KEY_LABEL"
+    ]
+   },
+   "signals": [
+    {
+     "name": "condition",
+     "weight": 30,
+     "label": "building condition inferior (town assessor)",
+     "url": "https://gis.brookhavenny.gov/server/rest/services/Town_Website_Map/MapServer/55",
+     "where": "EXTERIOR_CONDITION = 'INFERIOR' OR INTERIOR_CONDITION = 'INFERIOR'",
+     "map": {
+      "tag": "SCTM",
+      "exterior": "EXTERIOR_CONDITION",
+      "interior": "INTERIOR_CONDITION",
+      "year": "YEAR_BLT",
+      "sqft": "TOTAL_LIVING"
+     }
+    }
+   ],
+   "derived": [
+    {
+     "name": "prior_arrears",
+     "weight": 40,
+     "label": "prior year taxes unpaid (town)",
+     "field": "PRIORARREARS",
+     "in": [
+      "PRIOR ARREARS"
+     ]
+    },
+    {
+     "name": "arrears",
+     "weight": 35,
+     "label": "property taxes in arrears (town)",
+     "field": "ARREARS",
+     "in": [
+      "ARREARS"
+     ]
+    },
+    {
+     "name": "vacant",
+     "weight": 30,
+     "label": "on the town vacant property registry",
+     "field": "ON_VACANT_REGISTRY",
+     "in": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026",
+      "2027"
+     ]
+    }
+   ],
+   "lookup": "https://gis.brookhavenny.gov/server/rest/services/Town_Website_Map/MapServer/54/query?where=SCTM%3D%27{tag}%27&outFields=*&f=html"
+  },
+  {
+   "name": "Suffolk County",
+   "parcels": {
+    "url": "https://gisservices.its.ny.gov/arcgis/rest/services/NYS_Tax_Parcels_Public/MapServer/1",
+    "page": 10000,
+    "where": "COUNTY_NAME = 'Suffolk' AND CITYTOWN_NAME <> 'Brookhaven' AND PROP_CLASS IN ('210','220','230') AND (MAIL_STATE <> 'NY' OR MAIL_ZIP <> LOC_ZIP OR (LOC_ZIP IS NULL AND MAIL_ADDR <> PARCEL_ADDR))",
+    "map": {
+     "tag": "SWIS_SBL_ID",
+     "addr": "PARCEL_ADDR",
+     "zip": "LOC_ZIP",
+     "muni": "MUNI_NAME",
+     "owner": "PRIMARY_OWNER",
+     "mail": [
+      "MAIL_ADDR",
+      "PO_BOX"
+     ],
+     "mail_city": "MAIL_CITY",
+     "mail_state": "MAIL_STATE",
+     "mail_zip": "MAIL_ZIP",
+     "landuse": "PROP_CLASS",
+     "year": "YR_BLT",
+     "res_sqft": "SQFT_LIVING",
+     "value": "FULL_MARKET_VAL"
+    },
+    "extra": [
+     "PRINT_KEY",
+     "CITYTOWN_NAME",
+     "TOTAL_AV",
+     "BLDG_STYLE_DESC"
+    ]
+   },
+   "signals": [],
+   "lookup": "https://gisservices.its.ny.gov/arcgis/rest/services/NYS_Tax_Parcels_Public/MapServer/1/query?where=SWIS_SBL_ID%3D%27{tag}%27&outFields=*&f=html"
+  },
+  {
+   "name": "Westchester County",
+   "parcels": {
+    "url": "https://gisservices.its.ny.gov/arcgis/rest/services/NYS_Tax_Parcels_Public/MapServer/1",
+    "page": 10000,
+    "where": "COUNTY_NAME = 'Westchester' AND PROP_CLASS IN ('210','220','230') AND (MAIL_STATE <> 'NY' OR MAIL_ZIP <> LOC_ZIP OR (LOC_ZIP IS NULL AND MAIL_ADDR <> PARCEL_ADDR))",
+    "map": {
+     "tag": "SWIS_SBL_ID",
+     "addr": "PARCEL_ADDR",
+     "zip": "LOC_ZIP",
+     "muni": "MUNI_NAME",
+     "owner": "PRIMARY_OWNER",
+     "mail": [
+      "MAIL_ADDR",
+      "PO_BOX"
+     ],
+     "mail_city": "MAIL_CITY",
+     "mail_state": "MAIL_STATE",
+     "mail_zip": "MAIL_ZIP",
+     "landuse": "PROP_CLASS",
+     "year": "YR_BLT",
+     "res_sqft": "SQFT_LIVING",
+     "value": "FULL_MARKET_VAL"
+    },
+    "extra": [
+     "PRINT_KEY",
+     "CITYTOWN_NAME",
+     "TOTAL_AV",
+     "BLDG_STYLE_DESC"
+    ]
+   },
+   "signals": [],
+   "lookup": "https://gisservices.its.ny.gov/arcgis/rest/services/NYS_Tax_Parcels_Public/MapServer/1/query?where=SWIS_SBL_ID%3D%27{tag}%27&outFields=*&f=html"
+  }
+ ],
+ "ui": {
+  "name": "New York",
+  "st": "NY",
+  "q": " NY",
+  "sigs": [
+   "all",
+   "taxes unpaid",
+   "arrears",
+   "vacant",
+   "condition",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://gis.brookhavenny.gov/server/rest/services/Town_Website_Map/MapServer/54/query?where=SCTM%3D%27{tag}%27&outFields=*&f=html\" target=\"_blank\">Brookhaven assessor record</a> \u00b7 <a href=\"https://gisservices.its.ny.gov/arcgis/rest/services/NYS_Tax_Parcels_Public/MapServer/1/query?where=SWIS_SBL_ID%3D%27{tag}%27&outFields=*&f=html\" target=\"_blank\">State parcel record</a>",
+  "title_cos": "Advantage Title in Melville, Titleserv in Woodbury, Fidelity National Title in Garden City and White Plains",
+  "title_call": "Advantage Title or Titleserv",
+  "law": "New York is an attorney state: both sides use a lawyer and the attorney holds the deposit, so your closing agent is a real estate attorney, not a title company. You can assign a purchase contract; put the assignment right in the contract and never market the house itself. Foreclosure is judicial and slow (often 2 to 3 years), so owners behind on taxes or a mortgage have time to sell to you.",
+  "groups": "\"Long Island REIA\", \"Westchester Real Estate Investors\", \"New York Wholesale Deals\"",
+  "prefc": "<b>Taxes in arrears</b>: the Town of Brookhaven marks every house whose tax bill is unpaid, and <b>prior year taxes unpaid</b> means it has been more than a year, so Suffolk County now holds the lien and can take the deed after 3 years. <b>Vacant registry</b> is the town's own list of empty houses (year registered). <b>Condition inferior</b> is the assessor's field inspection rating. Outside Brookhaven the leads are absentee only for now.",
+  "sos": "<a href=\"https://apps.dos.ny.gov/publicInquiry/\" target=\"_blank\">NY Department of State search</a>",
+  "buyers_h": "Active cash buyers (Brookhaven assessor sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the Town of Brookhaven sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on the NY Department of State and call.",
+  "buyers_empty": "No buyers found in the sale data yet.",
+  "repairs": "Repairs, Long Island and Westchester rough numbers per house: cosmetic 20-35k, kitchen+baths 40-70k, roof 15-25k, boiler or HVAC 10-18k, oil tank removal 3-6k, cesspool or septic 8-20k, full gut 100-180k.",
+  "sources": "Town of Brookhaven assessor property layer (owner, mailing address, market value, last sale, tax arrears, vacant registry) and building inventory (condition), New York State tax parcel layer for the rest of Suffolk County and Westchester County (owner, mailing address, full market value, year built, living area)",
+  "contracts": "mo"
+ }
+}
