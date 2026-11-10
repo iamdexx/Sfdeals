@@ -1,394 +1,394 @@
-rank,cbsa,metro,state,principal_county,county_fips,pop_2023,central_counties
-1,35620,"New York-Newark-Jersey City, NY-NJ",New Jersey,Middlesex County,34023,19498249,Middlesex County (New Jersey); Monmouth County (New Jersey); Ocean County (New Jersey); Somerset County (New Jersey); Nassau County (New York); Suffolk County (New York); Essex County (New Jersey); Morris County (New Jersey); Union County (New Jersey); Bergen County (New Jersey); Hudson County (New Jersey); Passaic County (New Jersey); Bronx County (New York); Kings County (New York); New York County (New York); Putnam County (New York); Queens County (New York); Richmond County (New York); Rockland County (New York); Westchester County (New York)
-2,31080,"Los Angeles-Long Beach-Anaheim, CA",California,Orange County,06059,12799100,Orange County (California); Los Angeles County (California)
-3,16980,"Chicago-Naperville-Elgin, IL-IN",Illinois,Cook County,17031,9262825,Cook County (Illinois); DuPage County (Illinois); McHenry County (Illinois); Will County (Illinois); Kane County (Illinois); Kendall County (Illinois); Lake County (Illinois); Lake County (Indiana); Porter County (Indiana)
-4,19100,"Dallas-Fort Worth-Arlington, TX",Texas,Collin County,48085,8100037,Collin County (Texas); Dallas County (Texas); Ellis County (Texas); Rockwall County (Texas); Johnson County (Texas); Tarrant County (Texas)
-5,26420,"Houston-Pasadena-The Woodlands, TX",Texas,Brazoria County,48039,7510253,Brazoria County (Texas); Fort Bend County (Texas); Harris County (Texas); Waller County (Texas)
-6,12060,"Atlanta-Sandy Springs-Roswell, GA",Georgia,Clayton County,13063,6307261,Clayton County (Georgia); Coweta County (Georgia); Dawson County (Georgia); DeKalb County (Georgia); Douglas County (Georgia); Fayette County (Georgia); Forsyth County (Georgia); Fulton County (Georgia); Gwinnett County (Georgia); Henry County (Georgia); Newton County (Georgia); Rockdale County (Georgia); Walton County (Georgia); Cherokee County (Georgia); Cobb County (Georgia); Paulding County (Georgia)
-7,47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",Virginia,Arlington County,51013,6304975,Arlington County (Virginia); Fairfax County (Virginia); Loudoun County (Virginia); Prince William County (Virginia); Stafford County (Virginia); Alexandria city (Virginia); Fairfax city (Virginia); Falls Church city (Virginia); Manassas city (Virginia); Manassas Park city (Virginia); Montgomery County (Maryland); District of Columbia (District of Columbia); Prince George's County (Maryland)
-8,37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",New Jersey,Burlington County,34005,6246160,Burlington County (New Jersey); Camden County (New Jersey); Gloucester County (New Jersey); Bucks County (Pennsylvania); Chester County (Pennsylvania); Montgomery County (Pennsylvania); Delaware County (Pennsylvania); Philadelphia County (Pennsylvania); New Castle County (Delaware); Cecil County (Maryland); Salem County (New Jersey)
-9,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",Florida,Broward County,12011,6183199,Broward County (Florida); Miami-Dade County (Florida); Palm Beach County (Florida)
-10,38060,"Phoenix-Mesa-Chandler, AZ",Arizona,Maricopa County,04013,5070110,Maricopa County (Arizona); Pinal County (Arizona)
-11,14460,"Boston-Cambridge-Newton, MA-NH",Massachusetts,Norfolk County,25021,4919179,Norfolk County (Massachusetts); Plymouth County (Massachusetts); Suffolk County (Massachusetts); Essex County (Massachusetts); Middlesex County (Massachusetts); Rockingham County (New Hampshire)
-12,40140,"Riverside-San Bernardino-Ontario, CA",California,Riverside County,06065,4688053,Riverside County (California); San Bernardino County (California)
-13,41860,"San Francisco-Oakland-Fremont, CA",California,Alameda County,06001,4566961,Alameda County (California); San Francisco County (California); San Mateo County (California); Marin County (California)
-14,19820,"Detroit-Warren-Dearborn, MI",Michigan,Wayne County,26163,4342304,Wayne County (Michigan); Macomb County (Michigan); Oakland County (Michigan)
-15,42660,"Seattle-Tacoma-Bellevue, WA",Washington,Snohomish County,53061,4044837,Snohomish County (Washington); King County (Washington); Pierce County (Washington)
-16,33460,"Minneapolis-St. Paul-Bloomington, MN-WI",Minnesota,Anoka County,27003,3712020,Anoka County (Minnesota); Carver County (Minnesota); Dakota County (Minnesota); Hennepin County (Minnesota); Ramsey County (Minnesota); Scott County (Minnesota); Sherburne County (Minnesota); Washington County (Minnesota); Wright County (Minnesota)
-17,45300,"Tampa-St. Petersburg-Clearwater, FL",Florida,Pinellas County,12103,3342963,Pinellas County (Florida); Hillsborough County (Florida); Pasco County (Florida)
-18,41740,"San Diego-Chula Vista-Carlsbad, CA",California,San Diego County,06073,3269973,San Diego County (California)
-19,19740,"Denver-Aurora-Centennial, CO",Colorado,Adams County,08001,3005131,Adams County (Colorado); Arapahoe County (Colorado); Broomfield County (Colorado); Denver County (Colorado); Douglas County (Colorado); Jefferson County (Colorado)
-20,12580,"Baltimore-Columbia-Towson, MD",Maryland,Anne Arundel County,24003,2834316,Anne Arundel County (Maryland); Baltimore County (Maryland); Howard County (Maryland); Baltimore city (Maryland)
-21,36740,"Orlando-Kissimmee-Sanford, FL",Florida,Orange County,12095,2817933,Orange County (Florida); Seminole County (Florida)
-22,16740,"Charlotte-Concord-Gastonia, NC-SC",North Carolina,Iredell County,37097,2805115,Iredell County (North Carolina); Mecklenburg County (North Carolina); Union County (North Carolina)
-23,41180,"St. Louis, MO-IL",Illinois,Madison County,17119,2796999,Madison County (Illinois); Monroe County (Illinois); St. Clair County (Illinois); Jefferson County (Missouri); St. Charles County (Missouri); St. Louis County (Missouri); St. Louis city (Missouri)
-24,41700,"San Antonio-New Braunfels, TX",Texas,Bexar County,48029,2703999,Bexar County (Texas); Guadalupe County (Texas)
-25,38900,"Portland-Vancouver-Hillsboro, OR-WA",Oregon,Clackamas County,41005,2508050,Clackamas County (Oregon); Multnomah County (Oregon); Washington County (Oregon); Clark County (Washington)
-26,12420,"Austin-Round Rock-San Marcos, TX",Texas,Hays County,48209,2473275,Hays County (Texas); Travis County (Texas); Williamson County (Texas)
-27,38300,"Pittsburgh, PA",Pennsylvania,Allegheny County,42003,2422725,Allegheny County (Pennsylvania); Beaver County (Pennsylvania); Butler County (Pennsylvania); Washington County (Pennsylvania); Westmoreland County (Pennsylvania)
-28,40900,"Sacramento-Roseville-Folsom, CA",California,El Dorado County,06017,2420608,El Dorado County (California); Placer County (California); Sacramento County (California)
-29,29820,"Las Vegas-Henderson-North Las Vegas, NV",Nevada,Clark County,32003,2336573,Clark County (Nevada)
-30,17140,"Cincinnati, OH-KY-IN",Kentucky,Boone County,21015,2271479,Boone County (Kentucky); Campbell County (Kentucky); Kenton County (Kentucky); Butler County (Ohio); Clermont County (Ohio); Hamilton County (Ohio); Warren County (Ohio)
-31,28140,"Kansas City, MO-KS",Kansas,Johnson County,20091,2221343,Johnson County (Kansas); Wyandotte County (Kansas); Cass County (Missouri); Clay County (Missouri); Jackson County (Missouri); Platte County (Missouri)
-32,18140,"Columbus, OH",Ohio,Delaware County,39041,2180271,Delaware County (Ohio); Fairfield County (Ohio); Franklin County (Ohio)
-33,17410,"Cleveland, OH",Ohio,Cuyahoga County,39035,2158932,Cuyahoga County (Ohio); Geauga County (Ohio); Lake County (Ohio); Medina County (Ohio)
-34,26900,"Indianapolis-Carmel-Greenwood, IN",Indiana,Boone County,18011,2138468,Boone County (Indiana); Hamilton County (Indiana); Hancock County (Indiana); Hendricks County (Indiana); Johnson County (Indiana); Marion County (Indiana); Morgan County (Indiana)
-35,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",Tennessee,Davidson County,47037,2102573,Davidson County (Tennessee); Sumner County (Tennessee); Williamson County (Tennessee); Wilson County (Tennessee)
-36,41940,"San Jose-Sunnyvale-Santa Clara, CA",California,Santa Clara County,06085,1945767,Santa Clara County (California)
-37,47260,"Virginia Beach-Chesapeake-Norfolk, VA-NC",Virginia,Gloucester County,51073,1787169,Gloucester County (Virginia); Isle of Wight County (Virginia); York County (Virginia); Chesapeake city (Virginia); Hampton city (Virginia); Newport News city (Virginia); Norfolk city (Virginia); Poquoson city (Virginia); Portsmouth city (Virginia); Virginia Beach city (Virginia)
-38,27260,"Jacksonville, FL",Florida,Clay County,12019,1713240,Clay County (Florida); Duval County (Florida); St. Johns County (Florida)
-39,39300,"Providence-Warwick, RI-MA",Massachusetts,Bristol County,25005,1677803,Bristol County (Massachusetts); Bristol County (Rhode Island); Kent County (Rhode Island); Newport County (Rhode Island); Providence County (Rhode Island); Washington County (Rhode Island)
-40,33340,"Milwaukee-Waukesha, WI",Wisconsin,Milwaukee County,55079,1560424,Milwaukee County (Wisconsin); Waukesha County (Wisconsin)
-41,39580,"Raleigh-Cary, NC",North Carolina,Franklin County,37069,1509231,Franklin County (North Carolina); Wake County (North Carolina)
-42,36420,"Oklahoma City, OK",Oklahoma,Canadian County,40017,1477926,Canadian County (Oklahoma); Cleveland County (Oklahoma); Logan County (Oklahoma); Oklahoma County (Oklahoma)
-43,31140,"Louisville/Jefferson County, KY-IN",Indiana,Clark County,18019,1365557,Clark County (Indiana); Floyd County (Indiana); Bullitt County (Kentucky); Jefferson County (Kentucky); Oldham County (Kentucky)
-44,40060,"Richmond, VA",Virginia,Chesterfield County,51041,1349732,Chesterfield County (Virginia); Dinwiddie County (Virginia); Hanover County (Virginia); Henrico County (Virginia); Prince George County (Virginia); Colonial Heights city (Virginia); Hopewell city (Virginia); Petersburg city (Virginia); Richmond city (Virginia)
-45,32820,"Memphis, TN-MS-AR",Arkansas,Crittenden County,05035,1335674,Crittenden County (Arkansas); DeSoto County (Mississippi); Shelby County (Tennessee)
-46,41620,"Salt Lake City-Murray, UT",Utah,Salt Lake County,49035,1267864,Salt Lake County (Utah)
-47,13820,"Birmingham, AL",Alabama,Jefferson County,01073,1184290,Jefferson County (Alabama); St. Clair County (Alabama); Shelby County (Alabama)
-48,23420,"Fresno, CA",California,Fresno County,06019,1180020,Fresno County (California)
-49,24340,"Grand Rapids-Wyoming-Kentwood, MI",Michigan,Kent County,26081,1162950,Kent County (Michigan)
-50,15380,"Buffalo-Cheektowaga, NY",New York,Erie County,36029,1155604,Erie County (New York); Niagara County (New York)
-51,25540,"Hartford-West Hartford-East Hartford, CT",Connecticut,Capitol Planning Region,09110,1151543,Capitol Planning Region (Connecticut); Lower Connecticut River Valley Planning Region (Connecticut)
-52,46060,"Tucson, AZ",Arizona,Pima County,04019,1063162,Pima County (Arizona)
-53,40380,"Rochester, NY",New York,Monroe County,36055,1052087,Monroe County (New York); Ontario County (New York)
-54,46140,"Tulsa, OK",Oklahoma,Creek County,40037,1044757,Creek County (Oklahoma); Osage County (Oklahoma); Tulsa County (Oklahoma); Wagoner County (Oklahoma)
-55,46520,"Urban Honolulu, HI",Hawaii,Honolulu County,15003,989408,Honolulu County (Hawaii)
-56,36540,"Omaha, NE-IA",Iowa,Pottawattamie County,19155,983969,Pottawattamie County (Iowa); Douglas County (Nebraska); Sarpy County (Nebraska)
-57,24860,"Greenville-Anderson-Greer, SC",South Carolina,Greenville County,45045,975480,Greenville County (South Carolina); Pickens County (South Carolina)
-58,35380,"New Orleans-Metairie, LA",Louisiana,Jefferson Parish,22051,962165,Jefferson Parish (Louisiana); Orleans Parish (Louisiana); Plaquemines Parish (Louisiana); St. Bernard Parish (Louisiana); St. Charles Parish (Louisiana); St. James Parish (Louisiana); St. John the Baptist Parish (Louisiana)
-59,14860,"Bridgeport-Stamford-Danbury, CT",Connecticut,Greater Bridgeport Planning Region,09120,951558,Greater Bridgeport Planning Region (Connecticut); Western Connecticut Planning Region (Connecticut)
-60,28940,"Knoxville, TN",Tennessee,Anderson County,47001,946264,Anderson County (Tennessee); Blount County (Tennessee); Knox County (Tennessee); Loudon County (Tennessee)
-61,10740,"Albuquerque, NM",New Mexico,Bernalillo County,35001,922296,Bernalillo County (New Mexico); Sandoval County (New Mexico)
-62,12540,"Bakersfield-Delano, CA",California,Kern County,06029,913820,Kern County (California)
-63,35840,"North Port-Bradenton-Sarasota, FL",Florida,Manatee County,12081,910108,Manatee County (Florida); Sarasota County (Florida)
-64,10580,"Albany-Schenectady-Troy, NY",New York,Albany County,36001,904682,Albany County (New York); Rensselaer County (New York); Schenectady County (New York)
-65,32580,"McAllen-Edinburg-Mission, TX",Texas,Hidalgo County,48215,898471,Hidalgo County (Texas)
-66,12940,"Baton Rouge, LA",Louisiana,Ascension Parish,22005,873661,Ascension Parish (Louisiana); East Baton Rouge Parish (Louisiana); Iberville Parish (Louisiana); Livingston Parish (Louisiana); West Baton Rouge Parish (Louisiana)
-67,10900,"Allentown-Bethlehem-Easton, PA-NJ",New Jersey,Warren County,34041,873555,Warren County (New Jersey); Lehigh County (Pennsylvania); Northampton County (Pennsylvania)
-68,21340,"El Paso, TX",Texas,El Paso County,48141,873331,El Paso County (Texas)
-69,49340,"Worcester, MA",Massachusetts,Worcester County,25027,866866,Worcester County (Massachusetts)
-70,17900,"Columbia, SC",South Carolina,Lexington County,45063,858302,Lexington County (South Carolina); Richland County (South Carolina)
-71,16700,"Charleston-North Charleston, SC",South Carolina,Berkeley County,45015,849417,Berkeley County (South Carolina); Charleston County (South Carolina); Dorchester County (South Carolina)
-72,15980,"Cape Coral-Fort Myers, FL",Florida,Lee County,12071,834573,Lee County (Florida)
-73,37100,"Oxnard-Thousand Oaks-Ventura, CA",California,Ventura County,06111,829590,Ventura County (California)
-74,14260,"Boise City, ID",Idaho,Ada County,16001,824657,Ada County (Idaho)
-75,29460,"Lakeland-Winter Haven, FL",Florida,Polk County,12105,818330,Polk County (Florida)
-76,19430,"Dayton-Kettering-Beavercreek, OH",Ohio,Greene County,39057,814363,Greene County (Ohio); Montgomery County (Ohio)
-77,44700,"Stockton-Lodi, CA",California,San Joaquin County,06077,800965,San Joaquin County (California)
-78,24660,"Greensboro-High Point, NC",North Carolina,Guilford County,37081,789842,Guilford County (North Carolina)
-79,17820,"Colorado Springs, CO",Colorado,El Paso County,08041,768832,El Paso County (Colorado)
-80,30780,"Little Rock-North Little Rock-Conway, AR",Arkansas,Lonoke County,05085,764045,Lonoke County (Arkansas); Pulaski County (Arkansas); Saline County (Arkansas)
-81,19780,"Des Moines-West Des Moines, IA",Iowa,Dallas County,19049,737164,Dallas County (Iowa); Polk County (Iowa)
-82,39340,"Provo-Orem-Lehi, UT",Utah,Utah County,49049,732197,Utah County (Utah)
-83,19660,"Deltona-Daytona Beach-Ormond Beach, FL",Florida,Flagler County,12035,721796,Flagler County (Florida); Volusia County (Florida)
-84,28880,"Kiryas Joel-Poughkeepsie-Newburgh, NY",New York,Dutchess County,36027,704620,Dutchess County (New York); Orange County (New York)
-85,10420,"Akron, OH",Ohio,Portage County,39133,698398,Portage County (Ohio); Summit County (Ohio)
-86,49180,"Winston-Salem, NC",North Carolina,Davidson County,37057,695630,Davidson County (North Carolina); Davie County (North Carolina); Forsyth County (North Carolina); Stokes County (North Carolina)
-87,31540,"Madison, WI",Wisconsin,Dane County,55025,694345,Dane County (Wisconsin)
-88,36260,"Ogden, UT",Utah,Davis County,49011,658133,Davis County (Utah); Weber County (Utah)
-89,45060,"Syracuse, NY",New York,Onondaga County,36067,652956,Onondaga County (New York)
-90,48620,"Wichita, KS",Kansas,Butler County,20015,652939,Butler County (Kansas); Sedgwick County (Kansas)
-91,37340,"Palm Bay-Melbourne-Titusville, FL",Florida,Brevard County,12009,643979,Brevard County (Florida)
-92,12260,"Augusta-Richmond County, GA-SC",Georgia,Columbia County,13073,629429,Columbia County (Georgia); Richmond County (Georgia); Aiken County (South Carolina)
-93,27140,"Jackson, MS",Mississippi,Hinds County,28049,610257,Hinds County (Mississippi); Madison County (Mississippi); Rankin County (Mississippi)
-94,20500,"Durham-Chapel Hill, NC",North Carolina,Chatham County,37037,608879,Chatham County (North Carolina); Durham County (North Carolina); Orange County (North Carolina)
-95,25420,"Harrisburg-Carlisle, PA",Pennsylvania,Cumberland County,42041,606055,Cumberland County (Pennsylvania); Dauphin County (Pennsylvania)
-96,44060,"Spokane-Spokane Valley, WA",Washington,Spokane County,53063,600292,Spokane County (Washington)
-97,45780,"Toledo, OH",Ohio,Lucas County,39095,600141,Lucas County (Ohio); Wood County (Ohio)
-98,22220,"Fayetteville-Springdale-Rogers, AR",Arkansas,Benton County,05007,590337,Benton County (Arkansas); Washington County (Arkansas)
-99,16860,"Chattanooga, TN-GA",Georgia,Catoosa County,13047,580971,Catoosa County (Georgia); Walker County (Georgia); Hamilton County (Tennessee)
-100,42540,"Scranton--Wilkes-Barre, PA",Pennsylvania,Lackawanna County,42069,569413,Lackawanna County (Pennsylvania); Luzerne County (Pennsylvania)
-101,35300,"New Haven, CT",Connecticut,South Central Connecticut Planning Region,09170,568158,South Central Connecticut Planning Region (Connecticut)
-102,38860,"Portland-South Portland, ME",Maine,Cumberland County,23005,566329,Cumberland County (Maine); York County (Maine)
-103,39900,"Reno, NV",Nevada,Washoe County,32031,564782,Washoe County (Nevada)
-104,29540,"Lancaster, PA",Pennsylvania,Lancaster County,42071,558589,Lancaster County (Pennsylvania)
-105,33700,"Modesto, CA",California,Stanislaus County,06099,551430,Stanislaus County (California)
-106,38940,"Port St. Lucie, FL",Florida,Martin County,12085,536901,Martin County (Florida); St. Lucie County (Florida)
-107,37860,"Pensacola-Ferry Pass-Brent, FL",Florida,Escambia County,12033,530090,Escambia County (Florida); Santa Rosa County (Florida)
-108,26620,"Huntsville, AL",Alabama,Limestone County,01083,527254,Limestone County (Alabama); Madison County (Alabama)
-109,30460,"Lexington-Fayette, KY",Kentucky,Fayette County,21067,520045,Fayette County (Kentucky)
-110,28660,"Killeen-Temple, TX",Texas,Bell County,48027,501333,Bell County (Texas); Coryell County (Texas)
-111,44180,"Springfield, MO",Missouri,Christian County,29043,491053,Christian County (Missouri); Greene County (Missouri)
-112,42220,"Santa Rosa-Petaluma, CA",California,Sonoma County,06097,481812,Sonoma County (California)
-113,47300,"Visalia, CA",California,Tulare County,06107,479468,Tulare County (California)
-114,29620,"Lansing-East Lansing, MI",Michigan,Clinton County,26037,473177,Clinton County (Michigan); Eaton County (Michigan); Ingham County (Michigan)
-115,48900,"Wilmington, NC",North Carolina,Brunswick County,37019,467337,Brunswick County (North Carolina); New Hanover County (North Carolina)
-116,49620,"York-Hanover, PA",Pennsylvania,York County,42133,464640,York County (Pennsylvania)
-117,44140,"Springfield, MA",Massachusetts,Hampden County,25013,460291,Hampden County (Massachusetts)
-118,23060,"Fort Wayne, IN",Indiana,Allen County,18003,457842,Allen County (Indiana)
-119,47930,"Waterbury-Shelton, CT",Connecticut,Naugatuck Valley Planning Region,09140,456128,Naugatuck Valley Planning Region (Connecticut)
-120,46700,"Vallejo, CA",California,Solano County,06095,449218,Solano County (California)
-121,18580,"Corpus Christi, TX",Texas,Nueces County,48355,448323,Nueces County (Texas); San Patricio County (Texas)
-122,42200,"Santa Maria-Santa Barbara, CA",California,Santa Barbara County,06083,441257,Santa Barbara County (California)
-123,41420,"Salem, OR",Oregon,Marion County,41047,436546,Marion County (Oregon); Polk County (Oregon)
-124,39740,"Reading, PA",Pennsylvania,Berks County,42011,432821,Berks County (Pennsylvania)
-125,41500,"Salinas, CA",California,Monterey County,06053,430723,Monterey County (California)
-126,31700,"Manchester-Nashua, NH",New Hampshire,Hillsborough County,33011,427354,Hillsborough County (New Hampshire)
-127,15180,"Brownsville-Harlingen, TX",Texas,Cameron County,48061,426710,Cameron County (Texas)
-128,49660,"Youngstown-Warren, OH",Ohio,Mahoning County,39099,425969,Mahoning County (Ohio); Trumbull County (Ohio)
-129,42340,"Savannah, GA",Georgia,Bryan County,13029,424935,Bryan County (Georgia); Chatham County (Georgia)
-130,25060,"Gulfport-Biloxi, MS",Mississippi,Hancock County,28045,421916,Hancock County (Mississippi); Harrison County (Mississippi)
-131,11700,"Asheville, NC",North Carolina,Buncombe County,37021,417202,Buncombe County (North Carolina); Henderson County (North Carolina)
-132,29180,"Lafayette, LA",Louisiana,Lafayette Parish,22055,414288,Lafayette Parish (Louisiana)
-133,33660,"Mobile, AL",Alabama,Mobile County,01097,411640,Mobile County (Alabama)
-134,36100,"Ocala, FL",Florida,Marion County,12083,409959,Marion County (Florida)
-135,34940,"Naples-Marco Island, FL",Florida,Collier County,12021,404310,Collier County (Florida)
-136,22420,"Flint, MI",Michigan,Genesee County,26049,401522,Genesee County (Michigan)
-137,11260,"Anchorage, AK",Alaska,Anchorage Municipality,02020,401314,Anchorage Municipality (Alaska)
-138,15940,"Canton-Massillon, OH",Ohio,Stark County,39151,399474,Stark County (Ohio)
-139,34820,"Myrtle Beach-Conway-North Myrtle Beach, SC",South Carolina,Horry County,45051,397478,Horry County (South Carolina)
-140,13140,"Beaumont-Port Arthur, TX",Texas,Jefferson County,48245,395479,Jefferson County (Texas)
-141,45220,"Tallahassee, FL",Florida,Leon County,12073,392645,Leon County (Florida)
-142,22180,"Fayetteville, NC",North Carolina,Cumberland County,37051,392336,Cumberland County (North Carolina); Hoke County (North Carolina)
-143,33860,"Montgomery, AL",Alabama,Autauga County,01001,385480,Autauga County (Alabama); Elmore County (Alabama); Montgomery County (Alabama)
-144,43900,"Spartanburg, SC",South Carolina,Spartanburg County,45083,383327,Spartanburg County (South Carolina)
-145,43340,"Shreveport-Bossier City, LA",Louisiana,Bossier Parish,22015,383295,Bossier Parish (Louisiana); Caddo Parish (Louisiana)
-146,45940,"Trenton-Princeton, NJ",New Jersey,Mercer County,34021,381671,Mercer County (New Jersey)
-147,21660,"Eugene-Springfield, OR",Oregon,Lane County,41039,381181,Lane County (Oregon)
-148,19340,"Davenport-Moline-Rock Island, IA-IL",Illinois,Rock Island County,17161,379441,Rock Island County (Illinois); Scott County (Iowa)
-149,22660,"Fort Collins-Loveland, CO",Colorado,Larimer County,08069,370771,Larimer County (Colorado)
-150,25860,"Hickory-Lenoir-Morganton, NC",North Carolina,Burke County,37023,370030,Burke County (North Carolina); Caldwell County (North Carolina); Catawba County (North Carolina)
-151,12100,"Atlantic City-Hammonton, NJ",New Jersey,Atlantic County,34001,369823,Atlantic County (New Jersey); Cape May County (New Jersey)
-152,26580,"Huntington-Ashland, WV-KY-OH",Kentucky,Boyd County,21019,368261,Boyd County (Kentucky); Greenup County (Kentucky); Lawrence County (Ohio); Cabell County (West Virginia); Putnam County (West Virginia); Wayne County (West Virginia)
-153,11460,"Ann Arbor, MI",Michigan,Washtenaw County,26161,365536,Washtenaw County (Michigan)
-154,37900,"Peoria, IL",Illinois,Peoria County,17143,362240,Peoria County (Illinois); Tazewell County (Illinois); Woodford County (Illinois)
-155,31180,"Lubbock, TX",Texas,Lubbock County,48303,360104,Lubbock County (Texas)
-156,24540,"Greeley, CO",Colorado,Weld County,08123,359442,Weld County (Colorado)
-157,23540,"Gainesville, FL",Florida,Alachua County,12001,352126,Alachua County (Florida)
-158,30700,"Lincoln, NE",Nebraska,Lancaster County,31109,344387,Lancaster County (Nebraska)
-159,17300,"Clarksville, TN-KY",Tennessee,Montgomery County,47125,340495,Montgomery County (Tennessee)
-160,40420,"Rockford, IL",Illinois,Boone County,17007,334124,Boone County (Illinois); Winnebago County (Illinois)
-161,24580,"Green Bay, WI",Wisconsin,Brown County,55009,331882,Brown County (Wisconsin)
-162,14500,"Boulder, CO",Colorado,Boulder County,08013,326831,Boulder County (Colorado)
-163,43780,"South Bend-Mishawaka, IN-MI",Indiana,St. Joseph County,18141,324490,St. Joseph County (Indiana); Cass County (Michigan)
-164,17980,"Columbus, GA-AL",Alabama,Russell County,01113,323768,Russell County (Alabama); Chattahoochee County (Georgia); Muscogee County (Georgia)
-165,40220,"Roanoke, VA",Virginia,Botetourt County,51023,314314,Botetourt County (Virginia); Roanoke County (Virginia); Roanoke city (Virginia); Salem city (Virginia)
-166,28420,"Kennewick-Richland, WA",Washington,Benton County,53005,314253,Benton County (Washington); Franklin County (Washington)
-167,28700,"Kingsport-Bristol, TN-VA",Tennessee,Hawkins County,47073,313025,Hawkins County (Tennessee); Sullivan County (Tennessee)
-168,25180,"Hagerstown-Martinsburg, MD-WV",Maryland,Washington County,24043,305902,Washington County (Maryland); Berkeley County (West Virginia)
-169,47380,"Waco, TX",Texas,McLennan County,48309,304865,McLennan County (Texas)
-170,18880,"Crestview-Fort Walton Beach-Destin, FL",Florida,Okaloosa County,12091,304818,Okaloosa County (Florida); Walton County (Florida)
-171,43620,"Sioux Falls, SD-MN",South Dakota,Lincoln County,46083,304555,Lincoln County (South Dakota); Minnehaha County (South Dakota)
-172,36500,"Olympia-Lacey-Tumwater, WA",Washington,Thurston County,53067,299003,Thurston County (Washington)
-173,30980,"Longview, TX",Texas,Gregg County,48183,293498,Gregg County (Texas)
-174,32900,"Merced, CA",California,Merced County,06047,291920,Merced County (California)
-175,46540,"Utica-Rome, NY",New York,Oneida County,36065,287039,Oneida County (New York)
-176,42020,"San Luis Obispo-Paso Robles, CA",California,San Luis Obispo County,06079,281639,San Luis Obispo County (California)
-177,20260,"Duluth, MN-WI",Minnesota,St. Louis County,27137,281603,St. Louis County (Minnesota); Douglas County (Wisconsin)
-178,17780,"College Station-Bryan, TX",Texas,Brazos County,48041,281445,Brazos County (Texas)
-179,35980,"Norwich-New London-Willimantic, CT",Connecticut,Southeastern Connecticut Planning Region,09180,279634,Southeastern Connecticut Planning Region (Connecticut)
-180,46220,"Tuscaloosa, AL",Alabama,Tuscaloosa County,01125,278290,Tuscaloosa County (Alabama)
-181,14740,"Bremerton-Silverdale-Port Orchard, WA",Washington,Kitsap County,53035,277658,Kitsap County (Washington)
-182,16300,"Cedar Rapids, IA",Iowa,Linn County,19113,275668,Linn County (Iowa)
-183,43640,"Slidell-Mandeville-Covington, LA",Louisiana,St. Tammany Parish,22103,275583,St. Tammany Parish (Louisiana)
-184,11100,"Amarillo, TX",Texas,Potter County,48375,272395,Potter County (Texas); Randall County (Texas)
-185,21780,"Evansville, IN",Indiana,Vanderburgh County,18163,270717,Vanderburgh County (Indiana); Warrick County (Indiana)
-186,29700,"Laredo, TX",Texas,Webb County,48479,269148,Webb County (Texas)
-187,21500,"Erie, PA",Pennsylvania,Erie County,42049,267571,Erie County (Pennsylvania)
-188,31340,"Lynchburg, VA",Virginia,Amherst County,51009,264590,Amherst County (Virginia); Bedford County (Virginia); Campbell County (Virginia); Lynchburg city (Virginia)
-189,22020,"Fargo, ND-MN",Minnesota,Clay County,27027,262620,Clay County (Minnesota); Cass County (North Dakota)
-190,28020,"Kalamazoo-Portage, MI",Michigan,Kalamazoo County,26077,262215,Kalamazoo County (Michigan)
-191,42100,"Santa Cruz-Watsonville, CA",California,Santa Cruz County,06087,261547,Santa Cruz County (California)
-192,13460,"Bend, OR",Oregon,Deschutes County,41017,260919,Deschutes County (Oregon)
-193,49420,"Yakima, WA",Washington,Yakima County,53077,256643,Yakima County (Washington)
-194,19300,"Daphne-Fairhope-Foley, AL",Alabama,Baldwin County,01003,253507,Baldwin County (Alabama)
-195,39150,"Prescott Valley-Prescott, AZ",Arizona,Yavapai County,04025,249081,Yavapai County (Arizona)
-196,11540,"Appleton, WI",Wisconsin,Calumet County,55015,246433,Calumet County (Wisconsin); Outagamie County (Wisconsin)
-197,46340,"Tyler, TX",Texas,Smith County,48423,245209,Smith County (Texas)
-198,13780,"Binghamton, NY",New York,Broome County,36007,243792,Broome County (New York); Tioga County (New York)
-199,29340,"Lake Charles, LA",Louisiana,Calcasieu Parish,22019,240082,Calcasieu Parish (Louisiana)
-200,31420,"Macon-Bibb County, GA",Georgia,Bibb County,13021,236074,Bibb County (Georgia)
-201,16580,"Champaign-Urbana, IL",Illinois,Champaign County,17019,235608,Champaign County (Illinois)
-202,25940,"Hilton Head Island-Bluffton-Port Royal, SC",South Carolina,Beaufort County,45013,232523,Beaufort County (South Carolina)
-203,45820,"Topeka, KS",Kansas,Shawnee County,20177,232322,Shawnee County (Kansas)
-204,13380,"Bellingham, WA",Washington,Whatcom County,53073,231919,Whatcom County (Washington)
-205,12700,"Barnstable Town, MA",Massachusetts,Barnstable County,25001,231735,Barnstable County (Massachusetts)
-206,22900,"Fort Smith, AR-OK",Arkansas,Crawford County,05033,231280,Crawford County (Arkansas); Sebastian County (Arkansas)
-207,40340,"Rochester, MN",Minnesota,Olmsted County,27109,229077,Olmsted County (Minnesota)
-208,15540,"Burlington-South Burlington, VT",Vermont,Chittenden County,50007,227942,Chittenden County (Vermont)
-209,29200,"Lafayette-West Lafayette, IN",Indiana,Tippecanoe County,18157,226564,Tippecanoe County (Indiana)
-210,29740,"Las Cruces, NM",New Mexico,Doña Ana County,35013,225210,Doña Ana County (New Mexico)
-211,16820,"Charlottesville, VA",Virginia,Albemarle County,51003,225127,Albemarle County (Virginia); Charlottesville city (Virginia)
-212,29420,"Lake Havasu City-Kingman, AZ",Arizona,Mohave County,04015,223682,Mohave County (Arizona)
-213,12020,"Athens-Clarke County, GA",Georgia,Clarke County,13059,222060,Clarke County (Georgia); Oconee County (Georgia)
-214,33740,"Monroe, LA",Louisiana,Ouachita Parish,22073,221885,Ouachita Parish (Louisiana)
-215,32780,"Medford, OR",Oregon,Jackson County,41029,220768,Jackson County (Oregon)
-216,23580,"Gainesville, GA",Georgia,Hall County,13139,217267,Hall County (Georgia)
-217,17860,"Columbia, MO",Missouri,Boone County,29019,216511,Boone County (Missouri)
-218,37460,"Panama City-Panama City Beach, FL",Florida,Bay County,12005,216371,Bay County (Florida)
-219,27340,"Jacksonville, NC",North Carolina,Onslow County,37133,213676,Onslow County (North Carolina)
-220,49740,"Yuma, AZ",Arizona,Yuma County,04027,213221,Yuma County (Arizona)
-221,27740,"Johnson City, TN",Tennessee,Carter County,47019,213198,Carter County (Tennessee); Washington County (Tennessee)
-222,30500,"Lexington Park, MD",Maryland,Calvert County,24009,210009,Calvert County (Maryland); St. Mary's County (Maryland)
-223,17020,"Chico, CA",California,Butte County,06007,207172,Butte County (California)
-224,21140,"Elkhart-Goshen, IN",Indiana,Elkhart County,18039,206409,Elkhart County (Indiana)
-225,39460,"Punta Gorda, FL",Florida,Charlotte County,12015,206134,Charlotte County (Florida)
-226,44100,"Springfield, IL",Illinois,Sangamon County,17167,205445,Sangamon County (Illinois)
-227,27900,"Joplin, MO-KS",Missouri,Jasper County,29097,204787,Jasper County (Missouri)
-228,16620,"Charleston, WV",West Virginia,Kanawha County,54039,203164,Kanawha County (West Virginia)
-229,41060,"St. Cloud, MN",Minnesota,Benton County,27009,202577,Benton County (Minnesota); Stearns County (Minnesota)
-230,41100,"St. George, UT",Utah,Washington County,49053,202452,Washington County (Utah)
-231,12220,"Auburn-Opelika, AL",Alabama,Lee County,01081,201585,Lee County (Alabama)
-232,47580,"Warner Robins, GA",Georgia,Houston County,13153,200779,Houston County (Georgia); Peach County (Georgia)
-233,22500,"Florence, SC",South Carolina,Florence County,45041,199630,Florence County (South Carolina)
-234,26380,"Houma-Bayou Cane-Thibodaux, LA",Louisiana,Lafourche Parish,22057,198672,Lafourche Parish (Louisiana); Terrebonne Parish (Louisiana)
-235,39540,"Racine-Mount Pleasant, WI",Wisconsin,Racine County,55101,196613,Racine County (Wisconsin)
-236,13740,"Billings, MT",Montana,Yellowstone County,30111,191435,Yellowstone County (Montana)
-237,20100,"Dover, DE",Delaware,Kent County,10001,189789,Kent County (Delaware)
-238,14540,"Bowling Green, KY",Kentucky,Warren County,21227,188840,Warren County (Kentucky)
-239,40980,"Saginaw, MI",Michigan,Saginaw County,26145,187782,Saginaw County (Michigan)
-240,17660,"Coeur d'Alene, ID",Idaho,Kootenai County,16055,185010,Kootenai County (Idaho)
-241,49700,"Yuba City, CA",California,Sutter County,06101,183670,Sutter County (California); Yuba County (California)
-242,28740,"Kingston, NY",New York,Ulster County,36111,182333,Ulster County (New York)
-243,33260,"Midland, TX",Texas,Midland County,48329,182324,Midland County (Texas)
-244,27180,"Jackson, TN",Tennessee,Madison County,47113,181826,Madison County (Tennessee)
-245,10180,"Abilene, TX",Texas,Taylor County,48441,181591,Taylor County (Texas)
-246,13980,"Blacksburg-Christiansburg-Radford, VA",Virginia,Montgomery County,51121,181428,Montgomery County (Virginia); Radford city (Virginia)
-247,39820,"Redding, CA",California,Shasta County,06089,180366,Shasta County (California)
-248,26980,"Iowa City, IA",Iowa,Johnson County,19103,180088,Johnson County (Iowa)
-249,15500,"Burlington, NC",North Carolina,Alamance County,37001,179165,Alamance County (North Carolina)
-250,20940,"El Centro, CA",California,Imperial County,06025,179057,Imperial County (California)
-251,34740,"Muskegon-Norton Shores, MI",Michigan,Muskegon County,26121,176564,Muskegon County (Michigan)
-252,24780,"Greenville, NC",North Carolina,Pitt County,37147,175119,Pitt County (North Carolina)
-253,20740,"Eau Claire, WI",Wisconsin,Chippewa County,55017,174873,Chippewa County (Wisconsin); Eau Claire County (Wisconsin)
-254,36780,"Oshkosh-Neenah, WI",Wisconsin,Winnebago County,55139,171735,Winnebago County (Wisconsin)
-255,14010,"Bloomington, IL",Illinois,McLean County,17113,170441,McLean County (Illinois)
-256,29100,"La Crosse-Onalaska, WI-MN",Minnesota,Houston County,27055,170238,Houston County (Minnesota); La Crosse County (Wisconsin)
-257,42680,"Sebastian-Vero Beach-West Vero Corridor, FL",Florida,Indian River County,12061,169795,Indian River County (Florida)
-258,39380,"Pueblo, CO",Colorado,Pueblo County,08101,169422,Pueblo County (Colorado)
-259,45460,"Terre Haute, IN",Indiana,Vigo County,18167,168787,Vigo County (Indiana)
-260,26820,"Idaho Falls, ID",Idaho,Bonneville County,16019,168322,Bonneville County (Idaho)
-261,47940,"Waterloo-Cedar Falls, IA",Iowa,Black Hawk County,19013,168162,Black Hawk County (Iowa)
-262,28450,"Kenosha, WI",Wisconsin,Kenosha County,55059,167488,Kenosha County (Wisconsin)
-263,26140,"Homosassa Springs, FL",Florida,Citrus County,12017,166696,Citrus County (Florida)
-264,36220,"Odessa, TX",Texas,Ector County,48135,164494,Ector County (Texas)
-265,27500,"Janesville-Beloit, WI",Wisconsin,Rock County,55105,164278,Rock County (Wisconsin)
-266,27980,"Kahului-Wailuku, HI",Hawaii,Maui County,15009,164264,Maui County (Hawaii)
-267,11200,"Amherst Town-Northampton, MA",Massachusetts,Hampshire County,25015,162502,Hampshire County (Massachusetts)
-268,14020,"Bloomington, IN",Indiana,Monroe County,18105,160874,Monroe County (Indiana)
-269,24300,"Grand Junction, CO",Colorado,Mesa County,08077,159681,Mesa County (Colorado)
-270,27100,"Jackson, MI",Michigan,Jackson County,26075,159424,Jackson County (Michigan)
-271,19460,"Decatur, AL",Alabama,Morgan County,01103,158635,Morgan County (Alabama)
-272,30860,"Logan, UT-ID",Utah,Cache County,49005,157887,Cache County (Utah)
-273,16540,"Chambersburg, PA",Pennsylvania,Franklin County,42055,157854,Franklin County (Pennsylvania)
-274,44300,"State College, PA",Pennsylvania,Centre County,42027,157795,Centre County (Pennsylvania)
-275,45900,"Traverse City, MI",Michigan,Grand Traverse County,26055,156371,Grand Traverse County (Michigan)
-276,39660,"Rapid City, SD",South Dakota,Pennington County,46103,155974,Pennington County (South Dakota)
-277,42140,"Santa Fe, NM",New Mexico,Santa Fe County,35049,155956,Santa Fe County (New Mexico)
-278,25620,"Hattiesburg, MS",Mississippi,Forrest County,28035,155740,Forrest County (Mississippi); Lamar County (Mississippi)
-279,12620,"Bangor, ME",Maine,Penobscot County,23019,155312,Penobscot County (Maine)
-280,22520,"Florence-Muscle Shoals, AL",Alabama,Colbert County,01033,155175,Colbert County (Alabama); Lauderdale County (Alabama)
-281,33780,"Monroe, MI",Michigan,Monroe County,26115,155045,Monroe County (Michigan)
-282,20020,"Dothan, AL",Alabama,Houston County,01069,153349,Houston County (Alabama)
-283,25260,"Hanford-Corcoran, CA",California,Kings County,06031,152682,Kings County (California)
-284,47220,"Vineland, NJ",New Jersey,Cumberland County,34011,152326,Cumberland County (New Jersey)
-285,35660,"Niles, MI",Michigan,Berrien County,26021,152261,Berrien County (Michigan)
-286,48680,"Wildwood-The Villages, FL",Florida,Sumter County,12119,151565,Sumter County (Florida)
-287,46660,"Valdosta, GA",Georgia,Lowndes County,13185,151118,Lowndes County (Georgia)
-288,27620,"Jefferson City, MO",Missouri,Cole County,29051,150733,Cole County (Missouri)
-289,48660,"Wichita Falls, TX",Texas,Wichita County,48485,149947,Wichita County (Texas)
-290,10780,"Alexandria, LA",Louisiana,Rapides Parish,22079,148171,Rapides Parish (Louisiana)
-291,49020,"Winchester, VA-WV",Virginia,Frederick County,51069,147260,Frederick County (Virginia); Winchester city (Virginia)
-292,43300,"Sherman-Denison, TX",Texas,Grayson County,48181,146907,Grayson County (Texas)
-293,45500,"Texarkana, TX-AR",Arkansas,Miller County,05091,145907,Miller County (Arkansas); Bowie County (Texas)
-294,10500,"Albany, GA",Georgia,Dougherty County,13095,145508,Dougherty County (Georgia); Lee County (Georgia)
-295,40580,"Rocky Mount, NC",North Carolina,Edgecombe County,37065,145383,Edgecombe County (North Carolina); Nash County (North Carolina)
-296,19140,"Dalton, GA",Georgia,Whitfield County,13313,144722,Whitfield County (Georgia)
-297,22380,"Flagstaff, AZ",Arizona,Coconino County,04005,144472,Coconino County (Arizona)
-298,43580,"Sioux City, IA-NE-SD",Iowa,Woodbury County,19193,144402,Woodbury County (Iowa); Dakota County (Nebraska); Union County (South Dakota)
-299,30140,"Lebanon, PA",Pennsylvania,Lebanon County,42075,144252,Lebanon County (Pennsylvania)
-300,34060,"Morgantown, WV",West Virginia,Monongalia County,54061,141817,Monongalia County (West Virginia)
-301,48140,"Wausau, WI",Wisconsin,Marathon County,55073,138612,Marathon County (Wisconsin)
-302,25220,"Hammond, LA",Louisiana,Tangipahoa Parish,22105,138064,Tangipahoa Parish (Louisiana)
-303,25500,"Harrisonburg, VA",Virginia,Rockingham County,51165,137650,Rockingham County (Virginia); Harrisonburg city (Virginia)
-304,27860,"Jonesboro, AR",Arkansas,Craighead County,05031,136390,Craighead County (Arkansas)
-305,13900,"Bismarck, ND",North Dakota,Burleigh County,38015,135786,Burleigh County (North Dakota); Morton County (North Dakota)
-306,48540,"Wheeling, WV-OH",Ohio,Belmont County,39013,135517,Belmont County (Ohio); Ohio County (West Virginia)
-307,44220,"Springfield, OH",Ohio,Clark County,39023,134610,Clark County (Ohio)
-308,12980,"Battle Creek, MI",Michigan,Calhoun County,26025,133366,Calhoun County (Michigan)
-309,34900,"Napa, CA",California,Napa County,06055,133216,Napa County (California)
-310,31740,"Manhattan, KS",Kansas,Riley County,20161,132831,Riley County (Kansas)
-311,10540,"Albany, OR",Oregon,Linn County,41043,131496,Linn County (Oregon)
-312,34580,"Mount Vernon-Anacortes, WA",Washington,Skagit County,53057,131417,Skagit County (Washington)
-313,27780,"Johnstown, PA",Pennsylvania,Cambria County,42021,130668,Cambria County (Pennsylvania)
-314,41540,"Salisbury, MD",Maryland,Wicomico County,24045,129710,Wicomico County (Maryland)
-315,17420,"Cleveland, TN",Tennessee,Bradley County,47011,129612,Bradley County (Tennessee)
-316,21060,"Elizabethtown, KY",Kentucky,Hardin County,21093,127576,Hardin County (Kentucky)
-317,44420,"Staunton-Stuarts Draft, VA",Virginia,Augusta County,51015,127344,Augusta County (Virginia); Staunton city (Virginia); Waynesboro city (Virginia)
-318,30020,"Lawton, OK",Oklahoma,Comanche County,40031,127001,Comanche County (Oklahoma)
-319,33540,"Missoula, MT",Montana,Missoula County,30063,126939,Missoula County (Montana)
-320,38340,"Pittsfield, MA",Massachusetts,Berkshire County,25003,126818,Berkshire County (Massachusetts)
-321,14580,"Bozeman, MT",Montana,Gallatin County,30031,126409,Gallatin County (Montana)
-322,24020,"Glens Falls, NY",New York,Warren County,36113,125427,Warren County (New York); Washington County (New York)
-323,11180,"Ames, IA",Iowa,Story County,19169,125156,Story County (Iowa)
-324,31900,"Mansfield, OH",Ohio,Richland County,39139,125064,Richland County (Ohio)
-325,48300,"Wenatchee-East Wenatchee, WA",Washington,Chelan County,53007,124795,Chelan County (Washington); Douglas County (Washington)
-326,43420,"Sierra Vista-Douglas, AZ",Arizona,Cochise County,04003,124640,Cochise County (Arizona)
-327,34100,"Morristown, TN",Tennessee,Hamblen County,47063,124054,Hamblen County (Tennessee); Jefferson County (Tennessee)
-328,22140,"Farmington, NM",New Mexico,San Juan County,35045,120675,San Juan County (New Mexico)
-329,46300,"Twin Falls, ID",Idaho,Twin Falls County,16083,120635,Twin Falls County (Idaho)
-330,41660,"San Angelo, TX",Texas,Tom Green County,48451,120606,Tom Green County (Texas)
-331,29940,"Lawrence, KS",Kansas,Douglas County,20045,120553,Douglas County (Kansas)
-332,11020,"Altoona, PA",Pennsylvania,Blair County,42013,120273,Blair County (Pennsylvania)
-333,24140,"Goldsboro, NC",North Carolina,Wayne County,37191,118686,Wayne County (North Carolina)
-334,41140,"St. Joseph, MO-KS",Missouri,Buchanan County,29021,118475,Buchanan County (Missouri)
-335,43100,"Sheboygan, WI",Wisconsin,Sheboygan County,55117,117752,Sheboygan County (Wisconsin)
-336,11500,"Anniston-Oxford, AL",Alabama,Calhoun County,01015,116429,Calhoun County (Alabama)
-337,15260,"Brunswick-St. Simons, GA",Georgia,Glynn County,13127,116074,Glynn County (Georgia)
-338,48060,"Watertown-Fort Drum, NY",New York,Jefferson County,36045,114787,Jefferson County (New York)
-339,41780,"Sandusky, OH",Ohio,Erie County,39043,113838,Erie County (Ohio); Ottawa County (Ohio)
-340,30340,"Lewiston-Auburn, ME",Maine,Androscoggin County,23001,113765,Androscoggin County (Maine)
-341,48260,"Weirton-Steubenville, WV-OH",Ohio,Jefferson County,39081,113544,Jefferson County (Ohio); Brooke County (West Virginia); Hancock County (West Virginia)
-342,31020,"Longview-Kelso, WA",Washington,Cowlitz County,53015,112864,Cowlitz County (Washington)
-343,48700,"Williamsport, PA",Pennsylvania,Lycoming County,42081,112724,Lycoming County (Pennsylvania)
-344,36980,"Owensboro, KY",Kentucky,Daviess County,21059,112512,Daviess County (Kentucky)
-345,34620,"Muncie, IN",Indiana,Delaware County,18035,112321,Delaware County (Indiana)
-346,33140,"Michigan City-La Porte, IN",Indiana,LaPorte County,18091,111706,LaPorte County (Indiana)
-347,13220,"Beckley, WV",West Virginia,Fayette County,54019,111428,Fayette County (West Virginia); Raleigh County (West Virginia)
-348,42700,"Sebring, FL",Florida,Highlands County,12055,107614,Highlands County (Florida)
-349,38240,"Pinehurst-Southern Pines, NC",North Carolina,Moore County,37125,106898,Moore County (North Carolina)
-350,23900,"Gettysburg, PA",Pennsylvania,Adams County,42001,106748,Adams County (Pennsylvania)
-351,28100,"Kankakee, IL",Illinois,Kankakee County,17091,105940,Kankakee County (Illinois)
-352,31860,"Mankato, MN",Minnesota,Blue Earth County,27013,104248,Blue Earth County (Minnesota); Nicollet County (Minnesota)
-353,44940,"Sumter, SC",South Carolina,Sumter County,45085,104165,Sumter County (South Carolina)
-354,22540,"Fond du Lac, WI",Wisconsin,Fond du Lac County,55039,103948,Fond du Lac County (Wisconsin)
-355,27060,"Ithaca, NY",New York,Tompkins County,36109,103558,Tompkins County (New York)
-356,23460,"Gadsden, AL",Alabama,Etowah County,01055,103241,Etowah County (Alabama)
-357,24220,"Grand Forks, ND-MN",Minnesota,Polk County,27119,103120,Polk County (Minnesota); Grand Forks County (North Dakota)
-358,13020,"Bay City, MI",Michigan,Bay County,26017,102500,Bay County (Michigan)
-359,37140,"Paducah, KY-IL",Kentucky,McCracken County,21145,102267,McCracken County (Kentucky)
-360,16940,"Cheyenne, WY",Wyoming,Laramie County,56021,100984,Laramie County (Wyoming)
-361,30620,"Lima, OH",Ohio,Allen County,39003,100838,Allen County (Ohio)
-362,19500,"Decatur, IL",Illinois,Macon County,17115,100591,Macon County (Illinois)
-363,40660,"Rome, GA",Georgia,Floyd County,13115,100113,Floyd County (Georgia)
-364,26300,"Hot Springs, AR",Arkansas,Garland County,05051,99784,Garland County (Arkansas)
-365,20220,"Dubuque, IA",Iowa,Dubuque County,19061,98887,Dubuque County (Iowa)
-366,47020,"Victoria, TX",Texas,Victoria County,48469,98808,Victoria County (Texas)
-367,16020,"Cape Girardeau, MO-IL",Missouri,Cape Girardeau County,29031,98223,Cape Girardeau County (Missouri)
-368,18700,"Corvallis, OR",Oregon,Benton County,41003,97713,Benton County (Oregon)
-369,25740,"Helena, MT",Montana,Lewis and Clark County,30049,96091,Lewis and Clark County (Montana)
-370,21820,"Fairbanks-College, AK",Alaska,Fairbanks North Star Borough,02090,94840,Fairbanks North Star Borough (Alaska)
-371,38540,"Pocatello, ID",Idaho,Bannock County,16005,90400,Bannock County (Idaho)
-372,25980,"Hinesville, GA",Georgia,Liberty County,13179,88804,Liberty County (Georgia)
-373,37620,"Parkersburg-Vienna, WV",West Virginia,Wood County,54107,88052,Wood County (West Virginia)
-374,24420,"Grants Pass, OR",Oregon,Josephine County,41033,87821,Josephine County (Oregon)
-375,24500,"Great Falls, MT",Montana,Cascade County,30013,84900,Cascade County (Montana)
-376,33220,"Midland, MI",Michigan,Midland County,26111,84039,Midland County (Michigan)
-377,18020,"Columbus, IN",Indiana,Bartholomew County,18005,84003,Bartholomew County (Indiana)
-378,29020,"Kokomo, IN",Indiana,Howard County,18067,83831,Howard County (Indiana)
-379,21300,"Elmira, NY",New York,Chemung County,36015,81325,Chemung County (New York)
-380,16220,"Casper, WY",Wyoming,Natrona County,56025,79941,Natrona County (Wyoming)
-381,24260,"Grand Island, NE",Nebraska,Hall County,31079,76479,Hall County (Nebraska)
-382,33500,"Minot, ND",North Dakota,Ward County,38101,75742,Ward County (North Dakota)
-383,30300,"Lewiston, ID-WA",Idaho,Nez Perce County,16069,65536,Nez Perce County (Idaho); Asotin County (Washington)
-384,21420,"Enid, OK",Oklahoma,Garfield County,40047,62023,Garfield County (Oklahoma)
-385,47460,"Walla Walla, WA",Washington,Walla Walla County,53071,61568,Walla Walla County (Washington)
-386,16180,"Carson City, NV",Nevada,Carson City,32510,58036,Carson City (Nevada)
-387,20580,"Eagle Pass, TX",Texas,Maverick County,48323,57762,Maverick County (Texas)
-388,10380,"Aguadilla, PR",Puerto Rico,Aguada Municipio,72003,0,Aguada Municipio (Puerto Rico); Aguadilla Municipio (Puerto Rico); Añasco Municipio (Puerto Rico); Isabela Municipio (Puerto Rico); Moca Municipio (Puerto Rico); Rincón Municipio (Puerto Rico); San Sebastián Municipio (Puerto Rico)
-389,11640,"Arecibo, PR",Puerto Rico,Arecibo Municipio,72013,0,Arecibo Municipio (Puerto Rico); Camuy Municipio (Puerto Rico); Hatillo Municipio (Puerto Rico); Quebradillas Municipio (Puerto Rico)
-390,25020,"Guayama, PR",Puerto Rico,Arroyo Municipio,72015,0,Arroyo Municipio (Puerto Rico); Guayama Municipio (Puerto Rico); Patillas Municipio (Puerto Rico)
-391,32420,"Mayagüez, PR",Puerto Rico,Cabo Rojo Municipio,72023,0,Cabo Rojo Municipio (Puerto Rico); Lajas Municipio (Puerto Rico); Sabana Grande Municipio (Puerto Rico); San Germán Municipio (Puerto Rico)
-392,38660,"Ponce, PR",Puerto Rico,Ponce Municipio,72113,0,Ponce Municipio (Puerto Rico)
-393,41980,"San Juan-Bayamón-Caguas, PR",Puerto Rico,Aguas Buenas Municipio,72007,0,Aguas Buenas Municipio (Puerto Rico); Barranquitas Municipio (Puerto Rico); Bayamón Municipio (Puerto Rico); Caguas Municipio (Puerto Rico); Canóvanas Municipio (Puerto Rico); Carolina Municipio (Puerto Rico); Cataño Municipio (Puerto Rico); Cayey Municipio (Puerto Rico); Cidra Municipio (Puerto Rico); Comerío Municipio (Puerto Rico); Corozal Municipio (Puerto Rico); Dorado Municipio (Puerto Rico); Guaynabo Municipio (Puerto Rico); Gurabo Municipio (Puerto Rico); Humacao Municipio (Puerto Rico); Juncos Municipio (Puerto Rico); Las Piedras Municipio (Puerto Rico); Manatí Municipio (Puerto Rico); Maunabo Municipio (Puerto Rico); Morovis Municipio (Puerto Rico); Naranjito Municipio (Puerto Rico); Orocovis Municipio (Puerto Rico); Río Grande Municipio (Puerto Rico); San Juan Municipio (Puerto Rico); San Lorenzo Municipio (Puerto Rico); Toa Alta Municipio (Puerto Rico); Toa Baja Municipio (Puerto Rico); Trujillo Alto Municipio (Puerto Rico); Vega Alta Municipio (Puerto Rico); Vega Baja Municipio (Puerto Rico); Yabucoa Municipio (Puerto Rico)
+rank,cbsa,metro,state,principal_county,county_fips,county_pop,pop_2023,central_counties
+1,35620,"New York-Newark-Jersey City, NY-NJ",New York,Kings County,36047,2561225,19498249,"Kings County (New York, 2,561,225); Queens County (New York, 2,252,196); New York County (New York, 1,597,451); Suffolk County (New York, 1,523,170); Nassau County (New York, 1,381,715); Bronx County (New York, 1,356,476); Westchester County (New York, 990,817); Bergen County (New Jersey, 957,736); Middlesex County (New Jersey, 863,623); Essex County (New Jersey, 851,117); Hudson County (New Jersey, 705,472); Ocean County (New Jersey, 659,197); Monmouth County (New Jersey, 642,799); Union County (New Jersey, 572,726); Morris County (New Jersey, 514,423); Passaic County (New Jersey, 513,395); Richmond County (New York, 490,687); Somerset County (New Jersey, 348,842); Rockland County (New York, 340,807); Putnam County (New York, 98,060)"
+2,31080,"Los Angeles-Long Beach-Anaheim, CA",California,Los Angeles County,06037,9663345,12799100,"Los Angeles County (California, 9,663,345); Orange County (California, 3,135,755)"
+3,16980,"Chicago-Naperville-Elgin, IL-IN",Illinois,Cook County,17031,5087072,9262825,"Cook County (Illinois, 5,087,072); DuPage County (Illinois, 921,213); Lake County (Illinois, 708,760); Will County (Illinois, 700,728); Kane County (Illinois, 514,982); Lake County (Indiana, 500,598); McHenry County (Illinois, 312,800); Porter County (Indiana, 175,335); Kendall County (Illinois, 139,976)"
+4,19100,"Dallas-Fort Worth-Arlington, TX",Texas,Dallas County,48113,2606358,8100037,"Dallas County (Texas, 2,606,358); Tarrant County (Texas, 2,182,947); Collin County (Texas, 1,195,359); Ellis County (Texas, 222,829); Johnson County (Texas, 202,906); Rockwall County (Texas, 131,307)"
+5,26420,"Houston-Pasadena-The Woodlands, TX",Texas,Harris County,48201,4835125,7510253,"Harris County (Texas, 4,835,125); Fort Bend County (Texas, 916,778); Brazoria County (Texas, 398,938); Waller County (Texas, 63,553)"
+6,12060,"Atlanta-Sandy Springs-Roswell, GA",Georgia,Fulton County,13121,1079105,6307261,"Fulton County (Georgia, 1,079,105); Gwinnett County (Georgia, 983,526); Cobb County (Georgia, 776,743); DeKalb County (Georgia, 762,992); Clayton County (Georgia, 298,300); Cherokee County (Georgia, 286,602); Forsyth County (Georgia, 272,887); Henry County (Georgia, 254,613); Paulding County (Georgia, 183,164); Coweta County (Georgia, 155,892); Douglas County (Georgia, 149,160); Fayette County (Georgia, 123,351); Newton County (Georgia, 120,135); Walton County (Georgia, 106,702); Rockdale County (Georgia, 95,987); Dawson County (Georgia, 31,732)"
+7,47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",Virginia,Fairfax County,51059,1141878,6304975,"Fairfax County (Virginia, 1,141,878); Montgomery County (Maryland, 1,058,474); Prince George's County (Maryland, 947,430); District of Columbia (District of Columbia, 678,972); Prince William County (Virginia, 489,640); Loudoun County (Virginia, 436,347); Arlington County (Virginia, 234,162); Stafford County (Virginia, 165,428); Alexandria city (Virginia, 155,230); Manassas city (Virginia, 42,696); Fairfax city (Virginia, 25,144); Manassas Park city (Virginia, 16,361); Falls Church city (Virginia, 14,685)"
+8,37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Pennsylvania,Philadelphia County,42101,1550542,6246160,"Philadelphia County (Pennsylvania, 1,550,542); Montgomery County (Pennsylvania, 868,742); Bucks County (Pennsylvania, 645,984); New Castle County (Delaware, 578,592); Delaware County (Pennsylvania, 576,720); Chester County (Pennsylvania, 549,784); Camden County (New Jersey, 527,196); Burlington County (New Jersey, 469,167); Gloucester County (New Jersey, 308,423); Cecil County (Maryland, 105,672); Salem County (New Jersey, 65,338)"
+9,33100,"Miami-Fort Lauderdale-West Palm Beach, FL",Florida,Miami-Dade County,12086,2686867,6183199,"Miami-Dade County (Florida, 2,686,867); Broward County (Florida, 1,962,531); Palm Beach County (Florida, 1,533,801)"
+10,38060,"Phoenix-Mesa-Chandler, AZ",Arizona,Maricopa County,04013,4585871,5070110,"Maricopa County (Arizona, 4,585,871); Pinal County (Arizona, 484,239)"
+11,14460,"Boston-Cambridge-Newton, MA-NH",Massachusetts,Middlesex County,25017,1623952,4919179,"Middlesex County (Massachusetts, 1,623,952); Essex County (Massachusetts, 810,089); Suffolk County (Massachusetts, 768,425); Norfolk County (Massachusetts, 727,473); Plymouth County (Massachusetts, 535,308); Rockingham County (New Hampshire, 320,689)"
+12,40140,"Riverside-San Bernardino-Ontario, CA",California,Riverside County,06065,2492442,4688053,"Riverside County (California, 2,492,442); San Bernardino County (California, 2,195,611)"
+13,41860,"San Francisco-Oakland-Fremont, CA",California,Alameda County,06001,1622188,4566961,"Alameda County (California, 1,622,188); San Francisco County (California, 808,988); San Mateo County (California, 726,353); Marin County (California, 254,407)"
+14,19820,"Detroit-Warren-Dearborn, MI",Michigan,Wayne County,26163,1751169,4342304,"Wayne County (Michigan, 1,751,169); Oakland County (Michigan, 1,270,426); Macomb County (Michigan, 875,101)"
+15,42660,"Seattle-Tacoma-Bellevue, WA",Washington,King County,53033,2271380,4044837,"King County (Washington, 2,271,380); Pierce County (Washington, 928,696); Snohomish County (Washington, 844,761)"
+16,33460,"Minneapolis-St. Paul-Bloomington, MN-WI",Minnesota,Hennepin County,27053,1258713,3712020,"Hennepin County (Minnesota, 1,258,713); Ramsey County (Minnesota, 536,075); Dakota County (Minnesota, 447,440); Anoka County (Minnesota, 372,441); Washington County (Minnesota, 278,936); Scott County (Minnesota, 155,814); Wright County (Minnesota, 151,150); Carver County (Minnesota, 111,057); Sherburne County (Minnesota, 102,206)"
+17,45300,"Tampa-St. Petersburg-Clearwater, FL",Florida,Hillsborough County,12057,1535564,3342963,"Hillsborough County (Florida, 1,535,564); Pinellas County (Florida, 961,596); Pasco County (Florida, 632,996)"
+18,41740,"San Diego-Chula Vista-Carlsbad, CA",California,San Diego County,06073,3269973,3269973,"San Diego County (California, 3,269,973)"
+19,19740,"Denver-Aurora-Centennial, CO",Colorado,Denver County,08031,716577,3005131,"Denver County (Colorado, 716,577); Arapahoe County (Colorado, 656,061); Jefferson County (Colorado, 576,366); Adams County (Colorado, 533,365); Douglas County (Colorado, 383,906); Broomfield County (Colorado, 76,860)"
+20,12580,"Baltimore-Columbia-Towson, MD",Maryland,Baltimore County,24005,844703,2834316,"Baltimore County (Maryland, 844,703); Anne Arundel County (Maryland, 594,582); Baltimore city (Maryland, 565,239); Howard County (Maryland, 336,001)"
+21,36740,"Orlando-Kissimmee-Sanford, FL",Florida,Orange County,12095,1471416,2817933,"Orange County (Florida, 1,471,416); Seminole County (Florida, 484,271)"
+22,16740,"Charlotte-Concord-Gastonia, NC-SC",North Carolina,Mecklenburg County,37119,1163701,2805115,"Mecklenburg County (North Carolina, 1,163,701); Union County (North Carolina, 256,452); Iredell County (North Carolina, 199,710)"
+23,41180,"St. Louis, MO-IL",Missouri,St. Louis County,29189,987059,2796999,"St. Louis County (Missouri, 987,059); St. Charles County (Missouri, 416,659); St. Louis city (Missouri, 281,754); Madison County (Illinois, 262,752); St. Clair County (Illinois, 251,018); Jefferson County (Missouri, 231,230); Monroe County (Illinois, 34,957)"
+24,41700,"San Antonio-New Braunfels, TX",Texas,Bexar County,48029,2087679,2703999,"Bexar County (Texas, 2,087,679); Guadalupe County (Texas, 188,454)"
+25,38900,"Portland-Vancouver-Hillsboro, OR-WA",Oregon,Multnomah County,41051,789698,2508050,"Multnomah County (Oregon, 789,698); Washington County (Oregon, 598,865); Clark County (Washington, 521,150); Clackamas County (Oregon, 423,173)"
+26,12420,"Austin-Round Rock-San Marcos, TX",Texas,Travis County,48453,1334961,2473275,"Travis County (Texas, 1,334,961); Williamson County (Texas, 697,191); Hays County (Texas, 280,486)"
+27,38300,"Pittsburgh, PA",Pennsylvania,Allegheny County,42003,1224825,2422725,"Allegheny County (Pennsylvania, 1,224,825); Westmoreland County (Pennsylvania, 351,163); Washington County (Pennsylvania, 210,232); Butler County (Pennsylvania, 198,413); Beaver County (Pennsylvania, 165,631)"
+28,40900,"Sacramento-Roseville-Folsom, CA",California,Sacramento County,06067,1584288,2420608,"Sacramento County (California, 1,584,288); Placer County (California, 423,561); El Dorado County (California, 192,215)"
+29,29820,"Las Vegas-Henderson-North Las Vegas, NV",Nevada,Clark County,32003,2336573,2336573,"Clark County (Nevada, 2,336,573)"
+30,17140,"Cincinnati, OH-KY-IN",Ohio,Hamilton County,39061,827058,2271479,"Hamilton County (Ohio, 827,058); Butler County (Ohio, 393,043); Warren County (Ohio, 252,148); Clermont County (Ohio, 211,972); Kenton County (Kentucky, 171,321); Boone County (Kentucky, 140,496); Campbell County (Kentucky, 93,702)"
+31,28140,"Kansas City, MO-KS",Missouri,Jackson County,29095,718560,2221343,"Jackson County (Missouri, 718,560); Johnson County (Kansas, 622,237); Clay County (Missouri, 259,772); Wyandotte County (Kansas, 165,281); Platte County (Missouri, 111,940); Cass County (Missouri, 111,732)"
+32,18140,"Columbus, OH",Ohio,Franklin County,39049,1326063,2180271,"Franklin County (Ohio, 1,326,063); Delaware County (Ohio, 231,636); Fairfield County (Ohio, 165,360)"
+33,17410,"Cleveland, OH",Ohio,Cuyahoga County,39035,1233088,2158932,"Cuyahoga County (Ohio, 1,233,088); Lake County (Ohio, 231,640); Medina County (Ohio, 184,042); Geauga County (Ohio, 95,407)"
+34,26900,"Indianapolis-Carmel-Greenwood, IN",Indiana,Marion County,18097,968460,2138468,"Marion County (Indiana, 968,460); Hamilton County (Indiana, 371,645); Hendricks County (Indiana, 186,387); Johnson County (Indiana, 167,819); Hancock County (Indiana, 86,166); Boone County (Indiana, 76,120); Morgan County (Indiana, 73,227)"
+35,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",Tennessee,Davidson County,47037,712334,2102573,"Davidson County (Tennessee, 712,334); Williamson County (Tennessee, 264,460); Sumner County (Tennessee, 207,994); Wilson County (Tennessee, 163,674)"
+36,41940,"San Jose-Sunnyvale-Santa Clara, CA",California,Santa Clara County,06085,1877592,1945767,"Santa Clara County (California, 1,877,592)"
+37,47260,"Virginia Beach-Chesapeake-Norfolk, VA-NC",Virginia,Virginia Beach city,51810,453649,1787169,"Virginia Beach city (Virginia, 453,649); Chesapeake city (Virginia, 253,886); Norfolk city (Virginia, 230,930); Newport News city (Virginia, 183,118); Hampton city (Virginia, 137,098); Portsmouth city (Virginia, 96,793); York County (Virginia, 70,952); Isle of Wight County (Virginia, 40,711); Gloucester County (Virginia, 40,057); Poquoson city (Virginia, 12,635)"
+38,27260,"Jacksonville, FL",Florida,Duval County,12031,1030822,1713240,"Duval County (Florida, 1,030,822); St. Johns County (Florida, 320,110); Clay County (Florida, 232,439)"
+39,39300,"Providence-Warwick, RI-MA",Rhode Island,Providence County,44007,660615,1677803,"Providence County (Rhode Island, 660,615); Bristol County (Massachusetts, 581,841); Kent County (Rhode Island, 171,278); Washington County (Rhode Island, 129,982); Newport County (Rhode Island, 83,832); Bristol County (Rhode Island, 50,255)"
+40,33340,"Milwaukee-Waukesha, WI",Wisconsin,Milwaukee County,55079,916205,1560424,"Milwaukee County (Wisconsin, 916,205); Waukesha County (Wisconsin, 412,591)"
+41,39580,"Raleigh-Cary, NC",North Carolina,Wake County,37183,1190275,1509231,"Wake County (North Carolina, 1,190,275); Franklin County (North Carolina, 77,001)"
+42,36420,"Oklahoma City, OK",Oklahoma,Oklahoma County,40109,808866,1477926,"Oklahoma County (Oklahoma, 808,866); Cleveland County (Oklahoma, 301,193); Canadian County (Oklahoma, 175,829); Logan County (Oklahoma, 53,029)"
+43,31140,"Louisville/Jefferson County, KY-IN",Kentucky,Jefferson County,21111,772144,1365557,"Jefferson County (Kentucky, 772,144); Clark County (Indiana, 125,467); Bullitt County (Kentucky, 84,863); Floyd County (Indiana, 80,809); Oldham County (Kentucky, 70,183)"
+44,40060,"Richmond, VA",Virginia,Chesterfield County,51041,383876,1349732,"Chesterfield County (Virginia, 383,876); Henrico County (Virginia, 334,760); Richmond city (Virginia, 229,247); Hanover County (Virginia, 114,148); Prince George County (Virginia, 42,871); Petersburg city (Virginia, 33,309); Dinwiddie County (Virginia, 28,343); Hopewell city (Virginia, 22,752); Colonial Heights city (Virginia, 18,393)"
+45,32820,"Memphis, TN-MS-AR",Tennessee,Shelby County,47157,910042,1335674,"Shelby County (Tennessee, 910,042); DeSoto County (Mississippi, 193,247); Crittenden County (Arkansas, 47,139)"
+46,41620,"Salt Lake City-Murray, UT",Utah,Salt Lake County,49035,1185813,1267864,"Salt Lake County (Utah, 1,185,813)"
+47,13820,"Birmingham, AL",Alabama,Jefferson County,01073,662895,1184290,"Jefferson County (Alabama, 662,895); Shelby County (Alabama, 233,000); St. Clair County (Alabama, 95,552)"
+48,23420,"Fresno, CA",California,Fresno County,06019,1017162,1180020,"Fresno County (California, 1,017,162)"
+49,24340,"Grand Rapids-Wyoming-Kentwood, MI",Michigan,Kent County,26081,661354,1162950,"Kent County (Michigan, 661,354)"
+50,15380,"Buffalo-Cheektowaga, NY",New York,Erie County,36029,946147,1155604,"Erie County (New York, 946,147); Niagara County (New York, 209,457)"
+51,25540,"Hartford-West Hartford-East Hartford, CT",Connecticut,Capitol Planning Region,09110,975328,1151543,"Capitol Planning Region (Connecticut, 975,328); Lower Connecticut River Valley Planning Region (Connecticut, 176,215)"
+52,46060,"Tucson, AZ",Arizona,Pima County,04019,1063162,1063162,"Pima County (Arizona, 1,063,162)"
+53,40380,"Rochester, NY",New York,Monroe County,36055,748482,1052087,"Monroe County (New York, 748,482); Ontario County (New York, 112,494)"
+54,46140,"Tulsa, OK",Oklahoma,Tulsa County,40143,682868,1044757,"Tulsa County (Oklahoma, 682,868); Wagoner County (Oklahoma, 89,280); Creek County (Oklahoma, 73,332); Osage County (Oklahoma, 46,130)"
+55,46520,"Urban Honolulu, HI",Hawaii,Honolulu County,15003,989408,989408,"Honolulu County (Hawaii, 989,408)"
+56,36540,"Omaha, NE-IA",Nebraska,Douglas County,31055,589540,983969,"Douglas County (Nebraska, 589,540); Sarpy County (Nebraska, 199,886); Pottawattamie County (Iowa, 93,179)"
+57,24860,"Greenville-Anderson-Greer, SC",South Carolina,Greenville County,45045,558036,975480,"Greenville County (South Carolina, 558,036); Pickens County (South Carolina, 135,495)"
+58,35380,"New Orleans-Metairie, LA",Louisiana,Jefferson Parish,22051,421777,962165,"Jefferson Parish (Louisiana, 421,777); Orleans Parish (Louisiana, 364,136); St. Charles Parish (Louisiana, 50,620); St. Bernard Parish (Louisiana, 44,463); St. John the Baptist Parish (Louisiana, 39,592); Plaquemines Parish (Louisiana, 22,386); St. James Parish (Louisiana, 19,191)"
+59,14860,"Bridgeport-Stamford-Danbury, CT",Connecticut,Western Connecticut Planning Region,09190,623907,951558,"Western Connecticut Planning Region (Connecticut, 623,907); Greater Bridgeport Planning Region (Connecticut, 327,651)"
+60,28940,"Knoxville, TN",Tennessee,Knox County,47093,500669,946264,"Knox County (Tennessee, 500,669); Blount County (Tennessee, 141,456); Anderson County (Tennessee, 80,234); Loudon County (Tennessee, 60,591)"
+61,10740,"Albuquerque, NM",New Mexico,Bernalillo County,35001,671586,922296,"Bernalillo County (New Mexico, 671,586); Sandoval County (New Mexico, 155,936)"
+62,12540,"Bakersfield-Delano, CA",California,Kern County,06029,913820,913820,"Kern County (California, 913,820)"
+63,35840,"North Port-Bradenton-Sarasota, FL",Florida,Sarasota County,12115,469013,910108,"Sarasota County (Florida, 469,013); Manatee County (Florida, 441,095)"
+64,10580,"Albany-Schenectady-Troy, NY",New York,Albany County,36001,316659,904682,"Albany County (New York, 316,659); Schenectady County (New York, 159,902); Rensselaer County (New York, 159,305)"
+65,32580,"McAllen-Edinburg-Mission, TX",Texas,Hidalgo County,48215,898471,898471,"Hidalgo County (Texas, 898,471)"
+66,12940,"Baton Rouge, LA",Louisiana,East Baton Rouge Parish,22033,448467,873661,"East Baton Rouge Parish (Louisiana, 448,467); Livingston Parish (Louisiana, 150,145); Ascension Parish (Louisiana, 131,632); Iberville Parish (Louisiana, 29,617); West Baton Rouge Parish (Louisiana, 28,266)"
+67,10900,"Allentown-Bethlehem-Easton, PA-NJ",Pennsylvania,Lehigh County,42077,377754,873555,"Lehigh County (Pennsylvania, 377,754); Northampton County (Pennsylvania, 319,091); Warren County (New Jersey, 111,252)"
+68,21340,"El Paso, TX",Texas,El Paso County,48141,869880,873331,"El Paso County (Texas, 869,880)"
+69,49340,"Worcester, MA",Massachusetts,Worcester County,25027,866866,866866,"Worcester County (Massachusetts, 866,866)"
+70,17900,"Columbia, SC",South Carolina,Richland County,45079,425138,858302,"Richland County (South Carolina, 425,138); Lexington County (South Carolina, 309,528)"
+71,16700,"Charleston-North Charleston, SC",South Carolina,Charleston County,45019,424367,849417,"Charleston County (South Carolina, 424,367); Berkeley County (South Carolina, 255,217); Dorchester County (South Carolina, 169,833)"
+72,15980,"Cape Coral-Fort Myers, FL",Florida,Lee County,12071,834573,834573,"Lee County (Florida, 834,573)"
+73,37100,"Oxnard-Thousand Oaks-Ventura, CA",California,Ventura County,06111,829590,829590,"Ventura County (California, 829,590)"
+74,14260,"Boise City, ID",Idaho,Ada County,16001,524673,824657,"Ada County (Idaho, 524,673)"
+75,29460,"Lakeland-Winter Haven, FL",Florida,Polk County,12105,818330,818330,"Polk County (Florida, 818,330)"
+76,19430,"Dayton-Kettering-Beavercreek, OH",Ohio,Montgomery County,39113,533796,814363,"Montgomery County (Ohio, 533,796); Greene County (Ohio, 169,691)"
+77,44700,"Stockton-Lodi, CA",California,San Joaquin County,06077,800965,800965,"San Joaquin County (California, 800,965)"
+78,24660,"Greensboro-High Point, NC",North Carolina,Guilford County,37081,549866,789842,"Guilford County (North Carolina, 549,866)"
+79,17820,"Colorado Springs, CO",Colorado,El Paso County,08041,744215,768832,"El Paso County (Colorado, 744,215)"
+80,30780,"Little Rock-North Little Rock-Conway, AR",Arkansas,Pulaski County,05119,400009,764045,"Pulaski County (Arkansas, 400,009); Saline County (Arkansas, 129,574); Lonoke County (Arkansas, 75,944)"
+81,19780,"Des Moines-West Des Moines, IA",Iowa,Polk County,19153,505255,737164,"Polk County (Iowa, 505,255); Dallas County (Iowa, 111,092)"
+82,39340,"Provo-Orem-Lehi, UT",Utah,Utah County,49049,719174,732197,"Utah County (Utah, 719,174)"
+83,19660,"Deltona-Daytona Beach-Ormond Beach, FL",Florida,Volusia County,12127,590357,721796,"Volusia County (Florida, 590,357); Flagler County (Florida, 131,439)"
+84,28880,"Kiryas Joel-Poughkeepsie-Newburgh, NY",New York,Orange County,36071,407470,704620,"Orange County (New York, 407,470); Dutchess County (New York, 297,150)"
+85,10420,"Akron, OH",Ohio,Summit County,39153,535733,698398,"Summit County (Ohio, 535,733); Portage County (Ohio, 162,665)"
+86,49180,"Winston-Salem, NC",North Carolina,Forsyth County,37067,392921,695630,"Forsyth County (North Carolina, 392,921); Davidson County (North Carolina, 174,804); Stokes County (North Carolina, 45,532); Davie County (North Carolina, 44,599)"
+87,31540,"Madison, WI",Wisconsin,Dane County,55025,575347,694345,"Dane County (Wisconsin, 575,347)"
+88,36260,"Ogden, UT",Utah,Davis County,49011,373207,658133,"Davis County (Utah, 373,207); Weber County (Utah, 271,926)"
+89,45060,"Syracuse, NY",New York,Onondaga County,36067,467873,652956,"Onondaga County (New York, 467,873)"
+90,48620,"Wichita, KS",Kansas,Sedgwick County,20173,528469,652939,"Sedgwick County (Kansas, 528,469); Butler County (Kansas, 68,632)"
+91,37340,"Palm Bay-Melbourne-Titusville, FL",Florida,Brevard County,12009,643979,643979,"Brevard County (Florida, 643,979)"
+92,12260,"Augusta-Richmond County, GA-SC",Georgia,Richmond County,13245,205414,629429,"Richmond County (Georgia, 205,414); Aiken County (South Carolina, 177,130); Columbia County (Georgia, 165,162)"
+93,27140,"Jackson, MS",Mississippi,Hinds County,28049,214870,610257,"Hinds County (Mississippi, 214,870); Rankin County (Mississippi, 160,417); Madison County (Mississippi, 112,511)"
+94,20500,"Durham-Chapel Hill, NC",North Carolina,Durham County,37063,336892,608879,"Durham County (North Carolina, 336,892); Orange County (North Carolina, 150,626); Chatham County (North Carolina, 81,624)"
+95,25420,"Harrisburg-Carlisle, PA",Pennsylvania,Dauphin County,42043,289234,606055,"Dauphin County (Pennsylvania, 289,234); Cumberland County (Pennsylvania, 270,738)"
+96,44060,"Spokane-Spokane Valley, WA",Washington,Spokane County,53063,551455,600292,"Spokane County (Washington, 551,455)"
+97,45780,"Toledo, OH",Ohio,Lucas County,39095,425484,600141,"Lucas County (Ohio, 425,484); Wood County (Ohio, 132,650)"
+98,22220,"Fayetteville-Springdale-Rogers, AR",Arkansas,Benton County,05007,311013,590337,"Benton County (Arkansas, 311,013); Washington County (Arkansas, 261,549)"
+99,16860,"Chattanooga, TN-GA",Tennessee,Hamilton County,47065,379864,580971,"Hamilton County (Tennessee, 379,864); Walker County (Georgia, 69,489); Catoosa County (Georgia, 68,910)"
+100,42540,"Scranton--Wilkes-Barre, PA",Pennsylvania,Luzerne County,42079,327388,569413,"Luzerne County (Pennsylvania, 327,388); Lackawanna County (Pennsylvania, 216,123)"
+101,35300,"New Haven, CT",Connecticut,South Central Connecticut Planning Region,09170,568158,568158,"South Central Connecticut Planning Region (Connecticut, 568,158)"
+102,38860,"Portland-South Portland, ME",Maine,Cumberland County,23005,310230,566329,"Cumberland County (Maine, 310,230); York County (Maine, 218,586)"
+103,39900,"Reno, NV",Nevada,Washoe County,32031,498022,564782,"Washoe County (Nevada, 498,022)"
+104,29540,"Lancaster, PA",Pennsylvania,Lancaster County,42071,558589,558589,"Lancaster County (Pennsylvania, 558,589)"
+105,33700,"Modesto, CA",California,Stanislaus County,06099,551430,551430,"Stanislaus County (California, 551,430)"
+106,38940,"Port St. Lucie, FL",Florida,St. Lucie County,12111,373586,536901,"St. Lucie County (Florida, 373,586); Martin County (Florida, 163,315)"
+107,37860,"Pensacola-Ferry Pass-Brent, FL",Florida,Escambia County,12033,326928,530090,"Escambia County (Florida, 326,928); Santa Rosa County (Florida, 203,162)"
+108,26620,"Huntsville, AL",Alabama,Madison County,01089,412600,527254,"Madison County (Alabama, 412,600); Limestone County (Alabama, 114,654)"
+109,30460,"Lexington-Fayette, KY",Kentucky,Fayette County,21067,320154,520045,"Fayette County (Kentucky, 320,154)"
+110,28660,"Killeen-Temple, TX",Texas,Bell County,48027,393193,501333,"Bell County (Texas, 393,193); Coryell County (Texas, 84,878)"
+111,44180,"Springfield, MO",Missouri,Greene County,29077,304611,491053,"Greene County (Missouri, 304,611); Christian County (Missouri, 94,422)"
+112,42220,"Santa Rosa-Petaluma, CA",California,Sonoma County,06097,481812,481812,"Sonoma County (California, 481,812)"
+113,47300,"Visalia, CA",California,Tulare County,06107,479468,479468,"Tulare County (California, 479,468)"
+114,29620,"Lansing-East Lansing, MI",Michigan,Ingham County,26065,284637,473177,"Ingham County (Michigan, 284,637); Eaton County (Michigan, 108,820); Clinton County (Michigan, 79,720)"
+115,48900,"Wilmington, NC",North Carolina,New Hanover County,37129,238852,467337,"New Hanover County (North Carolina, 238,852); Brunswick County (North Carolina, 159,964)"
+116,49620,"York-Hanover, PA",Pennsylvania,York County,42133,464640,464640,"York County (Pennsylvania, 464,640)"
+117,44140,"Springfield, MA",Massachusetts,Hampden County,25013,460291,460291,"Hampden County (Massachusetts, 460,291)"
+118,23060,"Fort Wayne, IN",Indiana,Allen County,18003,394545,457842,"Allen County (Indiana, 394,545)"
+119,47930,"Waterbury-Shelton, CT",Connecticut,Naugatuck Valley Planning Region,09140,456128,456128,"Naugatuck Valley Planning Region (Connecticut, 456,128)"
+120,46700,"Vallejo, CA",California,Solano County,06095,449218,449218,"Solano County (California, 449,218)"
+121,18580,"Corpus Christi, TX",Texas,Nueces County,48355,352289,448323,"Nueces County (Texas, 352,289); San Patricio County (Texas, 70,660)"
+122,42200,"Santa Maria-Santa Barbara, CA",California,Santa Barbara County,06083,441257,441257,"Santa Barbara County (California, 441,257)"
+123,41420,"Salem, OR",Oregon,Marion County,41047,346741,436546,"Marion County (Oregon, 346,741); Polk County (Oregon, 89,805)"
+124,39740,"Reading, PA",Pennsylvania,Berks County,42011,432821,432821,"Berks County (Pennsylvania, 432,821)"
+125,41500,"Salinas, CA",California,Monterey County,06053,430723,430723,"Monterey County (California, 430,723)"
+126,31700,"Manchester-Nashua, NH",New Hampshire,Hillsborough County,33011,427354,427354,"Hillsborough County (New Hampshire, 427,354)"
+127,15180,"Brownsville-Harlingen, TX",Texas,Cameron County,48061,426710,426710,"Cameron County (Texas, 426,710)"
+128,49660,"Youngstown-Warren, OH",Ohio,Mahoning County,39099,225596,425969,"Mahoning County (Ohio, 225,596); Trumbull County (Ohio, 200,373)"
+129,42340,"Savannah, GA",Georgia,Chatham County,13051,303655,424935,"Chatham County (Georgia, 303,655); Bryan County (Georgia, 49,739)"
+130,25060,"Gulfport-Biloxi, MS",Mississippi,Harrison County,28047,210612,421916,"Harrison County (Mississippi, 210,612); Hancock County (Mississippi, 46,159)"
+131,11700,"Asheville, NC",North Carolina,Buncombe County,37021,275901,417202,"Buncombe County (North Carolina, 275,901); Henderson County (North Carolina, 119,230)"
+132,29180,"Lafayette, LA",Louisiana,Lafayette Parish,22055,249750,414288,"Lafayette Parish (Louisiana, 249,750)"
+133,33660,"Mobile, AL",Alabama,Mobile County,01097,411640,411640,"Mobile County (Alabama, 411,640)"
+134,36100,"Ocala, FL",Florida,Marion County,12083,409959,409959,"Marion County (Florida, 409,959)"
+135,34940,"Naples-Marco Island, FL",Florida,Collier County,12021,404310,404310,"Collier County (Florida, 404,310)"
+136,22420,"Flint, MI",Michigan,Genesee County,26049,401522,401522,"Genesee County (Michigan, 401,522)"
+137,11260,"Anchorage, AK",Alaska,Anchorage Municipality,02020,286075,401314,"Anchorage Municipality (Alaska, 286,075)"
+138,15940,"Canton-Massillon, OH",Ohio,Stark County,39151,372716,399474,"Stark County (Ohio, 372,716)"
+139,34820,"Myrtle Beach-Conway-North Myrtle Beach, SC",South Carolina,Horry County,45051,397478,397478,"Horry County (South Carolina, 397,478)"
+140,13140,"Beaumont-Port Arthur, TX",Texas,Jefferson County,48245,251496,395479,"Jefferson County (Texas, 251,496)"
+141,45220,"Tallahassee, FL",Florida,Leon County,12073,296913,392645,"Leon County (Florida, 296,913)"
+142,22180,"Fayetteville, NC",North Carolina,Cumberland County,37051,337890,392336,"Cumberland County (North Carolina, 337,890); Hoke County (North Carolina, 54,446)"
+143,33860,"Montgomery, AL",Alabama,Montgomery County,01101,224980,385480,"Montgomery County (Alabama, 224,980); Elmore County (Alabama, 90,441); Autauga County (Alabama, 60,342)"
+144,43900,"Spartanburg, SC",South Carolina,Spartanburg County,45083,356698,383327,"Spartanburg County (South Carolina, 356,698)"
+145,43340,"Shreveport-Bossier City, LA",Louisiana,Caddo Parish,22017,226386,383295,"Caddo Parish (Louisiana, 226,386); Bossier Parish (Louisiana, 129,795)"
+146,45940,"Trenton-Princeton, NJ",New Jersey,Mercer County,34021,381671,381671,"Mercer County (New Jersey, 381,671)"
+147,21660,"Eugene-Springfield, OR",Oregon,Lane County,41039,381181,381181,"Lane County (Oregon, 381,181)"
+148,19340,"Davenport-Moline-Rock Island, IA-IL",Iowa,Scott County,19163,174270,379441,"Scott County (Iowa, 174,270); Rock Island County (Illinois, 141,236)"
+149,22660,"Fort Collins-Loveland, CO",Colorado,Larimer County,08069,370771,370771,"Larimer County (Colorado, 370,771)"
+150,25860,"Hickory-Lenoir-Morganton, NC",North Carolina,Catawba County,37035,164645,370030,"Catawba County (North Carolina, 164,645); Burke County (North Carolina, 88,338); Caldwell County (North Carolina, 80,574)"
+151,12100,"Atlantic City-Hammonton, NJ",New Jersey,Atlantic County,34001,275213,369823,"Atlantic County (New Jersey, 275,213); Cape May County (New Jersey, 94,610)"
+152,26580,"Huntington-Ashland, WV-KY-OH",West Virginia,Cabell County,54011,92082,368261,"Cabell County (West Virginia, 92,082); Putnam County (West Virginia, 56,962); Lawrence County (Ohio, 56,118); Boyd County (Kentucky, 47,826); Wayne County (West Virginia, 37,686); Greenup County (Kentucky, 35,221)"
+153,11460,"Ann Arbor, MI",Michigan,Washtenaw County,26161,365536,365536,"Washtenaw County (Michigan, 365,536)"
+154,37900,"Peoria, IL",Illinois,Peoria County,17143,177513,362240,"Peoria County (Illinois, 177,513); Tazewell County (Illinois, 129,541); Woodford County (Illinois, 38,285)"
+155,31180,"Lubbock, TX",Texas,Lubbock County,48303,320940,360104,"Lubbock County (Texas, 320,940)"
+156,24540,"Greeley, CO",Colorado,Weld County,08123,359442,359442,"Weld County (Colorado, 359,442)"
+157,23540,"Gainesville, FL",Florida,Alachua County,12001,285994,352126,"Alachua County (Florida, 285,994)"
+158,30700,"Lincoln, NE",Nebraska,Lancaster County,31109,326716,344387,"Lancaster County (Nebraska, 326,716)"
+159,17300,"Clarksville, TN-KY",Tennessee,Montgomery County,47125,239872,340495,"Montgomery County (Tennessee, 239,872)"
+160,40420,"Rockford, IL",Illinois,Winnebago County,17201,280922,334124,"Winnebago County (Illinois, 280,922); Boone County (Illinois, 53,202)"
+161,24580,"Green Bay, WI",Wisconsin,Brown County,55009,271417,331882,"Brown County (Wisconsin, 271,417)"
+162,14500,"Boulder, CO",Colorado,Boulder County,08013,326831,326831,"Boulder County (Colorado, 326,831)"
+163,43780,"South Bend-Mishawaka, IN-MI",Indiana,St. Joseph County,18141,272848,324490,"St. Joseph County (Indiana, 272,848); Cass County (Michigan, 51,642)"
+164,17980,"Columbus, GA-AL",Georgia,Muscogee County,13215,201877,323768,"Muscogee County (Georgia, 201,877); Russell County (Alabama, 58,744); Chattahoochee County (Georgia, 8,661)"
+165,40220,"Roanoke, VA",Virginia,Roanoke city,51770,97171,314314,"Roanoke city (Virginia, 97,171); Roanoke County (Virginia, 97,026); Botetourt County (Virginia, 34,125); Salem city (Virginia, 25,600)"
+166,28420,"Kennewick-Richland, WA",Washington,Benton County,53005,215219,314253,"Benton County (Washington, 215,219); Franklin County (Washington, 99,034)"
+167,28700,"Kingsport-Bristol, TN-VA",Tennessee,Sullivan County,47163,162135,313025,"Sullivan County (Tennessee, 162,135); Hawkins County (Tennessee, 58,600)"
+168,25180,"Hagerstown-Martinsburg, MD-WV",Maryland,Washington County,24043,155813,305902,"Washington County (Maryland, 155,813); Berkeley County (West Virginia, 132,440)"
+169,47380,"Waco, TX",Texas,McLennan County,48309,268583,304865,"McLennan County (Texas, 268,583)"
+170,18880,"Crestview-Fort Walton Beach-Destin, FL",Florida,Okaloosa County,12091,218464,304818,"Okaloosa County (Florida, 218,464); Walton County (Florida, 86,354)"
+171,43620,"Sioux Falls, SD-MN",South Dakota,Minnehaha County,46099,206930,304555,"Minnehaha County (South Dakota, 206,930); Lincoln County (South Dakota, 73,238)"
+172,36500,"Olympia-Lacey-Tumwater, WA",Washington,Thurston County,53067,299003,299003,"Thurston County (Washington, 299,003)"
+173,30980,"Longview, TX",Texas,Gregg County,48183,126243,293498,"Gregg County (Texas, 126,243)"
+174,32900,"Merced, CA",California,Merced County,06047,291920,291920,"Merced County (California, 291,920)"
+175,46540,"Utica-Rome, NY",New York,Oneida County,36065,227555,287039,"Oneida County (New York, 227,555)"
+176,42020,"San Luis Obispo-Paso Robles, CA",California,San Luis Obispo County,06079,281639,281639,"San Luis Obispo County (California, 281,639)"
+177,20260,"Duluth, MN-WI",Minnesota,St. Louis County,27137,200514,281603,"St. Louis County (Minnesota, 200,514); Douglas County (Wisconsin, 44,264)"
+178,17780,"College Station-Bryan, TX",Texas,Brazos County,48041,244703,281445,"Brazos County (Texas, 244,703)"
+179,35980,"Norwich-New London-Willimantic, CT",Connecticut,Southeastern Connecticut Planning Region,09180,279634,279634,"Southeastern Connecticut Planning Region (Connecticut, 279,634)"
+180,46220,"Tuscaloosa, AL",Alabama,Tuscaloosa County,01125,237373,278290,"Tuscaloosa County (Alabama, 237,373)"
+181,14740,"Bremerton-Silverdale-Port Orchard, WA",Washington,Kitsap County,53035,277658,277658,"Kitsap County (Washington, 277,658)"
+182,16300,"Cedar Rapids, IA",Iowa,Linn County,19113,228972,275668,"Linn County (Iowa, 228,972)"
+183,43640,"Slidell-Mandeville-Covington, LA",Louisiana,St. Tammany Parish,22103,275583,275583,"St. Tammany Parish (Louisiana, 275,583)"
+184,11100,"Amarillo, TX",Texas,Randall County,48381,148255,272395,"Randall County (Texas, 148,255); Potter County (Texas, 114,647)"
+185,21780,"Evansville, IN",Indiana,Vanderburgh County,18163,179810,270717,"Vanderburgh County (Indiana, 179,810); Warrick County (Indiana, 65,867)"
+186,29700,"Laredo, TX",Texas,Webb County,48479,269148,269148,"Webb County (Texas, 269,148)"
+187,21500,"Erie, PA",Pennsylvania,Erie County,42049,267571,267571,"Erie County (Pennsylvania, 267,571)"
+188,31340,"Lynchburg, VA",Virginia,Bedford County,51019,81525,264590,"Bedford County (Virginia, 81,525); Lynchburg city (Virginia, 79,535); Campbell County (Virginia, 55,270); Amherst County (Virginia, 31,396)"
+189,22020,"Fargo, ND-MN",North Dakota,Cass County,38017,196362,262620,"Cass County (North Dakota, 196,362); Clay County (Minnesota, 66,258)"
+190,28020,"Kalamazoo-Portage, MI",Michigan,Kalamazoo County,26077,262215,262215,"Kalamazoo County (Michigan, 262,215)"
+191,42100,"Santa Cruz-Watsonville, CA",California,Santa Cruz County,06087,261547,261547,"Santa Cruz County (California, 261,547)"
+192,13460,"Bend, OR",Oregon,Deschutes County,41017,208513,260919,"Deschutes County (Oregon, 208,513)"
+193,49420,"Yakima, WA",Washington,Yakima County,53077,256643,256643,"Yakima County (Washington, 256,643)"
+194,19300,"Daphne-Fairhope-Foley, AL",Alabama,Baldwin County,01003,253507,253507,"Baldwin County (Alabama, 253,507)"
+195,39150,"Prescott Valley-Prescott, AZ",Arizona,Yavapai County,04025,249081,249081,"Yavapai County (Arizona, 249,081)"
+196,11540,"Appleton, WI",Wisconsin,Outagamie County,55087,193234,246433,"Outagamie County (Wisconsin, 193,234); Calumet County (Wisconsin, 53,199)"
+197,46340,"Tyler, TX",Texas,Smith County,48423,245209,245209,"Smith County (Texas, 245,209)"
+198,13780,"Binghamton, NY",New York,Broome County,36007,196077,243792,"Broome County (New York, 196,077); Tioga County (New York, 47,715)"
+199,29340,"Lake Charles, LA",Louisiana,Calcasieu Parish,22019,203761,240082,"Calcasieu Parish (Louisiana, 203,761)"
+200,31420,"Macon-Bibb County, GA",Georgia,Bibb County,13021,156512,236074,"Bibb County (Georgia, 156,512)"
+201,16580,"Champaign-Urbana, IL",Illinois,Champaign County,17019,205644,235608,"Champaign County (Illinois, 205,644)"
+202,25940,"Hilton Head Island-Bluffton-Port Royal, SC",South Carolina,Beaufort County,45013,198979,232523,"Beaufort County (South Carolina, 198,979)"
+203,45820,"Topeka, KS",Kansas,Shawnee County,20177,177746,232322,"Shawnee County (Kansas, 177,746)"
+204,13380,"Bellingham, WA",Washington,Whatcom County,53073,231919,231919,"Whatcom County (Washington, 231,919)"
+205,12700,"Barnstable Town, MA",Massachusetts,Barnstable County,25001,231735,231735,"Barnstable County (Massachusetts, 231,735)"
+206,22900,"Fort Smith, AR-OK",Arkansas,Sebastian County,05131,129098,231280,"Sebastian County (Arkansas, 129,098); Crawford County (Arkansas, 61,891)"
+207,40340,"Rochester, MN",Minnesota,Olmsted County,27109,164784,229077,"Olmsted County (Minnesota, 164,784)"
+208,15540,"Burlington-South Burlington, VT",Vermont,Chittenden County,50007,169481,227942,"Chittenden County (Vermont, 169,481)"
+209,29200,"Lafayette-West Lafayette, IN",Indiana,Tippecanoe County,18157,188792,226564,"Tippecanoe County (Indiana, 188,792)"
+210,29740,"Las Cruces, NM",New Mexico,Doña Ana County,35013,225210,225210,"Doña Ana County (New Mexico, 225,210)"
+211,16820,"Charlottesville, VA",Virginia,Albemarle County,51003,115676,225127,"Albemarle County (Virginia, 115,676); Charlottesville city (Virginia, 44,983)"
+212,29420,"Lake Havasu City-Kingman, AZ",Arizona,Mohave County,04015,223682,223682,"Mohave County (Arizona, 223,682)"
+213,12020,"Athens-Clarke County, GA",Georgia,Clarke County,13059,129933,222060,"Clarke County (Georgia, 129,933); Oconee County (Georgia, 44,182)"
+214,33740,"Monroe, LA",Louisiana,Ouachita Parish,22073,157568,221885,"Ouachita Parish (Louisiana, 157,568)"
+215,32780,"Medford, OR",Oregon,Jackson County,41029,220768,220768,"Jackson County (Oregon, 220,768)"
+216,23580,"Gainesville, GA",Georgia,Hall County,13139,217267,217267,"Hall County (Georgia, 217,267)"
+217,17860,"Columbia, MO",Missouri,Boone County,29019,189463,216511,"Boone County (Missouri, 189,463)"
+218,37460,"Panama City-Panama City Beach, FL",Florida,Bay County,12005,190769,216371,"Bay County (Florida, 190,769)"
+219,27340,"Jacksonville, NC",North Carolina,Onslow County,37133,213676,213676,"Onslow County (North Carolina, 213,676)"
+220,49740,"Yuma, AZ",Arizona,Yuma County,04027,213221,213221,"Yuma County (Arizona, 213,221)"
+221,27740,"Johnson City, TN",Tennessee,Washington County,47179,138420,213198,"Washington County (Tennessee, 138,420); Carter County (Tennessee, 57,022)"
+222,30500,"Lexington Park, MD",Maryland,St. Mary's County,24037,115281,210009,"St. Mary's County (Maryland, 115,281); Calvert County (Maryland, 94,728)"
+223,17020,"Chico, CA",California,Butte County,06007,207172,207172,"Butte County (California, 207,172)"
+224,21140,"Elkhart-Goshen, IN",Indiana,Elkhart County,18039,206409,206409,"Elkhart County (Indiana, 206,409)"
+225,39460,"Punta Gorda, FL",Florida,Charlotte County,12015,206134,206134,"Charlotte County (Florida, 206,134)"
+226,44100,"Springfield, IL",Illinois,Sangamon County,17167,193491,205445,"Sangamon County (Illinois, 193,491)"
+227,27900,"Joplin, MO-KS",Missouri,Jasper County,29097,125056,204787,"Jasper County (Missouri, 125,056)"
+228,16620,"Charleston, WV",West Virginia,Kanawha County,54039,174805,203164,"Kanawha County (West Virginia, 174,805)"
+229,41060,"St. Cloud, MN",Minnesota,Stearns County,27145,160977,202577,"Stearns County (Minnesota, 160,977); Benton County (Minnesota, 41,600)"
+230,41100,"St. George, UT",Utah,Washington County,49053,202452,202452,"Washington County (Utah, 202,452)"
+231,12220,"Auburn-Opelika, AL",Alabama,Lee County,01081,183215,201585,"Lee County (Alabama, 183,215)"
+232,47580,"Warner Robins, GA",Georgia,Houston County,13153,171974,200779,"Houston County (Georgia, 171,974); Peach County (Georgia, 28,805)"
+233,22500,"Florence, SC",South Carolina,Florence County,45041,137214,199630,"Florence County (South Carolina, 137,214)"
+234,26380,"Houma-Bayou Cane-Thibodaux, LA",Louisiana,Terrebonne Parish,22109,103616,198672,"Terrebonne Parish (Louisiana, 103,616); Lafourche Parish (Louisiana, 95,056)"
+235,39540,"Racine-Mount Pleasant, WI",Wisconsin,Racine County,55101,196613,196613,"Racine County (Wisconsin, 196,613)"
+236,13740,"Billings, MT",Montana,Yellowstone County,30111,170843,191435,"Yellowstone County (Montana, 170,843)"
+237,20100,"Dover, DE",Delaware,Kent County,10001,189789,189789,"Kent County (Delaware, 189,789)"
+238,14540,"Bowling Green, KY",Kentucky,Warren County,21227,142229,188840,"Warren County (Kentucky, 142,229)"
+239,40980,"Saginaw, MI",Michigan,Saginaw County,26145,187782,187782,"Saginaw County (Michigan, 187,782)"
+240,17660,"Coeur d'Alene, ID",Idaho,Kootenai County,16055,185010,185010,"Kootenai County (Idaho, 185,010)"
+241,49700,"Yuba City, CA",California,Sutter County,06101,97948,183670,"Sutter County (California, 97,948); Yuba County (California, 85,722)"
+242,28740,"Kingston, NY",New York,Ulster County,36111,182333,182333,"Ulster County (New York, 182,333)"
+243,33260,"Midland, TX",Texas,Midland County,48329,177108,182324,"Midland County (Texas, 177,108)"
+244,27180,"Jackson, TN",Tennessee,Madison County,47113,99193,181826,"Madison County (Tennessee, 99,193)"
+245,10180,"Abilene, TX",Texas,Taylor County,48441,146836,181591,"Taylor County (Texas, 146,836)"
+246,13980,"Blacksburg-Christiansburg-Radford, VA",Virginia,Montgomery County,51121,98666,181428,"Montgomery County (Virginia, 98,666); Radford city (Virginia, 16,971)"
+247,39820,"Redding, CA",California,Shasta County,06089,180366,180366,"Shasta County (California, 180,366)"
+248,26980,"Iowa City, IA",Iowa,Johnson County,19103,157528,180088,"Johnson County (Iowa, 157,528)"
+249,15500,"Burlington, NC",North Carolina,Alamance County,37001,179165,179165,"Alamance County (North Carolina, 179,165)"
+250,20940,"El Centro, CA",California,Imperial County,06025,179057,179057,"Imperial County (California, 179,057)"
+251,34740,"Muskegon-Norton Shores, MI",Michigan,Muskegon County,26121,176564,176564,"Muskegon County (Michigan, 176,564)"
+252,24780,"Greenville, NC",North Carolina,Pitt County,37147,175119,175119,"Pitt County (North Carolina, 175,119)"
+253,20740,"Eau Claire, WI",Wisconsin,Eau Claire County,55035,107903,174873,"Eau Claire County (Wisconsin, 107,903); Chippewa County (Wisconsin, 66,970)"
+254,36780,"Oshkosh-Neenah, WI",Wisconsin,Winnebago County,55139,171735,171735,"Winnebago County (Wisconsin, 171,735)"
+255,14010,"Bloomington, IL",Illinois,McLean County,17113,170441,170441,"McLean County (Illinois, 170,441)"
+256,29100,"La Crosse-Onalaska, WI-MN",Wisconsin,La Crosse County,55063,120486,170238,"La Crosse County (Wisconsin, 120,486); Houston County (Minnesota, 18,582)"
+257,42680,"Sebastian-Vero Beach-West Vero Corridor, FL",Florida,Indian River County,12061,169795,169795,"Indian River County (Florida, 169,795)"
+258,39380,"Pueblo, CO",Colorado,Pueblo County,08101,169422,169422,"Pueblo County (Colorado, 169,422)"
+259,45460,"Terre Haute, IN",Indiana,Vigo County,18167,106153,168787,"Vigo County (Indiana, 106,153)"
+260,26820,"Idaho Falls, ID",Idaho,Bonneville County,16019,131366,168322,"Bonneville County (Idaho, 131,366)"
+261,47940,"Waterloo-Cedar Falls, IA",Iowa,Black Hawk County,19013,130471,168162,"Black Hawk County (Iowa, 130,471)"
+262,28450,"Kenosha, WI",Wisconsin,Kenosha County,55059,167488,167488,"Kenosha County (Wisconsin, 167,488)"
+263,26140,"Homosassa Springs, FL",Florida,Citrus County,12017,166696,166696,"Citrus County (Florida, 166,696)"
+264,36220,"Odessa, TX",Texas,Ector County,48135,164494,164494,"Ector County (Texas, 164,494)"
+265,27500,"Janesville-Beloit, WI",Wisconsin,Rock County,55105,164278,164278,"Rock County (Wisconsin, 164,278)"
+266,27980,"Kahului-Wailuku, HI",Hawaii,Maui County,15009,164183,164264,"Maui County (Hawaii, 164,183)"
+267,11200,"Amherst Town-Northampton, MA",Massachusetts,Hampshire County,25015,162502,162502,"Hampshire County (Massachusetts, 162,502)"
+268,14020,"Bloomington, IN",Indiana,Monroe County,18105,139342,160874,"Monroe County (Indiana, 139,342)"
+269,24300,"Grand Junction, CO",Colorado,Mesa County,08077,159681,159681,"Mesa County (Colorado, 159,681)"
+270,27100,"Jackson, MI",Michigan,Jackson County,26075,159424,159424,"Jackson County (Michigan, 159,424)"
+271,19460,"Decatur, AL",Alabama,Morgan County,01103,125133,158635,"Morgan County (Alabama, 125,133)"
+272,30860,"Logan, UT-ID",Utah,Cache County,49005,142393,157887,"Cache County (Utah, 142,393)"
+273,16540,"Chambersburg, PA",Pennsylvania,Franklin County,42055,157854,157854,"Franklin County (Pennsylvania, 157,854)"
+274,44300,"State College, PA",Pennsylvania,Centre County,42027,157795,157795,"Centre County (Pennsylvania, 157,795)"
+275,45900,"Traverse City, MI",Michigan,Grand Traverse County,26055,96421,156371,"Grand Traverse County (Michigan, 96,421)"
+276,39660,"Rapid City, SD",South Dakota,Pennington County,46103,115903,155974,"Pennington County (South Dakota, 115,903)"
+277,42140,"Santa Fe, NM",New Mexico,Santa Fe County,35049,155956,155956,"Santa Fe County (New Mexico, 155,956)"
+278,25620,"Hattiesburg, MS",Mississippi,Forrest County,28035,78208,155740,"Forrest County (Mississippi, 78,208); Lamar County (Mississippi, 66,217)"
+279,12620,"Bangor, ME",Maine,Penobscot County,23019,155312,155312,"Penobscot County (Maine, 155,312)"
+280,22520,"Florence-Muscle Shoals, AL",Alabama,Lauderdale County,01077,96814,155175,"Lauderdale County (Alabama, 96,814); Colbert County (Alabama, 58,361)"
+281,33780,"Monroe, MI",Michigan,Monroe County,26115,155045,155045,"Monroe County (Michigan, 155,045)"
+282,20020,"Dothan, AL",Alabama,Houston County,01069,108462,153349,"Houston County (Alabama, 108,462)"
+283,25260,"Hanford-Corcoran, CA",California,Kings County,06031,152682,152682,"Kings County (California, 152,682)"
+284,47220,"Vineland, NJ",New Jersey,Cumberland County,34011,152326,152326,"Cumberland County (New Jersey, 152,326)"
+285,35660,"Niles, MI",Michigan,Berrien County,26021,152261,152261,"Berrien County (Michigan, 152,261)"
+286,48680,"Wildwood-The Villages, FL",Florida,Sumter County,12119,151565,151565,"Sumter County (Florida, 151,565)"
+287,46660,"Valdosta, GA",Georgia,Lowndes County,13185,120712,151118,"Lowndes County (Georgia, 120,712)"
+288,27620,"Jefferson City, MO",Missouri,Cole County,29051,77278,150733,"Cole County (Missouri, 77,278)"
+289,48660,"Wichita Falls, TX",Texas,Wichita County,48485,130180,149947,"Wichita County (Texas, 130,180)"
+290,10780,"Alexandria, LA",Louisiana,Rapides Parish,22079,126260,148171,"Rapides Parish (Louisiana, 126,260)"
+291,49020,"Winchester, VA-WV",Virginia,Frederick County,51069,95994,147260,"Frederick County (Virginia, 95,994); Winchester city (Virginia, 27,617)"
+292,43300,"Sherman-Denison, TX",Texas,Grayson County,48181,146907,146907,"Grayson County (Texas, 146,907)"
+293,45500,"Texarkana, TX-AR",Texas,Bowie County,48037,91687,145907,"Bowie County (Texas, 91,687); Miller County (Arkansas, 42,415)"
+294,10500,"Albany, GA",Georgia,Dougherty County,13095,82645,145508,"Dougherty County (Georgia, 82,645); Lee County (Georgia, 33,872)"
+295,40580,"Rocky Mount, NC",North Carolina,Nash County,37127,96551,145383,"Nash County (North Carolina, 96,551); Edgecombe County (North Carolina, 48,832)"
+296,19140,"Dalton, GA",Georgia,Whitfield County,13313,103687,144722,"Whitfield County (Georgia, 103,687)"
+297,22380,"Flagstaff, AZ",Arizona,Coconino County,04005,144472,144472,"Coconino County (Arizona, 144,472)"
+298,43580,"Sioux City, IA-NE-SD",Iowa,Woodbury County,19193,105951,144402,"Woodbury County (Iowa, 105,951); Dakota County (Nebraska, 21,268); Union County (South Dakota, 17,183)"
+299,30140,"Lebanon, PA",Pennsylvania,Lebanon County,42075,144252,144252,"Lebanon County (Pennsylvania, 144,252)"
+300,34060,"Morgantown, WV",West Virginia,Monongalia County,54061,107718,141817,"Monongalia County (West Virginia, 107,718)"
+301,48140,"Wausau, WI",Wisconsin,Marathon County,55073,138612,138612,"Marathon County (Wisconsin, 138,612)"
+302,25220,"Hammond, LA",Louisiana,Tangipahoa Parish,22105,138064,138064,"Tangipahoa Parish (Louisiana, 138,064)"
+303,25500,"Harrisonburg, VA",Virginia,Rockingham County,51165,86568,137650,"Rockingham County (Virginia, 86,568); Harrisonburg city (Virginia, 51,082)"
+304,27860,"Jonesboro, AR",Arkansas,Craighead County,05031,113993,136390,"Craighead County (Arkansas, 113,993)"
+305,13900,"Bismarck, ND",North Dakota,Burleigh County,38015,100012,135786,"Burleigh County (North Dakota, 100,012); Morton County (North Dakota, 33,895)"
+306,48540,"Wheeling, WV-OH",Ohio,Belmont County,39013,64918,135517,"Belmont County (Ohio, 64,918); Ohio County (West Virginia, 41,194)"
+307,44220,"Springfield, OH",Ohio,Clark County,39023,134610,134610,"Clark County (Ohio, 134,610)"
+308,12980,"Battle Creek, MI",Michigan,Calhoun County,26025,133366,133366,"Calhoun County (Michigan, 133,366)"
+309,34900,"Napa, CA",California,Napa County,06055,133216,133216,"Napa County (California, 133,216)"
+310,31740,"Manhattan, KS",Kansas,Riley County,20161,71402,132831,"Riley County (Kansas, 71,402)"
+311,10540,"Albany, OR",Oregon,Linn County,41043,131496,131496,"Linn County (Oregon, 131,496)"
+312,34580,"Mount Vernon-Anacortes, WA",Washington,Skagit County,53057,131417,131417,"Skagit County (Washington, 131,417)"
+313,27780,"Johnstown, PA",Pennsylvania,Cambria County,42021,130668,130668,"Cambria County (Pennsylvania, 130,668)"
+314,41540,"Salisbury, MD",Maryland,Wicomico County,24045,104800,129710,"Wicomico County (Maryland, 104,800)"
+315,17420,"Cleveland, TN",Tennessee,Bradley County,47011,111579,129612,"Bradley County (Tennessee, 111,579)"
+316,21060,"Elizabethtown, KY",Kentucky,Hardin County,21093,112273,127576,"Hardin County (Kentucky, 112,273)"
+317,44420,"Staunton-Stuarts Draft, VA",Virginia,Augusta County,51015,78247,127344,"Augusta County (Virginia, 78,247); Staunton city (Virginia, 25,915); Waynesboro city (Virginia, 23,182)"
+318,30020,"Lawton, OK",Oklahoma,Comanche County,40031,121574,127001,"Comanche County (Oklahoma, 121,574)"
+319,33540,"Missoula, MT",Montana,Missoula County,30063,121849,126939,"Missoula County (Montana, 121,849)"
+320,38340,"Pittsfield, MA",Massachusetts,Berkshire County,25003,126818,126818,"Berkshire County (Massachusetts, 126,818)"
+321,14580,"Bozeman, MT",Montana,Gallatin County,30031,126409,126409,"Gallatin County (Montana, 126,409)"
+322,24020,"Glens Falls, NY",New York,Warren County,36113,65380,125427,"Warren County (New York, 65,380); Washington County (New York, 60,047)"
+323,11180,"Ames, IA",Iowa,Story County,19169,98566,125156,"Story County (Iowa, 98,566)"
+324,31900,"Mansfield, OH",Ohio,Richland County,39139,125064,125064,"Richland County (Ohio, 125,064)"
+325,48300,"Wenatchee-East Wenatchee, WA",Washington,Chelan County,53007,79997,124795,"Chelan County (Washington, 79,997); Douglas County (Washington, 44,798)"
+326,43420,"Sierra Vista-Douglas, AZ",Arizona,Cochise County,04003,124640,124640,"Cochise County (Arizona, 124,640)"
+327,34100,"Morristown, TN",Tennessee,Hamblen County,47063,66216,124054,"Hamblen County (Tennessee, 66,216); Jefferson County (Tennessee, 57,838)"
+328,22140,"Farmington, NM",New Mexico,San Juan County,35045,120675,120675,"San Juan County (New Mexico, 120,675)"
+329,46300,"Twin Falls, ID",Idaho,Twin Falls County,16083,95156,120635,"Twin Falls County (Idaho, 95,156)"
+330,41660,"San Angelo, TX",Texas,Tom Green County,48451,119057,120606,"Tom Green County (Texas, 119,057)"
+331,29940,"Lawrence, KS",Kansas,Douglas County,20045,120553,120553,"Douglas County (Kansas, 120,553)"
+332,11020,"Altoona, PA",Pennsylvania,Blair County,42013,120273,120273,"Blair County (Pennsylvania, 120,273)"
+333,24140,"Goldsboro, NC",North Carolina,Wayne County,37191,118686,118686,"Wayne County (North Carolina, 118,686)"
+334,41140,"St. Joseph, MO-KS",Missouri,Buchanan County,29021,82956,118475,"Buchanan County (Missouri, 82,956)"
+335,43100,"Sheboygan, WI",Wisconsin,Sheboygan County,55117,117752,117752,"Sheboygan County (Wisconsin, 117,752)"
+336,11500,"Anniston-Oxford, AL",Alabama,Calhoun County,01015,116429,116429,"Calhoun County (Alabama, 116,429)"
+337,15260,"Brunswick-St. Simons, GA",Georgia,Glynn County,13127,86172,116074,"Glynn County (Georgia, 86,172)"
+338,48060,"Watertown-Fort Drum, NY",New York,Jefferson County,36045,114787,114787,"Jefferson County (New York, 114,787)"
+339,41780,"Sandusky, OH",Ohio,Erie County,39043,74035,113838,"Erie County (Ohio, 74,035); Ottawa County (Ohio, 39,803)"
+340,30340,"Lewiston-Auburn, ME",Maine,Androscoggin County,23001,113765,113765,"Androscoggin County (Maine, 113,765)"
+341,48260,"Weirton-Steubenville, WV-OH",Ohio,Jefferson County,39081,64026,113544,"Jefferson County (Ohio, 64,026); Hancock County (West Virginia, 28,145); Brooke County (West Virginia, 21,373)"
+342,31020,"Longview-Kelso, WA",Washington,Cowlitz County,53015,112864,112864,"Cowlitz County (Washington, 112,864)"
+343,48700,"Williamsport, PA",Pennsylvania,Lycoming County,42081,112724,112724,"Lycoming County (Pennsylvania, 112,724)"
+344,36980,"Owensboro, KY",Kentucky,Daviess County,21059,103458,112512,"Daviess County (Kentucky, 103,458)"
+345,34620,"Muncie, IN",Indiana,Delaware County,18035,112321,112321,"Delaware County (Indiana, 112,321)"
+346,33140,"Michigan City-La Porte, IN",Indiana,LaPorte County,18091,111706,111706,"LaPorte County (Indiana, 111,706)"
+347,13220,"Beckley, WV",West Virginia,Raleigh County,54081,72356,111428,"Raleigh County (West Virginia, 72,356); Fayette County (West Virginia, 39,072)"
+348,42700,"Sebring, FL",Florida,Highlands County,12055,107614,107614,"Highlands County (Florida, 107,614)"
+349,38240,"Pinehurst-Southern Pines, NC",North Carolina,Moore County,37125,106898,106898,"Moore County (North Carolina, 106,898)"
+350,23900,"Gettysburg, PA",Pennsylvania,Adams County,42001,106748,106748,"Adams County (Pennsylvania, 106,748)"
+351,28100,"Kankakee, IL",Illinois,Kankakee County,17091,105940,105940,"Kankakee County (Illinois, 105,940)"
+352,31860,"Mankato, MN",Minnesota,Blue Earth County,27013,70006,104248,"Blue Earth County (Minnesota, 70,006); Nicollet County (Minnesota, 34,242)"
+353,44940,"Sumter, SC",South Carolina,Sumter County,45085,104165,104165,"Sumter County (South Carolina, 104,165)"
+354,22540,"Fond du Lac, WI",Wisconsin,Fond du Lac County,55039,103948,103948,"Fond du Lac County (Wisconsin, 103,948)"
+355,27060,"Ithaca, NY",New York,Tompkins County,36109,103558,103558,"Tompkins County (New York, 103,558)"
+356,23460,"Gadsden, AL",Alabama,Etowah County,01055,103241,103241,"Etowah County (Alabama, 103,241)"
+357,24220,"Grand Forks, ND-MN",North Dakota,Grand Forks County,38035,72708,103120,"Grand Forks County (North Dakota, 72,708); Polk County (Minnesota, 30,412)"
+358,13020,"Bay City, MI",Michigan,Bay County,26017,102500,102500,"Bay County (Michigan, 102,500)"
+359,37140,"Paducah, KY-IL",Kentucky,McCracken County,21145,67428,102267,"McCracken County (Kentucky, 67,428)"
+360,16940,"Cheyenne, WY",Wyoming,Laramie County,56021,100984,100984,"Laramie County (Wyoming, 100,984)"
+361,30620,"Lima, OH",Ohio,Allen County,39003,100838,100838,"Allen County (Ohio, 100,838)"
+362,19500,"Decatur, IL",Illinois,Macon County,17115,100591,100591,"Macon County (Illinois, 100,591)"
+363,40660,"Rome, GA",Georgia,Floyd County,13115,100113,100113,"Floyd County (Georgia, 100,113)"
+364,26300,"Hot Springs, AR",Arkansas,Garland County,05051,99784,99784,"Garland County (Arkansas, 99,784)"
+365,20220,"Dubuque, IA",Iowa,Dubuque County,19061,98887,98887,"Dubuque County (Iowa, 98,887)"
+366,47020,"Victoria, TX",Texas,Victoria County,48469,91664,98808,"Victoria County (Texas, 91,664)"
+367,16020,"Cape Girardeau, MO-IL",Missouri,Cape Girardeau County,29031,82984,98223,"Cape Girardeau County (Missouri, 82,984)"
+368,18700,"Corvallis, OR",Oregon,Benton County,41003,97713,97713,"Benton County (Oregon, 97,713)"
+369,25740,"Helena, MT",Montana,Lewis and Clark County,30049,75011,96091,"Lewis and Clark County (Montana, 75,011)"
+370,21820,"Fairbanks-College, AK",Alaska,Fairbanks North Star Borough,02090,94840,94840,"Fairbanks North Star Borough (Alaska, 94,840)"
+371,38540,"Pocatello, ID",Idaho,Bannock County,16005,90400,90400,"Bannock County (Idaho, 90,400)"
+372,25980,"Hinesville, GA",Georgia,Liberty County,13179,69210,88804,"Liberty County (Georgia, 69,210)"
+373,37620,"Parkersburg-Vienna, WV",West Virginia,Wood County,54107,83052,88052,"Wood County (West Virginia, 83,052)"
+374,24420,"Grants Pass, OR",Oregon,Josephine County,41033,87821,87821,"Josephine County (Oregon, 87,821)"
+375,24500,"Great Falls, MT",Montana,Cascade County,30013,84900,84900,"Cascade County (Montana, 84,900)"
+376,33220,"Midland, MI",Michigan,Midland County,26111,84039,84039,"Midland County (Michigan, 84,039)"
+377,18020,"Columbus, IN",Indiana,Bartholomew County,18005,84003,84003,"Bartholomew County (Indiana, 84,003)"
+378,29020,"Kokomo, IN",Indiana,Howard County,18067,83831,83831,"Howard County (Indiana, 83,831)"
+379,21300,"Elmira, NY",New York,Chemung County,36015,81325,81325,"Chemung County (New York, 81,325)"
+380,16220,"Casper, WY",Wyoming,Natrona County,56025,79941,79941,"Natrona County (Wyoming, 79,941)"
+381,24260,"Grand Island, NE",Nebraska,Hall County,31079,62197,76479,"Hall County (Nebraska, 62,197)"
+382,33500,"Minot, ND",North Dakota,Ward County,38101,68332,75742,"Ward County (North Dakota, 68,332)"
+383,30300,"Lewiston, ID-WA",Idaho,Nez Perce County,16069,42987,65536,"Nez Perce County (Idaho, 42,987); Asotin County (Washington, 22,549)"
+384,21420,"Enid, OK",Oklahoma,Garfield County,40047,62023,62023,"Garfield County (Oklahoma, 62,023)"
+385,47460,"Walla Walla, WA",Washington,Walla Walla County,53071,61568,61568,"Walla Walla County (Washington, 61,568)"
+386,16180,"Carson City, NV",Nevada,Carson City,32510,58036,58036,"Carson City (Nevada, 58,036)"
+387,20580,"Eagle Pass, TX",Texas,Maverick County,48323,57762,57762,"Maverick County (Texas, 57,762)"
+388,10380,"Aguadilla, PR",Puerto Rico,Aguada Municipio,72003,0,0,"Aguada Municipio (Puerto Rico, 0); Aguadilla Municipio (Puerto Rico, 0); Añasco Municipio (Puerto Rico, 0); Isabela Municipio (Puerto Rico, 0); Moca Municipio (Puerto Rico, 0); Rincón Municipio (Puerto Rico, 0); San Sebastián Municipio (Puerto Rico, 0)"
+389,11640,"Arecibo, PR",Puerto Rico,Arecibo Municipio,72013,0,0,"Arecibo Municipio (Puerto Rico, 0); Camuy Municipio (Puerto Rico, 0); Hatillo Municipio (Puerto Rico, 0); Quebradillas Municipio (Puerto Rico, 0)"
+390,25020,"Guayama, PR",Puerto Rico,Arroyo Municipio,72015,0,0,"Arroyo Municipio (Puerto Rico, 0); Guayama Municipio (Puerto Rico, 0); Patillas Municipio (Puerto Rico, 0)"
+391,32420,"Mayagüez, PR",Puerto Rico,Cabo Rojo Municipio,72023,0,0,"Cabo Rojo Municipio (Puerto Rico, 0); Lajas Municipio (Puerto Rico, 0); Sabana Grande Municipio (Puerto Rico, 0); San Germán Municipio (Puerto Rico, 0)"
+392,38660,"Ponce, PR",Puerto Rico,Ponce Municipio,72113,0,0,"Ponce Municipio (Puerto Rico, 0)"
+393,41980,"San Juan-Bayamón-Caguas, PR",Puerto Rico,Aguas Buenas Municipio,72007,0,0,"Aguas Buenas Municipio (Puerto Rico, 0); Barranquitas Municipio (Puerto Rico, 0); Bayamón Municipio (Puerto Rico, 0); Caguas Municipio (Puerto Rico, 0); Canóvanas Municipio (Puerto Rico, 0); Carolina Municipio (Puerto Rico, 0); Cataño Municipio (Puerto Rico, 0); Cayey Municipio (Puerto Rico, 0); Cidra Municipio (Puerto Rico, 0); Comerío Municipio (Puerto Rico, 0); Corozal Municipio (Puerto Rico, 0); Dorado Municipio (Puerto Rico, 0); Guaynabo Municipio (Puerto Rico, 0); Gurabo Municipio (Puerto Rico, 0); Humacao Municipio (Puerto Rico, 0); Juncos Municipio (Puerto Rico, 0); Las Piedras Municipio (Puerto Rico, 0); Manatí Municipio (Puerto Rico, 0); Maunabo Municipio (Puerto Rico, 0); Morovis Municipio (Puerto Rico, 0); Naranjito Municipio (Puerto Rico, 0); Orocovis Municipio (Puerto Rico, 0); Río Grande Municipio (Puerto Rico, 0); San Juan Municipio (Puerto Rico, 0); San Lorenzo Municipio (Puerto Rico, 0); Toa Alta Municipio (Puerto Rico, 0); Toa Baja Municipio (Puerto Rico, 0); Trujillo Alto Municipio (Puerto Rico, 0); Vega Alta Municipio (Puerto Rico, 0); Vega Baja Municipio (Puerto Rico, 0); Yabucoa Municipio (Puerto Rico, 0)"
