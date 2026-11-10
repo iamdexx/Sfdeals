@@ -1,5 +1,7 @@
 # Sioux Falls distress data sources (probed 2026-11-09)
 
+St. Louis sources are in `sources-stl.md`. Missouri law notes are in `contracts/README.md`.
+
 Market: Sioux Falls SD, median $310k (Oct 2026), 203 sales/mo, 4 mo supply, sales -26% YoY. Minnehaha County (most of city) + Lincoln County (south).
 Law: SDCL 36-21A-6 broker def is "for another"; 36-21A-29(1) exempts bona fide owner. Assigning own purchase contract OK. Avoid OPTION agreements (36-21A-6(11), no owner exemption). 36-21A-6(6) "pattern of selling" risk -> attorney review ($300-500). Disclose assignment to seller.
 

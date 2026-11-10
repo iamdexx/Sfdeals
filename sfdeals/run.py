@@ -1,19 +1,37 @@
+"""python -m sfdeals.run [market] [step ...|all]
+
+  python -m sfdeals.run all             every step of every market
+  python -m sfdeals.run stl all         every St. Louis step
+  python -m sfdeals.run sf parcels score
+"""
 import sys, traceback
-from . import parcels, citations, sheriff, delinquent, lincoln, score
+from . import util
+from .markets import MARKETS
 
-STEPS = {"parcels": parcels.run, "citations": citations.run, "sheriff": sheriff.run,
-         "delinquent": delinquent.run, "lincoln": lincoln.run, "score": score.run}
 
-if __name__ == "__main__":
-    names = sys.argv[1:] or list(STEPS)
-    if names == ["all"]:
-        names = list(STEPS)
+def run_market(key, names):
+    m = MARKETS[key]
+    util.set_market(key)
+    if names in ([], ["all"]):
+        names = list(m["steps"])
     failed = []
     for n in names:
         try:
-            print(n, STEPS[n]())
+            print(key, n, m["steps"][n]())
         except Exception:  # noqa: BLE001
             traceback.print_exc()
             failed.append(n)
-    if failed and failed != ["lincoln"]:
-        sys.exit("failed: " + ", ".join(failed))
+    return [n for n in failed if n not in m["optional"]]
+
+
+if __name__ == "__main__":
+    args = sys.argv[1:]
+    if args and args[0] in MARKETS:
+        jobs = [(args[0], args[1:])]
+    else:
+        jobs = [(k, args) for k in MARKETS]
+    bad = []
+    for key, names in jobs:
+        bad += ["%s:%s" % (key, n) for n in run_market(key, names)]
+    if bad:
+        sys.exit("failed: " + ", ".join(bad))

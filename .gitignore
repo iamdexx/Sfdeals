@@ -2,3 +2,4 @@ __pycache__/
 .pytest_cache/
 .vercel/
 *.pyc
+data/*/*parcels*.json.gz
