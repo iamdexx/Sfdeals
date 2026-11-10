@@ -6,6 +6,19 @@ from ..stl import arcgis, ms_date
 from . import metros
 
 NUM = re.compile(r"[^0-9.]")
+STATES = {n: a for a, n in (x.split(":") for x in (
+    "AL:ALABAMA AK:ALASKA AZ:ARIZONA AR:ARKANSAS CA:CALIFORNIA CO:COLORADO CT:CONNECTICUT DE:DELAWARE FL:FLORIDA GA:GEORGIA "
+    "HI:HAWAII ID:IDAHO IL:ILLINOIS IN:INDIANA IA:IOWA KS:KANSAS KY:KENTUCKY LA:LOUISIANA ME:MAINE MD:MARYLAND MA:MASSACHUSETTS "
+    "MI:MICHIGAN MN:MINNESOTA MS:MISSISSIPPI MO:MISSOURI MT:MONTANA NE:NEBRASKA NV:NEVADA NH:NEW_HAMPSHIRE NJ:NEW_JERSEY "
+    "NM:NEW_MEXICO NY:NEW_YORK NC:NORTH_CAROLINA ND:NORTH_DAKOTA OH:OHIO OK:OKLAHOMA OR:OREGON PA:PENNSYLVANIA RI:RHODE_ISLAND "
+    "SC:SOUTH_CAROLINA SD:SOUTH_DAKOTA TN:TENNESSEE TX:TEXAS UT:UTAH VT:VERMONT VA:VIRGINIA WA:WASHINGTON WV:WEST_VIRGINIA "
+    "WI:WISCONSIN WY:WYOMING DC:DISTRICT_OF_COLUMBIA PR:PUERTO_RICO").split())}
+
+
+def st_abbr(v):
+    """'TX', 'Texas' or 'TEXAS' -> 'TX'; unknown names keep their first two letters."""
+    v = (v or "").strip().upper()
+    return STATES.get(v.replace(" ", "_"), v[:2])
 
 
 def num(v):
@@ -50,7 +63,7 @@ def row(a, spec, county, state):
         "tag": str(g("tag")).strip(), "cid": str(g("tag")).strip(), "addr": norm_addr(addr),
         "zip": str(g("zip") or "")[:5], "county": county, "muni": (g("muni") or "").strip().title(),
         "owner": (g("owner") or "").strip(), "careof": "", "mail": norm_addr(g("mail") or ""),
-        "mail_city": (g("mail_city") or "").strip().title(), "mail_state": (g("mail_state") or "").strip().upper()[:2],
+        "mail_city": (g("mail_city") or "").strip().title(), "mail_state": st_abbr(g("mail_state")),
         "mail_zip": str(g("mail_zip") or "").strip()[:5], "occ": occ, "landuse": g("landuse"),
         "units": int(num(g("units")) or 1), "sqft": None, "res_sqft": int(num(g("res_sqft")) or 0) or None,
         "year": int(year) if year else None, "value": int(value) if value else None, "tax_bal": 0, "vac_year": 0,

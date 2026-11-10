@@ -1,7 +1,7 @@
 """Config-driven metros: one JSON file per metro in sfdeals/metro/configs/<key>.json.
 
 Each file: {"name","short","state","min_value","counties":[{"name","parcels":{url,where,page,map,extra?,occ_field?,addr_strip?},
-"signals":[{name,weight,label,url,where?,map}],"derived":[{name,weight,label,field,in|contains,since_field?,since_days?}],"lookup"}],
+"signals":[{name,weight,label,url,where?,map,addr_strip?}],"derived":[{name,weight,label,field,in|contains,since_field?,since_days?}],"lookup"}],
 "ui":{name,st,q,sigs,lookup,title_cos,title_call,law,groups,prefc,sos,buyers_h,buyers_note,buyers_empty,repairs,sources,contracts}}
 `map` goes from our schema to the layer's field names; `addr` may be a list of fields joined with spaces.
 `where` should keep the pull small (residential land use plus a server-side absentee filter); parcels that carry a
