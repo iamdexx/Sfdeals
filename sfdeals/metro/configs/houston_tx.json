@@ -1,0 +1,138 @@
+{
+ "name": "Houston, TX",
+ "short": "Houston",
+ "state": "TX",
+ "min_value": 60000,
+ "counties": [
+  {
+   "name": "Harris County",
+   "parcels": {
+    "url": "https://www.gis.hctx.net/arcgishcpid/rest/services/HCAD/Parcels/FeatureServer/0",
+    "page": 2000,
+    "where": "state_class = 'A1' AND site_str_num > 0 AND bld_value > 0 AND (mail_state <> 'TX' OR SUBSTRING(mail_zip,1,5) <> site_zip OR mail_addr_1 NOT LIKE CAST(site_str_num AS VARCHAR(10)) || ' %')",
+    "map": {
+     "tag": "HCAD_NUM",
+     "addr": [
+      "site_str_num",
+      "site_str_pfx",
+      "site_str_name",
+      "site_str_sfx",
+      "site_str_sfx_dir"
+     ],
+     "zip": "site_zip",
+     "muni": "site_city",
+     "owner": "owner_name_1",
+     "mail": "mail_addr_1",
+     "mail_city": "mail_city",
+     "mail_state": "mail_state",
+     "mail_zip": "mail_zip",
+     "landuse": "state_class",
+     "value": "total_market_val",
+     "sale_date": "new_owner_date"
+    }
+   },
+   "signals": [
+    {
+     "name": "tax_suit",
+     "weight": 40,
+     "label": "county tax lawsuit on file",
+     "url": "https://services.arcgis.com/su8ic9KbA7PYVxPS/arcgis/rest/services/Delinquent_Parcels_2025/FeatureServer/0",
+     "where": "CAUSENO IS NOT NULL AND CAUSENO <> '' AND TAXDEFSTRT IS NULL",
+     "map": {
+      "tag": "HCAD_NUM",
+      "due": "LEVYDUE",
+      "suit": "CAUSENO",
+      "homestead": "HOMESTEAD"
+     }
+    },
+    {
+     "name": "tax_delinquent",
+     "weight": 30,
+     "label": "2025 county tax unpaid (April 2026 list)",
+     "url": "https://services.arcgis.com/su8ic9KbA7PYVxPS/arcgis/rest/services/Delinquent_Parcels_2025/FeatureServer/0",
+     "where": "LEVYDUE >= 500 AND TAXDEFSTRT IS NULL",
+     "map": {
+      "tag": "HCAD_NUM",
+      "due": "LEVYDUE",
+      "suit": "CAUSENO",
+      "homestead": "HOMESTEAD"
+     }
+    },
+    {
+     "name": "dangerous",
+     "weight": 40,
+     "label": "dangerous building report open (city 311)",
+     "url": "https://mycity2.houstontx.gov/gisweb01/rest/services/311/HOUSTON311_RECENT_SR_SNOW/FeatureServer/0",
+     "where": "CASE_TYPE = 'Dangerous Buildings' AND STATE_CODE = 'Active'",
+     "map": {
+      "tag": "TAXID",
+      "addr": "ADDRESS",
+      "case": "CASE_NUMBER",
+      "kind": "CASE_TYPE",
+      "status": "STATUS",
+      "opened": "CREATED_ON"
+     }
+    },
+    {
+     "name": "building_case",
+     "weight": 25,
+     "label": "open building code complaint (city 311)",
+     "url": "https://mycity2.houstontx.gov/gisweb01/rest/services/311/HOUSTON311_RECENT_SR_SNOW/FeatureServer/0",
+     "where": "CASE_TYPE = 'Building Code Violation' AND STATE_CODE = 'Active'",
+     "map": {
+      "tag": "TAXID",
+      "addr": "ADDRESS",
+      "case": "CASE_NUMBER",
+      "kind": "CASE_TYPE",
+      "status": "STATUS",
+      "opened": "CREATED_ON"
+     }
+    },
+    {
+     "name": "nuisance_case",
+     "weight": 15,
+     "label": "open weeds or trash complaint (city 311)",
+     "url": "https://mycity2.houstontx.gov/gisweb01/rest/services/311/HOUSTON311_RECENT_SR_SNOW/FeatureServer/0",
+     "where": "CASE_TYPE = 'Weeds/Trash/Stagnant Water on Property' AND STATE_CODE = 'Active'",
+     "map": {
+      "tag": "TAXID",
+      "addr": "ADDRESS",
+      "case": "CASE_NUMBER",
+      "kind": "CASE_TYPE",
+      "status": "STATUS",
+      "opened": "CREATED_ON"
+     }
+    }
+   ],
+   "lookup": "https://arcweb.hcad.org/parcel-viewer-v2.0/?account={tag}"
+  }
+ ],
+ "ui": {
+  "name": "Houston",
+  "st": "TX",
+  "q": " Houston TX",
+  "sigs": [
+   "all",
+   "tax lawsuit",
+   "tax unpaid",
+   "dangerous building",
+   "building code",
+   "weeds or trash",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://arcweb.hcad.org/parcel-viewer-v2.0/?account={tag}\" target=\"_blank\">HCAD parcel viewer</a> (account {tag}) \u00b7 <a href=\"https://www.hctax.net/Property/PropertyTax\" target=\"_blank\">Tax Office</a>",
+  "title_cos": "Stewart Title, Charter Title, Patten Title, all in Houston",
+  "title_call": "Charter Title or Patten Title",
+  "law": "Texas lets you assign a purchase contract, but you must tell the seller and your buyer in writing that you are selling your contract interest, not the house (Occupations Code 1101.0045). Texas is a non-judicial foreclosure state: sales are the first Tuesday of the month and notices are posted with the County Clerk 21 days before.",
+  "groups": "\"RICH Club (Realty Investment Club of Houston)\", \"Houston Real Estate Investors\", \"Houston Wholesale Deals\"",
+  "prefc": "<b>Tax lawsuit</b>: the county tax office lists a court cause number on the account, so a suit to collect back taxes has been filed and a tax sale can follow. <b>Dangerous building</b> and <b>code complaints</b> are open City of Houston 311 cases at that address. A complaint is a report, not a finding, so drive by before you call.",
+  "sos": "<a href=\"https://comptroller.texas.gov/taxes/franchise/account-status/search\" target=\"_blank\">Texas Comptroller entity search</a>",
+  "buyers_h": "Active cash buyers",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, most active first. Look up the owner on the Texas Comptroller search and call.",
+  "buyers_empty": "No buyers list for Houston yet. Texas does not publish sale prices, so the county data cannot tell a real purchase from a paper transfer.",
+  "repairs": "Repairs, Houston rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, roof 10-18k, AC 7-12k, foundation 8-20k (clay soil, check every house), full gut 60-100k.",
+  "sources": "Harris Central Appraisal District parcel layer (owner, mailing address, market value), Harris County delinquent tax parcel list (April 2026), City of Houston 311 open code enforcement cases",
+  "contracts": "mo"
+ }
+}
