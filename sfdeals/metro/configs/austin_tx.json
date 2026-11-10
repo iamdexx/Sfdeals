@@ -1,0 +1,78 @@
+{
+ "name": "Austin, TX",
+ "short": "Austin",
+ "state": "TX",
+ "min_value": 80000,
+ "counties": [
+  {
+   "name": "Travis County",
+   "parcels": {
+    "url": "https://gis.traviscountytx.gov/server1/rest/services/Boundaries_and_Jurisdictions/TCAD/MapServer/0",
+    "page": 1000,
+    "where": "land_state_cd = 'A1' AND situs_num > '0' AND (py_address NOT LIKE CONCAT(situs_num,' %') OR py_owner_name LIKE '%ESTATE OF%')",
+    "map": {
+     "tag": "PROP_ID",
+     "addr": [
+      "situs_num",
+      "situs_street_prefx",
+      "situs_street",
+      "situs_street_suffix"
+     ],
+     "zip": "situs_zip",
+     "muni": "situs_city",
+     "owner": "py_owner_name",
+     "mail": "py_address",
+     "landuse": "land_type_desc",
+     "year": "F1year_imprv",
+     "value": "market_value",
+     "sale_date": "deed_date"
+    },
+    "extra": [
+     "py_owner_name"
+    ]
+   },
+   "signals": [],
+   "derived": [
+    {
+     "name": "estate",
+     "weight": 25,
+     "label": "owner of record is the estate of someone who died",
+     "field": "py_owner_name",
+     "contains": "ESTATE OF"
+    },
+    {
+     "name": "life_estate",
+     "weight": 15,
+     "label": "life estate, tax mail goes to another address",
+     "field": "py_owner_name",
+     "contains": "LIFE ESTATE"
+    }
+   ],
+   "lookup": "https://travis.prodigycad.com/property-detail/{tag}"
+  }
+ ],
+ "ui": {
+  "name": "Austin",
+  "st": "TX",
+  "q": " Austin TX",
+  "sigs": [
+   "all",
+   "estate of",
+   "life estate",
+   "absentee"
+  ],
+  "lookup": "<a href=\"https://travis.prodigycad.com/property-detail/{tag}\" target=\"_blank\">Appraisal district record</a> \u00b7 <a href=\"https://travis.go2gov.net/\" target=\"_blank\">County tax office</a>",
+  "title_cos": "Independence Title, Heritage Title of Austin, Austin Title, all in Austin",
+  "title_call": "Independence Title or Heritage Title of Austin",
+  "law": "Texas lets you assign a purchase contract, but you must tell the seller and your buyer in writing that you are selling your contract, not the house (Occupations Code 1101.0045). Texas foreclosures are non-judicial: houses sell at the courthouse on the first Tuesday of the month, about 21 days after notice.",
+  "groups": "\"Austin Real Estate Investors\", \"Austin Real Estate Networking Club\", \"Texas Wholesale Deals\"",
+  "prefc": "<b>Estate</b>: the appraisal district lists the owner as the estate of someone who died, so heirs are deciding what to do with the house. <b>Life estate</b>: an older owner kept the right to live there, but the tax mail now goes somewhere else. Every other lead is absentee: the tax bill is mailed to a different address than the house.",
+  "sos": "<a href=\"https://comptroller.texas.gov/taxes/franchise/account-status/search\" target=\"_blank\">Texas Comptroller entity search</a>",
+  "buyers_h": "Active cash buyers",
+  "buyers_note": "Texas does not make sale prices public, so the county data cannot rank buyers by purchases. Look up any company owner on the Texas Comptroller search and call.",
+  "buyers_empty": "Texas does not make sale prices public, so the county data cannot show who is buying. Ask your title company who is closing cash deals.",
+  "repairs": "Repairs, Austin rough numbers per house: cosmetic 20-30k, kitchen+baths 35-60k, roof 12-22k, AC 8-14k, foundation 8-25k (clay soil), full gut 80-130k.",
+  "sources": "Travis Central Appraisal District parcel layer published by Travis County (owner, mailing address, market value, year built, deed date)",
+  "contracts": "mo"
+ }
+}
