@@ -92,6 +92,7 @@ const T=s=>s.replace(/Sioux Falls/g,MK.name);
 const S=JSON.parse(localStorage[MK.key]||'{"crm":{},"buyers":[],"calc":{}}');
 const save=()=>localStorage[MK.key]=JSON.stringify(S);
 const crm=t=>S.crm[t]||(S.crm[t]={status:'new',log:[],next:'',notes:'',phone:''});
+const WEAK=['absentee','out of state','investor owned'];const stack=l=>l.why.filter(w=>!WEAK.includes(w)).length;
 const touched=c=>c.status!=='new'||c.notes||c.phone||c.next||(c.log&&c.log.length);
 const fmt=n=>'$'+Math.round(n||0).toLocaleString();
 const today=()=>new Date().toISOString().slice(0,10);
@@ -126,9 +127,9 @@ const heldTags=()=>new Set((S.held||[]).map(h=>h.tag));
 const newSince=()=>{const t=heldTags();return leads.slice(0,HOLD).filter(l=>!t.has(l.tag)).length};
 function refreshList(){S.held=null;holdSync();leadsView()}
 function leadsView(){
-  const q=filter.toLowerCase(),held=heldTags(),base=leads.filter(l=>held.has(l.tag)||touched(S.crm[l.tag]||{status:'new'})).sort((a,b)=>b.score-a.score||a.addr.localeCompare(b.addr)),list=base.filter(l=>(sig==='all'||l.why.some(w=>w.includes(sig)))&&(!q||l.addr.toLowerCase().includes(q)||l.owner.toLowerCase().includes(q)||(S.crm[l.tag]?.notes||'').toLowerCase().includes(q)));
+  const q=filter.toLowerCase(),held=heldTags(),base=leads.filter(l=>held.has(l.tag)||touched(S.crm[l.tag]||{status:'new'})).sort((a,b)=>b.score-a.score||a.addr.localeCompare(b.addr)),list=base.filter(l=>(sig==='all'||(sig==='2+ signals'&&stack(l)>=2)||(sig==='3+ signals'&&stack(l)>=3)||l.why.some(w=>w.includes(sig)))&&(!q||l.addr.toLowerCase().includes(q)||l.owner.toLowerCase().includes(q)||(S.crm[l.tag]?.notes||'').toLowerCase().includes(q)));
   M.innerHTML=`<input placeholder="Search address, owner, notes" value="${esc(filter)}" oninput="filter=this.value;leadsView()">
-  <select onchange="sig=this.value;leadsView()">${MK.sigs.map(s=>`<option ${s===sig?'selected':''}>${s}</option>`).join('')}</select>
+  <select onchange="sig=this.value;leadsView()">${MK.sigs.concat(['2+ signals','3+ signals']).map(s=>`<option ${s===sig?'selected':''}>${s}</option>`).join('')}</select>
   <div class="row"><div class="mut">${list.length} leads, list held since ${S.heldAt||today()}</div><button class="b alt" onclick="refreshList()">Refresh list${newSince()?' ('+newSince()+' new)':''}</button></div>
   ${list.slice(0,300).map(card).join('')}${list.length>300?'<div class="mut">Showing 300. Narrow the search.</div>':''}`}
 function lead(tag){
@@ -156,14 +157,15 @@ function lead(tag){
   <input placeholder="Phone" value="${esc(c.phone)}" onchange="crm('${tag}').phone=this.value;save()">
   ${c.phone?`<a class="b" style="display:inline-block;text-decoration:none" href="tel:${esc(c.phone)}">Call ${esc(c.phone)}</a>`:''}
   <select onchange="crm('${tag}').status=this.value;save()">${['new','called','talking','offer','contract','closed','dead'].map(s=>`<option ${s===c.status?'selected':''}>${s}</option>`).join('')}</select>
-  <label class="mut">Next follow-up</label><input type="date" value="${c.next}" onchange="crm('${tag}').next=this.value;save()">
+  <label class="mut">Next follow-up (set for you when you log a call: called +3d, talking +7d, offer +2d, contract +1d)</label><input type="date" value="${c.next}" onchange="crm('${tag}').next=this.value;save()">
   <div>${[1,3,7,30,60].map(d=>`<button class="b alt" onclick="bump('${tag}',${d})">+${d}d</button>`).join('')}</div>
   <textarea rows="3" placeholder="Notes: situation, mortgage, condition, their number" onchange="crm('${tag}').notes=this.value;save()">${esc(c.notes)}</textarea>
   <input id="logtxt" placeholder="Log a call: no answer / left vm / talked ...">
   <div>${['No answer','Left VM','Talked','Not selling','Wrong number','Knocked'].map(t=>`<button class="b alt" onclick="addLog('${tag}','${t}')">${t}</button>`).join('')}<button class="b" onclick="addLog('${tag}',$('#logtxt').value)">Log</button></div>
   ${c.log.slice().reverse().map(x=>`<div class="log"><span class="mut">${x.d}</span> ${esc(x.t)}</div>`).join('')}</div>`}
 function bump(tag,d){const c=crm(tag);const x=new Date();x.setDate(x.getDate()+d);c.next=x.toISOString().slice(0,10);if(c.status==='new')c.status='called';save();lead(tag)}
-function addLog(tag,t){if(!t)return;const c=crm(tag);c.log.push({d:today(),t});if(c.status==='new')c.status='called';save();lead(tag)}
+const DRIP={called:3,talking:7,offer:2,contract:1};
+function addLog(tag,t){if(!t)return;const c=crm(tag);c.log.push({d:today(),t});if(c.status==='new')c.status='called';if(!c.next||c.next<today()){const x=new Date();x.setDate(x.getDate()+(DRIP[c.status]||7));c.next=x.toISOString().slice(0,10)}save();lead(tag)}
 const STEPS={
  new:{t:'Step 1 of 6: find the phone and make the first call',why:'Nobody sells to a stranger they have not talked to. This call is only to find out if they would sell.',
   do:['Tap "Find phone" above. Try the owner name plus Sioux Falls. Whitepages and FastPeopleSearch are free. No luck? Mark it and move on, we can skip trace later for $0.15.','Call. Opener: "Hi, is this [name]? I\'m Deaven, a local investor in Sioux Falls. I\'m calling about the house at [address]. Do you still own it? Have you thought about selling?"','Yes or maybe: set status to Talking. No: log it, set +60d. No answer: log it, set +3d.'],
@@ -199,7 +201,7 @@ function start(){
  <li><b>Find your buyer in 10 days.</b> Call investors, send the blast, buyer signs the assignment and puts down a deposit.</li>
  <li><b>Close.</b> Title company does it. You sign one page and collect the fee.</li></ol>
  <div class="mut">Open any lead and the green box tells you which step you are on and exactly what to do next.</div></div>
- <div class="card"><b>Your daily plan, about an hour</b><ul><li>Today tab. Call everyone under "Follow-ups due" first.</li><li>Then 20 new calls from "Next 10 to call" (it refills).</li><li>Log every call, even no answer. Set a next date on every lead.</li><li>Saturday: drive the top 10, knock where someone lives, leave a note where nobody does.</li></ul>
+ <div class="card"><b>Your daily plan, about an hour</b><ul><li>Today tab. Call everyone under "Follow-ups due" first.</li><li>Then 20 new calls from "Next 25 to call" (it refills).</li><li>Log every call, even no answer. Set a next date on every lead.</li><li>Saturday: drive the top 10, knock where someone lives, leave a note where nobody does.</li></ul>
  <div class="mut">Expect 50 to 100 calls per owner who says yes, and 2 to 4 of those before one signs. First check in 60 to 90 days if you do this daily.</div></div>
  <div class="card"><b>Rules that keep you out of trouble</b><ul><li>Never pay the owner's taxes or mortgage for them.</li><li>Never say you are buying with your own cash. Say "my partners and I".</li><li>Never sign without the 10 day inspection out.</li><li>${MK.law}</li><li>Never text blast or robocall owners. Dial, write, knock.</li><li>Get the two contract drafts checked by a Sioux Falls real estate attorney once, $300-500.</li></ul></div>
  <div class="card"><b>Money you need</b><div class="mut">About $500 total: earnest money $100-500 (returned or credited), attorney review $300-500 once, phone lookups $0.15 each when you want them. Everything else is your time.</div></div>
