@@ -1,0 +1,180 @@
+{
+ "name": "Baltimore, MD",
+ "short": "Baltimore",
+ "state": "MD",
+ "min_value": 50000,
+ "counties": [
+  {
+   "name": "Baltimore County",
+   "parcels": {
+    "url": "https://bcgis.baltimorecountymd.gov/arcgis/rest/services/Property/Property/MapServer/1",
+    "where": "GIS_LU_CODE IN ('SFD','SFA','SFSD','RURAL RESIDENTIAL SFD') AND (ADDRESS_1<>PREMISE_ADDRESS OR OWNERSTATE<>'MD' OR OWNER_ZIP<>ZIP_CODE OR ADDRESS_1 IS NULL)",
+    "page": 1000,
+    "map": {
+     "tag": "TAXPIN",
+     "addr": "PREMISE_ADDRESS",
+     "zip": "ZIP_CODE",
+     "muni": "CITY",
+     "owner": "OWNER_NA1",
+     "mail": "ADDRESS_1",
+     "mail_city": "OWNER_CITY",
+     "mail_state": "OWNERSTATE",
+     "mail_zip": "OWNER_ZIP",
+     "landuse": "GIS_LU_CODE",
+     "year": "YEAR_BUILT",
+     "value": "TOTAL_VALUE"
+    }
+   },
+   "signals": [
+    {
+     "name": "vacant_reg",
+     "weight": 25,
+     "label": "On county vacant property list",
+     "url": "https://bcgisdata.baltimorecountymd.gov/arcgis/rest/services/Facilities/Facilities/MapServer/2",
+     "where": "TAXPIN IS NOT NULL AND TAXPIN <> 'NOT LOCATED'",
+     "map": {
+      "tag": "TAXPIN",
+      "tier": "PROPERTY_TIER",
+      "filed": "FILE_DATE"
+     }
+    }
+   ],
+   "derived": [],
+   "lookup": "https://sdat.dat.maryland.gov/RealProperty/Pages/default.aspx"
+  },
+  {
+   "name": "Baltimore City",
+   "parcels": {
+    "url": "https://baltegis.baltimorecity.gov/mapping/rest/services/CityView/RealProperty_OB/FeatureServer/0",
+    "where": "USEGROUP LIKE 'R%' AND PERMHOME<>'H' AND NO_IMPRV IS NULL",
+    "page": 2000,
+    "map": {
+     "tag": "BLOCKLOT",
+     "addr": "FULLADDR",
+     "zip": "ZIP_CODE",
+     "owner": [
+      "OWNER_1",
+      "OWNER_2"
+     ],
+     "mail": "MAILTOADD",
+     "landuse": "USEGROUP",
+     "units": "DWELUNIT",
+     "year": "YEAR_BUILD",
+     "res_sqft": "STRUCTAREA",
+     "value": "TAXBASE",
+     "sale_date": "SALEDATE",
+     "sale_price": "SALEPRIC"
+    },
+    "extra": [
+     "PERMHOME",
+     "VACIND",
+     "RPDELTAG"
+    ]
+   },
+   "signals": [
+    {
+     "name": "tax_sale",
+     "weight": 45,
+     "label": "On 2026 tax sale list",
+     "url": "https://baltegis.baltimorecity.gov/mapping/rest/services/Housing/Tax_Sale_2026/FeatureServer/0",
+     "where": "Owner NOT LIKE 'MAYOR AND CITY%'",
+     "map": {
+      "tag": "Blocklot",
+      "addr": "Address",
+      "lien": "LIEN_AMOUNT"
+     }
+    },
+    {
+     "name": "inrem",
+     "weight": 40,
+     "label": "City in rem tax foreclosure",
+     "url": "https://baltegis.baltimorecity.gov/mapping/rest/services/Housing/In_Rem_Eligibility/FeatureServer/0",
+     "where": "InREM='Yes'",
+     "map": {
+      "tag": "blocklot",
+      "addr": "FULLADDR",
+      "status": "InRemStatu"
+     }
+    },
+    {
+     "name": "receivership",
+     "weight": 35,
+     "label": "Receivership case open",
+     "url": "https://baltegis.baltimorecity.gov/mapping/rest/services/Housing/DHCD_Open_Baltimore_Datasets/FeatureServer/4",
+     "map": {
+      "tag": "BLOCKLOT",
+      "addr": "Address",
+      "filed": "DateFiled"
+     }
+    },
+    {
+     "name": "vacant",
+     "weight": 30,
+     "label": "Vacant building notice",
+     "url": "https://baltegis.baltimorecity.gov/mapping/rest/services/Housing/DHCD_Open_Baltimore_Datasets/FeatureServer/1",
+     "where": "OWNER_ABBR IS NULL",
+     "map": {
+      "tag": "BLOCKLOT",
+      "addr": "Address",
+      "noticed": "DateNotice"
+     }
+    },
+    {
+     "name": "code",
+     "weight": 25,
+     "label": "Open housing code case",
+     "url": "https://baltegis.baltimorecity.gov/mapping/rest/services/Housing/NoticesInspections/MapServer/0",
+     "where": "CataDesc IN ('HCD Sanitation Property','Vacant Building','Maintenance Structure','General Inspection','Rodents','Systems','Trees and Shrubs','Space and Occupancy','CCE Violation Notice','Insects')",
+     "map": {
+      "tag": "BlockLot",
+      "addr": "Address",
+      "type": "CataDesc",
+      "date": "DateInspection"
+     }
+    },
+    {
+     "name": "workorder",
+     "weight": 15,
+     "label": "City cleaning or boarding order",
+     "url": "https://baltegis.baltimorecity.gov/mapping/rest/services/Housing/DHCD_Open_Baltimore_Datasets/FeatureServer/9",
+     "map": {
+      "tag": "BLOCKLOT",
+      "addr": "FULLADDR",
+      "type": "WorkOrderType"
+     }
+    }
+   ],
+   "derived": [],
+   "lookup": "https://sdat.dat.maryland.gov/RealProperty/Pages/default.aspx"
+  }
+ ],
+ "ui": {
+  "name": "Baltimore",
+  "st": "MD",
+  "q": " Baltimore MD",
+  "sigs": [
+   "all",
+   "tax sale",
+   "in rem",
+   "receivership",
+   "vacant",
+   "housing code",
+   "cleaning",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://sdat.dat.maryland.gov/RealProperty/Pages/default.aspx\" target=\"_blank\">SDAT property record (account {tag})</a>",
+  "title_cos": "Lakeside Title Company, Eagle Title, Advantage Title, all with Baltimore area offices",
+  "title_call": "Lakeside Title or Eagle Title",
+  "law": "Maryland lets you assign a purchase contract. Say so in the contract and tell the seller in writing that you may assign it, and never advertise the house itself. Title companies close deals here, no attorney required. Foreclosures are power of sale filed in circuit court, so they move fast. Baltimore City adds its own transfer and recordation taxes, so price those in.",
+  "groups": "\"Baltimore REIA\", \"Maryland Real Estate Investors\", \"Baltimore Wholesale Deals\"",
+  "prefc": "<b>Signals</b>: Baltimore City posts its tax sale list, in rem tax foreclosures, vacant building notices, receivership cases and open housing code inspections. A tax sale or in rem case means the owner is about to lose the house over unpaid bills. A vacant notice or receivership means the city is pushing the owner to fix or sell. Baltimore County posts its vacant property registry from code enforcement sweeps; everything else in the county is an absentee owner with no distress flag yet.",
+  "sos": "<a href=\"https://egov.maryland.gov/BusinessExpress/EntitySearch\" target=\"_blank\">Maryland Business Express search</a>",
+  "buyers_h": "Active cash buyers (assessor sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the assessor sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on Maryland Business Express and call.",
+  "buyers_empty": "No buyers yet. The Baltimore parcel layers store sale dates as plain 8 digit numbers that the buyer scan does not read yet, and the county layer has no sale data at all.",
+  "repairs": "Repairs, Baltimore rough numbers per rowhouse: cosmetic 15-25k, kitchen+baths 25-45k, flat roof 8-15k, HVAC 8-14k, lead paint work 5-15k, full gut 80-130k.",
+  "sources": "Baltimore County tax parcel layer (owner, mailing address, land use, value) and vacant property registry, Baltimore City real property layer (owner, mailing address, principal residence flag, assessment), Baltimore City DHCD open data (2026 tax sale list, in rem foreclosures, vacant building notices, receiverships, open housing inspections, cleaning and boarding work orders)",
+  "contracts": "mo"
+ }
+}
