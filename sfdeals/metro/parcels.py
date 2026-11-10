@@ -30,8 +30,11 @@ def row(a, spec, county, state):
     occ = None
     if spec.get("occ_field"):
         occ = "Y" if num(a.get(spec["occ_field"])) else "N"
+    addr = g("addr") or ""
+    if spec.get("addr_strip"):
+        addr = re.sub(spec["addr_strip"], "", addr.strip(), flags=re.I)
     return {
-        "tag": str(g("tag")).strip(), "cid": str(g("tag")).strip(), "addr": norm_addr(g("addr") or ""),
+        "tag": str(g("tag")).strip(), "cid": str(g("tag")).strip(), "addr": norm_addr(addr),
         "zip": str(g("zip") or "")[:5], "county": county, "muni": (g("muni") or "").strip().title(),
         "owner": (g("owner") or "").strip(), "careof": "", "mail": norm_addr(g("mail") or ""),
         "mail_city": (g("mail_city") or "").strip().title(), "mail_state": (g("mail_state") or "").strip().upper()[:2],

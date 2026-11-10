@@ -34,3 +34,9 @@ def test_derived_signals():
     spec = metros.METROS["tpa"]["counties"][0]["parcels"]
     r = parcels.row({"FOLIO": "1", "SITE_ADDR": "1 MAIN ST", "HX_YEAR": None, "OWNER": "X", "B1_COND_DSC": "Poor"}, spec, "Hillsborough County", "FL")
     assert r["occ"] == "N" and r["x"]["B1_COND_DSC"] == "Poor"
+
+
+def test_addr_strip_clt():
+    spec = metros.METROS["clt"]["counties"][0]["parcels"]
+    r = parcels.row({"pid": "1", "situsaddress1": "2329 SANDERS AV CHARLOTTE NC", "full_owner_name": "X", "txt_mailaddr1": "2329 SANDERS AVE"}, spec, "Mecklenburg County", "NC")
+    assert r["addr"] == "2329 SANDERS AVE" and r["mail"] == r["addr"]

@@ -68,6 +68,7 @@ METROS = {
                 "map": {"tag": "pid", "addr": "situsaddress1", "muni": "situsaddress1juris", "owner": "full_owner_name", "mail": "txt_mailaddr1",
                         "mail_city": "txt_city", "mail_state": "txt_state", "mail_zip": "txt_zipcode", "landuse": "txt_propertyuse_desc",
                         "value": "amt_totalvalue", "sale_price": "amt_price"},
+                "addr_strip": r"\s+(CHARLOTTE|MATTHEWS|MINT HILL|HUNTERSVILLE|CORNELIUS|DAVIDSON|PINEVILLE|STALLINGS)?\s*NC$",
             },
             "signals": [
                 {"name": "demolish", "weight": 45, "label": "order to demolish (city code enforcement)", "url": CLT_CODE + "CodeEnforcementOrderstoDemolish/MapServer/0",
