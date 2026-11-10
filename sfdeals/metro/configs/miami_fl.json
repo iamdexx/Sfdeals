@@ -1,0 +1,177 @@
+{
+ "name": "Miami, FL",
+ "short": "Miami",
+ "state": "FL",
+ "min_value": 80000,
+ "counties": [
+  {
+   "name": "Miami-Dade County",
+   "parcels": {
+    "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/PaGISView_gdb/FeatureServer/0",
+    "page": 2000,
+    "where": "DOR_CODE_CUR LIKE '01%' AND (TRUE_MAILING_STATE <> 'FL' OR TRUE_MAILING_ZIP_CODE <> SUBSTRING(TRUE_SITE_ZIP_CODE,1,5) OR TRUE_MAILING_ADDR1 <> TRUE_SITE_ADDR_NO_UNIT)",
+    "map": {
+     "tag": "FOLIO",
+     "addr": "TRUE_SITE_ADDR_NO_UNIT",
+     "zip": "TRUE_SITE_ZIP_CODE",
+     "muni": "TRUE_SITE_CITY",
+     "owner": "TRUE_OWNER1",
+     "mail": "TRUE_MAILING_ADDR1",
+     "mail_city": "TRUE_MAILING_CITY",
+     "mail_state": "TRUE_MAILING_STATE",
+     "mail_zip": "TRUE_MAILING_ZIP_CODE",
+     "landuse": "DOR_CODE_CUR",
+     "units": "UNIT_COUNT",
+     "year": "YEAR_BUILT",
+     "res_sqft": "BUILDING_HEATED_AREA",
+     "value": "ASSESSED_VAL_CUR",
+     "sale_date": "DATEOFSALE_UTC",
+     "sale_price": "PRICE_1"
+    },
+    "extra": [
+     "TRUE_OWNER2",
+     "TRUE_MAILING_COUNTRY",
+     "BEDROOM_COUNT",
+     "BATHROOM_COUNT"
+    ]
+   },
+   "signals": [
+    {
+     "name": "unsafe",
+     "weight": 40,
+     "label": "unsafe structure case (county building department)",
+     "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Open_Building_Violations/FeatureServer/0",
+     "where": "CASE_TYPE = 'Unsafe Structure'",
+     "map": {
+      "tag": "FOLIO",
+      "addr": "PROP_ADDR",
+      "case": "CASE_NUM",
+      "kind": "CASE_TYPE",
+      "opened": "OPEN_DATE"
+     }
+    },
+    {
+     "name": "bldg_violation",
+     "weight": 20,
+     "label": "open building code violation (county)",
+     "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Open_Building_Violations/FeatureServer/0",
+     "where": "CASE_TYPE = 'All Other Code Violations' AND OPEN_DATE >= DATE '2020-01-01'",
+     "map": {
+      "tag": "FOLIO",
+      "addr": "PROP_ADDR",
+      "case": "CASE_NUM",
+      "kind": "CASE_TYPE",
+      "opened": "OPEN_DATE"
+     }
+    },
+    {
+     "name": "code_lien",
+     "weight": 30,
+     "label": "code enforcement lien on the property (county)",
+     "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/CCVIOL_gdb/FeatureServer/0",
+     "where": "STAT_DESC LIKE 'Lien%' AND CASE_DATE >= DATE '2015-01-01'",
+     "map": {
+      "tag": "FOLIO",
+      "addr": "ADDRESS",
+      "case": "CASE_NUM",
+      "kind": "PROBLEM_DESC",
+      "status": "STAT_DESC",
+      "opened": "CASE_DATE"
+     }
+    },
+    {
+     "name": "collections",
+     "weight": 25,
+     "label": "unpaid code fines sent to collections (county)",
+     "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/CCVIOL_gdb/FeatureServer/0",
+     "where": "STAT_DESC LIKE 'Referred%' AND CASE_DATE >= DATE '2022-01-01'",
+     "map": {
+      "tag": "FOLIO",
+      "addr": "ADDRESS",
+      "case": "CASE_NUM",
+      "kind": "PROBLEM_DESC",
+      "status": "STAT_DESC",
+      "opened": "CASE_DATE"
+     }
+    },
+    {
+     "name": "foreclosure_registry",
+     "weight": 30,
+     "label": "foreclosure registry case (lender has started foreclosure)",
+     "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/CCVIOL_gdb/FeatureServer/0",
+     "where": "STAT_DESC LIKE 'Open%' AND PROBLEM_DESC LIKE '%Foreclos%'",
+     "map": {
+      "tag": "FOLIO",
+      "addr": "ADDRESS",
+      "case": "CASE_NUM",
+      "kind": "PROBLEM_DESC",
+      "status": "STAT_DESC",
+      "opened": "CASE_DATE"
+     }
+    },
+    {
+     "name": "housing_case",
+     "weight": 25,
+     "label": "open housing or structure maintenance case (county)",
+     "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/CCVIOL_gdb/FeatureServer/0",
+     "where": "STAT_DESC LIKE 'Open%' AND (PROBLEM_DESC LIKE 'Minimum Housing%' OR PROBLEM_DESC LIKE 'Structure Maintenance%')",
+     "map": {
+      "tag": "FOLIO",
+      "addr": "ADDRESS",
+      "case": "CASE_NUM",
+      "kind": "PROBLEM_DESC",
+      "status": "STAT_DESC",
+      "opened": "CASE_DATE"
+     }
+    },
+    {
+     "name": "nuisance_case",
+     "weight": 15,
+     "label": "open junk, overgrowth or abandoned property case (county)",
+     "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/CCVIOL_gdb/FeatureServer/0",
+     "where": "STAT_DESC LIKE 'Open%' AND (PROBLEM_DESC LIKE 'Junk/Trash%' OR PROBLEM_DESC LIKE '%Abandoned Property%')",
+     "map": {
+      "tag": "FOLIO",
+      "addr": "ADDRESS",
+      "case": "CASE_NUM",
+      "kind": "PROBLEM_DESC",
+      "status": "STAT_DESC",
+      "opened": "CASE_DATE"
+     }
+    }
+   ],
+   "derived": [],
+   "lookup": "https://www.miamidade.gov/Apps/PA/propertysearch/#/?folio={tag}"
+  }
+ ],
+ "ui": {
+  "name": "Miami",
+  "st": "FL",
+  "q": " Miami FL",
+  "sigs": [
+   "all",
+   "unsafe structure",
+   "building code",
+   "code enforcement lien",
+   "collections",
+   "foreclosure",
+   "housing",
+   "junk",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://www.miamidade.gov/Apps/PA/propertysearch/#/?folio={tag}\" target=\"_blank\">Property Appraiser</a> \u00b7 <a href=\"https://miamidade.county-taxes.com/public/search?search_query={tag}\" target=\"_blank\">Tax Collector</a>",
+  "title_cos": "First International Title, Capital Title Group, Avanti Way Title, all in Miami",
+  "title_call": "First International Title or Capital Title Group",
+  "law": "Florida lets you assign a purchase contract. Never market the house itself, only your contract, and put the assignment right in the contract. Florida is a judicial foreclosure state, so lis pendens filings are public at the Miami-Dade Clerk.",
+  "groups": "\"Miami REIA\", \"South Florida Real Estate Investors\", \"Miami Wholesale Deals\"",
+  "prefc": "<b>Foreclosure registry</b>: Miami-Dade makes lenders register a house once they start foreclosing, so an open registry case means the bank has already filed. <b>Code liens and collections</b> are fines the owner has not paid; they attach to the house and come off the sale price. <b>Unsafe structure</b> cases come from the county building department after an inspection.",
+  "sos": "<a href=\"https://search.sunbiz.org/Inquiry/CorporationSearch/ByName\" target=\"_blank\">Sunbiz search</a>",
+  "buyers_h": "Active cash buyers (appraiser sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the county sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on Sunbiz and call.",
+  "buyers_empty": "No buyers found in the sale data yet.",
+  "repairs": "Repairs, Miami rough numbers per house: cosmetic 15-30k, kitchen+baths 35-60k, roof 18-30k (insurance needs it), impact windows and doors 15-35k, AC 8-14k, full gut 70-120k. Houses 40 years and older need the county recertification.",
+  "sources": "Miami-Dade Property Appraiser parcel layer (owner, mailing address, assessed value, last sale), Miami-Dade building department unsafe structure and open violation cases, Miami-Dade code compliance liens, collections, foreclosure registry, housing and nuisance cases",
+  "contracts": "mo"
+ }
+}
