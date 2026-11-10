@@ -1,0 +1,109 @@
+{
+ "name": "Washington, DC",
+ "short": "Washington",
+ "state": "DC",
+ "min_value": 80000,
+ "counties": [
+  {
+   "name": "District of Columbia",
+   "parcels": {
+    "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Property_and_Land_WebMercator/MapServer/53",
+    "page": 2000,
+    "where": "USECODE IN ('011','012','013') AND DELCODE = 'N' AND HSTDCODE IS NULL",
+    "map": {
+     "tag": "SSL",
+     "addr": "PREMISEADD",
+     "owner": "OWNERNAME",
+     "mail": "ADDRESS1",
+     "mail_city": "CITYSTZIP",
+     "landuse": "PROPTYPE",
+     "value": "ASSESSMENT",
+     "sale_price": "SALEPRICE",
+     "sale_date": "SALEDATE"
+    },
+    "addr_strip": "\\s+WASHINGTON\\s+DC(\\s+[0-9-]+)?$"
+   },
+   "signals": [
+    {
+     "name": "blighted",
+     "weight": 45,
+     "label": "blighted building (city tax class 4)",
+     "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Property_and_Land_WebMercator/MapServer/53",
+     "where": "USECODE IN ('011','012','013') AND DELCODE = 'N' AND CLASSTYPE = '4'",
+     "map": {
+      "tag": "SSL",
+      "addr": "PREMISEADD",
+      "owed": "TOTBALAMT",
+      "tax_class": "CLASSTYPE"
+     }
+    },
+    {
+     "name": "vacant",
+     "weight": 30,
+     "label": "vacant building (city tax class 3)",
+     "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Property_and_Land_WebMercator/MapServer/53",
+     "where": "USECODE IN ('011','012','013') AND DELCODE = 'N' AND CLASSTYPE = '3'",
+     "map": {
+      "tag": "SSL",
+      "addr": "PREMISEADD",
+      "owed": "TOTBALAMT",
+      "tax_class": "CLASSTYPE"
+     }
+    },
+    {
+     "name": "taxsale",
+     "weight": 45,
+     "label": "tax sale flag on the tax record",
+     "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Property_and_Land_WebMercator/MapServer/53",
+     "where": "USECODE IN ('011','012','013') AND DELCODE = 'N' AND (PY1TXSALE IS NOT NULL OR CY1TXSALE IS NOT NULL)",
+     "map": {
+      "tag": "SSL",
+      "addr": "PREMISEADD",
+      "owed": "TOTBALAMT",
+      "tax_class": "CLASSTYPE"
+     }
+    },
+    {
+     "name": "tax_delinquent",
+     "weight": 30,
+     "label": "back taxes owed from last year",
+     "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Property_and_Land_WebMercator/MapServer/53",
+     "where": "USECODE IN ('011','012','013') AND DELCODE = 'N' AND PY1BAL >= 1000",
+     "map": {
+      "tag": "SSL",
+      "addr": "PREMISEADD",
+      "owed": "TOTBALAMT",
+      "tax_class": "CLASSTYPE"
+     }
+    }
+   ],
+   "lookup": "https://mytax.dc.gov/_/"
+  }
+ ],
+ "ui": {
+  "name": "Washington",
+  "st": "VA",
+  "q": " Washington DC",
+  "sigs": [
+   "all",
+   "blighted",
+   "vacant",
+   "tax sale",
+   "back taxes",
+   "absentee"
+  ],
+  "lookup": "<a href=\"https://mytax.dc.gov/_/\" target=\"_blank\">MyTax DC</a> (Real Property, search square and lot {tag})",
+  "title_cos": "Federal Title & Escrow, District Title, KVS Title, all in Washington DC",
+  "title_call": "Federal Title or District Title",
+  "law": "DC lets you assign a purchase contract; say in the contract that you may assign it and market only your contract, not the house. If a tenant lives in the house, check DC's tenant purchase law (TOPA) with the title company before you sign. Most DC foreclosures are non-judicial but must go through city mediation first.",
+  "groups": "\"DC REIA\", \"DMV Real Estate Investors\", \"DC Maryland Virginia Wholesale Deals\"",
+  "prefc": "<b>Vacant and blighted</b>: the city inspects buildings and moves empty ones to tax class 3 and blighted ones to class 4, which are taxed at 5 and 10 times the normal rate. Those owners are losing money every month. <b>Back taxes</b> and <b>tax sale</b> come from the city tax bill for each lot.",
+  "sos": "<a href=\"https://corponline.dlcp.dc.gov/\" target=\"_blank\">DC CorpOnline search</a>",
+  "buyers_h": "Active cash buyers (tax office sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the city sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on DC CorpOnline and call.",
+  "buyers_empty": "No buyers found in the sale data yet.",
+  "repairs": "Repairs, Washington DC rough numbers per house: cosmetic 25-40k, kitchen+baths 45-75k, roof 12-25k (flat roofs on rowhouses), HVAC 10-18k, full gut of a rowhouse 150-250k.",
+  "sources": "DC Office of Tax and Revenue public tax extract (owner, billing address, homestead, tax class, assessed value, last sale, tax balances and tax sale flags)",
+  "contracts": "mo"
+ }
+}
