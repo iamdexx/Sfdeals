@@ -71,7 +71,7 @@ const MARKETS={
   groups:'"AZREIA", "Phoenix Real Estate Investors", "Arizona Wholesale Deals"',
   prefc:'<b>Tax lien</b>: Maricopa sells liens every February on taxes a year or more late. Delinquent tax means the owner is on that list. State held means nobody bought the lien, the most distressed of all. The owner can still sell any time before a lien holder forecloses (3 years after the sale).',
   sos:'<a href="https://ecorp.azcc.gov/EntitySearch/Index" target="_blank">AZ Corp Commission search</a>',
-  buyers_h:'Cash buyers',buyers_note:'No free public buyer list for Maricopa yet. Build your own from We Buy Houses signs and the LLCs on recent cash sales. Look up LLC owners on the Arizona Corporation Commission site.',buyers_empty:'',
+  buyers_h:'Active cash buyers (assessor sale records)',buyers_note:'Companies that bought 2 or more houses in the last 18 months, from the county sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on the Arizona Corporation Commission and call.',buyers_empty:'No buyers found in the sale data yet.',
   repairs:'Repairs, Phoenix rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, roof 12-20k, AC 8-14k, pool repair 5-15k, full gut 60-100k.',
   sources:'Maricopa County Assessor parcel layer (owner, mailing address, value, sale), Maricopa County delinquent tax and unsold lien parcel layers',contracts:'mo'},
  tpa:{name:'Tampa',st:'FL',key:'sfdeals_tpa',q:' Tampa FL',sigs:['all','condition poor','estate','quit claim','tax deed','absentee','out of state'],
@@ -81,7 +81,7 @@ const MARKETS={
   groups:'"Tampa Bay REIA", "Tampa Real Estate Investors", "Florida Wholesale Deals"',
   prefc:'<b>No homestead</b>: Florida owners file a homestead exemption on the house they live in. No exemption means a rental, a second home or an inherited house, so every lead here is absentee by the appraiser\'s own records. <b>Condition poor</b> comes from the appraiser\'s field inspection.',
   sos:'<a href="https://search.sunbiz.org/Inquiry/CorporationSearch/ByName" target="_blank">Sunbiz search</a>',
-  buyers_h:'Cash buyers',buyers_note:'No free public buyer list for Hillsborough yet. Build your own from We Buy Houses signs and the LLCs on recent cash sales. Look up LLC owners on Sunbiz.',buyers_empty:'',
+  buyers_h:'Active cash buyers (assessor sale records)',buyers_note:'Companies that bought 2 or more houses in the last 18 months, from the county sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on Sunbiz and call.',buyers_empty:'No buyers found in the sale data yet.',
   repairs:'Repairs, Tampa rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, roof 15-25k (insurance needs it), AC 8-14k, full gut 60-100k.',
   sources:'Hillsborough County Property Appraiser daily parcel layer (owner, mailing address, homestead year, building condition, deed type and date, just value)',contracts:'mo'},
  clt:{name:'Charlotte',st:'NC',key:'sfdeals_clt',q:' Charlotte NC',sigs:['all','demolish','housing code','nuisance','absentee','out of state'],
@@ -91,7 +91,7 @@ const MARKETS={
   groups:'"Metrolina REIA", "Charlotte Real Estate Investors", "NC Wholesale Deals"',
   prefc:'<b>Code cases</b>: the city posts every open housing and nuisance case and every order to demolish. A housing case means an inspector found the house unsafe or unfit; the owner is paying fines or facing repairs they often cannot afford.',
   sos:'<a href="https://www.sosnc.gov/online_services/search/by_title/_Business_Registration" target="_blank">NC SOS search</a>',
-  buyers_h:'Cash buyers',buyers_note:'No free public buyer list for Mecklenburg yet. Build your own from We Buy Houses signs and the LLCs on recent cash sales. Look up LLC owners on the NC Secretary of State site.',buyers_empty:'',
+  buyers_h:'Active cash buyers (assessor sale records)',buyers_note:'Companies that bought 2 or more houses in the last 18 months, from the county sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on the NC Secretary of State and call.',buyers_empty:'No buyers found in the sale data yet.',
   repairs:'Repairs, Charlotte rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, roof 12-20k, HVAC 8-14k, crawlspace and moisture 5-15k, full gut 60-100k.',
   sources:'Mecklenburg County assessor ownership layer (owner, mailing address, value, sale), City of Charlotte code enforcement open cases and orders to demolish',contracts:'mo'}};
 const qm=new URLSearchParams(location.search).get('m');if(MARKETS[qm])localStorage.sfdeals_market=qm;
