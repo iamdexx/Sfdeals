@@ -1,0 +1,111 @@
+{
+ "name": "San Diego, CA",
+ "short": "San Diego",
+ "state": "CA",
+ "min_value": 20000,
+ "counties": [
+  {
+   "name": "San Diego County",
+   "parcels": {
+    "url": "https://webmaps.sandiego.gov/arcgis/rest/services/DoIT_Public/DoIT_Public/MapServer/4",
+    "page": 2000,
+    "where": "ASR_LANDUSE = 11 AND OWNEROCC IS NULL AND TAXSTAT = 'T' AND SITUS_ADDRESS > 0 AND TOTAL_LVG_AREA > 0 AND (DOCDATE LIKE '____5_' OR DOCDATE LIKE '____6_' OR DOCDATE LIKE '____7_' OR DOCDATE LIKE '____8_')",
+    "map": {
+     "tag": "APN",
+     "addr": [
+      "SITUS_ADDRESS",
+      "SITUS_FRACTION",
+      "SITUS_PRE_DIR",
+      "SITUS_STREET",
+      "SITUS_SUFFIX",
+      "SITUS_POST_DIR"
+     ],
+     "zip": "SITUS_ZIP",
+     "muni": "SITUS_COMMUNITY",
+     "owner": "APN",
+     "landuse": "ASR_LANDUSE",
+     "units": "UNITQTY",
+     "res_sqft": "TOTAL_LVG_AREA",
+     "value": "ASR_TOTAL"
+    },
+    "occ_field": "OWNEROCC",
+    "extra": [
+     "DOCDATE"
+    ]
+   },
+   "signals": [],
+   "derived": [
+    {
+     "name": "held_pre1990",
+     "weight": 30,
+     "label": "same owner since before 1990, not owner occupied",
+     "field": "DOCDATE"
+    },
+    {
+     "name": "held_1990s",
+     "weight": 20,
+     "label": "same owner since the 1990s, not owner occupied",
+     "field": "DOCNMBR"
+    }
+   ],
+   "lookup": "https://arcc.sdcounty.ca.gov/Pages/Assessors-Roll-Tax.aspx"
+  },
+  {
+   "name": "San Diego County",
+   "parcels": {
+    "url": "https://webmaps.sandiego.gov/arcgis/rest/services/DoIT_Public/DoIT_Public/MapServer/4",
+    "page": 2000,
+    "where": "ASR_LANDUSE = 11 AND OWNEROCC IS NULL AND TAXSTAT = 'T' AND SITUS_ADDRESS > 0 AND TOTAL_LVG_AREA > 0 AND DOCDATE LIKE '____9_'",
+    "map": {
+     "tag": "APN",
+     "addr": [
+      "SITUS_ADDRESS",
+      "SITUS_FRACTION",
+      "SITUS_PRE_DIR",
+      "SITUS_STREET",
+      "SITUS_SUFFIX",
+      "SITUS_POST_DIR"
+     ],
+     "zip": "SITUS_ZIP",
+     "muni": "SITUS_COMMUNITY",
+     "owner": "APN",
+     "landuse": "ASR_LANDUSE",
+     "units": "UNITQTY",
+     "res_sqft": "TOTAL_LVG_AREA",
+     "value": "ASR_TOTAL"
+    },
+    "occ_field": "OWNEROCC",
+    "extra": [
+     "DOCNMBR"
+    ]
+   },
+   "signals": [],
+   "derived": [],
+   "lookup": "https://arcc.sdcounty.ca.gov/Pages/Assessors-Roll-Tax.aspx"
+  }
+ ],
+ "ui": {
+  "name": "San Diego",
+  "st": "CA",
+  "q": " San Diego CA",
+  "sigs": [
+   "all",
+   "before 1990",
+   "1990s",
+   "absentee"
+  ],
+  "lookup": "Parcel number (APN) {tag}: <a href=\"https://arcc.sdcounty.ca.gov/Pages/Assessors-Roll-Tax.aspx\" target=\"_blank\">County Assessor</a> \u00b7 <a href=\"https://www.sdttc.com/content/ttc/en/tax-collection/secured-property-taxes.html\" target=\"_blank\">Tax Collector</a>",
+  "title_cos": "Chicago Title, First American Title, Lawyers Title, all in San Diego",
+  "title_call": "Chicago Title or First American Title",
+  "law": "California lets you assign a purchase contract; say in the contract that you may assign it, and market only your contract, never the house. Foreclosure here is non-judicial (trustee sale). Once a notice of default is recorded on a house the owner lives in, the Home Equity Sales Contract Act applies: a specific contract form and a 5 business day right to cancel.",
+  "groups": "\"San Diego Creative Investors Association (SDCIA)\", \"North San Diego Real Estate Investors (NSDREI)\", \"San Diego Wholesale Deals\"",
+  "prefc": "<b>Long-time owner, no homeowner exemption</b>: California owners claim a homeowner's exemption on the house they live in. Every lead here is a single family house with no exemption on file and no deed recorded since before 2000, so a long-held rental, a second home or an inherited house with a lot of equity. The value shown is the Prop 13 assessed value, far below market. The county does not publish owner names online, so the card shows the parcel number (APN) where the owner would be. Look the owner up by address or APN before you call.",
+  "sos": "<a href=\"https://bizfileonline.sos.ca.gov/search/business\" target=\"_blank\">CA Secretary of State search</a>",
+  "buyers_h": "Active cash buyers",
+  "buyers_note": "San Diego County does not publish owner names or sale prices in its public parcel data, so there is no buyer list here yet.",
+  "buyers_empty": "No buyer list for San Diego yet: the county does not publish owner names in its public parcel data. Meet buyers at SDCIA and NSDREI meetings.",
+  "repairs": "Repairs, San Diego rough numbers per house: cosmetic 25-40k, kitchen+baths 45-75k, roof 15-30k, HVAC 10-18k, sewer line 8-20k, full gut 100-180k.",
+  "sources": "SanGIS parcel layer from the San Diego County Assessor, served by the City of San Diego (situs address, homeowner exemption flag, last recorded deed date, land use, living area, assessed value). No owner names, mailing addresses or sale prices are published.",
+  "contracts": "mo"
+ }
+}
