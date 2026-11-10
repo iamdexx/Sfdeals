@@ -84,18 +84,6 @@
   "text": "Garage/Shed; Status Unit"
  },
  {
-  "id": 2071350,
-  "date": "2026-11-10",
-  "addr": "7800 VIRGINIA AVE",
-  "pid": "31329200000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 0,
-  "minor": 1,
-  "text": "Fences"
- },
- {
   "id": 2071534,
   "date": "2026-11-10",
   "addr": "4328 ASHLAND AVE",
@@ -312,7 +300,7 @@
   "text": "Address; Garage/Shed; Porch; Walls; Windows"
  },
  {
-  "id": 2073671,
+  "id": 2073939,
   "date": "2026-11-10",
   "addr": "3200 ITASKA DR",
   "pid": "27629110000",
@@ -360,7 +348,7 @@
   "text": "Garage/Shed; Walls"
  },
  {
-  "id": 2073683,
+  "id": 2073940,
   "date": "2026-11-10",
   "addr": "4751 TENNESSEE AVE",
   "pid": "27729310000",
@@ -408,18 +396,6 @@
   "text": "Autos; Graffiti; Open Storage; Roof; Windows"
  },
  {
-  "id": 2073704,
-  "date": "2026-11-10",
-  "addr": "4523 ALASKA AVE",
-  "pid": "27289200000",
-  "type": "ES - Complaint",
-  "result": "Notice to Secure",
-  "kind": "secure",
-  "major": 0,
-  "minor": 0,
-  "text": ""
- },
- {
   "id": 2073879,
   "date": "2026-11-10",
   "addr": "4647 OREGON AVE",
@@ -432,7 +408,7 @@
   "text": "Condemnation"
  },
  {
-  "id": 2073710,
+  "id": 2073936,
   "date": "2026-11-10",
   "addr": "8120 MINNESOTA AVE",
   "pid": "31819120000",
@@ -492,7 +468,7 @@
   "text": "Retaining Wall"
  },
  {
-  "id": 2073732,
+  "id": 2073938,
   "date": "2026-11-10",
   "addr": "3434 S KINGSHIGHWAY BLVD",
   "pid": "52679210000",
@@ -730,6 +706,78 @@
   "major": 0,
   "minor": 2,
   "text": "Roof; Walls"
+ },
+ {
+  "id": 2071350,
+  "date": "2026-11-10",
+  "addr": "7800 VIRGINIA AVE",
+  "pid": "31329200000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Fences"
+ },
+ {
+  "id": 2073671,
+  "date": "2026-11-10",
+  "addr": "3200 ITASKA DR",
+  "pid": "27629110000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 8,
+  "minor": 7,
+  "text": "Address; Door; Fences; Garage/Shed; Gutters/Downspout; Open Storage; Porch; Windows"
+ },
+ {
+  "id": 2073683,
+  "date": "2026-11-10",
+  "addr": "4751 TENNESSEE AVE",
+  "pid": "27729310000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 2,
+  "text": "Address; Gutters/Downspout; Open Storage; Porch; Walls"
+ },
+ {
+  "id": 2073704,
+  "date": "2026-11-10",
+  "addr": "4523 ALASKA AVE",
+  "pid": "27289200000",
+  "type": "ES - Complaint",
+  "result": "Notice to Secure",
+  "kind": "secure",
+  "major": 0,
+  "minor": 0,
+  "text": ""
+ },
+ {
+  "id": 2073710,
+  "date": "2026-11-10",
+  "addr": "8120 MINNESOTA AVE",
+  "pid": "31819120000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 3,
+  "text": "Fences; Walls; Windows"
+ },
+ {
+  "id": 2073732,
+  "date": "2026-11-10",
+  "addr": "3434 S KINGSHIGHWAY BLVD",
+  "pid": "52679210000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 2,
+  "text": "Door; Graffiti; Open Storage; Roof; Walls"
  },
  {
   "id": 2073868,
@@ -1212,7 +1260,7 @@
   "text": "Open Storage; Porch; Walls; Windows"
  },
  {
-  "id": 2073252,
+  "id": 2073937,
   "date": "2026-11-09",
   "addr": "3533 MISSOURI AVE",
   "pid": "15579240000",
@@ -1378,6 +1426,18 @@
   "major": 0,
   "minor": 0,
   "text": ""
+ },
+ {
+  "id": 2073252,
+  "date": "2026-11-09",
+  "addr": "3533 MISSOURI AVE",
+  "pid": "15579240000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 4,
+  "text": "Address; Chimney; Roof; Walls; Windows"
  },
  {
   "id": 2073478,

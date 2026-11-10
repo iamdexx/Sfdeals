@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-10",
- "updated": "2026-11-10T22:26:35Z",
+ "updated": "2026-11-10T23:20:45Z",
  "count": 128182,
  "hot": 2072,
  "leads": [
@@ -7487,6 +7487,62 @@
        "BELL BANK",
        "MORTGAGE ELECTRONIC REGISTRATION SYSTEM INC"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "27629110000",
+   "cid": "27629110000",
+   "handle": "12762000110",
+   "addr": "3200 ITASKA ST",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "SWEETEN, JASON",
+   "mail": "3200 ITASKA ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4043,
+   "year": 1925,
+   "value": 20890.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 75000.0,
+   "sale_date": "2019-09-16",
+   "mkt": 109947,
+   "score": 70,
+   "why": [
+    "notice to secure",
+    "3 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Address; Door; Fences; Garage/Shed; Gutters/Downspout; Open Storage; Porch; Windows"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Address; Door; Fences; Garage/Shed; Gutters/Downspout; Open Storage; Porch; Windows"
+     },
+     {
+      "date": "2026-11-06",
+      "type": "Violation Letter",
+      "action": "Door; Fences; Garage/Shed; Open Storage; Outdoor; Porch; Windows"
+     },
+     {
+      "date": "2026-10-20",
+      "type": "Notice to Secure",
+      "action": "ES - Complaint"
      }
     ]
    },
@@ -18350,57 +18406,6 @@
    "as_of": "2026-11-10"
   },
   {
-   "tag": "27629110000",
-   "cid": "27629110000",
-   "handle": "12762000110",
-   "addr": "3200 ITASKA ST",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 16,
-   "owner": "SWEETEN, JASON",
-   "mail": "3200 ITASKA ST",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63111",
-   "occ": null,
-   "landuse": 1120,
-   "units": 2,
-   "sqft": 4043,
-   "year": 1925,
-   "value": 20890.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "670",
-   "sale_price": 75000.0,
-   "sale_date": "2019-09-16",
-   "mkt": 109947,
-   "score": 55,
-   "why": [
-    "notice to secure",
-    "2 code violations"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Address; Door; Fences; Garage/Shed; Gutters/Downspout; Open Storage; Porch; Windows"
-     },
-     {
-      "date": "2026-11-06",
-      "type": "Violation Letter",
-      "action": "Door; Fences; Garage/Shed; Open Storage; Outdoor; Porch; Windows"
-     },
-     {
-      "date": "2026-10-20",
-      "type": "Notice to Secure",
-      "action": "ES - Complaint"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
    "tag": "29709125000",
    "cid": "29709125000",
    "handle": "12970000125",
@@ -24827,6 +24832,52 @@
        "BANK OF NEW YORK MELLON",
        "CLARDY ROY L"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-10"
+  },
+  {
+   "tag": "27729310000",
+   "cid": "27729310000",
+   "handle": "12772000310",
+   "addr": "4751 TENNESSEE AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "BELLM, MICHAEL H",
+   "mail": "11055 RAMBLING OAKS",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63128",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4512,
+   "year": 1910,
+   "value": 13130.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 40000.0,
+   "sale_date": "1988-01-07",
+   "mkt": 69105,
+   "score": 50,
+   "why": [
+    "absentee",
+    "2 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Address; Gutters/Downspout; Open Storage; Porch; Walls"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Violation Letter",
+      "action": "Address; Gutters/Downspout; Open Storage; Porch; Walls"
      }
     ]
    },
@@ -47045,47 +47096,6 @@
       "date": "2026-10-22",
       "type": "Violation Letter",
       "action": "Open Storage"
-     }
-    ]
-   },
-   "as_of": "2026-11-10"
-  },
-  {
-   "tag": "27729310000",
-   "cid": "27729310000",
-   "handle": "12772000310",
-   "addr": "4751 TENNESSEE AVE",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 16,
-   "owner": "BELLM, MICHAEL H",
-   "mail": "11055 RAMBLING OAKS",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63128",
-   "occ": null,
-   "landuse": 1120,
-   "units": 2,
-   "sqft": 4512,
-   "year": 1910,
-   "value": 13130.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 40000.0,
-   "sale_date": "1988-01-07",
-   "mkt": 69105,
-   "score": 35,
-   "why": [
-    "absentee",
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Violation Letter",
-      "action": "Address; Gutters/Downspout; Open Storage; Porch; Walls"
      }
     ]
    },
