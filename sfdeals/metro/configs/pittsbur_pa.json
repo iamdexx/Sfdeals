@@ -1,0 +1,149 @@
+{
+ "name": "Pittsburgh, PA",
+ "short": "Pittsburgh",
+ "state": "PA",
+ "min_value": 40000,
+ "counties": [
+  {
+   "name": "Allegheny County",
+   "parcels": {
+    "url": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/Housing_Density/FeatureServer/0",
+    "page": 2000,
+    "where": "usedesc IN ('SINGLE FAMILY','ROWHOUSE','TOWNHOUSE','TWO FAMILY','THREE FAMILY','FOUR FAMILY') AND homesteadf IS NULL",
+    "map": {
+     "tag": "parid",
+     "addr": [
+      "propertyho",
+      "propertyad"
+     ],
+     "zip": "propertyzi",
+     "muni": "propertyci",
+     "owner": "propertyow",
+     "mail": "changenoti",
+     "mail_city": "changeno12",
+     "mail_state": "changeno13",
+     "mail_zip": "changeno21",
+     "landuse": "usedesc",
+     "year": "yearblt",
+     "res_sqft": "finishedli",
+     "value": "fairmarke3",
+     "sale_date": "saledate",
+     "sale_price": "saleprice"
+    },
+    "extra": [
+     "cdudesc",
+     "homesteadf"
+    ]
+   },
+   "signals": [
+    {
+     "name": "condemned",
+     "weight": 45,
+     "label": "condemned by the city",
+     "url": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/condemned_dead_end/FeatureServer/0",
+     "where": "record_source = 'Condemned Property'",
+     "map": {
+      "tag": "parc_num",
+      "addr": "address",
+      "opened": "create_date_EST",
+      "inspection": "latest_inspec_result"
+     }
+    },
+    {
+     "name": "dead_end",
+     "weight": 30,
+     "label": "vacant dead end property (city list)",
+     "url": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/condemned_dead_end/FeatureServer/0",
+     "where": "record_source = 'Dead End Property'",
+     "map": {
+      "tag": "parc_num",
+      "addr": "address",
+      "opened": "create_date_EST",
+      "inspection": "latest_inspec_result"
+     }
+    },
+    {
+     "name": "tax_delinquent",
+     "weight": 35,
+     "label": "3+ years behind on city taxes",
+     "url": "https://services1.arcgis.com/0DMNBNaacQNEfN4H/arcgis/rest/services/city_tax_delinquent_3yr/FeatureServer/0",
+     "map": {
+      "tag": "pin",
+      "addr": "address",
+      "years": "prior_years",
+      "owed": "total_owed"
+     }
+    },
+    {
+     "name": "code_case",
+     "weight": 25,
+     "label": "open code violation (city)",
+     "url": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/code_enforcement2/FeatureServer/0",
+     "where": "status IN ('In Violation','In Court')",
+     "map": {
+      "tag": "parc_num",
+      "addr": "address",
+      "case": "ext_file_num",
+      "status": "status"
+     }
+    },
+    {
+     "name": "clean_lien",
+     "weight": 15,
+     "label": "city clean and lien (nuisance)",
+     "url": "https://services1.arcgis.com/YZCmUqbcsUpOKfj7/arcgis/rest/services/code_enforcement2/FeatureServer/0",
+     "where": "status = 'Clean & Lien'",
+     "map": {
+      "tag": "parc_num",
+      "addr": "address",
+      "case": "ext_file_num",
+      "status": "status"
+     }
+    }
+   ],
+   "derived": [
+    {
+     "name": "poor_condition",
+     "weight": 20,
+     "label": "poor condition (assessor)",
+     "field": "cdudesc",
+     "in": [
+      "POOR",
+      "VERY POOR",
+      "UNSOUND"
+     ]
+    }
+   ],
+   "lookup": "https://realestate.alleghenycounty.us/GeneralInfo?ID={tag}"
+  }
+ ],
+ "ui": {
+  "name": "Pittsburgh",
+  "st": "PA",
+  "q": " Pittsburgh PA",
+  "sigs": [
+   "all",
+   "condemned",
+   "dead end",
+   "taxes",
+   "code violation",
+   "clean and lien",
+   "poor condition",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://realestate.alleghenycounty.us/GeneralInfo?ID={tag}\" target=\"_blank\">County property record</a>",
+  "title_cos": "Lawyers Abstract Company of Pittsburgh, Closing USA, Barristers Land Abstract, all in Pittsburgh",
+  "title_call": "Lawyers Abstract or Barristers Land Abstract",
+  "law": "Pennsylvania foreclosures go through the courts and end at a sheriff sale. Since 2025 a wholesaler needs a Pennsylvania real estate license, must tell the seller in writing that they are a wholesaler, and the seller can cancel within 30 days or until closing.",
+  "groups": "\"Pittsburgh Real Estate Investors Association (PREIA)\", \"ACRE of Pittsburgh\", \"Pittsburgh Wholesale Real Estate Deals\"",
+  "prefc": "<b>City lists</b>: Pittsburgh posts condemned buildings, vacant dead end properties, open code cases and parcels three or more years behind on city taxes. A condemned house has been ruled unsafe by an inspector, and long tax delinquency can end in a city treasurer sale.",
+  "sos": "<a href=\"https://file.dos.pa.gov/search/business\" target=\"_blank\">PA Department of State business search</a>",
+  "buyers_h": "Active cash buyers (assessor sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the county sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on the PA Department of State search and call.",
+  "buyers_empty": "No buyers found in the sale data yet.",
+  "repairs": "Repairs, Pittsburgh rough numbers per house: cosmetic 15-25k, kitchen+baths 25-45k, roof 10-18k, furnace or boiler 6-12k, sewer lateral 5-15k, knob and tube rewire 10-20k, full gut 60-110k.",
+  "sources": "Allegheny County assessment records as published by City of Pittsburgh planning (owner, mailing address, value, condition, sale), City of Pittsburgh condemned and dead end list, code enforcement cases, city tax delinquency",
+  "contracts": "mo"
+ }
+}
