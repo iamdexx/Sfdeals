@@ -396,6 +396,18 @@
   "text": "Fences; Walls; Windows"
  },
  {
+  "id": 2073723,
+  "date": "2026-11-10",
+  "addr": "5217 ENRIGHT AVE",
+  "pid": "48469260000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 6,
+  "minor": 5,
+  "text": "Address; Autos; Chimney; Fences; Open Storage; Roof; Walls; Windows"
+ },
+ {
   "id": 2073724,
   "date": "2026-11-10",
   "addr": "3924 CORA AVE",
@@ -430,6 +442,18 @@
   "major": 0,
   "minor": 1,
   "text": "Retaining Wall"
+ },
+ {
+  "id": 2073732,
+  "date": "2026-11-10",
+  "addr": "3434 S KINGSHIGHWAY BLVD",
+  "pid": "52679210000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 2,
+  "text": "Door; Graffiti; Open Storage; Roof; Walls"
  },
  {
   "id": 2065527,
