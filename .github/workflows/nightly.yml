@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [sfdeals/**, config.json, .github/workflows/nightly.yml]
+    paths: [sfdeals/**, config.json, requirements.txt, .github/workflows/nightly.yml]
 permissions:
   contents: write
 concurrency: nightly
