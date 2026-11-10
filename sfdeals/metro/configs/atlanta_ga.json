@@ -1,0 +1,57 @@
+{
+ "name": "Atlanta, GA",
+ "short": "Atlanta",
+ "state": "GA",
+ "min_value": 60000,
+ "counties": [
+  {
+   "name": "Fulton County",
+   "parcels": {
+    "url": "https://services1.arcgis.com/AQDHTHDrZzfsFsB5/arcgis/rest/services/Tax_Parcels_2026/FeatureServer/1",
+    "page": 2000,
+    "where": "LUCode = '101' AND OwnerAddr1 <> Address AND (ExCode IS NULL OR OwnerAddr2 NOT LIKE '% GA %')",
+    "map": {
+     "tag": "ParcelID",
+     "addr": "Address",
+     "owner": "Owner",
+     "mail": "OwnerAddr1",
+     "mail_city": "OwnerAddr2",
+     "landuse": "LUCode",
+     "units": "LivUnits",
+     "value": "TotAppr"
+    },
+    "extra": [
+     "ExCode",
+     "ClassCode",
+     "TaxDist"
+    ]
+   },
+   "signals": [],
+   "derived": [],
+   "lookup": "https://qpublic.schneidercorp.com/Application.aspx?AppID=936&LayerID=18251&PageTypeID=4&PageID=8154&KeyValue={tag}"
+  }
+ ],
+ "ui": {
+  "name": "Atlanta",
+  "st": "GA",
+  "q": " Atlanta GA",
+  "sigs": [
+   "all",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://qpublic.schneidercorp.com/Application.aspx?AppID=936&LayerID=18251&PageTypeID=4&PageID=8154&KeyValue={tag}\" target=\"_blank\">Fulton property record</a>",
+  "title_cos": "Campbell and Brannon, Weissman PC, McMichael and Gray, all Atlanta closing attorneys",
+  "title_call": "Campbell and Brannon or McMichael and Gray",
+  "law": "Georgia is an attorney-closing state: a licensed Georgia attorney must run the closing, so your title company is a law firm. You can assign a purchase contract; tell the seller in writing that you may assign it and never market the house itself. Foreclosures are non-judicial and sell on the courthouse steps the first Tuesday of the month after four weeks of legal ads.",
+  "groups": "\"Atlanta REIA\", \"Georgia Real Estate Investors Association\", \"Atlanta Wholesale Deals\"",
+  "prefc": "<b>Absentee</b> here means the tax bill goes somewhere other than the house. The Fulton homestead exemption code is on each card (HF01 and friends mean the owner claims to live there) but it is not used as the test, because many Fulton owners never file. No code enforcement, tax sale or demolition list is matched yet; the City of Atlanta publishes its cases by street address without a parcel id and the match is parked.",
+  "sos": "<a href=\"https://ecorp.sos.ga.gov/BusinessSearch\" target=\"_blank\">Georgia SOS search</a>",
+  "buyers_h": "Active cash buyers (assessor sale records)",
+  "buyers_note": "The Fulton parcel layer has no sale date or price, so this list stays empty until a sales source is added. Look up any LLC owner on the Georgia Secretary of State and call.",
+  "buyers_empty": "No sale data in the Fulton parcel layer yet.",
+  "repairs": "Repairs, Atlanta rough numbers per house: cosmetic 15-25k, kitchen+baths 30-50k, roof 12-20k, HVAC 8-14k, crawlspace and moisture 5-15k, full gut 60-100k.",
+  "sources": "Fulton County Tax Parcels 2026 layer (owner, mailing address, homestead exemption code, land use, appraised value). Distress layers parked, see docs/sources-atlanta_ga.md.",
+  "contracts": "mo"
+ }
+}
