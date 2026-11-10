@@ -79,6 +79,7 @@ const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 async function load(){
   try{const d=await (await fetch(`data/${mk}/leads.json?`+Date.now())).json();leads=d.leads;meta=d;}catch(e){meta={error:String(e)}}
   for(const [t,c] of Object.entries(S.crm)){if(c.lead&&touched(c)&&!leads.some(l=>l.tag===t))leads.push({...c.lead,stale:true})}
+  holdSync();
   try{buyers=await (await fetch(`data/${mk}/buyers.json?`+Date.now())).json()}catch(e){buyers=[]}
   $('#sub').innerHTML=meta.as_of?`${meta.hot} hot leads${meta.city!=null?` (${meta.city} city, ${meta.county} county)`:''}, ${meta.absentee_only} absentee only. ${fresh(meta)}`:'no data yet (nightly job has not run)';
   go(location.hash.slice(1)||(S.seen?'today':'start'));S.seen=1;save();
@@ -95,11 +96,21 @@ function todayView(){
   M.innerHTML=`<h3>Follow-ups due (${due.length})</h3>${due.map(card).join('')||'<div class="mut">Nothing due.</div>'}
   <h3>Next 10 to call</h3>${fresh.map(card).join('')||'<div class="mut">All leads touched. Nice.</div>'}
   <div class="card mut">Rule: 20 dials a day. Log every call, even no answer, and set a next date. <a href="docs/call-script.md">Call script</a></div>`}
+const HOLD=300;
+function holdSync(){
+  if(!S.held||!S.held.length){S.held=leads.slice(0,HOLD).map(l=>({tag:l.tag,lead:l}));S.heldAt=today();}
+  for(const h of S.held){if(!leads.some(l=>l.tag===h.tag))leads.push({...h.lead,stale:true})}
+  save();
+}
+const heldTags=()=>new Set((S.held||[]).map(h=>h.tag));
+const newSince=()=>{const t=heldTags();return leads.slice(0,HOLD).filter(l=>!t.has(l.tag)).length};
+function refreshList(){S.held=null;holdSync();leadsView()}
 function leadsView(){
-  const q=filter.toLowerCase(),list=leads.filter(l=>(sig==='all'||l.why.some(w=>w.includes(sig)))&&(!q||l.addr.toLowerCase().includes(q)||l.owner.toLowerCase().includes(q)||(S.crm[l.tag]?.notes||'').toLowerCase().includes(q)));
+  const q=filter.toLowerCase(),held=heldTags(),base=leads.filter(l=>held.has(l.tag)||touched(S.crm[l.tag]||{status:'new'})).sort((a,b)=>b.score-a.score||a.addr.localeCompare(b.addr)),list=base.filter(l=>(sig==='all'||l.why.some(w=>w.includes(sig)))&&(!q||l.addr.toLowerCase().includes(q)||l.owner.toLowerCase().includes(q)||(S.crm[l.tag]?.notes||'').toLowerCase().includes(q)));
   M.innerHTML=`<input placeholder="Search address, owner, notes" value="${esc(filter)}" oninput="filter=this.value;leadsView()">
   <select onchange="sig=this.value;leadsView()">${MK.sigs.map(s=>`<option ${s===sig?'selected':''}>${s}</option>`).join('')}</select>
-  <div class="mut">${list.length} leads</div>${list.slice(0,200).map(card).join('')}${list.length>200?'<div class="mut">Showing 200. Narrow the search.</div>':''}`}
+  <div class="row"><div class="mut">${list.length} leads, list held since ${S.heldAt||today()}</div><button class="b alt" onclick="refreshList()">Refresh list${newSince()?' ('+newSince()+' new)':''}</button></div>
+  ${list.slice(0,300).map(card).join('')}${list.length>300?'<div class="mut">Showing 300. Narrow the search.</div>':''}`}
 function lead(tag){
   const l=leads.find(x=>x.tag===tag);if(!l)return go('leads');const c=crm(tag);if(!l.stale){const {stale,...snap}=l;c.lead=snap;save()}
   const fc=(l.signals.foreclosure||[])[0];
