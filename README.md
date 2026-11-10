@@ -13,7 +13,7 @@ St. Louis signals: absentee owner (city mailing address, county TENURE flag), ci
     python -m sfdeals.run stl all    # or: stl city_parcels county_parcels inspections vacant landtax county_vacant score
     python -m pytest tests
 
-Data lands in `data/sf/` and `data/stl/` (committed by the heartbeat workflow, every 2 hours 6am to 10pm Central, parcel dumps excluded). Open `index.html` over any static host (Vercel) to use the CRM. Call notes stay in the phone's browser; use Backup in the app.
+Data lands in `data/<market>/` (committed by the heartbeat workflow, one job per market in parallel, every 2 hours 6am to 10pm Central, parcel dumps excluded). Open `index.html` over any static host (Vercel) to use the CRM. Call notes stay in the phone's browser; use Backup in the app.
 
 ## Law
 Assigning your own purchase contract is not brokerage in SD (SDCL 36-21A-6, 36-21A-29) or MO (RSMo 339.010). Do not use option agreements in SD. Get the drafts in `docs/contracts/` reviewed by a local attorney before the first signature. Details in `docs/sources.md`, `docs/sources-stl.md` and `docs/contracts/README.md`.
