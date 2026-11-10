@@ -1,0 +1,201 @@
+{
+ "name": "Denver, CO",
+ "short": "Denver",
+ "state": "CO",
+ "min_value": 80000,
+ "counties": [
+  {
+   "name": "Denver County",
+   "parcels": {
+    "url": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_PROP_PARCELS_A/FeatureServer/245",
+    "page": 2000,
+    "where": "PROP_CLASS IN ('1212','1215') AND SITUS_ADDR_NBR IS NOT NULL AND (OWNER_ADDRESS_LINE1 LIKE CONCAT(CONCAT(CONCAT(CONCAT(CONCAT(SITUS_ADDR_NBR,' '),SITUS_STR_NAME),' '),SITUS_STR_NAME_POST_TYPE),'%') OR OWNER_ADDRESS_LINE1 LIKE CONCAT(CONCAT(CONCAT(CONCAT(CONCAT(CONCAT(CONCAT(SITUS_ADDR_NBR,' '),SITUS_STR_NAME_PRE_DIR),' '),SITUS_STR_NAME),' '),SITUS_STR_NAME_POST_TYPE),'%'))",
+    "map": {
+     "tag": "SCHEDNUM",
+     "addr": "SITUS_ADDRESS_LINE1",
+     "zip": "SITUS_ZIP",
+     "muni": "SITUS_CITY",
+     "owner": "OWNER_NAME",
+     "mail": "SITUS_ADDRESS_LINE1",
+     "mail_city": "OWNER_CITY",
+     "mail_state": "OWNER_STATE",
+     "mail_zip": "OWNER_ZIP",
+     "landuse": "D_CLASS_CN",
+     "units": "TOT_UNITS",
+     "year": "RES_ORIG_YEAR_BUILT",
+     "res_sqft": "RES_ABOVE_GRADE_AREA",
+     "value": "APPRAISED_TOTAL_VALUE",
+     "sale_price": "SALE_PRICE",
+     "sale_date": "SALE_DATE"
+    },
+    "extra": [
+     "ASAL_INSTR",
+     "SALE_DATE"
+    ]
+   },
+   "signals": [
+    {
+     "name": "neglect",
+     "weight": 25,
+     "label": "neglected building complaint (city inspectors, last 12 months)",
+     "url": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_service_requests_311/FeatureServer/53",
+     "where": "Agency = 'Community Planning & Development' AND Incident_Address_1 IS NOT NULL AND Case_Status NOT LIKE 'Closed%' AND Case_Summary = 'Neglect'",
+     "map": {
+      "tag": "Incident_Address_1",
+      "addr": "Incident_Address_1",
+      "kind": "Case_Summary",
+      "status": "Case_Status",
+      "opened": "Case_Created_dttm"
+     }
+    },
+    {
+     "name": "vacant",
+     "weight": 20,
+     "label": "vacant building complaint (city inspectors, last 12 months)",
+     "url": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_service_requests_311/FeatureServer/53",
+     "where": "Agency = 'Community Planning & Development' AND Incident_Address_1 IS NOT NULL AND Case_Status NOT LIKE 'Closed%' AND Case_Summary = 'Vacant'",
+     "map": {
+      "tag": "Incident_Address_1",
+      "addr": "Incident_Address_1",
+      "kind": "Case_Summary",
+      "status": "Case_Status",
+      "opened": "Case_Created_dttm"
+     }
+    },
+    {
+     "name": "trash",
+     "weight": 15,
+     "label": "trash or junk in yard complaint (city inspectors, last 12 months)",
+     "url": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_service_requests_311/FeatureServer/53",
+     "where": "Agency = 'Community Planning & Development' AND Incident_Address_1 IS NOT NULL AND Case_Status NOT LIKE 'Closed%' AND Case_Summary IN ('Trash in Yard Violation','Outdoor Storage Violation','Inoperable Vehicle')",
+     "map": {
+      "tag": "Incident_Address_1",
+      "addr": "Incident_Address_1",
+      "kind": "Case_Summary",
+      "status": "Case_Status",
+      "opened": "Case_Created_dttm"
+     }
+    },
+    {
+     "name": "weeds",
+     "weight": 10,
+     "label": "overgrown weeds complaint (city inspectors, last 12 months)",
+     "url": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_service_requests_311/FeatureServer/53",
+     "where": "Agency = 'Community Planning & Development' AND Incident_Address_1 IS NOT NULL AND Case_Status NOT LIKE 'Closed%' AND Case_Summary IN ('Weeds/Vegetation Violation','Weeds & Vegetation')",
+     "map": {
+      "tag": "Incident_Address_1",
+      "addr": "Incident_Address_1",
+      "kind": "Case_Summary",
+      "status": "Case_Status",
+      "opened": "Case_Created_dttm"
+     }
+    }
+   ],
+   "derived": [
+    {
+     "name": "estate",
+     "weight": 25,
+     "label": "estate or conservator deed in the last 2 years",
+     "field": "ASAL_INSTR",
+     "in": [
+      "PR: PERSONAL REP",
+      "CS: CONSERVATORS",
+      "AD: ADMINISTRATORS",
+      "PB: PROBATE COURT"
+     ],
+     "since_field": "SALE_DATE",
+     "since_days": 730
+    },
+    {
+     "name": "quitclaim",
+     "weight": 15,
+     "label": "quit claim transfer in the last 2 years",
+     "field": "ASAL_INSTR",
+     "in": [
+      "QC: QUIT CLAIM"
+     ],
+     "since_field": "SALE_DATE",
+     "since_days": 730
+    },
+    {
+     "name": "foreclosed",
+     "weight": 20,
+     "label": "sold at foreclosure or sheriff sale in the last 2 years",
+     "field": "ASAL_INSTR",
+     "in": [
+      "PT: PUBLIC TRUSTEE",
+      "SF: SHERIFFS",
+      "DF: DEED/LIEU OF FRCLSR"
+     ],
+     "since_field": "SALE_DATE",
+     "since_days": 730
+    }
+   ],
+   "lookup": "https://property.spatialest.com/co/denver#/property/{tag}"
+  },
+  {
+   "name": "Denver County",
+   "parcels": {
+    "url": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_PROP_PARCELS_A/FeatureServer/245",
+    "page": 2000,
+    "where": "PROP_CLASS IN ('1212','1215') AND SITUS_ADDR_NBR IS NOT NULL",
+    "map": {
+     "tag": "SCHEDNUM",
+     "addr": "SITUS_ADDRESS_LINE1",
+     "zip": "SITUS_ZIP",
+     "muni": "SITUS_CITY",
+     "owner": "OWNER_NAME",
+     "mail": "OWNER_ADDRESS_LINE1",
+     "mail_city": "OWNER_CITY",
+     "mail_state": "OWNER_STATE",
+     "mail_zip": "OWNER_ZIP",
+     "landuse": "D_CLASS_CN",
+     "units": "TOT_UNITS",
+     "year": "RES_ORIG_YEAR_BUILT",
+     "res_sqft": "RES_ABOVE_GRADE_AREA",
+     "value": "APPRAISED_TOTAL_VALUE",
+     "sale_price": "SALE_PRICE",
+     "sale_date": "SALE_DATE"
+    },
+    "extra": [
+     "ASAL_INSTR",
+     "SALE_DATE"
+    ],
+    "addr_strip": "\\s+BLDG\\s+\\S+$"
+   },
+   "signals": [],
+   "derived": [],
+   "lookup": "https://property.spatialest.com/co/denver#/property/{tag}"
+  }
+ ],
+ "ui": {
+  "name": "Denver",
+  "st": "CO",
+  "q": " Denver CO",
+  "sigs": [
+   "all",
+   "neglected",
+   "vacant",
+   "trash",
+   "weeds",
+   "estate",
+   "quit claim",
+   "foreclosure",
+   "absentee",
+   "out of state"
+  ],
+  "lookup": "<a href=\"https://property.spatialest.com/co/denver#/property/{tag}\" target=\"_blank\">Assessor property record</a>",
+  "title_cos": "Land Title Guarantee Company, First American Title, Chicago Title of Colorado, all in Denver",
+  "title_call": "Land Title Guarantee Company or First American Title",
+  "law": "Colorado lets you assign a purchase contract; sell only your contract, never the house, or you need a real estate license. Foreclosures go through the county Public Trustee without a court, and if the home is already in foreclosure the Colorado Foreclosure Protection Act requires a specific written contract with a right to cancel.",
+  "groups": "\"Investment Community of the Rockies (ICOR)\", \"Denver Real Estate Investors\", \"Colorado Wholesale Deals\"",
+  "prefc": "<b>City complaints</b>: Denver posts every 311 complaint sent to its neighborhood inspectors for the last 12 months. Neglected and vacant building complaints are the strong ones; weeds and trash often mean nobody is looking after the house. <b>Deed type</b> comes from the assessor's last recorded transfer.",
+  "sos": "<a href=\"https://www.sos.state.co.us/biz/BusinessEntityCriteriaExt.do\" target=\"_blank\">Colorado SOS business search</a>",
+  "buyers_h": "Active cash buyers (assessor sale records)",
+  "buyers_note": "Companies that bought 2 or more houses in the last 18 months, from the county sale data, most active first. Skip the big institutions and builders; the 2 to 20 purchase LLCs are the ones who buy wholesale deals. Look up the owner on the Colorado Secretary of State and call.",
+  "buyers_empty": "No buyers found in the sale data yet.",
+  "repairs": "Repairs, Denver rough numbers per house: cosmetic 20-30k, kitchen+baths 35-60k, roof 12-22k (hail), furnace and AC 10-16k, sewer line 8-15k, foundation 10-30k, full gut 80-130k.",
+  "sources": "City and County of Denver assessor parcel layer (owner, mailing address, value, year built, last sale and deed type), Denver 311 complaints routed to neighborhood inspectors",
+  "contracts": "mo"
+ }
+}
