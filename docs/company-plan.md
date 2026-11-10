@@ -21,11 +21,11 @@ Three tiers, one codebase.
 | Heartbeat | daily | every 2 hours | every 2 hours |
 | Signals | all public signals | all + pre-foreclosure recorder feeds | all |
 | CRM seats | 1 | 1 | 5 |
-| Skip trace | pay as you go, $0.15/hit | $0.12/hit | $0.10/hit |
+| Skip trace | prepaid credits, $0.15/hit | $0.12/hit | $0.10/hit |
 | Exports | 500 rows/mo | 5,000 | unlimited |
 | Alerts | daily email | push + SMS on new pre-foreclosure | push + SMS, shared inbox |
 
-Annual plans at 2 months free. 7-day trial, card required. Skip trace is pass-through with margin (we pay about $0.02 to $0.10 per hit).
+Annual plans at 2 months free. 7-day trial, card required. Skip trace is prepaid credits only: the user buys a credit pack (Stripe clears first), then each lookup draws from it and we buy the hit from the API at $0.02 to $0.10. We never front skip trace money; misses are free from the provider and are not charged to the user either.
 
 Core product surfaces:
 1. **Today**: held call list, follow-ups due, new pre-foreclosures since yesterday. Nothing moves until the user taps Refresh.
@@ -44,12 +44,12 @@ Mobile: installable PWA on day one (home screen icon, push), native wrappers via
 | Price | Essentials $99/mo ($81 annual), Pro $199/mo with 2 seats | $500, $1,200, $2,000 per month plus $3,000 implementation; $80 per extra user; built on Salesforce | $49 / $99 / $249, no setup fee |
 | Data refresh | national lists, monthly-style updates | 100k "real-time" records a month via DealSignals | every 2 hours per metro |
 | Early signals | pre-foreclosure from national aggregators (lagging weeks) | buys signals from vendors | recorder filings, tax lien lists, appraiser condition, same day |
-| Skip trace | 12c (Essentials), 10c (Pro), or $30/mo Connect bundle with free tracing | via BatchLeads integration | 10c to 15c pass-through now; add a $29/mo "unlimited for your list" bundle on Pro to match Connect |
+| Skip trace | 12c (Essentials), 10c (Pro), or $30/mo Connect bundle with free tracing | via BatchLeads integration | prepaid credits only, 10c to 15c per hit, bought before we buy the lookup; no bundles, no float |
 | CRM | web plus mobile app, generic | Salesforce, powerful, heavy, needs an admin | phone-first, frozen call list, playbook for beginners |
 | Marketing | postcards 57c, email 2c, Lead Automator 50k properties | bulk text, email, tasks | not yet; add email alerts and postcard export in Phase 3 |
 | Setup | self serve, 7-day trial with 50 free leads | weeks of implementation | self serve, 7-day trial |
 
-Takeaways: PropStream owns the "everything national" buyer; Left Main owns 5 to 10 person teams with budgets. Nobody serves the solo or first-year wholesaler who wants today's distressed owners in one metro and a phone. Keep Starter at $49, keep the trial's first 50 skip traces free (match PropStream), add the skip trace bundle, and say "fresh every 2 hours" everywhere; that single line is the difference nobody else can claim.
+Takeaways: PropStream owns the "everything national" buyer; Left Main owns 5 to 10 person teams with budgets. Nobody serves the solo or first-year wholesaler who wants today's distressed owners in one metro and a phone. Keep Starter at $49, give the trial 10 free skip traces (cost under $1 a trial, paid from the first subscription month), and say "fresh every 2 hours" everywhere; that single line is the difference nobody else can claim.
 
 ## 3. Architecture at $0
 
