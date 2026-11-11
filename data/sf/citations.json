@@ -35020,5 +35020,77 @@
   "addr": "2200 E 19TH ST",
   "type": "Zoning",
   "action": "Citation - 1st"
+ },
+ {
+  "date": "2026-11-10",
+  "addr": "4604 S ARDEN AVE",
+  "type": "Building Service",
+  "action": "Citation - 2nd"
+ },
+ {
+  "date": "2026-11-10",
+  "addr": "2316 E 12TH ST",
+  "type": "Vegetation",
+  "action": "Citation - 3rd or subsequent"
+ },
+ {
+  "date": "2026-11-10",
+  "addr": "605 S GLENDALE AVE",
+  "type": "Vegetation",
+  "action": "Citation - 3rd or subsequent"
+ },
+ {
+  "date": "2026-11-10",
+  "addr": "801 W 13TH ST",
+  "type": "Property Maintenance",
+  "action": "Citation - 2nd"
+ },
+ {
+  "date": "2026-11-10",
+  "addr": "1508 E 6TH ST",
+  "type": "Zoning",
+  "action": "Citation - 2nd"
+ },
+ {
+  "date": "2026-11-10",
+  "addr": "7608 S HANSON PL",
+  "type": "Vegetation",
+  "action": "Citation - 3rd or subsequent"
+ },
+ {
+  "date": "2026-11-10",
+  "addr": "2303 W 46TH ST",
+  "type": "Property Maintenance",
+  "action": "Citation - 2nd"
+ },
+ {
+  "date": "2026-11-09",
+  "addr": "2325 S VAN EPS AVE",
+  "type": "Building Service",
+  "action": "Citation - 1st"
+ },
+ {
+  "date": "2026-11-09",
+  "addr": "1210 N SUMMIT AVE",
+  "type": "Building Service",
+  "action": "Citation - 1st"
+ },
+ {
+  "date": "2026-11-09",
+  "addr": "714 N MENLO AVE",
+  "type": "Building Service",
+  "action": "Citation - 1st"
+ },
+ {
+  "date": "2026-11-09",
+  "addr": "8420 E SPEARFISH CT",
+  "type": "Vegetation",
+  "action": "Citation - 3rd or subsequent"
+ },
+ {
+  "date": "2026-11-09",
+  "addr": "5100 W 34TH ST N",
+  "type": "Zoning",
+  "action": "Citation - 1st"
  }
 ]

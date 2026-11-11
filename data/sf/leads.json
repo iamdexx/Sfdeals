@@ -1,8 +1,8 @@
 {
  "as_of": "2026-11-11",
- "updated": "2026-11-11T05:25:02Z",
- "count": 12441,
- "hot": 1895,
+ "updated": "2026-11-11T19:06:21Z",
+ "count": 12437,
+ "hot": 1891,
  "leads": [
   {
    "tag": "012228185003000",
@@ -151,10 +151,16 @@
    "why": [
     "absentee",
     "tax delinquent $2,414",
-    "3 code citations"
+    "4 code citations"
    ],
    "signals": {
     "citations": [
+     {
+      "date": "2026-11-10",
+      "addr": "801 W 13TH ST",
+      "type": "Property Maintenance",
+      "action": "Citation - 2nd"
+     },
      {
       "date": "2026-10-26",
       "addr": "801 W 13TH ST",
@@ -622,93 +628,6 @@
       "addr": "1119 N DULUTH AVE",
       "type": "Health Nuisance Complaints",
       "action": "Health Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-11"
-  },
-  {
-   "tag": "012230235016000",
-   "cid": "35043",
-   "addr": "2113 S WESTERN AVE",
-   "zip": 57105,
-   "county": "MINNEHAHA",
-   "owner": "VALENTINE, CANDICE",
-   "mail": "2113 S WESTERN AVE",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57105",
-   "occ": "N",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.16,
-   "sqft": 7140.0,
-   "activity": "11 - Single-Family",
-   "score": 75,
-   "why": [
-    "absentee",
-    "4 code citations",
-    "bank took it back"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-07-24",
-      "addr": "2113 S WESTERN AVE",
-      "type": "Vegetation",
-      "action": "Citation - 1st"
-     },
-     {
-      "date": "2026-05-05",
-      "addr": "2113 S WESTERN AVE",
-      "type": "Health Nuisance Complaints",
-      "action": "Health Citation - 3rd or Subsequent"
-     },
-     {
-      "date": "2026-04-15",
-      "addr": "2113 S WESTERN AVE",
-      "type": "Health Nuisance Complaints",
-      "action": "Health Citation - 2nd"
-     },
-     {
-      "date": "2026-03-04",
-      "addr": "2113 S WESTERN AVE",
-      "type": "Health Nuisance Complaints",
-      "action": "Health Citation - 1st"
-     },
-     {
-      "date": "2025-12-23",
-      "addr": "2113 S WESTERN AVE",
-      "type": "Snow",
-      "action": "Citation - 1st"
-     },
-     {
-      "date": "2024-12-06",
-      "addr": "2113 S WESTERN AVE",
-      "type": "Health Nuisance Complaints",
-      "action": "Health Citation - 2nd"
-     },
-     {
-      "date": "2024-11-19",
-      "addr": "2113 S WESTERN AVE",
-      "type": "Health Nuisance Complaints",
-      "action": "Health Citation - 1st"
-     }
-    ],
-    "reo": [
-     {
-      "case": "49CIV26-000231",
-      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
-      "defendant": "CANDICE VALENTINE",
-      "attorney": "HALLIDAY",
-      "addr_raw": "2113 S WESTERN AVE SFSD 57105",
-      "addr": "2113 S WESTERN AVE",
-      "judgment": 294631.61,
-      "sale_date": "2026-08-05",
-      "kind": "result",
-      "bidder": "BANK",
-      "bid": 190680.0,
-      "note": ""
      }
     ]
    },
@@ -1741,6 +1660,76 @@
       "addr": "116 S WILLIAMS AVE",
       "type": "Vegetation",
       "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-11"
+  },
+  {
+   "tag": "012230235016000",
+   "cid": "35043",
+   "addr": "2113 S WESTERN AVE",
+   "zip": 57105,
+   "county": "MINNEHAHA",
+   "owner": "VALENTINE, CANDICE",
+   "mail": "2113 S WESTERN AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57105",
+   "occ": "N",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.16,
+   "sqft": 7140.0,
+   "activity": "11 - Single-Family",
+   "score": 65,
+   "why": [
+    "absentee",
+    "4 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-07-24",
+      "addr": "2113 S WESTERN AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2026-05-05",
+      "addr": "2113 S WESTERN AVE",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 3rd or Subsequent"
+     },
+     {
+      "date": "2026-04-15",
+      "addr": "2113 S WESTERN AVE",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 2nd"
+     },
+     {
+      "date": "2026-03-04",
+      "addr": "2113 S WESTERN AVE",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 1st"
+     },
+     {
+      "date": "2025-12-23",
+      "addr": "2113 S WESTERN AVE",
+      "type": "Snow",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2024-12-06",
+      "addr": "2113 S WESTERN AVE",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 2nd"
+     },
+     {
+      "date": "2024-11-19",
+      "addr": "2113 S WESTERN AVE",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 1st"
      }
     ]
    },
@@ -26620,6 +26609,51 @@
    "as_of": "2026-11-11"
   },
   {
+   "tag": "012220111007000",
+   "cid": "33492",
+   "addr": "605 S GLENDALE AVE",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "KLOUCEK, MALLORY JEAN & KLOUCEK, ANDREW",
+   "mail": "605 S GLENDALE AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.15,
+   "sqft": 6362.0,
+   "activity": "11 - Single-Family",
+   "score": 45,
+   "why": [
+    "3 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "addr": "605 S GLENDALE AVE",
+      "type": "Vegetation",
+      "action": "Citation - 3rd or subsequent"
+     },
+     {
+      "date": "2026-10-26",
+      "addr": "605 S GLENDALE AVE",
+      "type": "Vegetation",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2026-06-11",
+      "addr": "605 S GLENDALE AVE",
+      "type": "Vegetation",
+      "action": "Citation - 2nd"
+     }
+    ]
+   },
+   "as_of": "2026-11-11"
+  },
+  {
    "tag": "012223226007000",
    "cid": "33859",
    "addr": "605 S KENNEDY AVE",
@@ -37198,45 +37232,6 @@
       "addr": "6004 W TECUMSEH CT",
       "type": "Zoning",
       "action": "Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-11"
-  },
-  {
-   "tag": "012220111007000",
-   "cid": "33492",
-   "addr": "605 S GLENDALE AVE",
-   "zip": 57104,
-   "county": "MINNEHAHA",
-   "owner": "KLOUCEK, MALLORY JEAN & KLOUCEK, ANDREW",
-   "mail": "605 S GLENDALE AVE",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57104",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.15,
-   "sqft": 6362.0,
-   "activity": "11 - Single-Family",
-   "score": 35,
-   "why": [
-    "2 code citations"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-10-26",
-      "addr": "605 S GLENDALE AVE",
-      "type": "Vegetation",
-      "action": "Citation - 2nd"
-     },
-     {
-      "date": "2026-06-11",
-      "addr": "605 S GLENDALE AVE",
-      "type": "Vegetation",
-      "action": "Citation - 2nd"
      }
     ]
    },
@@ -55780,62 +55775,6 @@
    "as_of": "2026-11-11"
   },
   {
-   "tag": "012207457002000",
-   "cid": "40052",
-   "addr": "1212 N GARFIELD AVE",
-   "zip": 57104,
-   "county": "MINNEHAHA",
-   "owner": "CHASSE, DONALD",
-   "mail": "1212 N GARFIELD AVE",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57104",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.27,
-   "sqft": 11616.0,
-   "activity": "11 - Single-Family",
-   "score": 25,
-   "why": [
-    "1 code citation",
-    "bank took it back"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2025-08-25",
-      "addr": "1212 N GARFIELD AVE",
-      "type": "Vegetation",
-      "action": "Citation - 1st"
-     },
-     {
-      "date": "2024-09-06",
-      "addr": "1212 N GARFIELD AVE",
-      "type": "Vegetation",
-      "action": "Citation - 1st"
-     }
-    ],
-    "reo": [
-     {
-      "case": "49CIV25-001685",
-      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
-      "defendant": "DONALD CHASSE",
-      "attorney": "HALLIDAY",
-      "addr_raw": "1212 N GARFIELD AVE SFSD 57104",
-      "addr": "1212 N GARFIELD AVE",
-      "judgment": 183402.16,
-      "sale_date": "2026-09-02",
-      "kind": "result",
-      "bidder": "BANK",
-      "bid": 132400.0,
-      "note": ""
-     }
-    ]
-   },
-   "as_of": "2026-11-11"
-  },
-  {
    "tag": "012207455002000",
    "cid": "40034",
    "addr": "1212 N KIWANIS AVE",
@@ -55947,6 +55886,45 @@
       "addr": "1501 S CLEVELAND AVE",
       "type": "Health Nuisance Complaints",
       "action": "Health Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-11"
+  },
+  {
+   "tag": "012215181013000",
+   "cid": "35101",
+   "addr": "1508 E 6TH ST",
+   "zip": 57103,
+   "county": "MINNEHAHA",
+   "owner": "SHARP, MATTHEW",
+   "mail": "1508 E 6TH ST",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57103",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.17,
+   "sqft": 7500.0,
+   "activity": "11 - Single-Family",
+   "score": 25,
+   "why": [
+    "2 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "addr": "1508 E 6TH ST",
+      "type": "Zoning",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2026-09-04",
+      "addr": "1508 E 6TH ST",
+      "type": "Zoning",
+      "action": "Citation - 1st"
      }
     ]
    },
@@ -56758,6 +56736,57 @@
      {
       "date": "2026-07-23",
       "addr": "2309 E AUSTIN ST",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-11"
+  },
+  {
+   "tag": "012215465009000",
+   "cid": "38894",
+   "addr": "2316 E 12TH ST",
+   "zip": 57103,
+   "county": "MINNEHAHA",
+   "owner": "FEY, JOSHUA H",
+   "mail": "2316 E 12TH ST",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57103",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.2,
+   "sqft": 8844.0,
+   "activity": "11 - Single-Family",
+   "score": 25,
+   "why": [
+    "3 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "addr": "2316 E 12TH ST",
+      "type": "Vegetation",
+      "action": "Citation - 3rd or subsequent"
+     },
+     {
+      "date": "2026-10-28",
+      "addr": "2316 E 12TH ST",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2025-08-05",
+      "addr": "2316 E 12TH ST",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2024-06-25",
+      "addr": "2316 E 12TH ST",
       "type": "Vegetation",
       "action": "Citation - 1st"
      }
@@ -58595,6 +58624,45 @@
    "as_of": "2026-11-11"
   },
   {
+   "tag": "012234480009000",
+   "cid": "45672",
+   "addr": "4604 S ARDEN AVE",
+   "zip": 57103,
+   "county": "MINNEHAHA",
+   "owner": "REITER, TESSA L & REITER, LEE A",
+   "mail": "4604 S ARDEN AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57103",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.28,
+   "sqft": 12015.0,
+   "activity": "11 - Single-Family",
+   "score": 25,
+   "why": [
+    "2 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-10",
+      "addr": "4604 S ARDEN AVE",
+      "type": "Building Service",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2026-07-17",
+      "addr": "4604 S ARDEN AVE",
+      "type": "Building Service",
+      "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-11"
+  },
+  {
    "tag": "012225158003000",
    "cid": "55789",
    "addr": "4609 E BLAZEWOOD DR",
@@ -59913,56 +59981,6 @@
       "addr": "6841 W VIOLA CT",
       "type": "Building Service",
       "action": "Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-11"
-  },
-  {
-   "tag": "012127280002000",
-   "cid": "61763",
-   "addr": "7001 W 32ND ST",
-   "zip": 57106,
-   "county": "MINNEHAHA",
-   "owner": "GRUENEICH, JESSICA & GRUENEICH, BROCK",
-   "mail": "7001 W 32ND ST",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57106",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.28,
-   "sqft": 12175.0,
-   "activity": "11 - Single-Family",
-   "score": 25,
-   "why": [
-    "1 code citation",
-    "bank took it back"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-08-17",
-      "addr": "7001 W 32ND ST",
-      "type": "Vegetation",
-      "action": "Citation - 1st"
-     }
-    ],
-    "reo": [
-     {
-      "case": "49CIV25-004732",
-      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
-      "defendant": "BROCK AND JESSICA GRUENEICH",
-      "attorney": "HALLIDAY",
-      "addr_raw": "7001 W 32ND ST SFSD 57106",
-      "addr": "7001 W 32ND ST",
-      "judgment": 228639.04,
-      "sale_date": "2026-10-21",
-      "kind": "result",
-      "bidder": "BANK",
-      "bid": 229583.67,
-      "note": ""
      }
     ]
    },
@@ -62263,6 +62281,45 @@
    "as_of": "2026-11-11"
   },
   {
+   "tag": "012207457002000",
+   "cid": "40052",
+   "addr": "1212 N GARFIELD AVE",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "CHASSE, DONALD",
+   "mail": "1212 N GARFIELD AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.27,
+   "sqft": 11616.0,
+   "activity": "11 - Single-Family",
+   "score": 15,
+   "why": [
+    "1 code citation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2025-08-25",
+      "addr": "1212 N GARFIELD AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2024-09-06",
+      "addr": "1212 N GARFIELD AVE",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-11"
+  },
+  {
    "tag": "012210476036000",
    "cid": "65204",
    "addr": "1216 N HOMESTEAD CIR",
@@ -63177,39 +63234,6 @@
       "date": "2026-06-22",
       "addr": "1507 S NORTON AVE",
       "type": "Vegetation",
-      "action": "Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-11"
-  },
-  {
-   "tag": "012215181013000",
-   "cid": "35101",
-   "addr": "1508 E 6TH ST",
-   "zip": 57103,
-   "county": "MINNEHAHA",
-   "owner": "SHARP, MATTHEW",
-   "mail": "1508 E 6TH ST",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57103",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.17,
-   "sqft": 7500.0,
-   "activity": "11 - Single-Family",
-   "score": 15,
-   "why": [
-    "1 code citation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-09-04",
-      "addr": "1508 E 6TH ST",
-      "type": "Zoning",
       "action": "Citation - 1st"
      }
     ]
@@ -64975,44 +64999,32 @@
    "as_of": "2026-11-11"
   },
   {
-   "tag": "012215465009000",
-   "cid": "38894",
-   "addr": "2316 E 12TH ST",
-   "zip": 57103,
+   "tag": "012227156020000",
+   "cid": "51595",
+   "addr": "2325 S VAN EPS AVE",
+   "zip": 57105,
    "county": "MINNEHAHA",
-   "owner": "FEY, JOSHUA H",
-   "mail": "2316 E 12TH ST",
+   "owner": "JABBOUR, DEBRA J",
+   "mail": "2325 S VAN EPS AVE",
    "mail_city": "SIOUX FALLS",
    "mail_state": "SD",
-   "mail_zip": "57103",
+   "mail_zip": "57105",
    "occ": "Y",
    "landuse": 110,
    "units": 1,
-   "acres": 0.2,
-   "sqft": 8844.0,
+   "acres": 0.22,
+   "sqft": 9438.0,
    "activity": "11 - Single-Family",
    "score": 15,
    "why": [
-    "2 code citations"
+    "1 code citation"
    ],
    "signals": {
     "citations": [
      {
-      "date": "2026-10-28",
-      "addr": "2316 E 12TH ST",
-      "type": "Vegetation",
-      "action": "Citation - 1st"
-     },
-     {
-      "date": "2025-08-05",
-      "addr": "2316 E 12TH ST",
-      "type": "Vegetation",
-      "action": "Citation - 1st"
-     },
-     {
-      "date": "2024-06-25",
-      "addr": "2316 E 12TH ST",
-      "type": "Vegetation",
+      "date": "2026-11-09",
+      "addr": "2325 S VAN EPS AVE",
+      "type": "Building Service",
       "action": "Citation - 1st"
      }
     ]
@@ -68671,39 +68683,6 @@
    "as_of": "2026-11-11"
   },
   {
-   "tag": "012234480009000",
-   "cid": "45672",
-   "addr": "4604 S ARDEN AVE",
-   "zip": 57103,
-   "county": "MINNEHAHA",
-   "owner": "REITER, TESSA L & REITER, LEE A",
-   "mail": "4604 S ARDEN AVE",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57103",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.28,
-   "sqft": 12015.0,
-   "activity": "11 - Single-Family",
-   "score": 15,
-   "why": [
-    "1 code citation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-07-17",
-      "addr": "4604 S ARDEN AVE",
-      "type": "Building Service",
-      "action": "Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-11"
-  },
-  {
    "tag": "012101328023000",
    "cid": "81159",
    "addr": "4604 W PAT ST",
@@ -69592,10 +69571,16 @@
    "activity": "11 - Single-Family",
    "score": 15,
    "why": [
-    "1 code citation"
+    "2 code citations"
    ],
    "signals": {
     "citations": [
+     {
+      "date": "2026-11-09",
+      "addr": "5100 W 34TH ST N",
+      "type": "Zoning",
+      "action": "Citation - 1st"
+     },
      {
       "date": "2026-10-07",
       "addr": "5100 W 34TH ST N",
@@ -71890,6 +71875,39 @@
    "as_of": "2026-11-11"
   },
   {
+   "tag": "012127280002000",
+   "cid": "61763",
+   "addr": "7001 W 32ND ST",
+   "zip": 57106,
+   "county": "MINNEHAHA",
+   "owner": "GRUENEICH, JESSICA & GRUENEICH, BROCK",
+   "mail": "7001 W 32ND ST",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57106",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.28,
+   "sqft": 12175.0,
+   "activity": "11 - Single-Family",
+   "score": 15,
+   "why": [
+    "1 code citation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-08-17",
+      "addr": "7001 W 32ND ST",
+      "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-11"
+  },
+  {
    "tag": "012330469002000",
    "cid": "89032",
    "addr": "7005 E 38TH ST",
@@ -72252,6 +72270,39 @@
       "date": "2024-01-24",
       "addr": "711 N INDIANA AVE",
       "type": "Snow",
+      "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-11"
+  },
+  {
+   "tag": "012217208006000",
+   "cid": "28425",
+   "addr": "714 N MENLO AVE",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "HEREDIA CONTRERAS, ARMANDO & ESPINOSA CERDA, MARTHA ALICIA",
+   "mail": "714 N MENLO AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.15,
+   "sqft": 6468.0,
+   "activity": "11 - Single-Family",
+   "score": 15,
+   "why": [
+    "1 code citation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-09",
+      "addr": "714 N MENLO AVE",
+      "type": "Building Service",
       "action": "Citation - 1st"
      }
     ]
@@ -74470,47 +74521,6 @@
    "as_of": "2026-11-11"
   },
   {
-   "tag": "012229129027000",
-   "cid": "33146",
-   "addr": "1937 S GRANGE AVE",
-   "zip": 57105,
-   "county": "MINNEHAHA",
-   "owner": "LACER, ERIC & LACER, CRYSTAL",
-   "mail": "1937 S GRANGE AVE",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57105",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.17,
-   "sqft": 7260.0,
-   "activity": "11 - Single-Family",
-   "score": 10,
-   "why": [
-    "bank took it back"
-   ],
-   "signals": {
-    "reo": [
-     {
-      "case": "49CIV25-005193",
-      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
-      "defendant": "CRYSTAL AND ERIC LACER",
-      "attorney": "HALLIDAY",
-      "addr_raw": "1937 S GRANGE AVE SFSD 57105",
-      "addr": "1937 S GRANGE AVE",
-      "judgment": 183498.98,
-      "sale_date": "2026-08-05",
-      "kind": "result",
-      "bidder": "BANK",
-      "bid": 177240.0,
-      "note": ""
-     }
-    ]
-   },
-   "as_of": "2026-11-11"
-  },
-  {
    "tag": "012228134020000",
    "cid": "39245",
    "addr": "2000 S PENDAR LN",
@@ -74538,61 +74548,6 @@
       "addr": "2000 S PENDAR LN",
       "type": "Building Service",
       "action": "Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-11"
-  },
-  {
-   "tag": "012229280021000",
-   "cid": "50720",
-   "addr": "2325 S NORTON AVE",
-   "zip": 57105,
-   "county": "MINNEHAHA",
-   "owner": "DEMERS, CORY",
-   "mail": "2325 S NORTON AVE",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57105",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.13,
-   "sqft": 5500.0,
-   "activity": "11 - Single-Family",
-   "score": 10,
-   "why": [
-    "bank took it back"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2025-02-06",
-      "addr": "2325 S NORTON AVE",
-      "type": "Health Nuisance Complaints",
-      "action": "Health Citation - 2nd"
-     },
-     {
-      "date": "2024-09-20",
-      "addr": "2325 S NORTON AVE",
-      "type": "Health Nuisance Complaints",
-      "action": "Health Citation - 1st"
-     }
-    ],
-    "reo": [
-     {
-      "case": "49CIV25-001550",
-      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
-      "defendant": "CORY DEMERS",
-      "attorney": "HALLIDAY",
-      "addr_raw": "2325 S NORTON AVE SFSD 57105",
-      "addr": "2325 S NORTON AVE",
-      "judgment": 120072.13,
-      "sale_date": "2026-08-19",
-      "kind": "result",
-      "bidder": "BANK",
-      "bid": 121161.85,
-      "note": ""
      }
     ]
    },
@@ -74776,47 +74731,6 @@
    "as_of": "2026-11-11"
   },
   {
-   "tag": "012223103017000",
-   "cid": "30405",
-   "addr": "509 S THOMPSON AVE",
-   "zip": 57103,
-   "county": "MINNEHAHA",
-   "owner": "MAY, JESSICA",
-   "mail": "509 S THOMPSON AVE",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57103",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.16,
-   "sqft": 6900.0,
-   "activity": "11 - Single-Family",
-   "score": 10,
-   "why": [
-    "bank took it back"
-   ],
-   "signals": {
-    "reo": [
-     {
-      "case": "49CIV25-000818",
-      "plaintiff": "IDAHO HOUSING AND FINANCE ASSOCIATION",
-      "defendant": "JESSICA MAY",
-      "attorney": "HALLIDAY",
-      "addr_raw": "509 S THOMPSON AVE SFSD 57103",
-      "addr": "509 S THOMPSON AVE",
-      "judgment": 196361.29,
-      "sale_date": "2026-10-07",
-      "kind": "result",
-      "bidder": "BANK",
-      "bid": 197422.5,
-      "note": ""
-     }
-    ]
-   },
-   "as_of": "2026-11-11"
-  },
-  {
    "tag": "022809257004000",
    "cid": "280.81.01.004",
    "addr": "5133 S BARRINGTON DR",
@@ -74844,88 +74758,6 @@
       "addr": "5133 S BARRINGTON DR",
       "type": "Building Service",
       "action": "Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-11"
-  },
-  {
-   "tag": "012220282002000",
-   "cid": "38771",
-   "addr": "515 W 16TH ST",
-   "zip": 57104,
-   "county": "MINNEHAHA",
-   "owner": "SWANSON, TIMOTHY J",
-   "mail": "515 W 16TH ST",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57104",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.1,
-   "sqft": 4400.0,
-   "activity": "11 - Single-Family",
-   "score": 10,
-   "why": [
-    "bank took it back"
-   ],
-   "signals": {
-    "reo": [
-     {
-      "case": "49CIV26-000189",
-      "plaintiff": "LAKEVIEW LOAN SERVICING",
-      "defendant": "TIMOTHY SWANSON",
-      "attorney": "SAYER",
-      "addr_raw": "515 W 16TH ST SFSD 57104",
-      "addr": "515 W 16TH ST",
-      "judgment": 251907.51,
-      "sale_date": "2026-10-21",
-      "kind": "result",
-      "bidder": "BANK",
-      "bid": 184320.0,
-      "note": ""
-     }
-    ]
-   },
-   "as_of": "2026-11-11"
-  },
-  {
-   "tag": "012220135002000",
-   "cid": "30833",
-   "addr": "608 S LAKE AVE",
-   "zip": 57104,
-   "county": "MINNEHAHA",
-   "owner": "HILTEBEITEL, DONALD",
-   "mail": "608 S LAKE AVE",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57104",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.11,
-   "sqft": 4650.0,
-   "activity": "11 - Single-Family",
-   "score": 10,
-   "why": [
-    "bank took it back"
-   ],
-   "signals": {
-    "reo": [
-     {
-      "case": "49CIV25-004836",
-      "plaintiff": "CITIZENS BANK",
-      "defendant": "DONALD HILTEBEITEL",
-      "attorney": "HALLIDAY",
-      "addr_raw": "608 S LAKE AVE SFSD 57104",
-      "addr": "608 S LAKE AVE",
-      "judgment": 271313.63,
-      "sale_date": "2026-08-19",
-      "kind": "result",
-      "bidder": "BANK",
-      "bid": 202440.0,
-      "note": ""
      }
     ]
    },
@@ -75025,47 +74857,6 @@
       "addr": "8704 W WISEMAN ST",
       "type": "Vegetation",
       "action": "Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-11"
-  },
-  {
-   "tag": "012223179006000",
-   "cid": "48987",
-   "addr": "912 S MARDAY AVE",
-   "zip": 57103,
-   "county": "MINNEHAHA",
-   "owner": "MORRISON, MARDIO D",
-   "mail": "912 S MARDAY AVE",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57103",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.14,
-   "sqft": 6300.0,
-   "activity": "11 - Single-Family",
-   "score": 10,
-   "why": [
-    "bank took it back"
-   ],
-   "signals": {
-    "reo": [
-     {
-      "case": "49CIV25-005218",
-      "plaintiff": "FIRST SAVINGS BANK",
-      "defendant": "MARDIO MORRISON",
-      "attorney": "HALLIDAY",
-      "addr_raw": "912 S MARDAY AVE SFSD 57103",
-      "addr": "912 S MARDAY AVE",
-      "judgment": 218014.06,
-      "sale_date": "2026-08-05",
-      "kind": "result",
-      "bidder": "BANK",
-      "bid": 219380.42,
-      "note": ""
      }
     ]
    },
