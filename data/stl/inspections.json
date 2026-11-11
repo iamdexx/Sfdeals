@@ -1,5 +1,17 @@
 [
  {
+  "id": 2071674,
+  "date": "2026-11-10",
+  "addr": "4337 LAFAYETTE AVE",
+  "pid": "51979250000",
+  "type": "ES - Complaint",
+  "result": "Structural Condemnation",
+  "kind": "condemned",
+  "major": 2,
+  "minor": 0,
+  "text": "Garage/Shed; Status Unit"
+ },
+ {
   "id": 2065549,
   "date": "2026-11-10",
   "addr": "5119 WELLS AVE",
