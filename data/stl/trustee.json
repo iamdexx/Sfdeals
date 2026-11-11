@@ -30,36 +30,6 @@
   "firm": "SouthLaw"
  },
  {
-  "addr": "3857 WATERSEDGE DR",
-  "addr_raw": "3857 Watersedge Drive",
-  "city": "Florissant",
-  "zip": "63034",
-  "county": "St. Louis County",
-  "date": "2026-11-12",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "260732",
-  "firm": "SouthLaw"
- },
- {
-  "addr": "3443 ASHBY RD",
-  "addr_raw": "3443 Ashby Rd",
-  "city": "Saint Ann",
-  "zip": "63074",
-  "county": "St. Louis County",
-  "date": "2026-11-12",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "$146,200.00",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "262390",
-  "firm": "SouthLaw"
- },
- {
   "addr": "240 BRAESHIRE DR",
   "addr_raw": "240 Braeshire Drive Unit B",
   "city": "Ballwin",
@@ -90,6 +60,21 @@
   "firm": "SouthLaw"
  },
  {
+  "addr": "3443 ASHBY RD",
+  "addr_raw": "3443 Ashby Rd",
+  "city": "Saint Ann",
+  "zip": "63074",
+  "county": "St. Louis County",
+  "date": "2026-11-12",
+  "time": "2:00PM",
+  "continued": "",
+  "bid": "$146,200.00",
+  "sale_at": "Clayton",
+  "case": "",
+  "file": "262390",
+  "firm": "SouthLaw"
+ },
+ {
   "addr": "6806 ARDALE DR",
   "addr_raw": "6806 Ardale Dr",
   "city": "Saint Louis",
@@ -98,10 +83,25 @@
   "date": "2026-11-12",
   "time": "2:00PM",
   "continued": "",
-  "bid": "",
+  "bid": "$225,000.00",
   "sale_at": "Clayton",
   "case": "",
   "file": "253173",
+  "firm": "SouthLaw"
+ },
+ {
+  "addr": "3857 WATERSEDGE DR",
+  "addr_raw": "3857 Watersedge Drive",
+  "city": "Florissant",
+  "zip": "63034",
+  "county": "St. Louis County",
+  "date": "2026-11-12",
+  "time": "2:00PM",
+  "continued": "",
+  "bid": "",
+  "sale_at": "Clayton",
+  "case": "",
+  "file": "260732",
   "firm": "SouthLaw"
  },
  {
