@@ -3435,24 +3435,5 @@
    "COMMERCIAL LOAN FUNDING LLC",
    "RED DOOR LEGACY STL LLC"
   ]
- },
- {
-  "doc": "07142026-0091",
-  "kind": "pre-foreclosure",
-  "type": "APPOINT SUCC TRUSTEE",
-  "date": "2026-07-14",
-  "addrs": [
-   "4278 LEE AVE",
-   "4280 LEE AVE"
-  ],
-  "pids": [
-   "44269205000"
-  ],
-  "lender": "KIAVI FUNDING INC",
-  "trustee": "KING & MCNAMEE LLC",
-  "parties": [
-   "KIAVI FUNDING INC",
-   "TRC HOLDING STL LLC"
-  ]
  }
 ]

@@ -1,5 +1,29 @@
 [
  {
+  "id": 2074039,
+  "date": "2026-11-11",
+  "addr": "4514 HARRIS AVE",
+  "pid": "35499040000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 6,
+  "minor": 6,
+  "text": "Fences; Garage/Shed; Open Storage; Status Unit; Walls"
+ },
+ {
+  "id": 2074049,
+  "date": "2026-11-11",
+  "addr": "4572 CLARENCE AVE",
+  "pid": "35539200000",
+  "type": "ES - HCD",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 2,
+  "text": "Premise Sidewalk"
+ },
+ {
   "id": 2071674,
   "date": "2026-11-10",
   "addr": "4337 LAFAYETTE AVE",
