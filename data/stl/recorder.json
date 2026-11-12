@@ -1,5 +1,41 @@
 [
  {
+  "doc": "11122026-0147",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-12",
+  "addrs": [
+   "5567 HEBERT ST"
+  ],
+  "pids": [
+   "59319420000"
+  ],
+  "lender": "WELLS FARGO BANK NA",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "WELLS FARGO BANK NA",
+   "JORDAN CORNELIOUS"
+  ]
+ },
+ {
+  "doc": "11122026-0112",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-12",
+  "addrs": [
+   "4710 HIGHLAND AVE"
+  ],
+  "pids": [
+   "44779115000"
+  ],
+  "lender": "COMMERCIAL LENDER LLC",
+  "trustee": "TRUSTEE SERVICES INC",
+  "parties": [
+   "COMMERCIAL LENDER LLC",
+   "LEILANI HOLDINGS LLC"
+  ]
+ },
+ {
   "doc": "11102026-0044",
   "kind": "pre-foreclosure",
   "type": "APPOINT SUCC TRUSTEE",

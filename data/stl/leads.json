@@ -1,8 +1,8 @@
 {
  "as_of": "2026-11-12",
- "updated": "2026-11-12T06:28:34Z",
- "count": 128182,
- "hot": 2069,
+ "updated": "2026-11-12T19:24:41Z",
+ "count": 128185,
+ "hot": 2080,
  "leads": [
   {
    "tag": "56569250000",
@@ -46,7 +46,7 @@
       "date": "2026-11-19",
       "time": "1:00PM",
       "continued": "",
-      "bid": "",
+      "bid": "$86,140.00",
       "sale_at": "St. Louis",
       "case": "",
       "file": "259285",
@@ -907,23 +907,8 @@
     "citations": [
      {
       "date": "2026-10-26",
-      "type": "Emergency CFO",
-      "action": "Condemnation"
-     },
-     {
-      "date": "2026-10-26",
       "type": "Violation Letter",
       "action": "Autos; Cornice/Fascia; Dormer; Garage/Shed; Gutters/Downspout; Parking Area; Porch; Premise Sidewalk; Retaining Wall; Roof; Windows"
-     },
-     {
-      "date": "2026-10-26",
-      "type": "Emergency CFO",
-      "action": "Condemnation"
-     },
-     {
-      "date": "2026-10-26",
-      "type": "Emergency CFO",
-      "action": "Condemnation"
      },
      {
       "date": "2026-10-26",
@@ -934,6 +919,21 @@
       "date": "2026-10-26",
       "type": "Violation Letter",
       "action": "Door; Open Storage; Roof; Status Unit; Walls"
+     },
+     {
+      "date": "2026-10-26",
+      "type": "Emergency CFO",
+      "action": "Condemnation"
+     },
+     {
+      "date": "2026-10-26",
+      "type": "Emergency CFO",
+      "action": "Condemnation"
+     },
+     {
+      "date": "2026-10-26",
+      "type": "Emergency CFO",
+      "action": "Condemnation"
      }
     ]
    },
@@ -2569,11 +2569,11 @@
    "signals": {
     "vacant": [
      {
-      "mo": 113,
-      "vmin": 15,
-      "vmaj": 13,
+      "mo": 5,
+      "vmin": 2,
+      "vmaj": 4,
       "csb": 1,
-      "unpd": 5850.0,
+      "unpd": 0.0,
       "year": 2018
      }
     ],
@@ -13240,6 +13240,62 @@
    "as_of": "2026-11-12"
   },
   {
+   "tag": "44779115000",
+   "cid": "44779115000",
+   "handle": "14477010240",
+   "addr": "4710 HIGHLAND AVE",
+   "zip": "63113",
+   "county": "St. Louis City",
+   "nbhd": 55,
+   "owner": "LEILANI HOLDINGS LLC",
+   "mail": "30 N GOULD ST",
+   "mail_city": "Sheridan",
+   "mail_state": "WY",
+   "mail_zip": "82801",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3266,
+   "year": 1928,
+   "value": 3070.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 50000.0,
+   "sale_date": "2003-04-16",
+   "mkt": 16158,
+   "score": 65,
+   "why": [
+    "absentee",
+    "out of state",
+    "pre-foreclosure filed 2026-11-12",
+    "investor owned"
+   ],
+   "signals": {
+    "recorder": [
+     {
+      "doc": "11122026-0112",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-11-12",
+      "addrs": [
+       "4710 HIGHLAND AVE"
+      ],
+      "pids": [
+       "44779115000"
+      ],
+      "lender": "COMMERCIAL LENDER LLC",
+      "trustee": "TRUSTEE SERVICES INC",
+      "parties": [
+       "COMMERCIAL LENDER LLC",
+       "LEILANI HOLDINGS LLC"
+      ]
+     }
+    ]
+   },
+   "as_of": "2026-11-12"
+  },
+  {
    "tag": "27749160000",
    "cid": "27749160000",
    "handle": "12774000160",
@@ -15525,7 +15581,7 @@
       "date": "2026-11-19",
       "time": "2:00PM",
       "continued": "",
-      "bid": "",
+      "bid": "$170,250.00",
       "sale_at": "Clayton",
       "case": "",
       "file": "254516",
@@ -16738,7 +16794,7 @@
       "county": "St. Louis County",
       "date": "2026-11-12",
       "time": "2:00PM",
-      "continued": "",
+      "continued": "11/19/2026 2:00 PM",
       "bid": "",
       "sale_at": "Clayton",
       "case": "",
@@ -17470,7 +17526,7 @@
       "date": "2026-11-19",
       "time": "2:00PM",
       "continued": "",
-      "bid": "",
+      "bid": "$43,414.71",
       "sale_at": "Clayton",
       "case": "",
       "file": "260353",
@@ -19408,6 +19464,55 @@
        "COMMERCIAL LOAN FUNDING LLC",
        "RED DOOR LEGACY STL LLC"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-12"
+  },
+  {
+   "tag": "27289200000",
+   "cid": "27289200000",
+   "handle": "12728000200",
+   "addr": "4523 ALASKA AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "MORRIS, BRENDA & JAMILLAH ROSE & & BMORRIS HOLDINGS LLC",
+   "mail": "2147 E 24TH ST",
+   "mail_city": "Oakland",
+   "mail_state": "CA",
+   "mail_zip": "94606",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4407,
+   "year": 1910,
+   "value": 10620.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 55895,
+   "score": 55,
+   "why": [
+    "absentee",
+    "out of state",
+    "notice to secure",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-12",
+      "type": "Violation Letter",
+      "action": "Door; Gutters/Downspout; Porch; Windows"
+     },
+     {
+      "date": "2026-11-10",
+      "type": "Notice to Secure",
+      "action": "ES - Complaint"
      }
     ]
    },
@@ -24612,6 +24717,56 @@
    "as_of": "2026-11-12"
   },
   {
+   "tag": "57059040000",
+   "cid": "57059040000",
+   "handle": "15705000040",
+   "addr": "4736 NEWPORT AVE",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 5,
+   "owner": "LANOW PARTNERSHIP LLC",
+   "mail": "6204 GRAVOIS AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63116",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3450,
+   "year": 1914,
+   "value": 14310.0,
+   "tax_bal": 2899.49,
+   "vac_year": 0,
+   "lender": "682",
+   "sale_price": 42000.0,
+   "sale_date": "1991-06-26",
+   "mkt": 75316,
+   "score": 50,
+   "why": [
+    "absentee",
+    "tax delinquent $2,899",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 2899.49,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-12",
+      "type": "Violation Letter",
+      "action": "Roof"
+     }
+    ]
+   },
+   "as_of": "2026-11-12"
+  },
+  {
    "tag": "27729310000",
    "cid": "27729310000",
    "handle": "12772000310",
@@ -25219,6 +25374,59 @@
       "units": 1,
       "muni": "Jennings",
       "value": 26800
+     }
+    ]
+   },
+   "as_of": "2026-11-12"
+  },
+  {
+   "tag": "59319420000",
+   "cid": "59319420000",
+   "handle": "15931000420",
+   "addr": "5567 HEBERT ST",
+   "zip": "63120",
+   "county": "St. Louis City",
+   "nbhd": 50,
+   "owner": "JORDAN, CORNELIOUS",
+   "mail": "5567 HEBERT ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63120",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4200,
+   "year": 1924,
+   "value": 3720.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 19579,
+   "score": 50,
+   "why": [
+    "pre-foreclosure filed 2026-11-12"
+   ],
+   "signals": {
+    "recorder": [
+     {
+      "doc": "11122026-0147",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-11-12",
+      "addrs": [
+       "5567 HEBERT ST"
+      ],
+      "pids": [
+       "59319420000"
+      ],
+      "lender": "WELLS FARGO BANK NA",
+      "trustee": "SOUTHLAW PC",
+      "parties": [
+       "WELLS FARGO BANK NA",
+       "JORDAN CORNELIOUS"
+      ]
      }
     ]
    },
@@ -34338,7 +34546,7 @@
     "vacant": [
      {
       "mo": 113,
-      "vmin": 18,
+      "vmin": 15,
       "vmaj": 10,
       "csb": 0,
       "unpd": 6750.0,
@@ -36894,49 +37102,6 @@
    "as_of": "2026-11-12"
   },
   {
-   "tag": "27289200000",
-   "cid": "27289200000",
-   "handle": "12728000200",
-   "addr": "4523 ALASKA AVE",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 16,
-   "owner": "MORRIS, BRENDA & JAMILLAH ROSE & & BMORRIS HOLDINGS LLC",
-   "mail": "2147 E 24TH ST",
-   "mail_city": "Oakland",
-   "mail_state": "CA",
-   "mail_zip": "94606",
-   "occ": null,
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 4407,
-   "year": 1910,
-   "value": 10620.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 0.0,
-   "sale_date": "",
-   "mkt": 55895,
-   "score": 40,
-   "why": [
-    "absentee",
-    "out of state",
-    "notice to secure",
-    "investor owned"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-10",
-      "type": "Notice to Secure",
-      "action": "ES - Complaint"
-     }
-    ]
-   },
-   "as_of": "2026-11-12"
-  },
-  {
    "tag": "27409140000",
    "cid": "27409140000",
    "handle": "12740000140",
@@ -37164,6 +37329,52 @@
       "date": "2026-10-27",
       "type": "Violation Letter",
       "action": "Autos"
+     }
+    ]
+   },
+   "as_of": "2026-11-12"
+  },
+  {
+   "tag": "30069150000",
+   "cid": "30069150000",
+   "handle": "13006000150",
+   "addr": "6708 PENNSYLVANIA AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "BOHAN, MARISISA",
+   "mail": "6708 PENNSYLVANIA AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3751,
+   "year": 1886,
+   "value": 15120.0,
+   "tax_bal": 0,
+   "vac_year": 2006,
+   "lender": "",
+   "sale_price": 110000.0,
+   "sale_date": "2023-06-26",
+   "mkt": 79579,
+   "score": 40,
+   "why": [
+    "vacant 20+ years",
+    "condemned"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "year": 2006
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-12",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
      }
     ]
    },
@@ -44083,6 +44294,47 @@
    "as_of": "2026-11-12"
   },
   {
+   "tag": "57939030000",
+   "cid": "57939030000",
+   "handle": "15793030070",
+   "addr": "3919 SCHILLER PL",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 5,
+   "owner": "THOMAS, CHARLES M & PAULA E FRANKLIN & C/O PAULA FRANKLIN",
+   "mail": "6943 BIRDIE LN",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63129",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3394,
+   "year": 1925,
+   "value": 10960.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 57684,
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-12",
+      "type": "Violation Letter",
+      "action": "Cornice/Fascia; Gutters/Downspout; Porch"
+     }
+    ]
+   },
+   "as_of": "2026-11-12"
+  },
+  {
    "tag": "25699250000",
    "cid": "25699250000",
    "handle": "12569000250",
@@ -46828,48 +47080,6 @@
    "as_of": "2026-11-12"
   },
   {
-   "tag": "57059040000",
-   "cid": "57059040000",
-   "handle": "15705000040",
-   "addr": "4736 NEWPORT AVE",
-   "zip": "63116",
-   "county": "St. Louis City",
-   "nbhd": 5,
-   "owner": "LANOW PARTNERSHIP LLC",
-   "mail": "6204 GRAVOIS AVE",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63116",
-   "occ": null,
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 3450,
-   "year": 1914,
-   "value": 14310.0,
-   "tax_bal": 2899.49,
-   "vac_year": 0,
-   "lender": "682",
-   "sale_price": 42000.0,
-   "sale_date": "1991-06-26",
-   "mkt": 75316,
-   "score": 35,
-   "why": [
-    "absentee",
-    "tax delinquent $2,899",
-    "investor owned"
-   ],
-   "signals": {
-    "tax": [
-     {
-      "amount": 2899.49,
-      "year": "",
-      "legal": "city tax balance, more than a year behind"
-     }
-    ]
-   },
-   "as_of": "2026-11-12"
-  },
-  {
    "tag": "27759080000",
    "cid": "27759080000",
    "handle": "12775000080",
@@ -47550,6 +47760,47 @@
    "as_of": "2026-11-12"
   },
   {
+   "tag": "28149160000",
+   "cid": "28149160000",
+   "handle": "12814000160",
+   "addr": "5201 ALASKA AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "CUTLER, RODNEY L B",
+   "mail": "7730 FLORENTINE DR",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63121",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2709,
+   "year": 1912,
+   "value": 19610.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 59500.0,
+   "sale_date": "1994-06-06",
+   "mkt": 103211,
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-12",
+      "type": "Violation Letter",
+      "action": "Autos; Fences; Open Storage"
+     }
+    ]
+   },
+   "as_of": "2026-11-12"
+  },
+  {
    "tag": "40789310000",
    "cid": "40789310000",
    "handle": "14078000310",
@@ -47629,6 +47880,47 @@
       "csb": 1,
       "unpd": 0.0,
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-12"
+  },
+  {
+   "tag": "28679200000",
+   "cid": "28679200000",
+   "handle": "12867000200",
+   "addr": "529 DOVER PL",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "MCKEE, MICHAEL L & MARGARET A & & GAIL J PHIPPS",
+   "mail": "529 DOVER",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4990,
+   "year": 1903,
+   "value": 27710.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 119900.0,
+   "sale_date": "2004-11-16",
+   "mkt": 145842,
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-12",
+      "type": "Violation Letter",
+      "action": "Garage/Shed; Porch; Windows"
      }
     ]
    },
@@ -67167,6 +67459,48 @@
    "as_of": "2026-11-12"
   },
   {
+   "tag": "20809290000",
+   "cid": "20809290000",
+   "handle": "12080000290",
+   "addr": "3001 SIDNEY ST",
+   "zip": "63104",
+   "county": "St. Louis City",
+   "nbhd": 25,
+   "owner": "WARD & PARK INC",
+   "mail": "P O BOX",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63105",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3456,
+   "year": 1911,
+   "value": 22350.0,
+   "tax_bal": 1857.71,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 68000.0,
+   "sale_date": "2001-09-12",
+   "mkt": 117632,
+   "score": 20,
+   "why": [
+    "absentee",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-12",
+      "type": "Violation Letter",
+      "action": "Rooms"
+     }
+    ]
+   },
+   "as_of": "2026-11-12"
+  },
+  {
    "tag": "19759040000",
    "cid": "19759040000",
    "handle": "11975000040",
@@ -69314,6 +69648,48 @@
     "vacant": [
      {
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-12"
+  },
+  {
+   "tag": "56229430000",
+   "cid": "56229430000",
+   "handle": "15622000430",
+   "addr": "3737 HYDRAULIC AVE",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 15,
+   "owner": "HAVEN HOMES & DEVELOPMENT LLC",
+   "mail": "16545 FOREST PINE DR",
+   "mail_city": "Ballwin",
+   "mail_state": "MO",
+   "mail_zip": "63011",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 2961,
+   "year": 1915,
+   "value": 11860.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 84900.0,
+   "sale_date": "2005-04-28",
+   "mkt": 62421,
+   "score": 20,
+   "why": [
+    "absentee",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-12",
+      "type": "Violation Letter",
+      "action": "Open Storage"
      }
     ]
    },
@@ -72542,6 +72918,48 @@
     "vacant": [
      {
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-12"
+  },
+  {
+   "tag": "29179190000",
+   "cid": "29179190000",
+   "handle": "12917000190",
+   "addr": "6004 PENNSYLVANIA AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "ROCKLIN GROUP LLC",
+   "mail": "2156 YALE AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63143",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3452,
+   "year": 1901,
+   "value": 9080.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 47789,
+   "score": 20,
+   "why": [
+    "absentee",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-12",
+      "type": "Violation Letter",
+      "action": "Autos; Fences; Open Storage; Parking Area; Porch"
      }
     ]
    },
@@ -78255,6 +78673,46 @@
       "date": "2026-10-16",
       "type": "Violation Letter",
       "action": "Foundation; General; Indoor; Parapet; Porch; Rooms; Status Unit; Walls"
+     }
+    ]
+   },
+   "as_of": "2026-11-12"
+  },
+  {
+   "tag": "13779420000",
+   "cid": "13779420000",
+   "handle": "11377000420",
+   "addr": "2845 SHENANDOAH AVE",
+   "zip": "63104",
+   "county": "St. Louis City",
+   "nbhd": 24,
+   "owner": "BROWN, CORTLAND",
+   "mail": "2845 SHENANDOAH AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3566,
+   "year": 1885,
+   "value": 17370.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 75000.0,
+   "sale_date": "1999-07-27",
+   "mkt": 91421,
+   "score": 15,
+   "why": [
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-12",
+      "type": "Violation Letter",
+      "action": "Chimney; Cornice/Fascia; Dormer; Gutters/Downspout; Roof; Windows"
      }
     ]
    },
@@ -87146,6 +87604,46 @@
    "as_of": "2026-11-12"
   },
   {
+   "tag": "28969140000",
+   "cid": "28969140000",
+   "handle": "12896000140",
+   "addr": "510 DOVER PL",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "DAVIS, MASHIONA & TERRY",
+   "mail": "510 DOVER PL",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 7999,
+   "year": 1964,
+   "value": 45310.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 139900.0,
+   "sale_date": "2015-08-03",
+   "mkt": 238474,
+   "score": 15,
+   "why": [
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-12",
+      "type": "Violation Letter",
+      "action": "Autos"
+     }
+    ]
+   },
+   "as_of": "2026-11-12"
+  },
+  {
    "tag": "28399200000",
    "cid": "28399200000",
    "handle": "12839000200",
@@ -90338,7 +90836,7 @@
    "as_of": "2026-11-12"
   }
  ],
- "absentee_only": 126113,
- "city": 1322,
+ "absentee_only": 126105,
+ "city": 1333,
  "county": 747
 }
