@@ -45,6 +45,21 @@
   "firm": "SouthLaw"
  },
  {
+  "addr": "3857 WATERSEDGE DR",
+  "addr_raw": "3857 Watersedge Drive",
+  "city": "Florissant",
+  "zip": "63034",
+  "county": "St. Louis County",
+  "date": "2026-11-12",
+  "time": "2:00PM",
+  "continued": "",
+  "bid": "",
+  "sale_at": "Clayton",
+  "case": "",
+  "file": "260732",
+  "firm": "SouthLaw"
+ },
+ {
   "addr": "2727 DAWNVIEW DR",
   "addr_raw": "2727 Dawnview Dr",
   "city": "Florissant",
@@ -90,21 +105,6 @@
   "firm": "SouthLaw"
  },
  {
-  "addr": "3857 WATERSEDGE DR",
-  "addr_raw": "3857 Watersedge Drive",
-  "city": "Florissant",
-  "zip": "63034",
-  "county": "St. Louis County",
-  "date": "2026-11-12",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "260732",
-  "firm": "SouthLaw"
- },
- {
   "addr": "1229 GREGAN PL",
   "addr_raw": "1229 Gregan Pl",
   "city": "Saint Louis",
@@ -117,6 +117,21 @@
   "sale_at": "Clayton",
   "case": "",
   "file": "245854",
+  "firm": "SouthLaw"
+ },
+ {
+  "addr": "245 ST DENIS ST",
+  "addr_raw": "245 Saint Denis St",
+  "city": "Florissant",
+  "zip": "63031",
+  "county": "St. Louis County",
+  "date": "2026-11-19",
+  "time": "2:00PM",
+  "continued": "",
+  "bid": "",
+  "sale_at": "Clayton",
+  "case": "",
+  "file": "250095",
   "firm": "SouthLaw"
  },
  {
@@ -177,21 +192,6 @@
   "sale_at": "Clayton",
   "case": "",
   "file": "260353",
-  "firm": "SouthLaw"
- },
- {
-  "addr": "245 ST DENIS ST",
-  "addr_raw": "245 Saint Denis St",
-  "city": "Florissant",
-  "zip": "63031",
-  "county": "St. Louis County",
-  "date": "2026-11-19",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "250095",
   "firm": "SouthLaw"
  },
  {
