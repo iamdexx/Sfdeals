@@ -1,5 +1,43 @@
 [
  {
+  "doc": "11132026-0056",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-13",
+  "addrs": [
+   "4220 COTE BRILLIANTE"
+  ],
+  "pids": [
+   "36839180000"
+  ],
+  "lender": "ROOTS 4 RESIDENTS LLC",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+  "parties": [
+   "ROOTS 4 RESIDENTS LLC",
+   "WILMINGTON SAVINGS FUND SOCIETY FSB"
+  ]
+ },
+ {
+  "doc": "11132026-0009",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-13",
+  "addrs": [
+   "3914 N 23RD ST",
+   "4435 RED BUD AVE"
+  ],
+  "pids": [
+   "12439050000",
+   "35639190000"
+  ],
+  "lender": "US BANK NA",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+  "parties": [
+   "US BANK NA",
+   "VIBRANT BLUE REALTY LLC"
+  ]
+ },
+ {
   "doc": "11122026-0147",
   "kind": "pre-foreclosure",
   "type": "APPOINT SUCC TRUSTEE",

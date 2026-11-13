@@ -1,8 +1,8 @@
 {
  "as_of": "2026-11-13",
- "updated": "2026-11-13T05:49:16Z",
- "count": 128184,
- "hot": 2082,
+ "updated": "2026-11-13T19:02:36Z",
+ "count": 128197,
+ "hot": 2103,
  "leads": [
   {
    "tag": "56569250000",
@@ -1710,6 +1710,55 @@
    "as_of": "2026-11-13"
   },
   {
+   "tag": "06E620115",
+   "cid": "06E620115",
+   "addr": "13108 FOUNTAINHEAD RDG",
+   "zip": "63138",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "HALL SCOTT",
+   "careof": "",
+   "mail": "10990 NEW HALLS FERRY RD",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "N",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 4864.0,
+   "year": 1991,
+   "value": 527200.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 527200.0,
+   "score": 80,
+   "why": [
+    "absentee",
+    "trustee sale 2026-12-03"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "13108 FOUNTAINHEAD RDG",
+      "addr_raw": "13108 Fountainhead Rdg",
+      "city": "Saint Louis",
+      "zip": "63138",
+      "county": "St. Louis County",
+      "date": "2026-12-03",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "262051",
+      "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
    "tag": "38289540000",
    "cid": "38289540000",
    "handle": "13828000540",
@@ -1954,55 +2003,6 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 34800
-     }
-    ]
-   },
-   "as_of": "2026-11-13"
-  },
-  {
-   "tag": "06J420128",
-   "cid": "06J420128",
-   "addr": "2727 DAWNVIEW DR",
-   "zip": "63031",
-   "county": "St. Louis County",
-   "muni": "Unincorporated",
-   "owner": "BYRD MATTHEW M",
-   "careof": "",
-   "mail": "4227 CALVERT AVE",
-   "mail_city": "Saint Louis",
-   "mail_state": "MO",
-   "mail_zip": "63134",
-   "occ": "N",
-   "landuse": "Single Family",
-   "units": 1,
-   "sqft": null,
-   "res_sqft": 864.0,
-   "year": 1972,
-   "value": 105800.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "mkt": 105800.0,
-   "score": 80,
-   "why": [
-    "absentee",
-    "trustee sale 2026-11-12"
-   ],
-   "signals": {
-    "trustee": [
-     {
-      "addr": "2727 DAWNVIEW DR",
-      "addr_raw": "2727 Dawnview Dr",
-      "city": "Florissant",
-      "zip": "63031",
-      "county": "St. Louis County",
-      "date": "2026-11-12",
-      "time": "2:00PM",
-      "continued": "",
-      "bid": "$73,830.00",
-      "sale_at": "Clayton",
-      "case": "",
-      "file": "259729",
-      "firm": "SouthLaw"
      }
     ]
    },
@@ -2821,48 +2821,48 @@
    "as_of": "2026-11-13"
   },
   {
-   "tag": "25J130396",
-   "cid": "25J130396",
-   "addr": "6806 ARDALE DR",
-   "zip": "63123",
+   "tag": "12J630674",
+   "cid": "12J630674",
+   "addr": "717 WESLEY AVE",
+   "zip": "63135",
    "county": "St. Louis County",
-   "muni": "Unincorporated",
-   "owner": "HOMETURN INNOVATIONS L L C",
+   "muni": "Ferguson",
+   "owner": "PITTMAN CHRIS",
    "careof": "",
-   "mail": "6069 GETTYSBURG ESTATES DR",
-   "mail_city": "Saint Louis",
+   "mail": "60 N CLUB GROUNDS DR",
+   "mail_city": "Florissant",
    "mail_state": "MO",
-   "mail_zip": "63129",
+   "mail_zip": "63033",
    "occ": "N",
    "landuse": "Single Family",
    "units": 1,
    "sqft": null,
-   "res_sqft": 1080.0,
-   "year": 1956,
-   "value": 205500.0,
+   "res_sqft": 957.0,
+   "year": 1941,
+   "value": 116300.0,
    "tax_bal": 0,
    "vac_year": 0,
-   "mkt": 205500.0,
+   "mkt": 116300.0,
    "score": 80,
    "why": [
     "absentee",
-    "trustee sale 2026-11-12"
+    "trustee sale 2026-12-03"
    ],
    "signals": {
     "trustee": [
      {
-      "addr": "6806 ARDALE DR",
-      "addr_raw": "6806 Ardale Dr",
-      "city": "Saint Louis",
-      "zip": "63123",
+      "addr": "717 WESLEY AVE",
+      "addr_raw": "717 Wesley Ave",
+      "city": "St Louis",
+      "zip": "63135",
       "county": "St. Louis County",
-      "date": "2026-11-12",
+      "date": "2026-12-03",
       "time": "2:00PM",
       "continued": "",
-      "bid": "$225,000.00",
+      "bid": "",
       "sale_at": "Clayton",
       "case": "",
-      "file": "253173",
+      "file": "262525",
       "firm": "SouthLaw"
      }
     ]
@@ -4769,7 +4769,7 @@
       "vmin": 7,
       "vmaj": 5,
       "csb": 0,
-      "unpd": 1100.0,
+      "unpd": 1350.0,
       "year": 2018
      }
     ]
@@ -5254,6 +5254,53 @@
    "as_of": "2026-11-13"
   },
   {
+   "tag": "16589240000",
+   "cid": "16589240000",
+   "handle": "11658000240",
+   "addr": "2103 STANSBURY ST",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 18,
+   "owner": "MARTINEZ, FEDERICO LIZARDO",
+   "mail": "3737 MINNESOTA AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 5847,
+   "year": 1926,
+   "value": 5140.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "391",
+   "sale_price": 35000.0,
+   "sale_date": "1994-05-19",
+   "mkt": 27053,
+   "score": 70,
+   "why": [
+    "absentee",
+    "condemned",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-13",
+      "type": "Condemned for Occupancy",
+      "action": "Condemnation"
+     },
+     {
+      "date": "2026-10-28",
+      "type": "Violation Letter",
+      "action": "Door; General; Open Storage; Outdoor; Porch"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
    "tag": "23309300000",
    "cid": "23309300000",
    "handle": "12330000300",
@@ -5352,7 +5399,7 @@
       "vmin": 7,
       "vmaj": 4,
       "csb": 0,
-      "unpd": 3600.0,
+      "unpd": 3800.0,
       "year": 2018
      }
     ]
@@ -6518,7 +6565,7 @@
       "vmin": 7,
       "vmaj": 3,
       "csb": 0,
-      "unpd": 3600.0,
+      "unpd": 3800.0,
       "year": 2018
      }
     ]
@@ -8679,7 +8726,7 @@
       "vmin": 2,
       "vmaj": 1,
       "csb": 1,
-      "unpd": 2900.0,
+      "unpd": 3150.0,
       "year": 2018
      }
     ],
@@ -12567,6 +12614,64 @@
    "as_of": "2026-11-13"
   },
   {
+   "tag": "12439050000",
+   "cid": "12439050000",
+   "handle": "11243000050",
+   "addr": "3914 N 23RD ST",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 65,
+   "owner": "VIBRANT BLUE REALTY LLC",
+   "mail": "20 PINE CANYON DR",
+   "mail_city": "Atlanta",
+   "mail_state": "GA",
+   "mail_zip": "30331",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3200,
+   "year": 1912,
+   "value": 3010.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 15842,
+   "score": 65,
+   "why": [
+    "absentee",
+    "out of state",
+    "pre-foreclosure filed 2026-11-13",
+    "investor owned"
+   ],
+   "signals": {
+    "recorder": [
+     {
+      "doc": "11132026-0009",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-11-13",
+      "addrs": [
+       "3914 N 23RD ST",
+       "4435 RED BUD AVE"
+      ],
+      "pids": [
+       "12439050000",
+       "35639190000"
+      ],
+      "lender": "US BANK NA",
+      "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+      "parties": [
+       "US BANK NA",
+       "VIBRANT BLUE REALTY LLC"
+      ]
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
    "tag": "12399020000",
    "cid": "12399020000",
    "handle": "11239000020",
@@ -12726,6 +12831,62 @@
       "units": 1,
       "muni": "Riverview",
       "value": 63900
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "36839180000",
+   "cid": "36839180000",
+   "handle": "13683000180",
+   "addr": "4220 COTE BRILLIANTE AVE",
+   "zip": "63113",
+   "county": "St. Louis City",
+   "nbhd": 57,
+   "owner": "ROOTS 4 RESIDENTS LLC",
+   "mail": "5540 UNION POINTE PL",
+   "mail_city": "Union City",
+   "mail_state": "GA",
+   "mail_zip": "30291",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4951,
+   "year": 1911,
+   "value": 1760.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 42500.0,
+   "sale_date": "2022-07-20",
+   "mkt": 9263,
+   "score": 65,
+   "why": [
+    "absentee",
+    "out of state",
+    "pre-foreclosure filed 2026-11-13",
+    "investor owned"
+   ],
+   "signals": {
+    "recorder": [
+     {
+      "doc": "11132026-0056",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-11-13",
+      "addrs": [
+       "4220 COTE BRILLIANTE"
+      ],
+      "pids": [
+       "36839180000"
+      ],
+      "lender": "ROOTS 4 RESIDENTS LLC",
+      "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+      "parties": [
+       "ROOTS 4 RESIDENTS LLC",
+       "WILMINGTON SAVINGS FUND SOCIETY FSB"
+      ]
      }
     ]
    },
@@ -13126,6 +13287,64 @@
       "parties": [
        "HANLEY FORSYTH TRUSTEE INC",
        "NEWTSEAD/MCPHERSON LLC"
+      ]
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "35639190000",
+   "cid": "35639190000",
+   "handle": "13563000190",
+   "addr": "4435 RED BUD AVE",
+   "zip": "63115",
+   "county": "St. Louis City",
+   "nbhd": 68,
+   "owner": "VIBRANT BLUE REALTY LLC",
+   "mail": "20 PINE CANYON DR",
+   "mail_city": "Atlanta",
+   "mail_state": "GA",
+   "mail_zip": "30331",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4432,
+   "year": 1910,
+   "value": 2370.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 12474,
+   "score": 65,
+   "why": [
+    "absentee",
+    "out of state",
+    "pre-foreclosure filed 2026-11-13",
+    "investor owned"
+   ],
+   "signals": {
+    "recorder": [
+     {
+      "doc": "11132026-0009",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-11-13",
+      "addrs": [
+       "3914 N 23RD ST",
+       "4435 RED BUD AVE"
+      ],
+      "pids": [
+       "12439050000",
+       "35639190000"
+      ],
+      "lender": "US BANK NA",
+      "trustee": "CSM FORECLOSURE TRUSTEE CORP",
+      "parties": [
+       "US BANK NA",
+       "VIBRANT BLUE REALTY LLC"
       ]
      }
     ]
@@ -15695,6 +15914,102 @@
    "as_of": "2026-11-13"
   },
   {
+   "tag": "09G330833",
+   "cid": "09G330833",
+   "addr": "11163 PRITCHARD DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "COLLINS JUANITA",
+   "careof": "",
+   "mail": "11163 PRITCHARD DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1316.0,
+   "year": 1961,
+   "value": 160300.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 160300.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-03"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "11163 PRITCHARD DR",
+      "addr_raw": "11163 Pritchard Drive",
+      "city": "Saint Louis",
+      "zip": "63136",
+      "county": "St. Louis County",
+      "date": "2026-12-03",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "263148",
+      "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "17K110631",
+   "cid": "17K110631",
+   "addr": "12 ANFRED WALK",
+   "zip": "63132",
+   "county": "St. Louis County",
+   "muni": "University City",
+   "owner": "HEGGER STEFANIE L",
+   "careof": "",
+   "mail": "12 ANFRED WALK",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63132",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 836.0,
+   "year": 1947,
+   "value": 126800.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 126800.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-03"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "12 ANFRED WALK",
+      "addr_raw": "12 Anfred Walk",
+      "city": "Saint Louis",
+      "zip": "63132",
+      "county": "St. Louis County",
+      "date": "2026-12-03",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "262253",
+      "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
    "tag": "17H430717",
    "cid": "17H430717",
    "addr": "1229 GREGAN PL",
@@ -15736,6 +16051,102 @@
       "sale_at": "Clayton",
       "case": "",
       "file": "245854",
+      "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "27G130839",
+   "cid": "27G130839",
+   "addr": "124 W VELMA AVE",
+   "zip": "63125",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "SIKORSKI PAUL A & CONNIE H/W",
+   "careof": "",
+   "mail": "124 W VELMA AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63125",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 937.0,
+   "year": 1924,
+   "value": 130900.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 130900.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-03"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "124 W VELMA AVE",
+      "addr_raw": "124 West Velma Avenue",
+      "city": "St Louis",
+      "zip": "63125",
+      "county": "St. Louis County",
+      "date": "2026-12-03",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "262421",
+      "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "16K310676",
+   "cid": "16K310676",
+   "addr": "1507 ANNANDALE DR",
+   "zip": "63130",
+   "county": "St. Louis County",
+   "muni": "University City",
+   "owner": "SPENCER WILLIE L",
+   "careof": "",
+   "mail": "1507 ANNANDALE DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63130",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 864.0,
+   "year": 1952,
+   "value": 134900.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 134900.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-03"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "1507 ANNANDALE DR",
+      "addr_raw": "1507 Annandale Dr",
+      "city": "Saint Louis",
+      "zip": "63130",
+      "county": "St. Louis County",
+      "date": "2026-12-03",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "262543",
       "firm": "SouthLaw"
      }
     ]
@@ -15980,6 +16391,54 @@
       "sale_at": "Clayton",
       "case": "",
       "file": "191585",
+      "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "11F120539",
+   "cid": "11F120539",
+   "addr": "2239 LOVETT DR",
+   "zip": "63136",
+   "county": "St. Louis County",
+   "muni": "Moline Acres",
+   "owner": "HARRIS CRYSTAL M",
+   "careof": "",
+   "mail": "2239 LOVETT DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63136",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1014.0,
+   "year": 1954,
+   "value": 111800.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 111800.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-03"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "2239 LOVETT DR",
+      "addr_raw": "2239 Lovett Dr",
+      "city": "Saint Louis",
+      "zip": "63136",
+      "county": "St. Louis County",
+      "date": "2026-12-03",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "262538",
       "firm": "SouthLaw"
      }
     ]
@@ -16359,6 +16818,54 @@
       "sale_at": "Clayton",
       "case": "24SL-CC07168",
       "file": "220176",
+      "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "08H230708",
+   "cid": "08H230708",
+   "addr": "3030 HARNESS DR",
+   "zip": "63033",
+   "county": "St. Louis County",
+   "muni": "Florissant",
+   "owner": "CARTER DARRYL A  DJUANA Y  H/W",
+   "careof": "",
+   "mail": "3030 HARNESS DR",
+   "mail_city": "Florissant",
+   "mail_state": "MO",
+   "mail_zip": "63033",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1825.0,
+   "year": 1962,
+   "value": 244500.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 244500.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-03"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "3030 HARNESS DR",
+      "addr_raw": "3030 Harness Dr",
+      "city": "Florissant",
+      "zip": "63033",
+      "county": "St. Louis County",
+      "date": "2026-12-03",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "255793",
       "firm": "SouthLaw"
      }
     ]
@@ -16876,6 +17383,54 @@
    "as_of": "2026-11-13"
   },
   {
+   "tag": "11M230133",
+   "cid": "11M230133",
+   "addr": "4184 LOCKPORT DR",
+   "zip": "63044",
+   "county": "St. Louis County",
+   "muni": "Bridgeton",
+   "owner": "NEWKIRK ROSE M",
+   "careof": "",
+   "mail": "4184 LOCKPORT DR",
+   "mail_city": "Bridgeton",
+   "mail_state": "MO",
+   "mail_zip": "63044",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1092.0,
+   "year": 1966,
+   "value": 232600.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 232600.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-03"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "4184 LOCKPORT DR",
+      "addr_raw": "4184 Lockport Dr",
+      "city": "Bridgeton",
+      "zip": "63044",
+      "county": "St. Louis County",
+      "date": "2026-12-03",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "240105",
+      "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
    "tag": "54459170000",
    "cid": "54459170000",
    "handle": "15445000170",
@@ -17016,6 +17571,54 @@
       "date": "2026-11-03",
       "type": "Violation Letter",
       "action": "Door; Fences; Walls"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "15G440700",
+   "cid": "15G440700",
+   "addr": "4334 EDGEWOOD BLVD",
+   "zip": "63121",
+   "county": "St. Louis County",
+   "muni": "Pine Lawn",
+   "owner": "BROOKS BARBARA C",
+   "careof": "",
+   "mail": "4334 EDGEWOOD BLVD",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63121",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1291.0,
+   "year": 1948,
+   "value": 120700.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 120700.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-03"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "4334 EDGEWOOD BLVD",
+      "addr_raw": "4334 Edgewood Blvd",
+      "city": "Saint Louis",
+      "zip": "63121",
+      "county": "St. Louis County",
+      "date": "2026-12-03",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "14530",
+      "firm": "SouthLaw"
      }
     ]
    },
@@ -17346,6 +17949,54 @@
    "as_of": "2026-11-13"
   },
   {
+   "tag": "24J520048",
+   "cid": "24J520048",
+   "addr": "6140 SOUTHERN DR",
+   "zip": "63123",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "BECKER MICHAEL L",
+   "careof": "",
+   "mail": "6140 SOUTHERN DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63123",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1868.0,
+   "year": 1982,
+   "value": 321100.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 321100.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-03"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "6140 SOUTHERN DR",
+      "addr_raw": "6140 Southern Dr",
+      "city": "Saint Louis",
+      "zip": "63123",
+      "county": "St. Louis County",
+      "date": "2026-12-03",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "237750",
+      "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
    "tag": "16H540525",
    "cid": "16H540525",
    "addr": "6611 ST LOUIS AVE",
@@ -17442,6 +18093,54 @@
    "as_of": "2026-11-13"
   },
   {
+   "tag": "26H330848",
+   "cid": "26H330848",
+   "addr": "717 BELLAVILLA DR",
+   "zip": "63125",
+   "county": "St. Louis County",
+   "muni": "Bella Villa",
+   "owner": "MURPHY SANDRA J",
+   "careof": "",
+   "mail": "717 BELLAVILLA DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63125",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1049.0,
+   "year": 1939,
+   "value": 181300.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 181300.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-03"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "717 BELLAVILLA DR",
+      "addr_raw": "717 Bellavilla Dr",
+      "city": "Saint Louis",
+      "zip": "63125",
+      "county": "St. Louis County",
+      "date": "2026-12-03",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "262632",
+      "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
    "tag": "31189030000",
    "cid": "31189030000",
    "handle": "13118000030",
@@ -17489,6 +18188,54 @@
       "csb": 2,
       "unpd": 7250.0,
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "27H641707",
+   "cid": "27H641707",
+   "addr": "822 REED AVE",
+   "zip": "63125",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "POSTLEWAIT VERNON L JR",
+   "careof": "",
+   "mail": "822 REED AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63125",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1414.0,
+   "year": 1948,
+   "value": 237500.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 237500.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-03"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "822 REED AVE",
+      "addr_raw": "822 Reed Ave",
+      "city": "Saint Louis",
+      "zip": "63125",
+      "county": "St. Louis County",
+      "date": "2026-12-03",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "261525",
+      "firm": "SouthLaw"
      }
     ]
    },
@@ -17680,6 +18427,54 @@
       "amount": 6349.36,
       "year": "",
       "legal": "city tax balance, more than a year behind"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "22M320993",
+   "cid": "22M320993",
+   "addr": "877 ALEXANDRA AVE",
+   "zip": "63122",
+   "county": "St. Louis County",
+   "muni": "Glendale",
+   "owner": "MCGRAW JEFFREY B",
+   "careof": "",
+   "mail": "877 ALEXANDRA AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63122",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1600.0,
+   "year": 1942,
+   "value": 385800.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 385800.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-03"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "877 ALEXANDRA AVE",
+      "addr_raw": "877 Alexandra Ave",
+      "city": "Saint Louis",
+      "zip": "63122",
+      "county": "St. Louis County",
+      "date": "2026-12-03",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "262977",
+      "firm": "SouthLaw"
      }
     ]
    },
@@ -21892,6 +22687,49 @@
       "units": 1,
       "muni": "Hillsdale",
       "value": 9400
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "16589340000",
+   "cid": "16589340000",
+   "handle": "11658000340",
+   "addr": "2131 STANSBURY ST",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 18,
+   "owner": "TRIDENT REALTY INVESTMENTS REO LLC",
+   "mail": "17103 PRESTON RD",
+   "mail_city": "Dallas",
+   "mail_state": "TX",
+   "mail_zip": "75248",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 5170,
+   "year": 1902,
+   "value": 24800.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 12500.0,
+   "sale_date": "1996-08-05",
+   "mkt": 130526,
+   "score": 50,
+   "why": [
+    "absentee",
+    "out of state",
+    "condemned",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-13",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
      }
     ]
    },
@@ -30226,7 +31064,7 @@
       "vmin": 9,
       "vmaj": 1,
       "csb": 0,
-      "unpd": 1100.0,
+      "unpd": 1350.0,
       "year": 2018
      }
     ]
@@ -31216,7 +32054,7 @@
       "vmin": 2,
       "vmaj": 2,
       "csb": 0,
-      "unpd": 3600.0,
+      "unpd": 3800.0,
       "year": 2018
      }
     ],
@@ -34566,7 +35404,7 @@
       "vmin": 15,
       "vmaj": 10,
       "csb": 0,
-      "unpd": 6750.0,
+      "unpd": 6950.0,
       "year": 2018
      }
     ]
@@ -40245,47 +41083,6 @@
    "as_of": "2026-11-13"
   },
   {
-   "tag": "16589240000",
-   "cid": "16589240000",
-   "handle": "11658000240",
-   "addr": "2103 STANSBURY ST",
-   "zip": "63118",
-   "county": "St. Louis City",
-   "nbhd": 18,
-   "owner": "MARTINEZ, FEDERICO LIZARDO",
-   "mail": "3737 MINNESOTA AVE",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63118",
-   "occ": null,
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 5847,
-   "year": 1926,
-   "value": 5140.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "391",
-   "sale_price": 35000.0,
-   "sale_date": "1994-05-19",
-   "mkt": 27053,
-   "score": 35,
-   "why": [
-    "absentee",
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-10-28",
-      "type": "Violation Letter",
-      "action": "Door; General; Open Storage; Outdoor; Porch"
-     }
-    ]
-   },
-   "as_of": "2026-11-13"
-  },
-  {
    "tag": "16559190000",
    "cid": "16559190000",
    "handle": "11655000190",
@@ -43825,6 +44622,47 @@
     "vacant": [
      {
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "16019260000",
+   "cid": "16019260000",
+   "handle": "11601000260",
+   "addr": "3657 WINNEBAGO ST",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 15,
+   "owner": "SELEMAN, SAMAH & DAHABA LIAB",
+   "mail": "3657 WINNEBAGO",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63116",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 7035,
+   "year": 1941,
+   "value": 27590.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 133000.0,
+   "sale_date": "2018-07-11",
+   "mkt": 145211,
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-13",
+      "type": "Violation Letter",
+      "action": "Fences; Garage/Shed; Walls; Windows"
      }
     ]
    },
@@ -48907,6 +49745,47 @@
     "vacant": [
      {
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "58049170000",
+   "cid": "58049170000",
+   "handle": "15804000170",
+   "addr": "5819 MIMIKA AVE",
+   "zip": "63147",
+   "county": "St. Louis City",
+   "nbhd": 73,
+   "owner": "IMANI, KWANTA",
+   "mail": "8867 NORTHCREST LN",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63147",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4833,
+   "year": 1938,
+   "value": 5440.0,
+   "tax_bal": 473.36,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 28632,
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-13",
+      "type": "Violation Letter",
+      "action": "Garage/Shed; Marquee/Fixed Awnings; Open Storage; Porch; Status Unit"
      }
     ]
    },
@@ -59457,7 +60336,7 @@
       "vmin": 6,
       "vmaj": 0,
       "csb": 0,
-      "unpd": 1750.0,
+      "unpd": 2000.0,
       "year": 2018
      }
     ]
@@ -62186,6 +63065,58 @@
    "as_of": "2026-11-13"
   },
   {
+   "tag": "16559070000",
+   "cid": "16559070000",
+   "handle": "11655000070",
+   "addr": "2136 STANSBURY ST",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 18,
+   "owner": "DALTON DESIGN & BUILD LLC & C/O PATRICK J CONNORS & EMMA D SEYFFERT",
+   "mail": "2136 STANSBURY ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3396,
+   "year": 1895,
+   "value": 21330.0,
+   "tax_bal": 0,
+   "vac_year": 2004,
+   "lender": "670",
+   "sale_price": 114000.0,
+   "sale_date": "2020-08-20",
+   "mkt": 112263,
+   "score": 25,
+   "why": [
+    "vacant 22+ years",
+    "condemned",
+    "investor owned"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "mo": 0,
+      "vmin": 0,
+      "vmaj": 0,
+      "csb": 1,
+      "unpd": 0.0,
+      "year": 2004
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-13",
+      "type": "Condemned for Occupancy",
+      "action": "Condemnation"
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
    "tag": "33989200000",
    "cid": "33989200000",
    "handle": "13398000200",
@@ -62635,7 +63566,7 @@
       "vmin": 2,
       "vmaj": 2,
       "csb": 0,
-      "unpd": 3150.0,
+      "unpd": 3350.0,
       "year": 2018
      }
     ]
@@ -62946,7 +63877,7 @@
       "vmin": 6,
       "vmaj": 4,
       "csb": 0,
-      "unpd": 6250.0,
+      "unpd": 6500.0,
       "year": 2018
      }
     ]
@@ -66027,6 +66958,57 @@
     "vacant": [
      {
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "06719020000",
+   "cid": "06719020000",
+   "handle": "10671000020",
+   "addr": "1918 S 12TH ST",
+   "zip": "63104",
+   "county": "St. Louis City",
+   "nbhd": 21,
+   "owner": "FUENTES, JUAN CARLOS",
+   "mail": "1918 S 12TH ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63104",
+   "occ": "Y",
+   "landuse": 1111,
+   "units": 1,
+   "sqft": 2212,
+   "year": 1881,
+   "value": 59610.0,
+   "tax_bal": 0,
+   "vac_year": 2011,
+   "lender": "",
+   "sale_price": 16000.0,
+   "sale_date": "1983-12-27",
+   "mkt": 313737,
+   "score": 20,
+   "why": [
+    "vacant 15+ years",
+    "1 code violation"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "mo": 0,
+      "vmin": 0,
+      "vmaj": 0,
+      "csb": 1,
+      "unpd": 0.0,
+      "year": 2011
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-13",
+      "type": "Violation Letter",
+      "action": "Gutters/Downspout"
      }
     ]
    },
@@ -72715,6 +73697,48 @@
     "vacant": [
      {
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-13"
+  },
+  {
+   "tag": "28469090000",
+   "cid": "28469090000",
+   "handle": "12846000090",
+   "addr": "5500 S GRAND BLVD",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "SMITH & SMITH HOMES LLC",
+   "mail": "6 COUNTRY RD",
+   "mail_city": "Foristell",
+   "mail_state": "MO",
+   "mail_zip": "63348",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 5877,
+   "year": 1924,
+   "value": 15770.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 50000.0,
+   "sale_date": "2013-12-06",
+   "mkt": 83000,
+   "score": 20,
+   "why": [
+    "absentee",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-13",
+      "type": "Violation Letter",
+      "action": "General"
      }
     ]
    },
@@ -90956,7 +91980,7 @@
    "as_of": "2026-11-13"
   }
  ],
- "absentee_only": 126102,
- "city": 1336,
- "county": 746
+ "absentee_only": 126094,
+ "city": 1345,
+ "county": 758
 }
