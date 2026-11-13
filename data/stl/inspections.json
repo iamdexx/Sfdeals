@@ -1,6 +1,6 @@
 [
  {
-  "id": 2074119,
+  "id": 2074492,
   "date": "2026-11-12",
   "addr": "7800 VIRGINIA AVE",
   "pid": "31329200000",
@@ -22,6 +22,30 @@
   "major": 1,
   "minor": 0,
   "text": "Rooms"
+ },
+ {
+  "id": 2074493,
+  "date": "2026-11-12",
+  "addr": "8311 VIRGINIA AVE",
+  "pid": "32139150000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Autos"
+ },
+ {
+  "id": 2074495,
+  "date": "2026-11-12",
+  "addr": "515 LOUGHBOROUGH AVE",
+  "pid": "29989270000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Open Storage"
  },
  {
   "id": 2074252,
@@ -180,6 +204,18 @@
   "text": "Autos; Fences; Open Storage; Status Unit"
  },
  {
+  "id": 2074511,
+  "date": "2026-11-12",
+  "addr": "4347 CALIFORNIA AVE",
+  "pid": "26759250000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 8,
+  "minor": 5,
+  "text": "Door; Fences; General; Porch; Roof; Walls; Windows"
+ },
+ {
   "id": 2074184,
   "date": "2026-11-12",
   "addr": "4276 ST LOUIS AVE",
@@ -228,7 +264,7 @@
   "text": ""
  },
  {
-  "id": 2074221,
+  "id": 2074486,
   "date": "2026-11-12",
   "addr": "3737 HYDRAULIC AVE",
   "pid": "56229430000",
@@ -276,7 +312,7 @@
   "text": "Cornice/Fascia; Gutters/Downspout; Porch"
  },
  {
-  "id": 2074261,
+  "id": 2074512,
   "date": "2026-11-12",
   "addr": "4302 NEBRASKA AVE",
   "pid": "26769140000",
@@ -298,6 +334,162 @@
   "major": 6,
   "minor": 0,
   "text": "Condemnation"
+ },
+ {
+  "id": 2074513,
+  "date": "2026-11-12",
+  "addr": "529 DOVER PL",
+  "pid": "28679200000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 3,
+  "text": "Garage/Shed; Porch; Windows"
+ },
+ {
+  "id": 2074515,
+  "date": "2026-11-12",
+  "addr": "510 DOVER PL",
+  "pid": "28969140000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Autos"
+ },
+ {
+  "id": 2074306,
+  "date": "2026-11-12",
+  "addr": "3142 CALIFORNIA AVE",
+  "pid": "17569070000",
+  "type": "ES - Complaint",
+  "result": "Notice to Secure",
+  "kind": "secure",
+  "major": 0,
+  "minor": 0,
+  "text": ""
+ },
+ {
+  "id": 2074508,
+  "date": "2026-11-12",
+  "addr": "6004 PENNSYLVANIA AVE",
+  "pid": "29179190000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 3,
+  "text": "Autos; Fences; Open Storage; Parking Area; Porch"
+ },
+ {
+  "id": 2074507,
+  "date": "2026-11-12",
+  "addr": "4736 NEWPORT AVE",
+  "pid": "57059040000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 3,
+  "text": "Grading/Drainage; Open Storage; Porch; Roof"
+ },
+ {
+  "id": 2074386,
+  "date": "2026-11-12",
+  "addr": "5239 CABANNE AVE",
+  "pid": "51449220000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 8,
+  "text": "Fences; Gutters/Downspout; Porch; Walls"
+ },
+ {
+  "id": 2074411,
+  "date": "2026-11-12",
+  "addr": "5564 PAGE BLVD",
+  "pid": "38099010000",
+  "type": "ES - Emergency",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 5,
+  "minor": 4,
+  "text": "Gutters/Downspout; Open Storage; Porch; Windows"
+ },
+ {
+  "id": 2074415,
+  "date": "2026-11-12",
+  "addr": "4520 ALICE AVE",
+  "pid": "35469080000",
+  "type": "ES - Door to Door",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 6,
+  "minor": 4,
+  "text": "Cornice/Fascia; Fences; Gutters/Downspout; Porch; Walls; Windows"
+ },
+ {
+  "id": 2074478,
+  "date": "2026-11-12",
+  "addr": "4445 OSCEOLA ST",
+  "pid": "58549370000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
+  "id": 2074480,
+  "date": "2026-11-12",
+  "addr": "4406 GANNETT ST",
+  "pid": "55459240000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "General"
+ },
+ {
+  "id": 2074119,
+  "date": "2026-11-12",
+  "addr": "7800 VIRGINIA AVE",
+  "pid": "31329200000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "General"
+ },
+ {
+  "id": 2074221,
+  "date": "2026-11-12",
+  "addr": "3737 HYDRAULIC AVE",
+  "pid": "56229430000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
+  "id": 2074261,
+  "date": "2026-11-12",
+  "addr": "4302 NEBRASKA AVE",
+  "pid": "26769140000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "General"
  },
  {
   "id": 2074280,
@@ -322,18 +514,6 @@
   "major": 1,
   "minor": 0,
   "text": "Autos"
- },
- {
-  "id": 2074306,
-  "date": "2026-11-12",
-  "addr": "3142 CALIFORNIA AVE",
-  "pid": "17569070000",
-  "type": "ES - Complaint",
-  "result": "Notice to Secure",
-  "kind": "secure",
-  "major": 0,
-  "minor": 0,
-  "text": ""
  },
  {
   "id": 2074333,
@@ -3804,7 +3984,7 @@
   "text": "Address; Garage/Shed; Open Storage; Porch; Roof; Walls"
  },
  {
-  "id": 2071721,
+  "id": 2074501,
   "date": "2026-11-03",
   "addr": "4218 CALIFORNIA AVE",
   "pid": "26609130000",
@@ -3816,7 +3996,7 @@
   "text": "Rooms"
  },
  {
-  "id": 2071722,
+  "id": 2074502,
   "date": "2026-11-03",
   "addr": "201 EICHELBERGER ST",
   "pid": "28289040000",
@@ -3910,6 +4090,30 @@
   "major": 5,
   "minor": 5,
   "text": "Address; Door; Roof; Walls; Windows"
+ },
+ {
+  "id": 2071721,
+  "date": "2026-11-03",
+  "addr": "4218 CALIFORNIA AVE",
+  "pid": "26609130000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 2,
+  "text": "Rooms"
+ },
+ {
+  "id": 2071722,
+  "date": "2026-11-03",
+  "addr": "201 EICHELBERGER ST",
+  "pid": "28289040000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 7,
+  "minor": 7,
+  "text": "Address; Basement A'Way; Chimney; Door; Gutters/Downspout; Parapet; Porch; Walls; Windows"
  },
  {
   "id": 2064927,
@@ -10596,18 +10800,6 @@
   "text": "Address; Cornice/Fascia; Fences; Gutters/Downspout; Marquee/Fixed Awnings; Open Storage; Porch; Windows"
  },
  {
-  "id": 2065658,
-  "date": "2026-10-12",
-  "addr": "730 EASTGATE AVE",
-  "pid": "48509025000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 4,
-  "minor": 6,
-  "text": "Address; Cornice/Fascia; Door; Gutters/Downspout; Open Storage; Parking Area; Status Unit; Windows"
- },
- {
   "id": 2064922,
   "date": "2026-10-12",
   "addr": "6929 PERNOD AVE",
@@ -10870,6 +11062,18 @@
   "major": 0,
   "minor": 0,
   "text": ""
+ },
+ {
+  "id": 2065658,
+  "date": "2026-10-12",
+  "addr": "730 EASTGATE AVE",
+  "pid": "48509025000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 6,
+  "text": "Address; Cornice/Fascia; Door; Gutters/Downspout; Open Storage; Parking Area; Status Unit; Windows"
  },
  {
   "id": 2065652,

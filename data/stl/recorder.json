@@ -36,6 +36,24 @@
   ]
  },
  {
+  "doc": "11122026-0196",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-12",
+  "addrs": [
+   "5546 ERA AVE"
+  ],
+  "pids": [
+   "57899060000"
+  ],
+  "lender": "SELECT PORTFOLIO SERVICING INC",
+  "trustee": "S&W FORECLOSURE CORP",
+  "parties": [
+   "SELECT PORTFOLIO SERVICING INC",
+   "MOORE MARY M"
+  ]
+ },
+ {
   "doc": "11102026-0044",
   "kind": "pre-foreclosure",
   "type": "APPOINT SUCC TRUSTEE",
@@ -3452,24 +3470,6 @@
   "parties": [
    "DEFAULT FLOW VENTURES LLC",
    "COLLIER ROBERT LEE JR"
-  ]
- },
- {
-  "doc": "07152026-0045",
-  "kind": "pre-foreclosure",
-  "type": "APPOINT SUCC TRUSTEE",
-  "date": "2026-07-15",
-  "addrs": [
-   "4508 MORGANFORD RD"
-  ],
-  "pids": [
-   "54659410000"
-  ],
-  "lender": "COMMERCIAL LOAN FUNDING LLC",
-  "trustee": "SOUTHLAW P C",
-  "parties": [
-   "COMMERCIAL LOAN FUNDING LLC",
-   "RED DOOR LEGACY STL LLC"
   ]
  }
 ]

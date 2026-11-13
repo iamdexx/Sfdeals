@@ -30,21 +30,6 @@
   "firm": "SouthLaw"
  },
  {
-  "addr": "240 BRAESHIRE DR",
-  "addr_raw": "240 Braeshire Drive Unit B",
-  "city": "Ballwin",
-  "zip": "63021",
-  "county": "St. Louis County",
-  "date": "2026-11-12",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "$68,229.24",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "262102",
-  "firm": "SouthLaw"
- },
- {
   "addr": "6806 ARDALE DR",
   "addr_raw": "6806 Ardale Dr",
   "city": "Saint Louis",
@@ -75,6 +60,21 @@
   "firm": "SouthLaw"
  },
  {
+  "addr": "240 BRAESHIRE DR",
+  "addr_raw": "240 Braeshire Drive Unit B",
+  "city": "Ballwin",
+  "zip": "63021",
+  "county": "St. Louis County",
+  "date": "2026-11-12",
+  "time": "2:00PM",
+  "continued": "",
+  "bid": "$68,229.24",
+  "sale_at": "Clayton",
+  "case": "",
+  "file": "262102",
+  "firm": "SouthLaw"
+ },
+ {
   "addr": "2727 DAWNVIEW DR",
   "addr_raw": "2727 Dawnview Dr",
   "city": "Florissant",
@@ -87,21 +87,6 @@
   "sale_at": "Clayton",
   "case": "",
   "file": "259729",
-  "firm": "SouthLaw"
- },
- {
-  "addr": "3443 ASHBY RD",
-  "addr_raw": "3443 Ashby Rd",
-  "city": "Saint Ann",
-  "zip": "63074",
-  "county": "St. Louis County",
-  "date": "2026-11-12",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "$146,200.00",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "262390",
   "firm": "SouthLaw"
  },
  {
