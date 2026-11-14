@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-14",
- "updated": "2026-11-14T05:38:59Z",
+ "updated": "2026-11-14T17:33:12Z",
  "count": 12453,
  "hot": 1906,
  "leads": [
@@ -1547,6 +1547,63 @@
       "cid": "031533",
       "amount": 1650.85,
       "legal": "N 22' 6 & All Lot 5 Block 19",
+      "section": "Sioux Falls City",
+      "year": 2025
+     }
+    ]
+   },
+   "as_of": "2026-11-14"
+  },
+  {
+   "tag": "012228454026000",
+   "cid": "50833",
+   "addr": "604 E 41ST ST",
+   "zip": 57105,
+   "county": "MINNEHAHA",
+   "owner": "DAC INVESTMENT GROUP LLC",
+   "mail": "1004 W STERLING OAK DR",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57108",
+   "occ": "N",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.14,
+   "sqft": 6060.0,
+   "activity": "11 - Single-Family",
+   "score": 70,
+   "why": [
+    "absentee",
+    "tax delinquent $3,322",
+    "2 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-13",
+      "addr": "604 E 41ST ST",
+      "type": "Zoning",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2026-10-28",
+      "addr": "604 E 41ST ST",
+      "type": "Zoning",
+      "action": "Citation - 1st"
+     },
+     {
+      "date": "2025-01-08",
+      "addr": "604 E 41ST ST",
+      "type": "Health Nuisance Complaints",
+      "action": "Health Citation - 1st"
+     }
+    ],
+    "tax": [
+     {
+      "owner": "DAC Investment Group LLC",
+      "cid": "050833",
+      "amount": 3322.66,
+      "legal": "Lot 14 Block 4 Valley Park Addn",
       "section": "Sioux Falls City",
       "year": 2025
      }
@@ -5062,57 +5119,6 @@
       "addr": "518 W BAILEY ST",
       "type": "Property Maintenance",
       "action": "Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-14"
-  },
-  {
-   "tag": "012228454026000",
-   "cid": "50833",
-   "addr": "604 E 41ST ST",
-   "zip": 57105,
-   "county": "MINNEHAHA",
-   "owner": "DAC INVESTMENT GROUP LLC",
-   "mail": "1004 W STERLING OAK DR",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57108",
-   "occ": "N",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.14,
-   "sqft": 6060.0,
-   "activity": "11 - Single-Family",
-   "score": 60,
-   "why": [
-    "absentee",
-    "tax delinquent $3,322",
-    "1 code citation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-10-28",
-      "addr": "604 E 41ST ST",
-      "type": "Zoning",
-      "action": "Citation - 1st"
-     },
-     {
-      "date": "2025-01-08",
-      "addr": "604 E 41ST ST",
-      "type": "Health Nuisance Complaints",
-      "action": "Health Citation - 1st"
-     }
-    ],
-    "tax": [
-     {
-      "owner": "DAC Investment Group LLC",
-      "cid": "050833",
-      "amount": 3322.66,
-      "legal": "Lot 14 Block 4 Valley Park Addn",
-      "section": "Sioux Falls City",
-      "year": 2025
      }
     ]
    },
