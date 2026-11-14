@@ -3471,43 +3471,5 @@
    "BELL BANK",
    "MORTGAGE ELECTRONIC REGISTRATION SYSTEM INC"
   ]
- },
- {
-  "doc": "07162026-0051",
-  "kind": "pre-foreclosure",
-  "type": "APPOINT SUCC TRUSTEE",
-  "date": "2026-07-16",
-  "addrs": [
-   "3916 N 21ST ST",
-   "3918 N 21ST ST"
-  ],
-  "pids": [
-   "12399020000"
-  ],
-  "lender": "RED DOOR LEGACY LLC",
-  "trustee": "MILLSAP & SINGER LLC",
-  "parties": [
-   "RED DOOR LEGACY LLC",
-   "CITIBANK  N A",
-   "RCN CAPITAL LLC"
-  ]
- },
- {
-  "doc": "07162026-0038",
-  "kind": "pre-foreclosure",
-  "type": "APPOINT SUCC TRUSTEE",
-  "date": "2026-07-16",
-  "addrs": [
-   "4570 CARTER AVE"
-  ],
-  "pids": [
-   "44159020000"
-  ],
-  "lender": "DEFAULT FLOW VENTURES LLC",
-  "trustee": "MILLSAP & SINGER P C",
-  "parties": [
-   "DEFAULT FLOW VENTURES LLC",
-   "COLLIER ROBERT LEE JR"
-  ]
  }
 ]

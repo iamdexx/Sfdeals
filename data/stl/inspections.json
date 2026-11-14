@@ -12,12 +12,60 @@
   "text": "Autos; Open Storage; Walls"
  },
  {
-  "id": 2074505,
+  "id": 2074822,
+  "date": "2026-11-13",
+  "addr": "4969 ST LOUIS AVE",
+  "pid": "52609450000",
+  "type": "ES - Complaint",
+  "result": "Emergency CFO",
+  "kind": "condemned",
+  "major": 1,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2074788,
+  "date": "2026-11-13",
+  "addr": "4315 KOSSUTH AVE",
+  "pid": "44249160000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 4,
+  "text": "Address; Chimney; Parapet; Porch; Walls; Windows"
+ },
+ {
+  "id": 2074823,
+  "date": "2026-11-13",
+  "addr": "4135 W LEE AVE",
+  "pid": "35739315000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 2,
+  "text": "Fences; Porch; Walls; Windows"
+ },
+ {
+  "id": 2074764,
   "date": "2026-11-13",
   "addr": "1200 GLASGOW AVE",
   "pid": "10009260000",
   "type": "ES - Complaint",
   "result": "Condemned for Occupancy",
+  "kind": "condemned",
+  "major": 9,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2074506,
+  "date": "2026-11-13",
+  "addr": "1620 HELEN ST",
+  "pid": "23359080000",
+  "type": "ES - Complaint",
+  "result": "Emergency Structural Condemnation",
   "kind": "condemned",
   "major": 9,
   "minor": 0,
@@ -34,6 +82,42 @@
   "major": 2,
   "minor": 6,
   "text": "Garage/Shed; Marquee/Fixed Awnings; Open Storage; Porch; Status Unit"
+ },
+ {
+  "id": 2074807,
+  "date": "2026-11-13",
+  "addr": "2827 VICTOR ST",
+  "pid": "20829260000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 2,
+  "text": "Garage/Shed"
+ },
+ {
+  "id": 2074818,
+  "date": "2026-11-13",
+  "addr": "2806 SHENANDOAH AVE",
+  "pid": "20829150000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Fences"
+ },
+ {
+  "id": 2074816,
+  "date": "2026-11-13",
+  "addr": "2627 WYOMING ST",
+  "pid": "17609440000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Open Storage"
  },
  {
   "id": 2074690,
@@ -60,18 +144,6 @@
   "text": "Address; Chimney; Gutters/Downspout; Open Storage; Porch; Status Unit; Walls; Windows"
  },
  {
-  "id": 2074722,
-  "date": "2026-11-13",
-  "addr": "5500 S GRAND BLVD",
-  "pid": "28469090000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 1,
-  "minor": 0,
-  "text": "General"
- },
- {
   "id": 2074731,
   "date": "2026-11-13",
   "addr": "3657 WINNEBAGO ST",
@@ -84,7 +156,7 @@
   "text": "Fences; Garage/Shed; Walls; Windows"
  },
  {
-  "id": 2074737,
+  "id": 2074824,
   "date": "2026-11-13",
   "addr": "2136 STANSBURY ST",
   "pid": "16559070000",
@@ -96,7 +168,7 @@
   "text": "Condemnation"
  },
  {
-  "id": 2074738,
+  "id": 2074825,
   "date": "2026-11-13",
   "addr": "2103 STANSBURY ST",
   "pid": "16589240000",
@@ -130,6 +202,66 @@
   "major": 3,
   "minor": 4,
   "text": "Door; Fences; Fire Escape / Safety Stairs; Gutters/Downspout; Roof; Windows"
+ },
+ {
+  "id": 2074754,
+  "date": "2026-11-13",
+  "addr": "5872 CABANNE AVE",
+  "pid": "38619040000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 6,
+  "minor": 5,
+  "text": "Address; Chimney; Cornice/Fascia; Gutters/Downspout; Open Storage; Roof; Walls; Windows"
+ },
+ {
+  "id": 2074505,
+  "date": "2026-11-13",
+  "addr": "1200 GLASGOW AVE",
+  "pid": "10009260000",
+  "type": "ES - Complaint",
+  "result": "Condemned for Occupancy",
+  "kind": "condemned",
+  "major": 9,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2074722,
+  "date": "2026-11-13",
+  "addr": "5500 S GRAND BLVD",
+  "pid": "28469090000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "General"
+ },
+ {
+  "id": 2074737,
+  "date": "2026-11-13",
+  "addr": "2136 STANSBURY ST",
+  "pid": "16559070000",
+  "type": "ES - Complaint",
+  "result": "Condemned for Occupancy",
+  "kind": "condemned",
+  "major": 4,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2074738,
+  "date": "2026-11-13",
+  "addr": "2103 STANSBURY ST",
+  "pid": "16589240000",
+  "type": "ES - Complaint",
+  "result": "Condemned for Occupancy",
+  "kind": "condemned",
+  "major": 5,
+  "minor": 0,
+  "text": "Condemnation"
  },
  {
   "id": 2074492,
@@ -4380,18 +4512,6 @@
   "text": "Address; Open Storage; Porch; Windows"
  },
  {
-  "id": 2071059,
-  "date": "2026-11-02",
-  "addr": "6045 W FLORISSANT AVE",
-  "pid": "58009250000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 3,
-  "minor": 0,
-  "text": "General; Open Storage"
- },
- {
   "id": 2071363,
   "date": "2026-11-02",
   "addr": "4533 ATHLONE AVE",
@@ -4858,6 +4978,18 @@
   "major": 2,
   "minor": 0,
   "text": "Autos; Open Storage"
+ },
+ {
+  "id": 2071059,
+  "date": "2026-11-02",
+  "addr": "6045 W FLORISSANT AVE",
+  "pid": "58009250000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 0,
+  "text": "General; Open Storage"
  },
  {
   "id": 2064927,
