@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-14",
- "updated": "2026-11-14T05:41:36Z",
+ "updated": "2026-11-14T17:33:14Z",
  "count": 128198,
  "hot": 2103,
  "leads": [
@@ -908,17 +908,17 @@
      {
       "date": "2026-10-26",
       "type": "Violation Letter",
-      "action": "Autos; Cornice/Fascia; Dormer; Garage/Shed; Gutters/Downspout; Parking Area; Porch; Premise Sidewalk; Retaining Wall; Roof; Windows"
-     },
-     {
-      "date": "2026-10-26",
-      "type": "Violation Letter",
       "action": "Door; Roof; Walls; Windows"
      },
      {
       "date": "2026-10-26",
       "type": "Violation Letter",
       "action": "Door; Open Storage; Roof; Status Unit; Walls"
+     },
+     {
+      "date": "2026-10-26",
+      "type": "Violation Letter",
+      "action": "Autos; Cornice/Fascia; Dormer; Garage/Shed; Gutters/Downspout; Parking Area; Porch; Premise Sidewalk; Retaining Wall; Roof; Windows"
      },
      {
       "date": "2026-10-26",
@@ -8312,13 +8312,13 @@
     "citations": [
      {
       "date": "2026-11-03",
-      "type": "Notice to Secure",
-      "action": "ES - Complaint"
+      "type": "Violation Letter",
+      "action": "Address; Cornice/Fascia; Fences; Garage/Shed"
      },
      {
       "date": "2026-11-03",
-      "type": "Violation Letter",
-      "action": "Address; Cornice/Fascia; Fences; Garage/Shed"
+      "type": "Notice to Secure",
+      "action": "ES - Complaint"
      }
     ]
    },
@@ -17511,13 +17511,13 @@
     "citations": [
      {
       "date": "2026-11-03",
-      "type": "Notice to Secure",
-      "action": "ES - Complaint"
+      "type": "Violation Letter",
+      "action": "Door; Fences; Walls"
      },
      {
       "date": "2026-11-03",
-      "type": "Violation Letter",
-      "action": "Door; Fences; Walls"
+      "type": "Notice to Secure",
+      "action": "ES - Complaint"
      }
     ]
    },
