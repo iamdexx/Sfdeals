@@ -1,5 +1,57 @@
 [
  {
+  "doc": "11162026-0172",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-16",
+  "addrs": [],
+  "pids": [],
+  "lender": "NEWREZ LLC",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "NEWREZ LLC",
+   "WILSON TRINIA L"
+  ]
+ },
+ {
+  "doc": "11162026-0049",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-16",
+  "addrs": [
+   "4856 FARLIN AVE"
+  ],
+  "pids": [
+   "43899060000"
+  ],
+  "lender": "U S BANK NATIONAL ASSOCIATION",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "U S BANK NATIONAL ASSOCIATION",
+   "BURKS CHARLOTTE D",
+   "BURKS JEADEE"
+  ]
+ },
+ {
+  "doc": "11162026-0036",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-16",
+  "addrs": [
+   "5023 LEONA ST"
+  ],
+  "pids": [
+   "60619190000"
+  ],
+  "lender": "TORIBIO OCIEL PEREGRINO",
+  "trustee": "NESTOR SOLUTIONS OF MISSOURI LLC",
+  "parties": [
+   "TORIBIO OCIEL PEREGRINO",
+   "MACIAS ANA YARETZY RAMOS",
+   "FREEDOM MORTGAGE CORPORATION"
+  ]
+ },
+ {
   "doc": "11132026-0056",
   "kind": "pre-foreclosure",
   "type": "APPOINT SUCC TRUSTEE",
