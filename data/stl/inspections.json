@@ -3972,18 +3972,6 @@
   "text": "Condemnation"
  },
  {
-  "id": 2071862,
-  "date": "2026-11-04",
-  "addr": "4837 CALVIN AVE",
-  "pid": "43919360000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 3,
-  "minor": 1,
-  "text": "Fences; Open Storage; Windows"
- },
- {
   "id": 2071930,
   "date": "2026-11-04",
   "addr": "1532 SELLS AVE",
@@ -4570,6 +4558,18 @@
   "major": 6,
   "minor": 2,
   "text": "Address; Cornice/Fascia; Gutters/Downspout; Porch"
+ },
+ {
+  "id": 2071862,
+  "date": "2026-11-04",
+  "addr": "4837 CALVIN AVE",
+  "pid": "43919360000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 1,
+  "text": "Fences; Open Storage; Windows"
  },
  {
   "id": 2065019,
@@ -5172,18 +5172,6 @@
   "text": "Address; Basement A'Way; Chimney; Door; Gutters/Downspout; Parapet; Porch; Walls; Windows"
  },
  {
-  "id": 2066532,
-  "date": "2026-11-02",
-  "addr": "1814 WHITTIER ST",
-  "pid": "36619190000",
-  "type": "ES - 5-16-25 Tornado",
-  "result": "Emergency Condemnation and Demo Notice",
-  "kind": "condemned",
-  "major": 4,
-  "minor": 0,
-  "text": "Condemnation"
- },
- {
   "id": 2068999,
   "date": "2026-11-02",
   "addr": "2725 SEMPLE AVE",
@@ -5722,6 +5710,18 @@
   "major": 2,
   "minor": 0,
   "text": "Autos; Open Storage"
+ },
+ {
+  "id": 2066532,
+  "date": "2026-11-02",
+  "addr": "1814 WHITTIER ST",
+  "pid": "36619190000",
+  "type": "ES - 5-16-25 Tornado",
+  "result": "Emergency Condemnation and Demo Notice",
+  "kind": "condemned",
+  "major": 4,
+  "minor": 0,
+  "text": "Condemnation"
  },
  {
   "id": 2071059,
@@ -8772,18 +8772,6 @@
   "text": "Autos; Open Storage"
  },
  {
-  "id": 2069514,
-  "date": "2026-10-21",
-  "addr": "4623 MORAINE AVE",
-  "pid": "35569235000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 3,
-  "minor": 2,
-  "text": "Autos; Cornice/Fascia; Open Storage; Status Unit"
- },
- {
   "id": 2067581,
   "date": "2026-10-21",
   "addr": "3733 MAFFITT AVE",
@@ -9094,6 +9082,18 @@
   "major": 0,
   "minor": 1,
   "text": "Roof"
+ },
+ {
+  "id": 2069514,
+  "date": "2026-10-21",
+  "addr": "4623 MORAINE AVE",
+  "pid": "35569235000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 2,
+  "text": "Autos; Cornice/Fascia; Open Storage; Status Unit"
  },
  {
   "id": 2067712,
