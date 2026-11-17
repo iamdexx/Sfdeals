@@ -1,11 +1,89 @@
 [
  {
+  "doc": "11172026-0168",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-17",
+  "addrs": [
+   "1812 LAFAYETTE AVE"
+  ],
+  "pids": [
+   "13319095000"
+  ],
+  "lender": "FEDERAL HOME LOAN MORTGAGE CORPORATION",
+  "trustee": "CSM FORECLOSURE TRUSTER CORPORATION",
+  "parties": [
+   "FEDERAL HOME LOAN MORTGAGE CORPORATION",
+   "LOEHR ALAN J",
+   "FERRARIO SUSAN M"
+  ]
+ },
+ {
+  "doc": "11172026-0142",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-17",
+  "addrs": [
+   "3540 GILES AVE"
+  ],
+  "pids": [
+   "15999040000"
+  ],
+  "lender": "U S BANK TRUST NATIONAL ASSOCIATION",
+  "trustee": "TRUSTEE SERVICES INC",
+  "parties": [
+   "U S  BANK TRUST NATIONAL ASSOCIATION",
+   "ROI TURNKEY PROPERTIES LLC"
+  ]
+ },
+ {
+  "doc": "11172026-0113",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-17",
+  "addrs": [
+   "4160 FAIR AVE"
+  ],
+  "pids": [
+   "35759380000"
+  ],
+  "lender": "U S BANK NATIONAL ASSOCIATION",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "U S BANK NATIONAL ASSOCIATION",
+   "GREEN STREET FUNDING TRUST II",
+   "VIBRANT BLUE REALTY LLC"
+  ]
+ },
+ {
+  "doc": "11172026-0099",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-17",
+  "addrs": [
+   "3919 EILER ST"
+  ],
+  "pids": [
+   "57929260000"
+  ],
+  "lender": "VILLAGE CAPITAL & INVESTMENT LLC",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "VILLAGE CAPITAL & INVESTMENT LLC",
+   "CAMPBELL KELLY D"
+  ]
+ },
+ {
   "doc": "11162026-0172",
   "kind": "pre-foreclosure",
   "type": "APPOINT SUCC TRUSTEE",
   "date": "2026-11-16",
-  "addrs": [],
-  "pids": [],
+  "addrs": [
+   "1316 S 13TH ST"
+  ],
+  "pids": [
+   "04759165000"
+  ],
   "lender": "NEWREZ LLC",
   "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
   "parties": [
