@@ -1,5 +1,41 @@
 [
  {
+  "doc": "11182026-0041",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-18",
+  "addrs": [
+   "7822 VIRGINIA AVE"
+  ],
+  "pids": [
+   "31329120000"
+  ],
+  "lender": "TRUHOME SOLUTIONS LLC",
+  "trustee": "SINGERS CORP",
+  "parties": [
+   "TRUHOME SOLUTIONS LLC",
+   "NITZSCHE NICHOLAS"
+  ]
+ },
+ {
+  "doc": "11182026-0015",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-18",
+  "addrs": [
+   "951 DOVER PL"
+  ],
+  "pids": [
+   "28719260000"
+  ],
+  "lender": "CITIMORTGAGE INC",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "CITIMORTGAGE  INC",
+   "NIELSEN NEAL D"
+  ]
+ },
+ {
   "doc": "11172026-0168",
   "kind": "pre-foreclosure",
   "type": "APPOINT SUCC TRUSTEE",
