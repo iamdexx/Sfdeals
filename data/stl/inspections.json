@@ -708,6 +708,18 @@
   "text": "Address; Door; Porch"
  },
  {
+  "id": 2075941,
+  "date": "2026-11-17",
+  "addr": "2004 E COLLEGE AVE",
+  "pid": "33919080000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 1,
+  "text": "Address; Fences; General; Windows"
+ },
+ {
   "id": 2075036,
   "date": "2026-11-17",
   "addr": "2657 WASHINGTON BLVD",
