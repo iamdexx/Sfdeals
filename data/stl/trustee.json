@@ -135,21 +135,6 @@
   "firm": "SouthLaw"
  },
  {
-  "addr": "2239 LOVETT DR",
-  "addr_raw": "2239 Lovett Dr",
-  "city": "Saint Louis",
-  "zip": "63136",
-  "county": "St. Louis County",
-  "date": "2026-12-03",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "262538",
-  "firm": "SouthLaw"
- },
- {
   "addr": "4334 EDGEWOOD BLVD",
   "addr_raw": "4334 Edgewood Blvd",
   "city": "Saint Louis",
@@ -192,6 +177,21 @@
   "sale_at": "Clayton",
   "case": "",
   "file": "262421",
+  "firm": "SouthLaw"
+ },
+ {
+  "addr": "2239 LOVETT DR",
+  "addr_raw": "2239 Lovett Dr",
+  "city": "Saint Louis",
+  "zip": "63136",
+  "county": "St. Louis County",
+  "date": "2026-12-03",
+  "time": "2:00PM",
+  "continued": "",
+  "bid": "",
+  "sale_at": "Clayton",
+  "case": "",
+  "file": "262538",
   "firm": "SouthLaw"
  },
  {
@@ -267,21 +267,6 @@
   "sale_at": "Clayton",
   "case": "",
   "file": "261525",
-  "firm": "SouthLaw"
- },
- {
-  "addr": "4184 LOCKPORT DR",
-  "addr_raw": "4184 Lockport Dr",
-  "city": "Bridgeton",
-  "zip": "63044",
-  "county": "St. Louis County",
-  "date": "2026-12-03",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "240105",
   "firm": "SouthLaw"
  },
  {
