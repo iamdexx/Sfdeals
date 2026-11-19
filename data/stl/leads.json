@@ -1,8 +1,8 @@
 {
  "as_of": "2026-11-19",
- "updated": "2026-11-19T06:40:25Z",
- "count": 128225,
- "hot": 2168,
+ "updated": "2026-11-19T19:50:55Z",
+ "count": 128228,
+ "hot": 2183,
  "leads": [
   {
    "tag": "56569250000",
@@ -240,6 +240,68 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 26100
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
+   "tag": "24129040000",
+   "cid": "24129040000",
+   "handle": "12412000040",
+   "addr": "1126 ANGELICA ST",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 65,
+   "owner": "SINGER, MARK G",
+   "mail": "3355 STAUNTON RD",
+   "mail_city": "Edwardsville",
+   "mail_state": "IL",
+   "mail_zip": "62025",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3219,
+   "year": 1894,
+   "value": 3000.0,
+   "tax_bal": 320.56,
+   "vac_year": 2011,
+   "lender": "",
+   "sale_price": 18000.0,
+   "sale_date": "1992-11-02",
+   "mkt": 15789,
+   "score": 85,
+   "why": [
+    "absentee",
+    "out of state",
+    "vacant 15+ years",
+    "pre-foreclosure filed 2026-11-19"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "year": 2011
+     }
+    ],
+    "recorder": [
+     {
+      "doc": "11192026-0003",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-11-19",
+      "addrs": [
+       "1126 ANGELICA ST"
+      ],
+      "pids": [
+       "24129040000"
+      ],
+      "lender": "PNC BANK NATIONAL ASSOCIATION",
+      "trustee": "SOUTHLAW P C",
+      "parties": [
+       "PNC BANK NATIONAL ASSOCIATION",
+       "SINGER MARK G",
+       "FERREIRA MEIRE ERICA"
+      ]
      }
     ]
    },
@@ -3734,6 +3796,59 @@
    "as_of": "2026-11-19"
   },
   {
+   "tag": "15289316000",
+   "cid": "15289316000",
+   "handle": "11528000316",
+   "addr": "2001 CHEROKEE ST",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 22,
+   "owner": "BOLLINGER, GENE R TRS",
+   "mail": "2407 SIMS",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63114",
+   "occ": null,
+   "landuse": 1140,
+   "units": 4,
+   "sqft": 7296,
+   "year": 1884,
+   "value": 24190.0,
+   "tax_bal": 0,
+   "vac_year": 2008,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 127316,
+   "score": 75,
+   "why": [
+    "absentee",
+    "vacant 18+ years",
+    "condemned",
+    "1 code violation"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "year": 2008
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "Cornice/Fascia; Walls; Windows"
+     },
+     {
+      "date": "2026-11-17",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
    "tag": "13F130813",
    "cid": "13F130813",
    "addr": "2025 HORD AVE",
@@ -5669,6 +5784,53 @@
       "csb": 0,
       "unpd": 3800.0,
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
+   "tag": "26099050000",
+   "cid": "26099050000",
+   "handle": "12609000050",
+   "addr": "2226 MONTANA ST",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 18,
+   "owner": "NIETO-GARCIA, APOLINAR & MARIA H MURILLO",
+   "mail": "2225 MONTANA ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 6522,
+   "year": 1896,
+   "value": 18650.0,
+   "tax_bal": 1554.84,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 98158,
+   "score": 70,
+   "why": [
+    "absentee",
+    "condemned",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
+     },
+     {
+      "date": "2026-11-06",
+      "type": "Violation Letter",
+      "action": "General"
      }
     ]
    },
@@ -16473,53 +16635,6 @@
    "as_of": "2026-11-19"
   },
   {
-   "tag": "15289316000",
-   "cid": "15289316000",
-   "handle": "11528000316",
-   "addr": "2001 CHEROKEE ST",
-   "zip": "63118",
-   "county": "St. Louis City",
-   "nbhd": 22,
-   "owner": "BOLLINGER, GENE R TRS",
-   "mail": "2407 SIMS",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63114",
-   "occ": null,
-   "landuse": 1140,
-   "units": 4,
-   "sqft": 7296,
-   "year": 1884,
-   "value": 24190.0,
-   "tax_bal": 0,
-   "vac_year": 2008,
-   "lender": "",
-   "sale_price": 0.0,
-   "sale_date": "",
-   "mkt": 127316,
-   "score": 60,
-   "why": [
-    "absentee",
-    "vacant 18+ years",
-    "condemned"
-   ],
-   "signals": {
-    "vacant": [
-     {
-      "year": 2008
-     }
-    ],
-    "citations": [
-     {
-      "date": "2026-11-17",
-      "type": "Structural Condemnation",
-      "action": "Condemnation"
-     }
-    ]
-   },
-   "as_of": "2026-11-19"
-  },
-  {
    "tag": "11G310243",
    "cid": "11G310243",
    "addr": "2018 KAPPEL DR",
@@ -18409,6 +18524,53 @@
    "as_of": "2026-11-19"
   },
   {
+   "tag": "49789100000",
+   "cid": "49789100000",
+   "handle": "14978000100",
+   "addr": "7121 MARDEL AVE",
+   "zip": "63109",
+   "county": "St. Louis City",
+   "nbhd": 9,
+   "owner": "HAVILAND, PAUL",
+   "mail": "216 CAMPBELL ST",
+   "mail_city": "Madison",
+   "mail_state": "WI",
+   "mail_zip": "53711",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 7337,
+   "year": 1950,
+   "value": 17660.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 107000.0,
+   "sale_date": "2005-06-24",
+   "mkt": 92947,
+   "score": 60,
+   "why": [
+    "absentee",
+    "out of state",
+    "2 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-18",
+      "type": "Violation Letter",
+      "action": "Garage/Shed"
+     },
+     {
+      "date": "2026-11-18",
+      "type": "Violation Letter",
+      "action": "Garage/Shed"
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
    "tag": "26H330848",
    "cid": "26H330848",
    "addr": "717 BELLAVILLA DR",
@@ -20140,11 +20302,6 @@
    "signals": {
     "vacant": [
      {
-      "mo": 0,
-      "vmin": 0,
-      "vmaj": 0,
-      "csb": 1,
-      "unpd": 0.0,
       "year": 2007
      }
     ],
@@ -24094,6 +24251,65 @@
        "ALABAMA HOUSING FINANCE AUTHORITY",
        "COLEMAN KIEMANI"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
+   "tag": "26799330000",
+   "cid": "26799330000",
+   "handle": "12679000330",
+   "addr": "3107 OSCEOLA ST",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 17,
+   "owner": "3107 OSCEOLA LLC & C/O BOOM SABOR LLC",
+   "mail": "3777 MAY ST",
+   "mail_city": "Los Angeles",
+   "mail_state": "CA",
+   "mail_zip": "90066",
+   "occ": null,
+   "landuse": 1140,
+   "units": 4,
+   "sqft": 5331,
+   "year": 1923,
+   "value": 45470.0,
+   "tax_bal": 0,
+   "vac_year": 2015,
+   "lender": "670",
+   "sale_price": 97000.0,
+   "sale_date": "2003-06-27",
+   "mkt": 239316,
+   "score": 50,
+   "why": [
+    "absentee",
+    "out of state",
+    "vacant 11+ years",
+    "2 code violations",
+    "investor owned"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "mo": 0,
+      "vmin": 0,
+      "vmaj": 0,
+      "csb": 1,
+      "unpd": 0.0,
+      "year": 2015
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-18",
+      "type": "Violation Letter",
+      "action": "Roof; Rooms"
+     },
+     {
+      "date": "2026-11-18",
+      "type": "Violation Letter",
+      "action": "Roof; Rooms"
      }
     ]
    },
@@ -35347,6 +35563,48 @@
    "as_of": "2026-11-19"
   },
   {
+   "tag": "25709020000",
+   "cid": "25709020000",
+   "handle": "12570000020",
+   "addr": "3952 PENNSYLVANIA AVE",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "JOHNSON, TREVON MARKEITH",
+   "mail": "1050 OAKMONT LA",
+   "mail_city": "Provo",
+   "mail_state": "UT",
+   "mail_zip": "84604",
+   "occ": null,
+   "landuse": 1140,
+   "units": 4,
+   "sqft": 4736,
+   "year": 1916,
+   "value": 7320.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 68600.0,
+   "sale_date": "1998-05-15",
+   "mkt": 38526,
+   "score": 45,
+   "why": [
+    "absentee",
+    "out of state",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "Door; Electrical; Rooms; Smoke Detectors; Status Unit; Unit Stair"
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
    "tag": "53129040000",
    "cid": "53129040000",
    "handle": "15312000040",
@@ -36453,6 +36711,54 @@
       "csb": 1,
       "unpd": 0.0,
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
+   "tag": "27569280000",
+   "cid": "27569280000",
+   "handle": "12756000280",
+   "addr": "4821 S BROADWAY",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 17,
+   "owner": "4821 S BROADWAY LLC",
+   "mail": "P O BOX 7",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63177",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2601,
+   "year": 1890,
+   "value": 12460.0,
+   "tax_bal": 0,
+   "vac_year": 1989,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 65579,
+   "score": 45,
+   "why": [
+    "absentee",
+    "vacant 37+ years",
+    "condemned",
+    "investor owned"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "year": 1989
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Condemned for Occupancy",
+      "action": "Condemnation"
      }
     ]
    },
@@ -37704,48 +38010,6 @@
    "as_of": "2026-11-19"
   },
   {
-   "tag": "49789100000",
-   "cid": "49789100000",
-   "handle": "14978000100",
-   "addr": "7121 MARDEL AVE",
-   "zip": "63109",
-   "county": "St. Louis City",
-   "nbhd": 9,
-   "owner": "HAVILAND, PAUL",
-   "mail": "216 CAMPBELL ST",
-   "mail_city": "Madison",
-   "mail_state": "WI",
-   "mail_zip": "53711",
-   "occ": null,
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 7337,
-   "year": 1950,
-   "value": 17660.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "670",
-   "sale_price": 107000.0,
-   "sale_date": "2005-06-24",
-   "mkt": 92947,
-   "score": 45,
-   "why": [
-    "absentee",
-    "out of state",
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-18",
-      "type": "Violation Letter",
-      "action": "Garage/Shed"
-     }
-    ]
-   },
-   "as_of": "2026-11-19"
-  },
-  {
    "tag": "14G232195",
    "cid": "14G232195",
    "addr": "7127 DAWSON PL",
@@ -38846,6 +39110,48 @@
       "csb": 0,
       "unpd": 0.0,
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
+   "tag": "16359220000",
+   "cid": "16359220000",
+   "handle": "11635000220",
+   "addr": "3609 OREGON AVE",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 19,
+   "owner": "MBK BUILDING GROUP LLC",
+   "mail": "2026 S 12TH ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63104",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3786,
+   "year": 1892,
+   "value": 7490.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 34500.0,
+   "sale_date": "2022-06-07",
+   "mkt": 39421,
+   "score": 40,
+   "why": [
+    "absentee",
+    "condemned",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Emergency CFO",
+      "action": "Address; Autos; Chimney; Cornice/Fascia; Door; Fences; Grading/Drainage; Gutters/Downspout; Open Storage; Parapet; Parking Area; Porch; Walls; Windows"
      }
     ]
    },
@@ -41176,6 +41482,53 @@
    "as_of": "2026-11-19"
   },
   {
+   "tag": "50449280000",
+   "cid": "50449280000",
+   "handle": "15044000280",
+   "addr": "1121 S TAYLOR AVE",
+   "zip": "63110",
+   "county": "St. Louis City",
+   "nbhd": 39,
+   "owner": "PARK EAST II LP",
+   "mail": "6014 DELMAR BLVD",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63112",
+   "occ": null,
+   "landuse": 1118,
+   "units": 4,
+   "sqft": 4635,
+   "year": 1907,
+   "value": 9280.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 48842,
+   "score": 35,
+   "why": [
+    "absentee",
+    "2 code violations",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-18",
+      "type": "Violation Letter",
+      "action": "ES - Complaint"
+     },
+     {
+      "date": "2026-11-18",
+      "type": "Violation Letter",
+      "action": "ES - Complaint"
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
    "tag": "09E620228",
    "cid": "09E620228",
    "addr": "1206 BARON AVE",
@@ -41608,6 +41961,47 @@
       "addr": "1312 WACHTEL AVE",
       "status": "OPEN",
       "note": "junk, debris, unsecured"
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
+   "tag": "56059370000",
+   "cid": "56059370000",
+   "handle": "15605000370",
+   "addr": "1332 CENTRAL AVE",
+   "zip": "63139",
+   "county": "St. Louis City",
+   "nbhd": 44,
+   "owner": "RUSSELL, MARY ANN",
+   "mail": "1704 POINT VIEW",
+   "mail_city": "Bonne Terre",
+   "mail_state": "MO",
+   "mail_zip": "63628",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 5840,
+   "year": 1949,
+   "value": 20890.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 33900.0,
+   "sale_date": "1988-07-06",
+   "mkt": 109947,
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "General"
      }
     ]
    },
@@ -42654,47 +43048,6 @@
       "addr": "2225 N HANLEY RD",
       "status": "Sent to Vacant Billing",
       "note": "recc. 20 yard for cleanup of front uard - wopuld poss need 2 40 for total cleanup of front and rear - complait for front"
-     }
-    ]
-   },
-   "as_of": "2026-11-19"
-  },
-  {
-   "tag": "26099050000",
-   "cid": "26099050000",
-   "handle": "12609000050",
-   "addr": "2226 MONTANA ST",
-   "zip": "63118",
-   "county": "St. Louis City",
-   "nbhd": 18,
-   "owner": "NIETO-GARCIA, APOLINAR & MARIA H MURILLO",
-   "mail": "2225 MONTANA ST",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63118",
-   "occ": null,
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 6522,
-   "year": 1896,
-   "value": 18650.0,
-   "tax_bal": 1554.84,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 0.0,
-   "sale_date": "",
-   "mkt": 98158,
-   "score": 35,
-   "why": [
-    "absentee",
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-06",
-      "type": "Violation Letter",
-      "action": "General"
      }
     ]
    },
@@ -44256,60 +44609,6 @@
    "as_of": "2026-11-19"
   },
   {
-   "tag": "26799330000",
-   "cid": "26799330000",
-   "handle": "12679000330",
-   "addr": "3107 OSCEOLA ST",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 17,
-   "owner": "3107 OSCEOLA LLC & C/O BOOM SABOR LLC",
-   "mail": "3777 MAY ST",
-   "mail_city": "Los Angeles",
-   "mail_state": "CA",
-   "mail_zip": "90066",
-   "occ": null,
-   "landuse": 1140,
-   "units": 4,
-   "sqft": 5331,
-   "year": 1923,
-   "value": 45470.0,
-   "tax_bal": 0,
-   "vac_year": 2015,
-   "lender": "670",
-   "sale_price": 97000.0,
-   "sale_date": "2003-06-27",
-   "mkt": 239316,
-   "score": 35,
-   "why": [
-    "absentee",
-    "out of state",
-    "vacant 11+ years",
-    "1 code violation",
-    "investor owned"
-   ],
-   "signals": {
-    "vacant": [
-     {
-      "mo": 0,
-      "vmin": 0,
-      "vmaj": 0,
-      "csb": 1,
-      "unpd": 0.0,
-      "year": 2015
-     }
-    ],
-    "citations": [
-     {
-      "date": "2026-11-18",
-      "type": "Violation Letter",
-      "action": "Roof; Rooms"
-     }
-    ]
-   },
-   "as_of": "2026-11-19"
-  },
-  {
    "tag": "14719140000",
    "cid": "14719140000",
    "handle": "11471000140",
@@ -44460,6 +44759,53 @@
     "vacant": [
      {
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
+   "tag": "56159460000",
+   "cid": "56159460000",
+   "handle": "15615000460",
+   "addr": "3176 HARLEQUIN LA",
+   "zip": "63139",
+   "county": "St. Louis City",
+   "nbhd": 13,
+   "owner": "314 RENTALS LLC",
+   "mail": "7817 CLEVEDON ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63123",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 5206,
+   "year": 1990,
+   "value": 55870.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 294053,
+   "score": 35,
+   "why": [
+    "absentee",
+    "2 code violations",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-18",
+      "type": "Violation Letter",
+      "action": "General"
+     },
+     {
+      "date": "2026-11-18",
+      "type": "Violation Letter",
+      "action": "General"
      }
     ]
    },
@@ -49464,6 +49810,47 @@
    "as_of": "2026-11-19"
   },
   {
+   "tag": "59939030000",
+   "cid": "59939030000",
+   "handle": "15993000030",
+   "addr": "4722 PRIMM ST",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 4,
+   "owner": "CHEEK, KALEB",
+   "mail": "2219 VALLEYVIEW DR",
+   "mail_city": "Barnhart",
+   "mail_state": "MO",
+   "mail_zip": "63012",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4000,
+   "year": 1925,
+   "value": 21620.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 93000.0,
+   "sale_date": "2020-02-21",
+   "mkt": 113789,
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "Rooms"
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
    "tag": "27759080000",
    "cid": "27759080000",
    "handle": "12775000080",
@@ -49745,6 +50132,53 @@
    "as_of": "2026-11-19"
   },
   {
+   "tag": "51759320000",
+   "cid": "51759320000",
+   "handle": "15175000320",
+   "addr": "4927 MURDOCH AVE",
+   "zip": "63109",
+   "county": "St. Louis City",
+   "nbhd": 7,
+   "owner": "T&A RENTALS LLC",
+   "mail": "3023 WATSON RD",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63139",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3750,
+   "year": 1922,
+   "value": 21230.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 111737,
+   "score": 35,
+   "why": [
+    "absentee",
+    "2 code violations",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-18",
+      "type": "Violation Letter",
+      "action": "General"
+     },
+     {
+      "date": "2026-11-18",
+      "type": "Violation Letter",
+      "action": "General"
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
    "tag": "60319240000",
    "cid": "60319240000",
    "handle": "16031000240",
@@ -49778,6 +50212,47 @@
     "vacant": [
      {
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
+   "tag": "60799140000",
+   "cid": "60799140000",
+   "handle": "16079000140",
+   "addr": "5016 OLEATHA AVE",
+   "zip": "63139",
+   "county": "St. Louis City",
+   "nbhd": 14,
+   "owner": "LEAHY, EDWARD G JR & NANCY S",
+   "mail": "458 FLORENCE AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63119",
+   "occ": null,
+   "landuse": 1140,
+   "units": 4,
+   "sqft": 4812,
+   "year": 1927,
+   "value": 47570.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 119000.0,
+   "sale_date": "1986-07-10",
+   "mkt": 250368,
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "Autos"
      }
     ]
    },
@@ -50426,6 +50901,47 @@
       "date": "2026-10-29",
       "type": "Violation Letter",
       "action": "Open Storage"
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
+   "tag": "28969220000",
+   "cid": "28969220000",
+   "handle": "12896000220",
+   "addr": "533 WILMINGTON AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "BAILEY, CARMEN",
+   "mail": "533 WILMINGTON",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3819,
+   "year": 1906,
+   "value": 19610.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "438",
+   "sale_price": 57000.0,
+   "sale_date": "2002-06-20",
+   "mkt": 103211,
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "Garage/Shed; Open Storage; Porch"
      }
     ]
    },
@@ -62946,6 +63462,48 @@
    "as_of": "2026-11-19"
   },
   {
+   "tag": "47119300000",
+   "cid": "47119300000",
+   "handle": "14711000300",
+   "addr": "5053 S GRAND BLVD",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "LANOW PARTNERSHIP LLC",
+   "mail": "6204 GRAVOIS AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63116",
+   "occ": null,
+   "landuse": 1185,
+   "units": 2,
+   "sqft": 7267,
+   "year": 1934,
+   "value": 16270.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 85632,
+   "score": 30,
+   "why": [
+    "absentee",
+    "notice to secure",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Notice to Secure",
+      "action": "ES - Complaint"
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
    "tag": "37909060000",
    "cid": "37909060000",
    "handle": "13790000060",
@@ -68033,48 +68591,6 @@
    "as_of": "2026-11-19"
   },
   {
-   "tag": "50449280000",
-   "cid": "50449280000",
-   "handle": "15044000280",
-   "addr": "1121 S TAYLOR AVE",
-   "zip": "63110",
-   "county": "St. Louis City",
-   "nbhd": 39,
-   "owner": "PARK EAST II LP",
-   "mail": "6014 DELMAR BLVD",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63112",
-   "occ": null,
-   "landuse": 1118,
-   "units": 4,
-   "sqft": 4635,
-   "year": 1907,
-   "value": 9280.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 0.0,
-   "sale_date": "",
-   "mkt": 48842,
-   "score": 20,
-   "why": [
-    "absentee",
-    "1 code violation",
-    "investor owned"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-18",
-      "type": "Violation Letter",
-      "action": "ES - Complaint"
-     }
-    ]
-   },
-   "as_of": "2026-11-19"
-  },
-  {
    "tag": "09E621119",
    "cid": "09E621119",
    "addr": "1125 SCOTT AVE",
@@ -71465,48 +71981,6 @@
    "as_of": "2026-11-19"
   },
   {
-   "tag": "56159460000",
-   "cid": "56159460000",
-   "handle": "15615000460",
-   "addr": "3176 HARLEQUIN LA",
-   "zip": "63139",
-   "county": "St. Louis City",
-   "nbhd": 13,
-   "owner": "314 RENTALS LLC",
-   "mail": "7817 CLEVEDON ST",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63123",
-   "occ": null,
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 5206,
-   "year": 1990,
-   "value": 55870.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "670",
-   "sale_price": 0.0,
-   "sale_date": "",
-   "mkt": 294053,
-   "score": 20,
-   "why": [
-    "absentee",
-    "1 code violation",
-    "investor owned"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-18",
-      "type": "Violation Letter",
-      "action": "General"
-     }
-    ]
-   },
-   "as_of": "2026-11-19"
-  },
-  {
    "tag": "15089142000",
    "cid": "15089142000",
    "handle": "11508000142",
@@ -73535,6 +74009,48 @@
    "as_of": "2026-11-19"
   },
   {
+   "tag": "59199370000",
+   "cid": "59199370000",
+   "handle": "15919000370",
+   "addr": "3895 HOLLY HILLS BLVD",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 3,
+   "owner": "PEACE LOVE SOLD LLC",
+   "mail": "5648 OLEATHA AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63139",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 10096,
+   "year": 1927,
+   "value": 81540.0,
+   "tax_bal": 7123.42,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 429158,
+   "score": 20,
+   "why": [
+    "absentee",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "General"
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
    "tag": "14J521149",
    "cid": "14J521149",
    "addr": "3912 N HANLEY RD",
@@ -73612,6 +74128,94 @@
       "date": "2026-10-16",
       "type": "Violation Letter",
       "action": "Open Storage"
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
+   "tag": "25749070000",
+   "cid": "25749070000",
+   "handle": "12574000070",
+   "addr": "3926 VIRGINIA AVE",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "COLEMAN, SIDNEY",
+   "mail": "3926 VIRGINIA AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3739,
+   "year": 1907,
+   "value": 20890.0,
+   "tax_bal": 0,
+   "vac_year": 2010,
+   "lender": "670",
+   "sale_price": 67500.0,
+   "sale_date": "2007-12-17",
+   "mkt": 109947,
+   "score": 20,
+   "why": [
+    "vacant 16+ years",
+    "1 code violation"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "year": 2010
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "Address; Autos; Open Storage; Parking Area"
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
+   "tag": "25739280000",
+   "cid": "25739280000",
+   "handle": "12573000280",
+   "addr": "3935 MICHIGAN AVE",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "STRATEGIC INVESTMENT PLANNING INC",
+   "mail": "1923 S 3RD ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63104",
+   "occ": null,
+   "landuse": 1140,
+   "units": 4,
+   "sqft": 6259,
+   "year": 1923,
+   "value": 11470.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 23000.0,
+   "sale_date": "2016-01-14",
+   "mkt": 60368,
+   "score": 20,
+   "why": [
+    "absentee",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "CO Detector; Door; Rooms; Smoke Detectors; Status Unit"
      }
     ]
    },
@@ -75709,48 +76313,6 @@
    "as_of": "2026-11-19"
   },
   {
-   "tag": "51759320000",
-   "cid": "51759320000",
-   "handle": "15175000320",
-   "addr": "4927 MURDOCH AVE",
-   "zip": "63109",
-   "county": "St. Louis City",
-   "nbhd": 7,
-   "owner": "T&A RENTALS LLC",
-   "mail": "3023 WATSON RD",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63139",
-   "occ": null,
-   "landuse": 1120,
-   "units": 2,
-   "sqft": 3750,
-   "year": 1922,
-   "value": 21230.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 0.0,
-   "sale_date": "",
-   "mkt": 111737,
-   "score": 20,
-   "why": [
-    "absentee",
-    "1 code violation",
-    "investor owned"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-18",
-      "type": "Violation Letter",
-      "action": "General"
-     }
-    ]
-   },
-   "as_of": "2026-11-19"
-  },
-  {
    "tag": "60359130000",
    "cid": "60359130000",
    "handle": "16035000130",
@@ -76902,6 +77464,48 @@
     "vacant": [
      {
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
+   "tag": "46089011000",
+   "cid": "46089011000",
+   "handle": "14608000011",
+   "addr": "6654 VILLA AVE",
+   "zip": "63139",
+   "county": "St. Louis City",
+   "nbhd": 44,
+   "owner": "PHDR LLC",
+   "mail": "1110 S WARSON RD",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63124",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4181,
+   "year": 1900,
+   "value": 22580.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 118842,
+   "score": 20,
+   "why": [
+    "absentee",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "Chimney; Door; Porch; Roof; Walls; Windows"
      }
     ]
    },
@@ -91852,6 +92456,46 @@
    "as_of": "2026-11-19"
   },
   {
+   "tag": "28969100000",
+   "cid": "28969100000",
+   "handle": "12896000100",
+   "addr": "524 DOVER PL",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "SHARP, QUINCY J &  PATRICIA A",
+   "mail": "524 DOVER PL",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4419,
+   "year": 1907,
+   "value": 28920.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 51000.0,
+   "sale_date": "1998-01-26",
+   "mkt": 152211,
+   "score": 15,
+   "why": [
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "Address; Autos; Open Storage; Porch"
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
    "tag": "60819060000",
    "cid": "60819060000",
    "handle": "16081000060",
@@ -92230,7 +92874,7 @@
    "signals": {
     "citations": [
      {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "type": "Violation Letter",
       "action": "Autos"
      }
@@ -93016,6 +93660,46 @@
       "addr": "6159 ERB RD",
       "status": "Send to Inspector",
       "note": " "
+     }
+    ]
+   },
+   "as_of": "2026-11-19"
+  },
+  {
+   "tag": "29339380000",
+   "cid": "29339380000",
+   "handle": "12933000380",
+   "addr": "6167 LOUISIANA AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "LEONARDO, EMMANUEL C",
+   "mail": "6167 LOUISIANA AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4003,
+   "year": 1946,
+   "value": 20650.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 85500.0,
+   "sale_date": "2003-09-08",
+   "mkt": 108684,
+   "score": 15,
+   "why": [
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "Address; Door; Garage/Shed; Gutters/Downspout"
      }
     ]
    },
@@ -94933,7 +95617,7 @@
    "as_of": "2026-11-19"
   }
  ],
- "absentee_only": 126057,
- "city": 1413,
+ "absentee_only": 126045,
+ "city": 1428,
  "county": 755
 }

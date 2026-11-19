@@ -1,5 +1,24 @@
 [
  {
+  "doc": "11192026-0003",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-19",
+  "addrs": [
+   "1126 ANGELICA ST"
+  ],
+  "pids": [
+   "24129040000"
+  ],
+  "lender": "PNC BANK NATIONAL ASSOCIATION",
+  "trustee": "SOUTHLAW P C",
+  "parties": [
+   "PNC BANK NATIONAL ASSOCIATION",
+   "SINGER MARK G",
+   "FERREIRA MEIRE ERICA"
+  ]
+ },
+ {
   "doc": "11182026-0041",
   "kind": "pre-foreclosure",
   "type": "APPOINT SUCC TRUSTEE",
