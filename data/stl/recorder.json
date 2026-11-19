@@ -3451,59 +3451,5 @@
    "FREEDOM MORTGAGE CORP",
    "DRESCH TIMOTHY P"
   ]
- },
- {
-  "doc": "07212026-0286",
-  "kind": "pre-foreclosure",
-  "type": "APPOINT SUCC TRUSTEE",
-  "date": "2026-07-21",
-  "addrs": [
-   "4229 S 38TH ST"
-  ],
-  "pids": [
-   "26429230000"
-  ],
-  "lender": "HAIGHT SAMUEL",
-  "trustee": "MILLSAP & SINGER PC",
-  "parties": [
-   "HAIGHT SAMUEL",
-   "PENNTMAC LOAN SERVICES LLC"
-  ]
- },
- {
-  "doc": "07212026-0250",
-  "kind": "pre-foreclosure",
-  "type": "APPOINT SUCC TRUSTEE",
-  "date": "2026-07-21",
-  "addrs": [
-   "6201 HOFFMAN AVE"
-  ],
-  "pids": [
-   "56879230000"
-  ],
-  "lender": "MCKINNON JOHN JOSEPH",
-  "trustee": "S&W FORECLOSURE CORPORATION",
-  "parties": [
-   "MCKINNON JOHN JOSEPH",
-   "ROCKET MORTGAGE LLC"
-  ]
- },
- {
-  "doc": "07212026-0193",
-  "kind": "pre-foreclosure",
-  "type": "APPOINT SUCC TRUSTEE",
-  "date": "2026-07-21",
-  "addrs": [
-   "5209 IDAHO AVE"
-  ],
-  "pids": [
-   "28159180000"
-  ],
-  "lender": "CARRINGTON MORTGAGE SERVICES LLC",
-  "trustee": "VYLLA SOLUTIONS MISSOURI LLC",
-  "parties": [
-   "CARRINGTON MORTGAGE SERVICES LLC",
-   "HARRIS TAMARA"
-  ]
  }
 ]
