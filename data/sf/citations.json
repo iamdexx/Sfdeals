@@ -35158,5 +35158,35 @@
   "addr": "1800 S DISCOVERY AVE",
   "type": "Building Service",
   "action": "Citation - 1st"
+ },
+ {
+  "date": "2026-11-18",
+  "addr": "310 W 18TH ST",
+  "type": "Property Maintenance",
+  "action": "Citation - 3rd or subsequent"
+ },
+ {
+  "date": "2026-11-18",
+  "addr": "518 W BAILEY ST",
+  "type": "Property Maintenance",
+  "action": "Citation - 1st"
+ },
+ {
+  "date": "2026-11-18",
+  "addr": "4201 W 12TH ST",
+  "type": "Vegetation",
+  "action": "Citation - 2nd"
+ },
+ {
+  "date": "2026-11-18",
+  "addr": "216 N GRANGE AVE",
+  "type": "Property Maintenance",
+  "action": "Citation - 2nd"
+ },
+ {
+  "date": "2026-11-18",
+  "addr": "429 S CHICAGO AVE",
+  "type": "Zoning",
+  "action": "Citation - 3rd or subsequent"
  }
 ]
