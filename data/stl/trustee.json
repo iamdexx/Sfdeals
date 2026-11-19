@@ -30,6 +30,21 @@
   "firm": "SouthLaw"
  },
  {
+  "addr": "1310 WRIGHT ST",
+  "addr_raw": "1310 Wright St",
+  "city": "Saint Louis",
+  "zip": "63107",
+  "county": "St. Louis City",
+  "date": "2026-12-03",
+  "time": "1:00PM",
+  "continued": "",
+  "bid": "",
+  "sale_at": "St. Louis",
+  "case": "",
+  "file": "240108",
+  "firm": "SouthLaw"
+ },
+ {
   "addr": "3905 MCCARREN CT",
   "addr_raw": "3905 McCarren Ct",
   "city": "Florissant",
@@ -120,6 +135,21 @@
   "firm": "SouthLaw"
  },
  {
+  "addr": "2239 LOVETT DR",
+  "addr_raw": "2239 Lovett Dr",
+  "city": "Saint Louis",
+  "zip": "63136",
+  "county": "St. Louis County",
+  "date": "2026-12-03",
+  "time": "2:00PM",
+  "continued": "",
+  "bid": "",
+  "sale_at": "Clayton",
+  "case": "",
+  "file": "262538",
+  "firm": "SouthLaw"
+ },
+ {
   "addr": "4334 EDGEWOOD BLVD",
   "addr_raw": "4334 Edgewood Blvd",
   "city": "Saint Louis",
@@ -165,21 +195,6 @@
   "firm": "SouthLaw"
  },
  {
-  "addr": "2239 LOVETT DR",
-  "addr_raw": "2239 Lovett Dr",
-  "city": "Saint Louis",
-  "zip": "63136",
-  "county": "St. Louis County",
-  "date": "2026-12-03",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "262538",
-  "firm": "SouthLaw"
- },
- {
   "addr": "11163 PRITCHARD DR",
   "addr_raw": "11163 Pritchard Drive",
   "city": "Saint Louis",
@@ -192,21 +207,6 @@
   "sale_at": "Clayton",
   "case": "",
   "file": "263148",
-  "firm": "SouthLaw"
- },
- {
-  "addr": "13108 FOUNTAINHEAD RDG",
-  "addr_raw": "13108 Fountainhead Rdg",
-  "city": "Saint Louis",
-  "zip": "63138",
-  "county": "St. Louis County",
-  "date": "2026-12-03",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "262051",
   "firm": "SouthLaw"
  },
  {
@@ -225,10 +225,10 @@
   "firm": "SouthLaw"
  },
  {
-  "addr": "3030 HARNESS DR",
-  "addr_raw": "3030 Harness Dr",
-  "city": "Florissant",
-  "zip": "63033",
+  "addr": "13108 FOUNTAINHEAD RDG",
+  "addr_raw": "13108 Fountainhead Rdg",
+  "city": "Saint Louis",
+  "zip": "63138",
   "county": "St. Louis County",
   "date": "2026-12-03",
   "time": "2:00PM",
@@ -236,7 +236,7 @@
   "bid": "",
   "sale_at": "Clayton",
   "case": "",
-  "file": "255793",
+  "file": "262051",
   "firm": "SouthLaw"
  },
  {
@@ -312,6 +312,21 @@
   "sale_at": "Clayton",
   "case": "24SL-CC07168",
   "file": "220176",
+  "firm": "SouthLaw"
+ },
+ {
+  "addr": "3030 HARNESS DR",
+  "addr_raw": "3030 Harness Dr",
+  "city": "Florissant",
+  "zip": "63033",
+  "county": "St. Louis County",
+  "date": "2026-12-03",
+  "time": "2:00PM",
+  "continued": "",
+  "bid": "",
+  "sale_at": "Clayton",
+  "case": "",
+  "file": "255793",
   "firm": "SouthLaw"
  },
  {
