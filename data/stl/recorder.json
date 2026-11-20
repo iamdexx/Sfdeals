@@ -3452,23 +3452,5 @@
    "U S BANK TRUST COMPANY NATIONAL ASSOCIATION",
    "VELOCITY COMMERCIAL CAPITAL LLC"
   ]
- },
- {
-  "doc": "07222026-0034",
-  "kind": "pre-foreclosure",
-  "type": "APPOINT SUCC TRUSTEE",
-  "date": "2026-07-22",
-  "addrs": [
-   "5416 BLOW ST"
-  ],
-  "pids": [
-   "53359160000"
-  ],
-  "lender": "FREEDOM MORTGAGE CORP",
-  "trustee": "NESTOR SOLUTIONS OF MISSOURI LLC",
-  "parties": [
-   "FREEDOM MORTGAGE CORP",
-   "DRESCH TIMOTHY P"
-  ]
  }
 ]
