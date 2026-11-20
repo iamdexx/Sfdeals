@@ -1,5 +1,100 @@
 [
  {
+  "doc": "11202026-0093",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-20",
+  "addrs": [
+   "5579 CHAMBERLAIN AVE"
+  ],
+  "pids": [
+   "38119330000"
+  ],
+  "lender": "FEDERAL HOME LOAN MORTGAGE CORPORATION",
+  "trustee": "WESTERN PROGRESSIVE MISSOURI INC",
+  "parties": [
+   "FEDERAL HOME LOAN MORTGAGE  CORPORATION",
+   "BARNETT CLEO"
+  ]
+ },
+ {
+  "doc": "11202026-0009",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-20",
+  "addrs": [
+   "1501 LOCUST ST"
+  ],
+  "pids": [
+   "08279040089"
+  ],
+  "lender": "NEW AMERICAN FUNDING LLC",
+  "trustee": "S&W FORECLOSURE CORP",
+  "parties": [
+   "NEW AMERICAN FUNDING LLC",
+   "ALLEYNE MASALA"
+  ]
+ },
+ {
+  "doc": "11202026-0003",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-20",
+  "addrs": [
+   "3659 CONNECTICUT ST"
+  ],
+  "pids": [
+   "21009430000"
+  ],
+  "lender": "THOMPSON AUDREY J",
+  "trustee": "BRIGHT JASON",
+  "parties": [
+   "THOMPSON AUDREY J",
+   "US DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT"
+  ]
+ },
+ {
+  "doc": "11202026-0002",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-20",
+  "addrs": [
+   "2042 E PRAIRIE AVE",
+   "2044 E PRAIRIE AVE"
+  ],
+  "pids": [
+   "33099030000"
+  ],
+  "lender": "U S DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT",
+  "trustee": "BRIGHT JASON",
+  "parties": [
+   "U S DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT",
+   "LEE MINNIE"
+  ]
+ },
+ {
+  "doc": "11202026-0079",
+  "kind": "notice of sale",
+  "type": "NOTICE OF SALE",
+  "date": "2026-11-20",
+  "addrs": [
+   "5652 ARENDES DR",
+   "5658 ARENDES DR"
+  ],
+  "pids": [
+   "47229100000",
+   "47229110000"
+  ],
+  "lender": "INDELICATO MARIO S",
+  "trustee": "COMMERCE BANK",
+  "parties": [
+   "INDELICATO MARIO S",
+   "INDELICATO HEATHER S",
+   "MORTGAGE ELECTRONIC REGISTRATION SYSTEM INC",
+   "MIDWEST BANKCENTRE"
+  ]
+ },
+ {
   "doc": "11192026-0003",
   "kind": "pre-foreclosure",
   "type": "APPOINT SUCC TRUSTEE",
