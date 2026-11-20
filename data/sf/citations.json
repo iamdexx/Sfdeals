@@ -35188,5 +35188,17 @@
   "addr": "429 S CHICAGO AVE",
   "type": "Zoning",
   "action": "Citation - 3rd or subsequent"
+ },
+ {
+  "date": "2026-11-19",
+  "addr": "600 N CLIFF AVE",
+  "type": "Zoning",
+  "action": "Citation - 2nd"
+ },
+ {
+  "date": "2026-11-19",
+  "addr": "1801 N TILLIE AVE",
+  "type": "Zoning",
+  "action": "Citation - 1st"
  }
 ]
