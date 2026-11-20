@@ -1,82 +1,9 @@
 {
  "as_of": "2026-11-20",
- "updated": "2026-11-20T01:37:21Z",
- "count": 128231,
- "hot": 2187,
+ "updated": "2026-11-20T06:27:33Z",
+ "count": 128229,
+ "hot": 2185,
  "leads": [
-  {
-   "tag": "56569250000",
-   "cid": "56569250000",
-   "handle": "15656000250",
-   "addr": "5037 STEFFENS AVE",
-   "zip": "63116",
-   "county": "St. Louis City",
-   "nbhd": 5,
-   "owner": "BARR, JARED",
-   "mail": "5037",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63123",
-   "occ": "Y",
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 7412,
-   "year": 1943,
-   "value": 38180.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "391",
-   "sale_price": 120000.0,
-   "sale_date": "2016-04-26",
-   "mkt": 200947,
-   "score": 130,
-   "why": [
-    "absentee",
-    "trustee sale 2026-11-19",
-    "pre-foreclosure filed 2026-10-13"
-   ],
-   "signals": {
-    "trustee": [
-     {
-      "addr": "5037 STEFFENS AVE",
-      "addr_raw": "5037 Steffens Ave",
-      "city": "Saint Louis",
-      "zip": "63116",
-      "county": "St. Louis City",
-      "date": "2026-11-19",
-      "time": "1:00PM",
-      "continued": "",
-      "bid": "$86,140.00",
-      "sale_at": "St. Louis",
-      "case": "",
-      "file": "259285",
-      "firm": "SouthLaw"
-     }
-    ],
-    "recorder": [
-     {
-      "doc": "10132026-0038",
-      "kind": "pre-foreclosure",
-      "type": "APPOINT SUCC TRUSTEE",
-      "date": "2026-10-13",
-      "addrs": [
-       "5037 STEFFENS AVE"
-      ],
-      "pids": [
-       "56569250000"
-      ],
-      "lender": "ALABAMA HOUSING FINANCE AUTHORITY",
-      "trustee": "SOUTHLAW PC",
-      "parties": [
-       "ALABAMA HOUSING FINANCE AUTHORITY",
-       "BARR JARED",
-       "BARR PAMELA"
-      ]
-     }
-    ]
-   },
-   "as_of": "2026-11-20"
-  },
   {
    "tag": "42889110000",
    "cid": "42889110000",
@@ -1245,12 +1172,12 @@
      {
       "date": "2026-10-26",
       "type": "Violation Letter",
-      "action": "Door; Roof; Walls; Windows"
+      "action": "Door; Open Storage; Roof; Status Unit; Walls"
      },
      {
       "date": "2026-10-26",
       "type": "Violation Letter",
-      "action": "Door; Open Storage; Roof; Status Unit; Walls"
+      "action": "Door; Roof; Walls; Windows"
      },
      {
       "date": "2026-10-26",
@@ -9198,6 +9125,61 @@
    "as_of": "2026-11-20"
   },
   {
+   "tag": "56569250000",
+   "cid": "56569250000",
+   "handle": "15656000250",
+   "addr": "5037 STEFFENS AVE",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 5,
+   "owner": "BARR, JARED",
+   "mail": "5037",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63123",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 7412,
+   "year": 1943,
+   "value": 38180.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "391",
+   "sale_price": 120000.0,
+   "sale_date": "2016-04-26",
+   "mkt": 200947,
+   "score": 70,
+   "why": [
+    "absentee",
+    "pre-foreclosure filed 2026-10-13"
+   ],
+   "signals": {
+    "recorder": [
+     {
+      "doc": "10132026-0038",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-10-13",
+      "addrs": [
+       "5037 STEFFENS AVE"
+      ],
+      "pids": [
+       "56569250000"
+      ],
+      "lender": "ALABAMA HOUSING FINANCE AUTHORITY",
+      "trustee": "SOUTHLAW PC",
+      "parties": [
+       "ALABAMA HOUSING FINANCE AUTHORITY",
+       "BARR JARED",
+       "BARR PAMELA"
+      ]
+     }
+    ]
+   },
+   "as_of": "2026-11-20"
+  },
+  {
    "tag": "60769010000",
    "cid": "60769010000",
    "handle": "16076000010",
@@ -16468,54 +16450,6 @@
    "as_of": "2026-11-20"
   },
   {
-   "tag": "17H430717",
-   "cid": "17H430717",
-   "addr": "1229 GREGAN PL",
-   "zip": "63133",
-   "county": "St. Louis County",
-   "muni": "Pagedale",
-   "owner": "ALLEN DECHELLE S R",
-   "careof": "",
-   "mail": "1229 GREGAN PL",
-   "mail_city": "Saint Louis",
-   "mail_state": "MO",
-   "mail_zip": "63133",
-   "occ": "Y",
-   "landuse": "Single Family",
-   "units": 1,
-   "sqft": null,
-   "res_sqft": 656.0,
-   "year": 1938,
-   "value": 67100.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "mkt": 67100.0,
-   "score": 60,
-   "why": [
-    "trustee sale 2026-11-19"
-   ],
-   "signals": {
-    "trustee": [
-     {
-      "addr": "1229 GREGAN PL",
-      "addr_raw": "1229 Gregan Pl",
-      "city": "Saint Louis",
-      "zip": "63133",
-      "county": "St. Louis County",
-      "date": "2026-11-19",
-      "time": "2:00PM",
-      "continued": "",
-      "bid": "$142,593.94",
-      "sale_at": "Clayton",
-      "case": "",
-      "file": "245854",
-      "firm": "SouthLaw"
-     }
-    ]
-   },
-   "as_of": "2026-11-20"
-  },
-  {
    "tag": "27G130839",
    "cid": "27G130839",
    "addr": "124 W VELMA AVE",
@@ -17439,6 +17373,54 @@
       "csb": 0,
       "unpd": 3400.0,
       "year": 2010
+     }
+    ]
+   },
+   "as_of": "2026-11-20"
+  },
+  {
+   "tag": "07H230736",
+   "cid": "07H230736",
+   "addr": "3247 LEISUREWOOD CT",
+   "zip": "63033",
+   "county": "St. Louis County",
+   "muni": "Florissant",
+   "owner": "ROSE GERALD W",
+   "careof": "",
+   "mail": "3247 LEISUREWOOD CT",
+   "mail_city": "Florissant",
+   "mail_state": "MO",
+   "mail_zip": "63033",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1292.0,
+   "year": 1967,
+   "value": 94700.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 94700.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-10"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "3247 LEISUREWOOD CT",
+      "addr_raw": "3247 Leisurewood Court",
+      "city": "Florissant",
+      "zip": "63033",
+      "county": "St. Louis County",
+      "date": "2026-12-10",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "263027",
+      "firm": "SouthLaw"
      }
     ]
    },
@@ -18796,6 +18778,53 @@
    "as_of": "2026-11-20"
   },
   {
+   "tag": "31459150000",
+   "cid": "31459150000",
+   "handle": "13145000150",
+   "addr": "7916 MICHIGAN AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 2,
+   "owner": "LYTOS, MICHAEL & & MICHELLE",
+   "mail": "5077 PRAIRIE DUNES VILLAGE CIR",
+   "mail_city": "Lake Worth",
+   "mail_state": "FL",
+   "mail_zip": "33463",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 7045,
+   "year": 1893,
+   "value": 15150.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 79737,
+   "score": 60,
+   "why": [
+    "absentee",
+    "out of state",
+    "2 code violations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "Autos; Open Storage"
+     },
+     {
+      "date": "2026-11-19",
+      "type": "Violation Letter",
+      "action": "Autos; Open Storage"
+     }
+    ]
+   },
+   "as_of": "2026-11-20"
+  },
+  {
    "tag": "27H641707",
    "cid": "27H641707",
    "addr": "822 REED AVE",
@@ -18886,54 +18915,6 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 42300
-     }
-    ]
-   },
-   "as_of": "2026-11-20"
-  },
-  {
-   "tag": "13G420470",
-   "cid": "13G420470",
-   "addr": "8336 OSBORN DR",
-   "zip": "63136",
-   "county": "St. Louis County",
-   "muni": "Jennings",
-   "owner": "HAWTHORNE EDDIE",
-   "careof": "",
-   "mail": "8336 OSBORN DR",
-   "mail_city": "Saint Louis",
-   "mail_state": "MO",
-   "mail_zip": "63136",
-   "occ": "Y",
-   "landuse": "Single Family",
-   "units": 1,
-   "sqft": null,
-   "res_sqft": 768.0,
-   "year": 1949,
-   "value": 63000.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "mkt": 63000.0,
-   "score": 60,
-   "why": [
-    "trustee sale 2026-11-19"
-   ],
-   "signals": {
-    "trustee": [
-     {
-      "addr": "8336 OSBORN",
-      "addr_raw": "8336 Osborn",
-      "city": "Jennings",
-      "zip": "63136",
-      "county": "St. Louis County",
-      "date": "2026-11-19",
-      "time": "2:00PM",
-      "continued": "",
-      "bid": "$43,414.71",
-      "sale_at": "Clayton",
-      "case": "",
-      "file": "260353",
-      "firm": "SouthLaw"
      }
     ]
    },
@@ -19076,54 +19057,6 @@
       "sale_at": "Clayton",
       "case": "",
       "file": "262977",
-      "firm": "SouthLaw"
-     }
-    ]
-   },
-   "as_of": "2026-11-20"
-  },
-  {
-   "tag": "05J330224",
-   "cid": "05J330224",
-   "addr": "944 JUSTICE CT",
-   "zip": "63034",
-   "county": "St. Louis County",
-   "muni": "Unincorporated",
-   "owner": "CRUMER EDWARD D SR ELEANOR R  H/W",
-   "careof": "",
-   "mail": "944 JUSTICE CT",
-   "mail_city": "Florissant",
-   "mail_state": "MO",
-   "mail_zip": "63034",
-   "occ": "Y",
-   "landuse": "Single Family",
-   "units": 1,
-   "sqft": null,
-   "res_sqft": 1127.0,
-   "year": 1983,
-   "value": 214600.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "mkt": 214600.0,
-   "score": 60,
-   "why": [
-    "trustee sale 2026-11-19"
-   ],
-   "signals": {
-    "trustee": [
-     {
-      "addr": "944 JUSTICE CT",
-      "addr_raw": "944 Justice Ct",
-      "city": "Florissant",
-      "zip": "63034",
-      "county": "St. Louis County",
-      "date": "2026-11-19",
-      "time": "2:00PM",
-      "continued": "",
-      "bid": "$133,958.57",
-      "sale_at": "Clayton",
-      "case": "",
-      "file": "258806",
       "firm": "SouthLaw"
      }
     ]
@@ -24031,13 +23964,13 @@
     "citations": [
      {
       "date": "2026-10-21",
-      "type": "Violation Letter",
-      "action": "Door; General; Porch"
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
      },
      {
       "date": "2026-10-21",
-      "type": "Structural Condemnation",
-      "action": "Condemnation"
+      "type": "Violation Letter",
+      "action": "Door; General; Porch"
      }
     ]
    },
@@ -38273,48 +38206,6 @@
       "date": "2026-10-12",
       "type": "Violation Letter",
       "action": "Address; Cornice/Fascia; Door; Gutters/Downspout; Open Storage; Parking Area; Status Unit; Windows"
-     }
-    ]
-   },
-   "as_of": "2026-11-20"
-  },
-  {
-   "tag": "31459150000",
-   "cid": "31459150000",
-   "handle": "13145000150",
-   "addr": "7916 MICHIGAN AVE",
-   "zip": "63111",
-   "county": "St. Louis City",
-   "nbhd": 2,
-   "owner": "LYTOS, MICHAEL & & MICHELLE",
-   "mail": "5077 PRAIRIE DUNES VILLAGE CIR",
-   "mail_city": "Lake Worth",
-   "mail_state": "FL",
-   "mail_zip": "33463",
-   "occ": null,
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 7045,
-   "year": 1893,
-   "value": 15150.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 0.0,
-   "sale_date": "",
-   "mkt": 79737,
-   "score": 45,
-   "why": [
-    "absentee",
-    "out of state",
-    "1 code violation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-19",
-      "type": "Violation Letter",
-      "action": "Autos; Open Storage"
      }
     ]
    },
@@ -95855,5 +95746,5 @@
  ],
  "absentee_only": 126044,
  "city": 1432,
- "county": 755
+ "county": 753
 }
