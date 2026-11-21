@@ -1,80 +1,9 @@
 {
  "as_of": "2026-11-21",
- "updated": "2026-11-21T01:05:37Z",
+ "updated": "2026-11-21T06:18:26Z",
  "count": 128241,
  "hot": 2206,
  "leads": [
-  {
-   "tag": "42889110000",
-   "cid": "42889110000",
-   "handle": "14288000110",
-   "addr": "8954 EDNA ST",
-   "zip": "63147",
-   "county": "St. Louis City",
-   "nbhd": 74,
-   "owner": "BLANCHARD, DAJONN",
-   "mail": "8954 EDNA ST",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63147",
-   "occ": "Y",
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 6688,
-   "year": 1953,
-   "value": 6240.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 167500.0,
-   "sale_date": "2025-11-18",
-   "mkt": 32842,
-   "score": 110,
-   "why": [
-    "trustee sale 2026-12-03",
-    "pre-foreclosure filed 2026-08-21"
-   ],
-   "signals": {
-    "trustee": [
-     {
-      "addr": "8954 EDNA ST",
-      "addr_raw": "8954 Edna St",
-      "city": "Saint Louis",
-      "zip": "63147",
-      "county": "St. Louis City",
-      "date": "2026-12-03",
-      "time": "1:00PM",
-      "continued": "",
-      "bid": "",
-      "sale_at": "St. Louis",
-      "case": "",
-      "file": "261472",
-      "firm": "SouthLaw"
-     }
-    ],
-    "recorder": [
-     {
-      "doc": "08212026-0033",
-      "kind": "pre-foreclosure",
-      "type": "APPOINT SUCC TRUSTEE",
-      "date": "2026-08-21",
-      "addrs": [
-       "8954 EDNA ST"
-      ],
-      "pids": [
-       "42889110000"
-      ],
-      "lender": "US BANK NA",
-      "trustee": "SOUTHLAW PC",
-      "parties": [
-       "US BANK NA",
-       "BLANCHARD DAJONN"
-      ]
-     }
-    ]
-   },
-   "as_of": "2026-11-21"
-  },
   {
    "tag": "15289316000",
    "cid": "15289316000",
@@ -1172,12 +1101,12 @@
      {
       "date": "2026-10-26",
       "type": "Violation Letter",
-      "action": "Door; Open Storage; Roof; Status Unit; Walls"
+      "action": "Door; Roof; Walls; Windows"
      },
      {
       "date": "2026-10-26",
       "type": "Violation Letter",
-      "action": "Door; Roof; Walls; Windows"
+      "action": "Door; Open Storage; Roof; Status Unit; Walls"
      },
      {
       "date": "2026-10-26",
@@ -24139,13 +24068,13 @@
     "citations": [
      {
       "date": "2026-10-21",
-      "type": "Structural Condemnation",
-      "action": "Condemnation"
+      "type": "Violation Letter",
+      "action": "Door; General; Porch"
      },
      {
       "date": "2026-10-21",
-      "type": "Violation Letter",
-      "action": "Door; General; Porch"
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
      }
     ]
    },
@@ -29344,6 +29273,59 @@
       "parties": [
        "MESSENGER VERA",
        "FREEDOM MORTGAGE CORPORATION"
+      ]
+     }
+    ]
+   },
+   "as_of": "2026-11-21"
+  },
+  {
+   "tag": "42889110000",
+   "cid": "42889110000",
+   "handle": "14288000110",
+   "addr": "8954 EDNA ST",
+   "zip": "63147",
+   "county": "St. Louis City",
+   "nbhd": 74,
+   "owner": "BLANCHARD, DAJONN",
+   "mail": "8954 EDNA ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63147",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 6688,
+   "year": 1953,
+   "value": 6240.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 167500.0,
+   "sale_date": "2025-11-18",
+   "mkt": 32842,
+   "score": 50,
+   "why": [
+    "pre-foreclosure filed 2026-08-21"
+   ],
+   "signals": {
+    "recorder": [
+     {
+      "doc": "08212026-0033",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-08-21",
+      "addrs": [
+       "8954 EDNA ST"
+      ],
+      "pids": [
+       "42889110000"
+      ],
+      "lender": "US BANK NA",
+      "trustee": "SOUTHLAW PC",
+      "parties": [
+       "US BANK NA",
+       "BLANCHARD DAJONN"
       ]
      }
     ]
