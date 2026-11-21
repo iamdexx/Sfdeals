@@ -35200,5 +35200,23 @@
   "addr": "1801 N TILLIE AVE",
   "type": "Zoning",
   "action": "Citation - 1st"
+ },
+ {
+  "date": "2026-11-20",
+  "addr": "1317 E 12TH ST",
+  "type": "Property Maintenance",
+  "action": "Citation - 3rd or subsequent"
+ },
+ {
+  "date": "2026-11-20",
+  "addr": "819 W 11TH ST",
+  "type": "Property Maintenance",
+  "action": "Citation - 2nd"
+ },
+ {
+  "date": "2026-11-20",
+  "addr": "6204 W WESTVIEW RD",
+  "type": "Property Maintenance",
+  "action": "Citation - 3rd or subsequent"
  }
 ]

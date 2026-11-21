@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-21",
- "updated": "2026-11-21T06:17:08Z",
+ "updated": "2026-11-21T18:32:23Z",
  "count": 12399,
  "hot": 1877,
  "leads": [
@@ -204,6 +204,63 @@
       "cid": "031488",
       "amount": 2414.37,
       "legal": "N 72' Lot 1 Boyces Sub Block 15 Folsom's",
+      "section": "Sioux Falls City",
+      "year": 2025
+     }
+    ]
+   },
+   "as_of": "2026-11-21"
+  },
+  {
+   "tag": "012222101009000",
+   "cid": "29850",
+   "addr": "1317 E 12TH ST",
+   "zip": 57103,
+   "county": "MINNEHAHA",
+   "owner": "ZARA PROPERTIES LLC",
+   "mail": "1122 N SPRING AVE",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57104",
+   "occ": "N",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.13,
+   "sqft": 5808.0,
+   "activity": "11 - Single-Family",
+   "score": 80,
+   "why": [
+    "absentee",
+    "tax delinquent $2,397",
+    "3 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-20",
+      "addr": "1317 E 12TH ST",
+      "type": "Property Maintenance",
+      "action": "Citation - 3rd or subsequent"
+     },
+     {
+      "date": "2026-11-04",
+      "addr": "1317 E 12TH ST",
+      "type": "Property Maintenance",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2026-10-05",
+      "addr": "1317 E 12TH ST",
+      "type": "Property Maintenance",
+      "action": "Citation - 1st"
+     }
+    ],
+    "tax": [
+     {
+      "owner": "Zara Properties LLC",
+      "cid": "029850",
+      "amount": 2397.16,
+      "legal": "E1/3 NE1/4 Block 3 Daniel's Addn",
       "section": "Sioux Falls City",
       "year": 2025
      }
@@ -1141,57 +1198,6 @@
       "cid": "047678",
       "amount": 1397.66,
       "legal": "Lot 17 Block 3 Spicer's 2nd Addn",
-      "section": "Sioux Falls City",
-      "year": 2025
-     }
-    ]
-   },
-   "as_of": "2026-11-21"
-  },
-  {
-   "tag": "012222101009000",
-   "cid": "29850",
-   "addr": "1317 E 12TH ST",
-   "zip": 57103,
-   "county": "MINNEHAHA",
-   "owner": "ZARA PROPERTIES LLC",
-   "mail": "1122 N SPRING AVE",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57104",
-   "occ": "N",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.13,
-   "sqft": 5808.0,
-   "activity": "11 - Single-Family",
-   "score": 70,
-   "why": [
-    "absentee",
-    "tax delinquent $2,397",
-    "2 code citations"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-04",
-      "addr": "1317 E 12TH ST",
-      "type": "Property Maintenance",
-      "action": "Citation - 2nd"
-     },
-     {
-      "date": "2026-10-05",
-      "addr": "1317 E 12TH ST",
-      "type": "Property Maintenance",
-      "action": "Citation - 1st"
-     }
-    ],
-    "tax": [
-     {
-      "owner": "Zara Properties LLC",
-      "cid": "029850",
-      "amount": 2397.16,
-      "legal": "E1/3 NE1/4 Block 3 Daniel's Addn",
       "section": "Sioux Falls City",
       "year": 2025
      }
@@ -32381,6 +32387,46 @@
    "as_of": "2026-11-21"
   },
   {
+   "tag": "012217461003000",
+   "cid": "42306",
+   "addr": "819 W 11TH ST",
+   "zip": 57104,
+   "county": "MINNEHAHA",
+   "owner": "ZARA PROPERTIES LLC",
+   "mail": "4009 W 49TH ST",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57106",
+   "occ": "N",
+   "landuse": 120,
+   "units": 2,
+   "acres": 0.12,
+   "sqft": 5214.0,
+   "activity": "12 - Two-Family",
+   "score": 40,
+   "why": [
+    "absentee",
+    "2 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-20",
+      "addr": "819 W 11TH ST",
+      "type": "Property Maintenance",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2026-11-04",
+      "addr": "819 W 11TH ST",
+      "type": "Property Maintenance",
+      "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-21"
+  },
+  {
    "tag": "012320250005000",
    "cid": "91669",
    "addr": "820 S TORREY PINE LN",
@@ -37434,6 +37480,51 @@
       "date": "2022-06-29",
       "addr": "618 E 14TH ST",
       "type": "Vegetation",
+      "action": "Citation - 1st"
+     }
+    ]
+   },
+   "as_of": "2026-11-21"
+  },
+  {
+   "tag": "012114378025000",
+   "cid": "12519",
+   "addr": "6204 W WESTVIEW RD",
+   "zip": 57107,
+   "county": "MINNEHAHA",
+   "owner": "STYLES, BLAINE O",
+   "mail": "6204 W WESTVIEW RD",
+   "mail_city": "SIOUX FALLS",
+   "mail_state": "SD",
+   "mail_zip": "57107",
+   "occ": "Y",
+   "landuse": 110,
+   "units": 1,
+   "acres": 0.25,
+   "sqft": 11040.0,
+   "activity": "11 - Single-Family",
+   "score": 35,
+   "why": [
+    "3 code citations"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-20",
+      "addr": "6204 W WESTVIEW RD",
+      "type": "Property Maintenance",
+      "action": "Citation - 3rd or subsequent"
+     },
+     {
+      "date": "2026-11-04",
+      "addr": "6204 W WESTVIEW RD",
+      "type": "Property Maintenance",
+      "action": "Citation - 2nd"
+     },
+     {
+      "date": "2026-10-19",
+      "addr": "6204 W WESTVIEW RD",
+      "type": "Property Maintenance",
       "action": "Citation - 1st"
      }
     ]
@@ -54119,40 +54210,6 @@
    "as_of": "2026-11-21"
   },
   {
-   "tag": "012217461003000",
-   "cid": "42306",
-   "addr": "819 W 11TH ST",
-   "zip": 57104,
-   "county": "MINNEHAHA",
-   "owner": "ZARA PROPERTIES LLC",
-   "mail": "4009 W 49TH ST",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57106",
-   "occ": "N",
-   "landuse": 120,
-   "units": 2,
-   "acres": 0.12,
-   "sqft": 5214.0,
-   "activity": "12 - Two-Family",
-   "score": 30,
-   "why": [
-    "absentee",
-    "1 code citation"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-04",
-      "addr": "819 W 11TH ST",
-      "type": "Property Maintenance",
-      "action": "Citation - 1st"
-     }
-    ]
-   },
-   "as_of": "2026-11-21"
-  },
-  {
    "tag": "012221280013000",
    "cid": "45094",
    "addr": "821 S 10TH AVE",
@@ -59294,45 +59351,6 @@
       "legal": "Tract B Lot 9 Block 30 Gale's 3rd Addn",
       "section": "Sioux Falls City",
       "year": 2025
-     }
-    ]
-   },
-   "as_of": "2026-11-21"
-  },
-  {
-   "tag": "012114378025000",
-   "cid": "12519",
-   "addr": "6204 W WESTVIEW RD",
-   "zip": 57107,
-   "county": "MINNEHAHA",
-   "owner": "STYLES, BLAINE O",
-   "mail": "6204 W WESTVIEW RD",
-   "mail_city": "SIOUX FALLS",
-   "mail_state": "SD",
-   "mail_zip": "57107",
-   "occ": "Y",
-   "landuse": 110,
-   "units": 1,
-   "acres": 0.25,
-   "sqft": 11040.0,
-   "activity": "11 - Single-Family",
-   "score": 25,
-   "why": [
-    "2 code citations"
-   ],
-   "signals": {
-    "citations": [
-     {
-      "date": "2026-11-04",
-      "addr": "6204 W WESTVIEW RD",
-      "type": "Property Maintenance",
-      "action": "Citation - 2nd"
-     },
-     {
-      "date": "2026-10-19",
-      "addr": "6204 W WESTVIEW RD",
-      "type": "Property Maintenance",
-      "action": "Citation - 1st"
      }
     ]
    },
