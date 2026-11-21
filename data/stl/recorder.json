@@ -95,6 +95,43 @@
   ]
  },
  {
+  "doc": "11202026-0132",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-20",
+  "addrs": [
+   "1146 RIVERVIEW BLVD"
+  ],
+  "pids": [
+   "54329140000"
+  ],
+  "lender": "NWL COMPANY LLC",
+  "trustee": "WESTERN PROGRESSIVE MISSOURI INC",
+  "parties": [
+   "NWL COMPANY LLC",
+   "GIBSON DYLAUN C"
+  ]
+ },
+ {
+  "doc": "11202026-0125",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-20",
+  "addrs": [
+   "756 A-B S 4TH ST",
+   "758 S 4TH ST"
+  ],
+  "pids": [
+   "00769035000"
+  ],
+  "lender": "EXTEND HOLDINGS LLC",
+  "trustee": "PITLYK BRAD",
+  "parties": [
+   "EXTEND HOLDINGS LLC",
+   "MIDWEST REGIONAL BANK"
+  ]
+ },
+ {
   "doc": "11192026-0003",
   "kind": "pre-foreclosure",
   "type": "APPOINT SUCC TRUSTEE",
@@ -3510,42 +3547,6 @@
   "parties": [
    "JUSTINE PETERSEN HOUSING AND REINVESTMENT CORPORATION",
    "DERON SANDERS REALTY LLC"
-  ]
- },
- {
-  "doc": "07232026-0099",
-  "kind": "pre-foreclosure",
-  "type": "APPOINT SUCC TRUSTEE",
-  "date": "2026-07-23",
-  "addrs": [
-   "4341 WILCOX AVE"
-  ],
-  "pids": [
-   "55839340000"
-  ],
-  "lender": "US BANK NA",
-  "trustee": "CSM FORECLOSURE TRUSTEE CORP",
-  "parties": [
-   "US BANK NA",
-   "BRUCE AUGUSTA"
-  ]
- },
- {
-  "doc": "07232026-0019",
-  "kind": "pre-foreclosure",
-  "type": "APPOINT SUCC TRUSTEE",
-  "date": "2026-07-23",
-  "addrs": [
-   "4324 3280 W FLORISSANT AVE"
-  ],
-  "pids": [
-   "35549270000"
-  ],
-  "lender": "U S BANK TRUST COMPANY NATIONAL ASSOCIATION",
-  "trustee": "GHG TRUSTEE INC",
-  "parties": [
-   "U S BANK TRUST COMPANY NATIONAL ASSOCIATION",
-   "VELOCITY COMMERCIAL CAPITAL LLC"
   ]
  }
 ]
