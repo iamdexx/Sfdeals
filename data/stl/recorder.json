@@ -3530,23 +3530,5 @@
    "DATA MORTGAGE INC",
    "SCHMIDT MELINDA"
   ]
- },
- {
-  "doc": "07242026-0092",
-  "kind": "pre-foreclosure",
-  "type": "APPOINT SUCC TRUSTEE",
-  "date": "2026-07-24",
-  "addrs": [
-   "2121 ADELAIDE AVE"
-  ],
-  "pids": [
-   "35429200000"
-  ],
-  "lender": "JUSTINE PETERSEN HOUSING AND REINVESTMENT CORPORATION",
-  "trustee": "WEISMAN JEFF",
-  "parties": [
-   "JUSTINE PETERSEN HOUSING AND REINVESTMENT CORPORATION",
-   "DERON SANDERS REALTY LLC"
-  ]
  }
 ]
