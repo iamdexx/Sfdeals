@@ -1,5 +1,29 @@
 [
  {
+  "id": 2077321,
+  "date": "2026-11-22",
+  "addr": "5901 EMMA AVE",
+  "pid": "53599200000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 11,
+  "minor": 0,
+  "text": "Accessibility; Commercial Parking Lot"
+ },
+ {
+  "id": 2077322,
+  "date": "2026-11-22",
+  "addr": "5903 EMMA AVE",
+  "pid": "53599210000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 12,
+  "minor": 0,
+  "text": "Accessibility; Commercial Parking Lot"
+ },
+ {
   "id": 2077177,
   "date": "2026-11-20",
   "addr": "4447 NEBRASKA AVE",
@@ -4560,18 +4584,6 @@
   "text": "Address; Door; Open Storage; Porch; Windows"
  },
  {
-  "id": 2074822,
-  "date": "2026-11-13",
-  "addr": "4969 ST LOUIS AVE",
-  "pid": "52609450000",
-  "type": "ES - Complaint",
-  "result": "Emergency CFO",
-  "kind": "condemned",
-  "major": 1,
-  "minor": 0,
-  "text": "Condemnation"
- },
- {
   "id": 2074788,
   "date": "2026-11-13",
   "addr": "4315 KOSSUTH AVE",
@@ -4750,6 +4762,18 @@
   "major": 6,
   "minor": 5,
   "text": "Address; Chimney; Cornice/Fascia; Gutters/Downspout; Open Storage; Roof; Walls; Windows"
+ },
+ {
+  "id": 2074822,
+  "date": "2026-11-13",
+  "addr": "4969 ST LOUIS AVE",
+  "pid": "52609450000",
+  "type": "ES - Complaint",
+  "result": "Emergency CFO",
+  "kind": "condemned",
+  "major": 1,
+  "minor": 0,
+  "text": "Condemnation"
  },
  {
   "id": 2074731,
@@ -6600,18 +6624,6 @@
   "text": "Autos; Graffiti; Open Storage; Roof; Windows"
  },
  {
-  "id": 2067824,
-  "date": "2026-11-09",
-  "addr": "3928 PENROSE ST",
-  "pid": "35779040000",
-  "type": "ES - 5-16-25 Tornado",
-  "result": "Emergency Condemnation and Demo Notice",
-  "kind": "condemned",
-  "major": 10,
-  "minor": 0,
-  "text": "Condemnation"
- },
- {
   "id": 2073495,
   "date": "2026-11-09",
   "addr": "3101 CLAY AVE",
@@ -6970,6 +6982,18 @@
   "major": 0,
   "minor": 0,
   "text": ""
+ },
+ {
+  "id": 2067824,
+  "date": "2026-11-09",
+  "addr": "3928 PENROSE ST",
+  "pid": "35779040000",
+  "type": "ES - 5-16-25 Tornado",
+  "result": "Emergency Condemnation and Demo Notice",
+  "kind": "condemned",
+  "major": 10,
+  "minor": 0,
+  "text": "Condemnation"
  },
  {
   "id": 2073481,
@@ -12012,30 +12036,6 @@
   "text": "Condemnation"
  },
  {
-  "id": 2068503,
-  "date": "2026-10-23",
-  "addr": "4716 ASHLAND AVE",
-  "pid": "44819165000",
-  "type": "ES - Complaint",
-  "result": "Condemned for Occupancy",
-  "kind": "condemned",
-  "major": 2,
-  "minor": 0,
-  "text": "Condemnation"
- },
- {
-  "id": 2068502,
-  "date": "2026-10-23",
-  "addr": "4720 ASHLAND AVE",
-  "pid": "44819160000",
-  "type": "ES - Complaint",
-  "result": "Condemned for Occupancy",
-  "kind": "condemned",
-  "major": 2,
-  "minor": 0,
-  "text": "Condemnation"
- },
- {
   "id": 2069080,
   "date": "2026-10-23",
   "addr": "3853 NEOSHO ST",
@@ -12204,6 +12204,30 @@
   "text": "Rooms; Status Unit"
  },
  {
+  "id": 2068503,
+  "date": "2026-10-23",
+  "addr": "4716 ASHLAND AVE",
+  "pid": "44819165000",
+  "type": "ES - Complaint",
+  "result": "Condemned for Occupancy",
+  "kind": "condemned",
+  "major": 2,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2068502,
+  "date": "2026-10-23",
+  "addr": "4720 ASHLAND AVE",
+  "pid": "44819160000",
+  "type": "ES - Complaint",
+  "result": "Condemned for Occupancy",
+  "kind": "condemned",
+  "major": 2,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
   "id": 2068639,
   "date": "2026-10-23",
   "addr": "4425 HOLLY",
@@ -12238,18 +12262,6 @@
   "major": 2,
   "minor": 0,
   "text": "Status Unit"
- },
- {
-  "id": 2068312,
-  "date": "2026-10-22",
-  "addr": "4720 S BROADWAY",
-  "pid": "27559160000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 5,
-  "minor": 1,
-  "text": "Fire Protection Systems; General; Graffiti; Open Storage; Windows"
  },
  {
   "id": 2068037,
@@ -12658,6 +12670,18 @@
   "major": 2,
   "minor": 0,
   "text": "Autos; Open Storage"
+ },
+ {
+  "id": 2068312,
+  "date": "2026-10-22",
+  "addr": "4720 S BROADWAY",
+  "pid": "27559160000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 5,
+  "minor": 1,
+  "text": "Fire Protection Systems; General; Graffiti; Open Storage; Windows"
  },
  {
   "id": 2068607,
