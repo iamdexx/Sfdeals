@@ -1,5 +1,60 @@
 [
  {
+  "doc": "11232026-0044",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-23",
+  "addrs": [
+   "7109 ARSENAL ST"
+  ],
+  "pids": [
+   "47859080000"
+  ],
+  "lender": "U S BANK TRUST COMPANY NATIONAL ASSOCIATION",
+  "trustee": "WESTERN PROGRESSIVE MISSOURI INC",
+  "parties": [
+   "U S BANK TRUST COMPANY NATIONAL ASSOCIATION",
+   "KOLAR JEFF",
+   "HICKS TIFFANY"
+  ]
+ },
+ {
+  "doc": "11232026-0026",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-23",
+  "addrs": [
+   "3527 MIAMI ST",
+   "3529 MIAMI ST"
+  ],
+  "pids": [
+   "15929230000"
+  ],
+  "lender": "WILMINGTON SAVINGS FUND SOCIETY FSB",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "WILMINGTON SAVINGS FUND SOCIETY FSB",
+   "3527 MIAMI LLC"
+  ]
+ },
+ {
+  "doc": "11232026-0023",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-23",
+  "addrs": [
+   "1014 LOCUST ST"
+  ],
+  "pids": [
+   "02809015000"
+  ],
+  "lender": "FANNIE MAE",
+  "trustee": "TRUSTEE SERVICES INC",
+  "parties": [
+   "FANNIE MAE"
+  ]
+ },
+ {
   "doc": "11202026-0093",
   "kind": "pre-foreclosure",
   "type": "APPOINT SUCC TRUSTEE",
