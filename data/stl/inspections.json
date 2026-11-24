@@ -24,6 +24,18 @@
   "text": "Autos; Open Storage; Parking Area"
  },
  {
+  "id": 2077036,
+  "date": "2026-11-23",
+  "addr": "5323 NORTHLAND AVE",
+  "pid": "45179525000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 2,
+  "text": "Gutters/Downspout; Porch; Walls; Windows"
+ },
+ {
   "id": 2077384,
   "date": "2026-11-23",
   "addr": "4734 GREER AVE",
@@ -372,7 +384,7 @@
   "text": "Address; Fences"
  },
  {
-  "id": 2077688,
+  "id": 2077730,
   "date": "2026-11-23",
   "addr": "3556 NEBRASKA AVE",
   "pid": "15749010000",
@@ -406,6 +418,18 @@
   "major": 0,
   "minor": 2,
   "text": "Garage/Shed"
+ },
+ {
+  "id": 2077688,
+  "date": "2026-11-23",
+  "addr": "3556 NEBRASKA AVE",
+  "pid": "15749010000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Open Storage"
  },
  {
   "id": 2075678,
@@ -2496,18 +2520,6 @@
   "text": "Autos"
  },
  {
-  "id": 2076415,
-  "date": "2026-11-18",
-  "addr": "4635 OREGON AVE",
-  "pid": "27499240000",
-  "type": "ES - Complaint",
-  "result": "Condemned for Occupancy",
-  "kind": "condemned",
-  "major": 3,
-  "minor": 0,
-  "text": "Condemnation"
- },
- {
   "id": 2075308,
   "date": "2026-11-18",
   "addr": "2821 N KINGSHIGHWAY MEMORIAL BLVD",
@@ -3226,6 +3238,18 @@
   "major": 0,
   "minor": 0,
   "text": ""
+ },
+ {
+  "id": 2076415,
+  "date": "2026-11-18",
+  "addr": "4635 OREGON AVE",
+  "pid": "27499240000",
+  "type": "ES - Complaint",
+  "result": "Condemned for Occupancy",
+  "kind": "condemned",
+  "major": 3,
+  "minor": 0,
+  "text": "Condemnation"
  },
  {
   "id": 2076079,
@@ -11760,18 +11784,6 @@
   "text": "Cornice/Fascia; Gutters/Downspout; Walls"
  },
  {
-  "id": 2068400,
-  "date": "2026-10-27",
-  "addr": "2723 WYOMING ST",
-  "pid": "17599400000",
-  "type": "ES - Complaint",
-  "result": "Notice to Secure",
-  "kind": "secure",
-  "major": 1,
-  "minor": 5,
-  "text": "Cornice/Fascia; Dormer; Gutters/Downspout; Porch; Premise Sidewalk; Windows"
- },
- {
   "id": 2069463,
   "date": "2026-10-27",
   "addr": "2020 MENARD ST",
@@ -12262,6 +12274,18 @@
   "major": 0,
   "minor": 0,
   "text": ""
+ },
+ {
+  "id": 2068400,
+  "date": "2026-10-27",
+  "addr": "2723 WYOMING ST",
+  "pid": "17599400000",
+  "type": "ES - Complaint",
+  "result": "Notice to Secure",
+  "kind": "secure",
+  "major": 1,
+  "minor": 5,
+  "text": "Cornice/Fascia; Dormer; Gutters/Downspout; Porch; Premise Sidewalk; Windows"
  },
  {
   "id": 2068307,

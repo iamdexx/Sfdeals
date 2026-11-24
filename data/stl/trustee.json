@@ -75,6 +75,21 @@
   "firm": "SouthLaw"
  },
  {
+  "addr": "124 W VELMA AVE",
+  "addr_raw": "124 West Velma Avenue",
+  "city": "St Louis",
+  "zip": "63125",
+  "county": "St. Louis County",
+  "date": "2026-12-03",
+  "time": "2:00PM",
+  "continued": "",
+  "bid": "",
+  "sale_at": "Clayton",
+  "case": "",
+  "file": "262421",
+  "firm": "SouthLaw"
+ },
+ {
   "addr": "1507 ANNANDALE DR",
   "addr_raw": "1507 Annandale Dr",
   "city": "Saint Louis",
@@ -180,21 +195,6 @@
   "firm": "SouthLaw"
  },
  {
-  "addr": "12 ANFRED WALK",
-  "addr_raw": "12 Anfred Walk",
-  "city": "Saint Louis",
-  "zip": "63132",
-  "county": "St. Louis County",
-  "date": "2026-12-03",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "262253",
-  "firm": "SouthLaw"
- },
- {
   "addr": "717 WESLEY AVE",
   "addr_raw": "717 Wesley Ave",
   "city": "St Louis",
@@ -240,10 +240,10 @@
   "firm": "SouthLaw"
  },
  {
-  "addr": "124 W VELMA AVE",
-  "addr_raw": "124 West Velma Avenue",
-  "city": "St Louis",
-  "zip": "63125",
+  "addr": "12 ANFRED WALK",
+  "addr_raw": "12 Anfred Walk",
+  "city": "Saint Louis",
+  "zip": "63132",
   "county": "St. Louis County",
   "date": "2026-12-03",
   "time": "2:00PM",
@@ -251,7 +251,7 @@
   "bid": "",
   "sale_at": "Clayton",
   "case": "",
-  "file": "262421",
+  "file": "262253",
   "firm": "SouthLaw"
  },
  {
