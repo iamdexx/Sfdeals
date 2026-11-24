@@ -1,5 +1,521 @@
 [
  {
+  "id": 2077768,
+  "date": "2026-11-24",
+  "addr": "4700 DELMAR",
+  "pid": "45759045001",
+  "type": "ES - Complaint",
+  "result": "Structural Condemnation",
+  "kind": "condemned",
+  "major": 17,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2078127,
+  "date": "2026-11-24",
+  "addr": "4700 DELMAR",
+  "pid": "45759045001",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 7,
+  "minor": 4,
+  "text": "Chimney; Gutters/Downspout; Open Storage; Parapet; Roof; Rooms; Walls; Windows"
+ },
+ {
+  "id": 2077806,
+  "date": "2026-11-24",
+  "addr": "5861 WASHINGTON AVE",
+  "pid": "55159120000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 1,
+  "text": "Door; Status Unit"
+ },
+ {
+  "id": 2077995,
+  "date": "2026-11-24",
+  "addr": "4410 GRAVOIS AVE",
+  "pid": "90399040000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 0,
+  "text": "General; Status Unit"
+ },
+ {
+  "id": 2077826,
+  "date": "2026-11-24",
+  "addr": "709 N TAYLOR AVE",
+  "pid": "37609405000",
+  "type": "ES - Complaint",
+  "result": "Notice to Secure",
+  "kind": "secure",
+  "major": 0,
+  "minor": 0,
+  "text": ""
+ },
+ {
+  "id": 2077835,
+  "date": "2026-11-24",
+  "addr": "6123 ALASKA",
+  "pid": "29329290000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 0,
+  "text": "Address; Autos"
+ },
+ {
+  "id": 2077840,
+  "date": "2026-11-24",
+  "addr": "6131 ALASKA",
+  "pid": "29329310000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Fences"
+ },
+ {
+  "id": 2077845,
+  "date": "2026-11-24",
+  "addr": "6135 TENNESSEE",
+  "pid": "29349280000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 1,
+  "text": "Garage/Shed"
+ },
+ {
+  "id": 2077846,
+  "date": "2026-11-24",
+  "addr": "6157 TENNESSEE",
+  "pid": "29349340000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Fences"
+ },
+ {
+  "id": 2077847,
+  "date": "2026-11-24",
+  "addr": "6125 TENNESSEE",
+  "pid": "29349250000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 1,
+  "text": "Windows"
+ },
+ {
+  "id": 2077996,
+  "date": "2026-11-24",
+  "addr": "4127 DAVIS ST",
+  "pid": "64059190000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 4,
+  "text": "Garage/Shed; Open Storage; Windows"
+ },
+ {
+  "id": 2077874,
+  "date": "2026-11-24",
+  "addr": "5414 W FLORISSANT AVE",
+  "pid": "56319150000",
+  "type": "ES - HCD",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Gutters/Downspout"
+ },
+ {
+  "id": 2077997,
+  "date": "2026-11-24",
+  "addr": "3832 COURTOIS ST",
+  "pid": "32969070000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 0,
+  "text": "Autos; Open Storage"
+ },
+ {
+  "id": 2077854,
+  "date": "2026-11-24",
+  "addr": "3627 BAMBERGER AVE",
+  "pid": "56239300000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 1,
+  "text": "Door; Fences; Garage/Shed"
+ },
+ {
+  "id": 2077855,
+  "date": "2026-11-24",
+  "addr": "5200 LOUISIANA",
+  "pid": "28149150000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 2,
+  "text": "Address; Gutters/Downspout; Open Storage; Windows"
+ },
+ {
+  "id": 2077875,
+  "date": "2026-11-24",
+  "addr": "5514 THRUSH AVE",
+  "pid": "55249050000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Parking Area"
+ },
+ {
+  "id": 2077858,
+  "date": "2026-11-24",
+  "addr": "5217 ALASKA",
+  "pid": "28149200000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "General"
+ },
+ {
+  "id": 2077994,
+  "date": "2026-11-24",
+  "addr": "5528 GRACE AVE",
+  "pid": "54789020000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 5,
+  "text": "Garage/Shed; General"
+ },
+ {
+  "id": 2077990,
+  "date": "2026-11-24",
+  "addr": "5428 WREN AVE",
+  "pid": "51259070000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
+  "id": 2077881,
+  "date": "2026-11-24",
+  "addr": "5112 KENSINGTON AVE",
+  "pid": "48439250000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
+  "id": 2078013,
+  "date": "2026-11-24",
+  "addr": "3947 BURGEN",
+  "pid": "58519220000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
+  "id": 2077993,
+  "date": "2026-11-24",
+  "addr": "3868 BATES ST",
+  "pid": "62789100000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 1,
+  "text": "Porch"
+ },
+ {
+  "id": 2077915,
+  "date": "2026-11-24",
+  "addr": "2817 KEOKUK ST",
+  "pid": "16389320000",
+  "type": "ES - Complaint",
+  "result": "Notice to Secure",
+  "kind": "secure",
+  "major": 0,
+  "minor": 0,
+  "text": ""
+ },
+ {
+  "id": 2077918,
+  "date": "2026-11-24",
+  "addr": "2817 KEOKUK",
+  "pid": "16389320000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 13,
+  "minor": 7,
+  "text": "Address; Cornice/Fascia; Door; General; Gutters/Downspout; Open Storage; Parapet; Porch; Roof; Walls; Windows"
+ },
+ {
+  "id": 2077977,
+  "date": "2026-11-24",
+  "addr": "4419 DEWEY",
+  "pid": "41919250000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 0,
+  "text": ""
+ },
+ {
+  "id": 2077989,
+  "date": "2026-11-24",
+  "addr": "5135 CATES AVE",
+  "pid": "48419370000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 3,
+  "text": "Address; Chimney; Cornice/Fascia; Open Storage; Windows"
+ },
+ {
+  "id": 2078065,
+  "date": "2026-11-24",
+  "addr": "5471 ROBIN AVE",
+  "pid": "51279265000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
+  "id": 2078006,
+  "date": "2026-11-24",
+  "addr": "4443 GRACE",
+  "pid": "27329320000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
+  "id": 2078008,
+  "date": "2026-11-24",
+  "addr": "4525 S GRAND",
+  "pid": "27319390000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Address"
+ },
+ {
+  "id": 2078015,
+  "date": "2026-11-24",
+  "addr": "5744 CHAMBERLAIN AVE",
+  "pid": "48659030000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 1,
+  "text": "Address; Autos; Fences; Open Storage"
+ },
+ {
+  "id": 2078062,
+  "date": "2026-11-24",
+  "addr": "2221 MONTANA ST",
+  "pid": "26089180000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 2,
+  "text": "Address; Fences; Gutters/Downspout; Windows"
+ },
+ {
+  "id": 2078041,
+  "date": "2026-11-24",
+  "addr": "3864 SHENANDOAH",
+  "pid": "21129010000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Roof"
+ },
+ {
+  "id": 2078044,
+  "date": "2026-11-24",
+  "addr": "725 THRUSH AVE",
+  "pid": "52279200000",
+  "type": "ES - Door to Door",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 1,
+  "text": "Open Storage; Windows"
+ },
+ {
+  "id": 2078117,
+  "date": "2026-11-24",
+  "addr": "2208 EDWARDS ST",
+  "pid": "40739410000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
+  "id": 2078094,
+  "date": "2026-11-24",
+  "addr": "2801 LOCUST",
+  "pid": "09939090000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Cornice/Fascia"
+ },
+ {
+  "id": 2078095,
+  "date": "2026-11-24",
+  "addr": "2801 LOCUST",
+  "pid": "09939090000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "General"
+ },
+ {
+  "id": 2078090,
+  "date": "2026-11-24",
+  "addr": "2630 ARSENAL ST",
+  "pid": "17609230000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
+  "id": 2078096,
+  "date": "2026-11-24",
+  "addr": "4240 NEBRASKA AVE",
+  "pid": "26589050000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 7,
+  "text": "Cornice/Fascia; Door; General; Gutters/Downspout; Premise Sidewalk; Roof; Walls; Windows"
+ },
+ {
+  "id": 2078100,
+  "date": "2026-11-24",
+  "addr": "4643 LOUISIANA AVE",
+  "pid": "27379310000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 2,
+  "text": "Address; Garage/Shed; Walls"
+ },
+ {
+  "id": 2078113,
+  "date": "2026-11-24",
+  "addr": "5640 KENNERLY AVE",
+  "pid": "52009300000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 0,
+  "text": "Address; Open Storage"
+ },
+ {
+  "id": 2078114,
+  "date": "2026-11-24",
+  "addr": "4721 S COMPTON AVE",
+  "pid": "27629130000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 0,
+  "text": "Address; Garage/Shed"
+ },
+ {
+  "id": 2078135,
+  "date": "2026-11-24",
+  "addr": "2109 CHEROKEE",
+  "pid": "15279280000",
+  "type": "ES - Complaint",
+  "result": "Structural Condemnation",
+  "kind": "condemned",
+  "major": 6,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2078153,
+  "date": "2026-11-24",
+  "addr": "3562 S SPRING AVE",
+  "pid": "41839010000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
   "id": 2077647,
   "date": "2026-11-23",
   "addr": "2145 STANSBURY ST",
@@ -12,7 +528,7 @@
   "text": "Address; Door; Gutters/Downspout; Open Storage; Porch; Walls; Windows"
  },
  {
-  "id": 2076484,
+  "id": 2077771,
   "date": "2026-11-23",
   "addr": "5858 ROMAINE PL",
   "pid": "38229340000",
@@ -24,7 +540,7 @@
   "text": "Autos; Open Storage; Parking Area"
  },
  {
-  "id": 2077036,
+  "id": 2077961,
   "date": "2026-11-23",
   "addr": "5323 NORTHLAND AVE",
   "pid": "45179525000",
@@ -144,7 +660,7 @@
   "text": "Gutters/Downspout; Windows"
  },
  {
-  "id": 2077461,
+  "id": 2077773,
   "date": "2026-11-23",
   "addr": "1476 GOODFELLOW",
   "pid": "38199235000",
@@ -180,7 +696,7 @@
   "text": "Cornice/Fascia; Open Storage; Roof; Walls; Windows"
  },
  {
-  "id": 2077472,
+  "id": 2077774,
   "date": "2026-11-23",
   "addr": "1371 MONTCLAIR",
   "pid": "38079355000",
@@ -324,7 +840,7 @@
   "text": ""
  },
  {
-  "id": 2077577,
+  "id": 2077763,
   "date": "2026-11-23",
   "addr": "7146 MANCHESTER AVE",
   "pid": "46319045000",
@@ -396,6 +912,18 @@
   "text": "Open Storage"
  },
  {
+  "id": 2077861,
+  "date": "2026-11-23",
+  "addr": "412 N 9TH",
+  "pid": "01949011000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 19,
+  "minor": 5,
+  "text": "Fire Escape / Safety Stairs; General; Marquee/Fixed Awnings; Other; Rooms; Status Unit; Unit Stair; Walls; Windows"
+ },
+ {
   "id": 2077720,
   "date": "2026-11-23",
   "addr": "6631 IDAHO",
@@ -418,6 +946,66 @@
   "major": 0,
   "minor": 2,
   "text": "Garage/Shed"
+ },
+ {
+  "id": 2076484,
+  "date": "2026-11-23",
+  "addr": "5858 ROMAINE PL",
+  "pid": "38229340000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 0,
+  "text": "Autos; Open Storage; Parking Area"
+ },
+ {
+  "id": 2077036,
+  "date": "2026-11-23",
+  "addr": "5323 NORTHLAND AVE",
+  "pid": "45179525000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 2,
+  "text": "Gutters/Downspout; Porch; Walls; Windows"
+ },
+ {
+  "id": 2077461,
+  "date": "2026-11-23",
+  "addr": "1476 GOODFELLOW",
+  "pid": "38199235000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 6,
+  "minor": 3,
+  "text": "Door; Gutters/Downspout; Open Storage; Porch; Windows"
+ },
+ {
+  "id": 2077472,
+  "date": "2026-11-23",
+  "addr": "1371 MONTCLAIR",
+  "pid": "38079355000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 4,
+  "minor": 1,
+  "text": "Door; Open Storage; Porch; Windows"
+ },
+ {
+  "id": 2077577,
+  "date": "2026-11-23",
+  "addr": "7146 MANCHESTER AVE",
+  "pid": "46319045000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 2,
+  "text": "Autos; Open Storage; Parking Area; Windows"
  },
  {
   "id": 2077688,
@@ -660,6 +1248,18 @@
   "text": "Autos; Cornice/Fascia; Door; Gutters/Downspout"
  },
  {
+  "id": 2075868,
+  "date": "2026-11-20",
+  "addr": "4571 PAGE BLVD",
+  "pid": "37749315000",
+  "type": "ES - 5-16-25 Tornado",
+  "result": "Structural Condemnation (ES-Tornado)",
+  "kind": "condemned",
+  "major": 13,
+  "minor": 4,
+  "text": "Chimney; Cornice/Fascia; Door; Fences; Gutters/Downspout; Parapet; Porch; Roof; Walls; Windows"
+ },
+ {
   "id": 2075886,
   "date": "2026-11-20",
   "addr": "5225 PAGE BLVD",
@@ -778,18 +1378,6 @@
   "major": 8,
   "minor": 0,
   "text": "Address; Condemnation"
- },
- {
-  "id": 2077004,
-  "date": "2026-11-20",
-  "addr": "5631 LANSDOWNE AVE",
-  "pid": "51619370000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 0,
-  "minor": 1,
-  "text": "Grading/Drainage"
  },
  {
   "id": 2077263,
@@ -1162,6 +1750,18 @@
   "major": 0,
   "minor": 0,
   "text": ""
+ },
+ {
+  "id": 2077004,
+  "date": "2026-11-20",
+  "addr": "5631 LANSDOWNE AVE",
+  "pid": "51619370000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Grading/Drainage"
  },
  {
   "id": 2077380,
@@ -2100,18 +2700,6 @@
   "text": "Foundation; Status Unit; Walls"
  },
  {
-  "id": 2076874,
-  "date": "2026-11-19",
-  "addr": "5633 LANSDOWNE AVE",
-  "pid": "51619380000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 0,
-  "minor": 1,
-  "text": "Grading/Drainage"
- },
- {
   "id": 2076977,
   "date": "2026-11-19",
   "addr": "7916 MICHIGAN AVE",
@@ -2134,6 +2722,18 @@
   "major": 1,
   "minor": 0,
   "text": "Windows"
+ },
+ {
+  "id": 2076874,
+  "date": "2026-11-19",
+  "addr": "5633 LANSDOWNE AVE",
+  "pid": "51619380000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Grading/Drainage"
  },
  {
   "id": 2076453,
@@ -4272,18 +4872,6 @@
   "text": "Chimney; Cornice/Fascia; Gutters/Downspout; Open Storage; Porch; Walls; Windows"
  },
  {
-  "id": 2075975,
-  "date": "2026-11-17",
-  "addr": "2211 SALISBURY ST",
-  "pid": "17399145000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 2,
-  "minor": 7,
-  "text": "Chimney; Cornice/Fascia; Garage/Shed; Gutters/Downspout; Open Storage; Walls; Windows"
- },
- {
   "id": 2075980,
   "date": "2026-11-17",
   "addr": "5311 ITASKA ST",
@@ -4414,6 +5002,18 @@
   "major": 3,
   "minor": 1,
   "text": "Address; Fences; General; Windows"
+ },
+ {
+  "id": 2075975,
+  "date": "2026-11-17",
+  "addr": "2211 SALISBURY ST",
+  "pid": "17399145000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 7,
+  "text": "Chimney; Cornice/Fascia; Garage/Shed; Gutters/Downspout; Open Storage; Walls; Windows"
  },
  {
   "id": 2075571,
@@ -11952,18 +12552,6 @@
   "text": "Chimney; Cornice/Fascia; Door; Gutters/Downspout; Open Storage; Parking Area; Porch; Roof; Walls; Windows"
  },
  {
-  "id": 2069410,
-  "date": "2026-10-27",
-  "addr": "4019 DELOR CT",
-  "pid": "50719610000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 0,
-  "minor": 3,
-  "text": "Fences; Garage/Shed"
- },
- {
   "id": 2069411,
   "date": "2026-10-27",
   "addr": "3952 RANDALL ST",
@@ -12274,6 +12862,18 @@
   "major": 0,
   "minor": 0,
   "text": ""
+ },
+ {
+  "id": 2069410,
+  "date": "2026-10-27",
+  "addr": "4019 DELOR CT",
+  "pid": "50719610000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 3,
+  "text": "Fences; Garage/Shed"
  },
  {
   "id": 2068400,

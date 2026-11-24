@@ -1,5 +1,96 @@
 [
  {
+  "doc": "11242026-0135",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-24",
+  "addrs": [
+   "2804 SALENA ST"
+  ],
+  "pids": [
+   "14159216000"
+  ],
+  "lender": "LOVE VALERIE DENISE",
+  "trustee": "BANK OF AMERICA NA",
+  "parties": [
+   "LOVE VALERIE DENISE",
+   "BANK OF AMERICA NA"
+  ]
+ },
+ {
+  "doc": "11242026-0118",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-24",
+  "addrs": [
+   "3912 BATES ST"
+  ],
+  "pids": [
+   "62789050000"
+  ],
+  "lender": "TRIDENT REALTY INVESTMENTS ATLAS SPV LLC",
+  "trustee": "SMF REGISTERED SERVICES INC",
+  "parties": [
+   "TRIDENT REALTY INVESTMENTS ATLAS SPV LLC",
+   "TRIDENT REALTY INVESTMENTS LLC",
+   "BLUE ROCK CAPITAL HOLDINGS LLC"
+  ]
+ },
+ {
+  "doc": "11242026-0117",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-24",
+  "addrs": [
+   "4235 ATHLONE AVE"
+  ],
+  "pids": [
+   "35699420000"
+  ],
+  "lender": "HASSAN LLC",
+  "trustee": "SMF REGISTERED SERVICES INC",
+  "parties": [
+   "HASSAN LLC",
+   "TRIDENT REALTY INVESTMENTS ATLAS SPV LLC"
+  ]
+ },
+ {
+  "doc": "11242026-0081",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-24",
+  "addrs": [
+   "5505 CATES AVE"
+  ],
+  "pids": [
+   "38649105000"
+  ],
+  "lender": "GUILD MORTGAGE COMPANY LLC",
+  "trustee": "MILLSAP & SINGER PC",
+  "parties": [
+   "GUILD MORTGAGE COMPANY LLC",
+   "PARISH AMORIO"
+  ]
+ },
+ {
+  "doc": "11242026-0050",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-24",
+  "addrs": [
+   "4244 CLARENCE AVE"
+  ],
+  "pids": [
+   "35709120000"
+  ],
+  "lender": "MIDFIRST BANK",
+  "trustee": "S & W FORECLOSURE CORPORATION",
+  "parties": [
+   "MIDFIRST BANK",
+   "RANDOLPH KAREN M"
+  ]
+ },
+ {
   "doc": "11232026-0044",
   "kind": "pre-foreclosure",
   "type": "APPOINT SUCC TRUSTEE",
