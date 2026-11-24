@@ -35218,5 +35218,23 @@
   "addr": "6204 W WESTVIEW RD",
   "type": "Property Maintenance",
   "action": "Citation - 3rd or subsequent"
+ },
+ {
+  "date": "2026-11-23",
+  "addr": "404 S MABLE AVE",
+  "type": "Property Maintenance",
+  "action": "Citation - 2nd"
+ },
+ {
+  "date": "2026-11-23",
+  "addr": "215 S GARFIELD AVE",
+  "type": "Property Maintenance",
+  "action": "Citation - 3rd or subsequent"
+ },
+ {
+  "date": "2026-11-23",
+  "addr": "321 S BLAINE AVE",
+  "type": "Property Maintenance",
+  "action": "Citation - 1st"
  }
 ]
