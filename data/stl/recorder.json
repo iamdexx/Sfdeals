@@ -1,5 +1,60 @@
 [
  {
+  "doc": "11252026-0091",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-25",
+  "addrs": [
+   "3459 NEBRASKA AVE"
+  ],
+  "pids": [
+   "15769410000"
+  ],
+  "lender": "HARRIS JEROME",
+  "trustee": "SOUTHLAW PC",
+  "parties": [
+   "HARRIS JEROME",
+   "HARRIS SHONTA",
+   "LAKEVIEW LOAN SERVICING LLC"
+  ]
+ },
+ {
+  "doc": "11252026-0055",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-25",
+  "addrs": [
+   "4236 19TH ST"
+  ],
+  "pids": [
+   "24389015000"
+  ],
+  "lender": "WILMINGTON SAVINGS FUND SOCIETY FSB",
+  "trustee": "WESTERN PROGRESSIVE MO INC",
+  "parties": [
+   "WILMINGTON SAVINGS FUND SOCIETY FSB",
+   "BILLINGSLEY JIMMIE"
+  ]
+ },
+ {
+  "doc": "11252026-0017",
+  "kind": "pre-foreclosure",
+  "type": "APPOINT SUCC TRUSTEE",
+  "date": "2026-11-25",
+  "addrs": [
+   "4437 RED BUD AVE"
+  ],
+  "pids": [
+   "35639180000"
+  ],
+  "lender": "U S BANK TRUST NATIONAL ASSOCIATION",
+  "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+  "parties": [
+   "U S BANK TRUST NATIONAL ASSOCIATION",
+   "VIBRANT BLUE REALTY LLC"
+  ]
+ },
+ {
   "doc": "11242026-0135",
   "kind": "pre-foreclosure",
   "type": "APPOINT SUCC TRUSTEE",

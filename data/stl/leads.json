@@ -1,8 +1,8 @@
 {
  "as_of": "2026-11-25",
- "updated": "2026-11-25T07:44:59Z",
- "count": 128258,
- "hot": 2231,
+ "updated": "2026-11-25T20:56:56Z",
+ "count": 128263,
+ "hot": 2243,
  "leads": [
   {
    "tag": "42889110000",
@@ -301,6 +301,66 @@
       "units": 1,
       "muni": "Unincorporated",
       "value": 26100
+     }
+    ]
+   },
+   "as_of": "2026-11-25"
+  },
+  {
+   "tag": "52689115000",
+   "cid": "52689115000",
+   "handle": "15268030230",
+   "addr": "4401 MIAMI ST",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 15,
+   "owner": "BRYANT, JOSEPH",
+   "mail": "4403 MIAMI ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63116",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4823,
+   "year": 1927,
+   "value": 31930.0,
+   "tax_bal": 5174.19,
+   "vac_year": 2018,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 168053,
+   "score": 90,
+   "why": [
+    "absentee",
+    "tax delinquent $5,174",
+    "vacant building since 2018",
+    "1 code violation"
+   ],
+   "signals": {
+    "tax": [
+     {
+      "amount": 5174.19,
+      "year": "",
+      "legal": "city tax balance, more than a year behind"
+     }
+    ],
+    "vacant": [
+     {
+      "mo": 0,
+      "vmin": 0,
+      "vmaj": 0,
+      "csb": 1,
+      "unpd": 0.0,
+      "year": 2018
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-25",
+      "type": "Violation Letter",
+      "action": "Open Storage"
      }
     ]
    },
@@ -4032,58 +4092,6 @@
       "date": "2026-11-06",
       "type": "Violation Letter",
       "action": "Cornice/Fascia; Gutters/Downspout; Porch; Premise Sidewalk; Roof; Windows"
-     }
-    ]
-   },
-   "as_of": "2026-11-25"
-  },
-  {
-   "tag": "52689115000",
-   "cid": "52689115000",
-   "handle": "15268030230",
-   "addr": "4401 MIAMI ST",
-   "zip": "63116",
-   "county": "St. Louis City",
-   "nbhd": 15,
-   "owner": "BRYANT, JOSEPH",
-   "mail": "4403 MIAMI ST",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63116",
-   "occ": null,
-   "landuse": 1120,
-   "units": 2,
-   "sqft": 4823,
-   "year": 1927,
-   "value": 31930.0,
-   "tax_bal": 5174.19,
-   "vac_year": 2018,
-   "lender": "",
-   "sale_price": 0.0,
-   "sale_date": "",
-   "mkt": 168053,
-   "score": 75,
-   "why": [
-    "absentee",
-    "tax delinquent $5,174",
-    "vacant building since 2018"
-   ],
-   "signals": {
-    "tax": [
-     {
-      "amount": 5174.19,
-      "year": "",
-      "legal": "city tax balance, more than a year behind"
-     }
-    ],
-    "vacant": [
-     {
-      "mo": 0,
-      "vmin": 0,
-      "vmaj": 0,
-      "csb": 1,
-      "unpd": 0.0,
-      "year": 2018
      }
     ]
    },
@@ -8300,6 +8308,60 @@
    "as_of": "2026-11-25"
   },
   {
+   "tag": "24389015000",
+   "cid": "24389015000",
+   "handle": "12438050016",
+   "addr": "4236 N 19TH ST",
+   "zip": "63107",
+   "county": "St. Louis City",
+   "nbhd": 65,
+   "owner": "BILLINGSLEY, JIMMIE",
+   "mail": "4236 N 19TH",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63107",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3301,
+   "year": 1961,
+   "value": 2710.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 14263,
+   "score": 70,
+   "why": [
+    "absentee",
+    "pre-foreclosure filed 2026-11-25"
+   ],
+   "signals": {
+    "recorder": [
+     {
+      "doc": "11252026-0055",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-11-25",
+      "addrs": [
+       "4236 19TH ST"
+      ],
+      "pids": [
+       "24389015000"
+      ],
+      "lender": "WILMINGTON SAVINGS FUND SOCIETY FSB",
+      "trustee": "WESTERN PROGRESSIVE MO INC",
+      "parties": [
+       "WILMINGTON SAVINGS FUND SOCIETY FSB",
+       "BILLINGSLEY JIMMIE"
+      ]
+     }
+    ]
+   },
+   "as_of": "2026-11-25"
+  },
+  {
    "tag": "43909720000",
    "cid": "43909720000",
    "handle": "14390310280",
@@ -8461,6 +8523,60 @@
       "parties": [
        "MEECEY KIMBERLY J",
        "ROCKET MORTGAGE LLC"
+      ]
+     }
+    ]
+   },
+   "as_of": "2026-11-25"
+  },
+  {
+   "tag": "35639180000",
+   "cid": "35639180000",
+   "handle": "13563000180",
+   "addr": "4437 RED BUD AVE",
+   "zip": "63115",
+   "county": "St. Louis City",
+   "nbhd": 68,
+   "owner": "GENTRY, VERNON CAMERON JR TRS",
+   "mail": "3640 PALM ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63115",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4432,
+   "year": 1912,
+   "value": 3530.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 35000.0,
+   "sale_date": "2023-02-10",
+   "mkt": 18579,
+   "score": 70,
+   "why": [
+    "absentee",
+    "pre-foreclosure filed 2026-11-25"
+   ],
+   "signals": {
+    "recorder": [
+     {
+      "doc": "11252026-0017",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-11-25",
+      "addrs": [
+       "4437 RED BUD AVE"
+      ],
+      "pids": [
+       "35639180000"
+      ],
+      "lender": "U S BANK TRUST NATIONAL ASSOCIATION",
+      "trustee": "CSM FORECLOSURE TRUSTEE CORPORATION",
+      "parties": [
+       "U S BANK TRUST NATIONAL ASSOCIATION",
+       "VIBRANT BLUE REALTY LLC"
       ]
      }
     ]
@@ -17481,6 +17597,61 @@
    "as_of": "2026-11-25"
   },
   {
+   "tag": "16159150000",
+   "cid": "16159150000",
+   "handle": "11615000150",
+   "addr": "3318 CHIPPEWA ST",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "MIKADO LLC-SERIES-A",
+   "mail": "3225 MCLEOD DR",
+   "mail_city": "Las Vegas",
+   "mail_state": "NV",
+   "mail_zip": "89121",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3133,
+   "year": 1907,
+   "value": 24520.0,
+   "tax_bal": 0,
+   "vac_year": 2014,
+   "lender": "",
+   "sale_price": 189500.0,
+   "sale_date": "2022-06-30",
+   "mkt": 129053,
+   "score": 60,
+   "why": [
+    "absentee",
+    "out of state",
+    "vacant 12+ years",
+    "notice to secure",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "vacant": [
+     {
+      "year": 2014
+     }
+    ],
+    "citations": [
+     {
+      "date": "2026-11-25",
+      "type": "Notice to Secure",
+      "action": "ES - Complaint"
+     },
+     {
+      "date": "2026-11-25",
+      "type": "Violation Letter",
+      "action": "Address; Open Storage; Porch; Status Unit; Walls; Windows"
+     }
+    ]
+   },
+   "as_of": "2026-11-25"
+  },
+  {
    "tag": "25779240000",
    "cid": "25779240000",
    "handle": "12577000240",
@@ -21302,6 +21473,48 @@
    "as_of": "2026-11-25"
   },
   {
+   "tag": "27749290000",
+   "cid": "27749290000",
+   "handle": "12774000290",
+   "addr": "4723 ALASKA AVE",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 16,
+   "owner": "WATKINS, JOHN G & BARBARA A",
+   "mail": "8340 LOVERS KNOT CT",
+   "mail_city": "Las Vegas",
+   "mail_state": "NV",
+   "mail_zip": "89131",
+   "occ": null,
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4259,
+   "year": 1898,
+   "value": 14530.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 76474,
+   "score": 55,
+   "why": [
+    "absentee",
+    "out of state",
+    "notice to secure"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-25",
+      "type": "Notice to Secure",
+      "action": "ES - Complaint"
+     }
+    ]
+   },
+   "as_of": "2026-11-25"
+  },
+  {
    "tag": "27569280000",
    "cid": "27569280000",
    "handle": "12756000280",
@@ -24840,6 +25053,60 @@
       "date": "2026-11-10",
       "type": "Violation Letter",
       "action": "Autos; Parking Area"
+     }
+    ]
+   },
+   "as_of": "2026-11-25"
+  },
+  {
+   "tag": "15769410000",
+   "cid": "15769410000",
+   "handle": "11576000410",
+   "addr": "3459 NEBRASKA AVE",
+   "zip": "63118",
+   "county": "St. Louis City",
+   "nbhd": 19,
+   "owner": "HARRIS, JEROME & SHONTA",
+   "mail": "3459 NEBRASKA AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63118",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 3922,
+   "year": 1892,
+   "value": 32120.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 34900.0,
+   "sale_date": "2017-08-15",
+   "mkt": 169053,
+   "score": 50,
+   "why": [
+    "pre-foreclosure filed 2026-11-25"
+   ],
+   "signals": {
+    "recorder": [
+     {
+      "doc": "11252026-0091",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-11-25",
+      "addrs": [
+       "3459 NEBRASKA AVE"
+      ],
+      "pids": [
+       "15769410000"
+      ],
+      "lender": "HARRIS JEROME",
+      "trustee": "SOUTHLAW PC",
+      "parties": [
+       "HARRIS JEROME",
+       "HARRIS SHONTA",
+       "LAKEVIEW LOAN SERVICING LLC"
+      ]
      }
     ]
    },
@@ -47426,6 +47693,47 @@
    "as_of": "2026-11-25"
   },
   {
+   "tag": "41149230000",
+   "cid": "41149230000",
+   "handle": "14114000230",
+   "addr": "3826 WYOMING ST",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 15,
+   "owner": "SWIFT, THOMAS E",
+   "mail": "914 NAPOLI",
+   "mail_city": "Ballwin",
+   "mail_state": "MO",
+   "mail_zip": "63021",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3848,
+   "year": 1908,
+   "value": 35780.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 49900.0,
+   "sale_date": "1989-01-13",
+   "mkt": 188316,
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-25",
+      "type": "Violation Letter",
+      "action": "Fences"
+     }
+    ]
+   },
+   "as_of": "2026-11-25"
+  },
+  {
    "tag": "41129070000",
    "cid": "41129070000",
    "handle": "14112000070",
@@ -48152,6 +48460,47 @@
     "vacant": [
      {
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-25"
+  },
+  {
+   "tag": "41309040000",
+   "cid": "41309040000",
+   "handle": "14130000040",
+   "addr": "3962 FAIRVIEW AVE",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 15,
+   "owner": "GARRISON, LINDA TRS",
+   "mail": "4249 MICHIGAN AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63111",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 3278,
+   "year": 1926,
+   "value": 32950.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 48200.0,
+   "sale_date": "1988-02-25",
+   "mkt": 173421,
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-25",
+      "type": "Violation Letter",
+      "action": "Address; Basement A'Way; Decorative; Door; Garage/Shed; General; Open Storage; Porch; Premise Sidewalk; Roof"
      }
     ]
    },
@@ -52959,6 +53308,47 @@
     "vacant": [
      {
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-25"
+  },
+  {
+   "tag": "58809070000",
+   "cid": "58809070000",
+   "handle": "15880000070",
+   "addr": "5848 GOENER AVE",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 5,
+   "owner": "BESHELLO, RENATO",
+   "mail": "4843 DORSIE DR",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63128",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 4549,
+   "year": 1927,
+   "value": 32780.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 172526,
+   "score": 35,
+   "why": [
+    "absentee",
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-25",
+      "type": "Violation Letter",
+      "action": "Fences; Foundation; Garage/Shed; Gutters/Downspout; Windows"
      }
     ]
    },
@@ -65388,6 +65778,49 @@
    "as_of": "2026-11-25"
   },
   {
+   "tag": "28349160000",
+   "cid": "28349160000",
+   "handle": "12834000160",
+   "addr": "5427 S BROADWAY",
+   "zip": "63111",
+   "county": "St. Louis City",
+   "nbhd": 1,
+   "owner": "BELAIRE ASSOCIATES LLC",
+   "mail": "3702 LORALIN DR",
+   "mail_city": "Waterloo",
+   "mail_state": "IA",
+   "mail_zip": "50701",
+   "occ": null,
+   "landuse": 1120,
+   "units": 2,
+   "sqft": 5808,
+   "year": 1903,
+   "value": 8000.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 67500.0,
+   "sale_date": "2023-05-26",
+   "mkt": 42105,
+   "score": 30,
+   "why": [
+    "absentee",
+    "out of state",
+    "1 code violation",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-25",
+      "type": "Violation Letter",
+      "action": "Garage/Shed"
+     }
+    ]
+   },
+   "as_of": "2026-11-25"
+  },
+  {
    "tag": "28539050000",
    "cid": "28539050000",
    "handle": "12853000050",
@@ -68264,7 +68697,7 @@
      {
       "mo": 92,
       "vmin": 3,
-      "vmaj": 10,
+      "vmaj": 4,
       "csb": 0,
       "unpd": 5600.0,
       "year": 2018
@@ -84330,6 +84763,46 @@
    "as_of": "2026-11-25"
   },
   {
+   "tag": "40719245000",
+   "cid": "40719245000",
+   "handle": "14071030416",
+   "addr": "2636 HEREFORD ST",
+   "zip": "63139",
+   "county": "St. Louis City",
+   "nbhd": 13,
+   "owner": "TRAN, TUONG QUANG & DAI QUANG TRAN",
+   "mail": "2636 HEREFORD ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63139",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4625,
+   "year": 1977,
+   "value": 32370.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 170368,
+   "score": 15,
+   "why": [
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-25",
+      "type": "Violation Letter",
+      "action": "Open Storage"
+     }
+    ]
+   },
+   "as_of": "2026-11-25"
+  },
+  {
    "tag": "20899110000",
    "cid": "20899110000",
    "handle": "12089000110",
@@ -89211,6 +89684,46 @@
    "as_of": "2026-11-25"
   },
   {
+   "tag": "21119015000",
+   "cid": "21119015000",
+   "handle": "12111000015",
+   "addr": "3664 SHENANDOAH AVE",
+   "zip": "63110",
+   "county": "St. Louis City",
+   "nbhd": 27,
+   "owner": "TAJKOWSKI, JOHN D",
+   "mail": "3664 SHENANDOAH AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63110",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2552,
+   "year": 1908,
+   "value": 42490.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 74900.0,
+   "sale_date": "2001-05-02",
+   "mkt": 223632,
+   "score": 15,
+   "why": [
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-25",
+      "type": "Violation Letter",
+      "action": "Door; Porch; Premise Sidewalk; Status Unit; Windows"
+     }
+    ]
+   },
+   "as_of": "2026-11-25"
+  },
+  {
    "tag": "32709020000",
    "cid": "32709020000",
    "handle": "13270000020",
@@ -93030,6 +93543,46 @@
     "vacant": [
      {
       "year": 2018
+     }
+    ]
+   },
+   "as_of": "2026-11-25"
+  },
+  {
+   "tag": "63039030000",
+   "cid": "63039030000",
+   "handle": "16303000030",
+   "addr": "4544 BESSIE AVE",
+   "zip": "63115",
+   "county": "St. Louis City",
+   "nbhd": 69,
+   "owner": "DOTSON, LENETTA & JOANNA DOTSON",
+   "mail": "4544 BESSIE AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63115",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 4340,
+   "year": 1939,
+   "value": 5210.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 19950.0,
+   "sale_date": "1978-02-14",
+   "mkt": 27421,
+   "score": 15,
+   "why": [
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-25",
+      "type": "Violation Letter",
+      "action": "Garage/Shed; Porch; Walls"
      }
     ]
    },
@@ -97819,7 +98372,7 @@
    "as_of": "2026-11-25"
   }
  ],
- "absentee_only": 126027,
- "city": 1479,
+ "absentee_only": 126020,
+ "city": 1491,
  "county": 752
 }
