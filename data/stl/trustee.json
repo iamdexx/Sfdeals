@@ -1,5 +1,20 @@
 [
  {
+  "addr": "3614 GASCONADE ST",
+  "addr_raw": "3614 Gasconade St",
+  "city": "Saint Louis",
+  "zip": "63116",
+  "county": "St. Louis City",
+  "date": "2026-12-03",
+  "time": "1:00PM",
+  "continued": "",
+  "bid": "$184,000.00",
+  "sale_at": "St. Louis",
+  "case": "",
+  "file": "257161",
+  "firm": "SouthLaw"
+ },
+ {
   "addr": "8954 EDNA ST",
   "addr_raw": "8954 Edna St",
   "city": "Saint Louis",
@@ -45,21 +60,6 @@
   "firm": "SouthLaw"
  },
  {
-  "addr": "717 WESLEY AVE",
-  "addr_raw": "717 Wesley Ave",
-  "city": "St Louis",
-  "zip": "63135",
-  "county": "St. Louis County",
-  "date": "2026-12-03",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "262525",
-  "firm": "SouthLaw"
- },
- {
   "addr": "11163 PRITCHARD DR",
   "addr_raw": "11163 Pritchard Drive",
   "city": "Saint Louis",
@@ -72,6 +72,21 @@
   "sale_at": "Clayton",
   "case": "",
   "file": "263148",
+  "firm": "SouthLaw"
+ },
+ {
+  "addr": "717 WESLEY AVE",
+  "addr_raw": "717 Wesley Ave",
+  "city": "St Louis",
+  "zip": "63135",
+  "county": "St. Louis County",
+  "date": "2026-12-03",
+  "time": "2:00PM",
+  "continued": "",
+  "bid": "",
+  "sale_at": "Clayton",
+  "case": "",
+  "file": "262525",
   "firm": "SouthLaw"
  },
  {
@@ -180,21 +195,6 @@
   "firm": "SouthLaw"
  },
  {
-  "addr": "4334 EDGEWOOD BLVD",
-  "addr_raw": "4334 Edgewood Blvd",
-  "city": "Saint Louis",
-  "zip": "63121",
-  "county": "St. Louis County",
-  "date": "2026-12-03",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "14530",
-  "firm": "SouthLaw"
- },
- {
   "addr": "124 W VELMA AVE",
   "addr_raw": "124 West Velma Avenue",
   "city": "St Louis",
@@ -225,18 +225,18 @@
   "firm": "SouthLaw"
  },
  {
-  "addr": "3247 LEISUREWOOD CT",
-  "addr_raw": "3247 Leisurewood Court",
-  "city": "Florissant",
-  "zip": "63033",
+  "addr": "4334 EDGEWOOD BLVD",
+  "addr_raw": "4334 Edgewood Blvd",
+  "city": "Saint Louis",
+  "zip": "63121",
   "county": "St. Louis County",
-  "date": "2026-12-10",
+  "date": "2026-12-03",
   "time": "2:00PM",
   "continued": "",
   "bid": "",
   "sale_at": "Clayton",
   "case": "",
-  "file": "263027",
+  "file": "14530",
   "firm": "SouthLaw"
  },
  {
@@ -252,6 +252,21 @@
   "sale_at": "Clayton",
   "case": "",
   "file": "247027",
+  "firm": "SouthLaw"
+ },
+ {
+  "addr": "3247 LEISUREWOOD CT",
+  "addr_raw": "3247 Leisurewood Court",
+  "city": "Florissant",
+  "zip": "63033",
+  "county": "St. Louis County",
+  "date": "2026-12-10",
+  "time": "2:00PM",
+  "continued": "",
+  "bid": "",
+  "sale_at": "Clayton",
+  "case": "",
+  "file": "263027",
   "firm": "SouthLaw"
  }
 ]
