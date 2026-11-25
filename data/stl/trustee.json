@@ -45,21 +45,6 @@
   "firm": "SouthLaw"
  },
  {
-  "addr": "4334 EDGEWOOD BLVD",
-  "addr_raw": "4334 Edgewood Blvd",
-  "city": "Saint Louis",
-  "zip": "63121",
-  "county": "St. Louis County",
-  "date": "2026-12-03",
-  "time": "2:00PM",
-  "continued": "",
-  "bid": "",
-  "sale_at": "Clayton",
-  "case": "",
-  "file": "14530",
-  "firm": "SouthLaw"
- },
- {
   "addr": "717 WESLEY AVE",
   "addr_raw": "717 Wesley Ave",
   "city": "St Louis",
@@ -192,6 +177,21 @@
   "sale_at": "Clayton",
   "case": "",
   "file": "261525",
+  "firm": "SouthLaw"
+ },
+ {
+  "addr": "4334 EDGEWOOD BLVD",
+  "addr_raw": "4334 Edgewood Blvd",
+  "city": "Saint Louis",
+  "zip": "63121",
+  "county": "St. Louis County",
+  "date": "2026-12-03",
+  "time": "2:00PM",
+  "continued": "",
+  "bid": "",
+  "sale_at": "Clayton",
+  "case": "",
+  "file": "14530",
   "firm": "SouthLaw"
  },
  {

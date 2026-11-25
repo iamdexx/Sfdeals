@@ -12,6 +12,18 @@
   "text": "Condemnation"
  },
  {
+  "id": 2078204,
+  "date": "2026-11-24",
+  "addr": "2810 SAMUEL SHEPARD",
+  "pid": "09949010000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 0,
+  "text": ""
+ },
+ {
   "id": 2078127,
   "date": "2026-11-24",
   "addr": "4700 DELMAR",
@@ -156,7 +168,7 @@
   "text": "Autos; Open Storage"
  },
  {
-  "id": 2077854,
+  "id": 2078183,
   "date": "2026-11-24",
   "addr": "3627 BAMBERGER AVE",
   "pid": "56239300000",
@@ -264,6 +276,18 @@
   "text": "Porch"
  },
  {
+  "id": 2077887,
+  "date": "2026-11-24",
+  "addr": "4118 OREGON",
+  "pid": "26259090000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "General"
+ },
+ {
   "id": 2077915,
   "date": "2026-11-24",
   "addr": "2817 KEOKUK ST",
@@ -360,6 +384,18 @@
   "text": "Address; Autos; Fences; Open Storage"
  },
  {
+  "id": 2078196,
+  "date": "2026-11-24",
+  "addr": "2541 W SULLIVAN AVE",
+  "pid": "10739230000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 5,
+  "minor": 5,
+  "text": "Address; Door; Gutters/Downspout; Porch; Roof; Walls; Windows"
+ },
+ {
   "id": 2078062,
   "date": "2026-11-24",
   "addr": "2221 MONTANA ST",
@@ -372,7 +408,7 @@
   "text": "Address; Fences; Gutters/Downspout; Windows"
  },
  {
-  "id": 2078041,
+  "id": 2078184,
   "date": "2026-11-24",
   "addr": "3864 SHENANDOAH",
   "pid": "21129010000",
@@ -502,6 +538,78 @@
   "major": 6,
   "minor": 0,
   "text": "Condemnation"
+ },
+ {
+  "id": 2078151,
+  "date": "2026-11-24",
+  "addr": "1950 CHEROKEE",
+  "pid": "15519130000",
+  "type": "ES - Complaint",
+  "result": "Structural Condemnation",
+  "kind": "condemned",
+  "major": 6,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2078185,
+  "date": "2026-11-24",
+  "addr": "3562 S SPRING AVE",
+  "pid": "41839010000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
+  "id": 2078186,
+  "date": "2026-11-24",
+  "addr": "3556 S SPRING",
+  "pid": "41839030000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
+  "id": 2078155,
+  "date": "2026-11-24",
+  "addr": "1950 CHEROKEE",
+  "pid": "15519056000",
+  "type": "ES - Complaint",
+  "result": "Structural Condemnation",
+  "kind": "condemned",
+  "major": 5,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2077854,
+  "date": "2026-11-24",
+  "addr": "3627 BAMBERGER AVE",
+  "pid": "56239300000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 1,
+  "text": "Door; Fences; Garage/Shed"
+ },
+ {
+  "id": 2078041,
+  "date": "2026-11-24",
+  "addr": "3864 SHENANDOAH",
+  "pid": "21129010000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Roof"
  },
  {
   "id": 2078153,
