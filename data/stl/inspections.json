@@ -216,6 +216,30 @@
   "text": ""
  },
  {
+  "id": 2078458,
+  "date": "2026-11-25",
+  "addr": "3826 WYOMING ST",
+  "pid": "41149230000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Fences"
+ },
+ {
+  "id": 2078457,
+  "date": "2026-11-25",
+  "addr": "3141 MORGAN FORD",
+  "pid": "50559170000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 1,
+  "text": "Address; General; Grading/Drainage"
+ },
+ {
   "id": 2078433,
   "date": "2026-11-25",
   "addr": "3826 WYOMING ST",
