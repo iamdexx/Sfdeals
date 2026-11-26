@@ -1,8 +1,8 @@
 {
  "as_of": "2026-11-26",
- "updated": "2026-11-26T07:34:10Z",
- "count": 128262,
- "hot": 2241,
+ "updated": "2026-11-26T20:46:58Z",
+ "count": 128264,
+ "hot": 2243,
  "leads": [
   {
    "tag": "42889110000",
@@ -90783,6 +90783,46 @@
    "as_of": "2026-11-26"
   },
   {
+   "tag": "53249565000",
+   "cid": "53249565000",
+   "handle": "15324040210",
+   "addr": "4120 WALSH ST",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 5,
+   "owner": "OLSTEN, KELLY M",
+   "mail": "4120 WALSH ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63116",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 7744,
+   "year": 1923,
+   "value": 13370.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "670",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 70368,
+   "score": 15,
+   "why": [
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-26",
+      "type": "Violation Letter",
+      "action": "Fences; Gutters/Downspout; Open Storage; Porch"
+     }
+    ]
+   },
+   "as_of": "2026-11-26"
+  },
+  {
    "tag": "41609250000",
    "cid": "41609250000",
    "handle": "14160000250",
@@ -96245,6 +96285,46 @@
    "as_of": "2026-11-26"
   },
   {
+   "tag": "56099130000",
+   "cid": "56099130000",
+   "handle": "15609000130",
+   "addr": "6221 RADOM AVE",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "nbhd": 5,
+   "owner": "JAMES, MICHAEL T",
+   "mail": "6221 RADOM AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63116",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 2876,
+   "year": 1921,
+   "value": 17490.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 60000.0,
+   "sale_date": "2009-01-29",
+   "mkt": 92053,
+   "score": 15,
+   "why": [
+    "1 code violation"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-26",
+      "type": "Violation Letter",
+      "action": "Porch"
+     }
+    ]
+   },
+   "as_of": "2026-11-26"
+  },
+  {
    "tag": "52249460000",
    "cid": "52249460000",
    "handle": "15224000460",
@@ -98237,6 +98317,6 @@
   }
  ],
  "absentee_only": 126021,
- "city": 1489,
+ "city": 1491,
  "county": 752
 }
