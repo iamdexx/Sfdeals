@@ -1,8 +1,8 @@
 {
  "as_of": "2026-11-27",
- "updated": "2026-11-27T07:32:13Z",
+ "updated": "2026-11-27T20:32:35Z",
  "count": 128269,
- "hot": 2248,
+ "hot": 2249,
  "leads": [
   {
    "tag": "15289316000",
@@ -39684,6 +39684,93 @@
    "as_of": "2026-11-27"
   },
   {
+   "tag": "12529011001",
+   "cid": "12529011001",
+   "handle": "11252008011",
+   "addr": "1515 LAFAYETTE AVE",
+   "zip": "63104",
+   "county": "St. Louis City",
+   "nbhd": 33,
+   "owner": "GEORG 111 LLC",
+   "mail": "1520 MISSISSIPPI AVE",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63104",
+   "occ": null,
+   "landuse": 1115,
+   "units": 1,
+   "sqft": 272699,
+   "year": 1903,
+   "value": 37930.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 0.0,
+   "sale_date": "",
+   "mkt": 199632,
+   "score": 40,
+   "why": [
+    "absentee",
+    "condemned",
+    "investor owned"
+   ],
+   "signals": {
+    "citations": [
+     {
+      "date": "2026-11-27",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
+     },
+     {
+      "date": "2026-11-27",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
+     },
+     {
+      "date": "2026-11-27",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
+     },
+     {
+      "date": "2026-11-27",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
+     },
+     {
+      "date": "2026-11-27",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
+     },
+     {
+      "date": "2026-11-27",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
+     },
+     {
+      "date": "2026-11-27",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
+     },
+     {
+      "date": "2026-11-27",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
+     },
+     {
+      "date": "2026-11-27",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
+     },
+     {
+      "date": "2026-11-27",
+      "type": "Structural Condemnation",
+      "action": "Condemnation"
+     }
+    ]
+   },
+   "as_of": "2026-11-27"
+  },
+  {
    "tag": "04099070000",
    "cid": "04099070000",
    "handle": "10409000070",
@@ -72034,9 +72121,9 @@
     "vacant": [
      {
       "mo": 0,
-      "vmin": 0,
+      "vmin": 1,
       "vmaj": 0,
-      "csb": 1,
+      "csb": 0,
       "unpd": 0.0,
       "year": 2011
      }
@@ -98538,7 +98625,7 @@
    "as_of": "2026-11-27"
   }
  ],
- "absentee_only": 126021,
- "city": 1491,
+ "absentee_only": 126020,
+ "city": 1492,
  "county": 757
 }
