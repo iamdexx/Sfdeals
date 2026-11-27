@@ -1,80 +1,9 @@
 {
  "as_of": "2026-11-27",
- "updated": "2026-11-27T03:55:38Z",
- "count": 128264,
- "hot": 2243,
+ "updated": "2026-11-27T07:32:13Z",
+ "count": 128269,
+ "hot": 2248,
  "leads": [
-  {
-   "tag": "42889110000",
-   "cid": "42889110000",
-   "handle": "14288000110",
-   "addr": "8954 EDNA ST",
-   "zip": "63147",
-   "county": "St. Louis City",
-   "nbhd": 74,
-   "owner": "BLANCHARD, DAJONN",
-   "mail": "8954 EDNA ST",
-   "mail_city": "St Louis",
-   "mail_state": "MO",
-   "mail_zip": "63147",
-   "occ": "Y",
-   "landuse": 1110,
-   "units": 1,
-   "sqft": 6688,
-   "year": 1953,
-   "value": 6240.0,
-   "tax_bal": 0,
-   "vac_year": 0,
-   "lender": "",
-   "sale_price": 167500.0,
-   "sale_date": "2025-11-18",
-   "mkt": 32842,
-   "score": 110,
-   "why": [
-    "trustee sale 2026-12-03",
-    "pre-foreclosure filed 2026-08-21"
-   ],
-   "signals": {
-    "trustee": [
-     {
-      "addr": "8954 EDNA ST",
-      "addr_raw": "8954 Edna St",
-      "city": "Saint Louis",
-      "zip": "63147",
-      "county": "St. Louis City",
-      "date": "2026-12-03",
-      "time": "1:00PM",
-      "continued": "",
-      "bid": "",
-      "sale_at": "St. Louis",
-      "case": "",
-      "file": "261472",
-      "firm": "SouthLaw"
-     }
-    ],
-    "recorder": [
-     {
-      "doc": "08212026-0033",
-      "kind": "pre-foreclosure",
-      "type": "APPOINT SUCC TRUSTEE",
-      "date": "2026-08-21",
-      "addrs": [
-       "8954 EDNA ST"
-      ],
-      "pids": [
-       "42889110000"
-      ],
-      "lender": "US BANK NA",
-      "trustee": "SOUTHLAW PC",
-      "parties": [
-       "US BANK NA",
-       "BLANCHARD DAJONN"
-      ]
-     }
-    ]
-   },
-   "as_of": "2026-11-27"
-  },
   {
    "tag": "15289316000",
    "cid": "15289316000",
@@ -16539,6 +16468,54 @@
    "as_of": "2026-11-27"
   },
   {
+   "tag": "08D211084",
+   "cid": "08D211084",
+   "addr": "11940 SAN ANDRES DR",
+   "zip": "63138",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "ASSESSOR INFORMATION WITHHELD",
+   "careof": "",
+   "mail": "11940 SAN ANDRES DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63138",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1040.0,
+   "year": 1972,
+   "value": 135000.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 135000.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-17"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "11940 SAN ANDRES DR",
+      "addr_raw": "11940 San Andres Dr",
+      "city": "Saint Louis",
+      "zip": "63138",
+      "county": "St. Louis County",
+      "date": "2026-12-17",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "261136",
+      "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-27"
+  },
+  {
    "tag": "27G130839",
    "cid": "27G130839",
    "addr": "124 W VELMA AVE",
@@ -16580,6 +16557,54 @@
       "sale_at": "Clayton",
       "case": "",
       "file": "262421",
+      "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-27"
+  },
+  {
+   "tag": "25Q141832",
+   "cid": "25Q141832",
+   "addr": "1468 WHISPERING CREEK DR",
+   "zip": "63021",
+   "county": "St. Louis County",
+   "muni": "Unincorporated",
+   "owner": "ODONOVAN ELIZABETH J",
+   "careof": "",
+   "mail": "1468 WHISPERING CREEK DR",
+   "mail_city": "Ballwin",
+   "mail_state": "MO",
+   "mail_zip": "63021",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1344.0,
+   "year": 1991,
+   "value": 222800.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 222800.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-17"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "1468 WHISPERING CREEK DR",
+      "addr_raw": "1468 Whispering Creek Dr",
+      "city": "Ballwin",
+      "zip": "63021",
+      "county": "St. Louis County",
+      "date": "2026-12-17",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "225036",
       "firm": "SouthLaw"
      }
     ]
@@ -18023,6 +18048,54 @@
    "as_of": "2026-11-27"
   },
   {
+   "tag": "14N440251",
+   "cid": "14N440251",
+   "addr": "414 HARDING AVE",
+   "zip": "63043",
+   "county": "St. Louis County",
+   "muni": "Maryland Heights",
+   "owner": "MURPHY JOSEPH A",
+   "careof": "",
+   "mail": "414 HARDING AVE",
+   "mail_city": "Maryland Heights",
+   "mail_state": "MO",
+   "mail_zip": "63043",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 624.0,
+   "year": 1947,
+   "value": 150400.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 150400.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-17"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "414 HARDING AVE",
+      "addr_raw": "414 Harding Ave",
+      "city": "Maryland Heights",
+      "zip": "63043",
+      "county": "St. Louis County",
+      "date": "2026-12-17",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "262197",
+      "firm": "SouthLaw"
+     }
+    ]
+   },
+   "as_of": "2026-11-27"
+  },
+  {
    "tag": "54459170000",
    "cid": "54459170000",
    "handle": "15445000170",
@@ -18274,6 +18347,54 @@
        "TOPSTONE INV STL 1 LLC",
        "DILLIKAR SATYANARAYANA"
       ]
+     }
+    ]
+   },
+   "as_of": "2026-11-27"
+  },
+  {
+   "tag": "24L240315",
+   "cid": "24L240315",
+   "addr": "529 FOREST GREEN DR",
+   "zip": "63119",
+   "county": "St. Louis County",
+   "muni": "Webster Groves",
+   "owner": "HALTEMAN RICHARD W III LISA R  H/W",
+   "careof": "",
+   "mail": "529 FOREST GREEN DR",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63119",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 1356.0,
+   "year": 1950,
+   "value": 370000.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 370000.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-17"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "529 FOREST GREEN DR",
+      "addr_raw": "529 Forest Green Dr",
+      "city": "St Louis",
+      "zip": "63119",
+      "county": "St. Louis County",
+      "date": "2026-12-17",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "247673",
+      "firm": "SouthLaw"
      }
     ]
    },
@@ -18617,6 +18738,54 @@
       "units": 1,
       "muni": "Hillsdale",
       "value": 79000
+     }
+    ]
+   },
+   "as_of": "2026-11-27"
+  },
+  {
+   "tag": "17J340642",
+   "cid": "17J340642",
+   "addr": "6731 ETZEL AVE",
+   "zip": "63130",
+   "county": "St. Louis County",
+   "muni": "University City",
+   "owner": "SIDNEY WILLIE",
+   "careof": "",
+   "mail": "6731 ETZEL AVE",
+   "mail_city": "Saint Louis",
+   "mail_state": "MO",
+   "mail_zip": "63130",
+   "occ": "Y",
+   "landuse": "Single Family",
+   "units": 1,
+   "sqft": null,
+   "res_sqft": 897.0,
+   "year": 1947,
+   "value": 123100.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "mkt": 123100.0,
+   "score": 60,
+   "why": [
+    "trustee sale 2026-12-17"
+   ],
+   "signals": {
+    "trustee": [
+     {
+      "addr": "6731 ETZEL AVE",
+      "addr_raw": "6731 Etzel Ave.",
+      "city": "St. Louis",
+      "zip": "63130",
+      "county": "St. Louis County",
+      "date": "2026-12-17",
+      "time": "2:00PM",
+      "continued": "",
+      "bid": "",
+      "sale_at": "Clayton",
+      "case": "",
+      "file": "256585",
+      "firm": "SouthLaw"
      }
     ]
    },
@@ -29622,6 +29791,59 @@
       "parties": [
        "MESSENGER VERA",
        "FREEDOM MORTGAGE CORPORATION"
+      ]
+     }
+    ]
+   },
+   "as_of": "2026-11-27"
+  },
+  {
+   "tag": "42889110000",
+   "cid": "42889110000",
+   "handle": "14288000110",
+   "addr": "8954 EDNA ST",
+   "zip": "63147",
+   "county": "St. Louis City",
+   "nbhd": 74,
+   "owner": "BLANCHARD, DAJONN",
+   "mail": "8954 EDNA ST",
+   "mail_city": "St Louis",
+   "mail_state": "MO",
+   "mail_zip": "63147",
+   "occ": "Y",
+   "landuse": 1110,
+   "units": 1,
+   "sqft": 6688,
+   "year": 1953,
+   "value": 6240.0,
+   "tax_bal": 0,
+   "vac_year": 0,
+   "lender": "",
+   "sale_price": 167500.0,
+   "sale_date": "2025-11-18",
+   "mkt": 32842,
+   "score": 50,
+   "why": [
+    "pre-foreclosure filed 2026-08-21"
+   ],
+   "signals": {
+    "recorder": [
+     {
+      "doc": "08212026-0033",
+      "kind": "pre-foreclosure",
+      "type": "APPOINT SUCC TRUSTEE",
+      "date": "2026-08-21",
+      "addrs": [
+       "8954 EDNA ST"
+      ],
+      "pids": [
+       "42889110000"
+      ],
+      "lender": "US BANK NA",
+      "trustee": "SOUTHLAW PC",
+      "parties": [
+       "US BANK NA",
+       "BLANCHARD DAJONN"
       ]
      }
     ]
@@ -98318,5 +98540,5 @@
  ],
  "absentee_only": 126021,
  "city": 1491,
- "county": 752
+ "county": 757
 }

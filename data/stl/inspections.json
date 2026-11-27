@@ -10956,18 +10956,6 @@
   "text": "Address; Basement A'Way; Chimney; Door; Gutters/Downspout; Parapet; Porch; Walls; Windows"
  },
  {
-  "id": 2068999,
-  "date": "2026-11-02",
-  "addr": "2725 SEMPLE AVE",
-  "pid": "48249620000",
-  "type": "ES - Emergency",
-  "result": "Structural Condemnation",
-  "kind": "condemned",
-  "major": 9,
-  "minor": 0,
-  "text": "Condemnation"
- },
- {
   "id": 2069381,
   "date": "2026-11-02",
   "addr": "4463 ELMBANK AVE",
@@ -11496,6 +11484,18 @@
   "text": "Autos; Open Storage"
  },
  {
+  "id": 2068999,
+  "date": "2026-11-02",
+  "addr": "2725 SEMPLE AVE",
+  "pid": "48249620000",
+  "type": "ES - Emergency",
+  "result": "Structural Condemnation",
+  "kind": "condemned",
+  "major": 9,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
   "id": 2066532,
   "date": "2026-11-02",
   "addr": "1814 WHITTIER ST",
@@ -11530,54 +11530,6 @@
   "major": 6,
   "minor": 7,
   "text": "Chimney; Cornice/Fascia; Gutters/Downspout; Open Storage; Parapet; Porch; Roof; Walls; Windows"
- },
- {
-  "id": 2070501,
-  "date": "2026-10-30",
-  "addr": "3421 WYOMING ST",
-  "pid": "14869260000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 0,
-  "minor": 1,
-  "text": "Fences"
- },
- {
-  "id": 2070502,
-  "date": "2026-10-30",
-  "addr": "3413 JUNIATA AVE",
-  "pid": "14649240000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 0,
-  "minor": 1,
-  "text": "Premise Sidewalk"
- },
- {
-  "id": 2070504,
-  "date": "2026-10-30",
-  "addr": "3507 PESTALOZZI ST",
-  "pid": "14469180000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 0,
-  "minor": 2,
-  "text": "Cornice/Fascia; Windows"
- },
- {
-  "id": 2070505,
-  "date": "2026-10-30",
-  "addr": "3219 PESTALOZZI ST",
-  "pid": "14509065000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 0,
-  "minor": 1,
-  "text": "Cornice/Fascia"
  },
  {
   "id": 2070026,
@@ -11806,6 +11758,54 @@
   "major": 4,
   "minor": 0,
   "text": "Condemnation"
+ },
+ {
+  "id": 2070501,
+  "date": "2026-10-30",
+  "addr": "3421 WYOMING ST",
+  "pid": "14869260000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Fences"
+ },
+ {
+  "id": 2070502,
+  "date": "2026-10-30",
+  "addr": "3413 JUNIATA AVE",
+  "pid": "14649240000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Premise Sidewalk"
+ },
+ {
+  "id": 2070504,
+  "date": "2026-10-30",
+  "addr": "3507 PESTALOZZI ST",
+  "pid": "14469180000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 2,
+  "text": "Cornice/Fascia; Windows"
+ },
+ {
+  "id": 2070505,
+  "date": "2026-10-30",
+  "addr": "3219 PESTALOZZI ST",
+  "pid": "14509065000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Cornice/Fascia"
  },
  {
   "id": 2066807,
@@ -12804,18 +12804,6 @@
   "text": "Cornice/Fascia; Gutters/Downspout; Walls"
  },
  {
-  "id": 2069463,
-  "date": "2026-10-27",
-  "addr": "2020 MENARD ST",
-  "pid": "06829260000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 1,
-  "minor": 0,
-  "text": "Status Unit"
- },
- {
   "id": 2069174,
   "date": "2026-10-27",
   "addr": "2707 STODDARD ST",
@@ -13282,6 +13270,18 @@
   "major": 0,
   "minor": 0,
   "text": ""
+ },
+ {
+  "id": 2069463,
+  "date": "2026-10-27",
+  "addr": "2020 MENARD ST",
+  "pid": "06829260000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Status Unit"
  },
  {
   "id": 2069410,
