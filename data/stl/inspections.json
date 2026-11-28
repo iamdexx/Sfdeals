@@ -5784,30 +5784,6 @@
   "text": ""
  },
  {
-  "id": 2069426,
-  "date": "2026-11-16",
-  "addr": "4622 EVANS AVE",
-  "pid": "37749395000",
-  "type": "ES - 5-16-25 Tornado",
-  "result": "Structural Condemnation (ES-Tornado)",
-  "kind": "condemned",
-  "major": 18,
-  "minor": 0,
-  "text": "Accessibility; Address; Chimney; Cornice/Fascia; Door; Fences; Gutters/Downspout; Open Storage; Parapet; Porch; Roof; Walls; Windows"
- },
- {
-  "id": 2069428,
-  "date": "2026-11-16",
-  "addr": "5053 VERNON AVE",
-  "pid": "51529390000",
-  "type": "ES - 5-16-25 Tornado",
-  "result": "Structural Condemnation (ES-Tornado)",
-  "kind": "condemned",
-  "major": 13,
-  "minor": 0,
-  "text": "Accessibility; Address; Cornice/Fascia; Fences; Gutters/Downspout; Open Storage; Parapet; Porch; Roof; Walls; Windows"
- },
- {
   "id": 2070176,
   "date": "2026-11-16",
   "addr": "5033 KENSINGTON AVE",
@@ -6324,6 +6300,30 @@
   "text": ""
  },
  {
+  "id": 2069426,
+  "date": "2026-11-16",
+  "addr": "4622 EVANS AVE",
+  "pid": "37749395000",
+  "type": "ES - 5-16-25 Tornado",
+  "result": "Structural Condemnation (ES-Tornado)",
+  "kind": "condemned",
+  "major": 18,
+  "minor": 0,
+  "text": "Accessibility; Address; Chimney; Cornice/Fascia; Door; Fences; Gutters/Downspout; Open Storage; Parapet; Porch; Roof; Walls; Windows"
+ },
+ {
+  "id": 2069428,
+  "date": "2026-11-16",
+  "addr": "5053 VERNON AVE",
+  "pid": "51529390000",
+  "type": "ES - 5-16-25 Tornado",
+  "result": "Structural Condemnation (ES-Tornado)",
+  "kind": "condemned",
+  "major": 13,
+  "minor": 0,
+  "text": "Accessibility; Address; Cornice/Fascia; Fences; Gutters/Downspout; Open Storage; Parapet; Porch; Roof; Walls; Windows"
+ },
+ {
   "id": 2074954,
   "date": "2026-11-16",
   "addr": "5100 WASHINGTON PL",
@@ -6552,30 +6552,6 @@
   "text": "Address; Door; Open Storage; Porch; Windows"
  },
  {
-  "id": 2074788,
-  "date": "2026-11-13",
-  "addr": "4315 KOSSUTH AVE",
-  "pid": "44249160000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 3,
-  "minor": 4,
-  "text": "Address; Chimney; Parapet; Porch; Walls; Windows"
- },
- {
-  "id": 2074823,
-  "date": "2026-11-13",
-  "addr": "4135 W LEE AVE",
-  "pid": "35739315000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 2,
-  "minor": 2,
-  "text": "Fences; Porch; Walls; Windows"
- },
- {
   "id": 2074506,
   "date": "2026-11-13",
   "addr": "1620 HELEN ST",
@@ -6730,6 +6706,30 @@
   "major": 6,
   "minor": 5,
   "text": "Address; Chimney; Cornice/Fascia; Gutters/Downspout; Open Storage; Roof; Walls; Windows"
+ },
+ {
+  "id": 2074788,
+  "date": "2026-11-13",
+  "addr": "4315 KOSSUTH AVE",
+  "pid": "44249160000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 3,
+  "minor": 4,
+  "text": "Address; Chimney; Parapet; Porch; Walls; Windows"
+ },
+ {
+  "id": 2074823,
+  "date": "2026-11-13",
+  "addr": "4135 W LEE AVE",
+  "pid": "35739315000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 2,
+  "minor": 2,
+  "text": "Fences; Porch; Walls; Windows"
  },
  {
   "id": 2074822,
@@ -11076,54 +11076,6 @@
   "text": "Address; Basement A'Way; Chimney; Door; Gutters/Downspout; Parapet; Porch; Walls; Windows"
  },
  {
-  "id": 2069381,
-  "date": "2026-11-02",
-  "addr": "4463 ELMBANK AVE",
-  "pid": "44639420000",
-  "type": "ES - 5-16-25 Tornado",
-  "result": "Emergency Condemnation and Demo Notice",
-  "kind": "condemned",
-  "major": 4,
-  "minor": 0,
-  "text": "Condemnation"
- },
- {
-  "id": 2069391,
-  "date": "2026-11-02",
-  "addr": "3615 N TAYLOR AVE",
-  "pid": "44489130000",
-  "type": "ES - 5-16-25 Tornado",
-  "result": "Emergency Condemnation and Demo Notice",
-  "kind": "condemned",
-  "major": 4,
-  "minor": 0,
-  "text": "Condemnation"
- },
- {
-  "id": 2069424,
-  "date": "2026-11-02",
-  "addr": "4561 MAFFITT AVE",
-  "pid": "37149460000",
-  "type": "ES - 5-16-25 Tornado",
-  "result": "Emergency Condemnation and Demo Notice",
-  "kind": "condemned",
-  "major": 5,
-  "minor": 0,
-  "text": "Condemnation"
- },
- {
-  "id": 2069450,
-  "date": "2026-11-02",
-  "addr": "5706 ROOSEVELT PL",
-  "pid": "52439210000",
-  "type": "ES - Emergency",
-  "result": "Structural Condemnation",
-  "kind": "condemned",
-  "major": 10,
-  "minor": 0,
-  "text": "Condemnation"
- },
- {
   "id": 2071299,
   "date": "2026-11-02",
   "addr": "535 FASSEN ST",
@@ -11604,6 +11556,54 @@
   "text": "Autos; Open Storage"
  },
  {
+  "id": 2069381,
+  "date": "2026-11-02",
+  "addr": "4463 ELMBANK AVE",
+  "pid": "44639420000",
+  "type": "ES - 5-16-25 Tornado",
+  "result": "Emergency Condemnation and Demo Notice",
+  "kind": "condemned",
+  "major": 4,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2069391,
+  "date": "2026-11-02",
+  "addr": "3615 N TAYLOR AVE",
+  "pid": "44489130000",
+  "type": "ES - 5-16-25 Tornado",
+  "result": "Emergency Condemnation and Demo Notice",
+  "kind": "condemned",
+  "major": 4,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2069424,
+  "date": "2026-11-02",
+  "addr": "4561 MAFFITT AVE",
+  "pid": "37149460000",
+  "type": "ES - 5-16-25 Tornado",
+  "result": "Emergency Condemnation and Demo Notice",
+  "kind": "condemned",
+  "major": 5,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
+  "id": 2069450,
+  "date": "2026-11-02",
+  "addr": "5706 ROOSEVELT PL",
+  "pid": "52439210000",
+  "type": "ES - Emergency",
+  "result": "Structural Condemnation",
+  "kind": "condemned",
+  "major": 10,
+  "minor": 0,
+  "text": "Condemnation"
+ },
+ {
   "id": 2068999,
   "date": "2026-11-02",
   "addr": "2725 SEMPLE AVE",
@@ -11650,18 +11650,6 @@
   "major": 6,
   "minor": 7,
   "text": "Chimney; Cornice/Fascia; Gutters/Downspout; Open Storage; Parapet; Porch; Roof; Walls; Windows"
- },
- {
-  "id": 2070026,
-  "date": "2026-10-30",
-  "addr": "3927 MAFFITT",
-  "pid": "36459230000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 1,
-  "minor": 4,
-  "text": "Door; Gutters/Downspout; Walls; Windows"
  },
  {
   "id": 2070628,
@@ -11880,6 +11868,18 @@
   "text": "Condemnation"
  },
  {
+  "id": 2070026,
+  "date": "2026-10-30",
+  "addr": "3927 MAFFITT",
+  "pid": "36459230000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 4,
+  "text": "Door; Gutters/Downspout; Walls; Windows"
+ },
+ {
   "id": 2070501,
   "date": "2026-10-30",
   "addr": "3421 WYOMING ST",
@@ -11938,18 +11938,6 @@
   "major": 1,
   "minor": 3,
   "text": "Gutters/Downspout; Status Unit; Walls; Windows"
- },
- {
-  "id": 2069991,
-  "date": "2026-10-29",
-  "addr": "5325 CHIPPEWA ST",
-  "pid": "62899560000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 1,
-  "minor": 0,
-  "text": "Open Storage"
  },
  {
   "id": 2070359,
@@ -12516,6 +12504,18 @@
   "text": "Door; Walls; Windows"
  },
  {
+  "id": 2069991,
+  "date": "2026-10-29",
+  "addr": "5325 CHIPPEWA ST",
+  "pid": "62899560000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 1,
+  "minor": 0,
+  "text": "Open Storage"
+ },
+ {
   "id": 2070449,
   "date": "2026-10-29",
   "addr": "1823 SIDNEY ST",
@@ -12526,18 +12526,6 @@
   "major": 2,
   "minor": 4,
   "text": "General; Walls"
- },
- {
-  "id": 2069770,
-  "date": "2026-10-28",
-  "addr": "7129 PENNSYLVANIA AVE",
-  "pid": "30409070000",
-  "type": "ES - Complaint",
-  "result": "Violation Letter",
-  "kind": "violation",
-  "major": 0,
-  "minor": 1,
-  "text": "Status Unit"
  },
  {
   "id": 2070009,
@@ -12910,6 +12898,18 @@
   "major": 5,
   "minor": 0,
   "text": "Condemnation"
+ },
+ {
+  "id": 2069770,
+  "date": "2026-10-28",
+  "addr": "7129 PENNSYLVANIA AVE",
+  "pid": "30409070000",
+  "type": "ES - Complaint",
+  "result": "Violation Letter",
+  "kind": "violation",
+  "major": 0,
+  "minor": 1,
+  "text": "Status Unit"
  },
  {
   "id": 2069720,
