@@ -3551,41 +3551,5 @@
    "JOHNSON NICOLE",
    "JOHNSON GREG"
   ]
- },
- {
-  "doc": "07302026-0129",
-  "kind": "pre-foreclosure",
-  "type": "APPOINT SUCC TRUSTEE",
-  "date": "2026-07-30",
-  "addrs": [
-   "1740 GRAPE AVE"
-  ],
-  "pids": [
-   "61469060000"
-  ],
-  "lender": "AP COLLECTIONS LLC",
-  "trustee": "KING & MCNAMEE LLC",
-  "parties": [
-   "AP COLLECTIONS LLC",
-   "LHOME MORTGAGE TRUST 2025RTL1"
-  ]
- },
- {
-  "doc": "07302026-0105",
-  "kind": "pre-foreclosure",
-  "type": "APPOINT SUCC TRUSTEE",
-  "date": "2026-07-30",
-  "addrs": [
-   "4339 LINTON AVE"
-  ],
-  "pids": [
-   "33949310000"
-  ],
-  "lender": "LHOME MORTGAGE TRUST 2024-RTL5",
-  "trustee": "KING &MCNAMEE LLC",
-  "parties": [
-   "LHOME MORTGAGE TRUST 2024-RTL5",
-   "AP COLLECTIONS LLC"
-  ]
  }
 ]
